@@ -1,0 +1,25 @@
+
+state={
+	id=402
+	name="STATE_402"
+
+	history={
+		owner = LNF
+		add_core_of = LNF
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		56 109 154 289 335 481 561 567 1031 1147 1327 1661 1969 2302 2741 2914 
+	}
+	manpower=718250
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

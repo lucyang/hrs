@@ -1,0 +1,16 @@
+characters={
+	XSM_ma_qi={
+		name=XSM_ma_qi
+		portraits={
+			civilian={
+				large="gfx/leaders/XSM/Portrait_Ma_Qi.dds"
+			}
+		}
+		country_leader={
+			ideology=military_government_subtype
+			desc=XSM_ma_qi_desc
+			traits={ backroom_backstabber political_chameleon }
+			expire="1931.8.5.1"
+		}
+	}
+}

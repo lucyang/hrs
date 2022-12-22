@@ -1,0 +1,55 @@
+characters={
+	IMC_aisin_gioro_zaitao={
+		name=IMC_aisin_gioro_zaitao
+		portraits={
+			civilian={
+				large="gfx/leaders/MAN/Portrait_Manchuria_Zaitao.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_subtype
+			desc=IMC_aisin_gioro_zaitao_desc
+			traits={ imperial_connections nationalist_symbol }
+			expire="1970.9.2.1"
+		}
+	}
+	IMC_aisin_gioro_puwei={
+		name=IMC_aisin_gioro_puwei
+		portraits={
+			civilian={
+				large="gfx/leaders/MAN/Portrait_Aisin_Gioro_Puwei.dds"
+			}
+		}
+		country_leader={
+			ideology=daijitaoism_subtype
+			traits={  }
+			expire="1936.10.10.1"
+		}
+	}
+	IMC_aisin_gioro_puyi={
+		name=IMC_aisin_gioro_puyi
+		portraits={
+			civilian={
+				large="gfx/leaders/MAN/Portrait_Aisin_Gioro_Puyi.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism_subtype
+			traits={  }
+			expire="1967.10.17.1"
+		}
+	}
+	IMC_aisin_gioro_xiqia={
+		name=IMC_aisin_gioro_xiqia
+		portraits={
+			civilian={
+				large="gfx/leaders/MAN/Portrait_Aisin_Gioro_Xiqia.dds"
+			}
+		}
+		country_leader={
+			ideology=ultranationalism_subtype
+			traits={  }
+			expire="1965.5.1.1"
+		}
+	}
+}

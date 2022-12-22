@@ -1,0 +1,82 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ TBA_communism:0 "外贝加尔苏维埃"
+ TBA_communism_DEF:0 "外贝加尔社会主义苏维埃共和国"
+ TBA_anarchism:0 "外贝加尔苏维埃"
+ TBA_anarchism_DEF:0 "外贝加尔社会主义苏维埃共和国"
+ TBA_socialism:0 "俄罗斯东部边区政府"
+ TBA_socialism_DEF:0 "俄罗斯东部边区政府"
+ TBA_democratic:0 "俄罗斯东部边区政府"
+ TBA_democratic_DEF:0 "俄罗斯东部边区政府"
+ TBA_neutrality:0 "俄罗斯东部边区政府"
+ TBA_neutrality_DEF:0 "俄罗斯东部边区政府" #Eastern Okraina/Российская Восточная Окраина
+ TBA_monarchism:0 "俄罗斯东部边区政府"
+ TBA_monarchism_DEF:0 "俄罗斯东部边区政府"
+ TBA_fascism:0 "俄罗斯东部边区政府"
+ TBA_fascism_DEF:0 "俄罗斯东部边区政府"
+ TBA_imperialism:0 "俄罗斯东部边区政府"
+ TBA_imperialism_DEF:0 "俄罗斯东部边区政府"
+ TBA_futurism:0 "外贝加尔汗国"
+ TBA_futurism_DEF:0 "外贝加尔汗国"
+ TBA_communism_ADJ:0 "外贝加尔"
+ TBA_anarchism_ADJ:0 "外贝加尔"
+ TBA_socialism_ADJ:0 "外贝加尔"
+ TBA_democratic_ADJ:0 "外贝加尔"
+ TBA_neutrality_ADJ:0 "外贝加尔"
+ TBA_monarchism_ADJ:0 "外贝加尔"
+ TBA_fascism_ADJ:0 "外贝加尔"
+ TBA_imperialism_ADJ:0 "外贝加尔"
+ TBA_futurism_ADJ:0 "外贝加尔"
+ TBA:0 "外贝加尔"
+ TBA_DEF:0 "外贝加尔"
+ TBA_ADJ:0 "外贝加尔"
+ #############
+ ## PARTIES ##
+ #############
+ TBA_communism_party:0 "俄罗斯共产党"
+ TBA_communism_party_long:0 "俄罗斯共产党"
+ TBA_anarchism_party:0 "社会民主党"
+ TBA_anarchism_party_long:0 "社会民主工党"
+ TBA_socialism_party:0 "社会革命党"
+ TBA_socialism_party_long:0 "社会革命党"
+ TBA_democratic_party:0 "立宪民主党"
+ TBA_democratic_party_long:0 "立宪民主党"
+ TBA_neutrality_party:0 "外贝加尔立宪议会"
+ TBA_neutrality_party_long:0 "外贝加尔立宪议会"
+ TBA_monarchism_party:0 "白卫军运动"
+ TBA_monarchism_party_long:0 "白卫军运动"
+ TBA_fascism_party:0 "民族劳动联盟"
+ TBA_fascism_party_long:0 "俄罗斯团结主义者民族劳动联盟"
+ TBA_imperialism_party:0 "俄罗斯全军联盟"
+ TBA_imperialism_party_long:0 "俄罗斯全军联盟"
+ TBA_futurism_party:0 "通古斯军团"
+ TBA_futurism_party_long:0 "通古斯军团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ TBA_grigory_semyonov:0 "格里戈里·谢苗诺夫"
+ TBA_nikolai_gantimurov:0 "恰冈达尔汗" # Никола́й Инноке́нтьевич Гантиму́ров
+ TBA_nikolai_gantimurov_desc:0 "在世人看来，甘季穆罗夫家族的末裔、尼古莱·因诺肯季耶维奇·甘季穆罗夫已经死了，他参加了白卫军运动，在争夺莫斯科的战斗中失踪，人民意志党的黑衣刺客早已终结了他的生命。然而他还是从地狱中回来了，回到了甘季穆罗夫家族的“封地”，俄罗斯边陲的赤塔市，回到了他熟悉的豪宅大院。只是这一次，他不再是俄罗斯军官，而是恰冈达尔·根特穆尔——数百年前投靠俄国的彼得·根特穆尔的正统后裔，一个真正的鄂温克人。\n\n恰冈达尔在通古斯人的语言中意为“如君王般威严的”，这展示了尼古莱·甘季穆罗夫的真正野心：将远东与满洲的通古斯民族团结起来，建立通古斯人的民族国家。他接纳了新世界的技术官僚主义，将掌握了专业技能的官僚作为统治社会的唯一权力来源；民意无从轻重，负责教育的官员将一点一滴地磨损臣民的“常识”。如今恰冈达尔汗羽翼丰满，他驱逐了谢苗诺夫的军队，开始了征服欧亚大陆的第一步······"
+ TBA_sergey_voytsekhovsky:0 "谢尔盖·沃伊切霍夫斯基"
+ TBA_nikolai_lokhvitsky:0 "尼古拉·洛赫维茨基"
+ ###########
+ ## IDEAS ##
+ ###########
+
+ #################
+ ### DECISIONS ###
+ ################# 
+
+ ################
+ ## FOCUS TREE ##
+ ################
+ 
+ #############
+ ### EVENT ###
+ #############

@@ -1,0 +1,21 @@
+state={
+	id=650
+	name="STATE_650"
+	provinces={
+		293 323 2753 2926
+	}
+	history={
+		owner = SIA
+		add_core_of = CAM
+
+		victory_points = { 293 1 } #柏威夏
+
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+	manpower=600000
+	state_category = pastoral
+	local_supplies = 0.0
+}

@@ -1,0 +1,37 @@
+ideas = {
+	country = {
+		KYU_desperate_situation = {
+			name = KYU_desperate_situation
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = KYU_desperate_situation
+			modifier = {
+				conscription = 0.03
+				army_org_factor = -0.1
+			}
+		}
+
+		KYU_unstable_alliance = {
+			name = KYU_unstable_alliance
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = KYU_unstable_alliance
+			modifier = {
+				stability_factor = -0.1
+				political_power_cost = 0.25
+			}
+		}
+	}
+}

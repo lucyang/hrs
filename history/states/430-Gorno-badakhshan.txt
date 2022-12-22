@@ -1,0 +1,24 @@
+
+state={
+	id=430
+	name="STATE_430"
+
+	history={
+		owner = TUK
+		add_core_of = TUK
+		
+		victory_points = { 3658 1 } #霍罗�?
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		1139 1298 2126 3658 4752 4753 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

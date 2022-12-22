@@ -1,0 +1,37 @@
+﻿division_template = {
+	name = "赤卫队"
+
+	division_names_group = JAP_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+units = {
+	division = {
+		name = "稚内赤卫队"
+		location = 1740
+		division_template = "赤卫队"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "网走赤卫队"
+		location = 926
+		division_template = "赤卫队"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "钏路工人纠察队"
+		location = 3152
+		division_template = "赤卫队"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "根室警备队"
+		location = 393
+		division_template = "赤卫队"
+		start_experience_factor = 0.3
+	}
+}

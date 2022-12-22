@@ -1,0 +1,67 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ JXP_communism:0 "江心坡感化所"
+ JXP_communism_DEF:0 "江心坡感化所"
+ JXP_anarchism:0 "江心坡感化所"
+ JXP_anarchism_DEF:0 "江心坡感化所"
+ JXP_democratic:0 "江心坡感化所"
+ JXP_democratic_DEF:0 "江心坡感化所"
+ JXP_neutrality:0 "江心坡感化所"
+ JXP_neutrality_DEF:0 "江心坡感化所"
+ JXP_monarchism:0 "江心坡感化所"
+ JXP_monarchism_DEF:0 "江心坡感化所"
+ JXP_fascism:0 "江心坡感化所"
+ JXP_fascism_DEF:0 "江心坡感化所"
+ JXP_imperialism:0 "江心坡感化所"
+ JXP_imperialism_DEF:0 "江心坡感化所"
+ JXP_futurism:0 "江心坡感化所"
+ JXP_futurism_DEF:0 "江心坡感化所"
+ JXP_communism_ADJ:0 "江心坡"
+ JXP_anarchism_ADJ:0 "江心坡"
+ JXP_democratic_ADJ:0 "江心坡"
+ JXP_neutrality_ADJ:0 "江心坡"
+ JXP_monarchism_ADJ:0 "江心坡"
+ JXP_fascism_ADJ:0 "江心坡"
+ JXP_imperialism_ADJ:0 "江心坡"
+ JXP_futurism_ADJ:0 "江心坡"
+ JXP:0 "江心坡"
+ JXP_DEF:0 "江心坡"
+ JXP_ADJ:0 "江心坡"
+ #############
+ ## PARTIES ##
+ #############
+ JXP_communism_party:0 "社民农工党"
+ JXP_communism_party_long:0 "社会民主农工党"
+ JXP_anarchism_party:0 "工团联合会"
+ JXP_anarchism_party_long:0 "中国工团联合会"
+ JXP_socialism_party:0 "中国社会党"
+ JXP_socialism_party_long:0 "中国社会党"
+ JXP_democratic_party:0 "变节官僚"
+ JXP_democratic_party_long:0 "变节官僚"
+ JXP_neutrality_party:0 "宪兵队本部"
+ JXP_neutrality_party_long:0 "宪兵队本部"
+ JXP_monarchism_party:0 "特殊高等警察"
+ JXP_monarchism_party_long:0 "特殊高等警察"
+ JXP_fascism_party:0 "内务省官僚"
+ JXP_fascism_party_long:0 "内务省官僚"
+ JXP_imperialism_party:0 "拓殖省官僚"
+ JXP_imperialism_party_long:0 "拓殖省官僚"
+ JXP_futurism_party:0 "永昌祥集团"
+ JXP_futurism_party_long:0 "永昌祥集团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ JXP_deng_xiuting:0 "邓秀廷"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

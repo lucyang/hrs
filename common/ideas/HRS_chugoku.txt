@@ -1,0 +1,84 @@
+ideas = {
+	country = {
+		CGK_kamikaze_shidan = {
+			name = CGK_kamikaze_shidan
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = CGK_kamikaze_shidan
+			modifier = {
+				army_attack_factor = 0.1
+				army_org_factor = -0.1
+			}
+		}
+
+		CGK_lack_of_support = {
+			name = CGK_lack_of_support
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = CGK_lack_of_support
+			modifier = {
+				compliance_growth_on_our_occupied_states = -0.005
+			}
+			targeted_modifier = {
+				tag = JLF
+				defense_bonus_against = -0.1
+			}
+			targeted_modifier = {
+				tag = JPR
+				defense_bonus_against = -0.1
+			}
+			targeted_modifier = {
+				tag = JAF
+				defense_bonus_against = -0.1
+			}
+			targeted_modifier = {
+				tag = KYU
+				defense_bonus_against = -0.1
+			}
+			targeted_modifier = {
+				tag = NGN
+				defense_bonus_against = -0.1
+			}
+			targeted_modifier = {
+				tag = CHB
+				defense_bonus_against = -0.1
+			}
+			targeted_modifier = {
+				tag = TOK
+				defense_bonus_against = -0.1
+			}
+			targeted_modifier = {
+				tag = OMT
+				defense_bonus_against = -0.1
+			}
+		}
+
+		CGK_the_ambition = {
+			name = CGK_the_ambition
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = CGK_the_ambition
+			modifier = {
+				ai_focus_defense_factor = 0.5
+			}
+		}
+	}
+}

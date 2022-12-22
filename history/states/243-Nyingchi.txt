@@ -1,0 +1,25 @@
+
+state={
+	id=243
+	name="STATE_243"
+
+	history={
+		owner = TIB
+		add_core_of = TIB
+
+		victory_points = { 3865 1 } #江达
+		victory_points = { 3849 3 } #则拉
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		197 301 349 2129 2629 2714 2726 3247 3849 3865 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

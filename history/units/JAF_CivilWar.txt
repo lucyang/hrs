@@ -1,0 +1,63 @@
+﻿division_template = {
+	name = "步兵联队"
+	division_names_group = IMC_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "赤卫队"
+	template_counter = 69
+	division_names_group = IMC_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+units = {
+	division = {
+		name = "铁路工会纠察队"
+		location = 3728 #静岡
+		division_template = "赤卫队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "横须贺革命卫队"
+		location = 3712 #横须贺
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "静冈工人赤卫队"
+		location = 3728 #静岡
+		division_template = "赤卫队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "滨松工人赤卫队"
+		location = 1129 #浜松
+		division_template = "赤卫队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "富士工人赤卫队"
+		location = 1548 #富士
+		division_template = "赤卫队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+}

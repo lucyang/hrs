@@ -1,0 +1,63 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ HAM_communism:0 "图兰伊斯兰共和国"
+ HAM_communism_DEF:0 "图兰伊斯兰共和国"
+ HAM_anarchism:0 "图兰伊斯兰共和国"
+ HAM_anarchism_DEF:0 "图兰伊斯兰共和国"
+ HAM_democratic:0 "图兰伊斯兰共和国"
+ HAM_democratic_DEF:0 "图兰伊斯兰共和国"
+ HAM_neutrality:0 "图兰伊斯兰共和国"
+ HAM_neutrality_DEF:0 "图兰伊斯兰共和国"
+ HAM_monarchism:0 "图兰伊斯兰共和国"
+ HAM_monarchism_DEF:0 "图兰伊斯兰共和国"
+ HAM_fascism:0 "图兰伊斯兰共和国"
+ HAM_fascism_DEF:0 "图兰伊斯兰共和国"
+ HAM_imperialism:0 "图兰伊斯兰共和国"
+ HAM_imperialism_DEF:0 "图兰伊斯兰共和国"
+ HAM_futurism:0 "图兰伊斯兰共和国"
+ HAM_futurism_DEF:0 "图兰伊斯兰共和国"
+ HAM_communism_ADJ:0 "叶尔羌"
+ HAM_anarchism_ADJ:0 "叶尔羌"
+ HAM_democratic_ADJ:0 "叶尔羌"
+ HAM_neutrality_ADJ:0 "叶尔羌"
+ HAM_monarchism_ADJ:0 "叶尔羌"
+ HAM_fascism_ADJ:0 "叶尔羌"
+ HAM_imperialism_ADJ:0 "叶尔羌"
+ HAM_futurism_ADJ:0 "叶尔羌"
+ HAM:0 "叶尔羌"
+ HAM_DEF:0 "叶尔羌"
+ HAM_ADJ:0 "叶尔羌"
+ #############
+ ## PARTIES ##
+ #############
+ HAM_communism_party:0 "突厥斯坦共产党"
+ HAM_communism_party_long:0 "突厥斯坦共产党"
+ HAM_anarchism_party:0 "民主革命党"
+ HAM_anarchism_party_long:0 "图兰民主革命党"
+ HAM_socialism_party:0 "人民革命党 - 扎吉德派"
+ HAM_socialism_party_long:0 "图兰人民革命党 - 扎吉德派"
+ HAM_democratic_party:0 "人民革命党 - 卡迪木派"
+ HAM_democratic_party_long:0 "图兰人民革命党 - 卡迪木派"
+ HAM_neutrality_party:0 "民族革命委员会" 
+ HAM_neutrality_party_long:0 "民族革命委员会"
+ HAM_monarchism_party:0 "大突厥主义伊斯兰党"
+ HAM_monarchism_party_long:0 "大突厥主义伊斯兰党"
+ HAM_fascism_party:0 "图兰民族党"
+ HAM_fascism_party_long:0 "图兰民族党"
+ HAM_imperialism_party:0 "青年喀什噶尔党"
+ HAM_imperialism_party_long:0 "青年喀什噶尔党"
+ HAM_futurism_party:0 "技术官僚"
+ HAM_futurism_party_long:0 "技术官僚"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ HAM_maqsud_shah:0 "沙木胡索特"
+ HAM_yulbars_khan:0 "尧乐博斯·汗"
+ HAM_khoja_niyaz:0 "和加尼牙孜"
+ HAM_sabit_damolla:0 "沙比提大毛拉·阿不都尔巴克"

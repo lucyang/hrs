@@ -1,0 +1,21 @@
+
+state={
+	id=5
+	name="STATE_5"
+	provinces={
+		28 269 443 735 875 897 996 1228 1623 1653 1900 2270 2437 2766 2890 3278 
+	}
+	history = {
+		owner = FAR
+		add_core_of = FAR
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	manpower=184700
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

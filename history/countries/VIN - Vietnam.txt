@@ -1,0 +1,58 @@
+﻿capital = 568 #顺化
+
+recruit_character = VIN_phan_boi_chau
+recruit_character = VIN_bao_dai
+recruit_character = VIN_tran_trong_kim
+recruit_character = VIN_cuong_de
+recruit_character = VIN_ngo_dinh_diem
+
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	basic_train = 1
+	trench_warfare = 1
+	gw_artillery = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	fuel_refining = 1
+}
+
+set_stability = 0.35
+set_war_support = 0.45
+set_convoys = 20
+
+add_ideas = {
+	limited_exports
+	limited_conscription
+	civilian_economy
+}
+add_ideas = {
+	country_development1
+	country_tech2
+	market_economy2
+	unitary_state1
+}
+
+set_politics = {	
+	ruling_party = monarchism
+	last_election = "1920.3.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 4
+	anarchism = 7
+	socialism = 10
+	democratic = 19
+	neutrality = 13
+	monarchism = 30
+	fascism = 10
+	imperialism = 7
+	futurism = 0
+}

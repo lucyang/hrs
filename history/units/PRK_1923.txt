@@ -1,0 +1,86 @@
+division_template = {
+	name = "步兵大队"
+	division_names_group = JAP_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "炮兵大队"
+	division_names_group = JAP_INF_01
+
+	regiments = {
+		artillery_brigade = { x = 0 y = 0 }
+		artillery_brigade = { x = 0 y = 1 }
+		artillery_brigade = { x = 1 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "骑兵大队"
+	division_names_group = JAP_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "义兵"
+
+	division_names_group = JAP_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+units = {
+	division = {
+		name = "第1步兵大队"
+		location = 797 #新义州
+		division_template = "义兵"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "义勇军鸭绿江支队"
+		location = 797 #新义州
+		division_template = "义兵"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "义勇军第1支队"
+		location = 748 #満浦
+		division_template = "义兵"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "义勇军第5支队"
+		location = 4791 #慈城
+		division_template = "义兵"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "第2步兵大队"
+		location = 797 #新义州
+		division_template = "义兵"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+}

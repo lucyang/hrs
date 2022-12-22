@@ -1,0 +1,23 @@
+state={
+	id=103
+	name="STATE_103"
+	provinces={
+		102 1975 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 1975 5 } #太原
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 3	
+		}
+		
+	}
+	manpower=720725
+	state_category = large_city
+	local_supplies = 0.0
+}

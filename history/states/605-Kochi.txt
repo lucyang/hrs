@@ -1,0 +1,26 @@
+state={
+	id=605
+	name="STATE_605"
+	provinces={
+		1662 1769 3218
+	}
+	
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+
+		victory_points = { 1662 3 } #高知
+		
+		buildings = {
+			infrastructure = 3
+
+			1662 = { #高知港
+				naval_base = 1
+			}
+		}
+		
+	}
+	manpower=677852
+	state_category = town
+	local_supplies = 0.0
+}

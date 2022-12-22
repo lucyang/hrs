@@ -1,0 +1,54 @@
+﻿capital = 564 #太原
+
+recruit_character = VIC_truong_chinh
+recruit_character = VIC_ho_chi_minh
+
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	basic_train = 1
+	trench_warfare = 1
+	gw_artillery = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	fuel_refining = 1
+}
+
+set_stability = 0.50
+set_war_support = 0.80
+
+add_ideas = {
+	limited_exports
+	limited_conscription
+	war_economy
+}
+add_ideas = {
+	country_development1
+	country_tech2
+	planned_economy1
+	unitary_state1
+}
+
+set_politics = {	
+	ruling_party = anarchism
+	last_election = "1920.3.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 41
+	anarchism = 43
+	socialism = 10
+	democratic = 6
+	neutrality = 0
+	monarchism = 0
+	fascism = 0
+	imperialism = 0
+	futurism = 0
+}

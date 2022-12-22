@@ -1,0 +1,16 @@
+characters={
+	KKG_onishi_takijiro={
+		name=KKG_onishi_takijiro
+		portraits={
+			civilian={
+				large="gfx/leaders/KKG/Portrait_Onishi_Takijiro.png"
+			}
+		}
+		country_leader={
+			ideology=provisional_government_subtype
+			desc=KKG_onishi_takijiro_desc
+			traits={ aviation_hero }
+			expire="1945.8.26.1"
+		}
+	}
+}

@@ -1,0 +1,25 @@
+state={
+	id=374
+	name="STATE_374"
+
+	resources = {
+		rubber = 40
+	}
+
+	provinces={
+		347 2111 1594
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 2111 3 } #西双版纳
+		victory_points = { 1594 1 } #丰沙里
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=212015
+	state_category = rural
+	local_supplies = 0.0
+}

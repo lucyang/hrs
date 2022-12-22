@@ -1,0 +1,110 @@
+add_namespace = jlf
+
+country_event = {
+	id = jlf.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event jlf.1"
+	}
+	title = jlf.1.t
+	desc = jlf.1.desc
+	picture = GFX_report_event_japanese_police
+
+	is_triggered_only = yes
+
+	option = { # 山下奉文
+		name = jlf.1.a
+		add_country_leader_role = {
+			character = JLF_yamashita_tomoyuki
+			country_leader={
+				ideology=military_government_subtype
+				desc=JLF_yamashita_tomoyuki_desc
+				traits={ polemarch hardened_officer }
+				expire="1946.2.23.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = neutrality elections_allowed = no }
+		hidden_effect = {
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.30
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.10
+			}
+		}
+	}
+	option = { # 石原莞尔
+		name = jlf.1.b
+		add_country_leader_role = {
+			character = JLF_ishiwara_kanji
+			country_leader={
+				ideology=reactionary_populism_subtype
+				desc=JLF_ishiwara_kanji_desc
+				traits={ devoted_corporatist warmonger }
+				expire="1959.8.15.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = monarchism elections_allowed = no }
+		hidden_effect = {
+			add_popularity = {
+				ideology = monarchism
+				popularity = 0.15
+			}
+			add_popularity = {
+				ideology = futurism
+				popularity = 0.10
+			}
+		}
+	}
+	option = { # 桥本欣五郎
+		name = jlf.1.c
+		add_country_leader_role = {
+			character = JLF_hashimoto_kingoro
+			country_leader={
+				ideology=ultrastatism_subtype
+				desc=JLF_hashimoto_kingoro_desc
+				traits={ silent_workhorse fascist_militia_leader }
+				expire="1957.6.29.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = fascism elections_allowed = no }
+		hidden_effect = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.10
+			}
+			add_popularity = {
+				ideology = imperialism
+				popularity = 0.05
+			}
+		}
+	}
+	option = { # 松井石根
+		name = jlf.1.d
+		add_country_leader_role = {
+			character = JLF_matsui_iwane_desc
+			country_leader={
+				ideology=pan_asianism_subtype
+				desc=JLF_matsui_iwane_desc
+				traits={ armaments_aficionado warrior_code }
+				expire="1958.12.23.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = imperialism elections_allowed = no }
+		hidden_effect = {
+			add_popularity = {
+				ideology = imperialism
+				popularity = 0.10
+			}
+			add_popularity = {
+				ideology = futurism
+				popularity = 0.10
+			}
+		}
+	}
+}

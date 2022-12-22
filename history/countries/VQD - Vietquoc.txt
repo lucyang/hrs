@@ -1,0 +1,49 @@
+﻿capital = 528 #安沛
+
+recruit_character = VQD_nguyen_tuong_tam
+recruit_character = VQD_nguyen_thai_hoc
+
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	gw_artillery = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	fuel_refining = 1
+}
+
+set_stability = 0.60
+set_war_support = 0.70
+
+add_ideas = {
+	limited_exports
+	limited_conscription
+	war_economy
+}
+add_ideas = {
+	country_development1
+	country_tech2
+	market_economy2
+	unitary_state1
+}
+
+set_politics = {	
+	ruling_party = democratic
+	last_election = "1920.3.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 3
+	anarchism = 17
+	socialism = 23
+	democratic = 40
+	neutrality = 0
+	monarchism = 10
+	fascism = 7
+	imperialism = 0
+	futurism = 0
+}

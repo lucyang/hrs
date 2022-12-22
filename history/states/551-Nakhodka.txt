@@ -1,0 +1,30 @@
+
+state={
+	id=551
+	name="STATE_551"
+
+	history={
+		owner = ZDJ
+		add_core_of = DAL
+		add_claim_by = MAN
+		victory_points = {
+			2478 3 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			2478 = {
+				naval_base = 1
+			}
+		}
+
+	}
+
+	provinces={
+		473 2478 3318 
+	}
+	manpower=87566
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

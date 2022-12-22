@@ -1,0 +1,51 @@
+﻿capital = 529 #河静
+
+recruit_character = DNA_dao_duy_anh
+recruit_character = DNA_vo_nguyen_giap
+recruit_character = DNA_nguyen_thi_minhkhai
+
+oob = "empty"
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	gw_artillery = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	fuel_refining = 1
+}
+
+set_stability = 0.60
+set_war_support = 0.60
+
+add_ideas = {
+	limited_exports
+	extensive_conscription
+	war_economy
+}
+add_ideas = {
+	country_development1
+	country_tech2
+	market_economy2
+	unitary_state2
+}
+
+set_politics = {	
+	ruling_party = socialism
+	last_election = "1920.3.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 8
+	anarchism = 40
+	socialism = 42
+	democratic = 7
+	neutrality = 0
+	monarchism = 3
+	fascism = 0
+	imperialism = 0
+	futurism = 0
+}

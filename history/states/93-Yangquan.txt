@@ -1,0 +1,23 @@
+state={
+	id=93
+	name="STATE_93"
+	provinces={
+		241 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 241 3 } #阳泉
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1	
+		}
+		
+	}
+	manpower=628452
+	state_category = city
+	local_supplies = 0.0
+}

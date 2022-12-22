@@ -1,0 +1,27 @@
+state={
+	id=381
+	name="STATE_381"
+	provinces={
+		3217 4201 4204 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = {
+			4204 5
+		}
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			4204 = {
+				naval_base = 3
+			}
+		}
+	}
+	manpower=541527
+	state_category = city
+	local_supplies = 0.0
+}

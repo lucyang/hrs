@@ -1,0 +1,19 @@
+state={
+	id=651
+	name="STATE_651"
+	provinces={
+		1577
+	}
+	history={
+		owner = SIA
+		add_core_of = CHP
+
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+	manpower=8000
+	state_category = pastoral
+	local_supplies = 0.0
+}

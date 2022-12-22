@@ -1,0 +1,39 @@
+ideas = {
+	country = {
+		TOK_serious_discrimination = {
+			name = TOK_serious_discrimination
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = TOK_serious_discrimination
+			modifier = {
+				stability_weekly_factor = -0.01
+				war_support_weekly = -0.01
+			}
+		}
+
+		TOK_dream_of_equality = {
+			name = TOK_dream_of_equality
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = TOK_dream_of_equality
+			modifier = {
+				communism_drift = 0.1
+				anarchism_drift = 0.1
+				army_attack_factor = 0.10
+				army_morale_factor = 0.10
+			}
+		}
+	}
+}

@@ -1,0 +1,111 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ KOR_communism:0 "汉城临时政府"
+ KOR_communism_DEF:0 "京城共产主义联盟"
+ KOR_anarchism:0 "汉城临时政府"
+ KOR_anarchism_DEF:0 "朝鲜劳动组合全国评议会"
+ KOR_socialism:0 "汉城临时政府"
+ KOR_socialism_DEF:0 "朝鲜劳动组合全国评议会"
+ KOR_democratic:0 "汉城临时政府"
+ KOR_democratic_DEF:0 "大韩民国汉城临时政府"
+ KOR_neutrality:0 "京城国民协会"
+ KOR_neutrality_DEF:0 "朝鲜国民协会"
+ KOR_monarchism:0 "汉城临时政府"
+ KOR_monarchism_DEF:0 "大韩帝国汉城临时政府"
+ KOR_fascism:0 "汉城临时政府"
+ KOR_fascism_DEF:0 "大韩帝国汉城临时政府"
+ KOR_imperialism:0 "汉城临时政府"
+ KOR_imperialism_DEF:0 "大韩帝国汉城临时政府"
+ KOR_futurism:0 "汉城临时政府"
+ KOR_futurism_DEF:0 "大韩帝国汉城临时政府"
+ KOR_communism_ADJ:0 "韩国"
+ KOR_anarchism_ADJ:0 "韩国"
+ KOR_socialism_ADJ:0 "韩国"
+ KOR_democratic_ADJ:0 "韩国"
+ KOR_neutrality_ADJ:0 "韩国"
+ KOR_monarchism_ADJ:0 "韩国"
+ KOR_fascism_ADJ:0 "韩国"
+ KOR_imperialism_ADJ:0 "韩国"
+ KOR_futurism_ADJ:0 "韩国"
+ KOR:0 "韩国"
+ KOR_DEF:0 "韩国"
+ KOR_ADJ:0 "韩国"
+ #############
+ ## PARTIES ##
+ #############
+ KOR_communism_party:0 "朝共"
+ KOR_communism_party_long:0 "朝鲜共产党 "
+ KOR_anarchism_party:0 "全评"
+ KOR_anarchism_party_long:0 "朝鲜全国工团评议会"
+ KOR_socialism_party:0 "独立党 - 进步派"
+ KOR_socialism_party_long:0 "韩国独立党 - 进步派"
+ KOR_democratic_party:0 "独立党 - 中道派"
+ KOR_democratic_party_long:0 "韩国独立党 - 中道派"
+ KOR_neutrality_party:0 "国民协会"
+ KOR_neutrality_party_long:0 "朝鲜国民协会"
+ KOR_monarchism_party:0 "大韩协会 - 保皇派"
+ KOR_monarchism_party_long:0 "大韩协会 - 保皇派"
+ KOR_fascism_party:0 "独立党 - 民族派"
+ KOR_fascism_party_long:0 "朝鲜独立党 - 民族派"
+ KOR_imperialism_party:0 "大韩协会 - 泛亚派"
+ KOR_imperialism_party_long:0 "大韩协会 - 泛亚派"
+ KOR_futurism_party:0 "白白教"
+ KOR_futurism_party_long:0 "白白教"
+
+ KOR_liberal_party:0 "自由党"
+ KOR_liberal_party_long:0 "韩国自由党"
+ KOR_independent_party:0 "独立党"
+ KOR_independent_party_long:0 "韩国独立党"
+ KOR_anarchist_party:0 "不逞社"
+ KOR_anarchist_party_long:0 "不逞社"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ KOR_liberal_democratic:0 "韩国正义府"
+ KOR_liberal_democratic_DEF:0 "韩国正义府"
+ KOR_liberal_neutrality:0 "韩国正义府"
+ KOR_liberal_neutrality_DEF:0 "韩国正义府"
+ KOR_commune_anarchism:0 "京城自由市"
+ KOR_commune_anarchism_DEF:0 "京城自由市"
+ ################
+ ## CHARACTERS ##
+ ################
+ KOR_ho_hon:0 "许宪"
+ KOR_pak_honyong:0 "朴宪永"
+ KOR_anarchist_commune:0 "全国工团评议会"
+ KOR_pak_chungyang:0 "朴重阳"
+ KOR_pak_fumiko:0 "金子文子"
+ KOR_kim_seongsu:0 "金性洙"
+ KOR_jo_dongyun:0 "趙東潤"
+ KOR_i_eun:0 "英亲帝"
+ KOR_choe_namseon:0 "崔南善"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############
+ kor_rev.1.t:0 "京城的爆炸声"
+ kor_rev.1.desc:0 "在东国与唐土相继陷入混乱后，帝国新近合并的朝鲜半岛再生混乱：今日上午，在朝鲜总督府管辖的京城府，发生了十几起连环爆炸案，包括朝鲜总督袁克定在内的多名政治要人死亡。京城内潜伏的各路反抗势力随即展开了对京城控制权的争夺战，但是帝国驻扎在朝鲜的军队仍有实力镇压这些叛匪。京城乱局的最终结果是······"
+ kor_rev.1.a:0 "朝鲜军成功镇压了暴乱分子"
+ kor_rev.1.b:0 "京城驻军背叛了帝国"
+ kor_rev.1.c:0 "驻军陷入巷战，不得不退出京城"
+
+ kor_rev.2.t:0 "京城之战"
+ kor_rev.2.desc:0 "在反抗势力成功驱逐了帝国军队后，京城的治安状况并未得到改善，正有四股势力在京城反复争夺主导地位。由朝鲜无政府主义者领导的“不逞鲜人”，主张暗杀与恐怖袭击的手段实现朝鲜民族独立，据称他们的领导人是一名同情朝鲜人的日本女性；朝鲜半岛最大的非法工会组织，劳动组合全国评议会控制了一部分工厂，他们的民兵与京畿道的农民联合起来，准备建立工农联合的政权；由朴宪永等人领导的“京城共产主义集团”从地下现身，他们联合了朝鲜南方的主要社会主义者，声势浩大；最后，由旧李朝势力为首的“大韩独立协会”正在谋求复辟李氏朝鲜，他们手中掌握着一支训练精良的正规军，赢面可以说相当大。这场“京城之战”的赢家将会是······"
+ kor_rev.2.a:0 "“不逞鲜人”"
+ kor_rev.2.b:0 "劳动组合全国评议会"
+ kor_rev.2.c:0 "京城共产主义集团"
+ kor_rev.2.d:0 "大韩独立协会"
+
+ kor_rev.3.t:0 "朝鲜军的背叛"
+ kor_rev.3.desc:0 "最糟糕的消息从京城传来，一部分朝鲜军确实进入了京城，对叛逆分子大开杀戒。然而他们没有恢复京城的秩序，而是驱逐了帝国在京城的高级官员，宣布建立非法的“朝鲜国民协会”，拥立朝鲜贵族院议员朴重阳为名义上的政府首脑。“国民协会”声称，朝鲜民族主义与大东霸权主义都不可能解决朝鲜半岛问题，其中一方只会带来血腥的杀戮与动乱，只有实施中日朝满四族和谐共存“新朝鲜”，才能避免人道主义灾难。得到前朝鲜军支持的国民协会信心满满，准备彻底消灭朝鲜半岛上的一切极端势力。"
+ kor_rev.3.a:0 "这些叛徒都该死！"
+ kor_rev.3.b:0 "覆巢之下，岂有完卵？"
+
+ kor_rev.4.t:0 "京城卫士"
+ kor_rev.4.desc:0 "帝国在朝鲜驻守的第19和第20军团迅速进入京城维持秩序，一些朝独暴徒试图用血肉之躯阻挡我们的铁骑前进，然而他们可怜的抵抗力量根本不值得我们的士兵关注。一小撮不逞鲜人偷袭了帝国军队，他们将抓到的无辜士兵开膛破肚，向他们投掷燃烧瓶，把他们活活烧死。然而，朝鲜驻军很快就击溃了试图分裂朝鲜半岛的宵小之徒，将他们在京城街头处刑示众。不过我们的“京城卫士”做得有些过火了，一些较为血腥的照片在帝国各处的报纸登上了头条，那些本就怀有二心的逆贼现在更是怒火中烧。"
+ kor_rev.4.a:0 "诸位辛苦了！"

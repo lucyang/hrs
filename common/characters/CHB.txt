@@ -1,0 +1,100 @@
+characters={
+	CHB_suzuki_mosaburo={
+		name=CHB_suzuki_mosaburo
+		portraits={
+			civilian={
+				large="gfx/leaders/CHB/Portrait_Suzuki_Musaburo.png"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialism_subtype
+			desc=CHB_suzuki_mosaburo_desc
+			traits={ social_reformer connected_citizen }
+			expire="1967.2.13.1"
+		}
+	}
+	CHB_abe_iso={
+		name=CHB_abe_iso
+		portraits={
+			civilian={
+				large="gfx/leaders/CHB/Portrait_Abe_Iso.png"
+			}
+		}
+		country_leader={
+			ideology=social_democratic_subtype
+			desc=CHB_abe_iso_desc
+			traits={ divided_interests emergency_powers }
+			expire="1967.2.13.1"
+		}
+	}
+	CHB_asanuma_inejiro={
+		name=CHB_asanuma_inejiro
+		portraits={
+			civilian={
+				large="gfx/leaders/CHB/Portrait_Asanuma_Inejiro.png"
+			}
+		}
+		#country_leader={
+		#	ideology=left_militarism_subtype
+		#	desc=CHB_asanuma_inejiro_desc
+		#	traits={ }
+		#	expire="1967.2.13.1"
+		#}
+	}
+	CHB_katayama_tetsu={
+		name=CHB_katayama_tetsu
+		portraits={
+			civilian={
+				large="gfx/leaders/CHB/Portrait_Katayama_Tetsu.png"
+			}
+		}
+		country_leader={
+			ideology=liberalism_subtype
+			desc=CHB_katayama_tetsu_desc
+			traits={ }
+			expire="1967.2.13.1"
+		}
+	}
+	CHB_nishio_suehiro={
+		name=CHB_nishio_suehiro
+		portraits={
+			civilian={
+				large="gfx/leaders/CHB/Portrait_Nishio_Suehiro.png"
+			}
+		}
+		country_leader={
+			ideology=development_authoritarianism_subtype
+			desc=CHB_nishio_suehiro_desc
+			traits={ }
+			expire="1967.2.13.1"
+		}
+	}
+	CHB_asohi_sashi={
+		name=CHB_asohi_sashi
+		portraits={
+			civilian={
+				large="gfx/leaders/CHB/Portrait_Asohi_Sashi.png"
+			}
+		}
+		country_leader={
+			ideology=manchu_socialism_subtype
+			desc=CHB_asohi_sashi_desc
+			traits={ political_chameleon statism_adept }
+			expire="1967.2.13.1"
+		}
+	}
+	CHB_miwa_juso={
+		name=CHB_miwa_juso
+		portraits={
+			civilian={
+				large="gfx/leaders/CHB/Portrait_Miwa_Juso.png"
+			}
+		}
+		country_leader={
+			ideology=ultramilitarism_subtype
+			desc=CHB_miwa_juso_desc
+			traits={ social_reformer ambitious_negotiator_fascism }
+			expire="1967.2.13.1"
+		}
+	}
+}

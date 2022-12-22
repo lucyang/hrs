@@ -1,0 +1,44 @@
+characters={
+	SIB_viktor_pepelyayev={
+		name=SIB_viktor_pepelyayev
+		portraits={
+			civilian={
+				large="gfx/leaders/SIB/Portrait_Viktor_Pepelyayev.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism_subtype
+			desc=SIB_viktor_pepelyayev_desc
+			traits={ genial_anti_revolutionary social_reformer }
+			expire="1950.2.7.1"
+		}
+	}
+	SIB_alexander_kolchak={
+		name=SIB_alexander_kolchak
+		portraits={
+			civilian={
+				large="gfx/leaders/SIB/Portrait_Alexander_Kolchak.dds"
+			}
+		}
+		country_leader={
+			ideology=military_government_subtype
+			desc=SIB_alexander_kolchak_desc
+			traits={ arkhigos reluctant_veteran }
+			expire="1940.6.17.1"
+		}
+	}
+	SIB_viktor_baydalakov={
+		name=SIB_viktor_baydalakov
+		portraits={
+			civilian={
+				large="gfx/leaders/SIB/Portrait_Viktor_Baydalakov.dds"
+			}
+		}
+		country_leader={
+			ideology=solidarism_subtype
+			desc=SIB_viktor_baydalakov_desc
+			traits={ devoted_corporatist statism_adept }
+			expire="1976.1.1.1"
+		}
+	}
+}

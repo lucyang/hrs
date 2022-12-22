@@ -1,0 +1,19 @@
+state={
+	id=422
+	name="STATE_422"
+	provinces={
+		54 314 560 836 1083 1084 1314 1727 3455
+	}
+	history = {
+		owner = DBJ
+
+		victory_points = { 1314 5 } #乌里雅苏台
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=56800
+	state_category = pastoral
+	local_supplies = 0.0
+}

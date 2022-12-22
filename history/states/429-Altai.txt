@@ -1,0 +1,23 @@
+state={
+	id=429
+	name="STATE_429"
+	provinces={
+		254 550 573 794 944 2264 2750 3438 4751
+	}
+	history = {
+		owner = ALT
+		add_core_of = ALT
+		add_claim_by = DZU
+
+		victory_points = { 2750 10 } #卫拉�?图拉/戈尔�?阿尔泰斯�?
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+	manpower=89672
+	state_category = town
+	local_supplies = 0.0
+}

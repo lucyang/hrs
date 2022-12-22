@@ -1,0 +1,24 @@
+state={
+	id=298
+	name="STATE_298"
+	provinces={
+		1763 2821 2889 3932 3948 
+	}
+	resources = {
+		tungsten = 30
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 3948 5 }
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+	}
+	manpower=327319
+	state_category = town
+	local_supplies = 0.0
+}

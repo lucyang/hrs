@@ -1,0 +1,22 @@
+
+state={
+	id=572
+	name="STATE_572"
+	provinces={
+		138 863 3107 
+	}
+	history={
+		owner = SIA
+		add_core_of = LAO
+		victory_points = { 863 1 } #沙玛布里/沙耶武里Samaburi/Sayainbouli)
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	manpower=198000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

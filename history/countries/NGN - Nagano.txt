@@ -1,0 +1,70 @@
+﻿capital = 599 #长野 
+
+recruit_character = NGN_peasant_union #自治农民议会
+recruit_character = NGN_mushanokoji_saneatsu #武者小路実篤
+recruit_character = NGN_gondo_seikyo #権藤成卿
+recruit_character = NGN_shimonaka_yasaburo #下中弥三郎
+
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	basic_train = 1
+	gw_artillery = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	fuel_refining = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+add_ideas = {
+	NGN_collapsed_countryside
+	NGN_konmintou
+}
+
+add_ideas = {
+	limited_exports
+	limited_conscription
+	civilian_economy
+}
+add_ideas = {
+	country_development1
+	country_tech3
+	unitary_state
+	market_economy2
+}
+
+set_research_slots = 1
+set_convoys = 10
+set_stability = 0.60
+
+set_politics = {
+	ruling_party = monarchism
+	last_election = "1923.10.30"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 3
+	anarchism = 14
+	socialism = 10
+	democratic = 21
+	neutrality = 0
+	monarchism = 23
+	fascism = 11
+	imperialism = 15
+	futurism = 3
+}

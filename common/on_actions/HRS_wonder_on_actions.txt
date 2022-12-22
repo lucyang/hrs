@@ -1,0 +1,190 @@
+# ROOT = new controller 
+# FROM = old controller
+# FROM.FROM = state ID
+on_actions = {
+    on_state_control_changed = {
+        effect = {
+            if = { #japan wonders
+                limit = {
+                    FROM.FROM = {
+                        state = 187
+                    }
+                    ROOT = {
+                        NOT = { has_country_flag = JAP_owns_miike_colliery }
+                        NOT = { has_global_flag = Japan_has_unified }
+                    }
+                }
+                ROOT = {
+                    if = {
+                        limit = {
+                            is_japan_nation = yes
+                        }
+                        set_country_flag = JAP_owns_miike_colliery
+                        country_event = { id = JAP_wonder.1 hours = 1 }
+                    }
+                }
+                FROM = {
+                    if = {
+                        limit = {
+                            has_war = yes
+                            is_japan_nation = yes
+                        }
+                        clr_country_flag = JAP_owns_miike_colliery
+                        country_event = { id = JAP_wonder.4 hours = 1 }
+                    }
+                }  
+            }
+            else_if = {
+                limit = {
+                    FROM.FROM = {
+                        state = 606
+                    }
+                    ROOT = {
+                        NOT = { has_country_flag = JAP_owns_kure_naval_arsenal }
+                        NOT = { has_global_flag = Japan_has_unified }
+                    }
+                }
+                ROOT = {
+                    if = {
+                        limit = {
+                            is_japan_nation = yes
+                        }
+                        set_country_flag = JAP_owns_kure_naval_arsenal
+                        country_event = { id = JAP_wonder.2 hours = 1 }
+                    }
+                }
+                FROM = {
+                    if = {
+                        limit = {
+                            has_war = yes
+                            is_japan_nation = yes
+                        }
+                        clr_country_flag = JAP_owns_kure_naval_arsenal
+                        country_event = { id = JAP_wonder.5 hours = 1 }
+                    }
+                }
+            }
+            else_if = {
+                limit = {
+                    FROM.FROM = {
+                        state = 596
+                    }
+                    ROOT = {
+                        NOT = { has_country_flag = JAP_owns_kyoto_imperial_university }
+                        NOT = { has_global_flag = Japan_has_unified }
+                    }
+                }
+                ROOT = {
+                    if = {
+                        limit = {
+                            is_japan_nation = yes
+                        }
+                        set_country_flag = JAP_owns_kyoto_imperial_university
+                        country_event = { id = JAP_wonder.3 hours = 1 }
+                    }
+                }
+                FROM = {
+                    if = {
+                        limit = {
+                            has_war = yes
+                            is_japan_nation = yes
+                        }
+                        clr_country_flag = JAP_owns_kyoto_imperial_university
+                        country_event = { id = JAP_wonder.6 hours = 1 }
+                    }
+                }
+            }
+            else_if = {
+                limit = {
+                    FROM.FROM = {
+                        state = 100
+                    }
+                    ROOT = {
+                        NOT = { has_country_flag = JAP_owns_nagoya_toyota }
+                        NOT = { has_global_flag = Japan_has_unified }
+                    }
+                }
+                ROOT = {
+                    if = {
+                        limit = {
+                            is_japan_nation = yes
+                        }
+                        set_country_flag = JAP_owns_nagoya_toyota
+                        country_event = { id = JAP_wonder.7 hours = 1 }
+                    }
+                }
+                FROM = {
+                    if = {
+                        limit = {
+                            has_war = yes
+                            is_japan_nation = yes
+                        }
+                        clr_country_flag = JAP_owns_nagoya_toyota
+                        country_event = { id = JAP_wonder.10 hours = 1 }
+                    }
+                }
+            }
+            else_if = {
+                limit = {
+                    FROM.FROM = {
+                        state = 600
+                    }
+                    ROOT = {
+                        NOT = { has_country_flag = JAP_owns_edo_wasteland }
+                        NOT = { has_global_flag = Japan_has_unified }
+                    }
+                }
+                ROOT = {
+                    if = {
+                        limit = {
+                            is_japan_nation = yes
+                        }
+                        set_country_flag = JAP_owns_edo_wasteland
+                        country_event = { id = JAP_wonder.8 hours = 1 }
+                    }
+                }
+                FROM = {
+                    if = {
+                        limit = {
+                            has_war = yes
+                            is_japan_nation = yes
+                        }
+                        clr_country_flag = JAP_owns_edo_wasteland
+                        country_event = { id = JAP_wonder.11 hours = 1 }
+                    }
+                }
+            }
+            else_if = {
+                limit = {
+                    FROM.FROM = {
+                        state = 542
+                    }
+                    ROOT = {
+                        NOT = { has_country_flag = JAP_owns_nanbu_industry }
+                        NOT = { has_global_flag = Japan_has_unified }
+                    }
+                }
+                ROOT = {
+                    if = {
+                        limit = {
+                            is_japan_nation = yes
+                        }
+                        set_country_flag = JAP_owns_nanbu_industry
+                        country_event = { id = JAP_wonder.9 hours = 1 }
+                    }
+                }
+                FROM = {
+                    if = {
+                        limit = {
+                            has_war = yes
+                            is_japan_nation = yes
+                        }
+                        clr_country_flag = JAP_owns_nanbu_industry
+                        country_event = { id = JAP_wonder.12 hours = 1 }
+                    }
+                }
+            }
+        }
+    }
+}
+

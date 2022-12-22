@@ -1,0 +1,1693 @@
+﻿# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
+# If we run out of all historical names, the names will be assigned in the old way.
+#
+# Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
+#
+# for_countries - lists all countries that can use it. If empty, or entire tag is missing, all countries in the world can use it.
+#
+# can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
+#
+# division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
+#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
+#                  for example the current one is no longer available due to the can_use trigger saying so).
+#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#
+# fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
+#                 mechanics to be used for fallbacks, then just skip this option.
+#
+# unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
+#             this option is available here mainly for a mods.
+#
+# ordered - Is a list of all historical names. 
+#           Numbers must start from 1 and up. 
+#           Numbers can't repeat in one scope.
+#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#           1st argument = The name. It must contain either: 
+#                          %d (for decimal number placement)
+#                          %s (for string number placement - ROMAN numbers like XIV).
+#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#                                      where you choose the historical division name.
+#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#                                      the current game version.
+SOV_INF_01 = 
+{
+	name = "步枪团"
+
+	for_countries = { AAF FAR SIB BYA TBA PRA YAK KHA ZZZ DAL FER }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { SOV_INF_01 }
+
+	fallback_name = "第%d步枪团"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		5 = { "第%d'Vitebskaya'步枪团" }
+		6 = { "第%d'Orlovskaya'步枪团" }
+		7 = { "第%d'Chernigovskaya'步枪团" }
+		8 = { "第%d'Minskaya'步枪团" }
+		16 = { "第%d'Ul'yanovskaya'步枪团" }
+		18 = { "第%d步枪团" }
+		21 = { "第%d'Permskaya'步枪团" }
+		22 = { "第%d'Krasnodarskaya'步枪团" }
+		23 = { "第%d'Har'kovskaya'步枪团" }
+		24 = { "第%d'Samaro-Ul'yanov.'步枪团" }
+		38 = { "第%d步枪团" }
+		49 = { "第%d步枪团" }
+		51 = { "第%d'Perekopskaya'步枪团" }
+		2 = { "第%d'Belorusskaya'步枪团" }
+		15 = { "第%d'Sivashskaya'步枪团" }
+		31 = { "第%d'Stalingradskaya'步枪团" }
+		37 = { "第%d步枪团" }
+		56 = { "第%d'Moskva'步枪团" }
+		57 = { "第%d'Ural'skaya'步枪团" }
+		17 = { "第%d'Gor'kovskaya'步枪团" }
+		27 = { "第%d'Omskaya'步枪团" }
+		29 = { "第%d'Sibirskaya'步枪团" }
+		33 = { "第%d'Belorusskaya'步枪团" }
+		48 = { "第%d''Kashino-Tverskaya'步枪团" }
+		3 = { "第%d'Tihookeanskaya'步枪团" }
+		4 = { "第%d'斯摩棱斯克'步枪团" }
+		74 = { "第%d'Tamanskaya'步枪团" }
+		10 = { "第%d'Severnogo Kraya'步枪团" }
+		13 = { "第%d'Dagestanskaya'步枪团" }
+		14 = { "第%d'Krivorozhskaya'步枪团" }
+		19 = { "第%d'Voronezhskaya'步枪团" }
+		39 = { "第%d'Tihookeanskaya'步枪团" }
+		12 = { "第%d'阿穆尔'步枪团" }
+		46 = { "第%d'Dnepropetrovskaya'步枪团" }
+		80 = { "第%d'顿巴斯'步枪团" }
+		81 = { "第%d步枪团" }
+		84 = { "第%d'Tul'skogo'步枪团" }
+		95 = { "第%d'摩尔达维亚'步枪团" }
+		1 = { "第%d'Moskva Proletarskaya'摩托化步兵团" }
+		43 = { "第%d步枪团" }
+		99 = { "第%d步枪团" }
+		100 = { "第%d步枪团" }
+		25 = { "第%d'Chapaevskaya'步枪团" }
+		40 = { "第%d'Bogucharskaya'步枪团" }
+		41 = { "第%d步枪团" }
+		55 = { "第%d'库尔斯克'步枪团" }
+		62 = { "第%d'Turkestanskaya'步枪团" }
+		75 = { "第%d步枪团" }
+		53 = { "第%d步枪团" }
+		65 = { "第%d步枪团" }
+		85 = { "第%d步枪团" }
+		59 = { "第%d步枪团" }
+		66 = { "第%d步枪团" }
+		69 = { "第%d步枪团" }
+		78 = { "第%d步枪团" }
+		82 = { "第%d摩托化步兵团" }
+		94 = { "第%d步枪团" }
+		61 = { "第%d'突厥斯坦'步枪团" }
+		32 = { "第%d'Saratovskaya'步枪团" }
+		34 = { "第%d'Srednevolzhskaya'步枪团" }
+		35 = { "第%d'西伯利亚'步枪团" }
+		36 = { "第%d'Zabajkal'skaya'步枪团" }
+		70 = { "第%d步枪团" }
+		71 = { "第%d步枪团" }
+		54 = { "第%d步枪团" }
+		64 = { "第%d步枪团" }
+		73 = { "第%d步枪团" }
+		26 = { "第%d'兹拉托乌斯特'步枪团" }
+		52 = { "第%d步枪团" }
+		87 = { "第%d步枪团" }
+		11 = { "第%d步枪团" }
+		45 = { "第%d'Volynskaya'步枪团" }
+		97 = { "第%d步枪团" }
+		98 = { "第%d步枪团" }
+		108 = { "第%d步枪团" }
+		116 = { "第%d步枪团" }
+		111 = { "第%d步枪团" }
+		67 = { "第%d步枪团" }
+		93 = { "第%d'Vostochno-Sibir.'步枪团" }
+		92 = { "第%d步枪团" }
+		50 = { "第%d'塔曼'步枪团" }
+		105 = { "第%d步枪团" }
+		86 = { "第%d'喀山'步枪团" }
+		90 = { "第%d步枪团" }
+		104 = { "第%d步枪团" }
+		118 = { "第%d步枪团" }
+		126 = { "第%d步枪团" }
+		127 = { "第%d步枪团" }
+		129 = { "第%d步枪团" }
+		130 = { "第%d步枪团" }
+		132 = { "第%d步枪团" }
+		133 = { "第%d步枪团" }
+		134 = { "第%d步枪团" }
+		135 = { "第%d步枪团" }
+		136 = { "第%d步枪团" }
+		137 = { "第%d步枪团" }
+		139 = { "第%d步枪团" }
+		140 = { "第%d步枪团" }
+		141 = { "第%d步枪团" }
+		142 = { "第%d步枪团" }
+		143 = { "第%d步枪团" }
+		144 = { "第%d步枪团" }
+		145 = { "第%d步枪团" }
+		146 = { "第%d步枪团" }
+		148 = { "第%d步枪团" }
+		149 = { "第%d步枪团" }
+		150 = { "第%d步枪团" }
+		151 = { "第%d步枪团" }
+		152 = { "第%d步枪团" }
+		155 = { "第%d步枪团" }
+		156 = { "第%d步枪团" }
+		157 = { "第%d步枪团" }
+		158 = { "第%d步枪团" }
+		159 = { "第%d步枪团" }
+		160 = { "第%d步枪团" }
+		162 = { "第%d步枪团" }
+		164 = { "第%d步枪团" }
+		166 = { "第%d步枪团" }
+		168 = { "第%d步枪团" }
+		169 = { "第%d步枪团" }
+		170 = { "第%d步枪团" }
+		171 = { "第%d步枪团" }
+		172 = { "第%d步枪团" }
+		173 = { "第%d步枪团" }
+		176 = { "第%d步枪团" }
+		178 = { "第%d步枪团" }
+		180 = { "第%d步枪团" }
+		182 = { "第%d步枪团" }
+		186 = { "第%d步枪团" }
+		187 = { "第%d步枪团" }
+		114 = { "第%d步枪团" }
+		120 = { "第%d步枪团" }
+		91 = { "第%d步枪团" }
+		102 = { "第%d步枪团" }
+		107 = { "第%d步枪团" }
+		115 = { "第%d步枪团" }
+		117 = { "第%d步枪团" }
+		119 = { "第%d步枪团" }
+		121 = { "第%d步枪团" }
+		123 = { "第%d步枪团" }
+		124 = { "第%d步枪团" }
+		125 = { "第%d步枪团" }
+		88 = { "第%d步枪团" }
+		89 = { "第%d步枪团" }
+		110 = { "第%d步枪团" }
+		112 = { "第%d步枪团" }
+		113 = { "第%d步枪团" }
+		122 = { "第%d步枪团" }
+		42 = { "第%d步枪团" }
+		106 = { "第%d步枪团" }
+		128 = { "第%d步枪团" }
+		153 = { "第%d步枪团" }
+		154 = { "第%d步枪团" }
+		161 = { "第%d步枪团" }
+		165 = { "第%d步枪团" }
+		167 = { "第%d步枪团" }
+		174 = { "第%d步枪团" }
+		175 = { "第%d步枪团" }
+		177 = { "第%d步枪团" }
+		179 = { "第%d步枪团" }
+		181 = { "第%d步枪团" }
+		183 = { "第%d步枪团" }
+		184 = { "第%d步枪团" }
+		188 = { "第%d步枪团" }
+		189 = { "第%d步枪团" }
+		190 = { "第%d步枪团" }
+		191 = { "第%d步枪团" }
+		193 = { "第%d步枪团" }
+		195 = { "第%d步枪团" }
+		196 = { "第%d'Dnepropetrov'步枪团" }
+		197 = { "第%d'Kievskaya'步枪团" }
+		199 = { "第%d步枪团" }
+		200 = { "第%d步枪团" }
+		206 = { "第%d步枪团" }
+		214 = { "第%d步枪团" }
+		217 = { "第%d步枪团" }
+		222 = { "第%d步枪团" }
+		227 = { "第%d步枪团" }
+		228 = { "第%d步枪团" }
+		229 = { "第%d步枪团" }
+		232 = { "第%d步枪团" }
+		233 = { "第%d步枪团" }
+		235 = { "第%d步枪团" }
+		237 = { "第%d步枪团" }
+		238 = { "第%d步枪团" }
+		201 = { "第%d步枪团" }
+		203 = { "第%d步枪团" }
+		207 = { "第%d步枪团" }
+		211 = { "第%d步枪团" }
+		223 = { "第%d步枪团" }
+		224 = { "第%d步枪团" }
+		225 = { "第%d步枪团" }
+		226 = { "第%d步枪团" }
+		230 = { "第%d步枪团" }
+		231 = { "第%d步枪团" }
+		234 = { "第%d步枪团" }
+		241 = { "第%d步枪团" }
+		243 = { "第%d步枪团" }
+		244 = { "第%d步枪团" }
+		245 = { "第%d步枪团" }
+		246 = { "第%d步枪团" }
+		247 = { "第%d步枪团" }
+		248 = { "第%d步枪团" }
+		249 = { "第%d步枪团" }
+		250 = { "第%d步枪团" }
+		251 = { "第%d步枪团" }
+		252 = { "第%d步枪团" }
+		253 = { "第%d步枪团" }
+		254 = { "第%d步枪团" }
+		255 = { "第%d步枪团" }
+		256 = { "第%d步枪团" }
+		257 = { "第%d步枪团" }
+		258 = { "第%d步枪团" }
+		259 = { "第%d步枪团" }
+		260 = { "第%d步枪团" }
+		261 = { "第%d步枪团" }
+		262 = { "第%d步枪团" }
+		263 = { "第%d步枪团" }
+		264 = { "第%d步枪团" }
+		265 = { "第%d步枪团" }
+		266 = { "第%d步枪团" }
+		267 = { "第%d步枪团" }
+		268 = { "第%d步枪团" }
+		269 = { "第%d步枪团" }
+		270 = { "第%d步枪团" }
+		271 = { "第%d步枪团" }
+		272 = { "第%d步枪团" }
+		273 = { "第%d步枪团" }
+		274 = { "第%d步枪团" }
+		275 = { "第%d步枪团" }
+		276 = { "第%d步枪团" }
+		277 = { "第%d步枪团" }
+		278 = { "第%d步枪团" }
+		279 = { "第%d步枪团" }
+		280 = { "第%d步枪团" }
+		281 = { "第%d步枪团" }
+		282 = { "第%d步枪团" }
+		283 = { "第%d步枪团" }
+		284 = { "第%d步枪团" }
+		285 = { "第%d步枪团" }
+		286 = { "第%d步枪团" }
+		287 = { "第%d步枪团" }
+		288 = { "第%d步枪团" }
+		289 = { "第%d步枪团" }
+		290 = { "第%d步枪团" }
+		291 = { "第%d步枪团" }
+		292 = { "第%d步枪团" }
+		293 = { "第%d步枪团" }
+		294 = { "第%d步枪团" }
+		295 = { "第%d步枪团" }
+		296 = { "第%d步枪团" }
+		297 = { "第%d步枪团" }
+		298 = { "第%d步枪团" }
+		299 = { "第%d步枪团" }
+		300 = { "第%d步枪团" }
+		301 = { "第%d步枪团" }
+		303 = { "第%d步枪团" }
+		304 = { "第%d步枪团" }
+		305 = { "第%d步枪团" }
+		306 = { "第%d步枪团" }
+		307 = { "第%d步枪团" }
+		308 = { "第%d步枪团" }
+		310 = { "第%d步枪团" }
+		311 = { "第%d步枪团" }
+		312 = { "第%d步枪团" }
+		313 = { "第%d步枪团" }
+		314 = { "第%d步枪团" }
+		315 = { "第%d步枪团" }
+		316 = { "第%d步枪团" }
+		317 = { "第%d步枪团" }
+		318 = { "第%d步枪团" }
+		319 = { "第%d步枪团" }
+		320 = { "第%d步枪团" }
+		321 = { "第%d步枪团" }
+		322 = { "第%d步枪团" }
+		323 = { "第%d步枪团" }
+		324 = { "第%d步枪团" }
+		325 = { "第%d步枪团" }
+		326 = { "第%d步枪团" }
+		327 = { "第%d步枪团" }
+		328 = { "第%d步枪团" }
+		329 = { "第%d步枪团" }
+		330 = { "第%d步枪团" }
+		332 = { "第%d步枪团" }
+		333 = { "第%d步枪团" }
+		334 = { "第%d步枪团" }
+		335 = { "第%d步枪团" }
+		336 = { "第%d步枪团" }
+		337 = { "第%d步枪团" }
+		339 = { "第%d步枪团" }
+		340 = { "第%d步枪团" }
+		341 = { "第%d步枪团" }
+		342 = { "第%d步枪团" }
+		343 = { "第%d步枪团" }
+		344 = { "第%d步枪团" }
+		345 = { "第%d步枪团" }
+		346 = { "第%d步枪团" }
+		348 = { "第%d步枪团" }
+		349 = { "第%d步枪团" }
+		350 = { "第%d步枪团" }
+		351 = { "第%d步枪团" }
+		352 = { "第%d步枪团" }
+		353 = { "第%d步枪团" }
+		354 = { "第%d步枪团" }
+		355 = { "第%d步枪团" }
+		356 = { "第%d步枪团" }
+		357 = { "第%d步枪团" }
+		358 = { "第%d步枪团" }
+		359 = { "第%d步枪团" }
+		360 = { "第%d步枪团" }
+		361 = { "第%d步枪团" }
+		362 = { "第%d步枪团" }
+		364 = { "第%d步枪团" }
+		365 = { "第%d步枪团" }
+		366 = { "第%d步枪团" }
+		367 = { "第%d步枪团" }
+		368 = { "第%d步枪团" }
+		369 = { "第%d步枪团" }
+		370 = { "第%d步枪团" }
+		371 = { "第%d步枪团" }
+		372 = { "第%d步枪团" }
+		373 = { "第%d步枪团" }
+		374 = { "第%d步枪团" }
+		375 = { "第%d步枪团" }
+		376 = { "第%d步枪团" }
+		377 = { "第%d步枪团" }
+		378 = { "第%d步枪团" }
+		379 = { "第%d步枪团" }
+		380 = { "第%d步枪团" }
+		381 = { "第%d步枪团" }
+		382 = { "第%d步枪团" }
+		383 = { "第%d步枪团" }
+		384 = { "第%d步枪团" }
+		386 = { "第%d步枪团" }
+		387 = { "第%d步枪团" }
+		388 = { "第%d步枪团" }
+		389 = { "第%d步枪团" }
+		390 = { "第%d步枪团" }
+		391 = { "第%d步枪团" }
+		393 = { "第%d步枪团" }
+		395 = { "第%d步枪团" }
+		396 = { "第%d步枪团" }
+		397 = { "第%d步枪团" }
+		399 = { "第%d步枪团" }
+		400 = { "第%d步枪团" }
+		402 = { "第%d步枪团" }
+		404 = { "第%d步枪团" }
+		405 = { "第%d步枪团" }
+		406 = { "第%d步枪团" }
+		407 = { "第%d步枪团" }
+		408 = { "第%d步枪团" }
+		409 = { "第%d步枪团" }
+		411 = { "第%d步枪团" }
+		412 = { "第%d步枪团" }
+		413 = { "第%d步枪团" }
+		414 = { "第%d步枪团" }
+		415 = { "第%d步枪团" }
+		416 = { "第%d步枪团" }
+		417 = { "第%d步枪团" }
+		422 = { "第%d步枪团" }
+		445 = { "第%d步枪团" }
+		410 = { "第%d步枪团" }
+		418 = { "第%d步枪团" }
+		419 = { "第%d步枪团" }
+		420 = { "第%d步枪团" }
+		421 = { "第%d步枪团" }
+		423 = { "第%d步枪团" }
+		424 = { "第%d步枪团" }
+		425 = { "第%d步枪团" }
+		426 = { "第%d步枪团" }
+		427 = { "第%d步枪团" }
+		428 = { "第%d步枪团" }
+		429 = { "第%d步枪团" }
+		430 = { "第%d步枪团" }
+		432 = { "第%d步枪团" }
+		433 = { "第%d步枪团" }
+		434 = { "第%d步枪团" }
+		435 = { "第%d步枪团" }
+		436 = { "第%d步枪团" }
+		437 = { "第%d步枪团" }
+		439 = { "第%d步枪团" }
+		440 = { "第%d步枪团" }
+		441 = { "第%d步枪团" }
+		442 = { "第%d步枪团" }
+		443 = { "第%d步枪团" }
+		444 = { "第%d步枪团" }
+		446 = { "第%d步枪团" }
+		448 = { "第%d步枪团" }
+		449 = { "第%d步枪团" }
+		450 = { "第%d步枪团" }
+		451 = { "第%d步枪团" }
+		452 = { "第%d步枪团" }
+		453 = { "第%d步枪团" }
+		454 = { "第%d步枪团" }
+		455 = { "第%d步枪团" }
+		456 = { "第%d步枪团" }
+		457 = { "第%d步枪团" }
+		458 = { "第%d步枪团" }
+		459 = { "第%d步枪团" }
+		460 = { "第%d步枪团" }
+		461 = { "第%d步枪团" }
+		462 = { "第%d步枪团" }
+		464 = { "第%d步枪团" }
+		465 = { "第%d步枪团" }
+		466 = { "第%d步枪团" }
+		467 = { "第%d步枪团" }
+		468 = { "第%d步枪团" }
+		469 = { "第%d步枪团" }
+		470 = { "第%d步枪团" }
+		471 = { "第%d步枪团" }
+		472 = { "第%d步枪团" }
+		473 = { "第%d步枪团" }
+		474 = { "第%d步枪团" }
+	}
+}
+
+SOV_CAV_01 = 
+{
+	name = "骑兵团"
+
+	for_countries = { }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { SOV_INF_01 }
+
+	fallback_name = "第%d骑兵团"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "第%d'Chernigov'骑兵团" }
+		3 = { "第%d'Bessarabskaya'骑兵团" }
+		4 = { "第%d骑兵团" }
+		5 = { "第%d'Bleanov'骑兵团" }
+		6 = { "第%d'Chongarskaya'骑兵团" }
+		7 = { "第%d骑兵团" }
+		8 = { "第%d'Dal'nevostochnaya'骑兵团" }
+		9 = { "第%d'Krymskaya'骑兵团" }
+		10 = { "第%d骑兵团" }
+		11 = { "第%d骑兵团" }
+		12 = { "第%d'Kubanskaya'骑兵团" }
+		13 = { "第%d'Kubanskaya'骑兵团" }
+		14 = { "第%d'Bessarabskaya'骑兵团" }
+		15 = { "第%d'Donskaya'骑兵团" }
+		16 = { "第%d骑兵团" }
+		17 = { "第%d Gorno-Kavaleriyskaya Diviziya" }
+		18 = { "第%d'Turkestanskaya'山地骑兵团" }
+		19 = { "第%d Gorno-Kavaleriyskaya Diviziya" }
+		20 = { "第%d'Tadzhikskaya'山地骑兵团" }
+		21 = { "第%d'Ferganskaya'山地骑兵团" }
+		22 = { "第%d'Krasnoznamennaya'骑兵团" }
+		23 = { "第%d骑兵团" }
+		24 = { "第%d骑兵团" }
+		25 = { "第%d骑兵团" }
+		26 = { "第%d骑兵团" }
+		29 = { "第%d骑兵团" }
+		30 = { "第%d Legko-Kavaleriyskaya Diviziya" }
+		31 = { "第%d骑兵团" }
+		32 = { "第%d骑兵团" }
+		33 = { "第%d Gorno-Kavaleriyskaya Diviziya" }
+		34 = { "第%d骑兵团" }
+		36 = { "第%d'Chongarskaya'骑兵团" }
+		48 = { "第%d骑兵团" }
+		67 = { "第%d骑兵团" }
+		301 = { "1ya Gvds.骑兵团" }
+		302 = { "2ya Gvds.骑兵团" }
+		303 = { "3ya Gvds.骑兵团" }
+		304 = { "4ya Gvds.骑兵团" }
+		305 = { "5ya Gvds.骑兵团" }
+		306 = { "6ya Gvds.骑兵团" }
+		27 = { "第%d骑兵团" }
+		28 = { "第%d骑兵团" }
+		35 = { "第%d骑兵团" }
+		38 = { "第%d骑兵团" }
+		40 = { "第%d骑兵团" }
+		41 = { "第%d Legko-Kavaleriyskaya Diviziya" }
+		43 = { "第%d骑兵团" }
+		44 = { "第%d骑兵团" }
+		46 = { "第%d骑兵团" }
+		47 = { "第%d骑兵团" }
+		49 = { "第%d骑兵团" }
+		50 = { "第%d骑兵团" }
+		51 = { "第%d骑兵团" }
+		52 = { "第%d骑兵团" }
+		53 = { "第%d骑兵团" }
+		54 = { "第%d骑兵团" }
+		55 = { "第%d骑兵团" }
+		56 = { "第%d骑兵团" }
+		57 = { "第%d Legko-Kavaleriyskaya Diviziya" }
+		60 = { "第%d骑兵团" }
+		61 = { "第%d骑兵团" }
+		62 = { "第%d骑兵团" }
+		63 = { "第%d骑兵团" }
+		64 = { "第%d骑兵团" }
+		66 = { "第%d骑兵团" }
+		68 = { "第%d骑兵团" }
+		70 = { "第%d骑兵团" }
+		72 = { "第%d骑兵团" }
+		73 = { "第%d骑兵团" }
+		74 = { "第%d骑兵团" }
+		75 = { "第%d Legko-Kavaleriyskaya Diviziya" }
+		76 = { "第%d骑兵团" }
+		77 = { "第%d骑兵团" }
+		78 = { "第%d骑兵团" }
+		79 = { "第%d骑兵团" }
+		80 = { "第%d骑兵团" }
+		81 = { "第%d骑兵团" }
+		82 = { "第%d骑兵团" }
+		83 = { "第%d Gorno-Kavaleriyskaya Diviziya" }
+		87 = { "第%d骑兵团" }
+		91 = { "第%d骑兵团" }
+		94 = { "第%d骑兵团" }
+		97 = { "第%d骑兵团" }
+		98 = { "第%d骑兵团" }
+		99 = { "第%d骑兵团" }
+		100 = { "第%d骑兵团" }
+		101 = { "第%d骑兵团" }
+		102 = { "第%d骑兵团" }
+		103 = { "第%d骑兵团" }
+		104 = { "第%d骑兵团" }
+		105 = { "第%d骑兵团" }
+		106 = { "第%d骑兵团" }
+		107 = { "第%d骑兵团" }
+		108 = { "第%d骑兵团" }
+		109 = { "第%d骑兵团" }
+		110 = { "第%d骑兵团" }
+		111 = { "第%d骑兵团" }
+		112 = { "第%d骑兵团" }
+		113 = { "第%d骑兵团" }
+		114 = { "第%d骑兵团" }
+		115 = { "第%d骑兵团" }
+		116 = { "第%d骑兵团" }
+		307 = { "7ya Gvds.骑兵团" }
+		308 = { "8ya Gvds.骑兵团" }
+		309 = { "9ya Gvds.骑兵团" }
+		310 = { "10ya Gvds.骑兵团" }
+		311 = { "11ya Gvds.骑兵团" }
+		312 = { "12ya Gvds.骑兵团" }
+		313 = { "13ya Gvds.'Rovenskaya'骑兵团" }
+		314 = { "14ya Gvds.骑兵团" }
+		315 = { "15ya Gvds.骑兵团" }
+		316 = { "16ya Gvds.骑兵团" }
+		317 = { "17ya Gvds.'Mozyr'Kavaleriyskaya Div." }
+		59 = { "第%d骑兵团" }
+		84 = { "第%d骑兵团" }
+	}
+}
+
+SOV_MOT_01 = 
+{
+	name = "摩托化步兵团"
+
+	for_countries = { }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { SOV_INF_01 }
+
+	fallback_name = "第%d摩托化步兵团"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "第%d'Moskva Proletarskaya'摩托化步兵团" }
+		36 = { "第%d'Zabajkal'skaya'摩托化步兵团" }
+		57 = { "第%d'Ural'skaya'摩托化步兵团" }
+		15 = { "第%d'Sivashskaya'摩托化步兵团" }
+		81 = { "第%d摩托化步兵团" }
+		82 = { "第%d摩托化步兵团" }
+		84 = { "第%d摩托化步兵团" }
+		7 = { "第%d'Chernigovskaya'摩托化步兵团" }
+		29 = { "第%d'Sibirskaya'摩托化步兵团" }
+		69 = { "第%d摩托化步兵团" }
+		103 = { "第%d摩托化步兵团" }
+		109 = { "第%d摩托化步兵团" }
+		131 = { "第%d摩托化步兵团" }
+		163 = { "第%d摩托化步兵团" }
+		185 = { "第%d摩托化步兵团" }
+		198 = { "第%d摩托化步兵团" }
+		202 = { "第%d摩托化步兵团" }
+		204 = { "第%d摩托化步兵团" }
+		205 = { "第%d摩托化步兵团" }
+		208 = { "第%d摩托化步兵团" }
+		209 = { "第%d摩托化步兵团" }
+		210 = { "第%d摩托化步兵团" }
+		212 = { "第%d摩托化步兵团" }
+		213 = { "第%d摩托化步兵团" }
+		215 = { "第%d摩托化步兵团" }
+		216 = { "第%d摩托化步兵团" }
+		218 = { "第%d摩托化步兵团" }
+		219 = { "第%d摩托化步兵团" }
+		220 = { "第%d摩托化步兵团" }
+		221 = { "第%d摩托化步兵团" }
+		236 = { "第%d摩托化步兵团" }
+		239 = { "第%d摩托化步兵团" }
+		801 = { "独立作战任务师" }
+		821 = { "21ya NKVD摩托化步兵团" }
+		822 = { "22ya NKVD摩托化步兵团" }
+		823 = { "23ya NKVD摩托化步兵团" }
+		802 = { "2ya NKVD摩托化步兵团" }
+		806 = { "6ya NKVD摩托化步兵团" }
+		803 = { "3ya NKVD摩托化步兵团" }
+		804 = { "4ya NKVD摩托化步兵团" }
+		808 = { "8ya NKVD摩托化步兵团" }
+		807 = { "7ya NKVD摩托化步兵团" }
+		809 = { "9ya NKVD摩托化步兵团" }
+	}
+}
+
+SOV_MEC_01 = 
+{
+	name = "机械化步兵师"
+
+	for_countries = { }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized" "motorized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { SOV_INF_01 }
+
+	fallback_name = "第%d机械化步兵团"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "第%d'Moskva Proletarskaya'机步团" }
+		7 = { "第%d'Chernigovskaya'机步团" }
+		15 = { "第%d'Sivashskaya'机步团" }
+		29 = { "第%d'Sibirskaya'机步团" }
+		69 = { "第%d机械化步兵团" }
+		81 = { "第%d机械化步兵团" }
+		82 = { "第%d机械化步兵团" }
+		84 = { "第%d机械化步兵团" }
+		103 = { "第%d机械化步兵团" }
+		109 = { "第%d机械化步兵团" }
+		131 = { "第%d机械化步兵团" }
+		163 = { "第%d机械化步兵团" }
+		185 = { "第%d机械化步兵团" }
+		198 = { "第%d机械化步兵团" }
+		202 = { "第%d机械化步兵团" }
+		204 = { "第%d机械化步兵团" }
+		205 = { "第%d机械化步兵团" }
+		208 = { "第%d机械化步兵团" }
+		209 = { "第%d机械化步兵团" }
+		210 = { "第%d机械化步兵团" }
+		212 = { "第%d机械化步兵团" }
+		213 = { "第%d机械化步兵团" }
+		215 = { "第%d机械化步兵团" }
+		216 = { "第%d机械化步兵团" }
+		218 = { "第%d机械化步兵团" }
+		219 = { "第%d机械化步兵团" }
+		220 = { "第%d机械化步兵团" }
+		221 = { "第%d机械化步兵团" }
+		236 = { "第%d机械化步兵团" }
+		239 = { "第%d机械化步兵团" }
+		240 = { "第%d机械化步兵团" }
+	}
+}
+
+SOV_ARM_01 = 
+{
+	name = "装甲团"
+
+	for_countries = { }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { SOV_INF_01 }
+
+	fallback_name = "第%d装甲团"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "第%d装甲团" }
+		2 = { "第%d装甲团" }
+		3 = { "第%d装甲团" }
+		4 = { "第%d装甲团" }
+		5 = { "第%d装甲团" }
+		6 = { "第%d装甲团" }
+		7 = { "第%d装甲团" }
+		8 = { "第%d装甲团" }
+		9 = { "第%d装甲团" }
+		10 = { "第%d装甲团" }
+		11 = { "第%d装甲团" }
+		12 = { "第%d装甲团" }
+		13 = { "第%d装甲团" }
+		14 = { "第%d装甲团" }
+		15 = { "第%d装甲团" }
+		16 = { "第%d装甲团" }
+		17 = { "第%d装甲团" }
+		18 = { "第%d装甲团" }
+		19 = { "第%d装甲团" }
+		20 = { "第%d装甲团" }
+		21 = { "第%d装甲团" }
+		22 = { "第%d装甲团" }
+		23 = { "第%d装甲团" }
+		24 = { "第%d装甲团" }
+		25 = { "第%d装甲团" }
+		26 = { "第%d装甲团" }
+		27 = { "第%d装甲团" }
+		28 = { "第%d装甲团" }
+		29 = { "第%d装甲团" }
+		30 = { "第%d装甲团" }
+		31 = { "第%d装甲团" }
+		32 = { "第%d装甲团" }
+		33 = { "第%d装甲团" }
+		34 = { "第%d装甲团" }
+		35 = { "第%d装甲团" }
+		36 = { "第%d装甲团" }
+		37 = { "第%d装甲团" }
+		38 = { "第%d装甲团" }
+		39 = { "第%d装甲团" }
+		40 = { "第%d装甲团" }
+		41 = { "第%d装甲团" }
+		42 = { "第%d装甲团" }
+		43 = { "第%d装甲团" }
+		44 = { "第%d装甲团" }
+		45 = { "第%d装甲团" }
+		46 = { "第%d装甲团" }
+		47 = { "第%d装甲团" }
+		48 = { "第%d装甲团" }
+		49 = { "第%d装甲团" }
+		50 = { "第%d装甲团" }
+		51 = { "第%d装甲团" }
+		52 = { "第%d装甲团" }
+		53 = { "第%d装甲团" }
+		54 = { "第%d装甲团" }
+		55 = { "第%d装甲团" }
+		56 = { "第%d装甲团" }
+		57 = { "第%d装甲团" }
+		58 = { "第%d装甲团" }
+		59 = { "第%d装甲团" }
+		60 = { "第%d装甲团" }
+		61 = { "第%d装甲团" }
+		101 = { "第%d装甲团" }
+		102 = { "第%d装甲团" }
+		104 = { "第%d装甲团" }
+		105 = { "第%d装甲团" }
+		107 = { "第%d装甲团" }
+		108 = { "第%d装甲团" }
+		109 = { "第%d装甲团" }
+		110 = { "第%d装甲团" }
+		111 = { "第%d装甲团" }
+		112 = { "第%d装甲团" }
+	}
+}
+
+SOV_ARM_02 = 
+{
+	name = "Tank Corps"
+
+	for_countries = { }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { SOV_INF_01 }
+
+	fallback_name = "第%d Tankovaya Korpus"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "第%d Tankovaya Korpus" }
+		2 = { "第%d Tankovaya Korpus" }
+		3 = { "第%d Tankovaya Korpus" }
+		4 = { "第%d Tankovaya Korpus" }
+		5 = { "第%d Tankovaya Korpus" }
+		6 = { "第%d Tankovaya Korpus" }
+		7 = { "第%d Tankovaya Korpus" }
+		8 = { "第%d Tankovaya Korpus" }
+		9 = { "第%d Tankovaya Korpus" }
+		10 = { "第%d Tankovaya Korpus" }
+		11 = { "第%d Tankovaya Korpus" }
+		12 = { "第%d Tankovaya Korpus" }
+		13 = { "第%d Tankovaya Korpus" }
+		14 = { "第%d Tankovaya Korpus" }
+		15 = { "第%d Tankovaya Korpus" }
+		16 = { "第%d Tankovaya Korpus" }
+		17 = { "第%d Tankovaya Korpus" }
+		18 = { "第%d Tankovaya Korpus" }
+		19 = { "第%d Tankovaya Korpus" }
+		20 = { "第%d Tankovaya Korpus" }
+		21 = { "第%d Tankovaya Korpus" }
+		22 = { "第%d Tankovaya Korpus" }
+		23 = { "第%d Tankovaya Korpus" }
+		24 = { "第%d Tankovaya Korpus" }
+		25 = { "第%d Tankovaya Korpus" }
+		26 = { "第%d Tankovaya Korpus" }
+		27 = { "第%d Tankovaya Korpus" }
+		28 = { "第%d Tankovaya Korpus" }
+		29 = { "第%d Tankovaya Korpus" }
+		30 = { "第%d Tankovaya Korpus" }
+		31 = { "第%d Tankovaya Korpus" }
+		32 = { "第%d Tankovaya Korpus" }
+		33 = { "第%d Tankovaya Korpus" }
+		34 = { "第%d Tankovaya Korpus" }
+		35 = { "第%d Tankovaya Korpus" }
+		36 = { "第%d Tankovaya Korpus" }
+		37 = { "第%d Tankovaya Korpus" }
+		38 = { "第%d Tankovaya Korpus" }
+		39 = { "第%d Tankovaya Korpus" }
+		40 = { "第%d Tankovaya Korpus" }
+		41 = { "第%d Tankovaya Korpus" }
+		42 = { "第%d Tankovaya Korpus" }
+		43 = { "第%d Tankovaya Korpus" }
+		44 = { "第%d Tankovaya Korpus" }
+		45 = { "第%d Tankovaya Korpus" }
+		46 = { "第%d Tankovaya Korpus" }
+		47 = { "第%d Tankovaya Korpus" }
+		48 = { "第%d Tankovaya Korpus" }
+		49 = { "第%d Tankovaya Korpus" }
+		50 = { "第%d Tankovaya Korpus" }
+		51 = { "第%d Tankovaya Korpus" }
+		52 = { "第%d Tankovaya Korpus" }
+		53 = { "第%d Tankovaya Korpus" }
+		54 = { "第%d Tankovaya Korpus" }
+		55 = { "第%d Tankovaya Korpus" }
+		56 = { "第%d Tankovaya Korpus" }
+		57 = { "第%d Tankovaya Korpus" }
+		58 = { "第%d Tankovaya Korpus" }
+		59 = { "第%d Tankovaya Korpus" }
+		60 = { "第%d Tankovaya Korpus" }
+		61 = { "第%d Tankovaya Korpus" }
+		101 = { "第%d Tankovaya Korpus" }
+		102 = { "第%d Tankovaya Korpus" }
+		104 = { "第%d Tankovaya Korpus" }
+		105 = { "第%d Tankovaya Korpus" }
+		107 = { "第%d Tankovaya Korpus" }
+		108 = { "第%d Tankovaya Korpus" }
+		109 = { "第%d Tankovaya Korpus" }
+		110 = { "第%d Tankovaya Korpus" }
+		111 = { "第%d Tankovaya Korpus" }
+		112 = { "第%d Tankovaya Korpus" }
+	}
+}
+
+SOV_ARM_03 = 
+{
+	name = "Guard Tank Corps"
+
+	for_countries = { }
+
+	can_use = { has_war = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { SOV_INF_01 }
+
+	fallback_name = "第%d Gvardeiskaya Tankovaya Korpus"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		2 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		3 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		4 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		5 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		6 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		7 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		8 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		9 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		10 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		11 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		12 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		13 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		14 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		15 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		16 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		17 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		18 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		19 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		20 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		21 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		22 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		23 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		24 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		25 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		26 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		27 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		28 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		29 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		30 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		31 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		32 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		33 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		34 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		35 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		36 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		37 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		38 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		39 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		40 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		41 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		42 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		43 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		44 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		45 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		46 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		47 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		48 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		49 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		50 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		51 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		52 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		53 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		54 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		55 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		56 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		57 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		58 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		59 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		60 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		61 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		101 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		102 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		104 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		105 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		107 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		108 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		109 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		110 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		111 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+		112 = { "第%d Gvardeiskaya Tankovaya Korpus" }
+	}
+}
+
+SOV_ARM_04 = 
+{
+	name = "Tank Brigade"
+
+	for_countries = { }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { SOV_INF_01 }
+
+	fallback_name = "第%d Tankovaya Brigada"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "第%d Tankovaya Brigada" }
+		2 = { "第%d Tankovaya Brigada" }
+		3 = { "第%d Tankovaya Brigada" }
+		4 = { "第%d Tankovaya Brigada" }
+		5 = { "第%d Tankovaya Brigada" }
+		6 = { "第%d Tankovaya Brigada" }
+		7 = { "第%d Tankovaya Brigada" }
+		8 = { "第%d Tankovaya Brigada" }
+		9 = { "第%d Tankovaya Brigada" }
+		10 = { "第%d Tankovaya Brigada" }
+		11 = { "第%d Tankovaya Brigada" }
+		12 = { "第%d Tankovaya Brigada" }
+		13 = { "第%d Tankovaya Brigada" }
+		14 = { "第%d Tankovaya Brigada" }
+		15 = { "第%d Tankovaya Brigada" }
+		16 = { "第%d Tankovaya Brigada" }
+		17 = { "第%d Tankovaya Brigada" }
+		18 = { "第%d Tankovaya Brigada" }
+		19 = { "第%d Tankovaya Brigada" }
+		20 = { "第%d Tankovaya Brigada" }
+		21 = { "第%d Tankovaya Brigada" }
+		22 = { "第%d Tankovaya Brigada" }
+		23 = { "第%d Tankovaya Brigada" }
+		24 = { "第%d Tankovaya Brigada" }
+		25 = { "第%d Tankovaya Brigada" }
+		26 = { "第%d Tankovaya Brigada" }
+		27 = { "第%d Tankovaya Brigada" }
+		28 = { "第%d Tankovaya Brigada" }
+		29 = { "第%d Tankovaya Brigada" }
+		30 = { "第%d Tankovaya Brigada" }
+		31 = { "第%d Tankovaya Brigada" }
+		32 = { "第%d Tankovaya Brigada" }
+		33 = { "第%d Tankovaya Brigada" }
+		34 = { "第%d Tankovaya Brigada" }
+		35 = { "第%d Tankovaya Brigada" }
+		36 = { "第%d Tankovaya Brigada" }
+		37 = { "第%d Tankovaya Brigada" }
+		38 = { "第%d Tankovaya Brigada" }
+		39 = { "第%d Tankovaya Brigada" }
+		40 = { "第%d Tankovaya Brigada" }
+		41 = { "第%d Tankovaya Brigada" }
+		42 = { "第%d Tankovaya Brigada" }
+		43 = { "第%d Tankovaya Brigada" }
+		44 = { "第%d Tankovaya Brigada" }
+		45 = { "第%d Tankovaya Brigada" }
+		46 = { "第%d Tankovaya Brigada" }
+		47 = { "第%d Tankovaya Brigada" }
+		48 = { "第%d Tankovaya Brigada" }
+		49 = { "第%d Tankovaya Brigada" }
+		50 = { "第%d Tankovaya Brigada" }
+		51 = { "第%d Tankovaya Brigada" }
+		52 = { "第%d Tankovaya Brigada" }
+		53 = { "第%d Tankovaya Brigada" }
+		54 = { "第%d Tankovaya Brigada" }
+		55 = { "第%d Tankovaya Brigada" }
+		56 = { "第%d Tankovaya Brigada" }
+		57 = { "第%d Tankovaya Brigada" }
+		58 = { "第%d Tankovaya Brigada" }
+		59 = { "第%d Tankovaya Brigada" }
+		60 = { "第%d Tankovaya Brigada" }
+		61 = { "第%d Tankovaya Brigada" }
+		101 = { "第%d Tankovaya Brigada" }
+		102 = { "第%d Tankovaya Brigada" }
+		104 = { "第%d Tankovaya Brigada" }
+		105 = { "第%d Tankovaya Brigada" }
+		107 = { "第%d Tankovaya Brigada" }
+		108 = { "第%d Tankovaya Brigada" }
+		109 = { "第%d Tankovaya Brigada" }
+		110 = { "第%d Tankovaya Brigada" }
+		111 = { "第%d Tankovaya Brigada" }
+		112 = { "第%d Tankovaya Brigada" }
+	}
+}
+
+SOV_PAR_01 = 
+{
+	name = "Paratrooper Division"
+
+	for_countries = { }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { SOV_INF_01 }
+
+	fallback_name = "第%d Vozdushno-Desantnaya Div."
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "第%d Vozdushno-Desantnaya Div." }
+		2 = { "第%d Vozdushno-Desantnaya Div." }
+		3 = { "第%d Vozdushno-Desantnaya Div." }
+		4 = { "第%d Vozdushno-Desantnaya Div." }
+		5 = { "第%d Vozdushno-Desantnaya Div." }
+		6 = { "第%d Vozdushno-Desantnaya Div." }
+		7 = { "第%d Vozdushno-Desantnaya Div." }
+		8 = { "第%d Vozdushno-Desantnaya Div." }
+		9 = { "第%d Vozdushno-Desantnaya Div." }
+		10 = { "第%d Vozdushno-Desantnaya Div." }
+		11 = { "第%d Vozdushno-Desantnaya Div." }
+		12 = { "第%d Vozdushno-Desantnaya Div." }
+		101 = { "1ya Gvds. Vozdushno-Desantnaya Div." }
+		102 = { "2ya Gvds. Vozdushno-Desantnaya Div." }
+		103 = { "3ya Gvds. Vozdushno-Desantnaya Div." }
+		104 = { "4ya Gvds. Vozdushno-Desantnaya Div." }
+		105 = { "5ya Gvds. Vozdushno-Desantnaya Div." }
+		106 = { "6ya Gvds. Vozdushno-Desantnaya Div." }
+		107 = { "7ya Gvds.'Cherkassy'Voz.-Desantnaya Div." }
+		108 = { "8ya Gvds. Vozdushno-Desantnaya Div." }
+		109 = { "9ya Gvds. Vozdushno-Desantnaya Div." }
+		110 = { "10ya Gvds. Vozdushno-Desantnaya Div." }
+		111 = { "11ya Gvds. Vozdushno-Desantnaya Div." }
+		112 = { "12ya Gvds. Vozdushno-Desantnaya Div." }
+		113 = { "13ya Gvds. Vozdushno-Desantnaya Div." }
+		114 = { "14ya Gvds. Vozdushno-Desantnaya Div." }
+		115 = { "15ya Gvds. Vozdushno-Desantnaya Div." }
+		116 = { "16ya Gvds. Vozdushno-Desantnaya Div." }
+		121 = { "21ya Gvds. Vozdushno-Desantnaya Div." }
+		131 = { "31ya Gvds. Vozdushno-Desantnaya Div." }
+		176 = { "76ya Gvds.'Chernigov'Voz.-Desantnaya Div." }
+		198 = { "98ya Gvds.'Svir'Voz.-Desantnaya Div." }
+		203 = { "103ya Gvds. Vozdushno-Desantnaya Div." }
+		204 = { "104ya Gvds. Vozdushno-Desantnaya Div." }
+		206 = { "106ya Gvds.'Tula'Voz.-Desantnaya Div." }
+		214 = { "114ya Gvds. Vozdushno-Desantnaya Div." }
+	}
+}
+
+SOV_MAR_01 = 
+{
+	name = "Marine Division"
+
+	for_countries = { }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { SOV_INF_01 }
+
+	fallback_name = "第%d Diviziya Morskoi Pekhoty"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "第%d Diviziya Morskoi Pekhoty" }
+		2 = { "第%d Diviziya Morskoi Pekhoty" }
+		3 = { "第%d Diviziya Morskoi Pekhoty" }
+		4 = { "第%d Diviziya Morskoi Pekhoty" }
+		5 = { "第%d Diviziya Morskoi Pekhoty" }
+		6 = { "第%d Diviziya Morskoi Pekhoty" }
+		7 = { "第%d Diviziya Morskoi Pekhoty" }
+		8 = { "第%d Diviziya Morskoi Pekhoty" }
+		9 = { "第%d Diviziya Morskoi Pekhoty" }
+		10 = { "第%d Diviziya Morskoi Pekhoty" }
+	}
+}
+
+SOV_MNT_01 = 
+{
+	name = "Mountain Rifle Division"
+
+	for_countries = { }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { SOV_INF_01 }
+
+	fallback_name = "第%d Gornostrelkovaya Diviziya"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		9 = { "第%d'Kavkazskaya'Gornostrelk.Div." }
+		20 = { "第%d'Proletar. Donb.'Gorno步枪团" }
+		30 = { "第%d'Irkutskaya'Gorno步枪团" }
+		44 = { "第%d'Kievskaya'Gorno步枪团" }
+		47 = { "第%d'Gruzinskaya'Gornostrelk. Diviziya" }
+		60 = { "第%d'Kavkazskaya'Gornostrelk. Diviziya" }
+		76 = { "第%d'Armyanskaya'Gorno步枪团" }
+		96 = { "第%d'Vinnitskaya'Gorno步枪团" }
+		63 = { "第%d'Gruzinskaya'Gorno步枪团" }
+		77 = { "第%d'Azerbajdzhansk.'Gorno步枪团" }
+		83 = { "第%d'Turkestanskaya'Gorno步枪团" }
+		58 = { "第%d Gornostrelkovaya Diviziya" }
+		72 = { "第%d'Turkestanskaya'Gorno步枪团" }
+		68 = { "第%d'Turkestanskaya'Gorno步枪团" }
+		28 = { "第%d'Gorskaya'Gorno步枪团" }
+		79 = { "第%d Gornostrelkovaya Diviziya" }
+		101 = { "第%d Gornostrelkovaya Diviziya" }
+		138 = { "第%d Gornostrelkovaya Diviziya" }
+		192 = { "第%d Gornostrelkovaya Diviziya" }
+		194 = { "第%d Gornostrelkovaya Diviziya" }
+		232 = { "第%d Gornostrelkovaya Diviziya" }
+		302 = { "第%d Gornostrelkovaya Diviziya" }
+	}
+}
+
+SOV_GAR_01 = 
+{
+	name = "Garrison Division"
+
+	for_countries = { }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { SOV_INF_01 }
+
+	fallback_name = "第%d NKVD Pogranichnaya Diviziya"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "第%d NKVD Pogranichnaya Diviziya" }
+		2 = { "第%d NKVD Zashchite Zheleznykh Div." }
+		3 = { "第%d NKVD Pogranichnaya Diviziya" }
+		4 = { "第%d NKVD Pogranichnaya Diviziya" }
+		5 = { "第%d NKVD Pogranichnaya Diviziya" }
+		6 = { "第%d NKVD Pogranichnaya Diviziya" }
+		7 = { "第%d NKVD Pogranichnaya Diviziya" }
+		8 = { "第%d NKVD Pogranichnaya Diviziya" }
+		9 = { "第%d NKVD Pogranichnaya Diviziya" }
+		10 = { "第%d NKVD Pogranichnaya Diviziya" }
+		11 = { "第%d NKVD Pogranichnaya Diviziya" }
+		12 = { "第%d NKVD Pogranichnaya Diviziya" }
+		13 = { "第%d NKVD Pogranichnaya Diviziya" }
+		14 = { "第%d NKVD Zashchite Zheleznykh Div." }
+		15 = { "第%d NKVD SU Otdel Diviziya" }
+		16 = { "第%d NKVD SU Otdel Diviziya" }
+		17 = { "第%d NKVD Pogranichnaya Diviziya" }
+		18 = { "第%d NKVD Zashchite Zheleznykh Div." }
+		19 = { "第%d NKVD SU Otdel Diviziya" }
+		24 = { "第%d NKVD Zashchite Zheleznykh Div." }
+		25 = { "第%d NKVD Zashchite Zheleznykh Div." }
+		26 = { "第%d NKVD Zashchite Zheleznykh Div." }
+		27 = { "第%d NKVD Zashchite Zheleznykh Div." }
+		28 = { "第%d NKVD Zashchite Zheleznykh Div." }
+		29 = { "第%d NKVD Zashchite Zheleznykh Div." }
+		30 = { "第%d NKVD Zashchite Zheleznykh Div." }
+		31 = { "第%d NKVD Zashchite Zheleznykh Div." }
+		32 = { "第%d NKVD Zashchite Zheleznykh Div." }
+		33 = { "第%d NKVD Zashchite Zheleznykh Div." }
+		34 = { "第%d NKVD Zashchite Zheleznykh Div." }
+		35 = { "第%d NKVD BZ Otdel Diviziya" }
+		36 = { "第%d NKVD BZ Otdel Diviziya" }
+		37 = { "第%d NKVD BZ Otdel Diviziya" }
+		38 = { "第%d NKVD BZ Otdel Diviziya" }
+		41 = { "第%d NKVD Zashchite Zheleznykh Div." }
+		101 = { "1ya'Kirov'Narodnoe Opolcheniye Div." }
+		102 = { "2ya'Moskva'Narodnoe Opolcheniye Div." }
+		103 = { "3ya'Frunze'Narodnoe Opolcheniye Div." }
+		104 = { "4ya'Dzerzhinsky'Narodnoe Opol. Div." }
+		105 = { "5ya'Kuybishevskaya'Narodnoe Opol. Div." }
+		106 = { "6ya Narodnoe Opol. Div." }
+		107 = { "7ya Narodnoe Opol. Div." }
+		108 = { "1ya'Lenin'Narodnoe Opol. Div." }
+		109 = { "2ya'Stalin'Narodnoe Opol. Div." }
+		110 = { "4ya'Kuybishev'Narodnoe Opol. Div." }
+		111 = { "5ya'Frunze'Narodnoe Opol. Div." }
+		112 = { "6ya'Dzerzhinsky'Narodnoe Opol. Div." }
+		113 = { "7ya'Bauman'Narodnoe Opol. Div." }
+		114 = { "8ya'Krasnpreensky'Narodnoe Opol. Div." }
+		115 = { "9ya'Kirov'Narodnoe Opol. Div." }
+		116 = { "13ya'Rostock'Narodnoe Opol. Div." }
+		117 = { "17ya'Moskovorets'Narodnoe Opol. Div." }
+		118 = { "18ya'Leningrad'Narodnoe Opol. Div." }
+		119 = { "21ya'Kiev'Narodnoe Opol. Div." }
+		120 = { "1ya Kommuna Narodnoe Opol. Div." }
+		121 = { "2ya Kommuna Narodnoe Opol. Div." }
+		122 = { "3ya'Moskva'Kommuna Narodnoe Opol. Div." }
+		123 = { "4ya Kommuna Narodnoe Opol. Div." }
+		39 = { "第%d NKVD BZ Otdel Diviziya" }
+		45 = { "第%d NKVD BZ Otdel Diviziya" }
+		46 = { "第%d NKVD BZ Otdel Diviziya" }
+		47 = { "第%d NKVD BZ Otdel Diviziya" }
+		48 = { "第%d NKVD BZ Otdel Diviziya" }
+		49 = { "第%d NKVD BZ Otdel Diviziya" }
+		50 = { "第%d NKVD BZ Otdel Diviziya" }
+		51 = { "第%d NKVD BZ Otdel Diviziya" }
+		52 = { "第%d NKVD BZ Otdel Diviziya" }
+		53 = { "第%d NKVD BZ Otdel Diviziya" }
+		56 = { "第%d NKVD BZ Otdel Diviziya" }
+		57 = { "第%d NKVD步枪团" }
+		58 = { "第%d NKVD步枪团" }
+		59 = { "第%d NKVD步枪团" }
+		60 = { "第%d NKVD步枪团" }
+		61 = { "第%d NKVD步枪团" }
+		62 = { "第%d NKVD步枪团" }
+		63 = { "第%d NKVD步枪团" }
+		64 = { "第%d NKVD步枪团" }
+		65 = { "第%d NKVD步枪团" }
+		66 = { "第%d NKVD步枪团" }
+	}
+}
+
+SOV_GRD_01 = 
+{
+	name = "Guards Rifles"
+
+	for_countries = { }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { SOV_INF_01 }
+
+	fallback_name = "第%d Gvardyeiskaya 步枪团"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "第%d'Moskva'Gvds. 步枪团" }
+		2 = { "第%d'Tamanskaya'Gvds. 步枪团" }
+		3 = { "第%d'Volnovakhskaya'Gvds. 步枪团" }
+		4 = { "第%d'Apostolov'Gvds. 步枪团" }
+		5 = { "第%d Gvardyeiskaya 步枪团" }
+		6 = { "第%d Gvardyeiskaya 步枪团" }
+		7 = { "第%d Gvardyeiskaya 步枪团" }
+		8 = { "第%d Gvardyeiskaya 步枪团" }
+		9 = { "第%d Gvardyeiskaya 步枪团" }
+		10 = { "第%d Gvardyeiskaya 步枪团" }
+		11 = { "第%d Gvardyeiskaya 步枪团" }
+		12 = { "第%d Gvardyeiskaya 步枪团" }
+		13 = { "第%d Gvardyeiskaya 步枪团" }
+		14 = { "第%d Gvardyeiskaya 步枪团" }
+		15 = { "第%d Gvardyeiskaya 步枪团" }
+		16 = { "第%d Gvardyeiskaya 步枪团" }
+		17 = { "第%d Gvardyeiskaya 步枪团" }
+		18 = { "第%d Gvardyeiskaya 步枪团" }
+		19 = { "第%d Gvardyeiskaya 步枪团" }
+		20 = { "第%d Gvardyeiskaya 步枪团" }
+		21 = { "第%d Gvardyeiskaya 步枪团" }
+		22 = { "第%d Gvardyeiskaya 步枪团" }
+		23 = { "第%d Gvardyeiskaya 步枪团" }
+		24 = { "第%d Gvardyeiskaya 步枪团" }
+		25 = { "第%d Gvardyeiskaya 步枪团" }
+		26 = { "第%d Gvardyeiskaya 步枪团" }
+		27 = { "第%d Gvardyeiskaya 步枪团" }
+		28 = { "第%d Gvardyeiskaya 步枪团" }
+		29 = { "第%d Gvardyeiskaya 步枪团" }
+		30 = { "第%d Gvardyeiskaya 步枪团" }
+		31 = { "第%d Gvardyeiskaya 步枪团" }
+		32 = { "第%d Gvardyeiskaya 步枪团" }
+		33 = { "第%d Gvardyeiskaya 步枪团" }
+		34 = { "第%d Gvardyeiskaya 步枪团" }
+		35 = { "第%d Gvardyeiskaya 步枪团" }
+		36 = { "第%d Gvardyeiskaya 步枪团" }
+		37 = { "第%d Gvardyeiskaya 步枪团" }
+		38 = { "第%d Gvardyeiskaya 步枪团" }
+		39 = { "第%d Gvardyeiskaya 步枪团" }
+		40 = { "第%d Gvardyeiskaya 步枪团" }
+		41 = { "第%d Gvardyeiskaya 步枪团" }
+		42 = { "第%d Gvardyeiskaya 步枪团" }
+		43 = { "第%d Gvardyeiskaya 步枪团" }
+		44 = { "第%d Gvardyeiskaya 步枪团" }
+		45 = { "第%d Gvardyeiskaya 步枪团" }
+		46 = { "第%d Gvardyeiskaya 步枪团" }
+		47 = { "第%d Gvardyeiskaya 步枪团" }
+		48 = { "第%d Gvardyeiskaya 步枪团" }
+		49 = { "第%d Gvardyeiskaya 步枪团" }
+		50 = { "第%d Gvardyeiskaya 步枪团" }
+		51 = { "第%d Gvardyeiskaya 步枪团" }
+		52 = { "第%d Gvardyeiskaya 步枪团" }
+		53 = { "第%d Gvardyeiskaya 步枪团" }
+		54 = { "第%d Gvardyeiskaya 步枪团" }
+		55 = { "第%d Gvardyeiskaya 步枪团" }
+		56 = { "第%d Gvardyeiskaya 步枪团" }
+		57 = { "第%d Gvardyeiskaya 步枪团" }
+		58 = { "第%d Gvardyeiskaya 步枪团" }
+		59 = { "第%d Gvardyeiskaya 步枪团" }
+		60 = { "第%d Gvardyeiskaya 步枪团" }
+		61 = { "第%d Gvardyeiskaya 步枪团" }
+		62 = { "第%d Gvardyeiskaya 步枪团" }
+		63 = { "第%d Gvardyeiskaya 步枪团" }
+		64 = { "第%d Gvardyeiskaya 步枪团" }
+		65 = { "第%d Gvardyeiskaya 步枪团" }
+		66 = { "第%d Gvardyeiskaya 步枪团" }
+		67 = { "第%d Gvardyeiskaya 步枪团" }
+		68 = { "第%d Gvardyeiskaya 步枪团" }
+		69 = { "第%d Gvardyeiskaya 步枪团" }
+		70 = { "第%d Gvardyeiskaya 步枪团" }
+		71 = { "第%d Gvardyeiskaya 步枪团" }
+		72 = { "第%d Gvardyeiskaya 步枪团" }
+		73 = { "第%d Gvardyeiskaya 步枪团" }
+		74 = { "第%d Gvardyeiskaya 步枪团" }
+		75 = { "第%d Gvardyeiskaya 步枪团" }
+		76 = { "第%d Gvardyeiskaya 步枪团" }
+		77 = { "第%d Gvardyeiskaya 步枪团" }
+		78 = { "第%d Gvardyeiskaya 步枪团" }
+		79 = { "第%d Gvardyeiskaya 步枪团" }
+		80 = { "第%d Gvardyeiskaya 步枪团" }
+		81 = { "第%d Gvardyeiskaya 步枪团" }
+		82 = { "第%d Gvardyeiskaya 步枪团" }
+		83 = { "第%d Gvardyeiskaya 步枪团" }
+		84 = { "第%d Gvardyeiskaya 步枪团" }
+		85 = { "第%d Gvardyeiskaya 步枪团" }
+		86 = { "第%d Gvardyeiskaya 步枪团" }
+		87 = { "第%d Gvardyeiskaya 步枪团" }
+		88 = { "第%d Gvardyeiskaya 步枪团" }
+		89 = { "第%d Gvardyeiskaya 步枪团" }
+		90 = { "第%d Gvardyeiskaya 步枪团" }
+		91 = { "第%d Gvardyeiskaya 步枪团" }
+		92 = { "第%d Gvardyeiskaya 步枪团" }
+		93 = { "第%d Gvardyeiskaya 步枪团" }
+		94 = { "第%d Gvardyeiskaya 步枪团" }
+		95 = { "第%d Gvardyeiskaya 步枪团" }
+		96 = { "第%d Gvardyeiskaya 步枪团" }
+		97 = { "第%d Gvardyeiskaya 步枪团" }
+		98 = { "第%d Gvardyeiskaya 步枪团" }
+		99 = { "第%d Gvardyeiskaya 步枪团" }
+		100 = { "第%d Gvardyeiskaya 步枪团" }
+		101 = { "第%d Gvardyeiskaya 步枪团" }
+		102 = { "第%d Gvardyeiskaya 步枪团" }
+		103 = { "第%d Gvardyeiskaya 步枪团" }
+		104 = { "第%d Gvardyeiskaya 步枪团" }
+		105 = { "第%d Gvardyeiskaya 步枪团" }
+		106 = { "第%d Gvardyeiskaya 步枪团" }
+		107 = { "第%d Gvardyeiskaya 步枪团" }
+		108 = { "第%d Gvardyeiskaya 步枪团" }
+		109 = { "第%d Gvardyeiskaya 步枪团" }
+		110 = { "第%d Gvardyeiskaya 步枪团" }
+		111 = { "第%d Gvardyeiskaya 步枪团" }
+		112 = { "第%d Gvardyeiskaya 步枪团" }
+		113 = { "第%d Gvardyeiskaya 步枪团" }
+		114 = { "第%d Gvardyeiskaya 步枪团" }
+		115 = { "第%d Gvardyeiskaya 步枪团" }
+		116 = { "第%d Gvardyeiskaya 步枪团" }
+		117 = { "第%d Gvardyeiskaya 步枪团" }
+		118 = { "第%d Gvardyeiskaya 步枪团" }
+		119 = { "第%d Gvardyeiskaya 步枪团" }
+		120 = { "第%d Gvardyeiskaya 步枪团" }
+		121 = { "第%d Gvardyeiskaya 步枪团" }
+		122 = { "第%d Gvardyeiskaya 步枪团" }
+		123 = { "第%d Gvardyeiskaya 步枪团" }
+		124 = { "第%d Gvardyeiskaya 步枪团" }
+		125 = { "第%d Gvardyeiskaya 步枪团" }
+		126 = { "第%d Gvardyeiskaya 步枪团" }
+		127 = { "第%d Gvardyeiskaya 步枪团" }
+		128 = { "第%d Gvardyeiskaya 步枪团" }
+		129 = { "第%d Gvardyeiskaya 步枪团" }
+	}
+}
+
+SOV_GMC_01 = 
+{
+	name = "Guards Mechanized"
+
+	for_countries = { }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized" "motorized" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { SOV_INF_01 }
+
+	fallback_name = "第%d Gvds. Mekhanizirovanaya Korpus"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "第%d'Vienna'Gvds. Mekh. Korpus" }
+		2 = { "第%d Gvds. Mekhanizirovanaya Korpus" }
+		3 = { "第%d Gvds. Mekhanizirovanaya Korpus" }
+		4 = { "第%d Gvds. Mekhanizirovanaya Korpus" }
+		5 = { "第%d'Zimovnikovskaya'Gvds. Mekh. Korpus" }
+		6 = { "第%d Gvds. Mekhanizirovanaya Korpus" }
+		7 = { "第%d Gvds. Mekhanizirovanaya Korpus" }
+		8 = { "第%d Gvds. Mekhanizirovanaya Korpus" }
+		9 = { "第%d Gvds. Mekhanizirovanaya Korpus" }
+	}
+}
+
+SOV_GTC_01 = 
+{
+	name = "Guards Tanks"
+
+	for_countries = { }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { SOV_INF_01 }
+
+	fallback_name = "第%d Gvds. Tankovaya Korpus"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "第%d Gvds. Tankovaya Korpus" }
+		2 = { "第%d'Tatsinskaya'Gvds. Tank. Korpus" }
+		3 = { "第%d Gvds. Tankovaya Korpus" }
+		4 = { "第%d'Kantemirovskaya'Gvds. Tank. Korpus" }
+		5 = { "第%d Gvds. Tankovaya Korpus" }
+		6 = { "第%d Gvds. Tankovaya Korpus" }
+		7 = { "第%d Gvds. Tankovaya Korpus" }
+		8 = { "第%d Gvds. Tankovaya Korpus" }
+		9 = { "第%d Gvds. Tankovaya Korpus" }
+		10 = { "第%d'Uralsko-Lvovskaya'Gvds. Tank. Korpus" }
+		11 = { "第%d Gvds. Tankovaya Korpus" }
+		12 = { "第%d Gvds. Tankovaya Korpus" }
+	}
+}
+
+SOV_PEN_01 = 
+{
+	name = "惩戒营"
+
+	for_countries = { }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { SOV_INF_01 }
+
+	fallback_name = "第%d惩戒营"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "第%d惩戒营" }
+		2 = { "第%d惩戒营" }
+		3 = { "第%d惩戒营" }
+		4 = { "第%d惩戒营" }
+		5 = { "第%d惩戒营" }
+		6 = { "第%d惩戒营" }
+		7 = { "第%d惩戒营" }
+		8 = { "第%d惩戒营" }
+		9 = { "第%d惩戒营" }
+		10 = { "第%d惩戒营" }
+		11 = { "第%d惩戒营" }
+		12 = { "第%d惩戒营" }
+		13 = { "第%d惩戒营" }
+		14 = { "第%d惩戒营" }
+		15 = { "第%d惩戒营" }
+		16 = { "第%d惩戒营" }
+		17 = { "第%d惩戒营" }
+		18 = { "第%d惩戒营" }
+		19 = { "第%d惩戒营" }
+		20 = { "第%d惩戒营" }
+		21 = { "第%d惩戒营" }
+		22 = { "第%d惩戒营" }
+		23 = { "第%d惩戒营" }
+		24 = { "第%d惩戒营" }
+		25 = { "第%d惩戒营" }
+		26 = { "第%d惩戒营" }
+		27 = { "第%d惩戒营" }
+		28 = { "第%d惩戒营" }
+		29 = { "第%d惩戒营" }
+		30 = { "第%d惩戒营" }
+		31 = { "第%d惩戒营" }
+		32 = { "第%d惩戒营" }
+		33 = { "第%d惩戒营" }
+		34 = { "第%d惩戒营" }
+		35 = { "第%d惩戒营" }
+		36 = { "第%d惩戒营" }
+		37 = { "第%d惩戒营" }
+		38 = { "第%d惩戒营" }
+		39 = { "第%d惩戒营" }
+		40 = { "第%d惩戒营" }
+		41 = { "第%d惩戒营" }
+		42 = { "第%d惩戒营" }
+		43 = { "第%d惩戒营" }
+		44 = { "第%d惩戒营" }
+		45 = { "第%d惩戒营" }
+		46 = { "第%d惩戒营" }
+		47 = { "第%d惩戒营" }
+		48 = { "第%d惩戒营" }
+		49 = { "第%d惩戒营" }
+		50 = { "第%d惩戒营" }
+		51 = { "第%d惩戒营" }
+		52 = { "第%d惩戒营" }
+		53 = { "第%d惩戒营" }
+		54 = { "第%d惩戒营" }
+		55 = { "第%d惩戒营" }
+		56 = { "第%d惩戒营" }
+		57 = { "第%d惩戒营" }
+		58 = { "第%d惩戒营" }
+		59 = { "第%d惩戒营" }
+		60 = { "第%d惩戒营" }
+		61 = { "第%d惩戒营" }
+		62 = { "第%d惩戒营" }
+		63 = { "第%d惩戒营" }
+		64 = { "第%d惩戒营" }
+		65 = { "第%d惩戒营" }
+		66 = { "第%d惩戒营" }
+		67 = { "第%d惩戒营" }
+		68 = { "第%d惩戒营" }
+		69 = { "第%d惩戒营" }
+		70 = { "第%d惩戒营" }
+		71 = { "第%d惩戒营" }
+		72 = { "第%d惩戒营" }
+		73 = { "第%d惩戒营" }
+		74 = { "第%d惩戒营" }
+		75 = { "第%d惩戒营" }
+		76 = { "第%d惩戒营" }
+		77 = { "第%d惩戒营" }
+		78 = { "第%d惩戒营" }
+		79 = { "第%d惩戒营" }
+		80 = { "第%d惩戒营" }
+		81 = { "第%d惩戒营" }
+		82 = { "第%d惩戒营" }
+		83 = { "第%d惩戒营" }
+		84 = { "第%d惩戒营" }
+		85 = { "第%d惩戒营" }
+		86 = { "第%d惩戒营" }
+		87 = { "第%d惩戒营" }
+		88 = { "第%d惩戒营" }
+		89 = { "第%d惩戒营" }
+		90 = { "第%d惩戒营" }
+		91 = { "第%d惩戒营" }
+		92 = { "第%d惩戒营" }
+		93 = { "第%d惩戒营" }
+		94 = { "第%d惩戒营" }
+		95 = { "第%d惩戒营" }
+		96 = { "第%d惩戒营" }
+		97 = { "第%d惩戒营" }
+		98 = { "第%d惩戒营" }
+		99 = { "第%d惩戒营" }
+		100 = { "第%d惩戒营" }
+		101 = { "第%d惩戒营" }
+		102 = { "第%d惩戒营" }
+		103 = { "第%d惩戒营" }
+		104 = { "第%d惩戒营" }
+		105 = { "第%d惩戒营" }
+		106 = { "第%d惩戒营" }
+		107 = { "第%d惩戒营" }
+		108 = { "第%d惩戒营" }
+		109 = { "第%d惩戒营" }
+		110 = { "第%d惩戒营" }
+		111 = { "第%d惩戒营" }
+		112 = { "第%d惩戒营" }
+		113 = { "第%d惩戒营" }
+		114 = { "第%d惩戒营" }
+		115 = { "第%d惩戒营" }
+		116 = { "第%d惩戒营" }
+		117 = { "第%d惩戒营" }
+		118 = { "第%d惩戒营" }
+		119 = { "第%d惩戒营" }
+		120 = { "第%d惩戒营" }
+		121 = { "第%d惩戒营" }
+		122 = { "第%d惩戒营" }
+		123 = { "第%d惩戒营" }
+		124 = { "第%d惩戒营" }
+		125 = { "第%d惩戒营" }
+		126 = { "第%d惩戒营" }
+		127 = { "第%d惩戒营" }
+		128 = { "第%d惩戒营" }
+		129 = { "第%d惩戒营" }
+	}
+}

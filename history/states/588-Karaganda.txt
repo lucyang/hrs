@@ -1,0 +1,18 @@
+state={
+	id=588
+	name="STATE_588"
+	provinces={
+		10 83 119 171 190 256 291 309 358 452 494 543 577 580 588 616 654 738 741 891 1068 1074 1159 1172 1227 1459 1526 1752 2139 2306 2423 2488 2547 2554 2597 2663 3084 3173 3188 3443 3444 3445 3460 3472
+	}
+	history = {
+		owner = KAZ
+		add_core_of = KAZ
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=1000
+	state_category = pastoral
+	local_supplies = 0.0
+}

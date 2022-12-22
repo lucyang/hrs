@@ -1,0 +1,23 @@
+state={
+	id=396
+	name="STATE_396"
+	provinces={
+		4299 4303
+	}
+	history = {
+		owner = HSW
+		
+		victory_points = { 4299 1 }
+		
+		buildings = {
+			infrastructure = 1
+			air_base = 1	
+			4299 = {
+				naval_base = 2
+			}
+		}
+	}
+	manpower=36842
+	state_category = small_island
+	local_supplies = 0.0
+}

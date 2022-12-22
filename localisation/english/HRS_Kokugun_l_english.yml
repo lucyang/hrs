@@ -1,0 +1,73 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ KKG_communism:0 "独立航空队"
+ KKG_communism_DEF:0 "独立航空队"
+ KKG_anarchism:0 "独立航空队"
+ KKG_anarchism_DEF:0 "独立航空队"
+ KKG_socialism:0 "独立航空队"
+ KKG_socialism_DEF:0 "独立航空队"
+ KKG_democratic:0 "独立航空队"
+ KKG_democratic_DEF:0 "独立航空队"
+ KKG_neutrality:0 "独立航空队"
+ KKG_neutrality_DEF:0 "独立航空队"
+ KKG_monarchism:0 "独立航空队"
+ KKG_monarchism_DEF:0 "独立航空队"
+ KKG_fascism:0 "独立航空队"
+ KKG_fascism_DEF:0 "独立航空队"
+ KKG_imperialism:0 "独立航空队"
+ KKG_imperialism_DEF:0 "独立航空队"
+ KKG_futurism:0 "独立航空队"
+ KKG_futurism_DEF:0 "独立航空队"
+ KKG_communism_ADJ:0 "金泽"
+ KKG_anarchism_ADJ:0 "金泽"
+ KKG_socialism_ADJ:0 "金泽"
+ KKG_democratic_ADJ:0 "金泽"
+ KKG_neutrality_ADJ:0 "金泽"
+ KKG_monarchism_ADJ:0 "金泽"
+ KKG_fascism_ADJ:0 "金泽"
+ KKG_imperialism_ADJ:0 "金泽"
+ KKG_futurism_ADJ:0 "金泽"
+ KKG:0 "金泽"
+ KKG_DEF:0 "金泽"
+ KKG_ADJ:0 "金泽"
+ #############
+ ## PARTIES ##
+ #############
+ KKG_communism_party:0 "日本共产党"
+ KKG_communism_party_long:0 "日本共产党"
+ KKG_anarchism_party:0 "劳动农民党"
+ KKG_anarchism_party_long:0 "劳动农民党"
+ KKG_socialism_party:0 "社会民众党"
+ KKG_socialism_party_long:0 "社会民众党"
+ KKG_democratic_party:0 "日本社会党"
+ KKG_democratic_party_long:0 "日本社会党"
+ KKG_neutrality_party:0 "航空队忠诚派"
+ KKG_neutrality_party_long:0 "航空队忠诚派"
+ KKG_monarchism_party:0 "航空团变节派"
+ KKG_monarchism_party_long:0 "航空队变节派"
+ KKG_fascism_party:0 "日本解放阵线"
+ KKG_fascism_party_long:0 "日本解放阵线 - 革新派"
+ KKG_imperialism_party:0 "日本解放阵线"
+ KKG_imperialism_party_long:0 "日本解放阵线 - 泛亚派"
+ KKG_futurism_party:0 "日本解放阵线"
+ KKG_futurism_party_long:0 "日本解放阵线 - 改造派"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ KKG_tokugawa_yoshitoshi:0 "徳川好敏"
+ KKG_tokugawa_yoshitoshi_desc:0 "§Y出生日期§!：§G1884年7月24日§!\n§Y出生地点§!：§G大东帝国东海道神奈川县§!\n\n"
+ KKG_onishi_takijiro:0 "大西瀧治郎"
+ KKG_onishi_takijiro_desc:0 "§Y出生日期§!：§G1891年6月2日§!\n§Y出生地点§!：§G大东帝国近畿道兵库县§!\n\n1891年6月2日，§Y大西泷治郎§!出生于东国兵库县，在大西读高中时，正逢大东帝国在§Y中俄战争§!中战胜，产生了要参军的志愿。1909年，大西泷治郎进入§Y江田岛海军学院§!就读。当帝国海军航空兵于1916年创立时，大西泷治郎调入横须贺海军航空队服役，他认识到“新式武器”飞机具备莫大的作战潜能，由此对飞机制造业产生了浓厚的兴趣。\n\n大西泷治郎大力支持“战舰无用论”，主张海军航空兵才是海战的未来。为了制造飞机的经费，大西泷治郎四处奔走筹资，最终得到了退伍军人§Y中岛知久平§!的倾力支持，二者共同创立了§Y中岛飞机§!，最终成长为世界属一属二的飞机制造商。但是海军保守派十分排斥他的观点——大西泷治郎被调到了帝国边远的§Y横须贺镇守府§!，负责测试和研发海军战斗机。\n\n在此后数年里，大西泷治郎都远离帝国海军的政治中心，却因此幸运地逃过了长崎和吴港的水兵哗变，率领部下撤退到北方。由于青年军官掀起的叛乱风潮，驻守金泽的第九师团已然瓦解。大西泷治郎联合§Y德川好敏§!重建秩序，接管了第九师团的师管区。没有人知道大西泷治郎想要做什么，也许他会向任何一位内战的胜利者俯首称臣，抑或是暗藏着一统天下的野心？"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

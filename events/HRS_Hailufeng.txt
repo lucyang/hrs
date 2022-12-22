@@ -1,0 +1,489 @@
+############################
+## Disaster Events
+############################
+add_namespace = hlf_rev
+add_namespace = hlf
+
+country_event = {
+	id = hlf_rev.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event hlf_rev.1"
+	}
+	title = hlf_rev.1.t
+	desc = hlf_rev.1.desc
+	picture = GFX_report_event_merchant_ship_01
+
+	trigger = {
+		original_tag = IMC
+		date > 1923.9.1
+		date < 1923.9.30
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = hlf_rev.1.a
+		add_political_power = -5
+	}
+}
+country_event = {
+	id = hlf_rev.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event hlf_rev.2"
+		hidden_effect = {
+			HLF = { transfer_state = 362 }
+		}	
+	}
+	title = hlf_rev.2.t
+	desc = hlf_rev.2.desc
+	picture = GFX_report_event_peasant_revolt
+
+	is_triggered_only = yes
+
+	option = {
+		name = hlf_rev.2.a
+		HLF = { 
+			change_tag_from = ROOT
+			country_event = { id = hlf_rev.3 days = 2 }
+			add_political_power = 10
+		}
+	}
+	option = {
+		name = hlf_rev.2.b
+		HLF = { 
+			country_event = { id = hlf_rev.3 days = 2 }
+			add_political_power = 10
+		}
+	}
+}
+country_event = {
+	id = hlf_rev.3
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event hlf_rev.3"	
+	}
+	title = hlf_rev.3.t
+	desc = hlf_rev.3.desc
+	picture = GFX_report_event_peasant_revolt
+
+	is_triggered_only = yes
+
+	option = {
+		name = hlf_rev.3.a
+		country_event = { id = hlf_rev.4 days = 3 }
+		add_political_power = -10
+	}
+}
+country_event = {
+	id = hlf_rev.4
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event hlf_rev.4"
+	}
+	title = hlf_rev.4.t
+	desc = hlf_rev.4.desc
+	picture = GFX_report_event_peasant_revolt
+
+	is_triggered_only = yes
+
+	option = {
+		name = hlf_rev.4.a
+		country_event = { id = hlf_rev.5 days = 2 }
+		add_stability = -0.02
+	}
+}
+country_event = {
+	id = hlf_rev.5
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event hlf_rev.5"
+		
+	}
+	title = hlf_rev.5.t
+	desc = hlf_rev.5.desc
+	picture = GFX_report_event_peasant_revolt
+
+	is_triggered_only = yes
+
+	option = {
+		name = hlf_rev.5.a
+		ai_chance = {
+			base = 40
+			modifier = {
+				factor = 1.5
+				AND = {
+					communism < party_popularity@democratic
+					anarchism > party_popularity@democratic
+				}
+			}
+			modifier = {
+				factor = 0.5
+				AND = {
+					communism > party_popularity@democratic
+					anarchism > party_popularity@democratic
+				}
+			}
+		}
+		add_political_power = 50
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.10
+		}
+		country_event = hlf_rev.6
+	}
+	option = {
+		name = hlf_rev.5.b
+		ai_chance = {
+			base = 40
+			modifier = {
+				factor = 1.5
+				AND = {
+					communism > party_popularity@democratic
+					anarchism < party_popularity@democratic
+				}
+			}
+			modifier = {
+				factor = 1
+				AND = {
+					communism > party_popularity@democratic
+					anarchism > party_popularity@democratic
+				}
+			}
+		}
+		add_ideas = { market_economy1 }
+		add_popularity = {
+			ideology = anarchism
+			popularity = 0.02
+		}
+		random_list = {
+			60 = {
+				country_event = hlf_rev.6 #revolution
+				modifier = {
+					factor = 1.5
+					communism > 0.32
+				}
+				modifier = {
+					factor = 1.4
+					anarchism > 0.32
+				}
+			}
+			40 = {
+				country_event = hlf_rev.8 #reform
+				modifier = {
+					factor = 1.5
+					democratic > 0.32
+				}
+			}
+		}
+	}
+	option = {
+		name = hlf_rev.5.c
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 3
+				AND = {
+					communism > party_popularity@democratic
+					anarchism > party_popularity@democratic
+				}
+			}
+		}
+		add_stability = -0.10
+		add_ideas = { market_economy2 }
+		add_popularity = {
+			ideology = communism
+			popularity = 0.03
+		}
+		country_event = hlf_rev.8
+	}
+}
+country_event = {
+	id = hlf_rev.6
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event hlf_rev.6"
+	}
+	title = hlf_rev.6.t
+	desc = hlf_rev.6.desc
+	picture = GFX_report_event_peasant_revolt
+
+	is_triggered_only = yes
+
+	option = {
+		name = hlf_rev.6.a
+		ai_chance = {
+			base = 50
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.30
+		}
+		set_politics = { ruling_party = communism }
+		add_country_leader_role = {
+			character = HLF_peng_pai
+			country_leader={
+				ideology=mariateguism_subtype
+				desc=HLF_peng_pai_desc
+				traits={ militant_socialist leader_of_the_agrarian_union }
+				expire="1969.11.12.1"
+			}
+			promote_leader = yes 
+		}
+		country_event = hlf_rev.7
+		hidden_effect = {
+			add_ideas = { state_union planned_economy }
+		}
+	}
+	option = {
+		ai_chance = {
+			base = 50
+		}
+		name = hlf_rev.6.b
+		add_popularity = {
+			ideology = anarchism
+			popularity = 0.30
+		}
+		set_politics = { ruling_party = anarchism }
+		add_country_leader_role = {
+			character = HLF_yang_qishan
+			country_leader={
+				ideology=agrarian_socialism_subtype
+				desc=HLF_yang_qishan_desc
+				traits={ voice_of_restraint hero_of_the_peasantry }
+				expire="1950.1.1.1"
+			}
+			promote_leader = yes 
+		}
+		country_event = hlf_rev.7
+		hidden_effect = {
+			add_ideas = { unitary_state planned_economy1 }
+		}
+	}
+}
+country_event = {
+	id = hlf_rev.7
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event hlf_rev.7"
+	}
+	title = hlf_rev.7.t
+	desc = hlf_rev.7.desc
+	picture = GFX_report_event_peasant_revolt
+
+	is_triggered_only = yes
+
+	option = {
+		name = hlf_rev.7.a
+		364 = { add_manpower = -5000 }
+		country_event = { id = hlf_rev.9 days = 10 }
+	}
+}
+country_event = {
+	id = hlf_rev.8
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event hlf_rev.8"
+		
+	}
+	title = hlf_rev.8.t
+	desc = hlf_rev.8.desc
+	picture = GFX_report_event_peasant_revolt
+
+	is_triggered_only = yes
+
+	option = {
+		name = hlf_rev.8.a
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.10
+		}
+		set_politics = { ruling_party = socialism }
+		add_country_leader_role = {
+			character = HLF_peng_hanyuan
+			country_leader={
+				ideology=new_tridemism_subtype
+				desc=HLF_peng_hanyuan_desc
+				traits={ social_reformer peoples_commissar_of_finance }
+				expire="1950.1.1.1"
+			}
+			promote_leader = yes 
+		}
+		add_ideas = { unitary_state market_economy2 }
+	}
+}
+country_event = {
+	id = hlf_rev.9
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event hlf_rev.9"	
+	}
+	title = hlf_rev.9.t
+	desc = hlf_rev.9.desc
+	picture = GFX_report_event_peasant_revolt
+
+	is_triggered_only = yes
+
+	option = {
+		name = hlf_rev.9.a
+		ai_chance = {
+			base = 70
+			modifier = {
+				factor = 1
+				KMT = { has_government = anarchism }
+			}
+			modifier = {
+				factor = 1.5
+				KMT = { has_government = neutrality }
+			}
+		}
+		country_event = { id = hlf_rev.10 days = 3 }
+	}
+	option = {
+		name = hlf_rev.9.b
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 2
+				KMT = { has_government = democratic }
+			}
+		}
+		KMT = {
+			declare_war_on = {
+				target = HLF
+				type = annex_everything
+			}
+		}
+	}
+}
+country_event = {
+	id = hlf_rev.10
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event hlf_rev.10"
+		
+	}
+	title = hlf_rev.10.t
+	desc = hlf_rev.10.desc
+	picture = GFX_report_event_peasant_revolt
+
+	is_triggered_only = yes
+
+	option = {
+		name = hlf_rev.10.a
+		ai_chance = {
+			base = 20
+			modifier = {
+				factor = 5
+				KMT = { has_same_government_as_ROOT = yes }
+			}
+		}
+		country_event = { id = hlf_rev.10 days = 3 }
+	}
+	option = {
+		name = hlf_rev.10.b
+		ai_chance = {
+			base = 70
+		}
+		if = {
+			limit = { KMT = { is_faction_leader = yes } }
+			KMT = { add_to_faction = HLF }
+		}
+		else = {
+			KMT = {  
+				give_guarantee = HLF
+				give_military_access = HLF
+			}
+			HLF = {  
+				give_guarantee = KMT
+				give_military_access = KMT 
+			}
+		}	
+	}
+	option = {
+		name = hlf_rev.10.c
+		ai_chance = {
+			base = 1
+		}
+		KMT = {
+			declare_war_on = {
+				target = HLF
+				type = annex_everything
+			}
+		}
+	}
+}
+country_event = {
+	id = hlf_rev.11
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event hlf_rev.11"
+		
+	}
+	title = hlf_rev.11.t
+	desc = hlf_rev.11.desc
+	picture = GFX_report_event_peasant_revolt
+
+	is_triggered_only = yes
+
+	option = {
+		name = hlf_rev.11.a
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 2
+				has_government = communism
+			}
+		}
+		KMT = { puppet = HLF }
+		hidden_effect = {
+			HLF = {
+				set_party_name = {
+					ideology = socialism
+					long_name = HLF_junta_party_long
+					name = HLF_junta_party
+				}
+				add_country_leader_role = {
+					character = HLF_peng_hanyuan
+					country_leader={
+						ideology=social_democratic_subtype
+						desc=HLF_peng_hanyuan_desc
+						traits={ figurehead_president the_faded_star }
+						expire="1950.1.1.1"
+					}
+				}
+				add_ideas = { unitary_state market_economy3 }
+			}
+		}	
+	}
+	option = {
+		name = hlf_rev.11.b
+		ai_chance = {
+			base = 70
+		}
+		KMT = { give_military_access = HLF }
+		HLF = { give_military_access = KMT }
+	}
+	option = {
+		name = hlf_rev.11.c
+		ai_chance = {
+			base = 20
+			modifier = {
+				factor = 2
+				has_government = democratic
+			}
+		}
+		KMT = {
+			declare_war_on = {
+				target = HLF
+				type = annex_everything
+			}
+		}
+	}
+}
+country_event = {
+	id = hlf_rev.12
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event hlf_rev.12"
+		
+	}
+	title = hlf_rev.12.t
+	desc = hlf_rev.12.desc
+	picture = GFX_report_event_peasant_revolt
+
+	is_triggered_only = yes
+
+	option = {
+		name = hlf_rev.12.a
+	}
+}

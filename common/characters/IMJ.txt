@@ -1,0 +1,16 @@
+characters={
+	IMJ_i_wanyong={
+		name=IMJ_i_wanyong
+		portraits={
+			civilian={
+				large="gfx/leaders/IMJ/Portrait_I_Wanyong.png"
+			}
+		}
+		country_leader={
+			ideology=development_authoritarianism_subtype
+			desc=IMJ_i_wanyong_desc
+			traits={ assassination_survivor political_chameleon }
+			expire="1926.2.11.1"
+		}
+	}
+}

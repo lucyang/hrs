@@ -1,0 +1,108 @@
+is_vietnam_nation = {
+	OR = {
+		original_tag = VIN
+		original_tag = VIC
+		original_tag = SAI
+		original_tag = VQD
+		original_tag = DNA
+		original_tag = CAD
+		original_tag = SRV
+		original_tag = TAT
+		original_tag = KMK
+	}
+}
+
+is_vietnam_unifier = {
+	OR = {
+		original_tag = VIN
+		original_tag = VIC
+		original_tag = SAI
+		original_tag = VQD
+		original_tag = DNA
+		original_tag = CAD
+		original_tag = SRV
+	}
+}
+
+is_vietnam_state = {
+	AND = {
+		state = 363 #河内
+		state = 527 #兴化
+		state = 529 #清化
+		state = 530 #富安
+		state = 531 #西原
+		state = 532 #嘉定
+		state = 533 #广南
+		state = 561 #海防
+		state = 565 #西宁
+		state = 566 #西贡
+		state = 567 #九龙
+		state = 568 #顺化
+		state = 569 #岘港
+		state = 570 #义静
+		### Laos ###
+		state = 571 #泰处
+		state = 574 #川圹/芒盆/镇宁
+		### Khmer ###
+		state = 577 #富国岛
+		state = 579 #河仙
+		state = 580 #柴桢
+		### China ####
+		state = 507 #广宁
+		state = 528 #宣光
+		state = 562 #谅山
+		state = 563 #广源
+		state = 564 #太原
+	}
+}
+
+is_any_vietnam_state = {
+	OR = {
+		state = 363 #河内
+		state = 527 #兴化
+		state = 529 #清化
+		state = 530 #富安
+		state = 531 #西原
+		state = 532 #嘉定
+		state = 533 #广南
+		state = 561 #海防
+		state = 565 #西宁
+		state = 566 #西贡
+		state = 567 #九龙
+		state = 568 #顺化
+		state = 569 #岘港
+		state = 570 #义静
+		### Laos ###
+		state = 571 #泰处
+		state = 574 #川圹/芒盆/镇宁
+		### Khmer ###
+		state = 577 #富国岛
+		state = 579 #河仙
+		state = 580 #柴桢
+		### China ####
+		state = 507 #广宁
+		state = 528 #宣光
+		state = 562 #谅山
+		state = 563 #广源
+		state = 564 #太原
+	}
+}
+
+can_form_vietnam = {
+	AND = {
+		owns_state = 363 #河内
+		owns_state = 527 #兴化
+		owns_state = 529 #清化
+		owns_state = 530 #富安
+		owns_state = 531 #西原
+		owns_state = 532 #嘉定
+		owns_state = 533 #广南
+		owns_state = 561 #海防
+		owns_state = 565 #西宁
+		owns_state = 566 #西贡
+		owns_state = 567 #九龙
+		owns_state = 568 #顺化
+		owns_state = 569 #岘港
+		owns_state = 570 #义静
+	}
+}

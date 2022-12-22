@@ -1,0 +1,100 @@
+characters={
+	HIN_shrlpad_amrit_dange={
+		name=HIN_shrlpad_amrit_dange
+		portraits={
+			civilian={
+				large="gfx/leaders/HIN/Portrait_Shrlpad_Amrit_Dange.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinism_subtype
+			desc=HIN_shrlpad_amrit_dange_desc
+			traits={ exiled_revolutionary backroom_backstabber }
+			expire="1991.5.22.1"
+		}
+	}
+	HIN_malayapuram_singaravelu={
+		name=HIN_malayapuram_singaravelu
+		portraits={
+			civilian={
+				large="gfx/leaders/HIN/Portrait_Malayapuram_Singaravelu.dds"
+			}
+		}
+		country_leader={
+			ideology=national_communism_subtype
+			desc=HIN_malayapuram_singaravelu_desc
+			traits={ voice_of_restraint education_reformer }
+			expire="1946.2.11.1"
+		}
+	}
+	HIN_rajendra_prasad={
+		name=HIN_rajendra_prasad
+		portraits={
+			civilian={
+				large="gfx/leaders/HIN/Portrait_Rajendra_Prasad.dds"
+			}
+		}
+		country_leader={
+			ideology=national_conservatism_subtype
+			desc=HIN_rajendra_prasad_desc
+			traits={ conservative_nationalist_lar liberal_democratic_paragon }
+			expire="1963.2.28.1"
+		}
+	}
+	HIN_jawaharlal_nehru={
+		name=HIN_jawaharlal_nehru
+		portraits={
+			civilian={
+				large="gfx/leaders/HIN/Portrait_Jawaharlal_Nehru.dds"
+			}
+		}
+		country_leader={
+			ideology=competitive_authoritarianism_subtype
+			desc=HIN_jawaharlal_nehru_desc
+			traits={ grand_vizier_nursi social_reformer gentle_scholar }
+			expire="1964.5.27.1"
+		}
+	}
+	HIN_keshav_baliram_hedgewar={
+		name=HIN_keshav_baliram_hedgewar
+		portraits={
+			civilian={
+				large="gfx/leaders/HIN/Portrait_Keshav_Baliram_Hedgewar.dds"
+			}
+		}
+		country_leader={
+			ideology=legionism_subtype
+			desc=HIN_keshav_baliram_hedgewar_desc
+			traits={ national_integralist fascist_militia_leader }
+			expire="1940.6.21.1"
+		}
+	}
+	HIN_madan_mohan_malaviya={
+		name=HIN_madan_mohan_malaviya
+		portraits={
+			civilian={
+				large="gfx/leaders/HIN/Portrait_Datu_Piang.dds"
+			}
+		}
+		country_leader={
+			ideology=irredentism_subtype
+			desc=HIN_madan_mohan_malaviya_desc
+			traits={ irredentist_academic statism_adept }
+			expire="1946.12.12.1"
+		}
+	}
+	HIN_alamgir_shah_III={
+		name=HIN_alamgir_shah_III
+		portraits={
+			civilian={
+				large="gfx/leaders/HIN/Portrait_Datu_Piang.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_subtype
+			desc=HIN_alamgir_shah_III_desc
+			traits={ underage_monarch legitimate_heir }
+			expire="1950.1.1.1"
+		}
+	}
+}

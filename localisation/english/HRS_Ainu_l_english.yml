@@ -1,0 +1,76 @@
+﻿l_english:
+ ################
+ ## COUNTRIES  ##
+ ################
+ AIN_communism:0 "阿伊努社会主义共和国"
+ AIN_communism_DEF:0 "阿伊努社会主义共和国"
+ AIN_anarchism:0 "阿伊努人民共和国"
+ AIN_anarchism_DEF:0 "阿伊努人民共和国"
+ AIN_socialism:0 "阿伊努民主共和国"
+ AIN_socialism_DEF:0 "阿伊努民主共和国"
+ AIN_democratic:0 "阿伊努共和国"
+ AIN_democratic_DEF:0 "阿伊努共和国"
+ AIN_neutrality:0 "阿伊努共和国"
+ AIN_neutrality_DEF:0 "阿伊努共和国"
+ AIN_monarchism:0 "阿伊努国"
+ AIN_monarchism_DEF:0 "阿伊努国"
+ AIN_fascism:0 "阿伊努民族共和国"
+ AIN_fascism_DEF:0 "阿伊努民族共和国"
+ AIN_imperialism:0 "阿伊努民族国"
+ AIN_imperialism_DEF:0 "阿伊努民族国"
+ AIN_futurism:0 "阿伊努人民国"
+ AIN_futurism_DEF:0 "阿伊努人民国"
+ AIN_communism_ADJ:0 "阿伊努"
+ AIN_anarchism_ADJ:0 "阿伊努"
+ AIN_socialism_ADJ:0 "阿伊努"
+ AIN_democratic_ADJ:0 "阿伊努"
+ AIN_neutrality_ADJ:0 "阿伊努"
+ AIN_monarchism_ADJ:0 "阿伊努"
+ AIN_fascism_ADJ:0 "阿伊努"
+ AIN_imperialism_ADJ:0 "阿伊努"
+ AIN_futurism_ADJ:0 "阿伊努"
+ AIN:0 "阿伊努"
+ AIN_DEF:0 "阿伊努"
+ AIN_ADJ:0 "阿伊努"
+ ##############
+ ## PARTIES  ##
+ ##############
+ AIN_communism_party:0 "日本共产党"
+ AIN_communism_party_long:0 "日本共产党"
+ AIN_anarchism_party:0 "阿伊努民族党"
+ AIN_anarchism_party_long:0 "阿伊努民族党"
+ AIN_socialism_party:0 "阿伊努民族党"
+ AIN_socialism_party_long:0 "阿伊努民族党"
+ AIN_democratic_party:0 "阿伊努民族党 "
+ AIN_democratic_party_long:0 "阿伊努民族党"
+ AIN_neutrality_party:0 "民族解放军"
+ AIN_neutrality_party_long:0 "民族解放军"
+ AIN_monarchism_party:0 "和朝效忠派"
+ AIN_monarchism_party_long:0 "和朝效忠派"
+ AIN_fascism_party:0 "大日本青年党"
+ AIN_fascism_party_long:0 "大日本青年党"
+ AIN_imperialism_party:0 "东方会"
+ AIN_imperialism_party_long:0 "东方会"
+ AIN_futurism_party:0 "犹存社"
+ AIN_futurism_party_long:0 "犹存社"
+ ###################
+ ## COSMETIC TAG  ##
+ ###################
+
+ ###########
+ ## IDEAS ##
+ ###########
+ AIN_liberation_of_ainu_mosir:0 "解放“宁静之地”"
+ AIN_liberation_of_ainu_mosir_desc:0 "一百年来，阿伊努人的家园遭到了殖民者的残忍剥削与压榨。殖民者们用欺骗、贿赂、抢夺、屠杀，将我们的土地蚕食鲸吞，将我们的同胞无情杀害。阿伊努人已经不能再默默忍受下去，我们必须用鲜血赢得“宁静之地”（Ainu Mosir）的自由！"
+ #############
+ ## LEADERS ##
+ #############
+ AIN_iboshi_hokuto:0 "違星北斗"
+ AIN_yaeko_batchelor:0 "向井八重子" #バチェラー八重子
+ ###############
+ ## DECISIONS ##
+ ###############
+
+ #############
+ ### EVENT ###
+ #############

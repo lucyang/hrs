@@ -1,0 +1,54 @@
+﻿division_template = {
+	name = "赤卫队"
+	template_counter = 69
+	division_names_group = CHI_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+	}
+}
+units = {
+	division = {
+		name = "上海工人纠察队"
+		location = 3285 #上海市区
+		division_template = "赤卫队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "上海市民自卫军"
+		location = 3285 #上海市区
+		division_template = "赤卫队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "制造业总工会民兵"
+		location = 3833 #奉贤
+		division_template = "赤卫队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "中国海员工会民兵"
+		location = 3815 #吴淞
+		division_template = "赤卫队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "上海铁道总工会民兵"
+		location = 3828
+		division_template = "赤卫队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "上海码头总工会民兵"
+		location = 3828 #浦东港
+		division_template = "赤卫队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+}

@@ -1,0 +1,33 @@
+state={
+	id=389
+	name="STATE_389"
+
+	resources = {
+		steel = 20
+	}
+
+	provinces={
+		2776 4244 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 4225 5 }
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 2
+			4244 = {
+				naval_base = 5  #三亚�?
+				coastal_bunker = 1
+			}
+		}
+		
+	}
+	manpower=179343
+	state_category = city
+	local_supplies = 0.0
+}

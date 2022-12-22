@@ -1,0 +1,18 @@
+state={
+	id=471
+	name="STATE_471"
+	provinces={
+		175 232 365 606 1593 1672 1917 3223 3373 4832
+	}
+	history = {
+		owner = HIN
+		add_core_of = HIN
+		
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=1000
+	state_category = town
+	local_supplies = 0.0
+}

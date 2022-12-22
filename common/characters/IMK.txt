@@ -1,0 +1,16 @@
+characters={
+	IMK_yuan_keding={
+		name=IMK_yuan_keding
+		portraits={
+			civilian={
+				large="gfx/leaders/IMK/Portrait_Yuan_Keding.png"
+			}
+		}
+		country_leader={
+			ideology=competitive_authoritarianism_subtype
+			desc=IMK_yuan_keding_desc
+			traits={ playboy elected_monarchist_puppet }
+			expire="1955.2.26.1"
+		}
+	}
+}

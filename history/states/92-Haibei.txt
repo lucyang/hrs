@@ -1,0 +1,19 @@
+state={
+	id=92
+	name="STATE_92"
+	provinces={
+		930 1588 1744 2340 2407 2422 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		buildings = {
+			infrastructure = 1
+		}
+		
+	}
+	manpower=73023
+	state_category = pastoral
+	local_supplies = 0.0
+}

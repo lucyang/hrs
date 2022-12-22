@@ -1,0 +1,109 @@
+is_korea_nation = {
+	OR = {
+		original_tag = ANK
+		original_tag = PRK
+		original_tag = KOR
+		original_tag = SLA
+		original_tag = IMK
+	}
+}
+is_korea_unifier = {
+	OR = {
+		original_tag = ANK
+		original_tag = PRK
+		original_tag = KOR
+		original_tag = SLA
+		original_tag = IMK
+	}
+}
+is_any_korea_state = {
+	OR = {
+		state = 41 #间岛道
+		state = 52 #平壤
+		state = 54 #白山
+		state = 99 #首尔
+		state = 193 #济州
+		state = 449 #咸镜北道
+		state = 450 #咸镜南道
+		state = 451 #罗津
+		state = 453 #仁川
+		state = 454 #平安北道
+		state = 455 #平安南道
+		state = 457 #黄海道
+		state = 458 #元山
+		state = 459 #镇南浦
+		state = 460 #开城
+		state = 461 #江原道
+		state = 462 #忠清北道
+		state = 463 #忠清南道
+		state = 464 #全罗北道
+		state = 465 #全罗南道
+		state = 466 #庆尚北道
+		state = 467 #庆尚南道
+		state = 552 #鸡心河/哈桑湖
+		state = 554 #珲春
+		state = 632 #京畿道
+		state = 636 #釜山
+		state = 637 #新义州
+	}
+}
+is_korea_state = {
+	AND = {
+		state = 41 #间岛道
+		state = 52 #平壤
+		state = 54 #白山
+		state = 99 #首尔
+		state = 193 #济州
+		state = 449 #咸镜北道
+		state = 450 #咸镜南道
+		state = 451 #罗津
+		state = 453 #仁川
+		state = 454 #平安北道
+		state = 455 #平安南道
+		state = 457 #黄海道
+		state = 458 #元山
+		state = 459 #镇南浦
+		state = 460 #开城
+		state = 461 #江原道
+		state = 462 #忠清北道
+		state = 463 #忠清南道
+		state = 464 #全罗北道
+		state = 465 #全罗南道
+		state = 466 #庆尚北道
+		state = 467 #庆尚南道
+		state = 552 #鸡心河/哈桑湖
+		state = 554 #珲春
+		state = 632 #京畿道
+		state = 636 #釜山
+		state = 637 #新义州
+	}
+}
+can_form_korea = {
+	AND = {
+		owns_state = 41 #间岛道
+		owns_state = 54 #白山
+		owns_state = 52 #平壤
+		owns_state = 99 #京畿道
+		owns_state = 193 #济州
+		owns_state = 449 #咸镜北道
+		owns_state = 450 #咸镜南道
+		owns_state = 451 #罗津
+		owns_state = 453 #仁川
+		owns_state = 454 #平安北道
+		owns_state = 455 #平安南道
+		owns_state = 457 #黄海道
+		owns_state = 458 #元山
+		owns_state = 459 #镇南浦
+		owns_state = 460 #开城
+		owns_state = 461 #江原道
+		owns_state = 462 #忠清北道
+		owns_state = 463 #忠清南道
+		owns_state = 464 #全罗北道
+		owns_state = 465 #全罗南道
+		owns_state = 466 #庆尚北道
+		owns_state = 467 #庆尚南道
+		owns_state = 632 #京畿道
+		owns_state = 636 #釜山
+		owns_state = 637 #新义州
+	}
+}

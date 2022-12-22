@@ -1,0 +1,314 @@
+ideas = {
+
+	development = { 
+		law = yes
+		use_list_view = yes
+
+		country_development = {
+
+			name = country_development
+
+			available = {
+				always = yes
+			}
+
+			allowed_to_remove = {
+				always = yes
+			}
+			
+			removal_cost = -1000
+			level = 1
+
+			picture = pre_industrial_society
+
+			modifier = {
+				research_speed_factor = -0.70
+				production_speed_buildings_factor = -0.70
+				consumer_goods_factor = 0.50
+				license_purchase_cost = -0.50
+			}
+		}
+
+		country_development1 = {
+
+			name = country_development1
+
+			available = {
+				always = yes
+			}
+
+			allowed_to_remove = {
+				always = yes
+			}
+			
+			removal_cost = -1000
+			level = 2
+
+			picture = developing_country
+
+			modifier = {
+				research_speed_factor = -0.50
+				production_speed_buildings_factor = -0.50
+				consumer_goods_factor = 0.30
+				license_purchase_cost = -0.30
+				license_tech_difference_speed = 0.20
+			}
+		}
+
+		country_development2 = {
+
+			name = country_development2
+
+			available = {
+				always = yes
+			}
+
+			allowed_to_remove = {
+				always = yes
+			}
+			
+			removal_cost = -1000
+			level = 2
+
+			picture = newly_industrialized_country
+
+			modifier = {
+				research_speed_factor = -0.10
+				production_speed_buildings_factor = -0.20
+				consumer_goods_factor = 0.10
+				license_purchase_cost = -0.10
+				license_tech_difference_speed = 0.10
+			}
+
+			default = yes
+		}
+
+		country_development3 = {
+
+			name = country_development3
+
+			available = {
+				always = yes
+			}
+
+			allowed_to_remove = {
+				always = yes
+			}
+			
+			removal_cost = -1000
+			level = 3
+
+			picture = industrialized_country
+
+			modifier = {
+				research_speed_factor = 0.01
+				production_speed_buildings_factor = 0.05
+				consumer_goods_factor = 0.05
+				license_purchase_cost = 0.10
+				license_tech_difference_speed = -0.10
+			}
+		}
+
+		country_development4 = {
+
+			name = country_development4
+
+			available = {
+				always = yes
+			}
+
+			allowed_to_remove = {
+				always = yes
+			}
+			
+			removal_cost = -1000
+			level = 4
+
+			picture = developped_country
+
+			modifier = {
+				research_speed_factor = 0.05
+				production_speed_buildings_factor = 0.10
+				consumer_goods_factor = 0.03
+				license_purchase_cost = 0.20
+				license_tech_difference_speed = -0.20
+			}
+		}
+	}
+
+	manufacture = { 
+		law = yes
+		use_list_view = yes
+
+		country_tech = {
+
+			name = country_tech
+
+			available = {
+				always = yes
+			}
+
+			allowed_to_remove = {
+				always = yes
+			}
+			
+			removal_cost = -1000
+			cost = 100
+			level = 1
+
+			picture = FRA_matignon_agreements
+
+			modifier = {
+				industrial_capacity_factory = -0.50
+				industrial_capacity_dockyard = -0.50
+				repair_speed_factor = -0.50
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.15
+					reliability = -0.7
+					instant = yes
+				}
+				artillery_equipment = {
+					build_cost_ic = -0.15
+					reliability = -0.7
+					instant = yes
+				}
+			}
+		}
+
+		country_tech1 = {
+
+			name = country_tech1
+
+			available = {
+				always = yes
+			}
+
+			allowed_to_remove = {
+				always = yes
+			}
+			
+			removal_cost = -1000
+			cost = 100
+			level = 1
+
+			picture = SOV_second_five_year_plan
+
+			modifier = {
+				industrial_capacity_factory = -0.30
+				industrial_capacity_dockyard = -0.30
+				repair_speed_factor = -0.30
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1
+					reliability = -0.5
+					instant = yes
+				}
+				artillery_equipment = {
+					build_cost_ic = -0.1
+					reliability = -0.5
+					instant = yes
+				}
+			}
+		}
+
+		country_tech2 = {
+
+			name = country_tech2
+
+			available = {
+				always = yes
+			}
+
+			allowed_to_remove = {
+				always = yes
+			}
+			
+			removal_cost = -1000
+			cost = 100
+			level = 1
+
+			picture = SOV_third_five_year_plan
+
+			modifier = {
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
+				equipment_conversion_speed = -0.05
+			}
+
+			default = yes
+		}
+
+		country_tech3 = {
+
+			name = country_tech3
+
+			available = {
+				always = yes
+			}
+
+			allowed_to_remove = {
+				always = yes
+			}
+			
+			removal_cost = -1000
+			cost = 100
+			level = 1
+
+			picture = SOV_third_five_year_plan_civilian
+
+			modifier = {
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				repair_speed_factor = 0.05
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					reliability = 0.1
+					instant = yes
+				}
+				artillery_equipment = {
+					reliability = 0.1
+					instant = yes
+				}
+			}
+		}
+
+		country_tech4 = {
+
+			name = country_tech4
+
+			available = {
+				always = yes
+			}
+
+			allowed_to_remove = {
+				always = yes
+			}
+			
+			removal_cost = -1000
+			cost = 100
+			level = 1
+
+			picture = SOV_third_five_year_plan_military
+
+			modifier = {
+				industrial_capacity_factory = 0.10
+				industrial_capacity_dockyard = 0.10
+				repair_speed_factor = 0.10
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					reliability = 0.2
+					instant = yes
+				}
+				artillery_equipment = {
+					reliability = 0.2
+					instant = yes
+				}
+			}
+		}
+	}
+}

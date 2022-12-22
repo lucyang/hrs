@@ -1,0 +1,22 @@
+state={
+	id=178
+	name="STATE_178"
+	provinces={
+		3350
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 3350 3 } #漯河
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		
+	}
+	manpower=192268
+	state_category = town
+	local_supplies = 0.0
+}

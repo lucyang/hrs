@@ -1,0 +1,21 @@
+
+state={
+	id=512
+	name="STATE_512"
+	provinces={
+		26 38 76 173 222 231 244 286 340 487 698 894 906 916 1023 1059 1413 1472 1864 1890 2104 2131 2168 2171 2664 2768 2978 3237 3354 3408 3447 
+	}
+	history={
+		owner = FAR
+		add_core_of = FAR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+	manpower=310000
+	buildings_max_level_factor=1.000
+	state_category = town
+	local_supplies=0.000
+}

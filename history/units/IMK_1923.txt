@@ -1,0 +1,323 @@
+﻿division_template = {
+	name = "步兵联队"
+	division_names_group = IMC_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "机动步兵联队"
+	division_names_group = IMC_MOT_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		mot_recon = { x= 0 y = 1 }
+	}
+}
+division_template = {
+	name = "炮兵联队"
+	division_names_group = IMC_INF_01
+
+	regiments = {
+		artillery_brigade = { x = 0 y = 0 }
+		artillery_brigade = { x = 1 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "骑兵联队"
+	division_names_group = IMC_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "搜索联队"
+	division_names_group = IMC_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 1 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "独立步兵联队"
+	division_names_group = IMC_MTN_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 1 y = 0 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "宪兵队"
+	template_counter = 42
+	division_names_group = IMC_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+	support = {
+		military_police = { x = 0 y = 0 }
+	}
+	priority = 0
+}
+units = {
+	#### NORTH KOREA ####
+	### 19th Division ###
+	division = {
+		name = "步兵第73联队"
+		location = 1241 #清津
+		division_template = "步兵联队"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "步兵第74联队"
+		location = 4785 #罗先
+		division_template = "步兵联队"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "步兵第75联队"
+		location = 1241 #清津
+		division_template = "步兵联队"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "步兵第76联队"
+		location = 1241 #清津
+		division_template = "步兵联队"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "骑兵第28联队"
+		location = 1241 #清津
+		division_template = "骑兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "野战炮兵第26联队"
+		location = 1241 #清津
+		division_template = "炮兵联队"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.1
+	}
+	### 30th Division ###
+	division = {
+		name = "步兵第41联队"
+		location = 2834 #咸兴
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "步兵第74联队"
+		location = 4805 #平壤
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "步兵第77联队"
+		location = 2834 #咸兴
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "步兵第76联队"
+		location = 2834 #咸兴
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "搜索第30联队"
+		location = 2834 #咸兴
+		division_template = "搜索联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "野战炮兵第30联队"
+		location = 2834 #咸兴
+		division_template = "炮兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.1
+	}
+	### 79th Division ###
+	division = {
+		name = "步兵第289联队"
+		location = 3570 #延吉
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "步兵第290联队"
+		location = 718 #珲春
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "步兵第291联队"
+		location = 3570 #延吉
+		division_template = "步兵联队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "步兵第292联队"
+		location = 3570 #延吉
+		division_template = "步兵联队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "骑兵第79联队"
+		location = 3570 #延吉
+		division_template = "骑兵联队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "山炮兵第79联队"
+		location = 3570 #延吉
+		division_template = "炮兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.1
+	}
+	#### SOUTH KOREA ####
+	### 20th Division ###
+	division = {
+		name = "步兵第78联队"
+		location = 1423 #京城
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "步兵第79联队"
+		location = 1423 #京城
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "步兵第80联队"
+		location = 1423 #京城
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "步兵第81联队"
+		location = 4819 #大邱
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "骑兵第28联队"
+		location = 1423 #京城
+		division_template = "骑兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.1
+	}
+	division = {
+		name = "野战炮兵第26联队"
+		location = 1423 #京城
+		division_template = "炮兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.1
+	}
+	### Chosen Kenpeitai ###
+	division = {
+		name = "义州宪兵队"
+		location = 797 #新义州
+		division_template = "宪兵队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "海州宪兵队"
+		location = 991 #海州
+		division_template = "宪兵队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "春川宪兵队"
+		location = 4807 #春川
+		division_template = "宪兵队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "光川宪兵队"
+		location = 4815
+		division_template = "宪兵队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "全川宪兵队"
+		location = 4814
+		division_template = "宪兵队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "大邱宪兵队"
+		location = 4819
+		division_template = "宪兵队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "镜城宪兵队"
+		location = 1241 #清津
+		division_template = "宪兵队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "咸兴宪兵队"
+		location = 2834
+		division_template = "宪兵队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+}

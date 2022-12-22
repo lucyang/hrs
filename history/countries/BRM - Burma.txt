@@ -1,0 +1,57 @@
+﻿capital = 288 # Rangoon
+
+oob = "empty"
+
+set_stability = 0.45
+set_war_support = 0.25
+
+
+set_technology = {
+	infantry_weapons = 1
+	transport = 1
+}
+
+set_research_slots = 1
+set_convoys = 10
+
+set_politics = {	
+	ruling_party = neutrality
+	last_election = "1920.11.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	anarchism = 0
+	socialism = 13
+	democratic = 20
+    neutrality = 32
+	monarchism = 25
+	fascism = 0
+	imperialism = 0
+	futurism = 10
+}
+
+set_cosmetic_tag = BRM_IMC
+
+recruit_character = BRM_myat_phaya_galay
+recruit_character = BRM_taw_phaya_gyi
+recruit_character = BRM_u_ba_pe
+
+give_guarantee = NAG
+give_guarantee = AHM
+give_guarantee = MNP
+
+add_ideas = {
+	export_focus
+	volunteer_only
+	civilian_economy
+}
+
+add_ideas = {
+	country_development1
+	country_tech1
+	unitary_state2
+	market_economy1
+}

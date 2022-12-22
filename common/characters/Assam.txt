@@ -1,0 +1,80 @@
+characters={
+	NAG_tribes={
+		name=NAG_tribes
+		portraits={
+			civilian={
+				large="gfx/leaders/Portrait_Mandala_Regime.png"
+			}
+		}
+		country_leader={
+			ideology=feudalism_subtype
+			desc=NAG_tribes_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+	}
+	NAG_haipou_jadonang={
+		name=NAG_haipou_jadonang
+		portraits={
+			civilian={
+				large="gfx/leaders/NAG/Portrait_Haipou_Jadonang.png"
+			}
+		}
+		country_leader={
+			ideology=theocratic_state_subtype
+			desc=NAG_haipou_jadonang_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+	}
+	NAG_rani_gaidinliu={
+		name=NAG_rani_gaidinliu
+		portraits={
+			civilian={
+				large="gfx/leaders/NAG/Portrait_Rani_Gaidinliu.png"
+			}
+		}
+	}
+	AHM_tribes={
+		name=NAG_tribes
+		portraits={
+			civilian={
+				large="gfx/leaders/Portrait_Mandala_Regime.png"
+			}
+		}
+		country_leader={
+			ideology=feudalism_subtype
+			desc=NAG_tribes_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+	}
+	MNP_tribes={
+		name=NAG_tribes
+		portraits={
+			civilian={
+				large="gfx/leaders/Portrait_Mandala_Regime.png"
+			}
+		}
+		country_leader={
+			ideology=feudalism_subtype
+			desc=NAG_tribes_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+	}
+	MNP_naoria_phulo={
+		name=MNP_naoria_phulo
+		portraits={
+			civilian={
+				large="gfx/leaders/MNP/Portrait_Naoria_Phulo.png"
+			}
+		}
+		country_leader={
+			ideology=despotism_subtype
+			desc=MNP_naoria_phulo_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+	}
+}

@@ -1,0 +1,58 @@
+characters={
+	JPN_kato_kanji={
+		name=JPN_kato_kanji
+		portraits={
+			civilian={
+				large="gfx/leaders/NGN/Portrait_Kato_Kanji.png"
+			}
+		}
+		country_leader={
+			ideology=reactionary_populism_subtype
+			desc=JPN_kato_kanji_desc
+			traits={ }
+			expire="1967.3.30.1"
+		}
+	}
+	JPN_tachibana_kozaburo={
+		name=JPN_tachibana_kozaburo
+		portraits={
+			civilian={
+				large="gfx/leaders/NGN/Portrait_Tachibana_Kozaburo.png"
+			}
+		}
+		country_leader={
+			ideology=rexism_subtype
+			desc=JPN_tachibana_kozaburo_desc
+			traits={ fascist_militia_leader SWI_fascist_propagandist }
+			expire="1974.3.30.1"
+		}
+	}
+	JPN_inoue_nissho={
+		name=JPN_inoue_nissho
+		portraits={
+			civilian={
+				large="gfx/leaders/JPN/Portrait_Inoue_Nissho.png"
+			}
+		}
+		country_leader={
+			ideology=ultranationalism_subtype
+			desc=JPN_inoue_nissho_desc
+			traits={ prince_of_terror SWI_militaristic_nationalist }
+			expire="1974.3.30.1"
+		}
+	}
+	JPN_kita_ikki={
+		name=JPN_kita_ikki
+		portraits={
+			civilian={
+				large="gfx/leaders/JLF/Portrait_Kita_Ikki.png"
+			}
+		}
+		country_leader={
+			ideology=ethnofuturism_subtype
+			desc=JPN_kita_ikki_desc
+			traits={ fascist_sympathies statism_adept }
+			expire="1966.11.2.1"
+		}
+	}
+}

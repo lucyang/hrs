@@ -1,0 +1,67 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ CHH_communism:0 "景陇金殿国"
+ CHH_communism_DEF:0 "景陇金殿国"
+ CHH_anarchism:0 "景陇金殿国"
+ CHH_anarchism_DEF:0 "景陇金殿国"
+ CHH_democratic:0 "景陇金殿国"
+ CHH_democratic_DEF:0 "景陇金殿国"
+ CHH_neutrality:0 "景陇金殿国"
+ CHH_neutrality_DEF:0 "景陇金殿国"
+ CHH_monarchism:0 "景陇金殿国"
+ CHH_monarchism_DEF:0 "景陇金殿国"
+ CHH_fascism:0 "景陇金殿国"
+ CHH_fascism_DEF:0 "景陇金殿国"
+ CHH_imperialism:0 "景陇金殿国"
+ CHH_imperialism_DEF:0 "景陇金殿国"
+ CHH_futurism:0 "景陇金殿国"
+ CHH_futurism_DEF:0 "景陇金殿国"
+ CHH_communism_ADJ:0 "景陇"
+ CHH_anarchism_ADJ:0 "景陇"
+ CHH_democratic_ADJ:0 "景陇"
+ CHH_neutrality_ADJ:0 "景陇"
+ CHH_monarchism_ADJ:0 "景陇"
+ CHH_fascism_ADJ:0 "景陇"
+ CHH_imperialism_ADJ:0 "景陇"
+ CHH_futurism_ADJ:0 "景陇"
+ CHH:0 "景陇"
+ CHH_DEF:0 ""景陇"
+ CHH_ADJ:0 "景陇"
+ #############
+ ## PARTIES ##
+ #############
+ CHH_communism_party:0 "社民农工党"
+ CHH_communism_party_long:0 "中国社会民主农工党"
+ CHH_anarchism_party:0 "云南工团联合会"
+ CHH_anarchism_party_long:0 "云南工团联合会"
+ CHH_socialism_party:0 "云南独立会"
+ CHH_socialism_party_long:0 "云南独立会"
+ CHH_democratic_party:0 "川康滇夷族独立委员会"
+ CHH_democratic_party_long:0 "川康滇夷族独立委员会"
+ CHH_neutrality_party:0 "召片领效忠者"
+ CHH_neutrality_party_long:0 "召片领效忠者"
+ CHH_monarchism_party:0 "土司集团"
+ CHH_monarchism_party_long:0 "土司集团"
+ CHH_fascism_party:0 "中国青年党"
+ CHH_fascism_party_long:0 "中国青年党"
+ CHH_imperialism_party:0 "中华革命党"
+ CHH_imperialism_party_long:0 "中华革命党"
+ CHH_futurism_party:0 "永昌祥商会"
+ CHH_futurism_party_long:0 "永昌祥商会"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ CHH_dao_dongliang:0 "召孟帕坎" #刀栋梁
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

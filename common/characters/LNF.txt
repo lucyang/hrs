@@ -1,0 +1,16 @@
+characters={
+	LNF_chiang_kaishek={
+		name=LNF_chiang_kaishek
+		portraits={
+			civilian={
+				large="gfx/leaders/LNF/Portrait_Chang_Kaishen.dds"
+			}
+		}
+		country_leader={
+			ideology=kongsi_republic_subtype
+			desc=LNF_chiang_kaishek_desc
+			traits={ backroom_backstabber }
+			expire="1975.4.5.1"
+		}
+	}
+}

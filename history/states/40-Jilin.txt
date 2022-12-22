@@ -1,0 +1,29 @@
+
+state={
+	id=40
+	name="STATE_40"
+
+	history={
+		owner = MAN
+		add_core_of = MAN
+		victory_points ={
+			1625 3
+		}
+		victory_points = {
+			1405 1
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		762 1054 1405 1481 1500 1520 1625 1685 1708 2118 2181 2280 2679 2797 2822 3021 3118 3179 3183 3334 3542 3562 3569 3572 
+	}
+	manpower=435377
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

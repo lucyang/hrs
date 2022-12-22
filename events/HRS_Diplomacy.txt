@@ -1,0 +1,250 @@
+##############
+## Diplomacy #
+##############
+add_namespace = hrs_dip_root # Negotiation trigger event
+add_namespace = hrs_dip_from # Negotiation target event
+add_namespace = hrs_war
+
+country_event = {
+	id = hrs_dip_root.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event hrs_dip_root.1"
+	}
+	title = hrs_dip_root.1.t
+	desc = hrs_dip_root.1.desc
+	picture = GFX_report_event_nationalist_china_machinegun_firing
+
+	is_triggered_only = yes
+
+	option = {
+		name = hrs_dip_root.1.a
+		#event_target:dip_event_target_receiver = {
+		#	country_event = hrs_dip_root.1 
+		#}
+	}
+}
+country_event = {
+	id = hrs_dip_from.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event hrs_dip_from.1"
+		hidden_effect = {
+			country_event = { id = hrs_dip_from.2 days = 5 } 
+		}
+	}
+	title = hrs_dip_root.1.t
+	desc = hrs_dip_root.1.desc
+	picture = GFX_report_event_nationalist_china_machinegun_firing
+
+	is_triggered_only = yes
+
+	option = {
+		name = hrs_dip_from.1.a
+		ai_chance = {
+			base = 99
+		}
+		#event_target:dip_event_target_inviter = {
+		#	country_event = hrs_dip_root.2
+		#}
+	}
+	option = {
+		name = hrs_dip_from.1.b
+		ai_chance = {
+			base = 1
+		}
+		#event_target:dip_event_target_inviter = {
+		#	country_event = hrs_dip_root.5
+		#}
+	}
+}
+country_event = {
+	id = hrs_dip_root.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event hrs_dip_root.2"
+	}
+	title = hrs_dip_root.2.t
+	desc = hrs_dip_root.2.desc
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = hrs_dip_root.2.a
+		ai_chance = {
+			base = 99
+		}
+		#event_target:dip_event_target_inviter = {
+		#	country_event = hrs_dip_root.3
+		#	add_opinion_modifier = {
+		#		target = dip_event_target_receiver
+		#		modifier = took_stand_for_us
+		#	}
+		#}
+	}
+	option = {
+		name = hrs_dip_root.2.b
+		ai_chance = {
+			base = 1
+		}
+		#event_target:dip_event_target_inviter = {
+		#	country_event = hrs_dip_root.5
+		#}
+	}
+}
+country_event = {
+	id = hrs_dip_root.3
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event hrs_dip_root.3"
+	}
+	title = hrs_dip_root.3.t
+	desc = hrs_dip_root.3.desc
+	picture = GFX_report_event_wuchang_uprising
+
+	is_triggered_only = yes
+
+	option = {
+		name = hrs_dip_root.3.a
+		ai_chance = {
+			base = 99
+		}
+		#event_target:dip_event_target_inviter = {
+		#	country_event = hrs_dip_root.4
+		#	give_military_access = dip_event_target_receiver
+		#	give_guarantee = dip_event_target_receiver
+		#}
+		#event_target:dip_event_target_receiver = {
+		#	give_military_access = dip_event_target_inviter
+		#	give_guarantee = dip_event_target_inviter
+		#}
+	}
+	option = {
+		name = hrs_dip_root.3.b
+		ai_chance = {
+			base = 1
+		}
+		#event_target:dip_event_target_inviter = {
+		#	country_event = hrs_dip_root.5
+		#}
+	}
+}
+country_event = {
+	id = hrs_dip_root.4
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event hrs_dip_root.4"
+	}
+	title = hrs_dip_root.4.t
+	desc = hrs_dip_root.4.desc
+	picture = GFX_report_event_nationalist_china_machinegun_firing
+
+	is_triggered_only = yes
+
+	option = {
+		name = hrs_dip_root.4.a
+		ai_chance = {
+			base = 99
+		}
+		#event_target:dip_event_target_inviter = {
+		#	set_country_flag = has_investment_civilian_factory_1
+		#	add_offsite_building = { type = industrial_complex level = 1 }
+		#}
+		#event_target:dip_event_target_inviter = {
+		#	set_country_flag = has_investment_civilian_factory_1
+		#	add_offsite_building = { type = industrial_complex level = 1 }
+		#	country_event = hrs_dip_root.6
+		#	add_opinion_modifier = {
+		#		target = dip_event_target_receiver
+		#		modifier = HRS_trade_deal
+		#	}
+		#}
+	}
+	option = {
+		name = hrs_dip_root.4.b
+		ai_chance = {
+			base = 1
+		}
+		#event_target:dip_event_target_inviter = {
+		#	country_event = hrs_dip_root.5
+		#}
+	}
+}
+country_event = {
+	id = hrs_dip_root.5
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event hrs_dip_root.5"
+	}
+	title = chi_rev.5.t
+	desc = chi_rev.5.desc
+	picture = GFX_report_event_nationalist_china_machinegun_firing
+
+	is_triggered_only = yes
+
+	option = {
+		name = hrs_dip_root.5.a
+		add_political_power = -30
+	}
+	option = {
+		name = hrs_dip_root.5.b
+		
+	}
+	option = {
+		name = hrs_dip_root.5.c
+		FROM = { country_event = hrs_war.1 }
+	}
+}
+country_event = {
+	id = hrs_dip_root.6
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event hrs_dip_root.6"
+	}
+	title = chi_rev.6.t
+	desc = chi_rev.6.desc
+	picture = GFX_report_event_nationalist_china_machinegun_firing
+
+	is_triggered_only = yes
+
+	option = {
+		name = hrs_dip_root.6.a
+		#event_target:dip_event_target_inviter = {
+		#	annex_country = {
+		#		target = dip_event_target_receiver
+    	#		transfer_troops = yes
+		#	}
+		#}
+	}
+}
+country_event = {
+	id = hrs_war.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event hrs_war.1"
+	}
+	title = hrs_war.1.t
+	desc = hrs_war.1.desc
+	picture = GFX_report_event_nationalist_china_machinegun_firing
+
+	is_triggered_only = yes
+
+	option = {
+		name = hrs_war.1.a
+		add_war_support = 0.05
+	}
+}
+country_event = {
+	id = hrs_war.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event hrs_war.2"
+	}
+	title = hrs_war.2.t
+	desc = hrs_war.2.desc
+	picture = GFX_report_event_nationalist_china_machinegun_firing
+
+	is_triggered_only = yes
+
+	option = {
+		name = hrs_war.2.a
+		ROOT = {
+			declare_war_on = {
+				target = FROM
+				type = annex_everything
+			}
+		}
+	}
+}

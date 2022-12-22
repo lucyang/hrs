@@ -1,0 +1,23 @@
+ideas = {
+	country = {
+		AIN_liberation_of_ainu_mosir = {
+			name = AIN_liberation_of_ainu_mosir
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = AIN_liberation_of_ainu_mosir
+			modifier = {
+				conscription = 0.01
+			}
+			targeted_modifier = {
+				tag = EZO
+				attack_bonus_against = 0.1
+			}
+		}
+	}
+}

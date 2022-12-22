@@ -1,0 +1,24 @@
+state={
+	id=83
+	name="STATE_83"
+	provinces={
+		113
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 113 1 } #复州
+
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			113 = {
+				naval_base = 1
+			}
+		}
+	}
+	manpower=1278098
+	state_category = town
+	local_supplies = 0.0
+}

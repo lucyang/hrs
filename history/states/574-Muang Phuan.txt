@@ -1,0 +1,23 @@
+
+state={
+	id=574
+	name="STATE_574"
+	provinces={
+		792 2305 4232 
+	}
+	history={
+		owner = ANM
+		add_core_of = LAO
+		victory_points = { 2305 1 } #æ¡‘æ€?
+		victory_points = { 4232 1 } #ä¸°æ²™æ¹?
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	manpower=399000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

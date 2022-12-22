@@ -1,0 +1,148 @@
+add_namespace = prc_rev
+
+################
+# XIBEI EVENTS #
+################
+country_event = {
+	id = prc_rev.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prc_rev.1"
+	}
+	title = prc_rev.1.t
+	desc = prc_rev.1.desc
+	picture = GFX_report_event_ger_civil_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = prc_rev.1.a
+		country_event = { id = prc_rev.2 days = 7 }
+	}
+}
+country_event = {
+	id = prc_rev.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prc_rev.2"
+	}
+	title = prc_rev.2.t
+	desc = prc_rev.2.desc
+	picture = GFX_report_event_ger_civil_war
+
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = prc_rev.2.a
+		add_manpower = -11
+		add_political_power = -226
+		country_event = { id = prc_rev.3 days = 7 } 
+	}
+}
+country_event = {
+	id = prc_rev.3
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prc_rev.3"
+	}
+	title = prc_rev.3.t
+	desc = prc_rev.3.desc
+	picture = GFX_report_event_china_infiltration
+
+	is_triggered_only = yes
+
+	option = {
+		name = prc_rev.3.a
+		country_event = { id = prc_rev.4 days = 3 }
+	}
+}
+country_event = {
+	id = prc_rev.4
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prc_rev.4"
+		hidden_effect = {
+			HEB = {
+				add_political_power = 100
+				transfer_state = 84 #保定
+				add_state_core = 84
+				transfer_state = 95 #沧州
+				add_state_core = 95
+				transfer_state = 102 #衡水
+				add_state_core = 102
+				#load_oob = "HEB_CivilWar"
+			}
+			TIJ = {
+				add_political_power = 100
+				transfer_state = 74 #北京
+				add_state_core = 74
+				transfer_state = 82 #天津
+				add_state_core = 82
+				transfer_state = 89 #廊坊
+				add_state_core = 89
+				#load_oob = "TIJ_CivilWar"
+			}
+			
+		}
+	}
+	title = prc_rev.4.t
+	desc = prc_rev.4.desc
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+
+	option = {
+		name = prc_rev.4.a
+		country_event = { id = prc_rev.5 days = 3 }
+	}
+}
+country_event = {
+	id = prc_rev.5
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prc_rev.5"
+		hidden_effect = {
+			PRC = {
+				add_political_power = 100
+				transfer_state = 97 #石门
+				add_state_core = 97
+				transfer_state = 112 #邢台
+				add_state_core = 112
+				transfer_state = 127 #邯郸
+				add_state_core = 127
+				#load_oob = "PRC_CivilWar"
+			}	
+		}
+	}
+	title = prc_rev.5.t
+	desc = prc_rev.5.desc
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes
+
+	option = {
+		name = prc_rev.5.a
+		country_event = { id = prc_rev.6 days = 7 }
+	}
+}
+country_event = {
+	id = prc_rev.6
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prc_rev.6"
+		hidden_effect = {
+			JID = {
+				add_political_power = 50
+				transfer_state = 78 #唐山
+				add_state_core = 78
+				transfer_state = 79 #秦皇岛
+				add_state_core = 79
+				#load_oob = "JID_CivilWar"
+			}
+		}
+	}
+	title = prc_rev.6.t
+	desc = prc_rev.6.desc
+	picture = GFX_report_event_generic_peaceful_annexation
+
+	is_triggered_only = yes
+	
+	option = {
+		name = prc_rev.6.a
+	}
+}

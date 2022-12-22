@@ -1,0 +1,21 @@
+state={
+	id=86
+	name="STATE_86"
+	provinces={
+		568 822 1204 1738 2592 2977 3646 3661 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 1204 3 } #忻州
+		
+		buildings = {
+			infrastructure = 3
+		}
+		
+	}
+	manpower=136524
+	state_category = town
+	local_supplies = 0.0
+}

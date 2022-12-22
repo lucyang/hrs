@@ -1,0 +1,21 @@
+state={
+	id=157
+	name="STATE_157"
+	provinces={
+		3190 3723 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 3723 1 } #焦作
+		
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+	}
+	manpower=96986
+	state_category = town
+	local_supplies = 0.0
+}

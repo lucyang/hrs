@@ -1,0 +1,48 @@
+characters={
+	WAX_peng_yuting={
+		name=WAX_peng_yuting
+		portraits={
+			civilian={
+				large="gfx/leaders/WAX/Portrait_Peng_Yuting.png"
+			}
+		}
+		country_leader={
+			ideology=agrarianism_subtype
+			desc=WAX_peng_yuting_desc
+			traits={ silent_workhorse social_reformer }
+			expire="1953.2.28.1"
+		}
+	}
+	WAX_bie_tingfang={
+		name=WAX_bie_tingfang
+		portraits={
+			army={
+				large="gfx/leaders/WAX/Portrait_Bie_Tingfang.png"
+			}
+		}
+		corps_commander={
+			traits={ harsh_leader militias_officer organisational_leader }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	WAX_ning_xigu={
+		name=WAX_ning_xigu
+		portraits={
+			army={
+				large="gfx/leaders/WAX/Portrait_Ning_Xigu.png"
+			}
+		}
+		corps_commander={
+			traits={ militias_officer guerilla_fighter }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+}

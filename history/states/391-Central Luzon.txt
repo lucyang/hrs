@@ -1,0 +1,22 @@
+state={
+	id=391
+	name="STATE_391"
+	provinces={
+		37 871 2573 2677
+	}
+	history = {
+		owner = PHI
+		add_core_of = PHI
+
+		victory_points = { 2677 10 } #马尼拉/岷里拉
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+	manpower=1482600
+	state_category = city
+	local_supplies = 0.0
+}

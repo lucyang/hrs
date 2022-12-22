@@ -1,0 +1,23 @@
+
+state={
+	id=535
+	name="STATE_535"
+
+	history={
+		owner = ANM
+		add_core_of = LAO
+		victory_points = { 2224 1 } #琅南�?
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		1732 1778 2224 3161 
+	}
+	manpower=439000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

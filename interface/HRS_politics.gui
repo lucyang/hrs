@@ -1,0 +1,49 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "HRS_ruling_party_container"
+		position = { x = 97 y = 308 }
+		size = { width = 193 height = 20 }
+
+		instantTextboxType = {
+			name = "HRS_ruling_party"
+			position = { x = 0 y = 0 }
+			font = "hoi_18mbs"
+			text = "[ROOT.GetRulingParty]"
+			pdx_tooltip = [GetSubIdeologyLoc]
+			maxWidth = 160
+			maxHeight = 20
+		}
+	}
+
+	containerWindowType = {
+		name = "HRS_subideology_container"
+		position = { x = 97 y = 331 }
+		size = { width = 193 height = 20 }
+
+		instantTextboxType = {
+			name = "HRS_subideology"
+			position = { x = 0 y = 0 }
+			font = "hoi_16mbs"
+			text = [GetSubIdeologyLoc]
+			pdx_tooltip = [GetSubIdeologyLoc]
+			maxWidth = 160
+			maxHeight = 20
+		}
+	}
+	containerWindowType = {
+		name = "HRS_subideology_diplo_container"
+		position = { x = 262 y = 153 }
+		size = { width = 193 height = 20 }
+
+		instantTextboxType = {
+			name = "HRS_subideology_diplo"
+			position = { x = 0 y = 0 }
+			font = "hoi_16mbs"
+			text = [GetSubIdeologyLoc]
+			pdx_tooltip = [GetSubIdeologyLoc]
+			maxWidth = 160
+			maxHeight = 20
+		}
+	}
+}

@@ -1,0 +1,33 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_blank_background"
+		texturefile = "gfx/super_events/HRS_blank_background.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_HRS_super_event_button"
+		texturefile = "gfx/super_events/HRS_super_event_button.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_SE_CHI_civil_war"
+		texturefile = "gfx/super_events/SE_CHI_civil_war.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_SE_JAP_civil_war"
+		texturefile = "gfx/super_events/SE_JAP_civil_war.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_SE_KOR_civil_war"
+		texturefile = "gfx/super_events/SE_KOR_civil_war.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_SE_CHI_shanghai_uprising"
+		texturefile = "gfx/super_events/SE_CHI_shanghai_uprising.dds"
+		legacy_lazy_load = no
+	}
+}
+

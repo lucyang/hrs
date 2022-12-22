@@ -1,0 +1,42 @@
+characters={
+	BRM_myat_phaya_galay={
+		name=BRM_myat_phaya_galay
+		portraits={
+			civilian={
+				large="gfx/leaders/MYN/Portrait_Myat_Phaya_Galay.dds"
+			}
+		}
+		country_leader={
+			ideology=interim_government_subtype
+			desc=BRM_myat_phaya_galay_desc
+			traits={ popular_queen }
+			expire="1956.4.4.1"
+		}
+	}
+	BRM_taw_phaya_gyi={
+		name=BRM_taw_phaya_gyi
+		portraits={
+			civilian={
+				large="gfx/leaders/MYN/Portrait_Taw_Phaya.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_subtype
+			traits={ }
+			expire="1948.4.9.1"
+		}
+	}
+	BRM_u_ba_pe={
+		name=BRM_u_ba_pe
+		portraits={
+			civilian={
+				large="gfx/leaders/MYN/Portrait_U_Ba_Pe.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism_subtype
+			traits={ }
+			expire="1940.10.10.1"
+		}
+	}
+}

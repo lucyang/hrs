@@ -1,0 +1,18 @@
+state={
+	id=435
+	name="STATE_435"
+	provinces={
+		868 3709 3729 4758
+	}
+	history = {
+		owner = LDK
+		add_core_of = LDK
+		
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=1000
+	state_category = town
+	local_supplies = 0.0
+}

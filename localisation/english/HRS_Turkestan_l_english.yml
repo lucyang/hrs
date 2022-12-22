@@ -1,0 +1,70 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ TUK_communism:0 "突厥斯坦自治国"
+ TUK_communism_DEF:0 "突厥斯坦自治国"
+ TUK_anarchism:0 "突厥斯坦自治国"
+ TUK_anarchism_DEF:0 "突厥斯坦自治国"
+ TUK_socialism:0 "突厥斯坦自治国"
+ TUK_socialism_DEF:0 "突厥斯坦自治国"
+ TUK_democratic:0 "突厥斯坦自治国"
+ TUK_democratic_DEF:0 "突厥斯坦自治国"
+ TUK_neutrality:0 "突厥斯坦自治国"
+ TUK_neutrality_DEF:0 "突厥斯坦自治国"
+ TUK_monarchism:0 "突厥斯坦自治国"
+ TUK_monarchism_DEF:0 "突厥斯坦自治国"
+ TUK_fascism:0 "突厥斯坦自治国"
+ TUK_fascism_DEF:0 "突厥斯坦自治国"
+ TUK_imperialism:0 "突厥斯坦自治国"
+ TUK_imperialism_DEF:0 "突厥斯坦自治国"
+ TUK_fuTUKism:0 "突厥斯坦自治国"
+ TUK_fuTUKism_DEF:0 "突厥斯坦自治国"
+ TUK_communism_ADJ:0 "浩罕"
+ TUK_anarchism_ADJ:0 "浩罕"
+ TUK_socialism_ADJ:0 "浩罕"
+ TUK_democratic_ADJ:0 "浩罕"
+ TUK_neutrality_ADJ:0 "浩罕"
+ TUK_monarchism_ADJ:0 "浩罕"
+ TUK_fascism_ADJ:0 "浩罕"
+ TUK_imperialism_ADJ:0 "浩罕"
+ TUK_fuTUKism_ADJ:0 "浩罕"
+ TUK:0 "突厥斯坦"
+ TUK_DEF:0 "突厥斯坦"
+ TUK_ADJ:0 "浩罕"
+ #############
+ ## PARTIES ##
+ #############
+ TUK_communism_party:0 "突厥斯坦共产党"
+ TUK_communism_party_long:0 "突厥斯坦共产党"
+ TUK_anarchism_party:0 "穆斯林劳动联盟"
+ TUK_anarchism_party_long:0 "穆斯林劳动联盟" # Союз трудящихся мусульман
+ TUK_socialism_party:0 "阿拉什党"
+ TUK_socialism_party_long:0 "阿拉什党"
+ TUK_democratic_party:0 "阿拉什党"
+ TUK_democratic_party_long:0 "阿拉什党"
+ TUK_neutrality_party:0 "扎吉德派"
+ TUK_neutrality_party_long:0 "临时人民委员会 - 扎吉德派" # Jaddists(Джадидизм)
+ TUK_monarchism_party:0 "乌理玛委员会"
+ TUK_monarchism_party_long:0 "乌理玛委员会" # Шура-и-Улема
+ TUK_fascism_party:0 "卡迪姆派"
+ TUK_fascism_party_long:0 "临时人民委员会 - 卡迪姆派"
+ TUK_imperialism_party:0 "巴斯玛奇运动"
+ TUK_imperialism_party_long:0 "巴斯玛奇运动"
+ TUK_fuTUKism_party:0 "人民意志党"
+ TUK_fuTUKism_party_long:0 "人民意志党"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ TUK_mustafa_shokay:0 "穆斯塔法·绍凯"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

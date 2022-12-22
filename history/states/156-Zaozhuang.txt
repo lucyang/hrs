@@ -1,0 +1,20 @@
+state={
+	id=156
+	name="STATE_156"
+	provinces={
+		1642 2827 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points ={ 1642 1 } #峄县
+		
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=1127686
+	state_category = town
+	local_supplies = 0.0
+}

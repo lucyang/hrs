@@ -1,0 +1,20 @@
+state={
+	id=409
+	name="STATE_409"
+	provinces={
+		30 224 1007 1273 1277 1390 1416 1647 3054
+	}
+	history = {
+		owner = DBJ
+
+		victory_points = { 3054 1 }
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	manpower=30400
+	state_category = pastoral
+	local_supplies = 0.0
+}

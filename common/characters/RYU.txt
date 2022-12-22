@@ -1,0 +1,100 @@
+characters={
+	RYU_sho_jun={
+		name=RYU_sho_jun
+		portraits={
+			civilian={
+				large="gfx/leaders/Ryukyu/Portrait_Sho_Jun.png"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_subtype
+			desc=RYU_sho_jun_desc
+			traits={ }
+			expire="1945.6.17.1"
+		}
+	}
+	RYU_sho_hiroshi={
+		name=RYU_sho_hiroshi
+		portraits={
+			civilian={
+				large="gfx/leaders/Ryukyu/Portrait_Sho_Hiroshi.png"
+			}
+		}
+		#country_leader={
+		#	ideology=absolute_monarchy_subtype
+		#	desc=RYU_Sho_Hiroshi_desc
+		#	traits={ }
+		#	expire="1996.8.30.1"
+		#}
+	}
+	RYU_coalition_government={
+		name=RYU_coalition_government
+		portraits={
+			civilian={
+				large="gfx/leaders/Ryukyu/Portrait_RYU_government.png"
+			}
+		}
+		#country_leader={
+		#	ideology=interim_government_subtype
+		#	desc=RYU_coalition_government_desc
+		#	traits={ }
+		#	expire="1955.1.25.1"
+		#}
+	}
+	RYU_shikiya_koshin={
+		name=RYU_shikiya_koshin
+		portraits={
+			civilian={
+				large="gfx/leaders/Ryukyu/Portrait_Shikiya_Koshin.png"
+			}
+		}
+		country_leader={
+			ideology=provisional_government_subtype
+			desc=RYU_shikiya_koshin_desc
+			traits={ }
+			expire="1955.1.25.1"
+		}
+	}
+	RYU_ogimi_chotoku={
+		name=RYU_ogimi_chotoku
+		portraits={
+			civilian={
+				large="gfx/leaders/Ryukyu/Portrait_Ogimi_Chotoku.png"
+			}
+		}
+		country_leader={
+			ideology=social_democratic_subtype
+			desc=RYU_ogimi_chotoku_desc
+			traits={ }
+			expire="1977.10.17.1"
+		}
+	}
+	RYU_nakasone_genwa={
+		name=RYU_nakasone_genwa
+		portraits={
+			civilian={
+				large="gfx/leaders/Ryukyu/Portrait_Nakasone_Genwa.png"
+			}
+		}
+		country_leader={
+			ideology=tridemism_subtype
+			desc=RYU_nakasone_genwa_desc
+			traits={ }
+			expire="1978.10.18.1"
+		}
+	}
+	RYU_tokuda_kyuichi={
+		name=RYU_tokuda_kyuichi
+		portraits={
+			civilian={
+				large="gfx/leaders/Ryukyu/Portrait_Tokuda_Kyuichi.png"
+			}
+		}
+		country_leader={
+			ideology=national_communism_subtype
+			desc=Portrait_Tokuda_Kyuichi_desc
+			traits={ }
+			expire="1965.1.30.1"
+		}
+	}
+}

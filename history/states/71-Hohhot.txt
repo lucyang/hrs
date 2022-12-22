@@ -1,0 +1,25 @@
+
+state={
+	id=71
+	name="STATE_71"
+
+	history={
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 1113 3 } #归绥/呼和浩特
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+	}
+
+	provinces={
+		1113 3611 
+	}
+	manpower=248419
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

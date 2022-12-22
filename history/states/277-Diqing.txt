@@ -1,0 +1,19 @@
+state={
+	id=277
+	name="STATE_277"
+	provinces={
+		1424 1766 2748 3076 3123 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+		add_core_of = KHM
+
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=276611
+	state_category = rural
+	local_supplies = 0.0
+}

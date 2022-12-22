@@ -1,0 +1,326 @@
+guiTypes = {
+	containerWindowType = {
+		name = "open_introductions_window"
+		position = { x = -4 y = -1 }
+		size = { width = 100%% height = 100%% }
+		
+		buttonType = {
+			name = "introduction_button"
+			quadTextureSprite = "GFX_introduction_button"
+			position = { x = -131 y = 62 }
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = "OPEN_INTRODUCTION_WINDOW_TT"
+		}
+	}
+	
+	containerWindowType = {
+		name = "introductions_window"
+		position = { x = 480 y = 200 }
+		size = { width = 900 height = 706 }
+		clipping = no
+		moveable = yes
+		fade_time = 300
+		fade_type = linear
+		
+		background = {
+			name = "background"
+			spriteType = "GFX_tiled_plain_bg"
+		}
+		
+		instantTextBoxType = {
+			name = "title"
+			position = { x = 50 y = 5 }
+			text = "INTRODUCTIONS_TITLE"
+			font = "hoi_24header"
+			format = center
+			maxWidth = 800
+			maxHeight = 10
+			fixedsize = yes
+		}
+		
+		buttonType = {
+			name = "close_button"
+			spriteType = "GFX_closebutton"
+			position = { x = 864 y = 3 }
+			pdx_tooltip = "CLOSE"
+			shortcut = "ESCAPE"
+			clicksound = click_close
+		}
+		
+		containerWindowType = {
+			name = "introductions_info_window"
+			position = { x = 0 y = 32 }
+			size = { width = 900 height = 185 }
+			
+			background = {
+				name = "background"
+				spriteType = "GFX_tiled_window_1b_border"
+			}
+			
+			iconType = {
+				name = "introduction_bg"
+				quadTextureSprite = "GFX_introduction_bg"
+				position = { x = 12 y = 12 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			iconType = {
+				name = "introduction_flag"
+				quadTextureSprite = "GFX_shield_medium"
+				position = { x = 336 y = 47 }
+				Orientation = "UPPER_LEFT"
+				alwaystransparent = yes
+			}
+			
+			buttonType = {
+				name = "introduction_flag_bg"
+				spriteType = "GFX_introduction_flag_bg"
+				position = { x = 308 y = 25 }
+				clicksound = click_checkbox
+			}
+			
+			buttonType = {
+				name = "introduction_emblem"
+				quadTextureSprite = "GFX_introduction_emblem"
+				position = { x = 462 y = 25 }
+				clicksound = click_checkbox
+			}
+			
+			instantTextBoxType = {
+				name = "introduction_motto"
+				position = { x = 304 y = 128 }
+				text = "[GetIntroductionMotto]"
+				font = "hoi_18mbs"
+				format = center
+				maxWidth = 300
+				maxHeight = 10
+				fixedsize = yes
+			}
+			
+			buttonType = {
+				name = "select_country_lore_button"
+				spriteType = "GFX_introduction_category_button"
+				position = { x = 19 y = 136 }
+				pdx_tooltip = "SELECT_COUNTRY_LORE_TT"
+				shortcut = "1"
+			}
+			
+			instantTextBoxType = {
+				name = "country_lore"
+				position = { x = 50 y = 147 }
+				text = "COUNTRY_LORE"
+				font = "hoi_18mbs"
+				format = center
+				maxWidth = 70
+				maxHeight = 10
+				fixedsize = yes
+				alwaystransparent = yes
+			}
+			
+			buttonType = {
+				name = "select_country_paths_button"
+				spriteType = "GFX_introduction_category_button"
+				position = { x = 153 y = 136 }
+				pdx_tooltip = "SELECT_COUNTRY_PATHS_TT"
+				shortcut = "2"
+			}
+			
+			instantTextBoxType = {
+				name = "country_paths"
+				position = { x = 184 y = 147 }
+				text = "COUNTRY_PATHS"
+				font = "hoi_18mbs"
+				format = center
+				maxWidth = 70
+				maxHeight = 10
+				fixedsize = yes
+				alwaystransparent = yes
+			}
+		}
+	}
+	
+	containerWindowType = {
+		name = "country_lore_window"
+		position = { x = 0 y = 167 }
+		size = { width = 900 height = 504 }
+		
+		containerWindowType = {
+			name = "country_lore_info_window"
+			position = { x = 0 y = 35 }
+			size = { width = 900 height = 504 }
+			margin = { top = 13 bottom = 13 right = 12 left = 12 }
+			verticalScrollbar = "right_vertical_slider"
+			scroll_wheel_factor = 80
+			
+			background = {
+				name = "background"
+				spriteType = "GFX_tiled_window_1b_border"
+			}
+			
+			gridboxtype = {
+				name = "country_lore_gridbox"
+				position = { x = 0 y = 0 }
+				size = { width = 864 height = 80 }
+				slotsize = { width = 864 height = 80 }
+				add_horizontal = no
+			}
+		}
+		
+		iconType = {
+			name = "country_lore_selected_icon"
+			spriteType = "GFX_introduction_category_icon"
+			position = { x = 19 y = 1 }
+			pdx_tooltip = "SELECT_COUNTRY_LORE_TT"
+		}
+		
+		instantTextBoxType = {
+			name = "country_lore"
+			position = { x = 50 y = 12 }
+			text = "COUNTRY_LORE"
+			font = "hoi_18mbs"
+			format = center
+			maxWidth = 70
+			maxHeight = 10
+			fixedsize = yes
+			alwaystransparent = yes
+		}
+		
+		buttonType = {
+			name = "country_lore_button_1"
+			quadTextureSprite = "GFX_country_lore_button"
+			position = { x = 33 y = 60 }
+			frame = 1
+			pdx_tooltip = "COUNTRY_LORE_1_TT"
+		}
+		
+		buttonType = {
+			name = "country_lore_button_2"
+			quadTextureSprite = "GFX_country_lore_button"
+			position = { x = 309 y = 60 }
+			frame = 2
+			pdx_tooltip = "COUNTRY_LORE_2_TT"
+		}
+		
+		buttonType = {
+			name = "country_lore_button_3"
+			quadTextureSprite = "GFX_country_lore_button"
+			position = { x = 585 y = 60 }
+			frame = 3
+			pdx_tooltip = "COUNTRY_LORE_3_TT"
+		}
+		
+		instantTextBoxType = {
+			name = "country_lore_desc"
+			position = { x = 20 y = 222 }
+			text = "[GetCountryLoreDesc]"
+			font = "hoi_18mbs"
+			format = left
+			maxWidth = 850
+			maxHeight = 275
+			scrollbartype = "introductiontext_slider"
+		}
+	}
+	
+	containerWindowType = {
+		name = "country_paths_window"
+		position = { x = 0 y = 167 }
+		size = { width = 900 height = 504 }
+		
+		containerWindowType = {
+			name = "country_paths_info_window"
+			position = { x = 0 y = 35 }
+			size = { width = 900 height = 504 }
+			margin = { top = 13 bottom = 13 right = 12 left = 12 }
+			verticalScrollbar = "right_vertical_slider"
+			scroll_wheel_factor = 80
+			
+			background = {
+				name = "background"
+				spriteType = "GFX_tiled_window_1b_border"
+			}
+			
+			gridboxtype = {
+				name = "country_paths_gridbox"
+				position = { x = 0 y = 0 }
+				size = { width = 864 height = 80 }
+				slotsize = { width = 864 height = 80 }
+				add_horizontal = no
+			}
+		}
+		
+		iconType = {
+			name = "country_paths_selected_icon"
+			spriteType = "GFX_introduction_category_icon"
+			position = { x = 153 y = 1 }
+			pdx_tooltip = "SELECT_COUNTRY_PATHS_TT"
+		}
+		
+		instantTextBoxType = {
+			name = "country_paths"
+			position = { x = 184 y = 12 }
+			text = "COUNTRY_PATHS"
+			font = "hoi_18mbs"
+			format = center
+			maxWidth = 70
+			maxHeight = 10
+			fixedsize = yes
+			alwaystransparent = yes
+		}
+		
+		instantTextBoxType = {
+			name = "country_paths_desc"
+			position = { x = 20 y = 72 }
+			text = "COUNTRY_PATHS_DESC"
+			font = "hoi_18mbs"
+			format = left
+			maxWidth = 850
+			maxHeight = 850
+			scrollbartype = "introductiontext_slider"
+		}
+	}
+	
+	scrollbarType = {
+		name = "introductiontext_slider"
+		slider = "listboxSliderButton"
+		track= "listboxTrackButton"
+		leftbutton = "downButton"
+		rightbutton = "upButton"
+		size = { x = 12 y = 12 }
+		position = { x = 0 y = 0 }
+		priority = 100
+		borderSize = { x = 12 y = 12 }
+		maxValue = 1
+		minValue = 0
+		stepSize = 8
+		startValue = 0
+		horizontal = 0
+		
+		guiButtonType = {
+			name = "listboxSliderButton"
+			quadTextureSprite = "GFX_int_scroll_drager"
+			position = { x = 0 y = 0 }
+		}
+		
+		guiButtonType = {
+			name = "listboxTrackButton"
+			quadTextureSprite = "GFX_int_scroll_track"
+			position = { x = 12 y = 12 }		
+		}
+		
+		guiButtonType = {
+			parent = "listboxSliderButton"
+			name = "upButton"
+			quadTextureSprite = "GFX_int_scroll_up"
+			position = { x = 0 y = 0 }
+		}
+		
+		guiButtonType = {
+			parent = "listboxSliderButton"
+			name = "downButton"
+			quadTextureSprite = "GFX_int_scroll_down"
+			position = { x = 0 y = 120 }
+		}
+	}
+}

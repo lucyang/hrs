@@ -1,0 +1,90 @@
+############################
+## Disaster Events
+############################
+add_namespace = zzz
+
+country_event = {
+	id = zzz.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event zzz.1"}
+	title = zzz.1.t
+	desc = zzz.1.desc
+	
+	hidden = yes
+
+	fire_only_once = yes
+	trigger = {
+		date > 1927.1.1
+		date < 1928.1.1
+		NOT = { has_global_flag = RUS_reunification }
+	}
+
+	option = {
+		name = zzz.1.a
+		ZZZ = {
+			annex_country = { target = TAN transfer_troops = yes }
+			annex_country = { target = ALT transfer_troops = yes }
+			random_list = {
+				10 = { country_event = zzz.2 }
+			}
+			set_global_flag = RUS_reunification
+			set_global_flag = RUS_rada_reunification
+		}
+	}
+}
+country_event = {
+	id = zzz.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event zzz.1"}
+	title = zzz.2.t
+	desc = zzz.2.desc
+	
+	hidden = yes
+	is_triggered_only = yes
+
+	option = {
+		name = zzz.1.a
+		news_event = rus_news.1
+		ZZZ = { 
+			set_cosmetic_tag = ZZZ_rada
+			set_politics = {
+				ruling_party = communism
+				elections_allowed = no
+			}
+			set_popularities = {
+				communism = 80
+				anarchism = 12
+				democratic = 0
+				neutrality = 8
+				monarchism = 0
+				fascism = 0
+				imperialism = 0
+				futurism = 0
+			}
+			set_party_name = {
+				ideology = communism
+				long_name = ZZZ_krushev_party_long
+				name = ZZZ_krushev_party
+			}
+			set_party_name = {
+				ideology = anarchism
+				long_name = ZZZ_krushev_party_long
+				name = ZZZ_krushev_party
+			}
+			set_party_name = {
+				ideology = neutrality
+				long_name = ZZZ_red_army_party_long
+				name = ZZZ_red_army_party
+			}
+			add_country_leader_role = {
+				character = ZZZ_nikita_khrushchev
+				country_leader={
+					ideology=stalinism_subtype
+					desc=ZZZ_nikita_khrushchev_desc
+					traits={  }
+					expire="1971.9.11.1"
+				}
+				promote_leader = yes 
+			}
+			country_event = zzz.3
+		}
+	}
+}

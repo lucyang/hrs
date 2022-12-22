@@ -1,0 +1,149 @@
+add_namespace = kmt
+
+####################
+# GUANGDONG EVENTS #
+####################
+country_event = { #Capture Sun Yat-sen?
+	id = kmt.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event kmt.1" }
+	title = kmt.1.t
+	desc = kmt.1.desc
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = { #Right
+		name = kmt.1.a
+		add_political_power = -616
+		set_global_flag = Sun_Yat_Sen_Captured
+		country_event = { id = kmt.2 days = 3 } #Future of Doctor Sun
+	}
+	option = { #Let him go
+		name = kmt.1.b
+		country_event = { id = kmt.3 days = 5 } #Future of Canton
+	}
+}
+country_event = { #Future of Doctor Sun
+	id = kmt.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt.2"
+		hidden_effect = {
+			white_peace = IMC
+		}
+	}
+	title = kmt.2.t
+	desc = kmt.2.desc
+	picture = GFX_report_event_dead_soldiers
+
+	is_triggered_only = yes
+
+	option = { #Send him to Empire
+		name = kmt.2.a
+		retire_character = KMT_sun_zhongshan
+		set_global_flag = Sun_Yat_Sen_Dead
+		add_popularity = {
+			ideology = democratic
+			popularity = -0.20
+		}
+		country_event = { id = kmt.3 days = 2 } #Future of Canton
+	}
+	option = { #Make him a puppet
+		name = kmt.2.b
+		country_event = { id = kmt.3 days = 5 } #Future of Canton
+	}
+}
+country_event = { #Future of Canton
+	id = kmt.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event kmt.3" }
+	title = kmt.3.t
+	desc = kmt.3.desc
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = { #Guangdong Independence
+		name = kmt.3.a
+		set_cosmetic_tag = KMT_guangdong
+		add_ideas = {
+			unitary_state1
+			market_economy1
+		}
+		add_country_leader_role = {
+			character = KMT_chen_jiongming
+			country_leader={
+				ideology=bad_federalism_subtype
+				desc=KMT_chen_jiongming_desc
+				traits={ }
+				expire="1933.9.22.1"
+			}
+			promote_leader = yes 
+		}
+		set_party_name = {
+			ideology = neutrality
+			long_name = KMT_zhigong_party_long
+			name = KMT_zhigong_party
+		}
+		set_party_name = {
+			ideology = democratic
+			long_name = KMT_zhigong_party_long
+			name = KMT_zhigong_party
+		}
+		set_politics = { ruling_party = neutrality elections_allowed = no }
+		IMC = { country_event = { id = kmt.99 days = 7 } } 
+	}
+	option = { #To be Imperial SAR
+		name = kmt.3.b
+		set_cosmetic_tag = KMT_IMC
+		add_country_leader_role = {
+			character = KMT_chen_jiongming
+			country_leader={
+				ideology=development_authoritarianism_subtype
+				desc=KMT_chen_jiongming_desc
+				traits={ political_chameleon }
+				expire="1933.9.23.1"
+			}
+			promote_leader = yes 
+		}
+		add_ideas = {
+			unitary_state2
+			market_economy
+		}
+		set_party_name = {
+			ideology = neutrality
+			long_name = KMT_federalist_party_long
+			name = KMT_federalist_party
+		}
+		set_politics = { ruling_party = neutrality elections_allowed = no }
+		IMC = { country_event = { id = kmt.99 days = 7 } }#Future of Canton
+	}
+	option = { #To be Warlord
+		name = kmt.3.c
+		trigger = {
+			has_global_flag = Sun_Yat_Sen_Captured
+			NOT = { has_global_flag = Sun_Yat_Sen_Dead }
+		}
+		set_cosmetic_tag = KMT_warlord
+		create_faction = united_provinces
+		set_party_name = {
+			ideology = neutrality
+			long_name = KMT_federalist_party_long
+			name = KMT_federalist_party
+		}
+		add_ideas = {
+			federation
+			dirigisme_economy
+		}
+		add_country_leader_role = {
+			character = KMT_old_sun_zhongshan
+			country_leader={
+				ideology=warlordism_subtype
+				desc=KMT_old_sun_zhongshan_desc
+				traits={ }
+				expire="1925.3.12.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = neutrality elections_allowed = no }
+		IMC = { country_event = { id = kmt.99 days = 7 } }#Future of Canton
+	}
+}

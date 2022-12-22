@@ -1,0 +1,21 @@
+state={
+	id=235
+	name="STATE_235"
+	provinces={
+		2796 3128 3840 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 3840 1 } #嘉兴
+			
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+	}
+	manpower=1731000
+	state_category = city
+	local_supplies = 0.0
+}

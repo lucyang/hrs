@@ -1,0 +1,19 @@
+
+state={
+	id=513
+	name="STATE_513"
+	provinces={
+		51 104 144 176 213 271 275 364 450 466 510 513 637 660 734 751 905 943 952 975 1045 1088 1372 1468 1494 1589 1590 1941 2044 2047 2092 2102 2105 2106 2219 2351 2606 2802 3098 3203 
+	}
+	history={
+		owner = PRA
+		add_core_of = PRA
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=260000
+	buildings_max_level_factor=1.000
+	state_category = rural
+	local_supplies=0.000
+}

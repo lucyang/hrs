@@ -1,0 +1,27 @@
+characters={
+	QND_xu_jingxin={
+		name=QND_xu_jingxin
+		portraits={
+			civilian={
+				large="gfx/leaders/QND/Portrait_Xu_Jingxin.png"
+			}
+			army={
+				large="gfx/leaders/QND/Portrait_Xu_Jingxin.png"
+			}
+		}
+		country_leader={
+			ideology=national_liberalism_subtype
+			desc=QND_xu_jingxin_desc
+			traits={ liberal_democratic_paragon master_of_politics }
+			expire="1950.1.1.1"
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+}

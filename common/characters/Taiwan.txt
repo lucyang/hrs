@@ -1,0 +1,126 @@
+characters={
+	FRM_chen_fengyuan={ #陈逢源
+		name=FRM_chen_fengyuan
+		portraits={
+			civilian={
+				large="gfx/leaders/Taiwan/Portrait_Chen_Fengyuan.dds"
+			}
+		}
+	}
+	FRM_jiang_weishui={ #蒋渭水
+		name=FRM_jiang_weishui
+		portraits={
+			civilian={
+				large="gfx/leaders/Taiwan/Portrait_Chiang_Weishui.dds"
+			}
+		}
+	}
+	FRM_lian_wenqing={ #连温卿
+		name=FRM_lian_wenqing
+		portraits={
+			civilian={
+				large="gfx/leaders/Taiwan/Portrait_Lian_Wenqing.dds"
+			}
+		}
+	}
+	FRM_li_weiguang={ #李伟光
+		name=FRM_li_weiguang
+		portraits={
+			civilian={
+				large="gfx/leaders/Taiwan/Portrait_Li_Weiguang.png"
+			}
+		}
+		country_leader={
+			ideology=national_communism_subtype
+			desc=FRM_li_weiguang_desc
+			traits={ voice_of_restraint }
+			expire="1954.10.1.1"
+		}
+	}
+	FRM_xie_xuehong={ #谢雪红
+		name=FRM_xie_xuehong
+		portraits={
+			civilian={
+				large="gfx/leaders/Taiwan/Portrait_Xie_Xuehong.dds"
+			}
+		}
+		country_leader={
+			ideology=leninism_subtype
+			desc=YUN_wang_fusheng_desc
+			traits={ voice_of_restraint international_revolutionary }
+			expire="1970.11.5.1"
+		}
+	}
+	FRM_luo_fuxing={ #罗福星
+		name=FRM_luo_fuxing
+		portraits={
+			civilian={
+				large="gfx/leaders/Taiwan/Portrait_Luo_Fuxing.png"
+			}
+		}
+		country_leader={
+			ideology=provisional_government_subtype
+			desc=FRM_luo_fuxing_desc
+			traits={ }
+			expire="1950.3.3.1"
+		}
+	}
+	### TAW-Taiwan ###
+	TAW_qiu_niantai={ #丘念台
+		name=TAW_qiu_niantai
+		portraits={
+			civilian={
+				large="gfx/leaders/Taiwan/Portrait_Qiu_Niantai.png"
+			}
+		}
+		country_leader={
+			ideology=conservatism_subtype
+			desc=TAW_qiu_niantai_desc
+			traits={ }
+			expire="1967.1.12.1"
+		}
+	}
+	TAW_li_wanju={ #李万居
+		name=TAW_li_wanju
+		portraits={
+			civilian={
+				large="gfx/leaders/Taiwan/Portrait_Li_Wanju.png"
+			}
+		}
+		country_leader={
+			ideology=daijitaoism_subtype
+			desc=TAW_li_wanju_desc
+			traits={ }
+			expire="1966.4.9.1"
+		}
+	}
+	TAW_chen_yi={ #陈仪
+		name=TAW_chen_yi
+		portraits={
+			civilian={
+				large="gfx/leaders/Taiwan/Portrait_Chen_Yi.dds"
+			}
+		}
+		country_leader={
+			ideology=guided_democracy_subtype
+			desc=TAW_chen_yi_desc
+			traits={ }
+			expire="1950.6.18.1"
+		}
+	}
+	### ASN-Austronesia ###
+	ASN_losing_watan={ #乐信·瓦旦
+		name=ASN_losing_watan
+		portraits={
+			civilian={
+				large="gfx/leaders/FRM/Portrait_Losing_Watan.dds"
+			}
+		}
+		country_leader={
+			ideology=partisan_movement_subtype
+			desc=ASN_losing_watan_desc
+			traits={  }
+			expire="1954.4.17.1"
+		}
+	}
+}

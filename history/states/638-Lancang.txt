@@ -1,0 +1,22 @@
+state={
+	id=638
+	name="STATE_638"
+	provinces={
+		235 954 2871 4174
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 2871 1 } #耿马
+		victory_points = { 4174 3 } #澜沧
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	manpower=752551
+	state_category = rural
+	local_supplies = 0.0
+}

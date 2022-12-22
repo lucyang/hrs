@@ -1,0 +1,78 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ JAF_communism:0 "日本革命起义军"
+ JAF_communism_DEF:0 "日本革命起义军"
+ JAF_anarchism:0 "日本革命起义军"
+ JAF_anarchism_DEF:0 "日本革命起义军"
+ JAF_democratic:0 "日本革命起义军"
+ JAF_democratic_DEF:0 "日本革命起义军"
+ JAF_neutrality:0 "日本革命起义军"
+ JAF_neutrality_DEF:0 "日本革命起义军"
+ JAF_monarchism:0 "日本革命起义军"
+ JAF_monarchism_DEF:0 "日本革命起义军"
+ JAF_fascism:0 "日本革命起义军"
+ JAF_fascism_DEF:0 "日本革命起义军"
+ JAF_imperialism:0 "日本革命起义军"
+ JAF_imperialism_DEF:0 "日本革命起义军"
+ JAF_futurism:0 "日本革命起义军"
+ JAF_futurism_DEF:0 "日本革命起义军"
+ JAF_communism_ADJ:0 "日本革命起义军"
+ JAF_anarchism_ADJ:0 "日本革命起义军"
+ JAF_democratic_ADJ:0 "日本革命起义军"
+ JAF_neutrality_ADJ:0 "日本革命起义军"
+ JAF_monarchism_ADJ:0 "日本革命起义军"
+ JAF_fascism_ADJ:0 "日本革命起义军"
+ JAF_imperialism_ADJ:0 "日本革命起义军"
+ JAF_futurism_ADJ:0 "日本革命起义军"
+ JAF:0 "日本革命起义军"
+ JAF_DEF:0 "日本革命起义军"
+ JAF_ADJ:0 "日本革命起义军"
+ #############
+ ## PARTIES ##
+ #############
+ JAF_communism_party:0 "日本共产党"
+ JAF_communism_party_long:0 "日本共产党"
+ JAF_anarchism_party:0 "黑联/全国联"
+ JAF_anarchism_party_long:0 "黑色青年联盟/全国劳动组合自由联合会"
+ JAF_socialism_party:0 "社会民众党"
+ JAF_socialism_party_long:0 "社会民众党"
+ JAF_democratic_party:0 "日本社会党"
+ JAF_democratic_party_long:0 "日本社会党"
+ JAF_neutrality_party:0 "日本革命起义军"
+ JAF_neutrality_party_long:0 "日本革命起义军"
+ JAF_monarchism_party:0 "和朝效忠派"
+ JAF_monarchism_party_long:0 "和朝效忠派"
+ JAF_fascism_party:0 "日本解放阵线"
+ JAF_fascism_party_long:0 "日本解放阵线 - 国家派"
+ JAF_imperialism_party:0 "日本解放阵线"
+ JAF_imperialism_party_long:0 "日本解放阵线 - 泛亚派"
+ JAF_futurism_party:0 "日本解放阵线"
+ JAF_futurism_party_long:0 "日本解放阵线 - 改造派"
+
+ JAF_anti_japan_party:0 "东亚反日武装战线"
+ JAF_anti_japan_party_long:0 "东亚反日武装战线"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ JAF_iwasa_sakutaro:0 "岩佐作太郎"
+ JAF_iwasa_sakutaro_desc:0 "§Y出生日期§!：§G1879年9月25日§!\n§Y出生地点§!：§G大东帝国东海道千叶县§!\n\n§Y岩佐作太郎§!是日本无政府主义运动的得力干将，他善于演说，毫不掩饰自己对共产主义和工团主义的厌恶，因而是帝国反叛者中一位特立独行的左派人物。从中央大学毕业后，岩佐作太郎来到了秋津洲，与§Y幸德秋水§!等人秘密组建了社会革命党。1910年§R大逆事件§!后，幸德秋水被帝国政府无故判处死刑，岩佐作太郎亲笔书写公开信，抨击帝国政权的残暴无道。\n\n1918年岩佐作太郎回到日本，加入了§Y堺利彦§!创立的§R日本社会主义同盟§!。然而好景不长，大批左派人士纷纷转向国家主义和民族主义叙事。经过认真思考后，岩佐作太郎认为共产主义和工团主义的组织模式，决定了它们潜藏着集权与寡头化的风险，因而必然走向无政府主义的对立面。他提倡“纯正的无政府主义”，试图以此对抗无政府主义运动中愈发浓重的工团主义色彩。\n\n1923年，岩佐作太郎加入§R黑色青年联盟§!，与之合作的§R全国劳动组合自由联合会§!难以接受他的反工团主义立场，因而推出§Y石川三四郎§!与之对抗，然而后者浓重的农业主义倾向又与工团主义格格不入。岩佐与石川不得不花费大把时间磨合组织成员，当第四师团在关西打响革命第一枪，二者的努力终于得到了回报，无政府主义者将把黑旗插在旧国家的废墟之上······"
+ JAF_hatta_shuzo:0 "八太舟三"
+ JAF_nanbo_daisuke:0 "难波大助"
+ JAF_ishikawa_sanshiro:0 "石川三四郎"
+ JAF_ishikawa_sanshiro_desc:0 "§Y出生日期§!：§G1876年5月23日§!\n§Y出生地点§!：§G大东帝国东海道埼玉县§!\n\nWIP"
+ ###########
+ ## IDEAS ##
+ ###########
+ JAF_troika:0 "三巨头"
+ JAF_troika_desc:0 "日本的无政府主义革命事业是由§Y岩佐作太郎§!、§Y八太舟三§!、§Y石川三四郎§!三位豪杰一同领导的，这不能不说是安那其妈妈的一件幸事。但是这三位领袖对无政府主义的理解与建设方式有不小的分歧。结果在每一个受革命委员会控制的城市，都会有这三派的成员党同伐异甚至大打出手的事情发生。在委员会里，成员意见发生分歧其实并不奇怪，但恐怕他们还并没有学会怎么去更妥善的处理这些分歧，在风云变幻的形势下，党同伐异的委员会对各种事项的决策势必会变得有些缓慢。"
+ JAF_anarchist_trade_union:0 "劳动组合总同盟"
+ JAF_anarchist_trade_union_desc:0 "在东日本的新兴工业城市里，各类无政府主义工会成功地团结了大量工人。而组织良好的工会也在起义之后组织起了工人民兵，迅速稳定了城市的生产与治安，并成功击退了帝国军队。工人能够直接参与到各种事项的决策中去，这为我们的政权稳定发挥了巨大的作用。"
+ ############
+ ## EVENTS ##
+ ############

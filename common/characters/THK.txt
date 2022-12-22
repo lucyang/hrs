@@ -1,0 +1,38 @@
+characters={
+	THK_yasuhito={
+		name=THK_yasuhito
+		portraits={
+			civilian={
+				large="gfx/leaders/THK/Portrait_Yasuhito.png"
+			}
+		}
+		country_leader={
+			ideology=corporacracy_subtype
+			desc=THK_yasuhito_desc
+			traits={ disgraced_monarch inexperienced_imperialist }
+			expire="1953.1.4.1"
+		}
+	}
+	THK_reppan_council={
+		name=THK_reppan_council
+		portraits={
+			civilian={
+				large="gfx/leaders/THK/Portrait_Reppan_Council.png"
+			}
+		}
+	}
+	THK_nambu_kijiro={
+		name=THK_nambu_kijiro
+		portraits={
+			civilian={
+				large="gfx/leaders/THK/Portrait_Nambu_Kijiro.png"
+			}
+		}
+		country_leader={
+			ideology=oligarchism_subtype
+			desc=THK_nambu_kijiro_desc
+			traits={ war_industrialist armaments_organizer }
+			expire="1949.5.1.1"
+		}
+	}
+}

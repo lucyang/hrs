@@ -1,0 +1,21 @@
+state={
+	id=159
+	name="STATE_159"
+	provinces={
+		679 1312 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 679 3 } #定西
+		
+		buildings = {
+			infrastructure = 2
+		}
+		
+	}
+	manpower=2473070
+	state_category = rural
+	local_supplies = 0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=80
+	name="STATE_80"
+	provinces={
+		1075 2825 3637 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 1075 1 } #朔州
+		
+		buildings = {
+			infrastructure = 2	
+		}
+		
+	}
+	manpower= 373359
+	state_category = rural
+	local_supplies = 0.0
+}

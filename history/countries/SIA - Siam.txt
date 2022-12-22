@@ -1,0 +1,74 @@
+capital = 384
+
+oob = "empty"
+
+recruit_character = SIA_rama_vi
+recruit_character = SIA_phraya_manopakorn_nititada
+
+
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_destroyer = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		early_ship_hull_light = 1
+		coastal_defense_ships = 1
+	}
+}
+set_convoys = 10
+
+add_ideas = {
+	export_focus
+	volunteer_only
+	civilian_economy
+	country_development1
+	country_tech1
+}
+add_ideas = {
+	country_development1
+	country_tech1
+	market_economy
+	unitary_state2
+}
+
+add_opinion_modifier = {
+    target = IMC
+    modifier = ENG_imperial_loyalist
+}
+
+give_military_access = IMC
+
+diplomatic_relation = {
+    country = IMC
+    relation = docking_rights
+    active = yes
+}
+
+# 905 = { add_dynamic_modifier = { modifier = kra_canal_zone } }
+
+set_politics = {
+	ruling_party = monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	anarchism = 0
+	socialism = 24
+	democratic = 10
+	neutrality = 19
+	monarchism = 39
+	fascism = 0
+	imperialism = 8
+	futurism = 0
+}

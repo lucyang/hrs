@@ -1,0 +1,61 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ SLA_communism:0 "高丽社会主义自治共和国"
+ SLA_communism_DEF:0 "远东游击队独立团「红旗」"
+ SLA_anarchism:0 "高丽社会主义自治共和国"
+ SLA_anarchism_DEF:0 "远东游击队独立团「红旗」"
+ SLA_socialism:0 "高丽社会主义自治共和国"
+ SLA_socialism_DEF:0 "远东游击队独立团「红旗」"
+ SLA_democratic:0 "高丽社会主义自治共和国"
+ SLA_democratic_DEF:0 "远东游击队独立团「红旗」"
+ SLA_neutrality:0 "高丽社会主义自治共和国"
+ SLA_neutrality_DEF:0 "远东游击队独立团「红旗」"
+ SLA_monarchism:0 "高丽社会主义自治共和国"
+ SLA_monarchism_DEF:0 "远东游击队独立团「红旗」”"
+ SLA_fascism:0 "高丽社会主义自治共和国"
+ SLA_fascism_DEF:0 "远东游击队独立团「红旗」"
+ SLA_imperialism:0 "高丽社会主义自治共和国"
+ SLA_imperialism_DEF:0 "远东游击队独立团「红旗」"
+ SLA_futurism:0 "高丽社会主义自治共和国"
+ SLA_futurism_DEF:0 "远东游击队独立团「红旗」"
+ SLA_communism_ADJ:0 "高丽"
+ SLA_anarchism_ADJ:0 "高丽"
+ SLA_democratic_ADJ:0 "高丽"
+ SLA_neutrality_ADJ:0 "高丽"
+ SLA_monarchism_ADJ:0 "高丽"
+ SLA_fascism_ADJ:0 "高丽"
+ SLA_imperialism_ADJ:0 "高丽"
+ SLA_futurism_ADJ:0 "高丽"
+ #############
+ ## PARTIES ##
+ #############
+ SLA_communism_party:0 "俄罗斯共产党"
+ SLA_communism_party_long:0 "俄罗斯共产党"
+ SLA_anarchism_party:0 "高丽共产党"
+ SLA_anarchism_party_long:0 "高丽共产党"
+ SLA_socialism_party:0 "韩人社会党"
+ SLA_socialism_party_long:0 "韩人社会党"
+ SLA_democratic_party:0 "独立党 - 中道派"
+ SLA_democratic_party_long:0 "韩国独立党 - 中道派"
+ SLA_neutrality_party:0 "“红旗”独立团"
+ SLA_neutrality_party_long:0 "远东游击队独立团“红旗”"
+ SLA_monarchism_party:0 "保皇派"
+ SLA_monarchism_party_long:0 "保皇派"
+ SLA_fascism_party:0 "独立党 - 民族派"
+ SLA_fascism_party_long:0 "韩国独立党 - 民族派"
+ SLA_imperialism_party:0 "主体党"
+ SLA_imperialism_party_long:0 "朝鲜主体党"
+ SLA_futurism_party:0 "满铁"
+ SLA_futurism_party_long:0 "南满洲铁道"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ SLA_ZZZ_neutrality:0 ""
+ SLA_ZZZ_neutrality_DEF:0 "东满洲无政府区域"
+ ################
+ ## CHARACTERS ##
+ ################
+ DAL_alexandra_kim:0 "亚历珊德拉·金" #Kim Aerim
+ DAL_real_alexandra_kim:0 "金爱琳" #Kim Aerim

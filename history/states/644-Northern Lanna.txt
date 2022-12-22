@@ -1,0 +1,21 @@
+state={
+	id=644
+	name="STATE_644"
+	provinces={
+		162 1586 2828 879 2911 2135 1878 3256 1443
+	}
+	history = {
+		owner = SIA
+		add_core_of = SIA
+
+		victory_points = { 1586 10 } #清迈
+		victory_points = { 3256 1 } #清莱
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=752551
+	state_category = town
+	local_supplies = 0.0
+}

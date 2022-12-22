@@ -1,0 +1,20 @@
+state={
+	id=403
+	name="STATE_403"
+	provinces={
+		310 490 570 589 803 1827 2099 2271 2658 2927 4266 
+	}
+	history = {
+		owner = MAL
+		add_core_of = MAL
+		
+		victory_points = { 589 10 } #槟城
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=2490670
+	state_category = town
+	local_supplies = 0.0
+}

@@ -1,0 +1,30 @@
+characters={
+	FAR_aleksandr_bogdanov={
+		name=FAR_aleksandr_bogdanov
+		portraits={
+			civilian={
+				large="gfx/leaders/FAR/Portrait_Aleksandr_Bogdanov.png"
+			}
+		}
+		country_leader={
+			ideology=stalinism_subtype
+			desc=FAR_aleksandr_bogdanov_desc
+			traits={ leftist_independent devoted_marxist }
+			expire="1940.4.7.1"
+		}
+	}
+	FAR_lev_kamenev={
+		name=FAR_lev_kamenev
+		portraits={
+			civilian={
+				large="gfx/leaders/FAR/Portrait_Lev_Kamenev.png"
+			}
+		}
+		#country_leader={
+		#	ideology=leninism_subtype
+		#	desc=FAR_lev_kamenev_desc
+		#	traits={ political_commissar communist_theorist }
+		#	expire="1950.1.1.1"
+		#}
+	}
+}

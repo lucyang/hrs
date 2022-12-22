@@ -1,0 +1,77 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ AHM_communism:0 "阿洪姆社会主义共和国"
+ AHM_communism_DEF:0 "阿洪姆社会主义共和国"
+ AHM_anarchism:0 "阿洪姆人民共和国"
+ AHM_anarchism_DEF:0 "阿洪姆人民共和国"
+ AHM_socialism:0 "阿洪姆民主共和国"
+ AHM_socialism_DEF:0 "阿洪姆民主共和国"
+ AHM_democratic:0 "阿洪姆王国"
+ AHM_democratic_DEF:0 "阿洪姆王国"
+ AHM_neutrality:0 "阿洪姆王国"
+ AHM_neutrality_DEF:0 "阿洪姆王国"
+ AHM_monarchism:0 "阿洪姆王国"
+ AHM_monarchism_DEF:0 "阿洪姆王国"
+ AHM_fascism:0 "阿洪姆王国"
+ AHM_fascism_DEF:0 "阿洪姆王国"
+ AHM_imperialism:0 "阿洪姆王国"
+ AHM_imperialism_DEF:0 "阿洪姆王国"
+ AHM_futurism:0 "阿洪姆王国"
+ AHM_futurism_DEF:0 "阿洪姆王国"
+ AHM_communism_ADJ:0 "阿洪姆"
+ AHM_anarchism_ADJ:0 "阿洪姆"
+ AHM_socialism_ADJ:0 "阿洪姆"
+ AHM_democratic_ADJ:0 "阿洪姆"
+ AHM_neutrality_ADJ:0 "阿洪姆"
+ AHM_monarchism_ADJ:0 "阿洪姆"
+ AHM_fascism_ADJ:0 "阿洪姆"
+ AHM_imperialism_ADJ:0 "阿洪姆"
+ AHM_futurism_ADJ:0 "阿洪姆"
+ AHM:0 "阿洪姆"
+ AHM_DEF:0 "阿洪姆"
+ AHM_ADJ:0 "阿洪姆"
+ #############
+ ## PARTIES ##
+ #############
+ AHM_communism_party:0 "阿洪姆共产党"
+ AHM_communism_party_long:0 "阿洪姆共产党"
+ AHM_anarchism_party:0 "联合解放阵线"
+ AHM_anarchism_party_long:0 "阿洪姆联合解放阵线"
+ AHM_socialism_party:0 "国民大会党"
+ AHM_socialism_party_long:0 "国民大会党"
+ AHM_democratic_party:0 "国民大会党"
+ AHM_democratic_party_long:0 "国民大会党"
+ AHM_neutrality_party:0 "性力派教团"
+ AHM_neutrality_party_long:0 "性力派教团"
+ AHM_monarchism_party:0 "土邦王公"
+ AHM_monarchism_party_long:0 "土邦王公"
+ AHM_fascism_party:0 "国民服务志愿团"
+ AHM_fascism_party_long:0 "国民服务志愿团"
+ AHM_imperialism_party:0 "印度教大斋会"
+ AHM_imperialism_party_long:0 "印度教大斋会"
+ AHM_futurism_party:0 "西南制药"
+ AHM_futurism_party_long:0 "西南制药"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ AHM_tribes:0 "自治土邦"
+ ## IDEAS ##
+ ###########
+
+ #################
+ ### DECISIONS ###
+ ################# 
+
+ ################
+ ## FOCUS TREE ##
+ ################
+ 
+ #############
+ ### EVENT ###
+ #############

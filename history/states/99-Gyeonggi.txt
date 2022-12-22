@@ -1,0 +1,21 @@
+state={
+	id=99
+	name="STATE_99"
+	provinces={
+		491 5143
+	}
+	history = {
+		owner = IMK
+		add_core_of = IMK
+
+		victory_points = { 5143 1 } #水原
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+	}
+	manpower=2019108
+	state_category = town
+	local_supplies = 0.0
+}

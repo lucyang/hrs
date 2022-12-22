@@ -1,0 +1,48 @@
+ideas = {
+	country = {
+		JLF_fight_for_leadership = {
+			name = JLF_fight_for_leadership
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = JLF_fight_for_leadership
+			modifier = {
+				stability_factor = -0.1
+				political_power_cost = 0.25
+			}
+		}
+
+		JLF_timely_help = {
+			name = JLF_timely_help
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = JLF_timely_help
+			targeted_modifier = {
+				tag = IMJ
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = CGK
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = THK
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+	}
+}

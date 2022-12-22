@@ -1,0 +1,26 @@
+
+state={
+	id=363
+	name="STATE_363"
+
+	history={
+		owner = ANM
+		add_core_of = VIN
+		victory_points = {
+			778 5 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		778 4215 5063 5065 5066 
+	}
+	manpower=532145
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

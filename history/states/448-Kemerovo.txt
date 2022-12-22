@@ -1,0 +1,23 @@
+state={
+	id=448
+	name="STATE_448"
+	provinces={
+		5 7 333 820 823 994 1323 1621 1629 3388 3397 3399 
+	}
+	history = {
+		owner = SIB
+		add_core_of = SIB
+
+		victory_points = { 1621 3 } #克麦罗沃
+		victory_points = { 1629 1 } #新库兹涅茨克
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+	manpower=1214272
+	state_category = town
+	local_supplies = 0.0
+}

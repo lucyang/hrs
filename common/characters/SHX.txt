@@ -1,0 +1,44 @@
+characters={
+	SHX_yan_xishan={
+		name=SHX_yan_xishan
+		portraits={
+			civilian={
+				large="gfx/leaders/SHX/Portrait_Yan_Xishan.dds"
+			}
+		}
+		country_leader={
+			ideology=development_authoritarianism_subtype
+			desc=SHX_yan_xishan_desc
+			traits={ }
+			expire="1960.5.23.1"
+		}
+	}
+	SHX_liu_tianzhang={
+		name=SHX_liu_tianzhang
+		portraits={
+			civilian={
+				large="gfx/leaders/SHX/Portrait_Liu_Tianzhang.dds"
+			}
+		}
+		country_leader={
+			ideology=marxism_subtype
+			desc=SHX_liu_tianzhang_desc
+			traits={ }
+			expire="1961.11.13.1"
+		}
+	}
+	SHX_kong_xiangxi={
+		name=SHX_kong_xiangxi
+		portraits={
+			civilian={
+				large="gfx/leaders/SHX/Portrait_Kong_Xiangxi.dds"
+			}
+		}
+		country_leader={
+			ideology=technocracy_subtype
+			desc=SHX_kong_xiangxi_desc
+			traits={ }
+			expire="1961.11.13.1"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+state={
+	id=622
+	name="STATE_622"
+	provinces={
+		2079 2924 3266
+	}
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+
+		victory_points = { 2924 3 } #前橋/群馬
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+	}
+	manpower=646479
+	state_category = town
+	local_supplies = 0.0
+}

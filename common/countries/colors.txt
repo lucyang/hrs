@@ -1,0 +1,653 @@
+##############
+### EMPIRE ###
+##############
+IMC = {
+	color = rgb { 204 117 2 }
+	color_ui = rgb { 204 117 2 }
+}
+IMJ = {
+	color = rgb { 204 117 2 }
+	color_ui = rgb { 204 117 2 }
+}
+IMK = {
+	color = rgb { 204 117 2 }
+	color_ui = rgb { 204 117 2 }
+}
+SIA = {
+	color = rgb { 171  190  152 }
+	color_ui = rgb { 171  190  152 }
+}
+XSM = {
+	color = rgb { 9  171  190 }
+	color_ui = rgb { 9  171  190 }
+}
+PHI = {
+	color = rgb { 152  130  191 }
+	color_ui = rgb { 152  130  191 }
+}
+MAL = {
+	color = rgb { 100  96  197 }
+	color_ui = rgb { 100  96  197 }
+}
+BSM = {
+	color = rgb { 57 86 18 }
+	color_ui = rgb { 57 86 18 }
+}
+ADM = {
+	color = rgb { 30 165 20 }
+	color_ui = rgb { 30 165 20 }
+}
+#############
+### HENAN ###
+#############
+PDS = { # 佛教弘誓会
+	color = rgb { 128 60 50 }
+	color_ui = rgb { 128 60 50 }
+}
+LYG = { # 豫西绥靖区/镇嵩军
+	color = rgb { 28 160 150 }
+	color_ui = rgb { 28 160 150 }
+}
+ZZH = { # 工人委员会联邦
+	color = rgb { 255 36 0 }
+	color_ui = rgb { 255 36 0 }
+}
+AYG = { # 大邑商
+	color = rgb { 105 105 105 }
+	color_ui = rgb { 105 105 105 }
+}
+WAX = { # 宛西自治区
+	color = rgb { 107 142 35 }
+	color_ui = rgb { 107 142 35 }
+}
+HEN = { # 河南紧急管制区
+	color = rgb { 100 24 24 }
+	color_ui = rgb { 100 24 24 }
+}
+################
+### LIAONING ###
+################
+LNG = { # 辽东军区
+	color = rgb { 85 85 85 }
+	color_ui = rgb { 85 85 85 }
+}
+################
+### SHANGHAI ###
+################
+SHH = {
+	color = rgb { 237 40 57 }
+	color_ui = rgb { 237 40 57 }
+}
+#############
+### HUBEI ###
+#############
+CHI = { # 湖北
+	color = rgb { 5 85 166 }
+	color_ui = rgb { 5 85 166 }
+}
+#############
+### HUNAN ###
+#############
+MAO = { # 湘赣边
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+HNA = { # 湖南公社
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+###############
+### SHAANXI ###
+###############
+
+###############
+### SICHUAN ###
+###############
+SCH = { # 四川
+	color = rgb { 0  80  230 }
+	color_ui = rgb { 0  80  230 }
+}
+CHQ = { # 重庆
+	color = rgb { 180 220 190 }
+	color_ui = rgb { 180 220 190 }
+}
+#################
+### GUANGDONG ###
+#################
+KMT = { # 广东
+	color = rgb { 0 33 138 }
+	color_ui = rgb { 0 33 138 }
+}
+HLF = { # 海陆丰
+	color = rgb { 158 0 21 }
+	color_ui = rgb { 158 0 21 }
+}
+##############
+### YUNNAN ###
+##############
+YUN = { # 云南
+	color = rgb { 171 190 152 }
+	color_ui = rgb { 171 190 152 }
+}
+NSB = { # 诺苏
+	color = rgb { 33 25 40 }
+	color_ui = rgb { 33 25 40 }
+}
+JXP = { # 滇西集中营
+	color = rgb { 139 69 19 }
+	color_ui = rgb { 139 69 19 }
+}
+DLI = { # 大理
+	color = rgb { 0 0 205 }
+	color_ui = rgb { 0 0 205 }
+} 
+MMA = { # 孟卯
+	color = rgb { 128 128 0 }
+	color_ui = rgb { 128 128 0 }
+}
+CHH = { # 景陇
+	color = rgb { 114 47 55 }
+	color_ui = rgb { 114 47 55 }
+}
+LAX = {
+	color = rgb { 40 100 148 }
+	color_ui = rgb { 40 100 148 }
+}
+###############
+### GUANGXI ###
+###############
+GXC = { # 布僮
+	color = rgb { 9 171 190 }
+	color_ui = rgb { 9 171 190 }
+}
+###############
+### GUIZHOU ###
+###############
+GZH = { # 贵州
+	color = rgb { 255 246 127 }
+	color_ui = rgb { 255 246 127 }
+}
+GNA = { # 贵州国民军
+	color = rgb { 127 136 255 }
+	color_ui = rgb { 127 136 255 }
+}
+MIA = { # 毕节
+	color = rgb { 40 80 168 }
+	color_ui = rgb { 40 80 168 }
+}
+MIR = { # 黔西南
+	color = rgb { 37 135 40 }
+	color_ui = rgb { 37 135 40 }
+}
+##############
+### SHANXI ###
+##############
+SHX = { # 山西
+	color = rgb { 9 171 190 }
+	color_ui = rgb { 9 171 190 }
+} 
+#############
+### HEBEI ###
+#############
+PRC = { # 吉鸿昌部
+	color = rgb { 82 2 15 }
+	color_ui = rgb { 82 2 15 }
+}
+TIJ = { # 齐燮元/京津
+	color = rgb { 0 47 167 }
+	color_ui = rgb { 0 47 167 }
+}
+HEB = { # 韩复榘/保定
+	color = rgb { 205 87 0 }
+	color_ui = rgb { 205 87 0 }
+}
+JID = { # 冀东自治政府
+	color = rgb { 92 82 72 }
+	color_ui = rgb { 92 82 72 }
+}
+CHR = { # 察哈尔/察南自治政府
+	color = rgb { 75 0 130 }
+	color_ui = rgb { 75 0 130 }
+}
+################
+### SHANDONG ###
+################
+QND = { # 青岛
+	color = rgb { 0 32 106 }
+	color_ui = rgb { 0 32 106 }
+}
+SHD = { # 济南
+	color = rgb { 63 127 98 }
+	color_ui = rgb { 63 127 98 }
+}
+QUF = { # 曲阜
+	color = rgb { 139 34 82 }
+	color_ui = rgb { 139 34 82 }
+}
+QNA = { # 青岛海军政府
+	color = rgb { 28 28 128 }
+	color_ui = rgb { 28 28 128 }
+}
+##############
+### TAIWAN ###
+##############
+FRM = { # 台湾革命政府
+	color = rgb { 0 128 0 }
+	color_ui = rgb { 0 128 0 }
+}
+TAW = { # 台湾接收政府
+	color = rgb { 15 21 231 }
+	color_ui = rgb { 15 21 231 }
+}
+ASN = { # 台湾原住民
+	color = rgb { 227 66 52 }
+	color_ui = rgb { 227 66 52 }
+}
+TGG = { # 台湾总督府
+	color = rgb { 135 135 135 }
+	color_ui = rgb { 135 135 135 }
+}
+MNG = { # 大明慈悲国
+	color = rgb { 100 204 204 }
+	color_ui = rgb { 100 204 204 }
+}
+#############
+### JAPAN ###
+#############
+JLF = { # 日本解放阵线
+	color = rgb { 88 33 28 }
+	color_ui = rgb { 88 33 28 }
+}
+JPR = { # 日本人民共和国
+	color = rgb { 178 21 43 }
+	color_ui = rgb { 178 21 43 }
+}
+JAF = { # 日本无政府
+	color = rgb { 132 43 50 }
+	color_ui = rgb { 132 43 50 }
+}
+KYU = { # 九州工团联盟
+	color = rgb { 201 36 47 }
+	color_ui = rgb { 201 36 47 }
+}
+CGK = { # 中国军管区
+	color = rgb { 193 101 67 }
+	color_ui = rgb { 193 101 67 }
+}
+CHB = { # 日本共和国
+	color = rgb { 0 63 108 }
+	color_ui = rgb { 0 63 108 }
+}
+KKG = { # 独立航空队
+	color = rgb { 79 79 79 }
+	color_ui = rgb { 79 79 79 }
+}
+NGN = { # 困民党
+	color = rgb { 181 61 39 }
+	color_ui = rgb { 181 61 39 }
+}
+JPN = { # 独立航空队
+	color = rgb { 255 191 191 }
+	color_ui = rgb { 255 191 191 }
+}
+TOK = { # 自由朝鲜
+	color = rgb { 46 139 87 }
+	color_ui = rgb { 46 139 87 }
+}
+THK = { # 列藩同盟
+	color = rgb { 227 177 68 }
+	color_ui = rgb { 227 177 68 }
+}
+################
+### HOKKAIDO ###
+################
+EZO = { # 虾夷共和国
+	color = rgb { 118 95 75 }
+	color_ui = rgb { 118 95 75 }
+}
+AIN = { # 阿伊努
+	color = rgb { 181 61 39 }
+	color_ui = rgb { 181 61 39 }
+}
+KRF = { # 桦太岛
+	color = rgb { 202 106 31 }
+	color_ui = rgb { 202 106 31 }
+}
+SKL = { # 萨哈林
+	color = rgb { 220 20 60 }
+	color_ui = rgb { 220 20 60 }
+}
+##############
+### RYUKYU ###
+##############
+RYU = { # 冲绳
+	color = rgb { 82 0 106 }
+	color_ui = rgb { 82 0 106 }
+}
+AMM = { # 庵美
+	color = rgb { 105 17 59 }
+	color_ui = rgb { 105 17 59 }
+}
+MYK = { # 宫古
+	color = rgb { 1 146 103 }
+	color_ui = rgb { 205 17 59 }
+}
+YYM = { # 八重山
+	color = rgb { 84 99 255 }
+	color_ui = rgb { 84 99 255 }
+}
+#################
+### MANCHURIA ###
+#################
+MAN = { # 满洲固伦
+	color = rgb { 215  172  52 }
+	color_ui = rgb { 215  172  52 }
+}
+ZDJ = { # 镇东节度使
+	color = rgb { 179 45 0 }
+	color_ui = rgb { 179 45 0 }
+}
+DAL = { # 远东游击队(斡罗斯)
+	color = rgb { 157 2 8 }
+	color_ui = rgb { 157 2 8 }
+}
+SLA = { # 远东游击队(高丽)
+	color = rgb { 208 0 0 }
+	color_ui = rgb { 208 0 0 }
+}
+FER = { # 远东游击队(汉人)
+	color = rgb { 106 4 15 }
+	color_ui = rgb { 106 4 15 }
+}
+###############
+### VIETNAM ###
+###############
+ANM = { # 安南总督府
+	color = rgb { 0 204 204 }
+	color_ui = rgb { 0 204 204 }
+}
+VIN = { # 越南帝国
+	color = rgb { 219 165 7 }
+	color_ui = rgb { 219 165 7 }
+}
+VIC = { # 越共
+	color = rgb { 220 68 35 }
+	color_ui = rgb { 220 68 35 }
+}
+VQD = { # 越国党
+	color = rgb { 27 147 165 }
+	color_ui = rgb { 27 147 165 }
+}
+SRV = { # 义静苏维埃
+	color = rgb { 0 133 71 }
+	color_ui = rgb { 0 133 71 }
+}
+DNA = { # 新越党
+	color = rgb { 0 107 235 }
+	color_ui = rgb { 0 107 235 }
+}
+SAI = { # 西贡
+	color = rgb { 39 59 70 }
+	color_ui = rgb { 39 59 70 }
+}
+CAD = { # 高台教
+	color = rgb { 81 48 63 }
+	color_ui = rgb { 81 48 63 }
+}
+DEG = { # 西原/德加尔国
+	color = rgb { 0 146 70 }
+	color_ui = rgb { 0 146 70 }
+}
+TAT = { # 西双泰处/泰联邦
+	color = rgb { 0 38 84 }
+	color_ui = rgb { 0 38 84 }
+}
+###########
+### LAOS ##
+###########
+LAO = { # 琅勃拉邦
+	color = rgb { 7 61 219 }
+	color_ui = rgb { 7 61 219 }
+}
+CHP = { # 占巴塞
+	color = rgb { 51 0 204 }
+	color_ui = rgb { 51 0 204 }
+}
+################
+### CAMBODIA ###
+################
+CAM = { # 柬埔寨王国
+	color = rgb { 162 170 91 }
+	color_ui = rgb { 162 170 91 }
+}
+KMK = { # 下高棉
+	color = rgb { 99 91 170 }
+	color_ui = rgb { 99 91 170 }
+}
+KHR = { # 红色高棉
+	color = rgb { 139 0 0 }
+	color_ui = rgb { 139 0 0 }
+}
+################
+### XINJIANG ###
+################
+DZU = { # 准噶尔
+	color = rgb { 20 20 138 }
+	color_ui = rgb { 20 20 138 }
+}
+TAN = { # 唐努图瓦
+	color = rgb { 152 130 191 }
+	color_ui = rgb { 152 130 191 }
+}
+ALT = { # 卫拉特
+	color = rgb { 127 255 0 }
+	color_ui = rgb { 127 255 0 }
+}
+ETK = { # 图兰共和国
+	color = rgb { 0 128 255 }
+	color_ui = rgb { 0 128 255 }
+}
+SIK = { # 新疆总督府
+	color = rgb { 194 30 86 }
+	color_ui = rgb { 194 30 86 }
+}
+ASH = { # 阿山哈萨克委员会
+	color = rgb { 34 139 34 }
+	color_ui = rgb { 34 139 34 }
+}
+AKS = { # 阿蒂沙尔汗国
+	color = rgb { 0 204 0 }
+	color_ui = rgb { 0 204 0 }
+}
+HAM = { # 图兰伊斯兰共和国
+	color = rgb { 139 139 122 }
+	color_ui = rgb { 139 139 122 }
+}
+HOT = { # 和田伊斯兰政府
+	color = rgb { 253 231 182 }
+	color_ui = rgb { 253 231 182 }
+}
+TCH = { # 东突厥斯坦总督府
+	color = rgb { 104 48 104 }
+	color_ui = rgb { 104 48 104 }
+}
+ILI = { # 伊犁解放组织
+	color = rgb { 184 134 11 }
+	color_ui = rgb { 184 134 11 }
+}
+#############
+### TIBET ###
+#############
+TIB = { # 西藏
+	color = rgb { 128 0 0 }
+	color_ui = rgb { 128 0 0 }
+}
+SHG = { # 日喀则
+	color = rgb { 25 25 112 }
+	color_ui = rgb { 25 25 112 }
+}
+AMD = { # 安多
+	color = rgb { 200 8 21 }
+	color_ui = rgb { 200 8 21 }
+}
+KHM = { # 康区
+	color = rgb { 102 2 60 }
+	color_ui = rgb { 102 2 60 }
+}
+LDK = { # 拉达克
+	color = rgb { 35 65 67 }
+	color_ui = rgb { 35 65 67 }
+}
+####################
+### CENTRAL ASIA ###
+####################
+KAZ = { # 阿拉什共和国
+	color = rgb { 75 184 203 }
+	color_ui = rgb { 75 184 203 }
+}
+TUK = { # 突厥斯坦/浩罕自治国
+	color = rgb { 0 102 102 }
+	color_ui = rgb { 0 102 102 }
+}
+##############
+### RUSSIA ###
+##############
+AAF = { # 新西伯利亚
+	color = rgb { 199 58 40 }
+	color_ui = rgb { 199 58 40 }
+}
+SIB = { # 全俄罗斯临时政府
+	color = rgb { 72 143 68 }
+	color_ui = rgb { 72 143 68 }
+}
+BYA = { # 布里亚特
+	color = rgb { 255 192 0 }
+	color_ui = rgb { 255 192 0 }
+}
+TBA = { # 外贝加尔
+	color = rgb { 156 44 210 }
+	color_ui = rgb { 156 44 210 }
+}
+PRA = { # 外阿穆尔
+	color = rgb { 204 204 255 }
+	color_ui = rgb { 204 204 255 }
+}
+YAK = { # 雅库特
+	color = rgb { 0 255 255 }
+	color_ui = rgb { 0 255 255 }
+}
+KHA = { # 哈卡斯
+	color = rgb { 79 121 66 }
+	color_ui = rgb { 79 121 66 }
+}
+FAR = { # 远东共和国
+	color = rgb { 139 26 26 }
+	color_ui = rgb { 139 26 26 }
+}
+#############
+### INDIA ###
+#############
+HIN = { # 印度帝国
+	color = rgb { 34 139 34 }
+	color_ui = rgb { 34 139 34 }
+}
+AHM = { # 阿洪姆
+	color = rgb { 255 127 80 }
+	color_ui = rgb { 255 127 80 }
+}
+MNP = { # 曼尼普尔
+	color = rgb { 143 132 14 }
+	color_ui = rgb { 143 132 14 }
+}
+NAG = { # 那加兰
+	color = rgb { 219 0 92 }
+	color_ui = rgb { 219 0 92 }
+}
+SRL = { # 斯里兰卡
+	color = rgb { 204 0 102 }
+	color_ui = rgb { 204 0 102 }
+}
+################
+### HIMALAYA ###
+################
+NEP = { # 尼泊尔
+	color = rgb { 152 130 191 }
+	color_ui = rgb { 152 130 191 }
+}
+BHU = { # 不丹
+	color = rgb { 172 122 88 }
+	color_ui = rgb { 172 122 88 }
+}
+SKM = { # 锡金
+	color = rgb { 218 112 214 }
+	color_ui = rgb { 218 112 214 }
+}
+################
+### MONGOLIA ###
+################
+DBJ = { # 定北节度使
+	color = rgb { 0 64 255 }
+	color_ui = rgb { 0 64 255 }
+}
+MON = { # 蒙古人民临时政府
+	color = rgb { 124 9 2 }
+	color_ui = rgb { 124 9 2 }
+}
+KVD = { # 科布多
+	color = rgb { 224 60 49 }
+	color_ui = rgb { 224 60 49 }
+}
+ULI = { # 乌里雅苏台/黑喇嘛
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+BOG = { # 博格达汗国
+	color = rgb { 100 149 237 }
+	color_ui = rgb { 100 149 237 }
+}
+MEN = { # 蒙古联盟自治政府
+	color = rgb { 240 226 50 }
+	color_ui = rgb { 240 226 50 }
+}
+IMN = { # 内蒙古人民共和国
+	color = rgb { 217 56 56 }
+	color_ui = rgb { 217 56 56 }
+}
+ULQ = { # 蒙古人民委员会
+	color = rgb { 69 157 208 }
+	color_ui = rgb { 69 157 208 }
+}
+HUL = { # 呼伦贝尔
+	color = rgb { 197 92 106 }
+	color_ui = rgb { 197 92 106 }
+}
+DAR = { # 达里冈爱牧场
+	color = rgb { 50 165 0 }
+	color_ui = rgb { 50 165 0 }
+}
+#############
+### KOREA ###
+#############
+KOR = { # 京城势力
+	color = rgb { 18 139 142 }
+	color_ui = rgb { 18 139 142 }
+}
+PRK = { # 临时政府
+	color = rgb { 5 17 129 }
+	color_ui = rgb { 5 17 129 }
+}
+ANK = { # 新民府
+	color = rgb { 251 60 60 }
+	color_ui = rgb { 251 60 60 }
+}
+##############
+### OTHERS ###
+##############
+ANG = { # 法英联合王国
+	color = rgb { 153 75 138 }
+	color_ui = rgb { 153 75 138 }
+}
+ZZZ = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}

@@ -1,0 +1,41 @@
+characters={
+	TIJ_qi_xieyuan={
+		name=TIJ_qi_xieyuan
+		portraits={
+			civilian={
+				large="gfx/leaders/TIJ/Portrait_Qi_Xieyuan.png"
+			}
+			army={
+				large="gfx/leaders/TIJ/Portrait_Qi_Xieyuan.png"
+			}
+		}
+		country_leader={
+			ideology=military_government_subtype
+			desc=TIJ_qi_xieyuan_desc
+			traits={  }
+			expire="1946.12.18.1"
+		}
+		corps_commander={
+			traits={ career_officer politically_connected }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	TIJ_xu_shichang={
+		name=TIJ_xu_shichang
+		portraits={
+			civilian={
+				large="gfx/leaders/TIJ/Portrait_Xu_Shichang.png"
+			}
+		}
+		country_leader={
+			ideology=national_conservatism_subtype
+			desc=TIJ_xu_shichang_desc
+			traits={  }
+			expire="1946.12.18.1"
+		}
+	}
+}

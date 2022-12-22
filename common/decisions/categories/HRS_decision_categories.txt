@@ -1,0 +1,312 @@
+HRS_mobilization = {
+
+	icon = military_operation
+
+	priority = 100
+
+	allowed = {
+		always = yes
+	}
+
+	visible = {
+		OR = {
+			AND = {
+				OR = {
+					is_china_nation = yes
+					is_taiwan_nation = yes
+				}
+				has_global_flag = CHI_Civil_War_Begins
+			}
+			AND = {
+				OR = {
+					is_japan_nation = yes
+					is_ryukyu_nation = yes
+					is_hokkaido_nation = yes
+				}
+				has_global_flag = JAP_Civil_War_Begins
+			}
+			AND = {
+				is_korea_nation = yes
+				has_global_flag = KOR_Civil_War_Begins
+			}
+		}
+	}
+}
+
+HRS_war_measures = {
+	
+	icon = generic_propaganda
+	
+	allowed = {
+		always = yes
+	}
+
+	visible = {
+		has_war = yes
+	}
+
+	priority = 90
+}
+
+HRS_great_asian_war_category = {
+
+	icon = generic_political_actions
+
+	picture = GFX_decision_cat_picture_soviet_national_academy_of_sciences
+	
+	allowed = {
+		always = yes
+	}
+
+	visible = {
+		OR = {
+			AND = {
+				OR = {
+					is_china_nation = yes
+					is_taiwan_nation = yes
+				}
+				has_global_flag = CHI_Civil_War_Begins
+			}
+			AND = {
+				OR = {
+					is_japan_nation = yes
+					is_ryukyu_nation = yes
+					is_hokkaido_nation = yes
+				}
+				has_global_flag = JAP_Civil_War_Begins
+			}
+			AND = {
+				is_korea_nation = yes
+				has_global_flag = KOR_Civil_War_Begins
+			}
+		}
+	}
+
+	priority = 100
+}
+
+HRS_diplomatic_action_category = {
+
+	icon = generic_foreign_policy
+
+	picture = GFX_decision_cat_picture_soviet_national_academy_of_sciences
+	
+	allowed = {
+		is_GAW_actor = yes
+		OR = {
+			AND = {
+				OR = {
+					is_china_nation = yes
+					is_taiwan_nation = yes
+				}
+				has_global_flag = CHI_Civil_War_Begins
+			}
+			AND = {
+				OR = {
+					is_japan_nation = yes
+					is_ryukyu_nation = yes
+					is_hokkaido_nation = yes
+				}
+				has_global_flag = JAP_Civil_War_Begins
+			}
+			AND = {
+				is_korea_nation = yes
+				has_global_flag = KOR_Civil_War_Begins
+			}
+		}
+	}
+
+	visible = {
+		is_GAW_actor = yes
+	}
+
+	priority = 80
+}
+
+HRS_vietnam_unification_category = {
+
+	icon = generic_political_actions
+
+	picture = GFX_decision_cat_picture_soviet_national_academy_of_sciences
+	
+	allowed = {
+		always = yes
+	}
+
+	visible = {
+		is_vietnam_nation = yes
+	}
+
+	priority = 80
+}
+
+HRS_laos_unification_category = {
+
+	icon = generic_political_actions
+
+	picture = GFX_decision_cat_picture_soviet_national_academy_of_sciences
+	
+	allowed = {
+		always = yes
+	}
+
+	visible = {
+		is_laos_nation = yes
+	}
+
+	priority = 80
+}
+
+HRS_cambodia_unification_category = {
+
+	icon = generic_political_actions
+
+	picture = GFX_decision_cat_picture_soviet_national_academy_of_sciences
+	
+	allowed = {
+		always = yes
+	}
+
+	visible = {
+		is_cambodia_nation = yes
+	}
+
+	priority = 80
+}
+
+HRS_ainu_issue = {
+
+	icon = SWI_federal_council
+
+	#picture = GFX_decision_cat_picture_soviet_national_academy_of_sciences
+	
+	allowed = {
+		original_tag = AIN
+	}
+
+	visible = {
+		original_tag = AIN
+	}
+
+	priority = 80
+}
+
+HRS_taiwan_revolution = {
+
+	icon = generic_political_actions
+
+	#picture = GFX_decision_cat_picture_soviet_national_academy_of_sciences
+	
+	allowed = {
+		original_tag = FRM
+	}
+
+	visible = {
+		original_tag = FRM
+	}
+
+	priority = 80
+}
+
+HRS_ryukyu_revolution = {
+
+	icon = generic_political_actions
+
+	#picture = GFX_decision_cat_picture_soviet_national_academy_of_sciences
+	
+	allowed = {
+		is_ryukyu_nation = yes
+	}
+
+	visible = {
+		is_ryukyu_nation = yes
+	}
+
+	priority = 90
+}
+
+HRS_development_resource = {
+
+	icon = generic_construction
+	
+	allowed = {
+		always = yes
+	}
+
+	visible = {
+		always = yes
+	}
+
+	priority = 75
+}
+
+HRS_construct_tokyo_iii = {
+
+	icon = generic_construction
+
+	picture = GFX_decision_cat_picture_faction_management_bulgaria
+	
+	allowed = {
+		always = no
+	}
+
+	visible = {
+		always = no
+	}
+}
+HRS_debug_tool_cataegory = {
+
+	icon = generic_political_actions
+
+	priority = 0
+	
+	allowed = {
+		always = yes
+	}
+
+	visible = {
+		is_debug = yes
+	}
+}
+PRC_balance_of_power_category = {
+	
+	icon = generic_political_actions
+
+	priority = 10
+	
+	allowed = {
+		always = yes
+	}
+
+	visible = {
+		#
+	}
+}
+TIB_balance_of_power_category = {
+	
+	icon = generic_political_actions
+
+	priority = 10
+	
+	allowed = {
+		always = yes
+	}
+
+	visible = {
+		#
+	}
+}
+HRS_change_tag_category = {
+	
+	icon = generic_political_actions
+
+	priority = 0
+	
+	allowed = {
+		always = yes
+	}
+
+	visible = {
+		is_ai = no
+	}
+}

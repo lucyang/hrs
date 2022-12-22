@@ -1,0 +1,475 @@
+ideas = {
+
+	market = { 
+		law = yes
+		use_list_view = yes
+
+		market_economy = {
+
+			name = market_economy
+
+			visible = {
+				NOT = { has_government = communism }
+				NOT = { has_government = anarchism }
+				NOT = { has_government = futurism }
+			}
+
+			available = {
+				#
+			}
+
+			allowed_to_remove = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			cost = 100
+			level = 2
+
+			picture = generic_market_economy
+
+			on_remove = {
+				add_political_power = -100
+				add_stability = -0.20
+			}
+
+			ai_will_do = {
+				factor = 0
+		 	}
+
+			modifier = {
+				production_factory_start_efficiency_factor = 0.05
+				production_factory_max_efficiency_factor = -0.10
+				production_factory_efficiency_gain_factor = 0.10
+				line_change_production_efficiency_factor = 0.10
+			}
+		}
+
+		market_economy1 = {
+
+			name = market_economy1
+
+			visible = {
+				NOT = { has_government = communism }
+				NOT = { has_government = anarchism }
+			}
+
+			allowed_to_remove = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			cost = 100
+			level = 1
+
+			picture = generic_market_economy1
+
+			on_remove = {
+				add_political_power = -100
+				add_stability = -0.20
+			}
+
+			ai_will_do = {
+				factor = 0
+		 	}
+
+			modifier = {
+				production_factory_start_efficiency_factor = 0.05
+				production_factory_max_efficiency_factor = -0.07
+				production_factory_efficiency_gain_factor = 0.07
+				line_change_production_efficiency_factor = 0.07
+			}
+
+			default = yes
+		}
+
+		market_economy2 = {
+
+			name = market_economy2
+
+			visible = {
+				NOT = { has_government = communism }
+				NOT = { has_government = anarchism }
+			}
+
+			allowed_to_remove = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			cost = 150
+			level = 1
+
+			picture = generic_market_economy2
+
+			on_remove = {
+				add_political_power = -100
+				add_stability = -0.20
+			}
+
+			ai_will_do = {
+				factor = 0
+		 	}
+
+			modifier = {
+				production_factory_start_efficiency_factor = 0.05
+				production_factory_max_efficiency_factor = -0.05
+				production_factory_efficiency_gain_factor = 0.05
+				line_change_production_efficiency_factor = 0.05
+			}
+		}
+
+		dirigisme_economy = {
+
+			name = dirigisme_economy
+
+			visible = {
+				has_anarchist_government = no
+			}
+
+			allowed_to_remove = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			level = 1
+
+			picture = generic_dirigisme_economy
+
+			on_remove = {
+				add_political_power = -100
+				add_stability = -0.20
+			}
+
+			ai_will_do = {
+				factor = 0
+		 	}
+
+			modifier = {
+				production_factory_start_efficiency_factor = 0.10
+				production_factory_max_efficiency_factor = 0.15
+				production_factory_efficiency_gain_factor = 0.05
+				line_change_production_efficiency_factor = -0.10
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_infrastructure_factor = 0.05 
+			}
+		}
+
+		corporatist_economy = {
+
+			name = corporatist_economy
+
+			visible = {
+				NOT = { has_government = communism }
+				NOT = { has_government = anarchism }
+			}
+
+			available = {
+				OR = {
+					has_war = yes
+					has_government = socialism
+					has_government = neutrality
+					has_government = fascism
+					has_government = imperialism
+					has_government = futurism
+				}
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+			
+			removal_cost = -1
+			cost = 100
+			level = 1
+
+			picture = generic_corporatist_economy
+
+			on_remove = {
+				add_political_power = 50
+				add_stability = 0.10
+			}
+
+			ai_will_do = {
+				factor = 0
+		 	}
+
+			modifier = {
+				production_factory_start_efficiency_factor = 0.10
+				production_factory_max_efficiency_factor = 0.10
+				production_factory_efficiency_gain_factor = 0.05
+				line_change_production_efficiency_factor = -0.10
+				stability_weekly = -0.001
+				conversion_cost_civ_to_mil_factor = -0.30
+				production_speed_arms_factory_factor = 0.05
+				production_speed_dockyard_factor = 0.05
+			}
+		}
+
+		market_economy3 = {
+
+			name = market_economy3
+
+			visible = {
+				NOT = { has_government = communism }
+				OR = {
+					has_government = socialism
+					has_country_leader_ideology = religious_socialism_subtype
+					has_country_leader_ideology = market_socialism_subtype
+					has_country_leader_ideology = agrarian_socialism_subtype
+					has_country_leader_ideology = revolutionary_front_subtype
+					has_country_leader_ideology = national_communism_subtype
+				}
+			}
+
+			allowed_to_remove = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			cost = 150
+			level = 1
+
+			picture = generic_market_economy3
+
+			on_remove = {
+				add_political_power = -100
+				add_stability = -0.20
+			}
+
+			ai_will_do = {
+				factor = 0
+		 	}
+
+			modifier = {
+				production_factory_start_efficiency_factor = 0.05
+				production_factory_max_efficiency_factor = -0.05
+				production_factory_efficiency_gain_factor = 0.05
+				line_change_production_efficiency_factor = 0.05
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_infrastructure_factor = 0.05
+			}
+		}
+
+		planned_economy = {
+
+			name = planned_economy
+
+			visible = {
+				OR = {
+					has_government = communism
+					has_government = anarchism
+					has_government = socialism
+				}
+			}
+
+			allowed_to_remove = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			cost = 100
+			level = 1
+
+			picture = new_economic_policy
+
+			on_remove = {
+				add_political_power = -100
+				add_stability = -0.20
+			}
+
+			ai_will_do = {
+				factor = 0
+		 	}
+
+			modifier = {
+				production_factory_start_efficiency_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+				line_change_production_efficiency_factor = 0.05
+			}
+		}
+
+		planned_economy1 = {
+
+			name = planned_economy1
+
+			visible = {
+				OR = {
+					has_government = communism
+					has_government = anarchism
+				}
+			}
+
+			allowed_to_remove = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			cost = 100
+			level = 1
+
+			picture = generic_planned_economy1
+
+			on_remove = {
+				add_political_power = -100
+				add_stability = -0.20
+			}
+
+			ai_will_do = {
+				factor = 0
+		 	}
+
+			modifier = {
+				production_factory_start_efficiency_factor = 0.10
+				production_factory_max_efficiency_factor = 0.10
+				production_factory_efficiency_gain_factor = 0.05
+				line_change_production_efficiency_factor = -0.10
+			}
+		}
+
+		planned_economy2 = {
+
+			name = planned_economy2
+
+			visible = {
+				OR = {
+					has_government = communism
+					has_government = anarchism
+				}
+			}
+
+			allowed_to_remove = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			cost = 00
+			level = 3
+
+			picture = generic_planned_economy2
+
+			on_remove = {
+				add_political_power = -100
+				add_stability = -0.20
+			}
+
+			ai_will_do = {
+				factor = 0
+		 	}
+
+			modifier = {
+				production_factory_max_efficiency_factor = 0.15
+				production_factory_start_efficiency_factor = 0.15
+				production_factory_efficiency_gain_factor = 0.05
+				line_change_production_efficiency_factor = -0.15
+			}
+		}
+
+		collective_economy = {
+
+			name = collective_economy
+
+			visible = {
+				OR = {
+					has_government = communism
+					has_government = anarchism
+				}
+			}
+
+			allowed = {
+				OR = {
+					has_country_leader_ideology = anarcho_communism_subtype	
+					has_country_leader_ideology = anarcho_syndicalism_subtype
+					has_country_leader_ideology = anarcho_maoism_subtype
+					has_country_leader_ideology = anarcho_nationalism_subtype
+					has_country_leader_ideology = pure_anarchism_subtype
+					has_country_leader_ideology = agrarian_socialism_subtype
+					has_country_leader_ideology = religious_socialism_subtype	
+					has_country_leader_ideology = guild_socialism_subtype
+				}
+			}
+
+			allowed_to_remove = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			cost = 150
+			level = 1
+
+			picture = generic_collective_economy
+
+			on_remove = {
+				add_political_power = -200
+			}
+
+			ai_will_do = {
+				factor = 0
+		 	}
+
+			modifier = {
+				production_factory_start_efficiency_factor = 0.05
+				production_factory_max_efficiency_factor = 0.10
+				production_factory_efficiency_gain_factor = 0.05
+				line_change_production_efficiency_factor = 0.05
+				war_support_weekly = 0.001
+				conversion_cost_civ_to_mil_factor = -0.30
+				production_speed_arms_factory_factor = 0.05
+				production_speed_dockyard_factor = 0.05
+			}
+		}
+
+		natural_economy = {
+
+			name = natural_economy
+
+			visible = {
+				AND = {
+					OR = {
+						has_idea = country_development
+						has_idea = country_development1
+					}
+					OR = {
+						has_idea = country_tech
+						has_idea = country_tech1
+					}
+				}
+			}
+
+			allowed_to_remove = {
+				AND = {
+					OR = {
+						has_idea = country_development2
+						has_idea = country_development3
+					}
+					OR = {
+						has_idea = country_tech2
+						has_idea = country_tech3
+					}
+				}
+			}
+			
+			removal_cost = -1
+			cost = 300
+			level = 1
+
+			picture = generic_natural_economy
+
+			on_remove = {
+				add_stability = -0.30
+			}
+
+			ai_will_do = {
+				factor = 0
+		 	}
+
+			modifier = {
+				production_factory_start_efficiency_factor = -0.50
+				production_factory_max_efficiency_factor = -0.50
+				production_factory_efficiency_gain_factor = -0.30
+				line_change_production_efficiency_factor = -0.50
+			}
+		}
+	}
+}

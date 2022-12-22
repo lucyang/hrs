@@ -1,0 +1,89 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ IMJ_communism:0 "大东帝国领日本"
+ IMJ_communism_DEF:0 "大东帝国领日本"
+ IMJ_anarchism:0 "大东帝国领日本"
+ IMJ_anarchism_DEF:0 "大东帝国领日本"
+ IMJ_socialism:0 "大东帝国领日本"
+ IMJ_socialism_DEF:0 "大东帝国领日本"
+ IMJ_democratic:0 "大东帝国领日本"
+ IMJ_democratic_DEF:0 "大东帝国领日本"
+ IMJ_neutrality:0 "大东帝国领日本"
+ IMJ_neutrality_DEF:0 "大东帝国领日本"
+ IMJ_monarchism:0 "大东帝国领日本"
+ IMJ_monarchism_DEF:0 "大东帝国领日本"
+ IMJ_fascism:0 "大东帝国领日本"
+ IMJ_fascism_DEF:0 "大东帝国领日本"
+ IMJ_imperialism:0 "大东帝国领日本"
+ IMJ_imperialism_DEF:0 "大东帝国领日本"
+ IMJ_futurism:0 "大东帝国领日本"
+ IMJ_futurism_DEF:0 "大东帝国领日本"
+ IMJ_communism_ADJ:0 "日本总督府"
+ IMJ_anarchism_ADJ:0 "日本总督府"
+ IMJ_socialism_ADJ:0 "日本总督府"
+ IMJ_democratic_ADJ:0 "日本总督府"
+ IMJ_neutrality_ADJ:0 "日本总督府"
+ IMJ_monarchism_ADJ:0 "日本总督府"
+ IMJ_fascism_ADJ:0 "日本总督府"
+ IMJ_imperialism_ADJ:0 "日本总督府"
+ IMJ_futurism_ADJ:0 "日本总督府"
+ IMJ:0 "日本总督府"
+ IMJ_DEF:0 "日本总督府"
+ IMJ_ADJ:0 "日本总督府"
+ #############
+ ## PARTIES ##
+ #############
+ IMJ_communism_party:0 "日本共产党"
+ IMJ_communism_party_long:0 "日本共产党"
+ IMJ_anarchism_party:0 "劳动组合总同盟"
+ IMJ_anarchism_party_long:0 "日本劳动组合总同盟"
+ IMJ_socialism_party:0 "社会民众党"
+ IMJ_socialism_party_long:0 "社会民众党"
+ IMJ_democratic_party:0 "日本社会党"
+ IMJ_democratic_party_long:0 "日本社会党"
+ IMJ_neutrality_party:0 "中国统一党"
+ IMJ_neutrality_party_long:0 "中国统一党"
+ IMJ_monarchism_party:0 "帝国宪政会"
+ IMJ_monarchism_party_long:0 "大东帝国宪政会"
+ IMJ_fascism_party:0 "国民协会"
+ IMJ_fascism_party_long:0 "国民协会"
+ IMJ_imperialism_party:0 "兴亚会"
+ IMJ_imperialism_party_long:0 "兴亚会"
+ IMJ_futurism_party:0 "犹存社"
+ IMJ_futurism_party_long:0 "犹存社"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ IMJ_in_war_neutrality:0 "京都军管区"
+ IMJ_in_war_neutrality_DEF:0 "京都军管区"
+ IMJ_in_war_neutrality_ADJ:0 "京都"
+ ################
+ ## CHARACTERS ##
+ ################
+ IMJ_i_wanyong:0 "李完用"
+ IMJ_i_wanyong_desc:0 "§Y出生日期§!：§G1858年7月17日§!\n§Y出生地点§!：§G朝鲜国京畿道广州郡§!\n\n§Y李完用§!是个典型的做题家，于1883年中科举，1887年前往秋津洲从事海外勤务三年，被视为有国际视野的政治活动家。李完用回国后在朝鲜宫廷任职，成为了一名优秀的技术官僚。彼时的§Y朝鲜国§!仍是大东帝国的§Y政合国§!，保有自己的王室与军队，俨然是大东帝国的国中之国。\n\n朝鲜曾是东亚工业化的原点，蔚山钢铁厂带来了中国资本主义的曙光。五十年后的朝鲜裹足不前，§R两班贵族§!阴影笼罩着半岛上空。许多朝鲜人期盼变革时刻到来，他们相信中国接管朝鲜才能让朝鲜摆脱枷锁，走向现代化的康庄大道。当袁世凯提出废除朝鲜“特权”、将朝鲜半岛纳入帝国行政版图时，李完用组建了§Y开化党§!，呼吁废除朝鲜王国，以实现朝鲜的自由与进步。\n\n1907年，李完用在§Y袁世凯§!的支持之下出任内阁总理大臣，强逼朝鲜国王退位。1910年8月13日，大东帝国彻底吞并朝鲜国。李完用也得到了一份厚礼——赴任日本就任总督。尽管这是个仅具象征意义的闲职，但是能在大东皇室的龙兴之地就职，仍然让李完用激动不已。帝国的恩情说不完，他必将要用非国民的§R鲜血§!将之报答。"
+ ###########
+ ## IDEAS ##
+ ###########
+ IMJ_watanabe_bank_crisis:0 "渡辺银行危机"
+ IMJ_watanabe_bank_crisis_desc:0 "中俄战争曾为大东帝国带来了无限的机遇，帝国的肌体犹如注入兴奋剂，重新恢复了活力与生机。然而帝国畸形的经济社会结构已然摇摇欲坠，1923年4月，京都的一家国有银行——渡辺银行——宣告破产。挤兑风波迅速蔓延，讨要存款的平民在§Y回民白衣骑兵§!的攻势下四散而逃，但是暴力无法阻止经济危机的到来，大东帝国已处在风雨飘摇中······"
+ IMJ_rice_riot:0 "米骚动"
+ IMJ_rice_riot_desc:0 "在安达卢斯流感期间，帝国政府采取极其严厉的封锁与管控措施，大大减少了瘟疫带来的生命损失，但是日本地区的粮食贸易与农业生产遭受重创，大米价格暴涨，造成了严重的经济困难。面对政府调控物价不利的局面，日本市民走上街头发出抗议，农村地区则发生了数百起骚乱事件，令帝国警察焦头烂额。有传言说，§t反帝国势力§!借此大肆发展，无人知晓这将带来多么严重的后果。"
+ IMJ_kanto_construction_plan:0 "东日本开发计划"
+ IMJ_kanto_construction_plan_desc:0 "一项大型基础建设项目正在东日本地区展开，内容包括大规模翻新铁路干线、建设直达城镇的公路，以及配套的水电基础设施。这项工程的重中之重是§Y第三京都建设计划§!，即在江户川入海口建设一座具备行政、航运、居住与工业职能的“新京都”，以期疏散京都过度膨胀的政府机构和贫困人口。"
+ ###########
+ ## EVENTS #
+ ###########
+ imj.1.t:0 ""
+ imj.1.desc:0 ""
+ imj.1.a:0 ""
+
+ imj.2.t:0 ""
+ imj.2.desc:0 ""
+ imj.2.a:0 ""
+
+ imj.3.t:0 ""
+ imj.3.desc:0 ""
+ imj.3.a:0 ""

@@ -1,0 +1,40 @@
+add_namespace = yi_rev
+
+#############
+# YI EVENTS #
+#############
+country_event = {
+	id = yi_rev.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event yi_rev.1"
+		hidden_effect = {
+			NSB = { 
+				transfer_state = 275 #凉山
+        		transfer_state = 284 #昭通
+        		transfer_state = 308 #米易/攀枝花
+				add_state_core = 275 #凉山
+        		add_state_core = 284 #昭通
+        		add_state_core = 308 #米易/攀枝花
+				#load_oob = "NSB_1923"
+			}
+		}
+	}
+	title = yi_rev.1.t
+	desc = yi_rev.1.desc
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = {
+		name = yi_rev.1.a
+		add_political_power = -10
+		add_state_core = 275 #凉山
+        add_state_core = 284 #昭通
+        add_state_core = 308 #米易/攀枝花
+		NSB = { change_tag_from = ROOT }
+	}
+	option = {
+		name = yi_rev.1.b
+		add_political_power = -10
+	}
+}

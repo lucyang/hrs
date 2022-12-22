@@ -1,0 +1,21 @@
+state={
+	id=50
+	name="STATE_50"
+	provinces={
+		1422 1846 2805
+	}
+	history = {
+		owner = MAN
+		add_core_of = MAN
+		victory_points = { 2805 30 } #奉天
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2	
+		}
+		set_demilitarized_zone = yes
+	}
+	manpower=2299918
+	state_category = large_city
+	local_supplies = 0.0
+}

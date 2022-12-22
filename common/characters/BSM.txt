@@ -1,0 +1,16 @@
+characters={
+	BSM_datu_piang={
+		name=BSM_datu_piang
+		portraits={
+			civilian={
+				large="gfx/leaders/PHI/Portrait_Datu_Piang.dds"
+			}
+		}
+		country_leader={
+			ideology=feudalism_subtype
+			desc=BSM_datu_piang_desc
+			traits={ popular_figurehead }
+			expire="1933.6.25.1"
+		}
+	}
+}

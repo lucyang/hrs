@@ -1,0 +1,21 @@
+ideas = {
+	country = {
+		OMT_light_from_heaven = {
+			name = OMT_light_from_heaven
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = OMT_light_from_heaven
+			modifier = {
+				war_support_factor = 0.10
+				conscription_factor = 0.01
+				army_morale_factor = 0.10
+			}
+		}
+	}
+}

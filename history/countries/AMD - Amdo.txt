@@ -1,0 +1,42 @@
+﻿capital = 132 #那曲
+
+oob = "empty"
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+recruit_character = AMD_kashopa_chogyal_nyima
+
+set_cosmetic_tag = AMD_TIB
+
+add_ideas = {
+	civilian_economy
+	feudal_levy
+	free_trade
+}
+add_ideas = {
+	country_development
+	country_tech
+	natural_economy
+	primitive_state
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1923.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	anarchism = 0
+	socialism = 0
+	democratic = 0
+	neutrality = 79
+	monarchism = 10
+	fascism = 11
+	imperialism = 0
+	futurism = 0
+}

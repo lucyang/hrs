@@ -1,0 +1,543 @@
+scripted_map_modes = {
+	hrs_prefecture_map_mode = {
+		top = { type = none }
+		bottom = {
+			type = state
+			color = {
+				set_temp_variable = { alpha_temp = 0.95 }
+				if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 1 } #Nanjing
+						}
+					}
+					set_temp_variable = { red = 0.34 }
+					set_temp_variable = { green = 0.375 }
+					set_temp_variable = { blue = 0.396 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 2 } #Kyoto
+						}
+					}
+					set_temp_variable = { red = 0.333 }
+					set_temp_variable = { green = 0.498 }
+					set_temp_variable = { blue = 0.349 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 3 } #Seoul/Gyeongseong
+						}
+					}
+					set_temp_variable = { red = 0.610 }
+					set_temp_variable = { green = 0.610 }
+					set_temp_variable = { blue = 0.730 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 4 } #Shanghai
+						}
+					}
+					set_temp_variable = { red = 0.252 }
+					set_temp_variable = { green = 0.683 }
+					set_temp_variable = { blue = 0.409 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 5 } #Guangzhou
+						}
+					}
+					set_temp_variable = { red = 0.152 }
+					set_temp_variable = { green = 0.593 }
+					set_temp_variable = { blue = 0.209 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 6 } #Tianjin
+						}
+					}
+					set_temp_variable = { red = 0.052 }
+					set_temp_variable = { green = 0.503 }
+					set_temp_variable = { blue = 0.109 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 7 } #Wuhan
+						}
+					}
+					set_temp_variable = { red = 0.211 }
+					set_temp_variable = { green = 0.487 }
+					set_temp_variable = { blue = 0.510 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 8 } #Qingdao
+						}
+					}
+					set_temp_variable = { red = 0.551 }
+					set_temp_variable = { green = 0.369 }
+					set_temp_variable = { blue = 0.512 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 9 } #Chang'an/Xi'an
+						}
+					}
+					set_temp_variable = { red = 0.469 }
+					set_temp_variable = { green = 0.429 }
+					set_temp_variable = { blue = 0.462 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 10 } #Osaka
+						}
+					}
+					set_temp_variable = { red = 0.569 }
+					set_temp_variable = { green = 0.561 }
+					set_temp_variable = { blue = 0.762 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 11 } #Inna/Matsuna/Pusan
+						}
+					}
+					set_temp_variable = { red = 0.669 }
+					set_temp_variable = { green = 0.762 }
+					set_temp_variable = { blue = 0.561 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 12 } #Kwantungchow/Dalian
+						}
+					}
+					set_temp_variable = { red = 0.881 }
+					set_temp_variable = { green = 0.630 }
+					set_temp_variable = { blue = 0.510 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 13 } #Guangzhou
+						}
+					}
+					set_temp_variable = { red = 0.621 }
+					set_temp_variable = { green = 0.282 }
+					set_temp_variable = { blue = 0.282 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 14 } #Fujian
+						}
+					}
+					set_temp_variable = { red = 0.391 }
+					set_temp_variable = { green = 0.521 }
+					set_temp_variable = { blue = 0.391 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 15 } #Hunan
+						}
+					}
+					set_temp_variable = { red = 0.662 }
+					set_temp_variable = { green = 0.526 }
+					set_temp_variable = { blue = 0.082 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 16 } #Jiangxi
+						}
+					}
+					set_temp_variable = { red = 0.251 }
+					set_temp_variable = { green = 0.621 }
+					set_temp_variable = { blue = 0.497 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 17 } #Guangxi
+						}
+					}
+					set_temp_variable = { red = 0.692 }
+					set_temp_variable = { green = 0.626 }
+					set_temp_variable = { blue = 0.122 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 18 } #Jingbo
+						}
+					}
+					set_temp_variable = { red = 0.722 }
+					set_temp_variable = { green = 0.726 }
+					set_temp_variable = { blue = 0.622 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 19 } #Jingbo
+						}
+					}
+					set_temp_variable = { red = 0.750 }
+					set_temp_variable = { green = 0.826 }
+					set_temp_variable = { blue = 0.522 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				### There is no 19 ###
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 20 } #Wenzhou
+						}
+					}
+					set_temp_variable = { red = 0.522 }
+					set_temp_variable = { green = 0.1 }
+					set_temp_variable = { blue = 0.1 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 21 } #Hunan
+						}
+					}
+					set_temp_variable = { red = 0.21 }
+					set_temp_variable = { green = 0.412 }
+					set_temp_variable = { blue = 0.21 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 22 } #Omani
+						}
+					}
+					set_temp_variable = { red = 0.321 }
+					set_temp_variable = { green = 0.412 }
+					set_temp_variable = { blue = 0.421 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 23 } #Yemeni
+						}
+					}
+					set_temp_variable = { red = 0.621 }
+					set_temp_variable = { green = 0.422 }
+					set_temp_variable = { blue = 0.424 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 24 } #Kikuyu
+						}
+					}
+					set_temp_variable = { red = 0.690 }
+					set_temp_variable = { green = 0.425 }
+					set_temp_variable = { blue = 0.355 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 25 } #Somali
+						}
+					}
+					set_temp_variable = { red = 0.51 }
+					set_temp_variable = { green = 0.66 }
+					set_temp_variable = { blue = 0.723 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 26 } #Amhara
+						}
+					}
+					set_temp_variable = { red = 0.813 }
+					set_temp_variable = { green = 0.51 }
+					set_temp_variable = { blue = 0.39 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 27 } #Eritrean
+						}
+					}
+					set_temp_variable = { red = 0.213 }
+					set_temp_variable = { green = 0.44 }
+					set_temp_variable = { blue = 0.49 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 28 } #Sudanese
+						}
+					}
+					set_temp_variable = { red = 0.154 }
+					set_temp_variable = { green = 0.354 }
+					set_temp_variable = { blue = 0.554 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 29 } #Andalusian
+						}
+					}
+					set_temp_variable = { red = 0.642 }
+					set_temp_variable = { green = 0.656 }
+					set_temp_variable = { blue = 0.422 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 30 } #Egyptian
+						}
+					}
+					set_temp_variable = { red = 0.250 }
+					set_temp_variable = { green = 0.250 }
+					set_temp_variable = { blue = 0.700 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 31 } #Libyan
+						}
+					}
+					set_temp_variable = { red = 0.411 }
+					set_temp_variable = { green = 0.542 }
+					set_temp_variable = { blue = 0.551 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 32 } #Algerian
+						}
+					}
+					set_temp_variable = { red = 0.311 }
+					set_temp_variable = { green = 0.442 }
+					set_temp_variable = { blue = 0.311 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 33 } #Tunisian
+						}
+					}
+					set_temp_variable = { red = 0.562 }
+					set_temp_variable = { green = 0.226 }
+					set_temp_variable = { blue = 0.206 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 34 } #Berber
+						}
+					}
+					set_temp_variable = { red = 0.542 }
+					set_temp_variable = { green = 0.311 }
+					set_temp_variable = { blue = 0.311 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 35 } #Moroccan
+						}
+					}
+					set_temp_variable = { red = 0.362 }
+					set_temp_variable = { green = 0.246 }
+					set_temp_variable = { blue = 0.206 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 36 } #Albanian
+						}
+					}
+					set_temp_variable = { red = 0.49 }
+					set_temp_variable = { green = 0.01 }
+					set_temp_variable = { blue = 0.01 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 37 } #Greek
+						}
+					}
+					set_temp_variable = { red = 0.610 }
+					set_temp_variable = { green = 0.550 }
+					set_temp_variable = { blue = 0.690 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 38 } #Montenegrin
+						}
+					}
+					set_temp_variable = { red = 0.29 }
+					set_temp_variable = { green = 0.21 }
+					set_temp_variable = { blue = 0.38 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 39 } #Croatian
+						}
+					}
+					set_temp_variable = { red = 0.721 }
+					set_temp_variable = { green = 0.622 }
+					set_temp_variable = { blue = 0.622 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 40 } #Croatian
+						}
+					}
+					set_temp_variable = { red = 0.228 }
+					set_temp_variable = { green = 0.570 }
+					set_temp_variable = { blue = 0.450 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 41 } #Sindhi
+						}
+					}
+					set_temp_variable = { red = 0.225 }
+					set_temp_variable = { green = 0.568 }
+					set_temp_variable = { blue = 0.431 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 42 } #Punjabi
+						}
+					}
+					set_temp_variable = { red = 0.286 }
+					set_temp_variable = { green = 0.413 }
+					set_temp_variable = { blue = 0.287 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 43 } #Gujarat
+						}
+					}
+					set_temp_variable = { red = 0.826 }
+					set_temp_variable = { green = 0.568 }
+					set_temp_variable = { blue = 0.391 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 44 } #Marathi
+						}
+					}
+					set_temp_variable = { red = 0.796 }
+					set_temp_variable = { green = 0.618 }
+					set_temp_variable = { blue = 0.341 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 45 } #Kannadiga
+						}
+					}
+					set_temp_variable = { red = 0.696 }
+					set_temp_variable = { green = 0.618 }
+					set_temp_variable = { blue = 0.441 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 46 } #Malayali
+						}
+					}
+					set_temp_variable = { red = 0.596 }
+					set_temp_variable = { green = 0.218 }
+					set_temp_variable = { blue = 0.441 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 47 } #Tamil
+						}
+					}
+					set_temp_variable = { red = 0.258 }
+					set_temp_variable = { green = 0.232 }
+					set_temp_variable = { blue = 0.426 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+				else_if = {
+					limit = {
+						FROM = {
+							check_variable = { prefecture = 48 } #Telugu
+						}
+					}
+					set_temp_variable = { red = 0.386 }
+					set_temp_variable = { green = 0.452 }
+					set_temp_variable = { blue = 0.481 }
+					set_temp_variable = { alpha = alpha_temp }
+				}
+			}
+		}	
+		far_text = none
+		near_text = state
+		update_daily = no
+	}
+}

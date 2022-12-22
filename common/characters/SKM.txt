@@ -1,0 +1,16 @@
+characters={
+	SKM_tashi_namgyal={
+		name=SKM_tashi_namgyal
+		portraits={
+			civilian={
+				large="gfx/leaders/SKM/Portrait_Tashi_Namgyal.png"
+			}
+		}
+		country_leader={
+			ideology=development_authoritarianism_subtype
+			desc=SKM_tashi_namgyal_desc
+			traits={ social_reformer }
+			expire="1963.12.2.1"
+		}
+	}
+}

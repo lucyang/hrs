@@ -1,0 +1,22 @@
+state={
+	id=641
+	name="STATE_641"
+	provinces={
+		2002 1294 2747 47 4257 2653
+	}
+	history = {
+		owner = SIA
+		add_core_of = SIA
+
+		victory_points = { 2747 5 } #佛统/那坤巴统
+		victory_points = { 47 3 } #叻武里/叻丕
+		victory_points = { 2002 1 } #班武里/巴蜀
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=752551
+	state_category = rural
+	local_supplies = 0.0
+}

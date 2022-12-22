@@ -1,0 +1,25 @@
+state={
+	id=451
+	name="STATE_451"
+	provinces={
+		4785
+	}
+	history = {
+		owner = IMK 
+		add_core_of = IMK
+		
+		victory_points = { 4785 5 }
+
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			air_base = 1
+			4785 = {
+				naval_base = 1
+			}
+		}
+	}
+	manpower=55926
+	state_category = town
+	local_supplies = 0.0
+}

@@ -1,0 +1,55 @@
+characters={
+	KRF_yamabe_yasunosuke={
+		name=KRF_yamabe_yasunosuke
+		portraits={
+			civilian={
+				large="gfx/leaders/KRF/Portrait_Yamabe_Yasunosuke.png"
+			}
+		}
+		country_leader={
+			ideology=national_liberalism_subtype
+			desc=KRF_yamabe_yasunosuke_desc
+			traits={ }
+			expire="1924.7.9.1"
+		}
+	}
+	KRF_nagai_kinjiro={
+		name=KRF_nagai_kinjiro
+		portraits={
+			civilian={
+				large="gfx/leaders/KRF/Portrait_Nagai_Kinjiro.png"
+			}
+		}
+		#country_leader={
+		#	ideology=conservatism_subtype
+		#	desc=KRF_nagai_kinjiro_desc
+		#	traits={ }
+		#	expire="1967.2.13.1"
+		#}
+	}
+	KRF_ozawa_seitaro={
+		name=KRF_ozawa_seitaro
+		portraits={
+			civilian={
+				large="gfx/leaders/KRF/Portrait_Ozawa_Seitaro.png"
+			}
+			army={
+				large="gfx/leaders/KRF/Portrait_Ozawa_Seitaro.png"
+			}
+		}
+		country_leader={
+			ideology=military_government_subtype
+			desc=KRF_ozawa_seitaro_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+}

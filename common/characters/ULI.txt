@@ -1,0 +1,28 @@
+characters={
+	### ULI - Khovd ###
+	ULI_ja_lama={
+		name=ULI_ja_lama
+		portraits={
+			civilian={
+				large="gfx/leaders/ULI/Portrait_Ja_Lama.png"
+			}
+			army={
+				large="gfx/leaders/ULI/Portrait_Ja_Lama.png"
+			}
+		}
+		country_leader={
+			ideology=ultranationalism_subtype
+			desc=ULI_ja_lama_desc
+			traits={ ja_lama_trait }
+			expire="1930.9.2.1"
+		}
+		corps_commander={
+			traits={  }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+}

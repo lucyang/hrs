@@ -1,0 +1,350 @@
+﻿division_template = {
+	name = "步兵联队"
+	division_names_group = IMC_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "机动步兵联队"
+	division_names_group = IMC_MOT_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		mot_recon = { x= 0 y = 1 }
+	}
+}
+division_template = {
+	name = "炮兵联队"
+	division_names_group = IMC_INF_01
+
+	regiments = {
+		artillery_brigade = { x = 0 y = 0 }
+		artillery_brigade = { x = 1 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "骑兵联队"
+	division_names_group = IMC_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 1 y = 0 }
+	}
+}
+division_template = {
+	name = "搜索联队"
+	division_names_group = IMC_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 1 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "独立步兵联队"
+	division_names_group = IMC_MTN_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 1 y = 0 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "宪兵队"
+	template_counter = 42
+	division_names_group = IMC_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+	support = {
+		military_police = { x = 0 y = 0 }
+	}
+	priority = 0
+}
+units = {
+	#### JIANGSU ####
+	### 1st Guards Division HQ: Jingshi ###
+	division = {
+		name = "近卫步兵第1联队"
+		location = 2957 #Nanjing
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "近卫步兵第2联队"
+		location = 1313 #Nanjing
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "近卫步兵第6联队"
+		location = 2941 #Nanjing
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "近卫步兵第7联队"
+		location = 1331 #Nanjing
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	### 1st Division HQ: Jingshi ###
+	division = {
+		name = "步兵第1联队"
+		location = 2957 #Nanjing
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "步兵第49联队"
+		location = 1331 #Nanjing
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "步兵第3联队"
+		location = 3802 #Zhenjiang
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "步兵第57联队"
+		location = 2957 #Nanjing
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "骑兵第1联队"
+		location = 2957 #Nanjing
+		division_template = "骑兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "野战炮兵第1联队"
+		location = 2957 #Nanjing
+		division_template = "炮兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	### 13th Division HQ: Shanghai ###
+	division = {
+		name = "步兵第65联队"
+		location = 2946 #Shanghai
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "步兵第104联队"
+		location = 3815 #Wusong
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "步兵第58联队"
+		location = 2946 #Shanghai
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "步兵第116联队"
+		location = 3841 #Jinshan
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "骑兵第17联队"
+		location = 2946 #Shanghai
+		division_template = "骑兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "山炮兵第19联队"
+		location = 2946 #Shanghai
+		division_template = "炮兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	### 15th Division HQ: Yangzhou ###
+	division = {
+		name = "步兵第18联队"
+		location = 1746 #Yangzhou
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "步兵第60联队"
+		location = 3068 #Wusong
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "步兵第34联队"
+		location = 1705 #Yancheng
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "步兵第67联队"
+		location = 1746 #Yangzhou
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "骑兵第4联队"
+		location = 1746 #Yangzhou
+		division_template = "骑兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "野战重炮兵第1联队"
+		location = 1746 #Yangzhou
+		division_template = "炮兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	#### TAIWAN ####
+	### Taiwan Garrison Division ###
+	division = {
+		name = "台湾步兵第1联队"
+		location = 4957 #台北
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "台湾步兵第2联队"
+		location = 2918 #台南
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "台湾山炮兵大队"
+		location = 4957 #台北
+		division_template = "炮兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "基隆要塞炮兵大队"
+		location = 2839 #基隆
+		division_template = "炮兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "马公要塞炮兵大队"
+		location = 5089 #澎湖
+		division_template = "炮兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	### Taiwan Kenpeitai ###
+	division = {
+		name = "基隆宪兵队"
+		location = 2839 #基隆
+		division_template = "宪兵队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "台中宪兵队"
+		location = 3294 #台中
+		division_template = "宪兵队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "嘉义宪兵队"
+		location = 4963 #嘉义
+		division_template = "宪兵队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "高雄宪兵队"
+		location = 1899 #高雄
+		division_template = "宪兵队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "屏东宪兵队"
+		location = 4179 #屏东
+		division_template = "宪兵队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "花莲宪兵队"
+		location = 4107 #花莲
+		division_template = "宪兵队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	#### RYUKYU ####
+	division = {
+		name = "首里国境警备队"
+		location = 4286 #首里城
+		division_template = "宪兵队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "庵美国境警备队"
+		location = 4284 #庵美
+		division_template = "宪兵队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	#### KARAFUTO ####
+	division = {
+		name = "丰原国境警备队"
+		location = 902 #丰原
+		division_template = "宪兵队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "落石国境警备队"
+		location = 757 #落石
+		division_template = "宪兵队"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+}

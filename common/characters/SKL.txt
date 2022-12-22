@@ -1,0 +1,16 @@
+characters={
+	SKL_bronislaw_pilsudski={
+		name=SKL_bronislaw_pilsudski
+		portraits={
+			civilian={
+				large="gfx/leaders/SKL/Portrait_Bronislaw_Pilsudski.png"
+			}
+		}
+		country_leader={
+			ideology=partisan_movement_subtype
+			desc=SKL_bronislaw_pilsudski_desc
+			traits={ compassionate_gentleman social_reformer }
+			expire="1935.5.3.1"
+		}
+	}
+}

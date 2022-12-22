@@ -1,0 +1,32 @@
+﻿l_english:
+ get_super_event_title:0 "-"
+ #####################
+ ## China Civil War ##
+ #####################
+ SE_CHI_civil_war:0 "东亚革命"
+ SE_CHI_civil_war_TEXT:0 "“病患经检查确诊为再生性贫血障碍，因滥用类固醇等激素类药物，已延误最佳治疗时机。\n病患骨髓移植预后状况不佳，造血功能未能重建，免疫系统出现移植排斥。”\n——病人姓名【数据删除】"
+ SE_CHI_civil_war_QUOTE:0 "逐鹿中原，硝烟再起"
+ #####################
+ ## Japan Civil War ##
+ #####################
+ SE_JAP_civil_war:0 "第二战国"
+ SE_JAP_civil_war_TEXT:0 "“人即城，人即垣，人即濠\n\n慈悲乃盟友，仇恨乃敌寇”\n\n——武田信玄"
+ SE_JAP_civil_war_QUOTE:0 "日出之国，尸山血海"
+ #####################
+ ## Korea Civil War ##
+ #####################
+ SE_KOR_civil_war:0 "朝鲜起义"
+ SE_KOR_civil_war_TEXT:0 "“我们宣告今日之朝鲜为独立之国家，朝鲜人民为国家之主人。我们将之告于世界万邦，以明人类平等之大义，确保子孙万代永享民族独立之正当权利。”\n——《三一独立宣言》"
+ SE_KOR_civil_war_QUOTE:0 "伏虎惊醒，挣脱枷锁"
+ #####################
+ # Shanghai Uprising #
+ #####################
+ SE_CHI_shanghai_uprising:0 "上海工人起义"
+ SE_CHI_shanghai_uprising_TEXT:0 "“因为无产阶级无意于征服，所以它根本不需要为了利用胜利而制定计划：无产阶级盘算着如何把资本家挤出生产领域，如何在资本主义创造的车间里取而代之。”\n——乔治·索雷尔"
+ SE_CHI_shanghai_uprising_QUOTE:0 "受苦人今天就要报血仇！"
+ #####################
+ # Vietnam Civil War #
+ #####################
+ SE_VIN_civil_war:0 "越南民族起义"
+ SE_VIN_civil_war_TEXT:0 "“为长发而战，为黑齿而战，\n打得他只轮不返，打得他片甲不还，\n打得使他知英雄南国之有主！”\n——阮惠"
+ SE_VIN_civil_war_QUOTE:0 "祸不单行"

@@ -1,0 +1,17 @@
+characters={
+	### LAX - Lan Xang ###
+	LAX_william_marcus_young={
+		name=LAX_william_marcus_young
+		portraits={
+			civilian={
+				large="gfx/leaders/YUN/Portrait_William_Marcus_Young.png"
+			}
+		}
+		country_leader={
+			ideology=christian_state_subtype
+			desc=LAX_william_marcus_young_desc
+			traits={ }
+			expire="1936.4.1.1"
+		}
+	}
+}

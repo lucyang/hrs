@@ -1,0 +1,126 @@
+﻿capital = 103 # Taiyuan
+
+recruit_character = SHX_yan_xishan
+recruit_character = SHX_liu_tianzhang
+
+oob = "empty"
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	basic_train = 1
+	trench_warfare = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	fuel_refining = 1
+}
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+if = {
+	limit = {
+		
+		has_dlc = "No Step Back"
+		
+	}
+	set_technology = {
+		gwtank_chassis = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		improved_ship_torpedo_launcher = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		mtg_transport = 1
+		coastal_defense_ships = 1
+		#basic_secondary_battery = 1
+		basic_depth_charges = 1
+		basic_cruiser_armor_scheme = 1
+		cruiser_submarines = 1
+	}
+	#set_naval_oob = "IMC_1923_naval"
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		transport = 1
+	}
+	#set_naval_oob = "IMC_1923_naval_legacy"
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+add_ideas = {
+	closed_economy
+	limited_conscription
+	war_economy
+}
+add_ideas = {
+	country_development3
+	country_tech3
+	dirigisme_economy
+	unitary_state2
+}
+
+set_research_slots = 2
+set_convoys = 20
+set_stability = 0.75
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1923.10.10"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 7
+	anarchism = 10
+	socialism = 14
+	democratic = 20
+	neutrality = 36
+	monarchism = 13
+	fascism = 0
+	imperialism = 0
+	futurism = 0
+}

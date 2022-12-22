@@ -1,0 +1,22 @@
+
+state={
+	id=567
+	name="STATE_567"
+	history={
+		owner = ANM
+		add_core_of = VIN
+		victory_points = { 2807 1 } #茶荣
+		victory_points = { 5077 1 } #槟知
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+	provinces={
+		2807 5076 5077 
+	}
+	manpower=1087000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

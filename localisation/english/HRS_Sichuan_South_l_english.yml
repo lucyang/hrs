@@ -1,0 +1,70 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ CHN_communism:0 "川南工农兵代表政府"
+ CHN_communism_DEF:0 "川南工农兵代表政府"
+ CHN_anarchism:0 "川南工农兵代表政府"
+ CHN_anarchism_DEF:0 "川南工农兵代表政府"
+ CHN_democratic:0 "川南都督府"
+ CHN_democratic_DEF:0 "大西公社"
+ CHN_neutrality:0 "川南都督府"
+ CHN_neutrality_DEF:0 "大西公社"
+ CHN_monarchism:0 "川南都督府"
+ CHN_monarchism_DEF:0 "大西公社"
+ CHN_fascism:0 "川南都督府"
+ CHN_fascism_DEF:0 "大西公社"
+ CHN_imperialism:0 "川南都督府"
+ CHN_imperialism_DEF:0 "大西公社"
+ CHN_futurism:0 "川南都督府"
+ CHN_futurism_DEF:0 "大西公社"
+ CHN_communism_ADJ:0 "川南"
+ CHN_anarchism_ADJ:0 "川南"
+ CHN_democratic_ADJ:0 "川南"
+ CHN_neutrality_ADJ:0 "川南"
+ CHN_monarchism_ADJ:0 "川南"
+ CHN_fascism_ADJ:0 "川南"
+ CHN_imperialism_ADJ:0 "川南"
+ CHN_futurism_ADJ:0 "川南"
+ CHN:0 "川南"
+ CHN_DEF:0 "川南"
+ CHN_ADJ:0 "川南"
+ #############
+ ## PARTIES ##
+ #############
+ CHN_communism_party:0 "中国青年共产党"
+ CHN_communism_party_long:0 "中国青年共产党"
+ CHN_anarchism_party:0 "无政府共产党"
+ CHN_anarchism_party_long:0 "无政府共产党"
+ CHN_socialism_party:0 "国民党 - 民生派"
+ CHN_socialism_party_long:0 "中华革命党 - 民生派"
+ CHN_democratic_party:0 "国民党 - 民权派"
+ CHN_democratic_party_long:0 "中华革命党 - 民权派"
+ CHN_neutrality_party:0 "自贡地方议事会"
+ CHN_neutrality_party_long:0 "自贡地方议事会"
+ CHN_monarchism_party:0 "皇汉会"
+ CHN_monarchism_party_long:0 "皇汉会"
+ CHN_fascism_party:0 "国民党 - 民族派"
+ CHN_fascism_party_long:0 "中华革命党 - 民族派"
+ CHN_imperialism_party:0 "国民党 - 邹容派"
+ CHN_imperialism_party_long:0 "中华革命党 - 邹容派"
+ CHN_futurism_party:0 "自贡商会"
+ CHN_futurism_party_long:0 "自贡商会"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ ################
+ ## CHARACTERS ##
+ ################
+ CHN_wu_yuzhang:0 "吴玉章"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############
+ chn_rev.1.t:0 "自贡起义"
+ chn_rev.1.desc:0 "继湖北驻军公开宣布叛乱后，中国西南各道也变得躁动不安起来。前者在几年前就发生过数次民变，令帝国政府官员头痛不已。根据刚刚传来的消息，巴县驻军已拥立[CHN.GetLeader]为他们的新领袖，建立了所谓的“大西公社”，旨在呼应湖北的鄂军都督府。现在必须动员西南地区的后备兵力，彻底消灭这群反贼！"
+ chn_rev.1.a:0 "扮演自贡人民共和国"
+ chn_rev.1.b:0 "扮演大东帝国"

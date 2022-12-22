@@ -1,0 +1,23 @@
+state={
+	id=345
+	name="STATE_345"
+	provinces={
+		62 1246 1410 2074 2435 2733 4108 4124 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+		victory_points = {
+			4124 1
+			}
+		victory_points = {
+			2435 1
+			}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=1131792
+	state_category = rural
+	local_supplies = 0.0
+}

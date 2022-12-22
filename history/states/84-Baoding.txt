@@ -1,0 +1,25 @@
+state={
+	id=84
+	name="STATE_84"
+	provinces={
+		1199 1262 1563 1667 2471 2639 3650 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 2471 5 } #定州
+		victory_points = { 1199 1 } #易州
+		victory_points = { 2639 1 } #涿州
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		
+	}
+	manpower=3926743
+	state_category = town
+	local_supplies = 0.0
+}

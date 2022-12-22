@@ -1,0 +1,595 @@
+add_namespace = ryu
+
+#################
+# RYUKYU EVENTS #
+#################
+country_event = {
+	id = ryu.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event ryu.1"
+		hidden_effect = {
+			289 = { set_demilitarized_zone = yes }
+			548 = { set_demilitarized_zone = yes }
+			549 = { set_demilitarized_zone = yes }
+		}
+	}
+	title = ryu.1.t
+	desc = ryu.1.desc
+	picture = GFX_report_event_dead_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = ryu.1.a
+		AMM = {
+			set_capital = { state = 289 }
+			country_event = { id = ryu.2 days = 3 }
+			hidden_effect = {
+				give_military_access = IMJ
+				add_manpower = 15000
+				transfer_state = 289 #Okinawa
+				transfer_state = 547 #Amami
+				transfer_state = 548 #Miyako
+				transfer_state = 549 #Yaeyama
+			}
+		}
+	}
+	option = {
+		name = ryu.1.b
+		AMM = {
+			set_capital = { state = 289 }
+			country_event = { id = ryu.2 days = 3 }
+			hidden_effect = {
+				give_military_access = IMJ
+				add_manpower = 15000
+				transfer_state = 289 #Okinawa
+				transfer_state = 547 #Amami
+				transfer_state = 548 #Miyako
+				transfer_state = 549 #Yaeyama
+			}
+		}
+	}
+}
+country_event = {
+	id = ryu.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ryu.2" }
+	title = ryu.2.t
+	desc = ryu.2.desc
+	picture = GFX_report_event_ger_civil_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = ryu.2.a
+		AMM = { 
+			set_capital = { state = 294 }
+			add_political_power = -100
+			add_state_core  = 547
+		}
+		MYK = {
+			add_political_power = 50
+			transfer_state = 548
+			add_state_core = 548
+			#load_oob = "MYK_1923"
+		}
+		YYM = {
+			add_political_power = 50
+			transfer_state = 549
+			add_state_core = 549
+			#load_oob = "YYM_1923"
+		}
+		RYU = {
+			add_political_power = 50
+			transfer_state = 289
+			add_state_core = 289
+			#load_oob = "RYU_1923"
+			country_event = { id = ryu.3 days = 2 }
+			change_tag_from = ROOT
+		}
+		hidden_effect = {
+			289 = { set_demilitarized_zone = no }
+			547 = { set_demilitarized_zone = no }
+			548 = { set_demilitarized_zone = no }
+			549 = { set_demilitarized_zone = no }
+			AMM = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 1400
+					producer = IMC
+				}
+				declare_war_on = {
+					target = RYU
+					type = take_state_focus
+					generator = { 289 }
+				}
+				declare_war_on = {
+					target = MYK
+					type = take_state_focus
+					generator = { 548 }
+				}
+				declare_war_on = {
+					target = YYM
+					type = take_state_focus
+					generator = { 549 }
+				}
+			}
+			RYU = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 1000
+					producer = IMC
+				}
+				declare_war_on = {
+					target = AMM
+					type = take_state_focus
+					generator = { 547 }
+				}
+			}
+			MYK = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 600
+					producer = IMC
+				}
+			}
+			YYM = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 800
+					producer = IMC
+				}
+			}
+		}
+	}
+	option = {
+		name = ryu.2.b
+		AMM = { 
+			set_capital = { state = 294 }
+			add_political_power = -10
+			add_state_core  = 547
+		}
+		YYM = {
+			add_political_power = 50
+			transfer_state = 549
+			add_state_core = 549
+			#load_oob = "YYM_1923"
+		}
+		RYU = {
+			add_political_power = 50
+			transfer_state = 289
+			add_state_core = 289
+			country_event = { id = ryu.3 days = 2 }
+			#load_oob = "RYU_1923"
+		}
+		MYK = {
+			add_political_power = 50
+			transfer_state = 548
+			add_state_core = 548
+			#load_oob = "MYK_1923"
+			change_tag_from = ROOT
+		}
+		hidden_effect = {
+			289 = { set_demilitarized_zone = no }
+			547 = { set_demilitarized_zone = no }
+			548 = { set_demilitarized_zone = no }
+			549 = { set_demilitarized_zone = no }
+			AMM = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 1400
+					producer = IMC
+				}
+				declare_war_on = {
+					target = RYU
+					type = take_state_focus
+					generator = { 289 }
+				}
+				declare_war_on = {
+					target = MYK
+					type = take_state_focus
+					generator = { 548 }
+				}
+				declare_war_on = {
+					target = YYM
+					type = take_state_focus
+					generator = { 549 }
+				}
+			}
+			RYU = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 1000
+					producer = IMC
+				}
+			}
+			MYK = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 300
+					producer = IMC
+				}
+			}
+			YYM = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 300
+					producer = IMC
+				}
+			}
+		}
+	}
+	option = {
+		name = ryu.2.c
+		AMM = { 
+			set_capital = { state = 594 }
+			add_political_power = -10
+			add_state_core  = 547
+		}
+		RYU = {
+			add_political_power = 50
+			transfer_state = 289
+			add_state_core = 289
+			country_event = { id = ryu.3 days = 2 }
+			#load_oob = "RYU_1923"
+		}
+		MYK = {
+			add_political_power = 50
+			transfer_state = 548
+			add_state_core = 548
+			#load_oob = "MYK_1923"
+		}
+		YYM = {
+			add_political_power = 50
+			transfer_state = 549
+			add_state_core = 549
+			#load_oob = "YYM_1923"
+			change_tag_from = ROOT
+		}
+		hidden_effect = {
+			289 = { set_demilitarized_zone = no }
+			547 = { set_demilitarized_zone = no }
+			548 = { set_demilitarized_zone = no }
+			549 = { set_demilitarized_zone = no }
+			AMM = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 1400
+					producer = IMC
+				}
+				declare_war_on = {
+					target = RYU
+					type = take_state_focus
+					generator = { 289 }
+				}
+				declare_war_on = {
+					target = MYK
+					type = take_state_focus
+					generator = { 548 }
+				}
+				declare_war_on = {
+					target = YYM
+					type = take_state_focus
+					generator = { 549 }
+				}
+			}
+			RYU = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 1000
+					producer = IMC
+				}
+				declare_war_on = {
+					target = AMM
+					type = take_state_focus
+					generator = { 547 }
+				}
+			}
+			MYK = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 600
+					producer = IMC
+				}
+			}
+			YYM = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 800
+					producer = IMC
+				}
+			}
+		}
+	}
+	option = {
+		name = ryu.2.d
+		AMM = { 
+			set_capital = { state = 294 }
+			add_political_power = -10
+			add_state_core  = 547
+		}
+		YYM = {
+			add_political_power = 50
+			transfer_state = 549
+			add_state_core = 549
+			#load_oob = "YYM_1923"
+		}
+		RYU = {
+			add_political_power = 50
+			transfer_state = 289
+			add_state_core = 289
+			country_event = { id = ryu.3 days = 2 }
+			#load_oob = "RYU_1923"
+		}
+		MYK = {
+			add_political_power = 50
+			transfer_state = 548
+			add_state_core = 548
+			#load_oob = "MYK_1923"
+		}
+		hidden_effect = {
+			289 = { set_demilitarized_zone = no }
+			547 = { set_demilitarized_zone = no }
+			548 = { set_demilitarized_zone = no }
+			549 = { set_demilitarized_zone = no }
+			AMM = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 1000
+					producer = IMC
+				}
+				declare_war_on = {
+					target = RYU
+					type = take_state_focus
+					generator = { 289 }
+				}
+				declare_war_on = {
+					target = MYK
+					type = take_state_focus
+					generator = { 548 }
+				}
+				declare_war_on = {
+					target = YYM
+					type = take_state_focus
+					generator = { 549 }
+				}
+			}
+			RYU = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 1000
+					producer = IMC
+				}
+				declare_war_on = {
+					target = AMM
+					type = take_state_focus
+					generator = { 547 }
+				}
+			}
+			MYK = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 600
+					producer = IMC
+				}
+			}
+			YYM = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 800
+					producer = IMC
+				}
+			}
+		}
+	}
+}
+country_event = {
+	id = ryu.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ryu.3" }
+	title = ryu.3.t
+	desc = ryu.3.desc
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = {
+		name = ryu.3.a
+		ai_chance = {
+			base = 40
+		}
+		add_political_power = 30
+		add_popularity = {
+			ideology = monarchism
+			popularity = 0.20
+		}
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.10
+		}
+		country_event = ryu.4
+	}
+	option = {
+		name = ryu.3.b
+		ai_chance = {
+			base = 60
+		}
+		add_political_power = 30
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.10
+		}
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.10
+		}
+		add_popularity = {
+			ideology = anarchism
+			popularity = 0.10
+		}
+		country_event = ryu.5
+	}
+}
+country_event = {
+	id = ryu.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ryu.4" }
+	title = ryu.4.t
+	desc = ryu.4.desc
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = {
+		name = ryu.4.a
+		ai_chance = {
+			base = 10
+		}
+		set_politics = { ruling_party = monarchism elections_allowed = no }
+		add_popularity = {
+			ideology = monarchism
+			popularity = 0.05
+		}
+		country_event = ryu.6
+	}
+	option = {
+		name = ryu.4.b
+		ai_chance = {
+			base = 90
+		}
+		add_country_leader_role = {
+			character = RYU_shikiya_koshin
+			country_leader={
+				ideology=guided_democracy_subtype
+				desc=RYU_shikiya_koshin_desc
+				traits={ }
+				expire="1955.1.25.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = neutrality elections_allowed = no }
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.10
+		}
+		country_event = ryu.6
+	}
+}
+country_event = {
+	id = ryu.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ryu.5" }
+	title = ryu.5.t
+	desc = ryu.5.desc
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes
+
+	option = {
+		name = ryu.5.a
+		ai_chance = {
+			base = 33
+		}
+		add_country_leader_role = {
+			character = RYU_ogimi_chotoku
+			country_leader={
+				ideology=social_democratic_subtype
+				desc=RYU_ogimi_chotoku_desc
+				traits={ }
+				expire="1977.10.17.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = socialism elections_allowed = no }
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.07
+		}
+		add_popularity = {
+			ideology = anarchism
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.05
+		}
+		country_event = ryu.6
+	}
+	option = {
+		name = ryu.5.b
+		ai_chance = {
+			base = 33
+		}
+		add_country_leader_role = {
+			character = RYU_nakasone_genwa
+			country_leader={
+				ideology=tridemism_subtype
+				desc=RYU_nakasone_genwa_desc
+				traits={ }
+				expire="1978.10.18.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = democratic elections_allowed = no }
+		set_party_name = { 
+			ideology = democratic
+			long_name = RYU_tridemism_party_long 
+			name = RYU_tridemism_party
+		}
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.10
+		}
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.05
+		}
+		country_event = ryu.6
+	}
+}
+country_event = {
+	id = ryu.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ryu.6" }
+	title = ryu.6.t
+	desc = ryu.6.desc
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = ryu.6.a
+		ai_chance = {
+			base = 50
+			modifier = {
+				factor = 0
+				RYU = { has_similar_government_as_ROOT = yes }
+			}
+			modifier = {
+				factor = 1.5
+				RYU = { has_similar_government_as_ROOT = no }
+			}
+		}
+		add_war_support = 0.02
+		declare_war_on = {
+			target = YYM
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = MYK
+			type = annex_everything
+		}
+	}
+	option = {
+		name = ryu.6.b
+		ai_chance = {
+			base = 50
+			modifier = {
+				factor = 1.5
+				RYU = { has_similar_government_as_ROOT = yes }
+			}
+			modifier = {
+				factor = 0
+				RYU = { has_similar_government_as_ROOT = no }
+			}
+		}
+		add_political_power = 20
+		YYM = { give_military_access = RYU }
+		MYK = { give_military_access = RYU }
+	}
+}

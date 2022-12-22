@@ -1,0 +1,30 @@
+characters={
+	ZZZ_warlord={
+		name=ZZZ_warlord
+		portraits={
+			civilian={
+				large="gfx/leaders/Portrait_City_Ruin.dds"
+			}
+		}
+		country_leader={
+			ideology=military_government_subtype
+			desc=ZZZ_warlord_desc
+			traits={  }
+			expire="1991.12.25.1"
+		}
+	}
+	ZZZ_nikita_khrushchev={
+		name=ZZZ_nikita_khrushchev
+		portraits={
+			civilian={
+				large="gfx/leaders/SOV/Portrait_Nikita_Khrushchev.dds"
+			}
+		}
+		#country_leader={
+		#	ideology=stalinism_subtype
+		#	desc=ZZZ_nikita_khrushchev_desc
+		#	traits={  }
+		#	expire="1971.9.11.1"
+		#}
+	}
+}

@@ -1,0 +1,109 @@
+characters={
+
+	KMT_sun_zhongshan={
+		name=KMT_sun_zhongshan
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/Portrait_Sun_Zhongshan.dds"
+			}
+		}
+		#country_leader={
+		#	ideology=tridemism_subtype
+		#	desc=KMT_sun_zhongshan_desc
+		#	traits={ liberal_democratic_paragon }
+		#	expire="1925.3.12.1"
+		#}
+	}
+	KMT_old_sun_zhongshan={
+		name=KMT_old_sun_zhongshan
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/Portrait_Old_Sun_Zhongshan.dds"
+			}
+		}
+	}
+	KMT_hu_hanmin={
+		name=KMT_hu_hanmin
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/Portrait_Hu_Hanmin.dds"
+			}
+		}
+		country_leader={
+			ideology=tridemism_subtype
+			desc=KMT_hu_hanmin_desc
+			traits={ connected_citizen }
+			expire="1936.5.12.1"
+		}
+	}
+	KMT_chen_jiongming={
+		name=KMT_chen_jiongming
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/Portrait_Chen_Jiongming.dds"
+			}
+		}
+		country_leader={
+			ideology=guided_democracy_subtype
+			desc=KMT_chen_jiongming_desc
+			traits={ political_chameleon }
+			expire="1933.9.22.1"
+		}
+	}
+	KMT_zhu_zhixin={
+		name=KMT_zhu_zhixin
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/Portrait_Zhu_Zhixin.dds"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialism_subtype
+			desc=KMT_zhu_zhixin_desc
+			traits={  }
+			expire="1950.9.21.1"
+		}
+	}
+	KMT_peng_pai={
+		name=KMT_peng_pai
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/Portrait_Peng_Pai.dds"
+			}
+		}
+		country_leader={
+			ideology=leninism_subtype
+			desc=KMT_peng_pai_desc
+			traits={ militant_socialist veteran_communist }
+			expire="1954.8.20.1"
+		}
+	}
+	KMT_kmt_government={
+		name=KMT_kmt_government
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/Portrait_KMT_Government.dds"
+			}
+		}
+		#country_leader={
+		#	ideology=military_government_subtype
+		#	desc=KMT_kmt_government_desc
+		#	traits={  }
+		#	expire="1954.8.20.1"
+		#}
+	}
+	KMT_wang_jingwei={
+		name=KMT_wang_jingwei
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/Portrait_Wang_Jingwei.dds"
+			}
+		}
+		#country_leader={
+		#	ideology=military_government_subtype
+		#	desc=KMT_kmt_government_desc
+		#	traits={  }
+		#	expire="1954.8.20.1"
+		#}
+	}
+}

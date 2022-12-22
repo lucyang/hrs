@@ -1,0 +1,22 @@
+state={
+	id=57
+	name="STATE_57"
+	provinces={
+		193 209 982 2114 2401 3597 3598 3603 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 3603 5 } #包头
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+	manpower=249403
+	state_category = large_town
+	local_supplies = 0.0
+}

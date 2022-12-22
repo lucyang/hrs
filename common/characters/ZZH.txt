@@ -1,0 +1,41 @@
+characters = {
+	ZZH_zhang_guotao = {
+		name = ZZH_zhang_guotao
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ZZH/Portrait_Zhang_Guotao_Civilian.png"
+			}
+			army = {
+				large = "gfx/leaders/ZZH/Portrait_Zhang_Guotao_Army.png"
+			}
+		}
+		country_leader = {
+			ideology=military_socialism_subtype
+			desc = ZZH_zhang_guotao_desc
+			traits = { political_chameleon leftist_independent }
+			expire = "1979.12.3.1"
+		}
+		corps_commander={
+			traits={ career_officer thorough_planner brilliant_strategist }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=1
+		}
+	}
+	ZZH_lin_yunan = {
+		name = ZZH_lin_yunan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ZZH/Portrait_Lin_Yunan.png"
+			}
+		}
+		country_leader = {
+			ideology=anarcho_syndicalism_subtype
+			desc = ZZH_lin_yunan_desc
+			traits = { emergency_powers revolutionary_council }
+			expire = "1950.1.1.1"
+		}
+	}
+}

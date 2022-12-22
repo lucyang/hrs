@@ -1,0 +1,220 @@
+add_namespace = JAP_wonder
+
+##### saigoku #####
+country_event = { #占领三池煤矿
+    id = JAP_wonder.1
+    immediate = {
+        log = "[GetDateText]: [Root.GetName]: event JAP_wonder.1"
+    }
+    title = JAP_wonder.1.t
+    desc = JAP_wonder.1.desc
+    #picture = 
+
+    is_triggered_only = yes
+
+    option = { 
+		name = JAP_wonder.1.a
+		ai_chance = { factor = 1 }
+		add_ideas = JAP_miike_colliery
+	}
+}
+
+country_event = { #占领吴海军工厂
+    id = JAP_wonder.2
+    immediate = {
+        log = "[GetDateText]: [Root.GetName]: event JAP_wonder.2"
+    }
+    title = JAP_wonder.2.t
+    desc = JAP_wonder.2.desc
+    #picture = 
+
+    is_triggered_only = yes
+
+    option = { 
+		name = JAP_wonder.2.a
+		ai_chance = { factor = 1 }
+		add_ideas = JAP_kure_naval_arsenal
+	}
+}
+
+country_event = { #占领京都大学
+    id = JAP_wonder.3
+    immediate = {
+        log = "[GetDateText]: [Root.GetName]: event JAP_wonder.3"
+    }
+    title = JAP_wonder.3.t
+    desc = JAP_wonder.3.desc
+    #picture = 
+
+    is_triggered_only = yes
+
+    option = { 
+		name = JAP_wonder.3.a
+		ai_chance = { factor = 1 }
+		add_ideas = JAP_kyoto_imperial_university
+	}
+}
+
+
+country_event = { #丢失三池煤矿
+    id = JAP_wonder.4
+    immediate = {
+        log = "[GetDateText]: [Root.GetName]: event JAP_wonder.4"
+    }
+    title = JAP_wonder.4.t
+    desc = JAP_wonder.4.desc
+    #picture = 
+
+    is_triggered_only = yes
+
+    option = { 
+		name = JAP_wonder.4.a
+		ai_chance = { factor = 4 }
+		remove_ideas = JAP_miike_colliery
+	}
+}
+
+country_event = { #丢失吴海军工厂
+    id = JAP_wonder.5
+    immediate = {
+        log = "[GetDateText]: [Root.GetName]: event JAP_wonder.5"
+    }
+    title = JAP_wonder.5.t
+    desc = JAP_wonder.5.desc
+    #picture = 
+
+    is_triggered_only = yes
+
+    option = { 
+		name = JAP_wonder.5.a
+		ai_chance = { factor = 1 }
+		remove_ideas = JAP_kure_naval_arsenal
+	}
+}
+
+country_event = { #丢失京都大学
+    id = JAP_wonder.6
+    immediate = {
+        log = "[GetDateText]: [Root.GetName]: event JAP_wonder.6"
+    }
+    title = JAP_wonder.6.t
+    desc = JAP_wonder.6.desc
+    #picture = 
+
+    is_triggered_only = yes
+
+    option = { 
+		name = JAP_wonder.6.a
+		ai_chance = { factor = 1 }
+		remove_ideas = JAP_kyoto_imperial_university
+	}
+}
+##### tougoku #####
+
+country_event = { #占领丰田工厂
+    id = JAP_wonder.7
+    immediate = {
+        log = "[GetDateText]: [Root.GetName]: event JAP_wonder.7"
+    }
+    title = JAP_wonder.7.t
+    desc = JAP_wonder.7.desc
+    #picture = 
+
+    is_triggered_only = yes
+
+    option = { 
+		name = JAP_wonder.7.a
+		ai_chance = { factor = 1 }
+		add_ideas = JAP_nagoya_toyota
+	}
+}
+
+country_event = { #占领江户废土区
+    id = JAP_wonder.8
+    immediate = {
+        log = "[GetDateText]: [Root.GetName]: event JAP_wonder.8"
+    }
+    title = JAP_wonder.8.t
+    desc = JAP_wonder.8.desc
+    #picture = 
+
+    is_triggered_only = yes
+
+    option = { 
+		name = JAP_wonder.8.a
+		ai_chance = { factor = 1 }
+		add_ideas = JAP_edo_wasteland
+	}
+}
+
+country_event = { #占领南部工业园区
+    id = JAP_wonder.9
+    immediate = {
+        log = "[GetDateText]: [Root.GetName]: event JAP_wonder.9"
+    }
+    title = JAP_wonder.9.t
+    desc = JAP_wonder.9.desc
+    #picture = 
+
+    is_triggered_only = yes
+
+    option = { 
+		name = JAP_wonder.9.a
+		ai_chance = { factor = 1 }
+		add_ideas = JAP_nanbu_industry
+	}
+}
+
+country_event = { #丢失丰田工厂
+    id = JAP_wonder.10
+    immediate = {
+        log = "[GetDateText]: [Root.GetName]: event JAP_wonder.10"
+    }
+    title = JAP_wonder.10.t
+    desc = JAP_wonder.10.desc
+    #picture = 
+
+    is_triggered_only = yes
+
+    option = { 
+		name = JAP_wonder.10.a
+		ai_chance = { factor = 1 }
+	    remove_ideas = JAP_nagoya_toyota
+	}
+}
+
+country_event = { #丢失江户废土区
+    id = JAP_wonder.11
+    immediate = {
+        log = "[GetDateText]: [Root.GetName]: event JAP_wonder.11"
+    }
+    title = JAP_wonder.11.t
+    desc = JAP_wonder.11.desc
+    #picture = 
+
+    is_triggered_only = yes
+
+    option = { 
+		name = JAP_wonder.11.a
+		ai_chance = { factor = 1 }
+		remove_ideas = JAP_edo_wasteland
+	}
+}
+
+country_event = { #丢失南部工业园区
+    id = JAP_wonder.12
+    immediate = {
+        log = "[GetDateText]: [Root.GetName]: event JAP_wonder.12"
+    }
+    title = JAP_wonder.12.t
+    desc = JAP_wonder.12.desc
+    #picture = 
+
+    is_triggered_only = yes
+
+    option = { 
+		name = JAP_wonder.12.a
+		ai_chance = { factor = 1 }
+		remove_ideas = JAP_nanbu_industry
+	}
+}

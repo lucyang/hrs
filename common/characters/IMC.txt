@@ -1,0 +1,144 @@
+characters={
+	IMC_emperor_taisho={
+		name=IMC_emperor_taisho
+		portraits={
+			civilian={
+				large="gfx/leaders/IMC/Portrait_Emperor_Yoshihito.dds"
+			}
+		}
+		#country_leader={
+		#	ideology=chinese_monarchy_subtype
+		#	desc=IMC_emperor_taisho_desc
+		#	traits={ warrior_code he_who_bears_the_throne inexperienced_imperialist }
+		#	expire="1926.12.25.1"
+		#}
+	}
+	IMC_sun_zhongshan={
+		name=IMC_sun_zhongshan
+		portraits={
+			civilian={
+				large="gfx/leaders/IMC/Portrait_Sun_Zhongshan_Army.png"
+			}
+		}
+		country_leader={
+			ideology=interim_government_subtype
+			desc=IMC_sun_zhongshan_desc
+			traits={ moderate_reformist emergency_powers }
+			expire="1925.3.25.1"
+		}
+	}
+	IMC_zhang_taiyan={
+		name=IMC_zhang_taiyan
+		portraits={
+			civilian={
+				large="gfx/leaders/IMC/Portrait_Zhang_Taiyan.png"
+			}
+		}
+		#country_leader={
+		#	ideology=confucian_capitalism_subtype
+		#	desc=IMC_zhang_taiyan_desc
+		#	traits={  }
+		#	expire="1936.6.14.1"
+		#}
+	}
+	IMC_kang_youwei={
+		name=IMC_kang_youwei
+		portraits={
+			civilian={
+				large="gfx/leaders/IMC/Portrait_Kang_Youwei.png"
+			}
+		}
+		country_leader={
+			ideology=fundamentalism_subtype
+			desc=IMC_kang_youwei_desc
+			traits={  }
+			expire="1927.3.31.1"
+		}
+	}
+	IMC_hu_shi={
+		name=IMC_hu_shi
+		portraits={
+			civilian={
+				large="gfx/leaders/IMC/Portrait_Hu_Shi.dds"
+			}
+		}
+		#country_leader={
+		#	ideology=liberalism_subtype
+		#	desc=IMC_hu_shi_desc
+		#	traits={  }
+		#	expire="1962.2.14.1"
+		#}
+	}
+	IMC_liang_qichao={
+		name=IMC_liang_qichao
+		portraits={
+			civilian={
+				large="gfx/leaders/IMC/Portrait_Liang_Qichao.png"
+			}
+		}
+		country_leader={
+			ideology=national_liberalism_subtype
+			desc=IMC_liang_qichao_desc
+			traits={  }
+			expire="1929.1.19.1"
+		}
+	}
+	IMC_jiang_kanghu={
+		name=IMC_jiang_kanghu
+		portraits={
+			civilian={
+				large="gfx/leaders/IMC/Portrait_Jiang_Kanghu.png"
+			}
+		}
+		country_leader={
+			ideology=social_democratic_subtype
+			desc=IMC_jiang_kanghu_desc
+			traits={  }
+			expire="1954.12.7.1"
+		}
+	}
+	IMC_zhang_junmai={
+		name=IMC_zhang_junmai
+		portraits={
+			civilian={
+				large="gfx/leaders/IMC/Portrait_Zhang_Junmai.png"
+			}
+		}
+		#country_leader={
+		#	ideology=social_democratic_subtype → revisionist_democratic_subtype
+		#	desc=IMC_zhang_junmai_desc
+		#	traits={  }
+		#	expire="1969.2.13.1"
+		#}
+	}
+	IMC_zhang_dongsun={
+		name=IMC_zhang_dongsun
+		portraits={
+			civilian={
+				large="gfx/leaders/IMC/Portrait_Zhang_Dongsun.dds"
+			}
+		}
+		#country_leader={
+		#	ideology=guild_socialism_subtype
+		#	desc=IMC_zhang_dongsun_desc
+		#	traits={  }
+		#	expire="1973.6.2.1"
+		#}
+	}
+	IMC_li_houji={
+		name=IMC_li_houji
+		portraits={
+			civilian={
+				large="gfx/leaders/IMC/Portrait_Li_Houji.png"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer career_officer old_guard }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+}

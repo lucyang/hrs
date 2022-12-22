@@ -1,0 +1,25 @@
+state={
+	id=640
+	name="STATE_640"
+	provinces={
+		307 465 504 1968 2465 2721 2915 4265
+	}
+	history = {
+		owner = SIA
+		add_core_of = SIA
+
+		victory_points = { 1968 5 } #宋卡
+		victory_points = { 465 1 } #素叻他尼/万伦
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			1968 = {
+				naval_base = 2 #宋卡港
+			}
+		}
+	}
+	manpower=752551
+	state_category = rural
+	local_supplies = 0.0
+}

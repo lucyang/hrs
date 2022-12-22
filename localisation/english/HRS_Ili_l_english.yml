@@ -1,0 +1,67 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ ILI_communism:0 "伊犁解放组织"
+ ILI_communism_DEF:0 "伊犁解放组织"
+ ILI_anarchism:0 "伊犁解放组织"
+ ILI_anarchism_DEF:0 "伊犁解放组织"
+ ILI_democratic:0 "伊犁解放组织"
+ ILI_democratic_DEF:0 "伊犁解放组织"
+ ILI_neutrality:0 "伊犁解放组织"
+ ILI_neutrality_DEF:0 "伊犁解放组织"
+ ILI_monarchism:0 "伊犁解放组织"
+ ILI_monarchism_DEF:0 "伊犁解放组织"
+ ILI_fascism:0 "伊犁解放组织"
+ ILI_fascism_DEF:0 "伊犁解放组织"
+ ILI_imperialism:0 "伊犁解放组织"
+ ILI_imperialism_DEF:0 "伊犁解放组织"
+ ILI_futurism:0 "伊犁解放组织"
+ ILI_futurism_DEF:0 "伊犁解放组织"
+ ILI_communism_ADJ:0 "伊犁"
+ ILI_anarchism_ADJ:0 "伊犁"
+ ILI_democratic_ADJ:0 "伊犁"
+ ILI_neutrality_ADJ:0 "伊犁"
+ ILI_monarchism_ADJ:0 "伊犁"
+ ILI_fascism_ADJ:0 "伊犁"
+ ILI_imperialism_ADJ:0 "伊犁"
+ ILI_futurism_ADJ:0 "伊犁"
+ ILI:0 ""伊犁"
+ ILI_DEF:0 ""伊犁"
+ ILI_ADJ:0 "伊犁"
+ #############
+ ## PARTIES ##
+ #############
+ ILI_communism_party:0 "伊犁解放组织 - 国际派"
+ ILI_communism_party_long:0 "伊犁解放组织 - 国际派"
+ ILI_anarchism_party:0 "伊犁解放组织 - 革命派"
+ ILI_anarchism_party_long:0 "伊犁解放组织 - 革命派"
+ ILI_socialism_party:0 "伊犁解放组织 - 扎吉德派"
+ ILI_socialism_party_long:0 "伊犁解放组织 - 扎吉德派"
+ ILI_democratic_party:0 "伊犁解放组织 - 卡迪木派"
+ ILI_democratic_party_long:0 "伊犁解放组织 - 卡迪木派"
+ ILI_neutrality_party:0 "伊犁解放组织 - 中间派"
+ ILI_neutrality_party_long:0 "伊犁解放组织 - 中间派"
+ ILI_monarchism_party:0 "伊犁解放组织 - 汗王派"
+ ILI_monarchism_party_long:0 "伊犁解放组织 - 汗王派"
+ ILI_fascism_party:0 "伊犁解放组织 - 民族派"
+ ILI_fascism_party_long:0 "伊犁解放组织 - 民族派"
+ ILI_imperialism_party:0 "伊犁解放组织 - 泛突厥派"
+ ILI_imperialism_party_long:0 "伊犁解放组织 - 泛突厥派"
+ ILI_futurism_party:0 "伊犁解放组织 - 亲俄派"
+ ILI_futurism_party_long:0 "伊犁解放组织 - 亲俄派"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ ILI_gheni_batur:0 "艾尼·巴图尔"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

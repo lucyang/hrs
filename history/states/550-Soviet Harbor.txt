@@ -1,0 +1,26 @@
+state={
+	id=550
+	name="STATE_550"
+	provinces={
+		1856 3413
+	}
+	history={
+		owner = ZDJ
+		add_core_of = DAL
+		add_claim_by = MAN
+
+		victory_points = { 1856 1 }
+
+		buildings = {
+			infrastructure = 2
+			1856 = {
+				naval_base = 1
+			}
+		}
+
+	}
+	manpower=11853
+	state_category = town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

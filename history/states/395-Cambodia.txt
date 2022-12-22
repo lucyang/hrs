@@ -1,0 +1,26 @@
+
+state={
+	id=395
+	name="STATE_395"
+
+	history={
+		owner = ANM
+		add_core_of = CAM
+		victory_points = { 5097 10 } #金边
+		victory_points = { 1521 1 } #磅湛
+		victory_points = { 5098 5 } #磅清�?
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		1288 1521 5095 5096 5097 5098
+	}
+	manpower=2680000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

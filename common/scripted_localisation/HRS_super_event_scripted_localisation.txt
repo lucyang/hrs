@@ -1,0 +1,87 @@
+ #SUPER EVENT TITLES
+ defined_text = {
+    name = get_super_event_title
+    
+    text = { 
+        trigger = {
+            has_global_flag = CHI_civil_war_se_visible
+        }
+        localization_key = "SE_CHI_civil_war"
+    }
+	text = { 
+        trigger = {
+            has_global_flag = JAP_civil_war_se_visible
+        }
+        localization_key = "SE_JAP_civil_war"
+    }
+	text = { 
+        trigger = {
+            has_global_flag = KOR_civil_war_se_visible
+        }
+        localization_key = "SE_KOR_civil_war"
+    }
+    text = { 
+        trigger = {
+            has_global_flag = CHI_shanghai_uprising_se_visible
+        }
+        localization_key = "SE_CHI_shanghai_uprising"
+    }
+}
+#SUPER EVENT QUOTES
+defined_text = { 
+    name = get_super_event_text
+    
+    text = { 
+        trigger = {
+            has_global_flag = CHI_civil_war_se_visible
+        }
+        localization_key = "SE_CHI_civil_war_TEXT"
+    }
+	text = { 
+        trigger = {
+            has_global_flag = JAP_civil_war_se_visible
+        }
+        localization_key = "SE_JAP_civil_war_TEXT"
+    }
+	text = { 
+        trigger = {
+            has_global_flag = KOR_civil_war_se_visible
+        }
+        localization_key = "SE_KOR_civil_war_TEXT"
+    }
+    text = { 
+        trigger = {
+            has_global_flag = CHI_shanghai_uprising_se_visible
+        }
+        localization_key = "SE_CHI_shanghai_uprising_TEXT"
+    }
+}
+#SUPER EVENT SUMMARIES
+defined_text = { 
+    name = get_super_event_quote
+    
+    text = { 
+        trigger = {
+            has_global_flag = CHI_civil_war_se_visible
+        }
+        localization_key = "SE_CHI_civil_war_QUOTE"
+    }
+	text = { 
+        trigger = {
+            has_global_flag = JAP_civil_war_se_visible
+        }
+        localization_key = "SE_JAP_civil_war_QUOTE"
+    }
+	text = { 
+        trigger = {
+            has_global_flag = KOR_civil_war_se_visible
+        }
+        localization_key = "SE_KOR_civil_war_QUOTE"
+    }
+    text = { 
+        trigger = {
+            has_global_flag = CHI_shanghai_uprising_se_visible
+        }
+        localization_key = "SE_CHI_shanghai_uprising_QUOTE"
+    }
+}

@@ -1,0 +1,168 @@
+is_dzungar_nation = {
+	OR = {
+		original_tag = ETK
+		original_tag = HAM
+		original_tag = SIK
+		original_tag = HOT
+		original_tag = ASH
+		original_tag = TUP
+		original_tag = DZU
+	}
+}
+
+is_mongolia_nation = {
+	OR = {
+		original_tag = MON
+		original_tag = BOG
+		original_tag = KVD
+		original_tag = ULI
+
+		original_tag = IMN
+		original_tag = MEN
+		original_tag = ULQ
+		original_tag = HUL
+
+		original_tag = BYA
+		original_tag = TAN
+
+		original_tag = DAR
+		original_tag = TIB
+	}
+}
+
+is_mongolia_state = {
+	OR = {
+		#内蒙古
+		state = 9 #呼伦贝尔盟
+		state = 19 #兴安盟
+		state = 23 #锡林郭勒盟
+		state = 30 #哲里木盟
+		state = 37 #昭乌达盟
+		state = 43 #乌海
+		state = 49 #乌兰察布
+		state = 56 #阿拉善
+		state = 57 #包头
+		state = 61 #五原/巴彦淖尔
+		state = 71 #归绥/呼和浩特
+		state = 76 #伊克昭/鄂尔多斯
+		state = 510 #张家口/喀拉干
+		state = 511 #东胜/托克托
+		#外蒙古
+		state = 11 #库伦
+		state = 408 #巴彦图门
+		state = 409 #达里冈爱
+		state = 410 #肯特
+		state = 411 #戈壁苏木贝尔
+		state = 412 #东戈壁
+		state = 413 #中戈壁
+		state = 414 #南戈壁
+		state = 415 #色楞格
+		state = 416 #中央
+		state = 417 #布尔干
+		state = 418 #前杭爱
+		state = 419 #后杭爱
+		state = 421 #巴彦洪戈尔
+		state = 422 #扎布汗
+		state = 423 #戈壁阿尔泰
+		state = 424 #乌布苏
+		state = 425 #科布多
+		state = 426 #巴彦乌列盖
+		state = 427 #达尔汗乌拉
+		state = 428 #鄂尔浑
+		#准噶尔
+		state = 35 #博尔塔拉
+		state = 47 #巴音郭楞
+		#俄罗斯
+		state = 7 #唐努图瓦
+		state = 420 #库苏古尔
+		state = 445 #布里亚特
+	}
+}
+
+is_any_mongolia_state = {
+	OR = {
+		#内蒙古
+		state = 9 #呼伦贝尔盟
+		state = 19 #兴安盟
+		state = 23 #锡林郭勒盟
+		state = 30 #哲里木盟
+		state = 37 #昭乌达盟
+		state = 43 #乌海
+		state = 49 #乌兰察布
+		state = 56 #阿拉善
+		state = 57 #包头
+		state = 61 #五原/巴彦淖尔
+		state = 71 #归绥/呼和浩特
+		state = 76 #伊克昭/鄂尔多斯
+		state = 510 #张家口/喀拉干
+		state = 511 #东胜/托克托
+		#外蒙古
+		state = 11 #库伦
+		state = 408 #巴彦图门
+		state = 409 #达里冈爱
+		state = 410 #肯特
+		state = 411 #戈壁苏木贝尔
+		state = 412 #东戈壁
+		state = 413 #中戈壁
+		state = 414 #南戈壁
+		state = 415 #色楞格
+		state = 416 #中央
+		state = 417 #布尔干
+		state = 418 #前杭爱
+		state = 419 #后杭爱
+		state = 421 #巴彦洪戈尔
+		state = 422 #扎布汗
+		state = 423 #戈壁阿尔泰
+		state = 424 #乌布苏
+		state = 425 #科布多
+		state = 426 #巴彦乌列盖
+		state = 427 #达尔汗乌拉
+		state = 428 #鄂尔浑
+		#准噶尔
+		state = 35 #博尔塔拉
+		state = 47 #巴音郭楞
+		#俄罗斯
+		state = 7 #唐努图瓦
+		state = 420 #库苏古尔
+		state = 445 #布里亚特
+	}
+}
+
+controls_mongolia_state = {
+	AND = {
+		#内蒙古
+		has_full_control_of_state = 9 #呼伦贝尔盟
+		has_full_control_of_state = 23 #锡林郭勒盟
+		has_full_control_of_state = 43 #乌海
+		has_full_control_of_state = 49 #乌兰察布
+		has_full_control_of_state = 56 #阿拉善
+		has_full_control_of_state = 57 #包头
+		has_full_control_of_state = 61 #五原/巴彦淖尔
+		has_full_control_of_state = 71 #归绥/呼和浩特
+		has_full_control_of_state = 76 #伊克昭/鄂尔多斯
+		has_full_control_of_state = 510 #张家口/喀拉干
+		has_full_control_of_state = 511 #东胜/托克托
+		#外蒙古
+		has_full_control_of_state = 11 #库伦
+		has_full_control_of_state = 408 #巴彦图门
+		has_full_control_of_state = 409 #达里冈爱
+		has_full_control_of_state = 410 #肯特
+		has_full_control_of_state = 411 #戈壁苏木贝尔
+		has_full_control_of_state = 412 #东戈壁
+		has_full_control_of_state = 413 #中戈壁
+		has_full_control_of_state = 414 #南戈壁
+		has_full_control_of_state = 415 #色楞格
+		has_full_control_of_state = 416 #中央
+		has_full_control_of_state = 417 #布尔干
+		has_full_control_of_state = 418 #前杭爱
+		has_full_control_of_state = 419 #后杭爱
+		has_full_control_of_state = 421 #巴彦洪戈尔
+		has_full_control_of_state = 422 #扎布汗
+		has_full_control_of_state = 423 #戈壁阿尔泰
+		has_full_control_of_state = 424 #乌布苏
+		has_full_control_of_state = 425 #科布多
+		has_full_control_of_state = 426 #巴彦乌列盖
+		has_full_control_of_state = 427 #达尔汗乌拉
+		has_full_control_of_state = 428 #鄂尔浑
+	}
+}

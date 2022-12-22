@@ -1,0 +1,21 @@
+state={
+	id=109
+	name="STATE_109"
+	provinces={
+		1239 2487 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 2487 1 } #德州
+		
+		buildings = {
+			infrastructure = 2
+		}
+		
+	}
+	manpower=47439
+	state_category = town
+	local_supplies = 0.0
+}

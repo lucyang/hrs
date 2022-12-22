@@ -1,0 +1,86 @@
+characters = {
+	JPR_sakai_toshihiko={
+		name=JPR_sakai_toshihiko
+		portraits={
+			civilian={
+				large="gfx/leaders/JPR/Portrait_Sakai_Toshihiko.png"
+			}
+		}
+		country_leader={
+			ideology=leninism_subtype
+			desc=JPR_sakai_toshihiko_desc
+			traits={ veteran_communist connected_citizen }
+			expire="1933.1.23.1"
+		}
+	}
+	JPR_arahata_kanso={
+		name=JPR_arahata_kanso
+		portraits={
+			civilian={
+				large="gfx/leaders/JPR/Portrait_Arahata_Kanso.png"
+			}
+		}
+		#country_leader={
+		#	ideology=marxism_subtype
+		#	desc=JPR_arahata_kanso_desc
+		#	traits={ veteran_communist connected_citizen }
+		#	expire="1981.3.6.1"
+		#}
+	}
+	JPR_fukumoto_kazuo={
+		name=JPR_fukumoto_kazuo
+		portraits={
+			civilian={
+				large="gfx/leaders/JPR/Portrait_Fukumoto_Kazuo.png"
+			}
+		}
+		country_leader={
+			ideology=national_communism_subtype
+			desc=JPR_fukumoto_kazuo_desc
+			traits={ veteran_communist }
+			expire="1983.12.16.1"
+		}
+	}
+	JPR_noro_eitaro={
+		name=JPR_noro_eitaro
+		portraits={
+			civilian={
+				large="gfx/leaders/JPR/Portrait_Noro_Eitaro.png"
+			}
+		}
+		#country_leader={
+		#	ideology=revolutionary_front_subtype
+		#	desc=JPR_noro_eitaro_desc
+		#	traits={ veteran_communist }
+		#	expire="1950.2.19.1"
+		#}
+	}
+	JPR_yamakawa_hitoshi={
+		name=JPR_yamakawa_hitoshi
+		portraits={
+			civilian={
+				large="gfx/leaders/JPR/Portrait_Yamakawa_Hitoshi.png"
+			}
+		}
+		country_leader={
+			ideology=social_democratic_subtype
+			desc=JPR_yamakawa_hitoshi_desc
+			traits={ }
+			expire="1958.3.23.1"
+		}
+	}
+	JPR_akamatsu_katsumaro={
+		name=JPR_akamatsu_katsumaro
+		portraits={
+			civilian={
+				large="gfx/leaders/JPR/Portrait_Akamatsu_Katsumaro.png"
+			}
+		}
+		country_leader={
+			ideology=manchu_socialism_subtype
+			desc=JPR_akamatsu_katsumaro_desc
+			traits={ }
+			expire="1955.12.13.1"
+		}
+	}
+}

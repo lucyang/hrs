@@ -1,0 +1,71 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ KHM_communism:0 "康巴伊德瓦"
+ KHM_communism_DEF:0 "康巴人民政府"
+ KHM_anarchism:0 "康巴伊德瓦"
+ KHM_anarchism_DEF:0 "康巴人民政府"
+ KHM_socialism:0 "康巴伊德瓦"
+ KHM_socialism_DEF:0 "康巴人民政府"
+ KHM_democratic:0 "康巴共和国"
+ KHM_democratic_DEF:0 "康巴共和国"
+ KHM_neutrality:0 "康巴"
+ KHM_neutrality_DEF:0 "康巴"
+ KHM_monarchism:0 "康巴"
+ KHM_monarchism_DEF:0 "康巴"
+ KHM_fascism:0 "康巴"
+ KHM_fascism_DEF:0 "康巴"
+ KHM_imperialism:0 "康巴"
+ KHM_imperialism_DEF:0 "康巴"
+ KHM_futurism:0 "康巴人民国"
+ KHM_futurism_DEF:0 "康巴人民国"
+ KHM_communism_ADJ:0 "康巴"
+ KHM_anarchism_ADJ:0 "康巴"
+ KHM_socialism_ADJ:0 "康巴"
+ KHM_democratic_ADJ:0 "康巴"
+ KHM_neutrality_ADJ:0 "康巴"
+ KHM_monarchism_ADJ:0 "康巴"
+ KHM_fascism_ADJ:0 "康巴"
+ KHM_imperialism_ADJ:0 "康巴"
+ KHM_futurism_ADJ:0 "康巴"
+ KHM:0 "康巴"
+ KHM_DEF:0 "康巴"
+ KHM_ADJ:0 "康巴"
+ #############
+ ## PARTIES ##
+ #############
+ KHM_communism_party:0 "西藏共产党"
+ KHM_communism_party_long:0 "西藏共产党"
+ KHM_anarchism_party:0 "西藏共产党"
+ KHM_anarchism_party_long:0 "西藏共产党"
+ KHM_socialism_party:0 "西藏改革党"
+ KHM_socialism_party_long:0 "西藏改革党" # 邦达饶噶
+ KHM_democratic_party:0 "邦达昌家族"
+ KHM_democratic_party_long:0 "邦达昌家族" # 邦达多吉
+ KHM_neutrality_party:0 "擦绒家族"
+ KHM_neutrality_party_long:0 "擦绒家族"
+ KHM_monarchism_party:0 "帕巴拉活佛派"
+ KHM_monarchism_party_long:0 "帕巴拉活佛派" # 帕巴拉·洛桑土登米旁次成加村
+ KHM_fascism_party:0 "中国领事馆"
+ KHM_fascism_party_long:0 "中国领事馆"
+ KHM_imperialism_party:0 "卫教志愿军"
+ KHM_imperialism_party_long:0 "卫教志愿军"
+ KHM_futurism_party:0 "人民意志党"
+ KHM_futurism_party_long:0 "人民意志党"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ KHM_panda_dorje:0 "邦达多吉"
+ KHM_panda_rapga:0 "邦达饶噶"
+ #############
+ # Decisions #
+ #############
+
+ #################
+ # POWER BALANCE #
+ #################

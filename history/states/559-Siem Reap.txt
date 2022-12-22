@@ -1,0 +1,25 @@
+
+state={
+	id=559
+	name="STATE_559"
+
+	history={
+		owner = SIA
+		add_core_of = CAM
+		victory_points = { 1266 5 } #暹粒/暹玛拉(Siam Reap/Siam Marat)
+		victory_points = { 1169 3 } #西索�?诗梳风(Srey Saophon/Si Sophon)
+		
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		1169 1266 1484 1566
+	}
+	manpower=2151000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

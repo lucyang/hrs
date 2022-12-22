@@ -1,0 +1,144 @@
+capital = 32 # 吉木萨尔
+
+oob = "empty"
+
+set_stability = 0.35
+set_war_support = 0.45
+set_research_slots = 2
+set_convoys = 5
+
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+}
+
+set_politics = {	
+	ruling_party = monarchism
+	last_election = "1920.11.26"
+	election_frequency = 48
+	elections_allowed = no
+} 
+
+recruit_character = DZU_choros_tangguse
+recruit_character = DZU_regent_council
+
+set_autonomy = {
+	target = TIB
+	autonomous_state = autonomy_tributary_state
+}
+
+TIB = {
+	set_autonomy = {
+		target = SKM
+		autonomous_state = autonomy_tributary_state
+	}
+	set_autonomy = {
+		target = LDK
+		autonomous_state = autonomy_tributary_state
+	}
+	set_autonomy = {
+		target = AMD
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1923.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		communism = 0
+		anarchism = 0
+		socialism = 7
+		democratic = 8
+		neutrality = 31
+		monarchism = 29
+		fascism = 14
+		imperialism = 0
+		futurism = 11
+	}
+}
+
+SKM = {
+	set_popularities = {
+		communism = 0
+		anarchism = 4
+		socialism = 14
+		democratic = 20
+		neutrality = 42
+		monarchism = 20
+		fascism = 0
+		imperialism = 0
+		futurism = 0
+	}
+}
+
+AMD = {
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1923.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		communism = 0
+		anarchism = 0
+		socialism = 0
+		democratic = 0
+		neutrality = 79
+		monarchism = 10
+		fascism = 11
+		imperialism = 0
+		futurism = 0
+	}
+}
+
+LDK = {
+	set_politics = {
+		ruling_party = monarchism
+		last_election = "1923.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		communism = 0
+		anarchism = 0
+		socialism = 0
+		democratic = 0
+		neutrality = 38
+		monarchism = 62
+		fascism = 0
+		imperialism = 0
+		futurism = 0
+	}
+}
+
+set_popularities = {
+	communism = 0
+	anarchism = 13
+	socialism = 27
+	democratic = 18
+    neutrality = 9
+	monarchism = 22
+	fascism = 11
+	imperialism = 0
+	futurism = 0
+}
+
+add_ideas = {
+	limited_exports
+	volunteer_only
+	civilian_economy
+}
+
+add_ideas = {
+	country_development1
+	country_tech2
+	market_economy1
+	unitary_state2
+}

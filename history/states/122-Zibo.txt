@@ -1,0 +1,22 @@
+state={
+	id=122
+	name="STATE_122"
+	provinces={
+		1375 2338 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 1375 1 } #淄博
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		
+	}
+	manpower=870370
+	state_category = town
+	local_supplies = 0.0
+}

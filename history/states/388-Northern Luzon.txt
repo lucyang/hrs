@@ -1,0 +1,18 @@
+state={
+	id=388
+	name="STATE_388"
+	provinces={
+		814 896 931 2184 2539 
+	}
+	history = {
+		owner = PHI
+		add_core_of = PHI
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=6490000
+	state_category = rural
+	local_supplies = 0.0
+}

@@ -1,0 +1,57 @@
+﻿capital = 444 # Transbaikal
+
+oob = "empty"
+
+set_research_slots = 1
+
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	tech_recon = 1
+	tech_support = 1		
+	gw_artillery = 1
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1920.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+recruit_character = TBA_grigory_semyonov
+recruit_character = TBA_nikolai_gantimurov # Никола́й Инноке́нтьевич Гантиму́ров
+
+set_popularities = {
+	communism = 0
+	anarchism = 0
+	socialism = 10
+	democratic = 16
+	neutrality = 55
+	monarchism = 9
+	fascism = 0
+	imperialism = 6
+	futurism = 4
+}
+
+add_ideas = {
+	limited_exports
+	volunteer_only
+	civilian_economy
+}
+
+add_ideas = {
+	country_development1
+	country_tech1
+	dirigisme_economy
+	unitary_state2
+}
+
+
+
+
+
+
+
+

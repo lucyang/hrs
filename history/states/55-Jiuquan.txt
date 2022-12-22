@@ -1,0 +1,28 @@
+
+state={
+	id=55
+	name="STATE_55"
+
+	history={
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 915 3 } #酒泉
+		victory_points = { 2988 1 } #玉门
+		victory_points = { 1770 1 } #瓜州
+		victory_points = { 294 1 } #敦煌
+
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+
+	provinces={
+		185 199 294 454 479 844 915 986 1485 1619 1770 2379 2515 2695 2988 3274 3303 3633 3638
+	}
+	manpower=569699
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

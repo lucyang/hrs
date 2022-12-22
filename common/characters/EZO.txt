@@ -1,0 +1,44 @@
+characters={
+	EZO_arisue_seizou={
+		name=EZO_arisue_seizou
+		portraits={
+			civilian={
+				large="gfx/leaders/EZO/Portrait_Arisue_Seizou.png"
+			}
+		}
+		country_leader={
+			ideology=military_government_subtype
+			desc=EZO_arisue_seizou_desc
+			traits={ career_officer hardened_officer }
+			expire="1992.2.14.1"
+		}
+	}
+	EZO_tawara_magoichi={
+		name=EZO_tawara_magoichi
+		portraits={
+			civilian={
+				large="gfx/leaders/EZO/Portrait_Tawara_Magoichi.png"
+			}
+		}
+		country_leader={
+			ideology=conservatism_subtype
+			desc=EZO_tawara_magoichi_desc
+			traits={ technocrat railroad_enthusiast }
+			expire="1944.6.17.1"
+		}
+	}
+	EZO_JPLA={
+		name=EZO_JPLA
+		portraits={
+			civilian={
+				large="gfx/leaders/Portrait_JAP_provisional_government.dds"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_front_subtype
+			desc=EZO_JPLA_desc
+			traits={ }
+			expire="1976.1.1.1"
+		}
+	}
+}

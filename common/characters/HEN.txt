@@ -1,0 +1,27 @@
+characters={
+	HEN_zhang_fang={
+		name=HEN_zhang_fang
+		portraits={
+			civilian={
+				large="gfx/leaders/HEN/Portrait_Zhang_Fang_Civilian.png"
+			}
+			army={
+				large="gfx/leaders/HEN/Portrait_Zhang_Fang_Army.png"
+			}
+		}
+		country_leader={
+			ideology=conservatism_subtype
+			desc=HEN_zhang_fang_desc
+			traits={ SWI_pragmatic_democrat modernist_and_reformer }
+			expire="1966.5.25.1"
+		}
+		corps_commander={
+			traits={ career_officer old_guard }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+}

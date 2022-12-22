@@ -1,0 +1,58 @@
+characters={
+	DAL_pau_tisan={
+		name=DAL_pau_tisan
+		portraits={
+			civilian={
+				large="gfx/leaders/SOV/Portrait_Pau_Tisan.dds"
+			}
+		}
+		country_leader={
+			ideology=military_socialism_subtype
+			desc=DAL_pau_tisan_desc
+			traits={ cornered_fox }
+			expire="1949.1.4.1"
+		}
+	}
+	DAL_alexandra_kim={
+		name=DAL_alexandra_kim
+		portraits={
+			civilian={
+				large="gfx/leaders/SOV/Portrait_Alexandra_Kim.dds"
+			}
+		}
+		country_leader={
+			ideology=national_communism_subtype
+			desc=DAL_alexandra_kim_desc
+			traits={ colonial_communist }
+			expire="1949.1.4.1"
+		}
+	}
+	DAL_vasily_blucher={
+		name=DAL_vasily_blucher
+		portraits={
+			civilian={
+				large="gfx/leaders/SOV/Portrait_Vasily_Blucher.dds"
+			}
+		}
+		country_leader={
+			ideology=partisan_movement_subtype
+			desc=DAL_vasily_blucher_desc
+			traits={ revolutionary_general }
+			expire="1949.1.4.1"
+		}
+	}
+	DAL_nra_government={
+		name=DAL_nra_government
+		portraits={
+			civilian={
+				large="gfx/leaders/SOV/Portrait_NRA_government.dds"
+			}
+		}
+		#country_leader={
+		#	ideology=military_government_subtype
+		#	desc=DAL_nra_government_desc
+		#	traits={ }
+		#	expire="1950.1.4.1"
+		#}
+	}
+}

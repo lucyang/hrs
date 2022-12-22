@@ -1,0 +1,31 @@
+characters={
+	### DLI - Dali ###
+	DLI_yan_zizhen={
+		name=DLI_yan_zizhen
+		portraits={
+			civilian={
+				large="gfx/leaders/YUN/Portrait_Yan_Zizhen.png"
+			}
+		}
+		country_leader={
+			ideology=neo_liberalism_subtype
+			desc=DLI_yan_zizhen_desc
+			traits={  }
+			expire="1941.1.1.1"
+		}
+	}
+	DLI_qu_huanzhang={
+		name=DLI_qu_huanzhang
+		portraits={
+			civilian={
+				large="gfx/leaders/YUN/Portrait_Qu_Huanzhang.png"
+			}
+		}
+		country_leader={
+			ideology=corporacracy_subtype
+			desc=DLI_qu_huanzhang_desc
+			traits={  }
+			expire="1938.1.1.1"
+		}
+	}
+}

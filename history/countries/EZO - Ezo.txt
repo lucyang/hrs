@@ -1,0 +1,108 @@
+﻿capital = 33 #札幌
+
+recruit_character = EZO_tawara_magoichi #俵孫一
+recruit_character = EZO_arisue_seizou #有末精三
+
+oob = "empty"
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_signal_company = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_mountaineers = 1
+	basic_train = 1
+	trench_warfare = 1
+	gw_artillery = 1
+	early_fighter = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	fuel_refining = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		improved_ship_torpedo_launcher = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		mtg_transport = 1
+		coastal_defense_ships = 1
+		#basic_secondary_battery = 1
+		basic_depth_charges = 1
+		basic_cruiser_armor_scheme = 1
+		cruiser_submarines = 1
+	}
+	#set_naval_oob = "EZO_1923_naval"
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		transport = 1
+	}
+	#set_naval_oob = "EZO_1923_naval_legacy"
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+set_stability = 0.50
+set_war_support = 0.10
+
+add_ideas = {
+	EZO_ainu_problem
+}
+
+add_ideas = {
+	closed_economy
+	limited_conscription
+	war_economy
+}
+add_ideas = {
+	country_development2
+	country_tech2
+	market_economy
+	unitary_state2
+}
+
+set_politics = {	
+	ruling_party = democratic
+	last_election = "1919.12.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 8
+	anarchism = 13
+	socialism = 0
+	democratic = 27
+	neutrality = 23
+	monarchism = 12
+	fascism = 10
+	imperialism = 7
+	futurism = 0
+}

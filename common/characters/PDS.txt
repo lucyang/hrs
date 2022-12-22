@@ -1,0 +1,57 @@
+characters={
+	PDS_shi_taixu={
+		name=PDS_shi_taixu
+		portraits={
+			civilian={
+				large="gfx/leaders/PDS/Portrait_Shi_Taixu.png"
+			}
+		}
+		country_leader={
+			ideology=religious_socialism_subtype
+			desc=PDS_shi_taixu_desc
+			traits={ compassionate_gentleman humanistic_buddhist }
+			expire="1947.3.17.1"
+		}
+	}
+	PDS_wu_peifu={
+		name=PDS_wu_peifu
+		portraits={
+			civilian={
+				large="gfx/leaders/PDS/Portrait_Wu_Peifu.png"
+			}
+			army={
+				large="gfx/leaders/PDS/Portrait_Wu_Peifu.png"
+			}
+		}
+		country_leader={
+			ideology=warlordism_subtype
+			desc=PDS_wu_peifu_desc
+			traits={ jade_general incognito }
+			expire="1950.1.1.1"
+		}
+		corps_commander={
+			traits={ war_hero infantry_officer skirmisher }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=2
+		}
+	}
+	PDS_tang_shengzhi={
+		name=PDS_tang_shengzhi
+		portraits={
+			army={
+				large="gfx/leaders/PDS/Portrait_Tang_Shengzhi.png"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer inflexible_strategist }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=3
+		}
+	}
+}

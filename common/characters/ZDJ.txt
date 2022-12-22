@@ -1,0 +1,66 @@
+characters={
+	ZDJ_ueda_kenkichi={
+		name=ZDJ_ueda_kenkichi
+		portraits={
+			civilian={
+				large="gfx/leaders/MAN/Portrait_Ueda_Kenkichi.dds"
+			}
+			army={
+				large="gfx/leaders/MAN/Portrait_Ueda_Kenkichi.dds"
+			}
+		}
+		country_leader={
+			ideology=competitive_authoritarianism_subtype
+			desc=ZDJ_ueda_kenkichi_desc
+			traits={ retired_officer genial_anti_revolutionary }
+			expire="1962.9.11.1"
+		}
+		corps_commander={
+			traits={ war_hero career_officer infantry_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	ZDJ_toyama_mitsuru={
+		name=ZDJ_toyama_mitsuru
+		portraits={
+			civilian={
+				large="gfx/leaders/ZDJ/Portrait_Toyama_Mitsuru.png"
+			}
+		}
+		country_leader={
+			ideology=pan_asianism_subtype
+			desc=ZDJ_toyama_mitsuru_desc
+			traits={ temperamental fascist_orchestrator }
+			expire="1944.10.5.1"
+		}
+	}
+	ZDJ_zhang_zongchang={
+		name=ZDJ_zhang_zongchang
+		portraits={
+			civilian={
+				large="gfx/leaders/QND/Portrait_Zhang_Zongchang.png"
+			}
+			army={
+				large="gfx/leaders/QND/Portrait_Zhang_Zongchang.png"
+			}
+		}
+		#country_leader={
+		#	ideology=development_authoritarianism_subtype
+		#	desc=QND_zhang_zongchang_desc
+		#	traits={ genial_anti_revolutionary hardened_officer }
+		#	expire="1940.9.3.1"
+		#}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+}

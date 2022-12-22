@@ -1,0 +1,71 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ CBS_communism:0 "湖南普渡国"
+ CBS_communism_DEF:0 "湖南普渡国"
+ CBS_anarchism:0 "湖南普渡国"
+ CBS_anarchism_DEF:0 "湖南普渡国"
+ CBS_socialism:0 "湖南普渡国"
+ CBS_socialism_DEF:0 "湖南普渡国"
+ CBS_democratic:0 "湖南普渡国"
+ CBS_democratic_DEF:0 "湖南普渡国"
+ CBS_neutrality:0 "湖南普渡国"
+ CBS_neutrality_DEF:0 "湖南普渡国"
+ CBS_monarchism:0 "湖南普渡国"
+ CBS_monarchism_DEF:0 "湖南普渡国"
+ CBS_fascism:0 "湖南普渡国"
+ CBS_fascism_DEF:0 "湖南普渡国"
+ CBS_imperialism:0 "湖南普渡国"
+ CBS_imperialism_DEF:0 "湖南普渡国"
+ CBS_futurism:0 "湖南普渡国"
+ CBS_futurism_DEF:0 "湖南普渡国"
+ CBS_communism_ADJ:0 "三期普渡"
+ CBS_anarchism_ADJ:0 "三期普渡"
+ CBS_socialism_ADJ:0 "三期普渡"
+ CBS_democratic_ADJ:0 "三期普渡"
+ CBS_neutrality_ADJ:0 "三期普渡"
+ CBS_monarchism_ADJ:0 "三期普渡"
+ CBS_fascism_ADJ:0 "三期普渡"
+ CBS_imperialism_ADJ:0 "三期普渡"
+ CBS_futurism_ADJ:0 "三期普渡"
+ CBS:0 "三期普渡"
+ CBS_DEF:0 "三期普渡"
+ CBS_ADJ:0 "三期普渡"
+ #############
+ ## PARTIES ##
+ #############
+ CBS_communism_party:0 "社民农工党"
+ CBS_communism_party_long:0 "社会民主农工党"
+ CBS_anarchism_party:0 "新民学会"
+ CBS_anarchism_party_long:0 "新民学会"
+ CBS_socialism_party:0 "左派革命党"
+ CBS_socialism_party_long:0 "中华革命党左派"
+ CBS_democratic_party:0 "中华革命党"
+ CBS_democratic_party_long:0 "中华革命党"
+ CBS_neutrality_party:0 "佛国护国军"
+ CBS_neutrality_party_long:0 "佛国护国军"
+ CBS_monarchism_party:0 "普渡积善堂"
+ CBS_monarchism_party_long:0 "普渡积善堂"
+ CBS_fascism_party:0 "中国新民会"
+ CBS_fascism_party_long:0 "中国新民会"
+ CBS_imperialism_party:0 "战国策派"
+ CBS_imperialism_party_long:0 "战国策派"
+ CBS_futurism_party:0 "安源矿业"
+ CBS_futurism_party_long:0 "安源矿业"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ CBS_shi_huaizhen:0 "石怀珍"
+ CBS_tokugawa_yoshitoshi_desc:0 "§Y出生日期§!：§G1884年7月24日§!\n§Y出生地点§!：§G大东帝国湖南省湘乡道湘潭县§!"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

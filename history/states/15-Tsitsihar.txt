@@ -1,0 +1,24 @@
+state={
+	id=15
+	name="STATE_15"
+	provinces={
+		315 1101 1370 1624 1712 2533 2591 3226 3469 3480 3481 3492 
+	}
+	history = {
+		owner = MAN
+		add_core_of = MAN
+		victory_points = {
+			1101 5
+			}
+		victory_points = {
+			3226 1
+			}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	manpower=593500	
+	state_category = city
+	local_supplies = 0.0
+}

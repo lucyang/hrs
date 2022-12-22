@@ -1,0 +1,70 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ TAT_communism:0 "泰联邦"
+ TAT_communism_DEF:0 "泰联邦"
+ TAT_anarchism:0 "泰联邦"
+ TAT_anarchism_DEF:0 "泰联邦"
+ TAT_socialism:0 "泰联邦"
+ TAT_socialism_DEF:0 "泰联邦"
+ TAT_democratic:0 "泰联邦"
+ TAT_democratic_DEF:0 "泰联邦"
+ TAT_neutrality:0 "泰联邦"
+ TAT_neutrality_DEF:0 "泰联邦"
+ TAT_monarchism:0 "泰联邦"
+ TAT_monarchism_DEF:0 "泰联邦"
+ TAT_fascism:0 "泰联邦"
+ TAT_fascism_DEF:0 "泰联邦"
+ TAT_imperialism:0 "泰联邦"
+ TAT_imperialism_DEF:0 "泰联邦"
+ TAT_futurism:0 "泰联邦"
+ TAT_futurism_DEF:0 "泰联邦"
+ TAT_communism_ADJ:0 "泰处"
+ TAT_anarchism_ADJ:0 "泰处"
+ TAT_socialism_ADJ:0 "泰处"
+ TAT_democratic_ADJ:0 "泰处"
+ TAT_neutrality_ADJ:0 "泰处"
+ TAT_monarchism_ADJ:0 "泰处"
+ TAT_fascism_ADJ:0 "泰处"
+ TAT_imperialism_ADJ:0 "泰处"
+ TAT_futurism_ADJ:0 "泰处"
+ TAT:0 "泰处"
+ TAT_DEF:0 "泰处"
+ TAT_ADJ:0 "泰处"
+ #############
+ ## PARTIES ##
+ #############
+ TAT_communism_party:0 "越南共产党"
+ TAT_communism_party_long:0 "越南共产党"
+ TAT_anarchism_party:0 "越南共产党"
+ TAT_anarchism_party_long:0 "越南共产党"
+ TAT_socialism_party:0 "新越革命党"
+ TAT_socialism_party_long:0 "新越革命党"
+ TAT_democratic_party:0 "越南国民党"
+ TAT_democratic_party_long:0 "越南国民党"
+ TAT_neutrality_party:0 "刁氏家族"
+ TAT_neutrality_party_long:0 "刁氏家族"
+ TAT_monarchism_party:0 "泰族土司"
+ TAT_monarchism_party_long:0 "泰族土司"
+ TAT_fascism_party:0 "越南复国会"
+ TAT_fascism_party_long:0 "越南复国会"
+ TAT_imperialism_party:0 "越南复国会"
+ TAT_imperialism_party_long:0 "越南复国会"
+ TAT_futurism_party:0 "技术官僚"
+ TAT_futurism_party_long:0 "技术官僚"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ TAT_deo_van_long:0 "刁文龙"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

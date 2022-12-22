@@ -1,0 +1,33 @@
+
+state={
+	id=341
+	name="STATE_341"
+
+	resources = {
+		steel = 20
+	}
+
+	history={
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 4061 5 }
+
+		buildings = {
+			infrastructure = 3
+			dockyard = 2
+			4061 = {
+				naval_base = 2
+			}
+		}
+
+	}
+
+	provinces={
+		4061
+	}
+	manpower=224307
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

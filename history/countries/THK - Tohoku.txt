@@ -1,0 +1,73 @@
+﻿capital = 624 #Sendai
+
+recruit_character = THK_date_junnosuke #伊达幸之助
+recruit_character = THK_kohinata_hakuro #小日向白朗
+recruit_character = THK_yasuhito #雍仁亲王
+recruit_character = THK_reppan_council #奥羽越列藩会議
+recruit_character = THK_nambu_kijiro #南部麒次郎
+
+oob = "empty"
+
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	basic_train = 1
+	gw_artillery = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	fuel_refining = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+add_ideas = {
+	THK_northeast_mutual_protection
+	THK_yasuhito_shinnou
+	THK_the_last_days
+}
+add_ideas = {
+	limited_exports
+	limited_conscription
+	civilian_economy
+}
+add_ideas = {
+	country_development
+	country_tech4
+	unitary_state
+	market_economy
+}
+
+set_research_slots = 1
+set_convoys = 10
+set_stability = 0.60
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1923.10.30"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	anarchism = 0
+	socialism = 0
+	democratic = 0
+	neutrality = 62
+	monarchism = 8
+	fascism = 0
+	imperialism = 0
+	futurism = 30
+}

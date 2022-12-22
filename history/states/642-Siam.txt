@@ -1,0 +1,21 @@
+state={
+	id=642
+	name="STATE_642"
+	provinces={
+		1543 4256 
+	}
+	history = {
+		owner = SIA
+		add_core_of = SIA
+
+		victory_points = { 4256 5 } #暖武里
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	manpower=752551
+	state_category = town
+	local_supplies = 0.0
+}

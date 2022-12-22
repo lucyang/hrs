@@ -1,0 +1,203 @@
+CHI_select_regional_cosmetic_tag = {
+	hidden_effect = {
+		drop_cosmetic_tag = yes
+	}
+	if = {
+		limit = { 
+			original_tag = CHI
+		}
+		set_cosmetic_tag = CHI_regional_unifier
+	}
+	if = {
+		limit = { 
+			original_tag = SCH
+		}
+		set_cosmetic_tag = SCH_regional_unifier
+	}
+	if = {
+		limit = { 
+			original_tag = CHQ
+		}
+		set_cosmetic_tag = CHQ_regional_unifier
+	}
+	if = {
+		limit = { 
+			original_tag = YUN
+		}
+		set_cosmetic_tag = YUN_regional_unifier
+	}
+	if = {
+		limit = { 
+			original_tag = KMT
+		}
+		set_cosmetic_tag = KMT_regional_unifier
+	}
+	if = {
+		limit = { 
+			original_tag = PRC
+		}
+		set_cosmetic_tag = PRC_regional_unifier
+	}
+	if = {
+		limit = { 
+			original_tag = MAO
+		}
+		set_cosmetic_tag = MAO_regional_unifier
+	}
+	if = {
+		limit = { 
+			original_tag = HLF
+		}
+		set_cosmetic_tag = HLF_regional_unifier
+	}
+	if = {
+		limit = { 
+			original_tag = IMN
+		}
+		set_cosmetic_tag = IMN_regional_unifier
+		set_capital = { state = 74 }
+	}
+	if = {
+		limit = { 
+			original_tag = GXC
+		}
+		set_cosmetic_tag = GXC_regional_unifier
+	}
+	if = {
+		limit = { 
+			original_tag = NSB
+		}
+		set_cosmetic_tag = NSB_regional_unifier
+	}
+	if = {
+		limit = { 
+			original_tag = GZH
+		}
+		set_cosmetic_tag = GZH_regional_unifier
+	}
+	if = {
+		limit = { 
+			original_tag = QND
+		}
+		set_cosmetic_tag = QND_regional_unifier
+	}
+	if = {
+		limit = { 
+			original_tag = SHD
+		}
+		set_cosmetic_tag = SHD_regional_unifier
+	}
+}
+CHI_select_unified_cosmetic_tag = {
+	hidden_effect = {
+		drop_cosmetic_tag = yes
+	}
+	if = {
+		limit = { 
+			original_tag = CHI
+		}
+		set_cosmetic_tag = CHI_CHINA
+	}
+	if = {
+		limit = { 
+			original_tag = SCH
+		}
+		set_cosmetic_tag = SCH_CHINA
+	}
+	if = {
+		limit = { 
+			original_tag = CHQ
+		}
+		set_cosmetic_tag = CHQ_CHINA
+	}
+	if = {
+		limit = { 
+			original_tag = YUN
+		}
+		set_cosmetic_tag = YUN_CHINA
+	}
+	if = {
+		limit = { 
+			original_tag = KMT
+		}
+		set_cosmetic_tag = KMT_CHINA
+	}
+	if = {
+		limit = { 
+			original_tag = PRC
+		}
+		set_cosmetic_tag = PRC_CHINA
+	}
+	if = {
+		limit = { 
+			original_tag = MAO
+		}
+		set_cosmetic_tag = MAO_CHINA
+	}
+	if = {
+		limit = { 
+			original_tag = HLF
+		}
+		set_cosmetic_tag = HLF_CHINA
+	}
+	if = {
+		limit = { 
+			original_tag = IMN
+		}
+		set_cosmetic_tag = IMN_CHINA
+	}
+	if = {
+		limit = { 
+			original_tag = GXC
+		}
+		set_cosmetic_tag = GXC_CHINA
+	}
+	if = {
+		limit = { 
+			original_tag = NSB
+		}
+		set_cosmetic_tag = NSB_CHINA
+	}
+	if = {
+		limit = { 
+			original_tag = GZH
+		}
+		set_cosmetic_tag = GZH_CHINA
+	}
+	if = {
+		limit = { 
+			original_tag = QND
+		}
+		set_cosmetic_tag = QND_CHINA
+	}
+	if = {
+		limit = { 
+			original_tag = SHD
+		}
+		set_cosmetic_tag = SHD_CHINA
+	}
+	if = {
+		limit = { 
+			original_tag = PDS
+		}
+		set_cosmetic_tag = PDS_CHINA
+	}
+	if = {
+		limit = { 
+			original_tag = AYG
+		}
+		set_cosmetic_tag = AYG_CHINA
+	}
+	if = {
+		limit = { 
+			original_tag = ZZH
+		}
+		set_cosmetic_tag = ZZH_CHINA
+	}
+	if = {
+		limit = { 
+			original_tag = LYG
+		}
+		set_cosmetic_tag = LYG_CHINA
+	}
+}

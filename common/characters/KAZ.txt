@@ -1,0 +1,86 @@
+characters={
+	KAZ_turar_ryskulov={
+		name=KAZ_turar_ryskulov
+		portraits={
+			civilian={
+				large="gfx/leaders/KAZ/Portrait_Turar_Ryskulov.png"
+			}
+		}
+		country_leader={
+			ideology=leninism_subtype
+			desc=KAZ_turar_ryskulov_desc
+			traits={ veteran_communist proletariat_internationalist }
+			expire="1950.2.10.1"
+		}
+	}
+	KAZ_saken_seifullin={
+		name=KAZ_saken_seifullin
+		portraits={
+			civilian={
+				large="gfx/leaders/KAZ/Portrait_Saken_Seifullin.png"
+			}
+		}
+		country_leader={
+			ideology=national_communism_subtype
+			desc=KAZ_saken_seifullin_desc
+			traits={ revolutionary_author revolutionary_culture_minister }
+			expire="1950.2.10.1"
+		}
+	}
+	KAZ_akhmet_baitursynov={
+		name=KAZ_akhmet_baitursynov
+		portraits={
+			civilian={
+				large="gfx/leaders/KAZ/Portrait_Akhmet_Baitursynov.png"
+			}
+		}
+		country_leader={
+			ideology=guided_democracy_subtype
+			desc=KAZ_akhmet_baitursynov_desc
+			traits={ nationalist_symbol popular_figurehead }
+			expire="1950.2.10.1"
+		}
+	}
+	KAZ_alikhan_bukeikhanov={
+		name=KAZ_alikhan_bukeikhanov
+		portraits={
+			civilian={
+				large="gfx/leaders/KAZ/Portrait_Alikhan_Bukeikhanov.png"
+			}
+		}
+		country_leader={
+			ideology=national_liberalism_subtype
+			desc=KAZ_alikhan_bukeikhanov_desc
+			traits={ silent_workhorse man_of_the_nation }
+			expire="1950.2.10.1"
+		}
+	}
+	KAZ_mustafa_shokay={
+		name=KAZ_mustafa_shokay
+		portraits={
+			civilian={
+				large="gfx/leaders/KAZ/Portrait_Mustafa_Shokay.png"
+			}
+		}
+		country_leader={
+			ideology=daijitaoism_subtype
+			desc=KAZ_mustafa_shokay_desc
+			traits={ avid_turanist anti_communist_crusader }
+			expire="1941.12.27.1"
+		}
+	}
+	KAZ_mukhamedzhan_tynyshpaev={
+		name=KAZ_mukhamedzhan_tynyshpaev
+		portraits={
+			civilian={
+				large="gfx/leaders/KAZ/Portrait_Mukhamedzhan_Tynyshpaev.png"
+			}
+		}
+		country_leader={
+			ideology=irredentism_subtype
+			desc=KAZ_mukhamedzhan_tynyshpaev_desc
+			traits={ irredentist_academic genial_anti_revolutionary }
+			expire="1943.10.21.1"
+		}
+	}
+}

@@ -1,0 +1,95 @@
+division_template = {
+	name = "步兵团"
+	division_names_group = CHI_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+	}
+}
+division_template = {
+	name = "炮兵团"
+	division_names_group = CHI_INF_01
+
+	regiments = {
+		artillery_brigade = { x = 0 y = 0 }
+		artillery_brigade = { x = 0 y = 1 }
+		artillery_brigade = { x = 1 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "骑兵团"
+	division_names_group = CHI_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "革命武装队"
+	division_names_group = JAP_INF_01
+	template_counter = 3
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+	}
+}
+division_template = {
+	name = "民兵团"
+
+	division_names_group = CHI_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+units = {
+	division = {
+		name = "人民大队"
+		location = 3294 #台中
+		division_template = "民兵团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "台中纵队"
+		location = 3294 #台中
+		division_template = "步兵团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "嘉义防卫军"
+		location = 4963 #嘉义
+		division_template = "民兵团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "嘉义纵队"
+		location = 4963 #嘉义
+		division_template = "步兵团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "斗六警备队"
+		location = 2854 #云林（斗六）
+		division_template = "民兵团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+}

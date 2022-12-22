@@ -1,0 +1,21 @@
+state={
+	id=132
+	name="STATE_132"
+	provinces={
+		20 27 65 201 306 350 613 669 860 955 1001 1010 1141 1218 1302 1304 1347 1385 1409 1467 1573 1635 1688 1726 1965 2041 2165 2231 2886 3077 3100 3132 3136 3214 3271 3758 3759 3792 3816 3819 3822 5144 5146
+	}
+	history = {
+		owner = AMD
+		add_core_of = AMD
+
+		victory_points = { 3819 3 } #那曲
+		victory_points = { 613 1 } #申扎
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=50000
+	state_category = pastoral
+	local_supplies = 0.0
+}

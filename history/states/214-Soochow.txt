@@ -1,0 +1,22 @@
+state={
+	id=214
+	name="STATE_214"
+	provinces={
+		3300 3310 3821 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 3821 5 } #苏州
+		victory_points = { 3310 1 } #常熟
+		
+		buildings = {
+			infrastructure = 4
+		}
+		
+	}
+	manpower=3786000
+	state_category = city
+	local_supplies = 0.0
+}

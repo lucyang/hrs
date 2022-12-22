@@ -1,0 +1,20 @@
+state={
+	id=48
+	name="STATE_48"
+	provinces={
+		806 1192 1768 2140 2453 2657 3154 3568 3580 3605
+	}
+	history = {
+		owner = MAN
+		add_core_of = MAN
+		victory_points = { 3568 1 } #开原
+		victory_points = { 2657 5 } #铁岭
+		buildings = {
+			infrastructure = 2
+		}
+		
+	}
+	manpower=349288
+	state_category = town
+	local_supplies = 0.0
+}

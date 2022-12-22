@@ -1,0 +1,25 @@
+
+state={
+	id=288
+	name="STATE_288"
+
+	history={
+		owner = BRM
+		add_core_of = BRM
+		victory_points = { 1093 10 } #仰光
+		victory_points = { 771 5 } #密支那/华城
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		13 49 585 657 686 716 771 1093 1333 1400 1524 1640 1707 1711 2035 2161 2211 2365 4203 4224 4250 
+	}
+	manpower=14667146
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

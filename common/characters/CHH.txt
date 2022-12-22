@@ -1,0 +1,17 @@
+characters={
+	### CHH - Chiang Hung ###
+	CHH_dao_dongliang={
+		name=CHH_dao_dongliang
+		portraits={
+			civilian={
+				large="gfx/leaders/YUN/Portrait_Dao_Dongliang.png"
+			}
+		}
+		country_leader={
+			ideology=despotism_subtype
+			desc=CHH_dao_dongliang_desc
+			traits={ }
+			expire="1980.2.4.1"
+		}
+	}
+}

@@ -1,0 +1,41 @@
+characters = {
+	AYG_xiong_jiandong = {
+		name = AYG_xiong_jiandong
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AYG/Portrait_Xiong_Jiandong.png"
+			}
+			army = {
+				large = "gfx/leaders/AYG/Portrait_Xiong_Jiandong.png"
+			}
+		}
+		country_leader = {
+			ideology=pan_asianism_subtype
+			desc = AYG_xiong_jiandong_desc
+			traits = { hardened_officer gran_carabinero }
+			expire = "1946.6.1.1"
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+	AYG_wang_guowei = {
+		name = AYG_wang_guowei
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AYG/Portrait_Wang_Guowei.png"
+			}
+		}
+		country_leader = {
+			ideology=ethnofuturism_subtype
+			desc = AYG_wang_guowei_desc
+			traits = { emergency_powers prince_of_terror }
+			expire = "1945.9.15.1"
+		}
+	}
+}

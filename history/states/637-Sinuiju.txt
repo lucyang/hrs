@@ -1,0 +1,21 @@
+state={
+	id=637
+	name="STATE_637"
+	provinces={
+		797 
+	}
+	history = {
+		owner = IMK
+		add_core_of = IMK
+
+		victory_points = { 797 3 } #新义州
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	manpower=48047
+	state_category = town
+	local_supplies = 0.0
+}

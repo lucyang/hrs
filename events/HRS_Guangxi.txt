@@ -1,0 +1,308 @@
+add_namespace = gxc_rev
+
+##################
+# GUANGXI EVENTS #
+##################
+country_event = {
+	id = gxc_rev.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event gxc_rev.1"
+		hidden_effect ={
+			country_event = { id = gxc_rev.2 days = 3 }
+		}
+	}
+	title = gxc_rev.1.t
+	desc = gxc_rev.1.desc
+	picture = GFX_report_event_chinese_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = gxc_rev.1.a
+	}
+}
+country_event = {
+	id = gxc_rev.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event gxc_rev.2"
+		hidden_effect = {
+			country_event = { id = gxc_rev.3 days = 3 }
+		}
+	}
+	title = gxc_rev.2.t
+	desc = gxc_rev.2.desc
+	picture = GFX_report_event_chinese_soldiers_city_ruin
+
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = gxc_rev.2.a
+	}
+}
+country_event = {
+	id = gxc_rev.3
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event gxc_rev.3"
+		hidden_effect = {
+			country_event = { id = gxc_rev.4 days = 3 }
+		} 
+	}
+	title = gxc_rev.3.t
+	desc = gxc_rev.3.desc
+	picture = GFX_report_event_gathering_protest
+
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = gxc_rev.3.a
+	}
+}
+country_event = {
+	id = gxc_rev.4
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event gxc_rev.4"
+		hidden_effect = {
+			country_event = gxc_rev.5
+		} 
+	}
+	title = gxc_rev.4.t
+	desc = gxc_rev.4.desc
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = gxc_rev.4.a
+		add_command_power = -10
+	}
+	option = {
+		name = gxc_rev.4.b
+		add_political_power = -10
+	}
+}
+country_event = {
+	id = gxc_rev.5
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event gxc_rev.5"
+		hidden_effect = {
+			country_event = { id = gxc_rev.6 days = 7 }
+		} 
+	}
+	title = gxc_rev.5.t
+	desc = gxc_rev.5.desc
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+
+	option = { # Search for revolutionaries
+		name = gxc_rev.4.a
+		add_manpower = -1200
+		348 = { #Wuzhou
+			add_manpower = -70
+		}
+		354= { #Guigang
+			add_manpower = -55
+		}
+		322 = { #Guilin
+			add_manpower = -120
+		}
+		352= { #Nanning
+			add_manpower = -90
+		}	
+	}
+}
+country_event = {
+	id = gxc_rev.6
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event gxc_rev.6"
+	}
+	title = gxc_rev.6.t
+	desc = gxc_rev.6.desc
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = gxc_rev.6.a
+		337 = { #Baise
+			add_core_of = GXC
+		}
+		364 = { #Chongzuo
+			add_core_of = GXC
+		}
+		country_event = { id = gxc_rev.7 days = 3 }
+	}
+}
+country_event = {
+	id = gxc_rev.7
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event gxc_rev.7"
+	}
+	title = gxc_rev.7.t
+	desc = gxc_rev.7.desc
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = gxc_rev.6.a
+		329 = { #Hechi
+			add_core_of = GXC
+		}
+		country_event = gxc_rev.8
+	}
+}
+country_event = {
+	id = gxc_rev.8
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event gxc_rev.8"
+		hidden_effect = {
+			country_event = { id = gxc_rev.9 days = 3 }
+		}
+	}
+	title = gxc_rev.8.t
+	desc = gxc_rev.8.desc
+	picture = GFX_report_event_peasant_revolt
+
+	is_triggered_only = yes
+
+	option = {
+		name = gxc_rev.8.a
+		ai_chance = { base = 30 }
+		GXC = {
+			set_politics = {
+				ruling_party = communism
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.20
+			}
+			add_ideas = {
+				unitary_state
+				planned_economy2
+			}
+		}
+	}
+	option = {
+		name = gxc_rev.8.b
+		ai_chance = { base = 30 }
+		GXC = {
+			set_politics = {
+				ruling_party = anarchism
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = anarchism
+				popularity = 0.20
+			}
+			add_ideas = {
+				state_union
+				planned_economy1
+			}
+		}
+	}
+	option = {
+		name = gxc_rev.8.c
+		ai_chance = { base = 10 }
+		GXC = {
+			retire_character = GXC_lei_jingtian
+			add_country_leader_role = {
+				character = GXC_deng_xiaoping
+				country_leader={
+					ideology=market_socialism_subtype
+					desc=GXC_deng_xiaoping_desc
+					traits={ political_chameleon }
+					expire="1997.2.19.1"
+				}
+				promote_leader = yes 
+			}
+			add_ideas = {
+				federation2
+				market_economy3
+			}
+			set_politics = {
+				ruling_party = anarchism
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = anarchism
+				popularity = 0.15
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.10
+			}
+		}
+	}
+	option = {
+		name = gxc_rev.8.d
+		ai_chance = { base = 30 }
+		GXC = {
+			add_country_leader_role = {
+				character = GXC_zhang_yunyi
+				country_leader={
+					ideology=democratic_socialism_subtype
+					desc=GXC_zhang_yunyi_desc
+					traits={ revolutionary_general }
+					expire="1974.11.19.1"
+				}
+				promote_leader = yes 
+			}
+			add_ideas = {
+				unitary_state1
+				market_economy3
+			}
+			set_politics = {
+				ruling_party = socialism
+				elections_allowed = no
+			}
+			add_popularity = {
+				ideology = anarchism
+				popularity = 0.20
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.10
+			}
+		}
+	}
+}
+country_event = {
+	id = gxc_rev.9
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event gxc_rev.9"
+		hidden_effect = {
+			GXC = {
+				every_state = {
+					limit = { is_guangxi_state = yes }
+					transfer_state_to = GXC
+				}
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 3000
+					producer = IMC
+				}
+			}
+		}
+	}
+	title = gxc_rev.9.t
+	desc = gxc_rev.9.desc
+	picture = GFX_report_event_china_infiltration
+
+	is_triggered_only = yes
+
+	option = {
+		name = gxc_rev.9.a
+		GXC = { change_tag_from = ROOT }
+		#ANM = { country_event = anm.1 } # Take Territories from China
+	}
+	option = {
+		name = gxc_rev.9.b
+	}
+}

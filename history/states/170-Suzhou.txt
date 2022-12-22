@@ -1,0 +1,19 @@
+state={
+	id=170
+	name="STATE_170"
+	provinces={
+		2216 2709 3364 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+		
+		buildings = {
+			infrastructure = 2	
+		}
+		
+	}
+	manpower=5563600
+	state_category = town
+	local_supplies = 0.0
+}

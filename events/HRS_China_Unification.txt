@@ -1,0 +1,39 @@
+add_namespace = chi_unification
+
+country_event = { # Selec a Capital
+	id = chi_unification.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event chi_unification.1"
+	}
+	title = chi_unification.1.t
+	desc = chi_unification.1.desc
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = chi_unification.1.a
+		ai_chance = {
+			base = 20
+		}
+		set_capital = { state = 212 } #南京
+	}
+	option = {
+		name = chi_unification.1.b
+		ai_chance = {
+			base = 30
+		}
+		set_capital = { state = 168 } #西安
+	}
+	option = {
+		name = chi_unification.1.c
+		ai_chance = {
+			base = 50
+		}
+		set_capital = { state = 244 } #武汉
+	}
+	option = {
+		name = chi_unification.1.d
+		add_political_power = 10
+	}
+}

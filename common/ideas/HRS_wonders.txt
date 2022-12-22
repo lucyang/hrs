@@ -1,0 +1,143 @@
+ideas = {
+    country = {
+        ### CHINA ###
+        CHI_tangshan_coal_mine = {
+            on_add = {
+                log = "[GetDateText]: [Root.GetName]: add idea CHI_tangshan_coal_mine"
+            }
+            allowed = {
+				always = no
+			}
+            cancel = { has_country_flag = CHI_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = POL_succesful_four_year_plan
+            modifier = {
+                industrial_capacity_factory = 0.1
+                local_resources_factor = 0.1
+            }
+        }
+        ### JAPAN ###
+        JAP_miike_colliery = {
+            on_add = {
+                log = "[GetDateText]: [Root.GetName]: add idea JAP_miike_colliery"
+            }
+            allowed = {
+				always = no
+			}
+            cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = POL_succesful_four_year_plan
+            modifier = {
+                consumer_goods_factor = -0.05
+                local_resources_factor = 0.1
+            }
+        }
+        JAP_kure_naval_arsenal = {
+            on_add = {
+                log = "[GetDateText]: [Root.GetName]: add idea JAP_kure_naval_arsenal"
+            }
+            allowed = {
+				always = no
+			}
+            cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = kure_naval_arsenal
+            equipment_bonus = {
+                artillery_equipment = {
+                    build_cost_ic = -0.1
+                    reliability = 0.1
+                    instant = yes
+                }
+            }
+        }
+        JAP_kyoto_imperial_university = {
+            on_add = {
+                log = "[GetDateText]: [Root.GetName]: add idea JAP_nagoya_toyota"
+            }
+            allowed = {
+				always = no
+			}
+            cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = JAP_supremacy_of_technology
+            modifier = {
+                research_speed_factor = 0.15
+                stability_factor = -0.05
+            }
+        }
+        JAP_nagoya_toyota = {
+            on_add = {
+                log = "[GetDateText]: [Root.GetName]: add idea JAP_nagoya_toyota"
+            }
+            allowed = {
+				always = no
+			}
+            cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = FRA_motorized_focus
+            equipment_bonus = {
+                motorized = {
+                    build_cost_ic = -0.1
+                    reliability = 0.1
+                    instant = yes
+                }
+                tactical_bomber = {
+                    build_cost_ic = -0.1
+                    reliability = 0.05
+                    instant = yes
+                }
+            }
+        }    
+        JAP_edo_wasteland = {
+            on_add = {
+                log = "[GetDateText]: [Root.GetName]: add idea JAP_edo_wasteland"
+            }
+            allowed = {
+				always = no
+			}
+            cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = POL_disjointed_industry
+            modifier = {
+                production_speed_buildings_factor = 1.25
+                consumer_goods_factor = 0.03
+            }
+        }
+        JAP_nanbu_industry = {
+            on_add = {
+                log = "[GetDateText]: [Root.GetName]: add idea JAP_nanbu_industry"
+            }
+            allowed = {
+				always = no
+			}
+            cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = POL_succesful_four_year_plan
+            modifier = {
+                industrial_capacity_factory = 0.1
+                production_factory_efficiency_gain_factor = 0.1
+            }
+        }
+    }
+}

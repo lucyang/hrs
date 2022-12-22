@@ -1,0 +1,19 @@
+state={
+	id=42
+	name="STATE_42"
+	provinces={
+		2050 2167
+	}
+	history = {
+		owner = MAN
+		add_core_of = MAN
+		
+		buildings = {
+			infrastructure = 1
+		}
+		
+	}
+	manpower=120074
+	state_category = town
+	local_supplies = 0.0
+}

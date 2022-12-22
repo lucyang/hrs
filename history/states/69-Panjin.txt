@@ -1,0 +1,23 @@
+
+state={
+	id=69
+	name="STATE_69"
+	provinces={
+		1813 2806
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		victory_points = {
+			1813 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	
+	}
+	manpower=294234
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

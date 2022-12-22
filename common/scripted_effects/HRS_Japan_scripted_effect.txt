@@ -1,0 +1,125 @@
+JAP_select_unified_cosmetic_tag = {
+	hidden_effect = {
+		drop_cosmetic_tag = yes
+	}
+	if = {
+		limit = { 
+			original_tag = JLF
+		}
+		set_cosmetic_tag = JLF_JAPAN
+	}
+	if = {
+		limit = { 
+			original_tag = JPR
+		}
+		set_cosmetic_tag = JPR_JAPAN
+	}
+	if = {
+		limit = { 
+			original_tag = OMT
+		}
+		set_cosmetic_tag = OMT_JAPAN
+		set_country_leader_portrait = {
+			ideology = neutrality
+			portrait = GFX_old_deguchi_onisaburo
+		}
+		set_country_leader_portrait = {
+			ideology = monarchism
+			portrait = GFX_old_deguchi_onisaburo
+		}
+		set_country_leader_portrait = {
+			ideology = anarchism
+			portrait = GFX_old_deguchi_onisaburo
+		}
+		set_country_leader_name = {
+			ideology = neutrality
+			portrait = OMT_old_deguchi_onisaburo
+		}
+		set_country_leader_name = {
+			ideology = monarchism
+			portrait = OMT_old_deguchi_onisaburo
+		}
+		set_country_leader_name = {
+			ideology = anarchism
+			portrait = OMT_old_deguchi_onisaburo
+		}	
+		set_country_leader_description = {
+			ideology = neutrality
+			portrait = OMT_old_deguchi_onisaburo_desc
+		}
+		set_country_leader_description = {
+			ideology = monarchism
+			portrait = OMT_old_deguchi_onisaburo_desc
+		}
+		set_country_leader_description = {
+			ideology = anarchism
+			portrait = OMT_old_deguchi_onisaburo_desc
+		}
+	}
+	if = {
+		limit = { 
+			original_tag = JAF
+		}
+		set_cosmetic_tag = JAF_JAPAN
+	}
+	if = {
+		limit = { 
+			original_tag = KYU
+		}
+		set_cosmetic_tag = KYU_JAPAN
+	}
+	if = {
+		limit = { 
+			original_tag = CGK
+		}
+		set_cosmetic_tag = CGK_JAPAN
+	}
+	if = {
+		limit = { 
+			original_tag = CHB
+		}
+		set_cosmetic_tag = CHB_JAPAN
+	}
+	if = {
+		limit = { 
+			original_tag = NGN
+		}
+		set_cosmetic_tag = NGN_JAPAN
+	}
+	if = {
+		limit = { 
+			original_tag = TOK
+		}
+		set_cosmetic_tag = TOK_JAPAN
+	}
+	if = {
+		limit = { 
+			original_tag = THK
+		}
+		set_cosmetic_tag = THK_JAPAN
+	}
+	if = {
+		limit = { 
+			original_tag = KKG
+		}
+		set_cosmetic_tag = KKG_JAPAN
+	}
+	if = {
+		limit = { 
+			original_tag = JPN
+		}
+		set_cosmetic_tag = JPN_JAPAN
+	}
+	if = {
+		limit = { 
+			is_hokkaido_nation = yes
+		}
+		set_cosmetic_tag = HOKKAIDO_JAPAN
+	}
+	if = {
+		limit = { 
+			is_ryukyu_nation = yes
+		}
+		set_cosmetic_tag = RYUKYU_JAPAN
+	}
+}

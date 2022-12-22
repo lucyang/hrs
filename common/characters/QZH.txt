@@ -1,0 +1,44 @@
+characters={
+	QZH_qin_wangshan={
+		name=QZH_qin_wangshan
+		portraits={
+			civilian={
+				large="gfx/leaders/QZH/Portrait_Qin_Wangshan.png"
+			}
+		}
+		country_leader={
+			ideology=anarcho_communism_subtype
+			desc=QZH_qin_wangshan_desc
+			traits={  }
+			expire="1940.4.7.1"
+		}
+	}
+	QZH_xu_zhuoran={
+		name=QZH_xu_zhuoran
+		portraits={
+			civilian={
+				large="gfx/leaders/QZH/Portrait_Xu_Zhuoran.png"
+			}
+		}
+		country_leader={
+			ideology=new_tridemism_subtype
+			desc=QZH_xu_zhuoran_desc
+			traits={ leftist_independent }
+			expire="1970.1.12.1"
+		}
+	}
+	QZH_zhang_zhen={
+		name=QZH_zhang_zhen
+		portraits={
+			civilian={
+				large="gfx/leaders/QZH/Portrait_Zhang_Zhen.png"
+			}
+		}
+		country_leader={
+			ideology=provisional_government_subtype
+			desc=QZH_zhang_zhen_desc
+			traits={  }
+			expire="1963.12.19.1"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+state={
+	id=192
+	name="STATE_192"
+	provinces={
+		447 2128 2364 2527 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 447 1 } #汝阳/驻马店
+		
+		buildings = {
+			infrastructure = 2
+		}
+		
+	}
+	manpower=8029257
+	state_category = rural
+	local_supplies = 0.0
+}

@@ -1,0 +1,19 @@
+state={
+	id=393
+	name="STATE_393"
+	provinces={
+		796 1224 1427 2635 4300 4301
+	}
+	history = {
+		owner = PHI
+		add_core_of = PHI
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	manpower=1363900
+	state_category = town
+	local_supplies = 0.0
+}

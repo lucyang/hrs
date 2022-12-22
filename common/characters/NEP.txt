@@ -1,0 +1,16 @@
+characters={
+	NEP_tribhuvan={
+		name=NEP_tribhuvan
+		portraits={
+			civilian={
+				large="gfx/leaders/NEP/Portrait_Tribhuvan.png"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_subtype
+			desc=NEP_tribhuvan_desc
+			traits={ inexperienced_imperialist puppet_monarch }
+			expire="1955.5.13.1"
+		}
+	}
+}

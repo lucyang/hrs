@@ -1,0 +1,58 @@
+characters={
+	NGN_mushanokoji_saneatsu={
+		name=NGN_mushanokoji_saneatsu
+		portraits={
+			civilian={
+				large="gfx/leaders/NGN/Portrait_Mushanokoji_Saneatsu.png"
+			}
+		}
+		country_leader={
+			ideology=agrarianism_subtype
+			desc=NGN_mushanokoji_saneatsu_desc
+			traits={ socialist_novelist moderate_reformist }
+			expire="1976.4.9.1"
+		}
+	}
+	NGN_shimonaka_yasaburo={
+		name=NGN_shimonaka_yasaburo
+		portraits={
+			civilian={
+				large="gfx/leaders/NGN/Portrait_Shimonaka_Yasaburo.png"
+			}
+		}
+		country_leader={
+			ideology=liberalism_subtype
+			desc=NGN_shimonaka_yasaburo_desc
+			traits={ gentle_scholar education_reformer }
+			expire="1961.2.21.1"
+		}
+	}
+	NGN_peasant_union={
+		name=NGN_peasant_union
+		portraits={
+			civilian={
+				large="gfx/leaders/NGN/Portrait_Peasant_Union.png"
+			}
+		}
+		country_leader={
+			ideology=guided_democracy_subtype
+			desc=NGN_peasant_union_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+	}
+	NGN_gondo_seikyo={
+		name=NGN_gondo_seikyo
+		portraits={
+			civilian={
+				large="gfx/leaders/NGN/Portrait_Gondo_Seikyo.png"
+			}
+		}
+		country_leader={
+			ideology=reactionary_agrarianism_subtype
+			desc=NGN_gondo_seikyo_desc
+			traits={ protector_of_the_campesinos gentle_scholar }
+			expire="1937.7.9.1"
+		}
+	}
+}

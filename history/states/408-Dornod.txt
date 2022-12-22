@@ -1,0 +1,18 @@
+state={
+	id=408
+	name="STATE_408"
+	provinces={
+		257 841 936 1206 1401 1461 1668 1758 2275 2391 3231 3446 3495
+	}
+	history = {
+		owner = DBJ
+		
+		
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=34300
+	state_category = pastoral
+	local_supplies = 0.0
+}

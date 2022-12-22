@@ -1,0 +1,390 @@
+add_namespace = zdj_rev
+add_namespace = zdj
+
+#####################
+# Zhendong Jiedushi #
+#####################
+country_event = { # The Partisans Become much more Powerful
+	id = zdj_rev.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event zdj_rev.1"
+		hidden_effect = {
+			every_controlled_state = {
+				add_resistance = 15
+			}
+		}
+	}
+	title = zdj_rev.1.t
+	desc = zdj_rev.1.desc
+	picture = GFX_report_event_spr_spanish_civil_war
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = zdj_rev.1.a
+		custom_effect_tooltip = zdj_rev_partisan_become_powerful_tt
+		country_event = { id = zdj_rev.2 days = 3 }
+	}
+}
+country_event = { # Partisans Destroyed our Railway!
+	id = zdj_rev.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event zdj_rev.2"
+	}
+	title = zdj_rev.2.t
+	desc = zdj_rev.2.desc
+	picture = GFX_report_event_soviet_invasion_map
+
+	is_triggered_only = yes
+
+	option = {
+		name = zdj_rev.2.a
+		custom_effect_tooltip = zdj_rev_all_railways_destroyed_tt
+		country_event = { id = zdj_rev.3 days = 7 }
+		every_controlled_state = {
+			damage_building = {
+				type = railway
+				damage = 1
+			}
+			damage_building = {
+				type = infrastructure
+				damage = 1
+			}
+		}
+	}
+}
+country_event = { # Silence Before the Real Storm
+	id = zdj_rev.3
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event zdj_rev.3"
+		hidden_effect = {
+			456 = { set_demilitarized_zone = yes }
+			551 = { set_demilitarized_zone = yes }
+			552 = { set_demilitarized_zone = yes }
+		}
+	}
+	title = zdj_rev.3.t
+	desc = zdj_rev.3.desc
+	picture = GFX_report_event_chinese_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = zdj_rev.3.a
+		custom_effect_tooltip = ZDJ_partisans_revolt_begin_tt
+		country_event = { id = zdj_rev.4 days = 3 }
+	}
+}
+country_event = { # Select a New Leader
+	id = zdj_rev.4
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event zdj_rev.4"
+	}
+	title = zdj_rev.4.t
+	desc = zdj_rev.4.desc
+	picture = GFX_report_event_spr_anarchist_uprising
+
+	is_triggered_only = yes
+
+	option = {
+		name = zdj_rev.4.a
+		country_event = { id = zdj_rev.5 days = 7 }
+	}
+}
+country_event = { # Silence Before the Real Storm
+	id = zdj_rev.5
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event zdj_rev.5"
+		hidden_effect = {
+			FER = {
+				transfer_state = 456
+				add_state_core = 456
+				load_oob = "FER_1923"
+			}
+			ZDJ = {
+				load_oob = "ZDJ_1923"
+				declare_war_on = {
+					target = FER
+					type = annex_everything
+				}
+			}
+		}
+	}
+	title = zdj_rev.5.t
+	desc = zdj_rev.5.desc
+	picture = GFX_report_event_chinese_soldiers
+
+	is_triggered_only = yes
+
+	hidden = yes
+
+	option = {
+		name = zdj_rev.5.a
+		country_event = zdj_rev.6
+	}
+}
+country_event = { # Silence Before the Real Storm
+	id = zdj_rev.6
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event zdj_rev.6"
+		hidden_effect = {
+			DAL = {
+				transfer_state = 551
+				add_state_core = 551
+				load_oob = "DAL_1923"
+			}
+			ZDJ = {
+				declare_war_on = {
+					target = DAL
+					type = annex_everything
+				}	
+			}
+		}
+	}
+	title = zdj_rev.6.t
+	desc = zdj_rev.6.desc
+	picture = GFX_report_event_chinese_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = zdj_rev.6.a
+		country_event = zdj_rev.7
+	}
+}
+country_event = { # Silence Before the Real Storm
+	id = zdj_rev.7
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event zdj_rev.7"
+		hidden_effect = {
+			SLA = {
+				transfer_state = 552
+				add_state_core = 552
+				load_oob = "SLA_1923"
+			}
+			ZDJ = {
+				declare_war_on = {
+					target = SLA
+					type = annex_everything
+				}
+			}
+		}
+	}
+	title = zdj_rev.7.t
+	desc = zdj_rev.7.desc
+	picture = GFX_report_event_chinese_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = zdj_rev.7.a
+		#news_event = { id = zdj_news.1 hours = 6 }
+	}
+}
+country_event = { # Manchu's Attitude: Invade or "Support"?
+	id = zdj.7
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event zdj.7"
+	}
+	title = zdj.7.t
+	desc = zdj.7.desc
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = zdj.7.a
+		ai_chance = {
+			base = 0
+		}
+		declare_war_on = {
+			target = DAL
+			type = take_state_focus
+			generator = { 10 454 456 505 552 551 }
+		}
+		declare_war_on = {
+			target = ZDJ
+			type = take_state_focus
+			generator = { 10 454 456 505 552 551 }
+		}
+	}
+	option = {
+		name = zdj.7.b
+		ZDJ = { country_event = { id = zdj.8 days = 7 } }
+	}
+}
+country_event = { # Zhendong's Response
+	id = zdj.8
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event zdj.8"
+	}
+	title = zdj.8.t
+	desc = zdj.8.desc
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = { # Accept
+		name = zdj.8.a
+		ai_chance = {
+			base = 0
+		}
+		give_military_access = MAN
+		country_event = { id = zdj.10 days = 1 }
+		add_opinion_modifier = {
+			target = MAN
+			modifier = took_stand_for_us
+		}
+		MAN = { country_event = { id = zdj.10 days = 1 } }
+	}
+	option = { # Refuse
+		name = zdj.8.b
+		MAN = {
+			country_event = { id = zdj.9 days = 3 }
+			add_opinion_modifier = {
+				target = ZDJ
+				modifier = rejected_demands
+			}
+		}
+	}
+}
+country_event = { # Zhendong Refused Us
+	id = zdj.9
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event zdj.9"
+	}
+	title = zdj.9.t
+	desc = zdj.9.desc
+	picture = GFX_report_event_ger_civil_war
+
+	is_triggered_only = yes
+
+	option = { # Declare War on Them!
+		name = zdj.9.a
+		ai_chance = {
+			base = 10
+		}
+		declare_war_on = {
+			target = DAL
+			type = take_state_focus
+			generator = { 10 454 456 505 552 551 }
+		}
+		declare_war_on = {
+			target = ZDJ
+			type = take_state_focus
+			generator = { 10 454 456 505 552 551 }
+		}
+	}
+	option = {
+		name = zdj.9.b
+		ai_chance = {
+			base = 90
+		}
+		add_political_power = -10
+	}
+}
+country_event = { # Zhendong Agreed with Us
+	id = zdj.10
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event zdj.10"
+	}
+	title = zdj.10.t
+	desc = zdj.10.desc
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = { # Annex all East Manchuria
+		name = zdj.10.a
+		ai_chance = {
+			base = 90
+		}
+		ZDJ = { country_event = zdj.11 }
+	}
+	option = { # Puppet Zhendong Jiedushi
+		name = zdj.9.b
+		ai_chance = {
+			base = 0
+		}
+		add_political_power = -10
+		ZDJ = { country_event = zdj.12 }
+	}
+}
+country_event = { # Manchu want to annex us
+	id = zdj.11
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event zdj.10"
+	}
+	title = zdj.11.t
+	desc = zdj.11.desc
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = { # Agree
+		name = zdj.11.a
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 2
+				num_of_controlled_states < 3
+			}
+			modifier = {
+				factor = 5
+				num_of_controlled_states < 2
+			}
+		}
+		MAN = { 
+			country_event = { id = zdj.13 days = 3 }
+			change_tag_from = ROOT
+		}
+	}
+	option = { # Refuse them
+		name = zdj.9.b
+		ai_chance = {
+			base = 70
+		}
+		ZDJ = { country_event = zdj.9 }
+	}
+}
+country_event = {
+	id = zdj.13
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event zdj.13"
+		hidden_effect = {
+			ZDJ = { white_peace = DAL }
+		}
+	}
+	title = zdj.13.t
+	desc = zdj.13.desc
+	picture = GFX_report_event_generic_riot
+
+	is_triggered_only = yes
+
+	option = {
+		name = zdj.13.a
+		add_political_power = -100
+		add_stability = -0.10
+		annex_country = {
+			target = ZDJ
+			transfer_troops = yes
+		}
+		declare_war_on = {
+			target = DAL
+			type = take_state_focus
+			generator = { 10 454 456 505 552 551 }
+		}
+		hidden_effect = {
+			add_popularity = {
+				ideology = futurism
+				popularity = 0.20
+			}
+			add_popularity = {
+				ideology = imperialism
+				popularity = 0.10
+			}
+		}
+	}
+}

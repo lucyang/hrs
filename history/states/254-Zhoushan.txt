@@ -1,0 +1,26 @@
+state={
+	id=254
+	name="STATE_254"
+	provinces={
+		4282 4283
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+		
+		buildings = {
+			infrastructure = 3
+			
+			4282 = {
+				naval_base = 1
+			}
+			4283 = {
+				naval_base = 1
+			}
+		}
+		
+	}
+	manpower=935000
+	state_category = small_island
+	local_supplies = 0.0
+}

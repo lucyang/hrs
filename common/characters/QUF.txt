@@ -1,0 +1,55 @@
+characters={
+	QUF_zhang_xun={
+		name=QUF_zhang_xun
+		portraits={
+			civilian={
+				large="gfx/leaders/QUF/Portrait_Zhang_Xun.png"
+			}
+			army={
+				large="gfx/leaders/QUF/Portrait_Zhang_Xun.png"
+			}
+		}
+		country_leader={
+			ideology=confucian_capitalism_subtype
+			desc=QUF_zhang_xun_desc
+			traits={ hardened_officer silent_mule }
+			expire="1924.9.11.1"
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	QUF_chen_huanzhang={
+		name=QUF_chen_huanzhang
+		portraits={
+			civilian={
+				large="gfx/leaders/QUF/Portrait_Chen_Huanzhang.png"
+			}
+		}
+		#country_leader={
+		#	ideology=fundamentalism_subtype
+		#	desc=QUF_chen_huanzhang_desc
+		#	traits={ the_young_magnate gentle_scholar }
+		#	expire="1933.1.1.1"
+		#}
+	}
+	QUF_kong_decheng={
+		name=QUF_kong_decheng
+		portraits={
+			civilian={
+				large="gfx/leaders/QUF/Portrait_Kong_Decheng.png"
+			}
+		}
+		country_leader={
+			ideology=fundamentalism_subtype
+			desc=QUF_kong_decheng_desc
+			traits={ duke_yansheng underage_monarch }
+			expire="2008.10.28.1"
+		}
+	}
+}

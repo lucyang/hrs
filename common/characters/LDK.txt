@@ -1,0 +1,16 @@
+characters={
+	LDK_jigmet_dadul_namgyal={
+		name=LDK_jigmet_dadul_namgyal
+		portraits={
+			civilian={
+				large="gfx/leaders/LDK/Portrait_Jigmet_Dadul_Namyal.png"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_subtype
+			desc=LDK_jigmet_dadul_namgyal_desc
+			traits={ }
+			expire="1947.1.1.1"
+		}
+	}
+}

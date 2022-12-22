@@ -1,0 +1,169 @@
+### EMPIRE OF CHINA ###
+IMC = "countries/Imperial China.txt"
+IMJ = "countries/Imperial Japan.txt"
+IMK = "countries/Imperial Korea.txt"
+ANM = "countries/Annam.txt"
+### IMPERIAL COLONIES ###
+ZDJ = "countries/Zhendong Jiedushi.txt"
+DBJ = "countries/Dingbei Jiedushi.txt"
+XSM = "countries/Xibei San Ma.txt"
+HSW = "countries/Hsenwi.txt"
+ADM = "countries/Andaman.txt"
+### IMPERIAL DOMINION ###
+MAL = "countries/Malaysia.txt"
+LNF = "countries/Lanfang.txt" # Kalimantan & Borneo
+PHI = "countries/Philippines.txt"
+BSM = "countries/Bangsa Moro.txt"
+### CHINA/NATIONALIST ###
+CHI = "countries/China.txt" # Hubei
+KMT = "countries/Guangdong.txt"
+SHX = "countries/Shanxi.txt"
+SCH = "countries/Sichuan.txt"
+CHQ = "countries/Chongqing.txt"
+YUN = "countries/Yunnan.txt"
+GZH = "countries/Guizhou.txt"
+GNA = "countries/Guizhou Nationalist Army.txt"
+WAX = "countries/Wanxi.txt"
+QND = "countries/Qingdao.txt"
+SHD = "countries/Shandong.txt"
+QUF = "countries/Qufu.txt"
+TIJ = "countries/Tianjin.txt"
+HEB = "countries/Hebei.txt"
+JID = "countries/Jidong.txt"
+CHR = "countries/Chahar.txt"
+LYG = "countries/Luoyang.txt"
+AYG = "countries/Anyang.txt"
+HEN = "countries/Henan.txt"
+QNA = "countries/Qingdao Naval Authority.txt"
+LNG = "countries/Liaoning.txt"
+### CHINA/COMMUNIST ###
+PRC = "countries/ComChina.txt"
+SHH = "countries/Shanghai.txt"
+MAO = "countries/Lmao.txt"
+HNA = "countries/Hunan.txt" # Hunan
+HLF = "countries/Hailufeng.txt"
+PDS = "countries/Pingdingshan.txt"
+ZZH = "countries/Zhengzhou.txt"
+### CHINA/INDIGENOUS ###
+NSB = "countries/Yi.txt"
+GXC = "countries/Guangxi.txt"
+DLI = "countries/Dali.txt"
+MMA = "countries/Mong Mao.txt"
+CHH = "countries/Chiang Hung.txt"
+LAX = "countries/Lan Xang.txt"
+MIA = "countries/Miao.txt"
+MIR = "countries/Miao Republic.txt"
+JXP = "countries/Jiangxinpo.txt"
+### TAIWAN ###
+FRM = "countries/Formosa.txt"
+TAW = "countries/Taiwan.txt"
+ASN = "countries/Austronesia.txt"
+TGG = "countries/Taiwan General Government.txt"
+MNG = "countries/Ming.txt"
+### JAPAN ###
+JLF = "countries/Japan Liberation Front.txt"
+JPR = "countries/Japan Popular Republic.txt"
+JAF = "countries/Japan Anarchist Federation.txt"
+KYU = "countries/Kyushu.txt"
+NGN = "countries/Nagano.txt"
+CGK = "countries/Chugoku.txt"
+CHB = "countries/Chubu.txt"
+KKG = "countries/Kokugun.txt"
+JPN = "countries/Japan.txt"
+TOK = "countries/Tokyo.txt"
+THK = "countries/Tohoku.txt"
+OMT = "countries/Oomoto.txt"
+### HOKKAIDO ###
+EZO = "countries/Ezo.txt"
+AIN = "countries/Ainu.txt"
+KRF = "countries/Karafuto.txt"
+SKL = "countries/Sakhalin.txt"
+### RYUKYU ###
+RYU = "countries/Ryukyu.txt"
+AMM = "countries/Amami.txt"
+YYM = "countries/Yaeyama.txt"
+MYK = "countries/Miyako.txt"
+### KOREA ###
+PRK = "countries/ComKorea.txt"
+ANK = "countries/AncKorea.txt"
+KOR = "countries/Korea.txt"
+### VIETNAM/NATIONALIST ###
+VIN = "countries/Vietnam.txt" # Nguyen Dynasty
+VQD = "countries/Vietquoc.txt" # Vietnamese Nationalist Party
+CAD = "countries/Caodai.txt" # Caodaism
+### VIETNAM/COMMUNIST ###
+VIC = "countries/Vietcong.txt"
+DNA = "countries/Danang.txt" # Da Nang
+SRV = "countries/ComViet.txt"
+SAI = "countries/Saigon.txt"
+### VIETNAM/INDIGENOUS ###
+DEG = "countries/Degar.txt"
+TAT = "countries/Tai Federation.txt"
+### LAOS & CAMBODIA ###
+LAO = "countries/Laos.txt"
+CHP = "countries/Champasak.txt"
+CAM = "countries/Cambodia.txt"
+KMK = "countries/Khmer Krom.txt"
+KHR = "countries/Khmer Rouge.txt"
+### MANCHURIA ###
+MAN = "countries/Manchukou.txt"
+SLA = "countries/Solho Guerrilla.txt"
+DAL = "countries/Sanhan Guerrilla.txt"
+FER = "countries/Soviet Guerrilla.txt"
+### INDOCHINA ###
+SIA = "countries/Siam.txt"
+BRM = "countries/Burma.txt"
+### MONGOLIA ###
+MON = "countries/Mongolia.txt"
+BOG = "countries/Bogd Khanate.txt"
+KVD = "countries/Khovd.txt"
+ULI = "countries/Uliastai.txt"
+### INNER MONGOLIA ### 
+MEN = "countries/Mengkukuo.txt"
+ULQ = "countries/Ulanqab.txt"
+HUL = "countries/Hulunbuir.txt"
+DAR = "countries/Dariganga.txt"
+IMN = "countries/Inner Mongolia.txt"
+### TIBET ###
+TIB = "countries/Tibet.txt"
+SHG = "countries/Shigatse.txt"
+KHM = "countries/Khams.txt"
+AMD = "countries/Amdo.txt"
+LDK = "countries/Ladakh.txt"
+### XINJIANG ###
+DZU = "countries/Dzungar.txt"
+TAN = "countries/Tannu Tuva.txt"
+ALT = "countries/Altai Republic.txt"
+### XINJIANG/RELEASABLE ###
+ETK = "countries/East Turkestan.txt"
+ASH = "countries/Ashan.txt"
+HOT = "countries/Hotan.txt"
+HAM = "countries/Hami.txt"
+AKS = "countries/Aksu.txt"
+SIK = "countries/Sinkiang.txt"
+TCH = "countries/Tacheng.txt"
+ILI = "countries/Ili.txt"
+### CENTRAL ASIA ###
+KAZ = "countries/Kazakhstan.txt"
+TUK = "countries/Turkestan.txt"
+### SOUTH ASIA ###
+HIN = "countries/Hind.txt"
+NEP = "countries/Nepal.txt"
+BHU = "countries/Bhutan.txt"
+SKM = "countries/Sikkim.txt"
+AHM = "countries/Ahom.txt"
+MNP = "countries/Manipur.txt"
+NAG = "countries/Nagaland.txt"
+SRL = "countries/Sri Lanka.txt"
+### RUSSIA ###
+AAF = "countries/Altai Anarchist Federation.txt"
+FAR = "countries/Far Eastern Republic.txt"
+SIB = "countries/Siberia.txt"
+BYA = "countries/Buryatia.txt"
+TBA = "countries/Transbaikal.txt"
+PRA = "countries/Priamur.txt"
+YAK = "countries/Yakutia.txt"
+KHA = "countries/Khakassia.txt"
+### OTHERS ###
+ANG = "countries/United Kingdom.txt"
+ZZZ = "countries/Placeholder.txt"

@@ -1,0 +1,49 @@
+﻿l_english:
+ ###############
+ ## DECISIONS ##
+ ###############
+ HRS_cambodia_unification_category:0 "柬埔寨统一"
+ HRS_make_cambodia_states_core:0 "在[FROM.GetName]重建政权"
+ HRS_unification_of_cambodia:0 "宣布柬埔寨重归统一"
+ ##################
+ ## CAM-Cambodia ##
+ ##################
+
+ ####################
+ ## KMK-Khmer Krom ##
+ ####################
+ KMK_unification_democratic:0 "高棉共和国"
+ KMK_unification_democratic_DEF:0 "高棉共和国"
+ KMK_unification_neutrality_ADJ:0 "高棉"
+ KMK_unification_neutrality:0 "高棉国"
+ KMK_unification_neutrality_DEF:0 "高棉国"
+ KMK_unification_neutrality_ADJ:0 "高棉"
+ KMK_unification_fascism:0 "高棉民族共和国"
+ KMK_unification_fascism_DEF:0 "高棉民族共和国"
+ KMK_unification_fascism_ADJ:0 "高棉"
+ KMK_unification_imperialism:0 "高棉民族国"
+ KMK_unification_imperialism_DEF:0 "高棉民族国"
+ KMK_unification_imperialism_ADJ:0 "高棉"
+ ####################
+ ## KHR-Khmer Rouge ##
+ ####################
+ KHR_unification_communism:0 "民主柬埔寨"
+ KHR_unification_communism_DEF:0 "民主柬埔寨"
+ KHR_unification_communism_ADJ:0 "柬埔寨"
+ KHR_unification_anarchism:0 "民主柬埔寨"
+ KHR_unification_anarchism_DEF:0 "民主柬埔寨"
+ KHR_unification_anarchism_ADJ:0 "柬埔寨"
+ ############
+ ## EVENTS ##
+ ############
+ cam_unification.1.t:0 "王国"
+ cam_unification.1.desc:0 ""
+ cam_unification.1.a:0 "我们的王国久经考验"
+ cam_unification.1.b:0 "上苍不吝啬他的恩泽"
+ cam_unification.1.c:0 "赐予古老高棉的河山"
+
+ cam_unification.2.t:0 "光荣之日"
+ cam_unification.2.desc:0 ""
+ cam_unification.2.a:0 "鲜血洒遍了祖国的城镇和平原"
+ cam_unification.2.b:0 "化为深仇大恨，激励着人们英勇地斗争"
+ cam_unification.2.c:0 "团结起来，独立自主，自力更生"

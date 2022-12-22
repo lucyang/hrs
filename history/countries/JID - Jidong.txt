@@ -1,0 +1,118 @@
+﻿capital = 79 #唐山
+
+recruit_character = JID_yin_rugeng
+recruit_character = JID_chi_zongmo
+recruit_character = JID_zhang_qingyu
+
+oob = "empty"
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	tech_recon = 1
+	tech_support = 1		
+	basic_train = 1
+	gw_artillery = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	fuel_refining = 1
+}
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+if = {
+	limit = {	
+		has_dlc = "No Step Back"	
+	}
+	set_technology = {
+		gwtank_chassis = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		improved_ship_torpedo_launcher = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		mtg_transport = 1
+		coastal_defense_ships = 1
+		#basic_secondary_battery = 1
+		basic_depth_charges = 1
+		basic_cruiser_armor_scheme = 1
+		cruiser_submarines = 1
+	}
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		transport = 1
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+add_ideas = {
+	civilian_economy
+	limited_conscription
+	free_trade
+}
+add_ideas = {
+    JID_syndicate_state
+    JID_anti_commie_wall
+    CHI_tangshan_coal_mine
+}
+add_ideas = {
+	country_development3
+	country_tech3
+	unitary_state1
+	corporatist_economy
+}
+
+set_research_slots = 2
+set_convoys = 30
+set_stability = 0.65
+set_war_support = 0.50
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1922.5.17"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	anarchism = 0
+	socialism = 6
+	democratic = 10
+	neutrality = 30
+	monarchism = 12
+	fascism = 42
+	imperialism = 0
+	futurism = 0
+}

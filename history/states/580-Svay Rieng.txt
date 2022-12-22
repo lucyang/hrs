@@ -1,0 +1,21 @@
+state={
+	id=580
+	name="STATE_580"
+	provinces={
+		2830
+	}
+	history={
+		owner = ANM
+		add_core_of = CAM
+		victory_points = { 2830 1 } #柴桢
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+
+	}
+	manpower=2069000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

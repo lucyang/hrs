@@ -1,0 +1,20 @@
+state={
+	id=443
+	name="STATE_443"
+	provinces={
+		370 1980 2332 4766 4767
+	}
+	history = {
+		owner = MAN
+		add_core_of = MAN
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 2
+		}
+	}
+	manpower=172800
+	state_category = town
+	local_supplies = 0.0
+}

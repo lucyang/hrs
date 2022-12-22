@@ -1,0 +1,71 @@
+add_namespace = ryu_news
+
+news_event = { # RYU-Monarchist
+	id = ryu_news.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ryu_news.1" }
+	title = ryu_news.1.t
+	desc = ryu_news.1.desc
+	picture = GFX_news_event_ryukyu_kingdom
+
+	is_triggered_only = yes
+
+	option = {
+		name = ryu_news.1.a
+	}
+}
+
+news_event = { # RYU-Democratic
+	id = ryu_news.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ryu_news.2" }
+	title = ryu_news.2.t
+	desc = ryu_news.2.desc
+	picture = GFX_news_event_shikiya_kosen
+
+	is_triggered_only = yes
+
+	option = {
+		name = ryu_news.2.a
+	}
+}
+
+news_event = { # RYU-Republic
+	id = ryu_news.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ryu_news.3" }
+	title = ryu_news.3.t
+	desc = ryu_news.3.desc
+	picture = GFX_news_event_rally_of_ryukyu_people
+
+	is_triggered_only = yes
+
+	option = {
+		name = ryu_news.3.a
+	}
+}
+
+news_event = { # AMM-Terrible Path
+	id = ryu_news.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ryu_news.2" }
+	title = ryu_news.4.t
+	desc = ryu_news.4.desc
+	picture = GFX_news_event_japanese_army_in_okinawa
+
+	is_triggered_only = yes
+
+	option = {
+		name = ryu_news.4.a
+	}
+}
+
+news_event = { # YYM/MYK-Federation
+	id = ryu_news.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event ryu_news.3" }
+	title = ryu_news.5.t
+	desc = ryu_news.5.desc
+	picture = GFX_news_event_election_vote
+
+	is_triggered_only = yes
+
+	option = {
+		name = ryu_news.5.a
+	}
+}

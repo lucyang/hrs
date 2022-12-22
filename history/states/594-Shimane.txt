@@ -1,0 +1,22 @@
+state={
+	id=594
+	name="STATE_594"
+	provinces={
+		2446 2474 2593 3336
+	}
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+
+		victory_points = { 2446 1 } #松江
+		victory_points = { 3336 1 } #松江
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+	}
+	manpower=714712
+	state_category = rural
+	local_supplies = 0.0
+}

@@ -1,0 +1,78 @@
+﻿capital = 289 #冲绳
+
+recruit_character = RYU_sho_hiroshi #尚裕王
+recruit_character = RYU_sho_jun #尚順王
+recruit_character = RYU_coalition_government #挙国一致内閣
+recruit_character = RYU_shikiya_koshin #志喜屋孝信
+recruit_character = RYU_ogimi_chotoku #大宜味朝徳
+recruit_character = RYU_nakasone_genwa #仲宗根源和
+
+oob = "empty"
+
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	tech_recon = 1
+	tech_support = 1		
+	basic_train = 1
+	trench_warfare = 1
+	gw_artillery = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	fuel_refining = 1
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_battery = 1
+		basic_torpedo = 1
+	}
+}
+
+add_manpower = 12000
+set_convoys = 5
+set_stability = 0.50
+set_war_support = 0.60
+
+add_ideas = {
+	closed_economy
+	extensive_conscription
+	partial_economic_mobilisation
+}
+add_ideas = {
+	country_development1
+	country_tech2
+	market_economy1
+	unitary_state2
+}
+
+set_politics = {	
+	ruling_party = neutrality
+	last_election = "1923.12.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 6
+	anarchism = 8
+	socialism = 22
+	democratic = 24
+	neutrality = 26
+	monarchism = 14
+	fascism = 0
+	imperialism = 0
+	futurism = 0
+}

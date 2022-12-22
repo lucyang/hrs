@@ -1,0 +1,21 @@
+state={
+	id=98
+	name="STATE_98"
+	provinces={
+		111 1107 1125 2510 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 2510 1 } #吕梁
+		
+		buildings = {
+			infrastructure = 2
+		}
+		
+	}
+	manpower=103248
+	state_category = rural
+	local_supplies = 0.0
+}

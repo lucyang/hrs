@@ -1,0 +1,104 @@
+add_namespace = sch_rev
+
+##################
+# CHENGDU EVENTS #
+##################
+country_event = {
+	id = sch_rev.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event sch_rev.1"
+		hidden_effect = {
+			every_state = {
+				limit = { is_west_sichuan_state = yes }
+				transfer_state_to = SCH
+			}
+			every_state = {
+				limit = { is_south_sichuan_state = yes }
+				transfer_state_to = SCH
+			}
+			every_state = {
+				limit = { is_north_sichuan_state = yes }
+				transfer_state_to = SCH
+			}
+			SCH = {
+				add_political_power = 50
+				#load_oob = "SCH_1923"
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 3000
+					producer = IMC
+				}
+				country_event = { id = sch_rev.2 days = 7 }
+			}
+		}
+	}
+	title = sch_rev.1.t
+	desc = sch_rev.1.desc
+	picture = GFX_report_event_chengdu_uprising
+
+	is_triggered_only = yes
+
+	option = {
+		name = sch_rev.1.a
+		IMC = { add_stability = -0.05 }
+		SCH = { change_tag_from = ROOT }
+	}
+	option = {
+		name = sch_rev.1.b
+		IMC = { add_stability = -0.05 }
+	}
+}
+country_event = {
+	id = sch_rev.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event sch_rev.2"
+	}
+	title = sch_rev.2.t
+	desc = sch_rev.2.desc
+	picture = GFX_report_event_chengdu_uprising
+
+	is_triggered_only = yes
+
+	option = { # Zhu Qinglan
+		name = sch_rev.2.a
+		set_politics = { ruling_party = democratic elections_allowed = no }
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.20
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.05
+		}
+	}
+	option = { # Wu Yuzhang
+		name = sch_rev.2.b
+		set_politics = { ruling_party = democratic elections_allowed = no }
+		add_country_leader_role = {
+			character = SCH_wu_yuzhang
+			country_leader={
+				ideology=tridemism_subtype
+				desc=SCH_wu_yuzhang_desc
+				traits={ education_reformer connected_citizen }
+				expire="1966.12.12.1"
+			}
+			promote_leader = yes 
+		}
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.20
+		}
+		add_popularity = {
+			ideology = anarchism
+			popularity = 0.10
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.10
+		}
+	}
+}

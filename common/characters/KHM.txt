@@ -1,0 +1,30 @@
+characters={
+	KHM_panda_dorje={
+		name=KHM_panda_dorje
+		portraits={
+			civilian={
+				large="gfx/leaders/KHM/Portrait_Panda_Dorje.png"
+			}
+		}
+		country_leader={
+			ideology=national_liberalism_subtype
+			desc=KHM_panda_dorje_desc
+			traits={  }
+			expire="1974.1.1.1"
+		}
+	}
+	KHM_panda_rapga={
+		name=KHM_panda_rapga
+		portraits={
+			civilian={
+				large="gfx/leaders/KHM/Portrait_Panda_Rapga.png"
+			}
+		}
+		country_leader={
+			ideology=left_nationalism_subtype
+			desc=KHM_panda_rapga_desc
+			traits={  }
+			expire="1976.2.26.1"
+		}
+	}
+}

@@ -1,0 +1,71 @@
+add_namespace = se
+
+####################
+# SUPER EVENT TEST #
+####################
+country_event = {
+	id = se.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event se.1"
+	}
+	title = se.1.t
+	desc = se.1.desc
+	picture = GFX_report_event_chinese_soldiers_city_ruin
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = se.1.a
+		set_global_flag = JAP_civil_war_se_visible
+		set_global_flag = HRS_super_event_visible
+		hidden_effect = {
+			play_song = "JAP_civil_war_se" 
+		}
+	}
+}
+country_event = {
+	id = se.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event se.2"
+	}
+	title = se.2.t
+	desc = se.2.desc
+	picture = GFX_report_event_chinese_soldiers_city_ruin
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = se.2.a
+		set_global_flag = CHI_civil_war_se_visible
+		set_global_flag = HRS_super_event_visible
+		#hidden_effect = {
+		#	play_song = "hrs_se_japanese_civil_war" 
+		#}
+	}
+}
+country_event = {
+	id = se.3
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event se.3"
+	}
+	title = se.3.t
+	desc = se.3.desc
+	picture = GFX_report_event_chinese_soldiers_city_ruin
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = se.3.a
+		set_global_flag = KOR_civil_war_se_visible
+		set_global_flag = HRS_super_event_visible
+		#hidden_effect = {
+		#	play_song = "hrs_se_japanese_civil_war" 
+		#}
+	}
+}

@@ -1,0 +1,21 @@
+state={
+	id=89
+	name="STATE_89"
+	provinces={
+		141 2406 4951
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 2406 1 } #廊坊
+		
+		buildings = {
+			infrastructure = 3
+		}
+		
+	}
+	manpower=282578
+	state_category = town
+	local_supplies = 0.0
+}

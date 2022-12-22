@@ -1,0 +1,66 @@
+characters={
+	BOG_togs_ochiryn_namnansuren={
+		name=BOG_togs_ochiryn_namnansuren
+		portraits={
+			civilian={
+				large="gfx/leaders/BOG/Portrait_Togs-Ochiryn_Namnansuren.png"
+			}
+		}
+		country_leader={
+			ideology=oligarchism_subtype
+			desc=BOG_togs_ochiryn_namnansuren_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+	}
+	BOG_mijiddorjiin_khanddorj={
+		name=BOG_mijiddorjiin_khanddorj
+		portraits={
+			civilian={
+				large="gfx/leaders/BOG/Portrait_Mijiddorjiin_Khanddorj.png"
+			}
+		}
+		country_leader={
+			ideology=development_authoritarianism_subtype
+			desc=BOG_mijiddorjiin_khanddorj_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+	}
+	BOG_bogd_khan_lama={
+		name=BOG_bogd_khan_lama
+		portraits={
+			civilian={
+				large="gfx/leaders/BOG/Portrait_Bogd_Khan_Lama.png"
+			}
+		}
+		country_leader={
+			ideology=noble_republic_subtype
+			desc=BOG_bogd_khan_lama_desc
+			traits={  }
+			expire="1950.1.1.1"
+		}
+	}
+	BOG_manlaibaatar_damdinsuren={
+		name=BOG_manlaibaatar_damdinsuren
+		portraits={
+			army={
+				large="gfx/leaders/BOG/Portrait_Manlaibaatar_Damdinsuren.png"
+			}
+		}
+		country_leader={
+			ideology=military_government_subtype
+			desc=BOG_manlaibaatar_damdinsuren_desc
+			traits={  }
+			expire="1950.1.1.1"
+		}
+		corps_commander={
+			traits={ fast_planner cavalry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+}

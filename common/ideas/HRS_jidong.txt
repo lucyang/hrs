@@ -1,0 +1,48 @@
+ideas = {
+	country = {
+		JID_syndicate_state = {
+			name = JID_syndicate_state
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = CHI_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = generic_secret_police
+			modifier = {
+				stability_weekly_factor = -0.005
+				political_power_cost = 0.5
+				compliance_growth_on_our_occupied_states = -0.01
+			}
+		}
+
+		JID_anti_commie_wall = {
+			name = JID_anti_commie_wall
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = CHI_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = anti_soviet_pact
+			modifier = {
+				conscription_factor = 0.01
+				war_support_factor = 0.10
+			}
+			targeted_modifier = {
+				tag = IMN
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = PRC
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+defined_text = {
+	name = KORGetCommieOpionionLoc
+	text = {
+		trigger = { check_variable = { KOR_commie_support > 5 } }
+		localization_key = "[KORCommieHighOpionion]"
+	}
+	text = {
+		trigger = { check_variable = { KOR_commie_support < 3 } }
+		localization_key = "[KORCommieLowOpionion]"
+	}
+}
+defined_text = {
+	name = KORGetReformOpionionLoc
+	text = {
+		trigger = { check_variable = { KOR_reform_support > 5 } }
+		localization_key = "[KORReformHighOpionion]"
+	}
+	text = {
+		trigger = { check_variable = { KOR_reform_support < 3 } }
+		localization_key = "[KORReformLowOpionion]"
+	}
+}

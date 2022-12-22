@@ -1,0 +1,28 @@
+state={
+	id=617
+	name="STATE_617"
+	provinces={
+		236 2589 2665 3678 3682 4274
+	}
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+
+		victory_points = { 2665 3 } #新潟
+		victory_points = { 3678 1 } #長岡
+		victory_points = { 3682 1 } #上越
+
+		buildings = {
+			infrastructure = 3
+			2665 = {
+				naval_base = 2
+			}
+			4274 = {
+				naval_base = 1
+			}
+		}
+	}
+	manpower=1776474
+	state_category = rural
+	local_supplies = 0.0
+}

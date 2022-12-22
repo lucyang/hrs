@@ -1,0 +1,23 @@
+state={
+	id=351
+	name="STATE_351"
+	provinces={
+		2157 2815 4119 4126 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 2815 1 }
+		
+		buildings = {
+			infrastructure = 3
+			4126 = {
+				naval_base = 1 #潮洲�?
+			}
+		}
+	}
+	manpower=403393
+	state_category = town
+	local_supplies = 0.0
+}

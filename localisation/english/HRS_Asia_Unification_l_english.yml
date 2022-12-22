@@ -1,0 +1,34 @@
+﻿l_english:
+ ###############
+ ## DECISIONS ##
+ ###############
+ HRS_asia_imperial_category:0 "宣称天下人"
+ HRS_make_asia_states_core:0 "在[FROM.GetName]重建政权"
+ HRS_imperial_of_asia:0 "宣称天下人"
+ #################
+ ## VIN-Vietnam ##
+ #################
+ VIN_imperial_monarchism:0 "大炎帝国"
+ VIN_imperial_monarchism_DEF:0 "大炎帝国"
+ VIN_imperial_monarchism_ADJ:0 "大炎"
+ ###############
+ ## KOR-Korea ##
+ ###############
+ KOR_imperial_monarchism:0 "大华帝国"
+ KOR_imperial_monarchism_DEF:0 "大华帝国"
+ KOR_imperial_monarchism_ADJ:0 "大华"
+ ################
+ ## RYU-Ryukyu ##
+ ################
+ RYU_imperial_monarchism:0 "大东帝国"
+ RYU_imperial_monarchism_DEF:0 "大东帝国"
+ RYU_imperial_monarchism_ADJ:0 "大东"
+ ###################
+ ## MAN-Manchuria ##
+ ###################
+ MAN_imperial_monarchism:0 "大清帝国"
+ MAN_imperial_monarchism_DEF:0 "大清帝国"
+ MAN_imperial_monarchism_ADJ:0 "大清"
+ ############
+ ## EVENTS ##
+ ############

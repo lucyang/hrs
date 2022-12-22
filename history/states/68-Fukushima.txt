@@ -1,0 +1,29 @@
+
+state={
+	id=68
+	name="STATE_68"
+
+	resources = {
+		oil = 30
+	}
+
+	history={
+		owner = IMJ
+		add_core_of = IMJ
+
+		victory_points = { 3676 5 } #郡山
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+
+	provinces={
+		1849 1932 2451 2893 3112 3676 3677 
+	}
+	manpower=1362750
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

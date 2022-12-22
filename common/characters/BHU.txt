@@ -1,0 +1,43 @@
+characters={
+	BHU_ugyen_wangchuck={
+		name=BHU_ugyen_wangchuck
+		portraits={
+			civilian={
+				large="gfx/leaders/BHU/Portrait_Ugyen_Wangchuck.png"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_subtype
+			desc=BHU_ugyen_wangchuck_desc
+			traits={ }
+			expire="1952.5.30.1"
+		}
+	}
+	BHU_jigme_wangchuck={
+		name=BHU_jigme_wangchuck
+		portraits={
+			civilian={
+				large="gfx/leaders/BHU/Portrait_Jigme_Wangchuck.png"
+			}
+		}
+		#country_leader={
+		#	ideology=absolute_monarchy_subtype
+		#	desc=BHU_jigme_wangchuck_desc
+		#	traits={ }
+		#	expire="1952.5.30.1"
+		#}
+	}
+	BHU_sonam_topgay_dorji={
+		name=BHU_sonam_topgay_dorji
+		portraits={
+			civilian={
+				large="gfx/leaders/BHU/Portrait_Sonam_Topgay_Dorji.png"
+			}
+		}
+		country_leader={
+			ideology=oligarchism_subtype
+			traits={ }
+			expire="1953.9.1.1"
+		}
+	}
+}

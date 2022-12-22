@@ -1,0 +1,98 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ SCH_communism:0 "成都工农兵代表政府"
+ SCH_communism_DEF:0 "成都工农兵代表政府"
+ SCH_anarchism:0 "成都工农兵代表政府"
+ SCH_anarchism_DEF:0 "成都工农兵代表政府"
+ SCH_socialism:0 "成都工农兵代表政府"
+ SCH_socialism_DEF:0 "成都工农兵代表政府"
+ SCH_democratic:0 "大汉四川军政府"
+ SCH_democratic_DEF:0 "大汉四川军政府"
+ SCH_neutrality:0 "大汉四川军政府"
+ SCH_neutrality_DEF:0 "大汉四川军政府"
+ SCH_monarchism:0 "大汉四川军政府"
+ SCH_monarchism_DEF:0 "大汉四川军政府"
+ SCH_fascism:0 "大汉四川军政府"
+ SCH_fascism_DEF:0 "大汉四川军政府"
+ SCH_imperialism:0 "大汉四川军政府"
+ SCH_imperialism_DEF:0 "大汉四川军政府"
+ SCH_futurism:0 "大汉四川军政府"
+ SCH_futurism_DEF:0 "大汉四川军政府"
+ SCH_communism_ADJ:0 "成都"
+ SCH_anarchism_ADJ:0 "成都"
+ SCH_socialism_ADJ:0 "成都"
+ SCH_democratic_ADJ:0 "成都"
+ SCH_neutrality_ADJ:0 "成都"
+ SCH_monarchism_ADJ:0 "成都"
+ SCH_fascism_ADJ:0 "成都"
+ SCH_imperialism_ADJ:0 "成都"
+ SCH_futurism_ADJ:0 "成都"
+ SCH:0 "四川"
+ SCH_DEF:0 "四川"
+ SCH_ADJ:0 "成都"
+ #############
+ ## PARTIES ##
+ #############
+ SCH_communism_party:0 "青年共产党"
+ SCH_communism_party_long:0 "中国青年共产党" #Wang Youmu
+ SCH_anarchism_party:0 "无政府共产党"
+ SCH_anarchism_party_long:0 "无政府共产党"
+ SCH_socialism_party:0 "农工民主党"
+ SCH_socialism_party_long:0 "中国农工民主党"
+ SCH_democratic_party:0 "中华革命党"
+ SCH_democratic_party_long:0 "中华革命党"
+ SCH_neutrality_party:0 "川系军阀"
+ SCH_neutrality_party_long:0 "川系军阀"
+ SCH_monarchism_party:0 "孔教会"
+ SCH_monarchism_party_long:0 "孔教会"
+ SCH_fascism_party:0 "中国青年党"
+ SCH_fascism_party_long:0 "中国青年党"
+ SCH_imperialism_party:0 "右派革命党"
+ SCH_imperialism_party_long:0 "中华革命党右派"
+ SCH_futurism_party:0 "西南制药"
+ SCH_futurism_party_long:0 "西南制药"
+
+ SCH_flkmt_party:0 "国民党 - 民权派"
+ SCH_flkmt_party_long:0 "中华革命党 - 民权派"
+ SCH_lkmt_party:0 "国民党 - 民生派"
+ SCH_lkmt_party_long:0 "中华革命党 - 民生派"
+ SCH_rkmt_party:0 "国民党 - 民族派"
+ SCH_rkmt_party_long:0 "中华革命党 - 民族派"
+ SCH_frkmt_party:0 "国民党 - 邹容派"
+ SCH_frkmt_party_long:0 "中华革命党 - 邹容派"
+ SCH_huanghan_party:0 "皇汉会"
+ SCH_huanghan_party_long:0 "皇汉会"
+ SCH_nra_party:0 "国民革命军"
+ SCH_nra_party_long:0 "中国国民革命军"
+ SCH_roc_government_party:0 "大汉民国军政府"
+ SCH_roc_government_party_long:0 "大汉民国军政府"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ SCH_sichuan_government:0 "大汉四川军政府"
+ SCH_wang_youmu:0 "王右木"
+ SCH_zhu_qinglan:0 "朱庆澜"
+ SCH_pu_dianjun:0 "蒲殿俊"
+ SCH_liu_xiang:0 "刘湘"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############
+ sch_rev.1.t:0 "成都叛乱"
+ sch_rev.1.desc:0 "“夫川人以争路与政府相抵抗，猛历进行，万死不顾。不二三月，闻天下土崩。各省次第宣告独立，吾川灿烂光华之大汉独立军政府，亦于今日告其成。大汉四川军政府之宗旨，基于世界之公理，人道主义组织共和宪法，以巩固我大汉联邦之帝国而与世罔极，所当与吾川七千万人子子孙孙共守之。”"
+ sch_rev.1.a:0 "扮演成都军政府"
+ sch_rev.1.b:0 "扮演大东帝国"
+
+ sch_rev.2.t:0 "总理选举"
+ sch_rev.2.desc:0 "[SCH.GetName]成立时的军事管制政策取得了很大的成功，如今首都及周边地区的治安状况良好，百姓的生产生活也得到了一定程度的恢复。在[SCH.GetLeader]的邀请下，我们管辖区的民选代表、社会贤达以及国民党会员前来共商国是。[SCH.GetLeader]表达了隐退之意，他希望选举出一位新的总理，自己则专注于军队建设，保护革命政权不受侵犯。在众人的商谈声中，两位德高望重、政绩颇丰的国民党干部脱颖而出，他们就是朱庆澜和吴玉章。朱庆澜曾在川军中服役过，他支持革命党人，为国民党的革命工作作出了很大的贡献，而吴玉章是国民党重要的理论家，他在成都兴办教育，秘密进行宣传鼓动工作。可以看出二人的功劳不相上下，都有资格统领[SCH.GetName]，此次选举的获胜者会是谁？"
+ sch_rev.2.a:0 "务实的改革家朱庆澜"
+ sch_rev.2.b:0 "开明的教育家吴玉章"

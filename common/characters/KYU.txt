@@ -1,0 +1,30 @@
+characters={
+	KYU_asahara_kenzo={
+		name=KYU_asahara_kenzo
+		portraits={
+			civilian={
+				large="gfx/leaders/KYU/Portrait_Asahara_Kenzo.png"
+			}
+		}
+		#country_leader={
+		#	ideology=revolutionary_front_subtype
+		#	desc=KYU_asahara_kenzo_desc
+		#	traits={ }
+		#	expire="1967.7.19.1"
+		#}
+	}
+	KYU_osugi_sakae={
+		name=KYU_osugi_sakae
+		portraits={
+			civilian={
+				large="gfx/leaders/KYU/Portrait_Osugi_Sakae.png"
+			}
+		}
+		country_leader={
+			ideology=anarcho_syndicalism_subtype
+			desc=KYU_osugi_sakae_desc
+			traits={ voice_of_restraint international_anarchist }
+			expire="1950.1.1.1"
+		}
+	}
+}

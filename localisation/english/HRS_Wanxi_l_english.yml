@@ -1,0 +1,77 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ WAX_communism:0 "宛西自治区"
+ WAX_communism_DEF:0 "宛西自治区"
+ WAX_anarchism:0 "宛西自治区"
+ WAX_anarchism_DEF:0 "宛西自治区"
+ WAX_socialism:0 "宛西自治区"
+ WAX_socialism_DEF:0 "宛西自治区"
+ WAX_democratic:0 "宛西自治区"
+ WAX_democratic_DEF:0 "宛西自治区"
+ WAX_neutrality:0 "宛西自治区"
+ WAX_neutrality_DEF:0 "宛西自治区"
+ WAX_monarchism:0 "宛西自治区"
+ WAX_monarchism_DEF:0 "宛西自治区"
+ WAX_fascism:0 "宛西自治区"
+ WAX_fascism_DEF:0 "宛西自治区"
+ WAX_imperialism:0 "宛西自治区"
+ WAX_imperialism_DEF:0 "宛西自治区"
+ WAX_futurism:0 "宛西自治区"
+ WAX_futurism_DEF:0 "宛西自治区"
+ WAX_communism_ADJ:0 "宛西"
+ WAX_anarchism_ADJ:0 "宛西"
+ WAX_socialism_ADJ:0 "宛西"
+ WAX_democratic_ADJ:0 "宛西"
+ WAX_neutrality_ADJ:0 "宛西"
+ WAX_monarchism_ADJ:0 "宛西"
+ WAX_fascism_ADJ:0 "宛西"
+ WAX_imperialism_ADJ:0 "宛西"
+ WAX_futurism_ADJ:0 "宛西"
+ WAX:0 "宛西"
+ WAX_DEF:0 "宛西"
+ WAX_ADJ:0 "宛西"
+ #############
+ ## PARTIES ##
+ #############
+ WAX_communism_party:0 "社民农工党"
+ WAX_communism_party_long:0 "中国社会民主农工党"
+ WAX_anarchism_party:0 "中国新村社"
+ WAX_anarchism_party_long:0 "中国新村社"
+ WAX_socialism_party:0 "自治指导委员会"
+ WAX_socialism_party_long:0 "自治指导委员会"
+ WAX_democratic_party:0 "中华革命党"
+ WAX_democratic_party_long:0 "中华革命党"
+ WAX_neutrality_party:0 "民团联防会议"
+ WAX_neutrality_party_long:0 "民团联防会议"
+ WAX_monarchism_party:0 "孔教会"
+ WAX_monarchism_party_long:0 "孔教会"
+ WAX_fascism_party:0 "中国新民会"
+ WAX_fascism_party_long:0 "中国新民会"
+ WAX_imperialism_party:0 "黄卫军"
+ WAX_imperialism_party_long:0 "黄卫军"
+ WAX_futurism_party:0 "技术官僚"
+ WAX_futurism_party_long:0 "技术官僚"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ WAX_bie_tingfang:0 "别廷芳"
+ WAX_bie_tingfang_desc:0 "§Y出生日期§!：§G1883年12月25日年§!\n§Y出生地点§!：§G大东帝国南阳道内乡县§!\n\n§Y别廷芳§!是河南省南阳道内乡县人，他在十八岁时参军，参与过镇压§Y白朗起义§!的战斗，因枪法出众、战功显赫擢升为联队长，指挥三四千人的部队。别廷芳无法忍受自己的家乡遭此劫难，于是借助人脉关系拉起了一支民团，恰在此时，彭禹廷在乡村发起了§Y“三自主义”§!运动。深受感染的别廷芳向彭禹廷伸出了橄榄枝，双方一拍即合，宛西自治运动轰轰烈烈地展开。\n\n某种意义上说，别廷芳和彭禹廷是宛西自治运动的两面，别廷芳是秩序与法律的无情执行者，他坚信§t“乱世出重典”§!，冷酷无情地维护着自治区法律的权威，用子弹和监狱惩罚一切犯罪者。在别廷芳的雷霆手段之下，宛西秩序井然，经济活动迅速恢复，俨然战乱中的一方乐土。但是别廷芳很清楚，南阳一隅无法对抗环伺的强敌，宛西的未来仍然岌岌可危······"
+ WAX_peng_yuting:0 "彭禹廷"
+ WAX_peng_yuting_desc:0 "§Y出生日期§!：§G1893年§!\n§Y出生地点§!：§G大东帝国南阳道镇平县§!\n\n§Y彭禹廷§!出生于河南省南阳道镇平县，曾先后就读于河南省开封知新中学、开封优级师范、北洋大学。毕业后，他任教于省立南阳第五中学。彭禹廷潜心研究中国乡村振兴问题，曾创办§Y河南村治学院§!，培养乡村建设人才，以达到§G乡建治国§!的目的。在大东帝国内战爆发后，彭禹廷回到家乡，与宁洗古、别廷芳、陈重华等人发起自治运动。\n\n彭禹廷既有行政阅历，又有村治教育经验，很快就成了§Y宛西自治区§!实际上的领导者。彭禹廷为宛西自治提出了许多目标和理想，他总结了§Y“自治、自卫、自富”§!的“三自主义”口号，力图保宛西一方安宁。但是二人所面临的敌人除去流民、匪盗和军队，还有萦绕在宛西四周的虎狼之国，宛西若得生存，必定经历最严峻的考验。"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############
+ 
+ ##############
+ ## TOOLTIPS ##
+ ##############

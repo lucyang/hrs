@@ -1,0 +1,16 @@
+characters={
+	HNA_peng_huang={
+		name=HNA_peng_huang
+		portraits={
+			civilian={
+				large="gfx/leaders/HNA/Portrait_Peng_Huang.png"
+			}
+		}
+		country_leader={
+			ideology=anarcho_nationalism_subtype
+			desc=HNA_peng_huang_desc
+			traits={ anarchist_zeal our_right_to_survive }
+			expire="1949.10.1.1"
+		}
+	}
+}

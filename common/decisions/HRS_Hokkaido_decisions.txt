@@ -1,0 +1,42 @@
+HRS_ainu_issue = {
+	
+	HRS_make_ainu_states_core = {
+		
+		icon = generic_civil_support
+
+		days_remove = HRS_make_core_cost_days?0
+
+		state_target = yes
+
+		target_trigger = { 
+			FROM = {
+				is_hokkaido_state = yes
+				is_border_conflict = no
+				is_fully_controlled_by = ROOT
+				NOT = { is_core_of = ROOT }
+			}
+		}
+
+		available = {
+			is_hokkaido_nation = yes
+			AND = {
+				has_country_flag = AIN_recognize_ainu_people_tt
+				has_country_flag = AIN_respect_ainu_language_tt
+				has_country_flag = AIN_recover_ainu_territory_tt
+			}
+		}
+
+		visible = {
+			is_hokkaido_nation = yes
+		}
+
+		cost = 50
+		
+		complete_effect = {	
+		}
+
+		remove_effect = {
+			FROM = { add_core_of = ROOT }
+		}
+	}
+}

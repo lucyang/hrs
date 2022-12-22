@@ -1,0 +1,32 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_slot_prime_minister"
+		textureFile = "gfx/interface/officer_corp/select_advisor.dds"
+	}
+
+	#### ICON FOR NEW TYPES AUTONOMIES ####
+	spriteType = {
+		name = "GFX_autonomy_sputnik_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_sputnik_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_union_republic_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_union_republic_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_autonomous_republic_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_autonomous_republic_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_autonomous_region_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_autonomous_republic_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_autonomy_tributary_state_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_tributary_state_icon.dds"
+	}
+}

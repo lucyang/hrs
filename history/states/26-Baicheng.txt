@@ -1,0 +1,20 @@
+state={
+	id=26
+	name="STATE_26"
+	provinces={
+		888 1655 1957 1974 3125 3505 
+	}
+	history = {
+		owner = MAN
+		add_core_of = MAN
+		victory_points = {
+			888 3
+			}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=875777
+	state_category = rural
+	local_supplies = 0.0
+}

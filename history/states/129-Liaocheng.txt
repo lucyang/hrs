@@ -1,0 +1,21 @@
+state={
+	id=129
+	name="STATE_129"
+	provinces={
+		770 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 770 1 } #聊城
+		
+		buildings = {
+			infrastructure = 2
+		}
+		
+	}
+	manpower=3775814
+	state_category = town
+	local_supplies = 0.0
+}

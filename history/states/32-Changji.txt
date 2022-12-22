@@ -1,0 +1,21 @@
+state={
+	id=32
+	name="STATE_32"
+	provinces={
+		145 788 859 1269 1568 3051 3148 3559 4953 
+	}
+	history = {
+		owner = DZU
+		add_core_of = DZU
+
+		victory_points = { 4953 10 } #昌吉/吉木萨尔
+		victory_points = { 3559 1 } #乌鲁木齐
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=348191
+	state_category = town
+	local_supplies = 0.0
+}

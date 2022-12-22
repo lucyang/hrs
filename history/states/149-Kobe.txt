@@ -1,0 +1,37 @@
+
+state={
+	id=149
+	name="STATE_149"
+
+	history={
+		owner = IMJ
+		add_core_of = IMJ
+
+
+		victory_points = { 3725 3 } #神戸
+		victory_points = { 2373 1 } #姬路
+
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 4
+			air_base = 6
+			3725 = { #神戸港
+				naval_base = 4
+			}
+			2373 = { #姫路港
+				naval_base = 3
+			}
+		}
+
+	}
+
+	provinces={
+		2373 3191 3725 4276
+	}
+	manpower=608644
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

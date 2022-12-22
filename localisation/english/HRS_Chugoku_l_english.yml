@@ -1,0 +1,78 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ CGK_communism:0 "中国师管区"
+ CGK_communism_DEF:0 "中国师管区"
+ CGK_anarchism:0 "中国师管区"
+ CGK_anarchism_DEF:0 "中国师管区"
+ CGK_socialism:0 "中国师管区"
+ CGK_socialism_DEF:0 "中国师管区"
+ CGK_democratic:0 "中国师管区"
+ CGK_democratic_DEF:0 "中国师管区"
+ CGK_neutrality:0 "中国师管区"
+ CGK_neutrality_DEF:0 "中国师管区"
+ CGK_monarchism:0 "中国师管区"
+ CGK_monarchism_DEF:0 "中国师管区"
+ CGK_fascism:0 "中国师管区"
+ CGK_fascism_DEF:0 "中国师管区"
+ CGK_imperialism:0 "中国师管区"
+ CGK_imperialism_DEF:0 "中国师管区"
+ CGK_futurism:0 "中国师管区"
+ CGK_futurism_DEF:0 "中国师管区"
+ CGK_communism_ADJ:0 "中国师管区"
+ CGK_anarchism_ADJ:0 "中国师管区"
+ CGK_socialism_ADJ:0 "中国师管区"
+ CGK_democratic_ADJ:0 "中国师管区"
+ CGK_neutrality_ADJ:0 "中国师管区"
+ CGK_monarchism_ADJ:0 "中国师管区"
+ CGK_fascism_ADJ:0 "中国师管区"
+ CGK_imperialism_ADJ:0 "中国师管区"
+ CGK_futurism_ADJ:0 "中国师管区"
+ CGK:0 "中国师管区"
+ CGK_DEF:0 "中国师管区"
+ CGK_ADJ:0 "中国师管区"
+ #############
+ ## PARTIES ##
+ #############
+ CGK_communism_party:0 "日本共产党"
+ CGK_communism_party_long:0 "日本共产党"
+ CGK_anarchism_party:0 "黑联/全国联"
+ CGK_anarchism_party_long:0 "黑色青年联盟/全国劳动组合自由联合会"
+ CGK_socialism_party:0 "社会民众党"
+ CGK_socialism_party_long:0 "社会民众党"
+ CGK_democratic_party:0 "日本社会党"
+ CGK_democratic_party_long:0 "日本社会党"
+ CGK_neutrality_party:0 "师管区司令部"
+ CGK_neutrality_party_long:0 "广岛师管区司令部"
+ CGK_monarchism_party:0 "和朝效忠派"
+ CGK_monarchism_party_long:0 "和朝效忠派"
+ CGK_fascism_party:0 "日本解放阵线"
+ CGK_fascism_party_long:0 "日本解放阵线 - 革新派"
+ CGK_imperialism_party:0 "日本解放阵线"
+ CGK_imperialism_party_long:0 "日本解放阵线 - 泛亚派"
+ CGK_futurism_party:0 "日本解放阵线"
+ CGK_futurism_party_long:0 "日本解放阵线 - 改造派"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ CGK_ren_yuandao:0 "任援道"
+ CGK_ren_yuandao_desc:0 "§Y出生日期§!：§G1890年§!\n§Y出生地点§!：§G大东帝国苏常道宜兴县§!\n\n§Y任援道§!早年毕业于§Y保定陆军士官学校§!，后进入§Y帝国陆军大学§!学习，毕业后进入河北边防军任军官。1907年中俄期间，任援道随军出征，却因指挥能力低下，造成大量士兵无故战死。战争结束后，任援道被调任广岛师管区，任近卫师团§Y决兵团§!参谋，协助师团长佐佐木到一行动。在第四师团的起义后，南京政府要求广岛师管区夹击叛军，佐佐木到一战死，任援道不知去向。\n\n此后，任援道奇迹般地出现在广岛，他用权术控制了吴海军舰队，又收拢了数万散兵游勇，接管了整个广岛师管区。许多人一眼看穿了任援道的小九九，他的真实目的是要§R养寇自重§!。任援道把自己变成了中国地区的最高统治者，他可以借口“平叛需要”调用他想要的一切资源。为何要费劲去平叛？九州岛的下贱工人只是土鸡瓦狗，神户的军国狂人正头撞南墙——天下英雄，唯有任援道尔！"
+ CGK_sasaki_toichi:0 "佐佐木到一"
+ CGK_okabe_naozaburo:0 "岡部直三郎"
+ ###########
+ ## IDEAS ##
+ ###########
+ CGK_kamikaze_shidan:0 "神風师团"
+ CGK_kamikaze_shidan_desc:0 "“决”兵团，一支号称“陆军之花”的近卫师团。擅长白刃战和近距突击作战，他们的拿手好戏就是派出名为“神風队”的突击小队，寻找有利地形和条件渗透敌军防线，尔后进行密集的火力冲击和自杀式的白刃战，在敌军防线上撕开缺口，从而摧毁敌军防线、震慑敌军精神。但在荣光的背面，是他们因为帝国落后的后勤系统，常常得不到多少装备补给，不得不选择集中弹药资源进行近战突击的事实。"
+ CGK_lack_of_support:0 "孤立无援"
+ CGK_lack_of_support_desc:0 "决兵团的士兵都是山阴山阳地区的本地人。虽然都是老乡，但是当地人并不支持他们：在帝国残酷的压榨之下，反抗的意识压过了同乡的情谊。当他们在村庄驻扎，村民会悄悄藏起自己的粮食与牲畜；在城镇歇脚，会有人把情报悄悄告知给革命军；在野外宿营甚至会有地方自发组织的游击队偷袭他们……故乡从未像现在这样陌生。"
+ CGK_the_ambition:0 "任援道之野望"
+ CGK_the_ambition_desc:0 "尽管作为驻扎在广岛军管区的师团，追击并消灭叛军是决兵团的义务。暗藏野心的任援道却没什么意愿完成这个任务。决兵团从未像现在这样拥有如此巨大的自主权力，作为师团长，他可以借口“平叛需要”调用他想要的一切资源。而且现在帝国左支右绌，他的手中筹码更多······那为什么要去“平叛”？只要叛军无法跨过海峡，他的土皇帝就可以一直做下去······"
+ ############
+ ## EVENTS ##
+ ############

@@ -1,0 +1,751 @@
+add_namespace = ank
+
+###################
+# SHIMINBU EVENTS #
+###################
+country_event = { # Introduction
+	id = ank.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event ank.1"
+		hidden_effect = {
+			#load_oob = "PRK_militia"
+		}
+	}
+	title = ank.1.t
+	desc = ank.1.desc
+	picture = GFX_report_event_gathering_protest
+
+	is_triggered_only = yes
+
+	option = {
+		name = ank.1.a
+		country_event = { id = ank.2 days = 5 }
+	}
+}
+
+country_event = { # Military Aid from Manchuria
+	id = ank.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event ank.2"
+	}
+	title = ank.2.t
+	desc = ank.2.desc
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = { # Refuse
+		name = ank.2.a
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 0
+				MAN = { has_government = anarchism }
+			}
+			modifier = {
+				factor = 0
+				MAN = { has_government = communism }
+			}
+		}
+		MAN = {
+			add_opinion_modifier = {
+				target = ANK
+				modifier = refused_help
+			}
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.10
+		}
+		country_event = ank.3
+	}
+	option = { # Accept Civilian Aid in exchange of Changbai(45)
+		name = ank.2.b
+		ai_chance = {
+			base = 60
+			modifier = {
+				factor = 1.5
+				MAN = { has_government = anarchism }
+			}
+			modifier = {
+				factor = 2
+				MAN = { has_government = communism }
+			}
+		}
+		country_event = ank.3
+		54 = { 
+			add_claim_by = MAN
+			set_state_flag = STATE_claim_by_Manchuria
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 5000
+			producer = MAN
+		}
+		add_popularity = {
+			ideology = imperialism
+			popularity = 0.10
+		}
+		country_event = ank.3
+	}
+	option = { # Accept Their Aid in exchange of Changbai(45) and Yanbian(41)
+		name = ank.2.c
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 0
+				MAN = { has_government = imperialism }
+			}
+			modifier = {
+				factor = 1.5
+				MAN = { has_government = anarchism }
+			}
+			modifier = {
+				factor = 2
+				MAN = { has_government = communism }
+			}
+		}
+		add_offsite_building = { type = industrial_complex level = 1 }
+		add_offsite_building = { type = arms_factory level = 2 }
+		41 = { 
+			add_claim_by = MAN
+			set_state_flag = STATE_claim_by_Manchuria
+		}
+		54 = { 
+			add_claim_by = MAN
+			set_state_flag = STATE_claim_by_Manchuria
+		}
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 5000
+			producer = MAN
+		}
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.10
+		}
+		country_event = ank.3
+	}
+}
+country_event = { # Our Relationship with PRK
+	id = ank.3
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event ank.3"
+	}
+	title = ank.3.t
+	desc = ank.3.desc
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = { # Condemn them!
+		name = ank.3.a
+		ai_chance = {
+			base = 50
+			modifier = {
+				factor = 0
+				OR = {
+					MAN = { has_government = anarchism }
+					MAN = { has_government = communism }
+				}
+			}
+			modifier = {
+				factor = 1.5
+				MAN = { has_government = neutrality }
+			}
+		}
+		add_opinion_modifier = {
+			target = PRK
+			modifier = betrayed_alliance
+		}
+		PRK = {
+			add_opinion_modifier = {
+				target = ANK
+				modifier = betrayed_alliance
+			}
+		}
+		country_event = { id = ank.4 days = 3 }
+	}
+	option = { # Keep Alliance
+		name = ank.3.b
+		ai_chance = {
+			base = 50
+			modifier = {
+				factor = 2
+				OR = {
+					MAN = { has_government = anarchism }
+					MAN = { has_government = communism }
+				}
+			}
+			modifier = {
+				factor = 0
+				MAN = { has_government = neutrality }
+			}
+		}
+		add_opinion_modifier = {
+			target = PRK
+			modifier = anti_imperialist
+		}
+		PRK = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.10
+			}
+			add_opinion_modifier = {
+				target = ANK
+				modifier = anti_imperialist
+			}
+		}
+		country_event = { id = ank.4 days = 3 }
+	}
+}
+country_event = { # Invitation From Far Eastern Guerilla
+	id = ank.4
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event ank.4"
+	}
+	title = ank.4.t
+	desc = ank.4.desc
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = { # Aceept
+		name = ank.4.a
+		hidden_effect = {
+			country_event = { id = ank.6 days = 7 }
+		}
+	}
+	option = { # Refuse
+		name = ank.4.b
+		hidden_effect = {
+			country_event = { id = ank.9 days = 3 }
+		}
+	}
+}
+country_event = { # A Successful Negotiation
+	id = ank.5
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event ank.5"
+	}
+	title = ank.5.t
+	desc = ank.5.desc
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = { # Aceept
+		name = ank.5.a
+		10 = { add_resistance = 10 }
+		454 = { add_resistance = 10 }
+		458 = { add_resistance = 10 }
+		505 = { add_resistance = 10 }
+	}
+}
+country_event = { # Failure in Negotiation
+	id = ank.6
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event ank.5"
+	}
+	title = ank.6.t
+	desc = ank.6.desc
+	picture = GFX_report_event_dead_soldiers
+
+	is_triggered_only = yes
+
+	option = { # Kim was Killed
+		name = ank.6.a
+		retire_character = ANK_kim_chwajin
+		add_country_leader_role = {
+			character = ANK_anarchist_commune
+			country_leader={
+				ideology=anarcho_communism_subtype
+				desc=ANK_anarchist_commune_desc
+				traits={ our_right_to_survive }
+				expire="1950.1.1.1"
+			}
+			promote_leader = yes 
+		}
+		add_stability = -0.20
+		country_event = ank.7
+	}
+	option = { # Kim Escaped
+		name = ank.6.b
+		country_event = ank.8
+	}
+}
+country_event = { # Elect a New Leader without Kim Chwa-jin
+	id = ank.7
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event ank.5"
+		hidden_effect = {
+			add_popularity = {
+				ideology = anarchism
+				popularity = -0.20
+			}
+		}
+	}
+	title = ank.7.t
+	desc = ank.7.desc
+	picture = GFX_report_event_chinese_soldiers
+
+	is_triggered_only = yes
+
+	option = { # Kim Won-bong
+		name = ank.7.a
+		set_party_name = {
+			ideology = communism
+			long_name = ANK_communist_party_long
+			name = ANK_communist_party
+		}
+		set_party_name = {
+			ideology = anarchism
+			long_name = ANK_black_party_long
+			name = ANK_black_party
+		}
+		add_country_leader_role = {
+			character = ANK_kim_wonbong
+			country_leader={
+				ideology=leninism_subtype
+				desc=ANK_kim_wonbong_desc
+				traits={ militant_socialist }
+				expire="1958.11.10.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = communism elections_allowed = no }
+		set_country_flag = ROOT_is_communist
+		hidden_effect = {
+			add_country_leader_role = {
+				character = ANK_baek_cheongk
+				country_leader={
+					ideology=anarcho_communism_subtype
+					desc=ANK_baek_cheongk_desc
+					traits={ militant_socialist }
+					expire="1958.11.10.1"
+				}
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.20
+			}
+			add_popularity = {
+				ideology = anarchism
+				popularity = 0.10
+			}
+		}
+	}
+	option = { # Yu Lim
+		name = ank.7.b
+		set_party_name = {
+			ideology = communism
+			long_name = ANK_communist_party_long
+			name = ANK_communist_party
+		}
+		set_party_name = {
+			ideology = anarchism
+			long_name = ANK_socialist_party_long
+			name = ANK_socialist_party
+		}
+		add_country_leader_role = {
+			character = ANK_yu_lim
+			country_leader={
+				ideology=democratic_socialism_subtype
+				desc=ANK_yu_lim_desc
+				traits={ connected_citizen }
+				expire="1958.11.10.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = anarchism elections_allowed = no }
+		set_country_flag = ROOT_is_socialist
+		hidden_effect = {
+			add_country_leader_role = {
+				character = ANK_baek_cheongk
+				country_leader={
+					ideology=anarcho_communism_subtype
+					desc=ANK_baek_cheongk_desc
+					traits={ leftist_independent }
+					expire="1958.11.10.1"
+				}
+			}
+			add_popularity = {
+				ideology = anarchism
+				popularity = 0.20
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.10
+			}
+		}
+	}
+	option = { # Kim Kyeong-cheon
+		name = ank.7.c
+		set_party_name = {
+			ideology = communism
+			long_name = ANK_worker_party_long
+			name = ANK_worker_party
+		}
+		add_country_leader_role = {
+			character = ANK_kim_kyeongcheon
+			country_leader={
+				ideology=military_socialism_subtype
+				desc=ANK_kim_kyeongcheon_desc
+				traits={ white_horse_kim }
+				expire="1964.7.8.1"
+			}
+			promote_leader = yes
+		}
+		set_politics = { ruling_party = communism elections_allowed = no }
+		set_country_flag = ROOT_is_communist
+		hidden_effect = {
+			add_country_leader_role = {
+				character = ANK_sin_chaeho
+				country_leader={
+					ideology=anarcho_nationalism_subtype
+					desc=ANK_sin_chaeho_desc
+					traits={ nationalist_symbol }
+					expire="1958.11.10.1"
+				}
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.20
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.15
+			}
+			add_popularity = {
+				ideology = imperialism
+				popularity = 0.05
+			}
+		}
+	}
+}
+country_event = { # Kim was Heavily Hurt and Elect a New Leader
+	id = ank.8
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event ank.8"
+		hidden_effect = {
+			add_popularity = {
+				ideology = anarchism
+				popularity = -0.20
+			}
+		}
+	}
+	title = ank.8.t
+	desc = ank.8.desc
+	picture = GFX_report_event_chinese_soldiers
+
+	is_triggered_only = yes
+
+	option = { # Kim Chwa-jin
+		name = ank.8.a
+		add_country_leader_role = {
+			character = ANK_kim_chwajin
+			country_leader={
+				ideology=anarcho_communism_subtype
+				desc=ANK_kim_chwajin_desc
+				traits={ revolutionary_general }
+				expire="1958.11.10.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = anarchism elections_allowed = no }
+		set_country_flag = ROOT_is_anarchist
+		hidden_effect = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = anarchism
+				popularity = 0.15
+			}
+		}
+	}
+	option = { # Sin Chae-ho
+		name = ank.8.b
+		add_country_leader_role = {
+			character = ANK_sin_chaeho
+			country_leader={
+				ideology=anarcho_nationalism_subtype
+				desc=ANK_sin_chaeho_desc
+				traits={ nationalist_symbol }
+				expire="1958.11.10.1"
+			}
+			promote_leader = yes
+		}
+		set_politics = { ruling_party = anarchism elections_allowed = no }
+		set_country_flag = ROOT_is_anarchist
+		hidden_effect = {
+			add_popularity = {
+				ideology = anarchism
+				popularity = 0.15
+			}
+			add_popularity = {
+				ideology = imperialism
+				popularity = 0.10
+			}
+		}
+	}
+	option = { # Yu Lim
+		name = ank.8.c
+		set_party_name = {
+			ideology = anarchism
+			long_name = ANK_socialist_party_long
+			name = ANK_socialist_party
+		}
+		add_country_leader_role = {
+			character = ANK_yu_lim
+			country_leader={
+				ideology=democratic_socialism_subtype
+				desc=ANK_yu_lim_desc
+				traits={ connected_citizen }
+				expire="1958.11.10.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = anarchism elections_allowed = no }
+		set_country_flag = ROOT_is_socialist
+		hidden_effect = {
+			add_popularity = {
+				ideology = anarchism
+				popularity = 0.20
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.10
+			}
+		}
+	}
+	option = { # Commune!
+		name = ank.8.d
+		add_country_leader_role = {
+			character = ANK_anarchist_commune
+			country_leader={
+				ideology=anarcho_communism_subtype
+				desc=ANK_anarchist_commune_desc
+				traits={ our_right_to_survive }
+				expire="1950.1.1.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = anarchism elections_allowed = no }
+		set_country_flag = ROOT_is_anarchist
+		hidden_effect = {
+			add_popularity = {
+				ideology = anarchism
+				popularity = 0.20
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.10
+			}
+		}
+	}
+}
+country_event = { # Kim Chwa-jin was Assassinated
+	id = ank.9
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event ank.9"
+		hidden_effect = {
+			add_stability = -0.30
+			retire_character = ANK_kim_chwajin
+			add_country_leader_role = {
+				character = ANK_anarchist_commune
+				country_leader={
+					ideology=anarcho_communism_subtype
+					desc=ANK_anarchist_commune_desc
+					traits={ desperate_gambit }
+					expire="1950.1.1.1"
+				}
+				promote_leader = yes 
+			}
+			set_politics = { ruling_party = anarchism elections_allowed = no }
+		}
+	}
+	title = ank.9.t
+	desc = ank.9.desc
+	picture = GFX_report_event_dead_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = ank.9.a
+		country_event = ank.10
+	}
+	option = {
+		name = ank.9.b
+		country_event = ank.7
+	}
+}
+country_event = { # Great Purge and Civil Conflicts; Elect a New Leader
+	id = ank.10
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event ank.10"
+		hidden_effect = {
+			add_stability = -0.30
+			retire_character = ANK_kim_wonbong
+			add_popularity = {
+				ideology = communism
+				popularity = 0.30
+			}
+		}
+	}
+	title = ank.10.t
+	desc = ank.10.desc
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = { # Yu Lim
+		name = ank.10.a
+		set_party_name = {
+			ideology = anarchism
+			long_name = ANK_socialist_party_long
+			name = ANK_socialist_party
+		}
+		add_country_leader_role = {
+			character = ANK_yu_lim
+			country_leader={
+				ideology=democratic_socialism_subtype
+				desc=ANK_yu_lim_desc
+				traits={ connected_citizen }
+				expire="1958.11.10.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = anarchism elections_allowed = no }
+		set_country_flag = ROOT_is_socialist
+		hidden_effect = {
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.15
+			}
+			set_party_name = {
+				ideology = communism
+				long_name = ANK_worker_party_long
+				name = ANK_worker_party
+			}
+			add_country_leader_role = {
+				character = ANK_hong_beomdo
+				country_leader={
+					ideology=leninism_subtype
+					desc=ANK_hong_beomdo_desc
+					traits={ revolutionary_general }
+					expire="1958.11.10.1"
+				}
+			}
+		}
+	}
+	option = { # Yu Cha-myeong
+		name = ank.10.b
+		set_party_name = {
+			ideology = anarchism
+			long_name = ANK_black_party_long
+			name = ANK_black_party
+		}
+		add_country_leader_role = {
+			character = ANK_yu_chamyeong
+			country_leader={
+				ideology=anarcho_communism_subtype
+				desc=ANK_yu_chamyeong_desc
+				traits={ militant_socialist }
+				expire="1958.11.10.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = anarchism elections_allowed = no }
+		set_country_flag = ROOT_is_anarchist
+		hidden_effect = {
+			set_party_name = {
+				ideology = communism
+				long_name = ANK_worker_party_long
+				name = ANK_worker_party
+			}
+			add_country_leader_role = {
+				character = ANK_kim_kyeongcheon
+				country_leader={
+					ideology=leninism_subtype
+					desc=ANK_kim_kyeongcheon_desc
+					traits={ white_horse_kim }
+					expire="1958.11.10.1"
+				}
+			}
+		}
+	}
+	option = { # Baek Cheong-ki
+		name = ank.10.c
+		set_party_name = {
+			ideology = anarchism
+			long_name = ANK_black_party_long
+			name = ANK_black_party
+		}
+		add_country_leader_role = {
+			character = ANK_baek_cheongki
+			country_leader={
+				ideology=anarcho_communism_subtype
+				desc=ANK_baek_cheongki_desc
+				traits={ revolutionary_author }
+				expire="1958.11.10.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = anarchism elections_allowed = no }
+		set_country_flag = ROOT_is_anarchist
+		hidden_effect = {
+			set_party_name = {
+				ideology = communism
+				long_name = ANK_worker_party_long
+				name = ANK_worker_party
+			}
+			add_country_leader_role = {
+				character = ANK_kim_kyeongcheon
+				country_leader={
+					ideology=leninism_subtype
+					desc=ANK_kim_kyeongcheon_desc
+					traits={ white_horse_kim }
+					expire="1958.11.10.1"
+				}
+			}
+		}
+	}
+	option = { # Hong Beom-do
+		name = ank.10.d
+		set_party_name = {
+			ideology = anarchism
+			long_name = ANK_army_party_long
+			name = ANK_army_party
+		}
+		add_country_leader_role = {
+			character = ANK_hong_beomdo
+			country_leader={
+				ideology=national_communism_subtype
+				desc=ANK_hong_beomdo_desc
+				traits={ revolutionary_general }
+				expire="1958.11.10.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = anarchism elections_allowed = no }
+		set_country_flag = ROOT_is_communist
+		hidden_effect = {
+			set_party_name = {
+				ideology = communism
+				long_name = ANK_worker_party_long
+				name = ANK_worker_party
+			}
+			add_country_leader_role = {
+				character = ANK_kim_kyeongcheon
+				country_leader={
+					ideology=leninism_subtype
+					desc=ANK_kim_kyeongcheon_desc
+					traits={ white_horse_kim }
+					expire="1958.11.10.1"
+				}
+			}
+		}
+	}
+}

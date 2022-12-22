@@ -1,0 +1,16 @@
+characters={
+	AMD_kashopa_chogyal_nyima={
+		name=AMD_kashopa_chogyal_nyima
+		portraits={
+			civilian={
+				large="gfx/leaders/AMD/Portrait_Kashopa_Chogyal_Nyima.png"
+			}
+		}
+		country_leader={
+			ideology=interim_government_subtype
+			desc=AMD_kashopa_chogyal_nyima_desc
+			traits={  }
+			expire="1986.12.19.1"
+		}
+	}
+}

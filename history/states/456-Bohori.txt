@@ -1,0 +1,25 @@
+
+state={
+	id=456
+	name="STATE_456"
+
+	history={
+		owner = ZDJ
+		add_core_of = DAL
+		add_claim_by = MAN
+		victory_points = { 3463 5 }
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+
+	}
+
+	provinces={
+		939 3463 
+	}
+	manpower=188360
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,28 @@
+state={
+	id=246
+	name="STATE_246"
+	provinces={
+		612 2239 2535 2546 2786 3036 3304 3321 3854 3856 3866 3867 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 3321 10 } #杭州
+		victory_points = { 3854 5 } #桐庐
+		victory_points = { 2239 1 } #建德
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 5
+			dockyard = 2
+			3321 = {
+				naval_base = 6
+			}
+		}
+
+	}
+	manpower=2465000
+	state_category = metropolis
+	local_supplies = 0.0
+}

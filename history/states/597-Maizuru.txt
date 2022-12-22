@@ -1,0 +1,30 @@
+
+state={
+	id=597
+	name="STATE_597"
+
+	history={
+		owner = IMJ
+		add_core_of = IMJ
+
+			
+		victory_points = { 2172 1 } #舞鶴		
+
+		buildings = {
+			infrastructure = 3
+			dockyard = 3
+			2172 = {
+				naval_base = 4
+			}
+		}
+
+	}
+
+	provinces={
+		2172
+	}
+	manpower=695824
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

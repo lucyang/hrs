@@ -1,0 +1,44 @@
+scripted_gui = {
+
+	HRS_ruling_party = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "HRS_ruling_party_container"
+
+		ai_enabled = {
+			always = no
+		}
+
+		visible = {
+			always = yes
+		}
+	}
+
+	HRS_subideology = {
+		context_type = player_context
+		parent_window_token = politics_tab
+		window_name = "HRS_subideology_container"
+
+		ai_enabled = {
+			always = no
+		}
+
+		visible = {
+			always = yes
+		}
+	}
+
+	HRS_subideology_diplo = {
+		context_type = selected_country_context
+		parent_window_token = selected_country_view_diplomacy
+		window_name = "HRS_subideology_diplo_container"
+
+		ai_enabled = {
+			always = no
+		}
+
+		visible = {
+			always = yes
+		}
+	}
+}

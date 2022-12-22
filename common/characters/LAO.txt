@@ -1,0 +1,114 @@
+characters={
+	IND_indochina_laos={
+		name=IND_indochina_laos
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Portrait_Indochina_Laos.png"
+			}
+		}
+		country_leader={
+			ideology=marxism_subtype
+			desc=IND_indochina_laos_desc
+			traits={ }
+			expire="1995.1.9.1"
+		}
+	}
+	LAO_souphanouvong={ #苏发努冯亲王
+		name=LAO_souphanouvong
+		portraits={
+			civilian={
+				large="gfx/leaders/LAO/Portrait_Souphanouvong.png"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_front_subtype
+			desc=LAO_souphanouvong_desc
+			traits={ }
+			expire="1995.1.9.1"
+		}
+	}
+	LAO_souvanna_phouma={ #梭发那·富马亲王
+		name=LAO_souvanna_phouma
+		portraits={
+			civilian={
+				large="gfx/leaders/LAO/Portrait_Souvanna_Phouma.png"
+			}
+		}
+		country_leader={
+			ideology=neo_liberalism_subtype
+			desc=LAO_souvanna_phouma_desc
+			traits={ }
+			expire="1985.5.18.1"
+		}
+	}
+	LAO_phetsarath_ratanavongsa={ #佩差拉·拉达纳冯亲王
+		name=LAO_phetsarath_ratanavongsa
+		portraits={
+			civilian={
+				large="gfx/leaders/LAO/Portrait_Phetsarath_Ratanavongsa.png"
+			}
+		}
+		country_leader={
+			ideology=guided_democracy_subtype
+			desc=LAO_phetsarath_ratanavongsa_vong_desc
+			traits={ }
+			expire="1959.10.14.1"
+		}
+	}
+	LAO_sisavang_vong={ #西萨旺·冯
+		name=LAO_sisavang_vong
+		portraits={
+			civilian={
+				large="gfx/leaders/LAO/Portrait_Sisavang_Vong.png"
+			}
+		}
+		#country_leader={
+		#	ideology=absolute_monarchy_subtype
+		#	desc=LAO_sisavang_vong_desc
+		#	traits={ }
+		#	expire="1959.10.29.1"
+		#}
+	}
+	LAO_boun_oum={ #文翁亲王
+		name=LAO_boun_oum
+		portraits={
+			civilian={
+				large="gfx/leaders/LAO/Portrait_Boun_Oum.png"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_subtype
+			desc=LAO_boun_oum_desc
+			traits={ }
+			expire="1960.4.3.1"
+		}
+	}
+	LAO_sisowath_monireth={ #西索瓦·莫尼勒
+		name=LAO_sisowath_monireth
+		portraits={
+			civilian={
+				large="gfx/leaders/LAO/Portrait_Sisowath_Monireth.png"
+			}
+		}
+		#country_leader={
+		#	ideology=absolute_monarchy_subtype
+		#	desc=LAO_sisowath_monireth_desc
+		#	traits={ }
+		#	expire="1960.4.3.1"
+		#}
+	}
+	LAO_norodom_sihanouk={ #诺罗敦·西哈努克
+		name=LAO_norodom_sihanouk
+		portraits={
+			civilian={
+				large="gfx/leaders/LAO/Portrait_Norodm_Sihanouk.png"
+			}
+		}
+		#country_leader={
+		#	ideology=absolute_monarchy_subtype
+		#	desc=LAO_norodom_sihanouk_desc
+		#	traits={ }
+		#	expire="1960.4.3.1"
+		#}
+	}
+}

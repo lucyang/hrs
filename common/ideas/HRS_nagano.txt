@@ -1,0 +1,38 @@
+ideas = {
+	country = {
+		NGN_collapsed_countryside = {
+			name = NGN_collapsed_countryside
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = NGN_collapsed_countryside
+			modifier = {
+				stability_factor = -0.15
+				consumer_goods_factor = 0.1
+			}
+		}
+
+		NGN_konmintou = {
+			name = NGN_konmintou
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = NGN_konmintou
+			modifier = {
+				war_support_factor = 0.1
+				conscription = 0.02
+				army_org_regain = -0.1
+			}
+		}
+	}
+}

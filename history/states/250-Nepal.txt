@@ -1,0 +1,25 @@
+state={
+	id=250
+	name="STATE_250"
+	provinces={
+		168 242 549 1693 2473 2670 3896 3914 3930 3941 
+	}
+	history = {
+		owner = NEP
+		add_core_of = NEP
+
+		victory_points = { 168 10 } #加德满都
+		victory_points = { 3914 5 } #博卡拉
+		victory_points = { 3896 1 } #丹加地
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1	
+		}
+		
+	}
+	manpower=5573791
+	state_category = rural
+	local_supplies = 0.0
+}

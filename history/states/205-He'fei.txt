@@ -1,0 +1,22 @@
+state={
+	id=205
+	name="STATE_205"
+	provinces={
+		1469 2290 2571 2755 3163 3810
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 3163 5 } #合肥
+		victory_points = { 2755 1 } #巢湖
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+	}
+	manpower=183570
+	state_category = city
+	local_supplies = 0.0
+}

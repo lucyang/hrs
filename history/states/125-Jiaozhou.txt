@@ -1,0 +1,23 @@
+state={
+	id=125
+	name="STATE_125"
+	provinces={
+		1282 1446 2425 2559 3684 3706
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 2559 1 } #胶州
+		
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+	manpower=1720278
+	state_category = city
+	local_supplies = 0.0
+}

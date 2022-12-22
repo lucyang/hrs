@@ -1,0 +1,104 @@
+add_namespace = chq_rev
+
+####################
+# CHONGQING EVENTS #
+####################
+country_event = {
+	id = chq_rev.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event chq_rev.1"
+		hidden_effect = {
+			CHQ = {
+				add_political_power = 50
+				#load_oob = "CHQ_1923"
+				every_state = {
+					limit = { is_east_sichuan_state = yes }
+					transfer_state_to = CHQ
+				}
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 2000
+					producer = IMC
+				}
+				country_event = { id = chq_rev.2 days = 7 }
+			}
+		}
+	}
+	title = chq_rev.1.t
+	desc = chq_rev.1.desc
+	picture = GFX_report_event_basuria_independence
+
+	is_triggered_only = yes
+
+	option = {
+		name = chq_rev.1.a
+		CHQ = { change_tag_from = ROOT }
+	}
+	option = {
+		name = chq_rev.1.b
+	}
+}
+country_event = {
+	id = chq_rev.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event chq_rev.2"
+	}
+	title = chq_rev.2.t
+	desc = chq_rev.2.desc
+	picture = GFX_report_event_basuria_independence
+
+	is_triggered_only = yes
+
+	option = { # Zhang Ji
+		name = chq_rev.2.b
+		ai_chance = {
+			base = 50
+		}
+		set_politics = { ruling_party = anarchism }
+		add_political_power = 10
+		add_ideas = {
+			collective_economy
+			unitary_state1
+		}
+		hidden_effect = {
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.10
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.15
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.10
+			}
+		}
+	}
+	option = { # Zou Rong
+		name = chq_rev.2.a
+		ai_chance = {
+			base = 50
+		}
+		set_politics = { ruling_party = imperialism }
+		add_political_power = 30
+		add_ideas = {
+			dirigisme_economy
+			federation1
+		}
+		hidden_effect = {
+			add_popularity = {
+				ideology = imperialism
+				popularity = 0.20
+			}
+			add_popularity = {
+				ideology = anarchism
+				popularity = -0.15
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.10
+			}
+		}
+	}
+}

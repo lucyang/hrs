@@ -1,0 +1,83 @@
+characters={
+	MON_rinchingiin_elbegdorj={
+		name=MON_rinchingiin_elbegdorj
+		portraits={
+			civilian={
+				large="gfx/leaders/MON/Portrait_Rinchingiin_Elbegdorj.png"
+			}
+		}
+		country_leader={
+			ideology=stalinism_subtype
+			desc=MON_rinchingiin_elbegdorj_desc
+			traits={ soviet_thaw international_revolutionary }
+			expire="1950.1.1.1"
+		}
+	}
+	MON_peljidiin_genden={
+		name=MON_peljidiin_genden
+		portraits={
+			civilian={
+				large="gfx/leaders/MON/Portrait_Peljidiin_Genden.png"
+			}
+		}
+		country_leader={
+			ideology=national_communism_subtype
+			desc=MON_peljidiin_genden_desc
+			traits={ leftist_independent veteran_communist }
+			expire="1950.1.1.1"
+		}
+	}
+	MON_dogsomyn_bodoo={
+		name=MON_dogsomyn_bodoo
+		portraits={
+			civilian={
+				large="gfx/leaders/MON/Portrait_Dogsomyn_Bodoo.png"
+			}
+		}
+		country_leader={
+			ideology=socialism_subtype
+			desc=MON_dogsomyn_bodoo_desc
+			traits={ collectivization_specialist ideological_groupie }
+			expire="1950.1.1.1"
+		}
+	}
+	MON_soliin_danzan={
+		name=MON_soliin_danzan
+		portraits={
+			civilian={
+				large="gfx/leaders/MON/Portrait_Soliin_Danzan.png"
+			}
+		}
+		country_leader={
+			ideology=national_liberalism_subtype
+			desc=MON_soliin_danzan_desc
+			traits={ social_reformer unscrupulous_orchestrator }
+			expire="1950.1.1.1"
+		}
+	}
+	MON_damdin_sukhbaatar={
+		name=MON_damdin_sukhbaatar
+		portraits={
+			civilian={
+				large="gfx/leaders/MON/Portrait_Damdin_Sukhbaatar.png"
+			}
+			army={
+				large="gfx/leaders/MON/Portrait_Damdin_Sukhbaatar.png"
+			}
+		}
+		country_leader={
+			ideology=military_government_subtype
+			desc=MON_damdin_sukhbaatar_desc
+			traits={ revolutionary_general popular_figurehead2 }
+			expire="1950.1.1.1"
+		}
+		corps_commander={
+			traits={ inspirational_leader cavalry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+}

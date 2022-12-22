@@ -1,0 +1,44 @@
+is_ryukyu_nation = {
+	OR = {
+		original_tag = RYU
+		original_tag = AMM
+		original_tag = MYK
+		original_tag = YYM
+	}
+}
+
+is_ryukyu_unifier = {
+	OR = {
+		original_tag = RYU
+		original_tag = AMM
+		original_tag = MYK
+		original_tag = YYM
+	}
+}
+
+is_ryukyu_state = {
+	AND = {
+		state = 289 #琉球
+		state = 547 #奄美
+		state = 548 #宫古
+		state = 549 #八重山
+	}
+}
+
+is_any_ryukyu_state = {
+	OR = {
+		state = 289 #琉球
+		state = 547 #奄美
+		state = 548 #宫古
+		state = 549 #八重山
+	}
+}
+
+can_form_ryukyu = {
+	AND = {
+		owns_state = 289 #琉球
+		owns_state = 547 #奄美
+		owns_state = 548 #宫古
+		owns_state = 549 #八重山
+	}
+}

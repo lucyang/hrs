@@ -1,0 +1,54 @@
+﻿capital = 374 # 西双版纳
+
+recruit_character = CHH_dao_dongliang
+
+oob = "empty"
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	basic_train = 1
+	gw_artillery = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	fuel_refining = 1
+}
+
+add_ideas = {
+	closed_economy
+	feudal_levy
+	war_economy
+}
+add_ideas = {
+	country_development1
+	country_tech2
+	market_economy
+	federation
+}
+
+set_research_slots = 1
+set_convoys = 10
+set_stability = 0.50
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1923.10.30"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	anarchism = 0
+	socialism = 0
+	democratic = 7
+	neutrality = 72
+	monarchism = 18
+	fascism = 0
+	imperialism = 3
+	futurism = 0
+}

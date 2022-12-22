@@ -1,0 +1,73 @@
+﻿capital = 234 # Lhasa
+
+oob = "empty"
+
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+recruit_character = TIB_thubten_gyatso # 十三世达赖喇嘛
+recruit_character = TIB_thubten_choekyi_nyima # 九世班禅喇嘛
+recruit_character = TIB_tsipon_lungshar # 龙夏·多吉次杰
+recruit_character = TIB_thubten_kunphela # 土登贡培
+recruit_character = TIB_tsarong_dasang_dramdul # 擦绒·达桑占堆
+recruit_character = TIB_changgnopa_ringang # 强俄巴·仁增多吉
+recruit_character = TIB_zhang_yintang # 张荫棠
+
+set_cosmetic_tag = TIB_DZU
+
+give_military_access = DZU
+give_military_access = IMC
+give_resource_rights = { receiver = IMC state = 267 }
+add_offsite_building = { type = industrial_complex level = 2 }
+set_country_flag = has_investment_industrial_complex_2
+add_offsite_building = { type = arms_factory level = 1 }
+set_country_flag = has_investment_arms_factory_1
+
+set_power_balance = {
+	id = TIB_power_balance
+	set_default = yes
+}
+
+add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = 1200
+    producer = IMC
+}
+add_equipment_to_stockpile = {
+    type = artillery_equipment
+    amount = 50
+    producer = IMC
+}
+
+add_ideas = {
+	civilian_economy
+	feudal_levy
+	free_trade
+}
+add_ideas = {
+	country_development
+	country_tech1
+	natural_economy
+	primitive_state
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1923.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	anarchism = 0
+	socialism = 7
+	democratic = 19
+	neutrality = 31
+	monarchism = 29
+	fascism = 14
+	imperialism = 0
+	futurism = 0
+}

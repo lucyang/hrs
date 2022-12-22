@@ -1,0 +1,238 @@
+# Adjacency rules determine if an army, navy or trade can pass through the adjacency (e.g. a canal or strait).
+#
+# If two countries at war control provinces in the adjacency it is considered contested.
+# The optional triggers is_enemy, is_friend and is_neutral are evaluated in order and if one evaluates to true the corresponding rule is used.
+# If is_enemy and is_friend evaluates to false the neutral rule is used. In this case the is_neutral trigger will not be evaluated at all.
+# If is_friend and is_neutral evaluates to false the enemy rule is used.
+# If is_enemy and is_neutral evaluates to false the friend rule is used.
+# If any adjacency province controller is at war with the country the enemy rule is used, unless is_enemy evaluates to false, then the neutral rule is used.
+# If any adjacency province controller is an ally of is giving military access to the country the friend rule is used, unless is_friend evaluates to false, then the neutral rule is used.
+# Otherwise the neutral rule is used, unless is_neutral evaluates to false, then the enemy rule is used.
+#
+# The 'name' property is how you refer to the rule in adjacencies.csv
+
+#offset x是横坐标 y是高度 z是自下往上的纵坐标
+
+
+#长江口
+
+adjacency_rule = {
+
+	name = "CHANGJIANGKOU_NORTH"	#北岸
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	
+	required_provinces = { 1271 3800 }
+	
+	icon = 4642
+
+	offset = { -20 0 26 }		#补给区域地图icon的显示偏移，和上面的icon一样不会实时刷新
+}
+
+adjacency_rule = {
+
+	name = "CHANGJIANGKOU_SOUTH"	#南岸
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	
+	required_provinces = { 3285 3310 3815 }
+
+	icon = 4717
+
+	offset = { 55 0 -16 }
+
+}
+
+#珠江口
+
+adjacency_rule = {
+
+	name = "ZHUJIANGKOU"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+
+	is_disabled = {
+		has_global_flag = Zhujiangkou_Blocked		#意思是有这个Flag就彻底剥夺通行权
+	}
+	
+	required_provinces = { 2724 2877 }
+	
+	icon = 4649
+	offset = { 0 0 0 }
+}
+#对马隧道东段
+
+adjacency_rule = {
+
+	name = "TSUSHIMA_TUNNEL_EAST"
+
+	contested =
+	{
+		army = no
+		navy = yes
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = yes
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+
+	is_disabled = {
+		OR = {
+			has_global_flag = Tsushima_Tunnel_East_Blocked
+			has_global_flag = Tsushima_Tunnel_East_Unfinished
+		}
+	}
+	
+	required_provinces = { 3772 4275 }
+	
+	icon = 4275
+	offset = { 0 0 0 }
+}
+
+#对马隧道西段
+
+adjacency_rule = {
+
+	name = "TSUSHIMA_TUNNEL_WEST"
+
+	contested =
+	{
+		army = no
+		navy = yes
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = yes
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+
+	is_disabled = {
+		OR = {
+			has_global_flag = Tsushima_Tunnel_West_Blocked
+			has_global_flag = Tsushima_Tunnel_West_Unfinished
+		}
+	}
+	
+	required_provinces = { 971 2409 }
+	
+	icon = 971
+	offset = { 0 0 0 }
+}

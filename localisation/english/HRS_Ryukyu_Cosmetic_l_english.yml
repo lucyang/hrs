@@ -1,0 +1,71 @@
+﻿l_english:
+ ################
+ ## DECISIONS  ##
+ ################
+ HRS_reunify_ryukyu:0 "结束琉球内战"
+ can_form_ryukyu_tt:0 "控制§Y琉球§!地区\n"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ AMM_regional_unifier_neutrality:0 "南西诸岛军管区"
+ AMM_regional_unifier_neutrality_DEF:0 "南西诸岛军管区"
+ AMM_regional_unifier_neutrality_ADJ:0 "南西诸岛"
+
+ RYU_kingdom_regional_unifier_socialism:0 "琉球国"
+ RYU_kingdom_regional_unifier_socialism_DEF:0 "琉球国"
+ RYU_kingdom_regional_unifier_democratic:0 "琉球国"
+ RYU_kingdom_regional_unifier_democratic_DEF:0 "琉球国"
+ RYU_kingdom_regional_unifier_neutrality:0 "琉球国"
+ RYU_kingdom_regional_unifier_neutrality_DEF:0 "琉球国"
+ RYU_kingdom_regional_unifier_monarchism:0 "琉球国"
+ RYU_kingdom_regional_unifier_monarchism_DEF:0 "琉球国"
+ RYU_kingdom_regional_unifier_socialism_ADJ:0 "琉球"
+ RYU_kingdom_regional_unifier_democratic_ADJ:0 "琉球"
+ RYU_kingdom_regional_unifier_neutrality_ADJ:0 "琉球"
+ RYU_kingdom_regional_unifier_monarchism_ADJ:0 "琉球"
+
+ RYU_republic_regional_unifier_anarchism:0 "琉球人民共和国"
+ RYU_republic_regional_unifier_anarchism_DEF:0 "琉球人民共和国"
+ RYU_republic_regional_unifier_socialism:0 "琉球民主共和国"
+ RYU_republic_regional_unifier_socialism_DEF:0 "琉球民主共和国"
+ RYU_republic_regional_unifier_democratic:0 "琉球共和国"
+ RYU_republic_regional_unifier_democratic_DEF:0 "琉球共和国"
+ RYU_republic_regional_unifier_anarchism_ADJ:0 "琉球"
+ RYU_republic_regional_unifier_socialism_ADJ:0 "琉球"
+ RYU_republic_regional_unifier_democratic_ADJ:0 "琉球"
+
+ YYM_regional_unifier_socialism:0 "琉球联邦"
+ YYM_regional_unifier_socialism_DEF:0 "琉球联邦"
+ YYM_regional_unifier_democratic:0 "琉球联邦"
+ YYM_regional_unifier_democratic_DEF:0 "琉球联邦"
+ YYM_regional_unifier_socialism_ADJ:0 "琉球"
+ YYM_regional_unifier_democratic_ADJ:0 "琉球"
+ 
+ MYK_regional_unifier_socialism:0 "琉球联邦"
+ MYK_regional_unifier_socialism_DEF:0 "琉球联邦"
+ MYK_regional_unifier_democratic:0 "琉球联邦"
+ MYK_regional_unifier_democratic_DEF:0 "琉球联邦"
+ MYK_regional_unifier_socialism_ADJ:0 "琉球"
+ MYK_regional_unifier_democratic_ADJ:0 "琉球"
+ #############
+ ### EVENT ###
+ #############
+ ryu_news.1.t:0 "尚氏王朝复辟"
+ ryu_news.1.desc:0 "“国祚王统长久，至小石长成大岩。”\n——《石投子之歌》"
+ ryu_news.1.a:0 "天赐圣号，为天下王"
+ 
+ ryu_news.2.t:0 "琉球国的新生"
+ ryu_news.2.desc:0 "“夫治天下犹曳大木然，前者唱邪，后者唱许。君与臣，共曳木之人也。”\n——黄宗羲"
+ ryu_news.2.a:0 "邦畿千里，圣躬万岁"
+
+ ryu_news.3.t:0 "琉球共和国成立"
+ ryu_news.3.desc:0 "“一个国家要达到全体完备，唯有人民的力量与政府的力量并行，始能期待其成功。”\n——福泽谕吉"
+ ryu_news.3.a:0 "琉球国的新生"
+
+ ryu_news.4.t:0 "帝国军团重返列岛"
+ ryu_news.4.desc:0 "“倭寇表明了我们有能力和列强为伍。我们在盗窃、杀戮、奸淫这些方面，绝不落后于那些来寻找黄金岛的荷兰人与法英人。”\n——芥川龙之介"
+ ryu_news.4.a:0 "血红的太阳于黑糖地狱升起"
+
+ ryu_news.5.t:0 "琉球联邦诞生"
+ ryu_news.5.desc:0 "“要将近一千的人才能让船动一步。国家也是一样的，处理好国民意见的分歧，是比任何事情都重要的。”\n——铃木贯太郎"
+ ryu_news.5.a:0 "多元而团结"

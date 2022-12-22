@@ -1,0 +1,25 @@
+state={
+	id=549
+	name="STATE_549"
+	provinces={
+		4288 4289 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 4288 1 } #石垣
+
+		buildings = {
+			infrastructure = 1
+			4288 = {
+				naval_base = 1
+			}
+		}
+
+	}
+	manpower=42675
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+	local_supplies=0.000
+}

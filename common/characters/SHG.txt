@@ -1,0 +1,16 @@
+characters={
+	SHG_thubten_choekyi_nyima={
+		name=SHG_thubten_choekyi_nyima
+		portraits={
+			civilian={
+				large="gfx/leaders/SHG/Portrait_Thubten_Choekyi_Nyima.png"
+			}
+		}
+		country_leader={
+			ideology=buddist_state_subtype
+			desc=SHG_thubten_choekyi_nyima_desc
+			traits={  }
+			expire="1937.12.1.1"
+		}
+	}
+}

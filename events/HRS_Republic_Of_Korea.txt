@@ -1,0 +1,1125 @@
+add_namespace = prk_rev
+add_namespace = prk
+
+################
+# KOREA EVENTS #
+################
+country_event = {
+	id = prk_rev.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prk_rev.1"
+		hidden_effect = {
+			PRK = {
+				transfer_state = 41
+				transfer_state = 52
+				transfer_state = 54
+				transfer_state = 449
+				transfer_state = 450
+				transfer_state = 451
+				transfer_state = 454
+				transfer_state = 455
+				#load_oob = "PRK_1923"
+				set_capital = { state = 456 }
+			}
+			IMK = {
+				remove_state_core = 41
+				remove_state_core = 52
+				remove_state_core = 54
+				remove_state_core = 449
+				remove_state_core = 450
+				remove_state_core = 451
+				remove_state_core = 454
+				remove_state_core = 455
+				set_capital = { state = 636 }
+			}
+		}
+	}
+	title = prk_rev.1.t
+	desc = prk_rev.1.desc
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = {
+		name = prk_rev.1.a
+		news_event = civilwar_news.3
+		PRK = {
+			country_event = { id = prk_rev.2 days = 7 }
+			change_tag_from = ROOT 
+		}
+	}
+	option = {
+		name = prk_rev.1.b
+		news_event = civilwar_news.3
+		PRK = { country_event = { id = prk_rev.2 days = 7 } }
+	}
+}
+country_event = {
+	id = prk_rev.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prk_rev.2"
+	}
+	title = prk_rev.2.t
+	desc = prk_rev.2.desc
+	picture = GFX_report_event_generic_read_write
+	is_triggered_only = yes
+
+	option = {
+		name = prk_rev.2.a
+		KOR_commie_support_small_decrease = yes
+		KOR_reform_support_small_decrease = yes
+		PRK = { 
+			add_popularity = {
+				ideology = monarchism
+				popularity = 0.01
+			}
+		}
+		if = {
+			limit = { check_variable = { KOR_commie_support < 3 } }
+			country_event = prk_rev.7
+		}
+		else_if = {
+			limit = { check_variable = { KOR_reform_support < 3 } }
+			country_event = prk_rev.8
+		}
+		else = {
+			country_event = prk_rev.3
+		}
+	}
+	option = {
+		name = prk_rev.2.b
+		if = {
+			limit = { check_variable = { KOR_commie_support < 3 } }
+			country_event = prk_rev.7
+		}
+		else_if = {
+			limit = { check_variable = { KOR_reform_support < 3 } }
+			country_event = prk_rev.8
+		}
+		else = {
+			country_event = prk_rev.3
+		}
+	}
+}
+country_event = {
+	id = prk_rev.3
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prk_rev.3"
+	}
+	title = prk_rev.3.t
+	desc = prk_rev.3.desc
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = prk_rev.3.a
+		KOR_commie_support_large_decrease = yes
+		KOR_reform_support_large_increase = yes
+		if = {
+			limit = { check_variable = { KOR_commie_support < 3 } }
+			country_event = prk_rev.7
+		}
+		else_if = {
+			limit = { check_variable = { KOR_reform_support < 3 } }
+			country_event = prk_rev.8
+		}
+		else = {
+			country_event = prk_rev.4
+		}
+	}
+	option = {
+		name = prk_rev.3.b
+		KOR_commie_support_large_increase = yes
+		KOR_reform_support_large_decrease = yes
+		if = {
+			limit = { check_variable = { KOR_commie_support < 3 } }
+			country_event = prk_rev.7
+		}
+		else_if = {
+			limit = { check_variable = { KOR_reform_support < 3 } }
+			country_event = prk_rev.8
+		}
+		else = {
+			country_event = prk_rev.4
+		}
+	}
+}
+country_event = {
+	id = prk_rev.4
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prk_rev.4"
+	}
+	title = prk_rev.4.t
+	desc = prk_rev.4.desc
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = prk_rev.4.a
+		KOR_commie_support_small_increase = yes
+		KOR_reform_support_large_increase = yes
+		if = {
+			limit = { check_variable = { KOR_commie_support < 3 } }
+			country_event = prk_rev.7
+		}
+		else_if = {
+			limit = { check_variable = { KOR_reform_support < 3 } }
+			country_event = prk_rev.8
+		}
+		else = {
+			country_event = prk_rev.5
+		}
+	}
+	option = {
+		name = prk_rev.4.b
+		KOR_commie_support_small_increase = yes
+		KOR_reform_support_large_decrease = yes
+		if = {
+			limit = { check_variable = { KOR_commie_support < 3 } }
+			country_event = prk_rev.7
+		}
+		else_if = {
+			limit = { check_variable = { KOR_reform_support < 3 } }
+			country_event = prk_rev.8
+		}
+		else = {
+			country_event = prk_rev.5
+		}
+	}
+	option = {
+		name = prk_rev.4.c
+		KOR_commie_support_large_increase = yes
+		KOR_reform_support_small_decrease = yes
+		if = {
+			limit = { check_variable = { KOR_commie_support < 3 } }
+			country_event = prk_rev.7
+		}
+		else_if = {
+			limit = { check_variable = { KOR_reform_support < 3 } }
+			country_event = prk_rev.8
+		}
+		else = {
+			country_event = prk_rev.5
+		}
+	}
+}
+country_event = {
+	id = prk_rev.5
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prk_rev.5"
+	}
+	title = prk_rev.5.t
+	desc = prk_rev.5.desc
+	picture = GFX_report_event_generic_sign_treaty2
+
+	is_triggered_only = yes
+
+	option = {
+		name = prk_rev.5.a
+		KOR_commie_support_large_decrease = yes
+		KOR_reform_support_small_increase = yes
+		if = {
+			limit = { check_variable = { KOR_commie_support < 3 } }
+			country_event = prk_rev.7
+		}
+		else_if = {
+			limit = { check_variable = { KOR_reform_support < 3 } }
+			country_event = prk_rev.8
+		}
+		else = {
+			country_event = prk_rev.6
+		}
+	}
+	option = {
+		name = prk_rev.5.b
+		KOR_commie_support_small_increase = yes
+		KOR_reform_support_small_decrease = yes
+		if = {
+			limit = { check_variable = { KOR_commie_support < 3 } }
+			country_event = prk_rev.7
+		}
+		else_if = {
+			limit = { check_variable = { KOR_reform_support < 3 } }
+			country_event = prk_rev.8
+		}
+		else = {
+			country_event = prk_rev.6
+		}
+	}
+	option = {
+		name = prk_rev.5.c
+		KOR_commie_support_large_increase = yes
+		KOR_reform_support_large_increase = yes
+		if = {
+			limit = { check_variable = { KOR_commie_support < 3 } }
+			country_event = prk_rev.7
+		}
+		else_if = {
+			limit = { check_variable = { KOR_reform_support < 3 } }
+			country_event = prk_rev.8
+		}
+		else = {
+			country_event = prk_rev.6
+		}
+	}
+}
+country_event = {
+	id = prk_rev.6
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prk_rev.6"
+		hidden_effect = {
+			#load_oob = "PRK_militia"
+		}
+	}
+	title = prk_rev.6.t
+	desc = prk_rev.6.desc
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes
+
+	option = {
+		name = prk_rev.6.a
+		set_politics = { ruling_party = anarchism elections_allowed = no }
+		add_popularity = {
+			ideology = anarchism
+			popularity = 0.09
+		}
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.10
+		}
+		add_country_leader_role = {
+			character = PRK_i_donghwi
+			country_leader={
+				ideology=revolutionary_front_subtype
+				desc=PRK_i_donghwi_desc
+				traits={  }
+				expire="1935.1.30.1"
+			}
+			promote_leader = yes 
+		}
+	}
+	option = {
+		name = prk_rev.6.b
+		set_politics = { ruling_party = democratic elections_allowed = no }
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.10
+		}
+		add_popularity = {
+			ideology = anarchism
+			popularity = 0.05
+		}
+		add_country_leader_role = {
+			character = KOR_kim_koo
+			country_leader={
+				ideology=triequism_subtype
+				desc=KOR_kim_koo_desc
+				traits={  }
+				expire="1959.6.25.1"
+			}
+			promote_leader = yes 
+		}
+	}
+	option = {
+		name = prk_rev.6.c
+		set_politics = { ruling_party = democratic elections_allowed = no }
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.10
+		}
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.05
+		}
+		add_country_leader_role = {
+			character = PRK_i_seungman
+			country_leader={
+				ideology=conservatism_subtype
+				desc=PRK_i_seungman_desc
+				traits={  }
+				expire="1965.7.15.1"
+			}
+			promote_leader = yes 
+		}
+	}
+}
+country_event = {
+	id = prk_rev.7
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prk_rev.7"
+		hidden_effect = {
+			add_stability = -0.10
+			add_political_power = -50
+			if = {
+				limit = { check_variable = { KOR_commie_support < 3 } }
+				country_event = { id = prk_rev.9 days = 1 }
+			}
+			else = {
+				country_event = { id = prk_rev.10 days = 1 }
+			}
+			ANK = { 
+				transfer_state = 41
+				transfer_state = 54
+				transfer_state = 449
+				transfer_state = 450
+				transfer_state = 451
+				country_event = ank.1
+			}
+		}
+	}
+	title = prk_rev.7.t
+	desc = prk_rev.7.desc
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = {
+		name = prk_rev.7.a
+	}
+	option = {
+		name = prk_rev.7.b
+		ANK = {
+			change_tag_from = ROOT
+			country_event = { id = ank.1 days = 3 }
+		}
+	}
+}
+country_event = {
+	id = prk_rev.8
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prk_rev.7"
+	}
+	title = prk_rev.8.t
+	desc = prk_rev.8.desc
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = {
+		name = prk_rev.8.a
+		add_stability = -0.10
+		add_political_power = -50
+		if = {
+			limit = { check_variable = { KOR_reform_support < 3 } }
+			country_event = prk_rev.9
+		}
+		else = {
+			country_event = prk_rev.11
+		}
+	}
+	option = {
+		name = prk_rev.8.b
+		add_stability = -0.10
+		add_political_power = -50
+	}
+}
+country_event = {
+	id = prk_rev.9
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prk_rev.9"
+	}
+	title = prk_rev.9.t
+	desc = prk_rev.9.desc
+	picture = GFX_report_event_peasant_revolt
+
+	is_triggered_only = yes
+
+	option = {
+		name = prk_rev.9.a
+		ai_chance = {
+			base = 70
+		}
+		add_stability = -0.20
+		add_political_power = -100
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.10
+		}
+		add_country_leader_role = {
+			character = PRK_junta
+			country_leader={
+				ideology=guided_democracy_subtype
+				desc=PRK_junta_desc
+				traits={  }
+				expire="1949.1.1.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = neutrality elections_allowed = no }
+		set_cosmetic_tag = PRK_army
+		set_country_flag = ROOT_is_military
+		country_event = prk_rev.12
+	}
+	option = {
+		name = prk_rev.9.b
+		ai_chance = {
+			base = 30
+		}
+		add_stability = -0.20
+		add_political_power = -100
+		set_party_name = {
+			ideology = communism
+			long_name = PRK_juche_party_long
+			name = PRK_juche_party
+		}
+		set_party_name = {
+			ideology = anarchism
+			long_name = PRK_juche_party_long
+			name = PRK_juche_party
+		}
+		set_party_name = {
+			ideology = imperialism
+			long_name = PRK_juche_party_long
+			name = PRK_juche_party
+		}
+		add_country_leader_role = {
+			character = PRK_sin_chaeho
+			country_leader={
+				ideology=national_anarchism_subtype
+				desc=PRK_sin_chaeho_desc
+				traits={ nationalist_symbol }
+				expire="1940.2.21.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = imperialism elections_allowed = no }
+		set_cosmetic_tag = PRK_juche
+		hidden_effect = {
+			set_popularities = {
+				communism = 27
+				anarchism = 14
+				democratic = 0
+				neutrality = 6
+				monarchism = 0
+				fascism = 0
+				imperialism = 53
+				futurism = 0
+			}
+		}
+	}
+	option = {
+		name = prk_rev.9.c
+		ai_chance = {
+			base = 10
+		}
+		add_stability = -0.20
+		add_political_power = -100
+		add_country_leader_role = {
+			character = PRK_i_kang
+			country_leader={
+				ideology=absolute_monarchy_subtype
+				desc=PRK_i_kang_desc
+				traits={  }
+				expire="1955.8.15.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = monarchism elections_allowed = no }
+		set_cosmetic_tag = PRK_empire
+		hidden_effect = {
+			set_popularities = {
+				communism = 0
+				anarchism = 9
+				democratic = 21
+				neutrality = 26
+				monarchism = 44
+				fascism = 0
+				imperialism = 0
+				futurism = 0
+			}
+		}
+	}
+}
+country_event = {
+	id = prk_rev.10
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prk_rev.10"
+		hidden_effect = {
+			set_country_flag = PRK_choose_democratic_path
+			country_event = { id = prk.1 days = 1200 }
+		}
+	}
+	title = prk_rev.10.t
+	desc = prk_rev.10.desc
+	picture = GFX_report_event_generic_rally_3
+
+	is_triggered_only = yes
+
+	option = {
+		name = prk_rev.10.a
+		add_stability = -0.10
+		add_political_power = -50
+		set_politics = { ruling_party = democratic elections_allowed = no }
+		add_popularity = {
+			ideology = anarchism
+			popularity = 0.20
+		}
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.10
+		}
+		set_party_name = {
+			ideology = communism
+			long_name = PRK_communist_party_long
+			name = PRK_communist_party
+		}
+		add_country_leader_role = {
+			character = KOR_kim_koo
+			country_leader={
+				ideology=triequism_subtype
+				desc=KOR_kim_koo_desc
+				traits={  }
+				expire="1959.6.25.1"
+			}
+			promote_leader = yes 
+		}
+		set_country_flag = ROOT_is_socialist
+	}
+	option = {
+		name = prk_rev.10.b
+		set_politics = { ruling_party = democratic elections_allowed = no }
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.15
+		}
+		add_popularity = {
+			ideology = anarchism
+			popularity = 0.20
+		}
+		set_party_name = {
+			ideology = communism
+			long_name = PRK_communist_party_long
+			name = PRK_communist_party
+		}
+		set_party_name = {
+			ideology = anarchism
+			long_name = PRK_socialist_party_long
+			name = PRK_socialist_party
+		}
+		add_country_leader_role = {
+			character = PRK_an_changho
+			country_leader={
+				ideology=national_liberalism_subtype
+				desc=PRK_an_changho_desc
+				traits={  }
+				expire="1938.3.10.1"
+			}
+			promote_leader = yes 
+		}
+		set_country_flag = ROOT_is_democratic
+	}
+	option = {
+		name = prk_rev.10.c
+		set_politics = { ruling_party = democratic elections_allowed = no }
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.10
+		}
+		add_popularity = {
+			ideology = anarchism
+			popularity = 0.20
+		}
+		set_party_name = {
+			ideology = communism
+			long_name = PRK_communist_party_long
+			name = PRK_communist_party
+		}
+		set_party_name = {
+			ideology = anarchism
+			long_name = PRK_socialist_party_long
+			name = PRK_socialist_party
+		}
+		add_country_leader_role = {
+			character = PRK_i_seungman
+			country_leader={
+				ideology=conservatism_subtype
+				desc=PRK_i_seungman_desc
+				traits={  }
+				expire="1965.7.15.1"
+			}
+			promote_leader = yes 
+		}
+		set_country_flag = ROOT_is_democratic
+	}
+}
+country_event = {
+	id = prk_rev.11
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prk_rev.11"
+		hidden_effect = {
+			set_country_flag = PRK_choose_communist_path
+			#load_oob = "PRK_militia"
+		}
+	}
+	title = prk_rev.11.t
+	desc = prk_rev.11.desc
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = {
+		name = prk_rev.11.a
+		add_popularity = {
+			ideology = anarchism
+			popularity = 0.10
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.15
+		}
+		add_popularity = {
+			ideology = neutrality
+			popularity = -0.20
+		}
+		set_party_name = {
+			ideology = communism
+			long_name = PRK_communist_party_long
+			name = PRK_communist_party
+		}
+		set_party_name = {
+			ideology = anarchism
+			long_name = PRK_anarchist_party_long
+			name = PRK_anarchist_party
+		}
+		add_country_leader_role = {
+			character = PRK_i_donghwi
+			country_leader={
+				ideology=revolutionary_front_subtype
+				desc=PRK_i_donghwi_desc
+				traits={  }
+				expire="1935.1.30.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = communism elections_allowed = no }
+		set_cosmetic_tag = PRK_commie
+		set_country_flag = ROOT_is_communist
+	}
+	option = {
+		name = prk_rev.11.b
+		add_popularity = {
+			ideology = anarchism
+			popularity = 0.25
+		}
+		add_popularity = {
+			ideology = neutrality
+			popularity = -0.20
+		}
+		set_party_name = {
+			ideology = communism
+			long_name = PRK_communist_party_long
+			name = PRK_communist_party
+		}
+		set_party_name = {
+			ideology = anarchism
+			long_name = PRK_anarchist_party_long
+			name = PRK_anarchist_party
+		}
+		add_country_leader_role = {
+			character = PRK_kim_chwajin
+			country_leader={
+				ideology=revolutionary_front_subtype
+				desc=PRK_kim_chwajin_desc
+				traits={  }
+				expire="1930.3.10.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = anarchism elections_allowed = no }
+		set_cosmetic_tag = PRK_commune
+		set_country_flag = ROOT_is_anarchist
+	}
+	option = {
+		name = prk_rev.11.c
+		add_popularity = {
+			ideology = anarchism
+			popularity = 0.20
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = neutrality
+			popularity = -0.20
+		}
+		set_party_name = {
+			ideology = communism
+			long_name = PRK_communist_party_long
+			name = PRK_communist_party
+		}
+		set_party_name = {
+			ideology = anarchism
+			long_name = PRK_socialist_party_long
+			name = PRK_socialist_party
+		}
+		add_country_leader_role = {
+			character = PRK_yo_unhyung
+			country_leader={
+				ideology=revolutionary_front_subtype
+				desc=PRK_yo_unhyung_desc
+				traits={  }
+				expire="1947.7.19.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = anarchism elections_allowed = no }
+		set_cosmetic_tag = PRK_commie
+		set_country_flag = ROOT_is_socialist
+	}
+	option = {
+		name = prk_rev.11.d
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.10
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = neutrality
+			popularity = -0.10
+		}
+		add_country_leader_role = {
+			character = KOR_kim_koo
+			country_leader={
+				ideology=triequism_subtype
+				desc=KOR_kim_koo_desc
+				traits={  }
+				expire="1959.6.25.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = democratic elections_allowed = no }
+		set_cosmetic_tag = PRK_commie
+		set_country_flag = ROOT_is_socialist
+	}
+}
+country_event = {
+	id = prk_rev.12
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prk_rev.12"
+		hidden_effect = {
+			set_country_flag = PRK_choose_extremist_path
+		}
+	}
+	title = prk_rev.12.t
+	desc = prk_rev.12.desc
+	picture = GFX_report_event_chinese_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = prk_rev.12.a
+		set_party_name = {
+			ideology = anarchism
+			long_name = PRK_army_party_long
+			name = PRK_army_party
+		}
+		set_party_name = {
+			ideology = neutrality
+			long_name = PRK_kpg_party_long
+			name = PRK_kpg_party
+		}
+		add_country_leader_role = {
+			character = PRK_hong_beomdo
+			country_leader={
+				ideology=national_communism_subtype
+				desc=PRK_hong_beomdo_desc
+				traits={ }
+				expire="1942.1.30.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = anarchism elections_allowed = no }
+		hidden_effect = {
+			set_popularities = {
+				communism = 0
+				anarchism = 49
+				democratic = 17
+				neutrality = 21
+				monarchism = 13
+				fascism = 0
+				imperialism = 0
+				futurism = 0
+			}
+		}
+	}
+	option = {
+		name = prk_rev.12.b
+		set_party_name = {
+			ideology = democratic
+			long_name = PRK_kpg_party_long
+			name = PRK_kpg_party
+		}
+		set_party_name = {
+			ideology = neutrality
+			long_name = PRK_army_party_long
+			name = PRK_army_party
+		}
+		add_country_leader_role = {
+			character =PRK_ji_cheongcheon
+			country_leader={
+				ideology=national_conservatism_subtype
+				desc=PRK_ji_cheongcheon_desc
+				traits={  }
+				expire="1959.1.30.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = democratic elections_allowed = no }
+		hidden_effect = {
+			set_popularities = {
+				communism = 0
+				anarchism = 8
+				democratic = 39
+				neutrality = 31
+				monarchism = 10
+				fascism = 0
+				imperialism = 12
+				futurism = 0
+			}
+		}
+	}
+	option = {
+		name = prk_rev.12.c
+		add_country_leader_role = {
+			character = PRK_lee_beomseok
+			country_leader={
+				ideology=military_government_subtype
+				desc=PRK_lee_beomseok_desc
+				traits={  }
+				expire="1957.7.19.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = neutrality elections_allowed = no }
+		hidden_effect = {
+			set_popularities = {
+				communism = 0
+				anarchism = 9
+				democratic = 12
+				neutrality = 71
+				monarchism = 0
+				fascism = 0
+				imperialism = 8
+				futurism = 0
+			}
+		}
+	}
+}
+
+country_event = {
+	id = prk.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prk.1"
+	}
+	title = prk.1.t
+	desc = prk.1.desc
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes
+
+	option = {
+		name = prk.1.a
+		trigger = {
+			PRK = { PRK_i_seungman = { is_country_leader = yes } }
+		}
+		add_country_leader_role = {
+			character = PRK_i_seungman
+			country_leader={
+				ideology=conservatism_subtype
+				desc=PRK_i_seungman_desc
+				traits={ }
+				expire="1965.7.15.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = democratic elections_allowed = no }
+		hidden_effect = {
+			country_event = { id = kor.2 days = 3 }
+		}
+	}
+	option = {
+		name = prk.1.b
+		add_country_leader_role = {
+			character = KOR_kim_koo
+			country_leader={
+				ideology=triequism_subtype
+				desc=KOR_kim_koo_desc
+				traits={  }
+				expire="1959.6.25.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = democratic elections_allowed = no }
+	}
+	option = {
+		name = prk.1.c
+		add_country_leader_role = {
+			character = PRK_yo_unhyung
+			country_leader={
+				ideology=revolutionary_front_subtype
+				desc=PRK_yo_unhyung_desc
+				traits={ }
+				expire="1947.7.19.1"
+			}
+			promote_leader = yes 
+		}
+		set_party_name = {
+			ideology = anarchism
+			long_name = PRK_socialist_party_long
+			name = PRK_socialist_party
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.05
+		}
+		set_politics = { ruling_party = anarchism elections_allowed = no }
+	}
+	option = {
+		name = prk.1.d
+		add_country_leader_role = {
+			character = PRK_an_changho
+			country_leader={
+				ideology=national_liberalism_subtype
+				desc=PRK_an_changho_desc
+				traits={  }
+				expire="1938.3.10.1"
+			}
+			promote_leader = yes 
+		}
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.05
+		}
+		set_politics = { ruling_party = democratic elections_allowed = no }
+	}
+}
+
+country_event = {
+	id = prk.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prk.2"
+		hidden_effect = {
+			country_event = { id = prk.3 days = 1200 }
+			add_country_leader_role = {
+				character = PRK_i_seungman
+				country_leader={
+					ideology=ilminism_subtype
+					desc=PRK_i_seungman_desc
+					traits={ }
+					expire="1965.7.15.1"
+				}
+				promote_leader = yes
+			}
+			set_party_name = {
+				ideology = neutrality
+				long_name = PRK_liberal_party_long
+				name = PRK_liberal_party
+			}
+			set_party_name = {
+				ideology =fascism
+				long_name = PRK_liberal_party_long
+				name = PRK_liberal_party
+			}
+			set_popularities = {
+				communism = 0
+				anarchism = 0
+				democratic = 8
+				neutrality = 72
+				monarchism = 0
+				fascism = 20
+				imperialism = 0
+				futurism = 0
+			}
+		}
+	}
+	title = prk.2.t
+	desc = prk.2.desc
+	picture = GFX_report_event_gathering_protest
+
+	is_triggered_only = yes
+
+	option = {
+		name = prk.2.a
+		set_politics = { ruling_party = neutrality elections_allowed = no }
+	}
+	option = {
+		name = prk.2.b
+		set_politics = { ruling_party = neutrality elections_allowed = no }
+	}
+	option = {
+		name = prk.2.c
+		set_politics = { ruling_party = neutrality elections_allowed = no }
+	}
+}
+
+country_event = {
+	id = prk.3
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prk.3"
+		hidden_effect = {
+			add_country_leader_role = {
+				character = PRK_i_seungman
+				country_leader={
+					ideology=bad_ilminism_subtype
+					desc=PRK_i_seungman_desc
+					traits={ }
+					expire="1965.7.15.1"
+				}
+				promote_leader = yes
+			}
+			set_country_leader_portrait = {
+				ideology = neutrality
+				portrait = GFX_old_i_seungman
+			}
+			set_country_leader_portrait = {
+				ideology = fascism
+				portrait = GFX_old_i_seungman
+			}
+			set_party_name = {
+				ideology = neutrality
+				long_name = PRK_liberal_party_long
+				name = PRK_liberal_party
+			}
+			set_party_name = {
+				ideology =fascism
+				long_name = PRK_liberal_party_long
+				name = PRK_liberal_party
+			}
+			set_popularities = {
+				communism = 0
+				anarchism = 0
+				democratic = 8
+				neutrality = 30
+				monarchism = 0
+				fascism = 62
+				imperialism = 0
+				futurism = 0
+			}
+		}
+	}
+	title = prk.3.t
+	desc = prk.3.desc
+	picture = GFX_report_event_gathering_protest
+
+	is_triggered_only = yes
+
+	option = {
+		name = prk.3.a
+		set_politics = { ruling_party = fascism elections_allowed = no }
+	}
+	option = {
+		name = prk.3.b
+		set_politics = { ruling_party = fascism elections_allowed = no }
+	}
+	option = {
+		name = prk.3.c
+		set_politics = { ruling_party = fascism elections_allowed = no }
+	}
+}

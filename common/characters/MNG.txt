@@ -1,0 +1,77 @@
+characters={
+	MNG_yu_qingfang={
+		name=MNG_yu_qingfang
+		portraits={
+			civilian={
+				large="gfx/leaders/MNG/Portrait_Yu_Qingfang.png"
+			}
+			army={
+				large="gfx/leaders/MNG/Portrait_Yu_Qingfang.png"
+			}
+		}
+		country_leader={
+			ideology=reactionary_populism_subtype
+			desc=MNG_yu_qingfang_desc
+			traits={ MNG_great_marshall MNG_the_emperor }
+			expire="1940.9.23.1"
+		}
+		corps_commander={
+			traits={ militia_officer }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	MNG_luo_jun={
+		name=MNG_luo_jun
+		portraits={
+			civilian={
+				large="gfx/leaders/MNG/Portrait_Luo_Jun.png"
+			}
+			army={
+				large="gfx/leaders/MNG/Portrait_Luo_Jun.png"
+			}
+		}
+		#country_leader={
+		#	ideology=reactionary_populism_subtype
+		#	desc=MNG_luo_jun_desc
+		#	traits={ the_masses_opium resistance_leader }
+		#	expire="1940.9.23.1"
+		#}
+		corps_commander={
+			traits={ militia_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	MNG_jiang_ding={
+		name=MNG_jiang_ding
+		portraits={
+			civilian={
+				large="gfx/leaders/MNG/Portrait_Jiang_Ding.png"
+			}
+			army={
+				large="gfx/leaders/MNG/Portrait_Jiang_Ding.png"
+			}
+		}
+		country_leader={
+			ideology=partisan_movement_subtype
+			desc=MNG_jiang_ding_desc
+			traits={ the_masses_opium MNG_the_emperor }
+			expire="1950.9.23.1"
+		}
+		corps_commander={
+			traits={ militia_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+}

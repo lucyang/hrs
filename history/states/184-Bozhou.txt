@@ -1,0 +1,21 @@
+state={
+	id=184
+	name="STATE_184"
+	provinces={
+		509 2622 3763 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 3763 1 } #亳州
+		
+		buildings = {
+			infrastructure = 2
+		}
+		
+	}
+	manpower=730731
+	state_category = town
+	local_supplies = 0.0
+}

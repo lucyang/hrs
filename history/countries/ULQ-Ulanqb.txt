@@ -1,0 +1,42 @@
+﻿capital = 71 #呼和浩特
+
+recruit_character = ULQ_bayandalai #补英达赖
+
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	fuel_refining = 1
+}
+
+set_stability = 0.35
+set_war_support = 0.30
+
+add_ideas = {
+	country_development1
+	country_tech2
+	market_economy2
+    unitary_state
+}
+
+set_politics = {	
+	ruling_party = socialism
+	last_election = "1920.3.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	anarchism = 7
+	socialism = 62
+	democratic = 20
+	neutrality = 3
+	monarchism = 8
+	fascism = 0
+	imperialism = 0
+	futurism = 0
+}

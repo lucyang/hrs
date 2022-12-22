@@ -1,0 +1,24 @@
+state={
+	id=30
+	name="STATE_30"
+	provinces={
+		191 438 445 1407 1610 1695 1757 1914 2087 2411 2462 2536 2575 2678 3095 3526 3548 3556 3574 
+	}
+	history = {
+		owner = MAN
+		add_core_of = MAN
+		
+		victory_points = {
+			3556 1
+			}
+		victory_points = {
+			2575 1
+			}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=974765
+	state_category = rural
+	local_supplies = 0.0
+}

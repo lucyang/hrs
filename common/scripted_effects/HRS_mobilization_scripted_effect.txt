@@ -1,0 +1,52 @@
+### MOBILIZATION DAYS ###
+HRS_days_mobilization_large_decrease = {
+	custom_effect_tooltip = HRS_days_mobilization_large_decrease_tt
+	add_to_variable = { HRS_end_mobilization_cost_days = -60 }
+	clamp_variable = { var = HRS_end_mobilization_cost_days max = 27000 min = 0 }
+}
+HRS_days_mobilization_medium_decrease = {
+	custom_effect_tooltip = HRS_days_mobilization_medium_decrease_tt
+	add_to_variable = { HRS_end_mobilization_cost_days = -45 }
+	clamp_variable = { var = HRS_end_mobilization_cost_days max = 27000 min = 0 }
+}
+HRS_days_mobilization_small_decrease = {
+	custom_effect_tooltip = HRS_days_mobilization_small_decrease_tt
+	add_to_variable = { HRS_end_mobilization_cost_days = -30 }
+	clamp_variable = { var = HRS_end_mobilization_cost_days max = 27000 min = 0 }
+}
+HRS_days_mobilization_large_increase = {
+	custom_effect_tooltip = HRS_days_mobilization_large_increase_tt
+	add_to_variable = { HRS_end_mobilization_cost_days = 45 }
+	clamp_variable = { var = HRS_end_mobilization_cost_days max = 27000 min = 0 }
+}
+HRS_days_mobilization_medium_increase = {
+	custom_effect_tooltip = HRS_days_mobilization_medium_increase_tt
+	add_to_variable = { HRS_end_mobilization_cost_days = 30 }
+	clamp_variable = { var = HRS_end_mobilization_cost_days max = 27000 min = 0 }
+}
+HRS_days_mobilization_small_increase = {
+	custom_effect_tooltip = HRS_days_mobilization_small_increase_tt
+	add_to_variable = { HRS_end_mobilization_cost_days = 20 }
+	clamp_variable = { var = HRS_end_mobilization_cost_days max = 27000 min = 0 }
+}
+### WAR WEARINESS ###
+HRS_war_weariness_large_increase = {
+	custom_effect_tooltip = HRS_war_weariness_large_increase_tt
+	add_to_variable = { war_weariness = 5 }
+	clamp_variable = { var = war_weariness max = 100 min = 0 }
+}
+HRS_war_weariness_small_increase = {
+	custom_effect_tooltip = HRS_war_weariness_small_increase_tt
+	add_to_variable = { war_weariness = 3 }
+	clamp_variable = { var = war_weariness max = 100 min = 0 }
+}
+HRS_war_weariness_large_decrease = {
+	custom_effect_tooltip = HRS_war_weariness_large_decrease_tt
+	add_to_variable = { war_weariness = -3 }
+	clamp_variable = { var = war_weariness max = 100 min = 0 }
+}
+HRS_war_weariness_small_decrease = {
+	custom_effect_tooltip = HRS_war_weariness_small_decrease_tt
+	add_to_variable = { war_weariness = -1 }
+	clamp_variable = { var = war_weariness max = 100 min = 0 }
+}

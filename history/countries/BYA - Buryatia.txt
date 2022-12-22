@@ -1,0 +1,56 @@
+﻿capital = 445 # Buryatia(Verkhneudinsk)
+
+oob = "empty"
+
+set_research_slots = 1
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	basic_train = 1
+	gw_artillery = 1
+}
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1920.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+recruit_character = BYA_boris_shumyatsky
+
+set_popularities = {
+	communism = 39
+	anarchism = 12
+	socialism = 18
+	democratic = 14
+	neutrality = 0
+	monarchism = 0
+	fascism = 0
+	imperialism = 11
+	futurism = 6
+}
+
+add_ideas = {
+	limited_exports
+	limited_conscription
+	low_economic_mobilisation
+}
+add_ideas = {
+	country_development
+	country_tech2
+	natural_economy
+	state_union
+}
+
+
+
+
+
+
+
+

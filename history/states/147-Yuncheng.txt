@@ -1,0 +1,23 @@
+state={
+	id=147
+	name="STATE_147"
+	provinces={
+		1502 2008 3721 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 3721 3 } #运城
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		
+	}
+	manpower=45009
+	state_category = town
+	local_supplies = 0.0
+}

@@ -1,0 +1,91 @@
+is_taiwan_nation = {
+	OR = {
+		original_tag = TAW
+		original_tag = FRM
+		original_tag = ASN
+		original_tag = TGG
+	}
+}
+is_any_taiwan_state = {
+	OR = {
+		state = 332 #台北
+		state = 336 #新竹
+		state = 346 #台中
+		state = 350 #花莲
+		state = 356 #台南
+		state = 359 #高雄
+		state = 360 #台东
+		state = 518 #宜兰
+		state = 519 #淡水
+		state = 520 #桃园
+		state = 521 #苗栗
+		state = 522 #南投
+		state = 523 #彰化
+		state = 524 #嘉义
+		state = 525 #云林
+		state = 526 #屏东
+		state = 537 #澎湖
+		state = 555 #蕃界
+	}
+}
+is_taiwan_state = {
+	AND = {
+		state = 332 #台北
+		state = 336 #新竹
+		state = 346 #台中
+		state = 350 #花莲
+		state = 356 #台南
+		state = 359 #高雄
+		state = 360 #台东
+		state = 518 #宜兰
+		state = 519 #淡水
+		state = 520 #桃园
+		state = 521 #苗栗
+		state = 522 #南投
+		state = 523 #彰化
+		state = 524 #嘉义
+		state = 525 #云林
+		state = 526 #屏东
+		state = 537 #澎湖
+		state = 555 #蕃界
+	}
+}
+is_any_taiwan_native_state = {
+	OR = {
+		state = 350 #花莲
+		state = 360 #台东
+		state = 526 #屏东
+		state = 555 #蕃界
+	}
+}
+is_taiwan_native_state = {
+    AND = {
+		state = 350 #花莲
+		state = 360 #台东
+		state = 526 #屏东
+		state = 555 #蕃界
+	}
+}
+
+can_form_taiwan = {
+	AND = {
+		owns_state = 332 #台北
+		owns_state = 336 #新竹
+		owns_state = 346 #台中
+		owns_state = 350 #花莲
+		owns_state = 356 #台南
+		owns_state = 359 #高雄
+		owns_state = 360 #台东
+		owns_state = 518 #宜兰
+		owns_state = 519 #淡水
+		owns_state = 520 #桃园
+		owns_state = 521 #苗栗
+		owns_state = 522 #南投
+		owns_state = 523 #彰化
+		owns_state = 524 #嘉义
+		owns_state = 525 #云林
+		owns_state = 526 #屏东
+		owns_state = 537 #澎湖
+		owns_state = 555 #蕃界
+	}
+}

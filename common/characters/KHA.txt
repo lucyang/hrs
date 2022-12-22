@@ -1,0 +1,16 @@
+characters={
+	KHA_stepan_maynagashev={
+		name=KHA_stepan_maynagashev
+		portraits={ 
+			civilian={
+				large="gfx/leaders/KHA/Portrait_Stepan_Maynagashev.png"
+			}
+		}
+		country_leader={
+			ideology=national_liberalism_subtype
+			desc=KHA_stepan_maynagashev_desc
+			traits={ }
+			expire="1958.11.10.1"
+		}
+	}
+}

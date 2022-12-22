@@ -1,0 +1,28 @@
+
+state={
+	id=450
+	name="STATE_450"
+
+	history={
+		owner = IMK
+		add_core_of = IMK
+
+		victory_points = { 2834 3 } #咸興
+		victory_points = { 3628 1 } #新浦
+		victory_points = { 1651 1 } #恵山
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		32 371 1651 1987 2063 2834 3313 3628 4788 4789 4790 4792 
+	}
+	manpower=1412996
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

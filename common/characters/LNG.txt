@@ -1,0 +1,41 @@
+characters = {
+	LNG_feng_yuxiang = {
+		name =LNG_feng_yuxiang
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LNG/Portrait_Feng_Yuxiang.png"
+			}
+			army = {
+				large = "gfx/leaders/LNG/Portrait_Feng_Yuxiang.png"
+			}
+		}
+		country_leader = {
+			ideology=conservatism_subtype
+			desc = LNG_feng_yuxiang_desc
+			traits = { cristero_general incognito }
+			expire = "1948.9.1.1"
+		}
+		corps_commander={
+			traits={ infantry_officer career_officer inspirational_leader }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+		}
+	}
+	LNG_zhang_shizhang = {
+		name =LNG_zhang_shizhang
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LNG/Portrait_Zhang_Shizhang.png"
+			}
+		}
+		country_leader = {
+			ideology=religious_socialism_subtype
+			desc = LNG_zhang_shizhang_desc
+			traits = { cristero_general incognito }
+			expire = "1950.1.1.1"
+		}
+	}
+}

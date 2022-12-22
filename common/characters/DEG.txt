@@ -1,0 +1,31 @@
+characters={
+	### DEG-Degar ###
+	DEG_fulro = {
+		name=DEG_fulro
+		portraits={
+			civilian={
+				large="gfx/leaders/DEG/Portrait_FULRO.png"
+			}
+		}
+		country_leader={
+			ideology=provisional_government_subtype
+			desc=DEG_fulro_desc
+			traits={ }
+			expire="1987.11.20.1"
+		}
+	}
+	DEG_red_fulro = {
+		name=DEG_red_fulro
+		portraits={
+			civilian={
+				large="gfx/leaders/DEG/Portrait_Red_FULRO.png"
+			}
+		}
+		country_leader={
+			ideology=national_communism_subtype
+			desc=DEG_red_fulro_desc
+			traits={ }
+			expire="1987.11.20.1"
+		}
+	}
+}

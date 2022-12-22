@@ -1,0 +1,16 @@
+characters={
+	MCS_zhao_chengjin={
+		name=MCS_zhao_chengjin
+		portraits={
+			civilian={
+				large="gfx/leaders/MAN/Portrait_Zhao_Chengjin.dds"
+			}
+		}
+		country_leader={
+			ideology=national_communism_subtype
+			desc=MCS_zhao_chengjin_desc
+			traits={ revolutionary_general cornered_fox }
+			expire="1989.10.1.1"
+		}
+	}
+}

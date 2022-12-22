@@ -1,0 +1,26 @@
+
+state={
+	id=207
+	name="STATE_207"
+
+	history={
+		owner = TIB
+		add_core_of = TIB
+		add_core_of = KHM
+
+		victory_points = { 2383 10 } #昌都
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+
+	provinces={
+		12 591 705 727 728 756 1215 1392 1531 1555 1755 1942 1979 1994 2043 2383 2498 2888 3335 3796 3832 3834 3845 3880 5147 2163
+	}
+	manpower=220000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

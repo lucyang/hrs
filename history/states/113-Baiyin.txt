@@ -1,0 +1,22 @@
+state={
+	id=113
+	name="STATE_113"
+	provinces={
+		787 941 1761 2030 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 941 3 } #靖远/白银
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		
+	}
+	manpower=64004
+	state_category = town
+	local_supplies = 0.0
+}

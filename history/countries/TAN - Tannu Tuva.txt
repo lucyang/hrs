@@ -1,0 +1,49 @@
+﻿capital = 7 # Tuva Republic
+
+oob = "empty"
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+recruit_character = TAN_vasily_chapayev
+recruit_character = TAN_donduk_kuular
+recruit_character = TAN_mongush_buyan_badyrgy
+
+set_politics = {
+	ruling_party = anarchism
+	last_election = "1920.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 13
+	anarchism = 67
+	socialism = 20
+	democratic = 0
+	neutrality = 0
+	monarchism = 0
+	imperialism = 0
+	fascism = 0
+	futurism = 0
+}
+
+give_guarantee = ALT
+diplomatic_relation = {
+    country = ALT
+    relation = non_aggression_pact
+    active = yes
+}
+
+add_ideas = {
+	limited_exports
+	extensive_conscription
+	low_economic_mobilisation
+}
+add_ideas = {
+	country_development1
+	country_tech2
+	unitary_state1
+	market_economy3
+}

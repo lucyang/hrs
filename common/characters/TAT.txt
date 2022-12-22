@@ -1,0 +1,17 @@
+characters={
+	### TAT-Thai Federation ###
+	TAT_deo_van_long={ #刁文龙
+		name=TAT_deo_van_long
+		portraits={
+			civilian={
+				large="gfx/leaders/DEG/Portrait_Deo_Van_Long.png"
+			}
+		}
+		country_leader={
+			ideology=feudalism_subtype
+			desc=TAT_deo_van_long_desc
+			traits={ }
+			expire="1975.11.20.1"
+		}
+	}
+}

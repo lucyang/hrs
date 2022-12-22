@@ -1,0 +1,21 @@
+state={
+	id=74
+	name="STATE_74"
+	provinces={
+		1301 3625 3632 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 1301 1 } #北平
+		
+		buildings = {
+			infrastructure = 2
+		}
+		
+	}
+	manpower=268149
+	state_category = town
+	local_supplies = 0.0
+}

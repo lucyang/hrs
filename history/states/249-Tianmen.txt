@@ -1,0 +1,20 @@
+state={
+	id=249
+	name="STATE_249"
+	provinces={
+		3917
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 3917 1 } #潜江
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=694796
+	state_category = town
+	local_supplies = 0.0
+}

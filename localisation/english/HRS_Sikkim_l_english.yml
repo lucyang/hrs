@@ -1,0 +1,56 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ SKM_communism:0 "锡金公社"
+ SKM_communism_DEF:0 "锡金公社"
+ SKM_anarchism:0 "锡金公社"
+ SKM_anarchism_DEF:0 "锡金公社"
+ SKM_socialism:0 "锡金王国"
+ SKM_socialism_DEF:0 "锡金王国"
+ SKM_democratic:0 "锡金王国"
+ SKM_democratic_DEF:0 "锡金王国"
+ SKM_neutrality:0 "锡金王国"
+ SKM_neutrality_DEF:0 "锡金王国"
+ SKM_monarchism:0 "锡金王国"
+ SKM_monarchism_DEF:0 "锡金王国"
+ SKM_fascism:0 "锡金王国"
+ SKM_fascism_DEF:0 "锡金王国"
+ SKM_imperialism:0 "锡金王国"
+ SKM_imperialism_DEF:0 "锡金王国"
+ SKM_futurism:0 "哲孟雄"
+ SKM_futurism_DEF:0 "哲孟雄"
+ SKM_communism_ADJ:0 "锡金"
+ SKM_anarchism_ADJ:0 "锡金"
+ SKM_socialism_ADJ:0 "锡金"
+ SKM_democratic_ADJ:0 "锡金"
+ SKM_neutrality_ADJ:0 "锡金"
+ SKM_monarchism_ADJ:0 "锡金"
+ SKM_fascism_ADJ:0 "锡金"
+ SKM_imperialism_ADJ:0 "锡金"
+ SKM_futurism_ADJ:0 "哲孟雄"
+ SKM:0 "锡金"
+ SKM_DEF:0 "锡金"
+ SKM_ADJ:0 "锡金"
+ #############
+ ## PARTIES ##
+ #############
+ SKM_anarchism_party:0 "西藏改革党"
+ SKM_anarchism_party_long:0 "西藏改革党"
+ SKM_socialism_party:0 "国民大会党"
+ SKM_socialism_party_long:0 "锡金国民大会党"
+ SKM_democratic_party:0 "锡金民族党"
+ SKM_democratic_party_long:0 "锡金民族党"
+ SKM_neutrality_party:0 "却嘉王朝 - 改革派"
+ SKM_neutrality_party_long:0 "却嘉王朝 - 改革派"
+ SKM_monarchism_party:0 "却嘉王朝 - 传统派"
+ SKM_monarchism_party_long:0 "却嘉王朝 - 传统派"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ SKM_tashi_namgyal:0 "札西南嘉"
+ SKM_tashi_namgyal_desc:0 "札西南嘉是图多南嘉的儿子，出生在西藏。他也是前任国王锡东祖古南嘉的同父异母弟弟。锡东祖古南嘉在位不到一年便逝世，由札西南嘉继位。西藏统治者十三世达赖喇嘛为他行加冕之礼。1918年10月，塔希·纳姆加尔迎娶昆桑德钦，随后生下了三子三女。札西南嘉在位期间，致力于土地改革和自由选举。强大的邻国尼泊尔觊觎着锡金的土地，札西南嘉只得在印度和西藏之间维持着微妙的权力平衡，竭力维护锡金的独立与主权。"

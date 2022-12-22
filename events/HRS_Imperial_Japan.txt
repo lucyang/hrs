@@ -1,0 +1,65 @@
+##########################
+## Imperial Japan Events #
+##########################
+add_namespace = imj
+
+country_event = {
+	id = imj.1
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event imj.1"
+	}
+	title = imj.1.t
+	desc = imj.1.desc
+	picture = GFX_report_event_merchant_ship_01
+
+	trigger = {
+		is_ai = no
+		date > 1923.8.1
+		date < 1923.9.1
+		original_tag = IMJ
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = imj.1.a
+		467 = { add_manpower = -3 }
+		hidden_effect = {
+			country_event = { id = imj.2 days = 10 }
+		}
+	}
+}
+country_event = {
+	id = imj.2
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event imj.2"
+	}
+	title = imj.2.t
+	desc = imj.2.desc
+	picture = GFX_report_event_teacher_and_students
+
+	is_triggered_only = yes
+
+	option = {
+		name = imj.2.a
+		600 = { add_manpower = 3 }
+		hidden_effect = {
+			country_event = { id = imj.3 days = 4 }
+		}
+	}
+}
+country_event = {
+	id = imj.3
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event imj.3"
+	}
+	title = imj.3.t
+	desc = imj.3.desc
+	picture = GFX_report_event_peasant_revolt
+
+	is_triggered_only = yes
+
+	option = {
+		name = imj.3.a
+	}
+}

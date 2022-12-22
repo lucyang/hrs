@@ -1,0 +1,156 @@
+characters={
+	IND_indochina_cambodia={
+		name=IND_indochina_cambodia
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Portrait_Indochina_Cambodia.png"
+			}
+		}
+		country_leader={
+			ideology=marxism_subtype
+			desc=IND_indochina_cambodia_desc
+			traits={ }
+			expire="1962.4.20.1"
+		}
+	}
+	KHR_san_ngo_minh={ #山玉明
+		name=KHR_san_ngo_minh
+		portraits={
+			civilian={
+				large="gfx/leaders/CAM/Portrait_San_Ngo_Minh.png"
+			}
+		}
+		country_leader={
+			ideology=marxism_subtype
+			desc=KHR_san_ngo_minh_desc
+			traits={ }
+			expire="1962.4.20.1"
+		}
+	}
+	KHR_tou_samouth={ #杜斯木
+		name=KHR_tou_samouth
+		portraits={
+			civilian={
+				large="gfx/leaders/CAM/Portrait_Tou_Samouth.png"
+			}
+		}
+		country_leader={
+			ideology=national_communism_subtype
+			desc=KHR_tou_samouth_desc
+			traits={ }
+			expire="1962.4.20.1"
+		}
+	}
+	CAM_penn_nouth={ #宾努亲王
+		name=CAM_penn_nouth
+		portraits={
+			civilian={
+				large="gfx/leaders/CAM/Portrait_Penn_Nouth.png"
+			}
+		}
+		country_leader={
+			ideology=social_democratic_subtype
+			desc=CAM_penn_nouth_desc
+			traits={ }
+			expire="1985.5.18.1"
+		}
+	}
+	CAM_sisowath_monivong={ #西索瓦·莫尼旺
+		name=CAM_sisowath_monivong
+		portraits={
+			civilian={
+				large="gfx/leaders/CAM/Portrait_Sisowath_Monivang.png"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_subtype
+			desc=CAM_sisowath_monivong_desc
+			traits={ }
+			expire="1941.4.23.1"
+		}
+	}
+	CAM_norodom_suramarit={ #诺罗敦·苏拉玛里特
+		name=CAM_norodom_suramarit
+		portraits={
+			civilian={
+				large="gfx/leaders/CAM/Portrait_Norodm_Suramarit.png"
+			}
+		}
+		country_leader={
+			ideology=competitive_authoritarianism_subtype
+			desc=CAM_norodom_suramarit_desc
+			traits={ }
+			expire="1960.4.3.1"
+		}
+	}
+	CAM_sisowath_monireth={ #西索瓦·莫尼勒
+		name=CAM_sisowath_monireth
+		portraits={
+			civilian={
+				large="gfx/leaders/CAM/Portrait_Sisowath_Monireth.png"
+			}
+		}
+		#country_leader={
+		#	ideology=absolute_monarchy_subtype
+		#	desc=CAM_sisowath_monireth_desc
+		#	traits={ }
+		#	expire="1960.4.3.1"
+		#}
+	}
+	CAM_norodom_sihanouk={ #诺罗敦·西哈努克
+		name=CAM_norodom_sihanouk
+		portraits={
+			civilian={
+				large="gfx/leaders/CAM/Portrait_Norodm_Sihanouk.png"
+			}
+		}
+		#country_leader={
+		#	ideology=absolute_monarchy_subtype
+		#	desc=CAM_norodom_sihanouk_desc
+		#	traits={ }
+		#	expire="1960.4.3.1"
+		#}
+	}
+	KMK_son_ngo_thanh={ #山玉成
+		name=KMK_son_ngo_thanh
+		portraits={
+			civilian={
+				large="gfx/leaders/CAM/Portrait_Son_Ngo_Thanh.png"
+			}
+		}
+		country_leader={
+			ideology=daijitaoism_subtype
+			desc=KMK_son_ngo_thanh_desc
+			traits={ }
+			expire="1941.4.23.1"
+		}
+	}
+	KMK_lan_nol={ #朗诺
+		name=KMK_lan_nol
+		portraits={
+			civilian={
+				large="gfx/leaders/CAM/Portrait_Lan_Nol.png"
+			}
+		}
+		country_leader={
+			ideology=military_government_subtype
+			desc=KMK_lan_nol_desc
+			traits={ }
+			expire="1985.11.7.1"
+		}
+	}
+	KMK_son_sann={ #宋双
+		name=KMK_son_sann
+		portraits={
+			civilian={
+				large="gfx/leaders/CAM/Portrait_Sisowath_Monivang.png"
+			}
+		}
+		country_leader={
+			ideology=conservatism_subtype
+			desc=KMK_son_sann_desc
+			traits={ }
+			expire="2000.12.19.1"
+		}
+	}
+}

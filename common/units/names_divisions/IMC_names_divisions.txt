@@ -1,0 +1,539 @@
+﻿# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
+# If we run out of all historical names, the names will be assigned in the old way.
+#
+# Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
+#
+# for_countries - lists all countries that can use it. If empty, or entire tag is missing, all countries in the world can use it.
+#
+# can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
+#
+# division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
+#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
+#                  for example the current one is no longer available due to the can_use trigger saying so).
+#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#
+# fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
+#                 mechanics to be used for fallbacks, then just skip this option.
+#
+# unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
+#             this option is available here mainly for a mods.
+#
+# ordered - Is a list of all historical names. 
+#           Numbers must start from 1 and up. 
+#           Numbers can't repeat in one scope.
+#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#           1st argument = The name. It must contain either: 
+#                          %d (for decimal number placement)
+#                          %s (for string number placement - ROMAN numbers like XIV).
+#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#                                      where you choose the historical division name.
+#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#                                      the current game version.
+
+IMC_INF_01 = 
+{
+	name = "Infantry Divisions"
+
+	for_countries = { IMC IMJ IMK ANM DBJ ZDJ HSW JXP CGK KRF SIK }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { IMC_GAR_01 }
+
+	fallback_name = "第%d步兵联队"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "第%d步兵联队" }
+		2 = { "第%d步兵联队" }
+		3 = { "第%d步兵联队" }
+		4 = { "第%d步兵联队" }
+		5 = { "第%d步兵联队" }
+		6 = { "第%d步兵联队" }
+		7 = { "第%d步兵联队" }
+		8 = { "第%d步兵联队" }
+		10 = { "第%d步兵联队" }
+		11 = { "第%d步兵联队" }
+		12 = { "第%d步兵联队" }
+		13 = { "第%d步兵联队" }
+		14 = { "第%d步兵联队" }
+		15 = { "第%d步兵联队" }
+		16 = { "第%d步兵联队" }
+		17 = { "第%d步兵联队" }
+		18 = { "第%d步兵联队" }
+		19 = { "第%d步兵联队" }
+		20 = { "第%d步兵联队" }
+		21 = { "第%d步兵联队" }
+		22 = { "第%d步兵联队" }
+		23 = { "第%d步兵联队" }
+		24 = { "第%d步兵联队" }
+		25 = { "第%d步兵联队" }
+		26 = { "第%d步兵联队" }
+		27 = { "第%d步兵联队" }
+		28 = { "第%d步兵联队" }
+		29 = { "第%d步兵联队" }
+		30 = { "第%d步兵联队" }
+		31 = { "第%d步兵联队" }
+		32 = { "第%d步兵联队" }
+		33 = { "第%d步兵联队" }
+		34 = { "第%d步兵联队" }
+		35 = { "第%d步兵联队" }
+		36 = { "第%d步兵联队" }
+		37 = { "第%d步兵联队" }
+		38 = { "第%d步兵联队" }
+		39 = { "第%d步兵联队" }
+		40 = { "第%d步兵联队" }
+		41 = { "第%d步兵联队" }
+		42 = { "第%d步兵联队" }
+		43 = { "第%d步兵联队" }
+		44 = { "第%d步兵联队" }
+		45 = { "第%d步兵联队" }
+		46 = { "第%d步兵联队" }
+		47 = { "第%d步兵联队" }
+		48 = { "第%d步兵联队" }
+		49 = { "第%d步兵联队" }
+		50 = { "第%d步兵联队" }
+
+	}
+}
+
+IMC_CAV_01 = 
+{
+	name = "Cavalry Divisions"
+
+	for_countries = { IMC IMJ IMK ANM DBJ ZDJ HSW JXP CGK KRF SIK }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { IMC_INF_01 }
+
+	fallback_name = "第%d骑兵联队"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "第%d骑兵联队" }
+		3 = { "第%d骑兵联队" }
+		4 = { "第%d骑兵联队" }
+		5 = { "第%d骑兵联队" }
+		6 = { "第%d骑兵联队" }
+		7 = { "第%d骑兵联队" }
+		8 = { "第%d骑兵联队" }
+		9 = { "第%d骑兵联队" }
+		10 = { "第%d骑兵联队" }
+		11 = { "第%d骑兵联队" }
+		12 = { "第%d骑兵联队" }
+		13 = { "第%d骑兵联队" }
+		14 = { "第%d骑兵联队" }
+		15 = { "第%d骑兵联队" }
+		16 = { "第%d骑兵联队" }
+		17 = { "第%d骑兵联队" }
+		18 = { "第%d骑兵联队" }
+		19 = { "第%d骑兵联队" }
+		20 = { "第%d骑兵联队" }
+
+	}
+}
+
+IMC_MOT_01 = 
+{
+	name = "Motorised Divisions"
+
+	for_countries = { IMC IMJ IMK ANM DBJ ZDJ HSW JXP CGK KRF SIK }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { IMC_INF_01 }
+
+	fallback_name = "第%d机动步兵联队"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "第%d机动步兵联队" }
+		2 = { "第%d机动步兵联队" }
+		3 = { "第%d机动步兵联队" }
+		4 = { "第%d机动步兵联队" }
+		5 = { "第%d机动步兵联队" }
+		6 = { "第%d机动步兵联队" }
+		7 = { "第%d机动步兵联队" }
+		8 = { "第%d机动步兵联队" }
+		10 = { "第%d机动步兵联队" }
+		11 = { "第%d机动步兵联队" }
+		12 = { "第%d机动步兵联队" }
+		13 = { "第%d机动步兵联队" }
+		14 = { "第%d机动步兵联队" }
+		15 = { "第%d机动步兵联队" }
+		16 = { "第%d机动步兵联队" }
+		17 = { "第%d机动步兵联队" }
+		18 = { "第%d机动步兵联队" }
+		19 = { "第%d机动步兵联队" }
+		20 = { "第%d机动步兵联队" }
+		21 = { "第%d机动步兵联队" }
+		22 = { "第%d机动步兵联队" }
+		23 = { "第%d机动步兵联队" }
+		24 = { "第%d机动步兵联队" }
+		25 = { "第%d机动步兵联队" }
+		26 = { "第%d机动步兵联队" }
+		27 = { "第%d机动步兵联队" }
+		28 = { "第%d机动步兵联队" }
+		29 = { "第%d机动步兵联队" }
+		30 = { "第%d机动步兵联队" }
+		31 = { "第%d机动步兵联队" }
+		32 = { "第%d机动步兵联队" }
+		33 = { "第%d机动步兵联队" }
+		34 = { "第%d机动步兵联队" }
+		35 = { "第%d机动步兵联队" }
+		36 = { "第%d机动步兵联队" }
+		37 = { "第%d机动步兵联队" }
+		38 = { "第%d机动步兵联队" }
+		39 = { "第%d机动步兵联队" }
+		40 = { "第%d机动步兵联队" }
+		41 = { "第%d机动步兵联队" }
+		42 = { "第%d机动步兵联队" }
+		43 = { "第%d机动步兵联队" }
+		44 = { "第%d机动步兵联队" }
+		45 = { "第%d机动步兵联队" }
+		46 = { "第%d机动步兵联队" }
+		47 = { "第%d机动步兵联队" }
+		48 = { "第%d机动步兵联队" }
+		49 = { "第%d机动步兵联队" }
+		50 = { "第%d机动步兵联队" }
+
+	}
+}
+
+IMC_ARM_01 = 
+{
+	name = "Armored Divisions"
+
+	for_countries = { IMC IMJ IMK ANM DBJ ZDJ HSW JXP CGK KRF SIK }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { IMC_INF_01 }
+
+	fallback_name = "第%d战车联队"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "第%d战车联队" }
+		3 = { "第%d战车联队" }
+		4 = { "第%d战车联队" }
+		5 = { "第%d战车联队" }
+		6 = { "第%d战车联队" }
+		7 = { "第%d战车联队" }
+		8 = { "第%d战车联队" }
+		9 = { "第%d战车联队" }
+		10 = { "第%d战车联队" }
+		11 = { "第%d战车联队" }
+		14 = { "第%d战车联队" }
+		12 = { "第%d战车联队" }
+		13 = { "第%d战车联队" }
+		15 = { "第%d战车联队" }
+		16 = { "第%d战车联队" }
+		17 = { "第%d战车联队" }
+		18 = { "第%d战车联队" }
+		19 = { "第%d战车联队" }
+		20 = { "第%d战车联队" }
+		22 = { "第%d战车联队" }
+		23 = { "第%d战车联队" }
+		24 = { "第%d战车联队" }
+		25 = { "第%d战车联队" }
+		26 = { "第%d战车联队" }
+		27 = { "第%d战车联队" }
+		178 = { "第%d战车联队" }
+		179 = { "第%d战车联队" }
+		155 = { "第%d战车联队" }
+		233 = { "第%d战车联队" }
+
+	}
+}
+
+IMC_MEC_01 = 
+{
+	name = "Mechanized Divisions"
+
+	for_countries = { IMC IMJ IMK ANM DBJ ZDJ HSW JXP CGK KRF SIK }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized"  }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { IMC_INF_01 }
+
+	fallback_name = "第%d机甲步兵联队"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "第%d机甲步兵联队" }
+		2 = { "第%d机甲步兵联队" }
+		3 = { "第%d机甲步兵联队" }
+		4 = { "第%d机甲步兵联队" }
+		5 = { "第%d机甲步兵联队" }
+		6 = { "第%d机甲步兵联队" }
+		7 = { "第%d机甲步兵联队" }
+		8 = { "第%d机甲步兵联队" }
+		10 = { "第%d机甲步兵联队" }
+		11 = { "第%d机甲步兵联队" }
+		12 = { "第%d机甲步兵联队" }
+		13 = { "第%d机甲步兵联队" }
+		14 = { "第%d机甲步兵联队" }
+		15 = { "第%d机甲步兵联队" }
+		16 = { "第%d机甲步兵联队" }
+		17 = { "第%d机甲步兵联队" }
+		18 = { "第%d机甲步兵联队" }
+		19 = { "第%d机甲步兵联队" }
+		20 = { "第%d机甲步兵联队" }
+		21 = { "第%d机甲步兵联队" }
+		22 = { "第%d机甲步兵联队" }
+		23 = { "第%d机甲步兵联队" }
+		24 = { "第%d机甲步兵联队" }
+		25 = { "第%d机甲步兵联队" }
+		26 = { "第%d机甲步兵联队" }
+		27 = { "第%d机甲步兵联队" }
+		28 = { "第%d机甲步兵联队" }
+		29 = { "第%d机甲步兵联队" }
+		30 = { "第%d机甲步兵联队" }
+		31 = { "第%d机甲步兵联队" }
+		32 = { "第%d机甲步兵联队" }
+		33 = { "第%d机甲步兵联队" }
+		34 = { "第%d机甲步兵联队" }
+		35 = { "第%d机甲步兵联队" }
+		36 = { "第%d机甲步兵联队" }
+		37 = { "第%d机甲步兵联队" }
+		38 = { "第%d机甲步兵联队" }
+		39 = { "第%d机甲步兵联队" }
+		40 = { "第%d机甲步兵联队" }
+		41 = { "第%d机甲步兵联队" }
+		42 = { "第%d机甲步兵联队" }
+		43 = { "第%d机甲步兵联队" }
+		44 = { "第%d机甲步兵联队" }
+		45 = { "第%d机甲步兵联队" }
+		46 = { "第%d机甲步兵联队" }
+		47 = { "第%d机甲步兵联队" }
+		48 = { "第%d机甲步兵联队" }
+		49 = { "第%d机甲步兵联队" }
+		50 = { "第%d机甲步兵联队" }
+
+	}
+}
+
+IMC_GAR_01 = 
+{
+	name = "Garrison Divisions"
+
+	for_countries = { IMC IMJ IMK ANM DBJ ZDJ HSW JXP CGK KRF SIK }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { IMC_INF_01 }
+
+	fallback_name = "第%d独立守备队"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		52 = { "第%d独立守备队" }
+		201 = { "第%d独立守备队" }
+		203 = { "第%d独立守备队" }
+		207 = { "第%d独立守备队" }
+		213 = { "第%d独立守备队" }
+		141 = { "第%d驻屯步兵联队" }
+		221 = { "第%d独立守备队" }
+		281 = { "第%d独立守备队" }
+		285 = { "第%d独立守备队" }
+		147 = { "第%d驻屯步兵联队" }
+		286 = { "第%d独立守备队" }
+		325 = { "第%d独立守备队" }
+		400 = { "第%d警备队" }
+		390 = { "第%d独立守备队" }
+		391 = { "第%d独立守备队" }
+		148 = { "第%d驻屯步兵联队" }
+		403 = { "第%d独立守备队" }
+		444 = { "第%d独立守备队" }
+		151 = { "第%d驻屯步兵联队" }
+		454 = { "第%d独立守备队" }
+		41 = { "第%d独立守备队" }
+		717 = { "第%d独立守备队" }
+		133 = { "第%d独立守备队" }
+		718 = { "第%d独立守备队" }
+		153 = { "第%d驻屯步兵联队" }
+		719 = { "第%d独立守备队" }
+		402 = { "第%d驻屯步兵联队" }
+		720 = { "第%d独立守备队" }
+		721 = { "第%d独立守备队" }
+		154 = { "第%d驻屯步兵联队" }
+		726 = { "第%d独立守备队" }
+		157 = { "第%d驻屯步兵联队" }
+		727 = { "第%d独立守备队" }
+		158 = { "第%d驻屯步兵联队" }
+		159 = { "第%d驻屯步兵联队" }
+		856 = { "第%d独立守备队" }
+		859 = { "第%d独立守备队" }
+		160 = { "第%d驻屯步兵联队" }
+		877 = { "第%d独立守备队" }
+		735 = { "第%d独立守备队" }
+		165 = { "第%d驻屯步兵联队" }
+		812 = { "第%d独立守备队" }
+		895 = { "第%d独立守备队" }
+		166 = { "第%d驻屯步兵联队" }
+		742 = { "第%d独立守备队" }
+		171 = { "第%d驻屯步兵联队" }
+		785 = { "第%d独立守备队" }
+		172 = { "第%d驻屯步兵联队" }
+		173 = { "第%d驻屯步兵联队" }
+		182 = { "第%d驻屯步兵联队" }
+		188 = { "第%d驻屯步兵联队" }
+		730 = { "第%d独立守备队" }
+
+	}
+}
+
+IMC_MAR_01 = 
+{
+	name = "Marine Divisions"
+
+	for_countries = { IMC IMJ IMK ANM DBJ ZDJ HSW JXP CGK KRF SIK }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { IMC_INF_01 }
+
+	fallback_name = "第%d特别陆战队"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "第%d特别陆战队" }
+		2 = { "第%d特别陆战队" }
+		3 = { "第%d特别陆战队" }
+		4 = { "第%d特别陆战队" }
+		5 = { "第%d特别陆战队" }
+		6 = { "第%d特别陆战队" }
+		7 = { "第%d特别陆战队" }
+		8 = { "第%d特别陆战队" }
+		9 = { "第%d特别陆战队" }
+		10 = { "第%d特别陆战队" }
+
+	}
+}
+
+IMC_MTN_01 = 
+{
+	name = "Mountain Divisions"
+
+	for_countries = { IMC IMJ IMK ANM DBJ ZDJ HSW JXP CGK KRF SIK }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { IMC_INF_01 }
+
+	fallback_name = "第%d独立步兵联队"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "第%d独立步兵联队" }
+		2 = { "第%d独立步兵联队" }
+		3 = { "第%d独立步兵联队" }
+		6 = { "第%d独立步兵联队" }
+		4 = { "第%d独立步兵联队" }
+		5 = { "第%d独立步兵联队" }
+		7 = { "第%d独立步兵联队" }
+		188 = { "第%d独立步兵联队" }
+		157 = { "第%d独立步兵联队" }
+		9 = { "第%d独立步兵联队" }
+		8 = { "第%d独立步兵联队" }
+		187 = { "第%d独立侦察联队" }
+		10 = { "第%d独立步兵联队" }
+		11 = { "第%d独立步兵联队" }
+		12 = { "第%d独立步兵联队" }
+		13 = { "第%d独立步兵联队" }
+		14 = { "第%d独立步兵联队" }
+		15 = { "第%d独立步兵联队" }
+		16 = { "第%d独立步兵联队" }
+		17 = { "第%d独立步兵联队" }
+		18 = { "第%d独立步兵联队" }
+		19 = { "第%d独立步兵联队" }
+		20 = { "第%d独立步兵联队" }
+		21 = { "第%d独立步兵联队" }
+		22 = { "第%d独立步兵联队" }
+		23 = { "第%d独立步兵联队" }
+		24 = { "第%d独立步兵联队" }
+		25 = { "第%d独立步兵联队" }
+		26 = { "第%d独立步兵联队" }
+		27 = { "第%d独立步兵联队" }
+		28 = { "第%d独立步兵联队" }
+		29 = { "第%d独立步兵联队" }
+		30 = { "第%d独立步兵联队" }
+
+	}
+}
+
+IMC_PAR_01 = 
+{
+	name = "Paratrooper Divisions"
+
+	for_countries = { IMC IMJ IMK ANM DBJ ZDJ HSW JXP CGK KRF SIK }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { IMC_INF_01 }
+
+	fallback_name = "第%d空挺团"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "第%d空挺团" }
+		2 = { "第%d空挺团" }
+		3 = { "第%d空挺团" }
+		4 = { "第%d空挺团" }
+		5 = { "第%d空挺团" }
+		6 = { "第%d空挺团" }
+		7 = { "第%d空挺团" }
+		9 = { "第%d空挺团" }
+		8 = { "第%d空挺团" }
+		10 = { "第%d空挺团" }
+
+	}
+}

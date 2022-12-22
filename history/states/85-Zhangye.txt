@@ -1,0 +1,21 @@
+state={
+	id=85
+	name="STATE_85"
+	provinces={
+		493 1017 1252 1509 2190 2868 3239 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 1252 1 } #甘州
+		
+		buildings = {
+			infrastructure = 1
+		}
+		
+	}
+	manpower=250759
+	state_category = rural
+	local_supplies = 0.0
+}

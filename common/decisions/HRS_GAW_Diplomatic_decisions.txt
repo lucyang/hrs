@@ -1,0 +1,135 @@
+HRS_diplomatic_action_category = {
+
+	HRS_negotiate_neighbors = {
+
+		allowed = {
+			#
+		}
+
+		target_trigger = {
+			is_the_same_region = yes
+			FROM = {
+				is_ai = yes
+				NOT = { 
+					has_war_with = ROOT
+					is_subject_of = ROOT
+				} 
+			}
+			OR = {
+				AND = {
+					ROOT = { is_GAW_royal_actor = yes }
+					FROM = {
+						is_GAW_royal_actor = yes
+						is_neighbor_of = ROOT
+					}
+				}
+				AND = {
+					ROOT = { is_GAW_rebel_actor = yes }
+					FROM = {
+						is_GAW_rebel_actor = yes
+						is_neighbor_of = ROOT
+						has_same_government_as_ROOT = yes
+					}
+				}
+				AND = {
+					ROOT = { is_ai = no }
+					FROM = {
+						is_GAW_neutral_actor = yes
+						is_neighbor_of = ROOT
+						has_same_government_as_ROOT = yes
+					}
+				}
+			}
+	   	}
+
+		fire_only_once = yes
+
+		days_remove = 14
+
+		available = {
+			is_GAW_actor = yes
+			is_puppet = no
+			has_political_power > 70
+		}
+
+		ai_will_do = {
+			factor = 70
+		}
+
+		visible = {
+			is_puppet = no
+		}
+		
+		modifier = {
+			#
+		}
+		
+		complete_effect = {
+			annex_country = {
+				target = FROM
+    			transfer_troops = no
+			}
+		}
+	}
+
+	HRS_attack_neighbors = {
+		allowed = {
+			is_GAW_actor = yes
+		}
+
+		target_trigger = {
+			NOT = { has_war_with = ROOT }
+			is_the_same_region = yes
+			is_not_the_same_faction = yes
+			FROM = { NOT = { is_subject_of = ROOT } }
+	    }
+
+		fire_only_once = yes
+
+		days_remove = 21
+
+		available = {
+			is_GAW_actor = yes
+			is_puppet = no
+			has_political_power > 30
+		}
+
+		ai_will_do = {
+			factor = 30
+			modifier = {
+				factor = 30
+				strength_ratio = {
+					tag = FROM
+					ratio > 1
+				}
+			}
+			modifier = {
+				factor = 0
+				AND = {
+					ROOT = { is_GAW_royal_actor = yes }
+					FROM = { is_GAW_royal_actor = yes }
+				}
+			}
+		}
+
+		visible = {
+			is_puppet = no
+			is_GAW_neutral_actor = no
+		}
+
+		cancel_effect = {
+			add_war_support = -0.02
+		}
+		
+		remove_effect = {
+			FROM = { country_event = hrs_war.1 }
+   		}
+		
+		complete_effect = {
+			declare_war_on = {
+				target = FROM
+				type = annex_everything
+			}
+		}
+	}
+}

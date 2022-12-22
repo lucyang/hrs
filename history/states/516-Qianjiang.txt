@@ -1,0 +1,27 @@
+
+state={
+	id=516
+	name="STATE_516"
+
+	history={
+		owner = IMC
+		add_core_of = IMC
+		victory_points = {
+			372 5
+			}
+		victory_points = {
+			1785 1
+			}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		372 508 1785 
+	}
+	manpower=267786
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,22 @@
+state={
+	id=143
+	name="STATE_143"
+	provinces={
+		647 1680 2020 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points ={ 647 3 } #曲阜
+		victory_points ={ 1680 1 } #兖州
+		
+		buildings = {
+			infrastructure = 2
+		}
+		
+	}
+	manpower=4519244
+	state_category = town
+	local_supplies = 0.0
+}

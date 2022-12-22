@@ -1,0 +1,74 @@
+add_namespace = jap_unification
+
+country_event = {
+	id = jap_unification.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event jap_unification.1" }
+	title = jap_unification.1.t
+	desc = jap_unification.1.desc
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = { #Fukuora, for commie
+		name = jap_unification.1.a
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 3
+				OR = {
+					has_government = communism
+					has_government = anarchism
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = { has_government = communism }
+				NOT = { has_government = anarchism }
+			}
+		}
+		set_capital = { state = 187 }
+	}
+	option = { #Kyoto, for generic country
+		name = jap_unification.1.b
+		ai_chance = {
+			base = 60
+			modifier = {
+				factor = 0.1
+				OR = {
+					has_government = communism
+					has_government = anarchism
+				}
+			}
+		}
+		set_capital = { state = 596 }
+	}
+	option = { #Tokyoto
+		name = jap_unification.1.c
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 100
+				original_tag = THK
+			}
+		}
+		set_victory_points = {
+			province = 3702
+			value = 10
+		}
+		set_capital = { state = 120 }
+	}
+	option = { #for generic country
+		name = jap_unification.1.d
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 0
+				OR = {
+					is_ryukyu_nation = yes
+					is_hokkaido_nation = yes
+				}
+			}
+		}
+		add_stability = 0.01
+	}
+}

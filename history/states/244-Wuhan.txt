@@ -1,0 +1,37 @@
+state={
+	id=244
+	name="STATE_244"
+	provinces={
+		2141 3023 3846
+	}
+	resources = {
+		steel = 120
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 3846 15 } #武昌
+		victory_points = { 2141 10 } #汉口
+		victory_points = { 3023 5 } #汉阳
+		
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 2
+			2141 = {
+				naval_base = 2
+			}
+			3023 = {
+				naval_base = 1
+			}
+			3846 = {
+				naval_base = 3
+			}
+		}
+	}
+	manpower=1427291
+	state_category = metropolis
+	local_supplies = 1.0
+}

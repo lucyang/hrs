@@ -1,0 +1,29 @@
+state={
+	id=613
+	name="STATE_613"
+	provinces={
+		1129 1548 2614 3369 3717 3718 3728 
+	}
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+
+		victory_points = { 3728 5 } #静岡
+		victory_points = { 1129 1 } #浜松
+		victory_points = { 1548 1 } #富士
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 2
+			dockyard = 1
+
+			3728 = { #四日市港
+				naval_base = 3
+			}
+		}
+	}
+	manpower=1550387
+	state_category = city
+	local_supplies = 0.0
+}

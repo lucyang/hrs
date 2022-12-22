@@ -1,0 +1,58 @@
+characters={
+	TOK_i_bongchang={
+		name=TOK_i_bongchang
+		portraits={
+			civilian={
+				large="gfx/leaders/TOK/Portrait_I_Bongchang.png"
+			}
+		}
+		country_leader={
+			ideology=triequism_subtype
+			desc=TOK_i_bongchang_desc
+			traits={ freedom_fighter defier_of_the_sun_god }
+			expire="1950.1.1.1"
+		}
+	}
+	TOK_an_junggeun={
+		name=TOK_an_junggeun
+		portraits={
+			civilian={
+				large="gfx/leaders/TOK/Portrait_An_Junggeun.png"
+			}
+		}
+		country_leader={
+			ideology=military_government_subtype
+			desc=TOK_an_junggeun_desc
+			traits={ nationalist_symbol defier_of_the_sun_god }
+			expire="1950.1.1.1"
+		}
+	}
+	TOK_bak_chungeum={
+		name=TOK_bak_chungeum
+		portraits={
+			civilian={
+				large="gfx/leaders/TOK/Portrait_Bak_Chungeum.png"
+			}
+		}
+		country_leader={
+			ideology=left_nationalism_subtype
+			desc=TOK_bak_chungeum_desc
+			traits={ smooth_talking_con_man backroom_windbag }
+			expire="1950.1.1.1"
+		}
+	}
+	TOK_bak_yeol = {
+		name=TOK_bak_yeol
+		portraits={
+			civilian={
+				large="gfx/leaders/TOK/Portrait_Bak_Yeol.png"
+			}
+		}
+		country_leader={
+			ideology=anarcho_nationalism_subtype
+			desc=TOK_bak_yeol_desc
+			traits={ silent_workhorse }
+			expire="1974.1.17.1"
+		}
+	}
+}

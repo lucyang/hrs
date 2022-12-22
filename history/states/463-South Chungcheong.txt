@@ -1,0 +1,26 @@
+state={
+	id=463
+	name="STATE_463"
+	provinces={
+		1284 1921 4812
+	}
+	history = {
+		owner = IMK
+		add_core_of = IMK
+		
+		victory_points = { 1921 5 } #大田
+		victory_points = { 1284 1 } #唐津
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			1284 = {
+				naval_base = 1
+			}
+		}
+	}
+	manpower=1382888
+	state_category = town
+	local_supplies = 0.0
+}

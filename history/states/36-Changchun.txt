@@ -1,0 +1,22 @@
+state={
+	id=36
+	name="STATE_36"
+	provinces={
+		867 1356 2377 2402 2791 3114 3522 3532 
+	}
+	history = {
+		owner = MAN
+		add_core_of = MAN
+		victory_points = {
+			3114 20
+			}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		
+	}
+	manpower=855197
+	state_category = city
+	local_supplies = 0.0
+}

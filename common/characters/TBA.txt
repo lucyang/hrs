@@ -1,0 +1,30 @@
+characters={
+	TBA_grigory_semyonov = {
+		name=TBA_grigory_semyonov
+		portraits= {
+			civilian= {
+				large="gfx/leaders/TBA/Portrait_Grigory_Semyonov.png"
+			}
+		}
+		country_leader = {
+			ideology=provisional_government_subtype
+			desc=TBA_grigory_semyonov_desc
+			traits={ ataman_transbaikal_host the_foreign_connection emigre_connections }
+			expire="1960.8.30.1"
+		}
+	}
+	TBA_nikolai_gantimurov={
+		name=TBA_nikolai_gantimurov
+		portraits={
+			civilian={
+				large="gfx/leaders/TBA/Portrait_Nikolai_Gantimurov.dds"
+			}
+		}
+		country_leader={
+			ideology=technocracy_subtype
+			desc=TBA_nikolai_gantimurov_desc
+			traits={ empire_builder great_survivor }
+			expire="1950.7.1.1"
+		}
+	}
+}

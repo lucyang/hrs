@@ -1,0 +1,81 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ TAN_communism:0 "图瓦人民共和国"
+ TAN_communism_DEF:0 "图瓦人民共和国"
+ TAN_anarchism:0 "图瓦人民共和国"
+ TAN_anarchism_DEF:0 "图瓦人民共和国"
+ TAN_socialism:0 "图瓦共和国"
+ TAN_socialism_DEF:0 "图瓦共和国"
+ TAN_democratic:0 "图瓦共和国"
+ TAN_democratic_DEF:0 "图瓦共和国"
+ TAN_neutrality:0 "图瓦共和国"
+ TAN_neutrality_DEF:0 "图瓦共和国"
+ TAN_monarchism:0 "唐努乌梁海"
+ TAN_monarchism_DEF:0 "唐努乌梁海"
+ TAN_fascism:0 "图瓦民族共和国"
+ TAN_fascism_DEF:0 "图瓦民族共和国"
+ TAN_imperialism:0 "图瓦民族共和国"
+ TAN_imperialism_DEF:0 "图瓦民族共和国"
+ TAN_futurism:0 "图瓦人民国"
+ TAN_futurism_DEF:0 "图瓦人民国"
+ TAN_communism_ADJ:0 "图瓦"
+ TAN_anarchism_ADJ:0 "图瓦"
+ TAN_socialism_ADJ:0 "图瓦"
+ TAN_democratic_ADJ:0 "图瓦"
+ TAN_neutrality_ADJ:0 "唐努乌梁海"
+ TAN_monarchism_ADJ:0 "图瓦"
+ TAN_fascism_ADJ:0 "图瓦"
+ TAN_imperialism_ADJ:0 "图瓦"
+ TAN_futurism_ADJ:0 "图瓦"
+ TAN:0 "图瓦"
+ TAN_DEF:0 "图瓦"
+ TAN_ADJ:0 "图瓦"
+ #############
+ ## PARTIES ##
+ #############
+ TAN_communism_party:0 "人民革命党 - 极左翼"
+ TAN_communism_party_long:0 "图瓦人民革命党 - 极左翼"
+ TAN_anarchism_party:0 "人民革命党 - 左翼"
+ TAN_anarchism_party_long:0 "图瓦人民革命党 - 左翼"
+ TAN_socialism_party:0 "人民革命党 - 右翼"
+ TAN_socialism_party_long:0 "图瓦人民革命党 - 右翼"
+ TAN_democratic_party:0 "人民革命党 - 保守派"
+ TAN_democratic_party_long:0 "图瓦人民革命党 - 保守派"
+ TAN_neutrality_party:0 "人民革命军"
+ TAN_neutrality_party_long:0 "图瓦人民革命军"
+ TAN_monarchism_party:0 "部族势力"
+ TAN_monarchism_party_long:0 "部族势力"
+ TAN_fascism_party:0 "民族劳动联盟"
+ TAN_fascism_party_long:0 "俄罗斯团结主义者民族劳动联盟"
+ TAN_imperialism_party:0 "泛蒙主义者"
+ TAN_imperialism_party_long:0 "泛蒙古主义者"
+ TAN_futurism_party:0 "人民意志党"
+ TAN_futurism_party_long:0 "人民意志党"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ TAN_vasily_chapayev:0 "瓦西里·恰巴耶夫"
+ TAN_donduk_kuular:0 "库乌拉·栋杜"
+ TAN_mongush_buyan_badyrgy:0 "蒙乌什·巴颜-巴德格日"
+ TAN_mongush_buyan_badyrgy_desc:0 "蒙乌什·巴颜-巴德格日，图瓦人民共和国的“国父”，如今正在俄罗斯军阀与准噶尔汗国的夹缝中维持着图瓦人民的自由与正义。1908年，16岁的巴德格日便离开唐努乌梁海，前往俄罗斯游学。在俄罗斯学习期间，他结识了许多革命志士，布尔什维克的革命思想给了他很大的启发，促使他着手组建了§Y图瓦人民革命党§!。图瓦独立的机会在俄罗斯内战期间到来了。\n\n1918年后，远东的红军与白军展开了激烈的战争，唐努乌梁海也未能幸免。但是战争也带来了机会，赫赫有名的红军将领§Y瓦西里·恰巴耶夫§!邀请巴德格日加入他们的事业，双方一拍即合，红军与图瓦人民军很快击溃了这里的白军，甚至解放了阿尔泰共和国，将这一区域的白军彻底消灭。位于世界边缘的图瓦孤立无援，巴德格日必须找出办法，保卫图瓦、保卫革命的果实。"
+ ###########
+ ## IDEAS ##
+ ###########
+
+ #################
+ ### DECISIONS ###
+ ################# 
+
+ ################
+ ## FOCUS TREE ##
+ ################
+ 
+ #############
+ ### EVENT ###
+ #############

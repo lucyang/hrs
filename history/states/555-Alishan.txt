@@ -1,0 +1,24 @@
+
+state={
+	id=555
+	name="STATE_555"
+
+	history={
+		owner = IMC
+		add_core_of = IMC
+		victory_points = { 2137 3 } #雾社/南投市仁爱乡
+		victory_points = { 2707 1 } #高雄市桃源区
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		2137 2226 2289 2707 4142 
+	}
+	manpower=70000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

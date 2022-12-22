@@ -1,0 +1,17 @@
+characters={
+	### MMA - Mong Mao ###
+	MMA_fang_kesheng={
+		name=MMA_fang_kesheng
+		portraits={
+			civilian={
+				large="gfx/leaders/YUN/Portrait_Fang_Kesheng.png"
+			}
+		}
+		country_leader={
+			ideology=liberalism_subtype
+			desc=MMA_fang_kesheng_desc
+			traits={ }
+			expire="1980.2.4.1"
+		}
+	}
+}

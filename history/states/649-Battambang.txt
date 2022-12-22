@@ -1,0 +1,21 @@
+state={
+	id=649
+	name="STATE_649"
+	provinces={
+		440 4260
+	}
+	history={
+		owner = SIA
+		add_core_of = CAM
+
+		victory_points = { 440 1 } #马德望(Phra Tabong/Battambang)
+
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+	manpower=358000
+	state_category = rural
+	local_supplies = 0.0
+}

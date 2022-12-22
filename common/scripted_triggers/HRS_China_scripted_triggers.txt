@@ -1,0 +1,1744 @@
+is_china_nation = {
+	OR = {
+		original_tag = SHX
+		original_tag = SHD
+		original_tag = QND
+		original_tag = WAX
+		original_tag = IMN
+		original_tag = DAR
+		original_tag = PRC
+		original_tag = JID
+		original_tag = TIJ
+		original_tag = HEB
+		original_tag = PRC
+		original_tag = QUF
+		original_tag = XSM
+		original_tag = SIK
+		original_tag = IMC
+		original_tag = SHH
+		original_tag = CHI
+		original_tag = MAO
+		original_tag = HNA
+		original_tag = CBS
+		original_tag = KMT
+		original_tag = HLF
+		original_tag = GXC
+		original_tag = YUN
+		original_tag = JXP
+		original_tag = MMA
+		original_tag = CHH
+		original_tag = DLI
+		original_tag = GZH
+		original_tag = GNA
+		original_tag = MIA
+		original_tag = MIR
+		original_tag = SCH
+		original_tag = CHQ
+		original_tag = NSB
+		original_tag = PDS
+		original_tag = AYG
+		original_tag = ZZH
+		original_tag = LYG
+		original_tag = HEN
+	}
+}
+
+is_china_unifier = {
+	OR = {
+		original_tag = SHX
+		original_tag = SHD
+		original_tag = QND
+		original_tag = IMN
+		original_tag = DAR
+		original_tag = PRC
+		original_tag = JID
+		original_tag = TIJ
+		original_tag = HEB
+		original_tag = PRC
+		original_tag = QUF		
+		original_tag = XSM
+		original_tag = SIK
+		original_tag = IMC
+		original_tag = SHH
+		original_tag = CHI
+		original_tag = MAO
+		original_tag = CBS
+		original_tag = KMT
+		original_tag = HLF
+		original_tag = GXC
+		original_tag = YUN
+		original_tag = JXP
+		original_tag = DLI
+		original_tag = GZH
+		original_tag = GNA
+		original_tag = SCH
+		original_tag = CHQ
+		original_tag = PDS
+		original_tag = AYG
+		original_tag = ZZH
+		original_tag = LYG
+		original_tag = HEN
+		original_tag = WAX
+		original_tag = QNA
+		original_tag = LNG
+	}
+}
+
+is_huabei_nation = {
+	OR = {
+		original_tag = SHX
+		original_tag = SHD
+		original_tag = QUF
+		original_tag = QND
+		original_tag = PRC	
+		original_tag = HEB
+		original_tag = TIJ
+		original_tag = JID
+		original_tag = CHR
+		original_tag = IMN
+		original_tag = DAR
+		original_tag = ZZH
+		original_tag = PDS
+		original_tag = AYG
+		original_tag = LYG
+		original_tag = HEN
+		original_tag = WAX
+		original_tag = QNA
+		original_tag = LNG
+	}
+}
+
+is_xibei_nation = {
+	OR = {
+		original_tag = XSM
+		original_tag = SIK
+	}
+}
+
+is_huadong_nation = {
+	OR = {
+		original_tag = IMC
+		original_tag = SHH
+	}
+}
+
+is_huazhong_nation = {
+	OR = {
+		original_tag = CHI
+		original_tag = MAO
+		original_tag = HNA
+		original_tag = CBS
+	}
+}
+
+is_huanan_nation = {
+	OR = {
+		original_tag = KMT
+		original_tag = HLF
+		original_tag = GXC
+	}
+}
+
+is_xinan_nation = {
+	OR = {
+		original_tag = YUN
+		original_tag = JXP
+		original_tag = MMA
+		original_tag = CHH
+		original_tag = DLI
+		original_tag = GZH
+		original_tag = GNA
+		original_tag = MIA
+		original_tag = MIR
+		original_tag = SCH
+		original_tag = CHQ
+		original_tag = NSB
+	}
+}
+
+is_yi_nation = {
+	OR = {
+		original_tag = NSB
+	}
+}
+
+is_bai_nation = {
+	OR = {
+		original_tag = DLI
+	}
+}
+
+is_miao_nation = {
+	OR = {
+		original_tag = MIA
+		original_tag = MIR
+	}
+}
+
+is_dai_nation = {
+	OR = {
+		original_tag = MMA
+		original_tag = CHH
+	}
+}
+
+is_guangdong_state = {
+	OR = {
+		state = 330 #韶关
+		state = 333 #清远
+		state = 340 #梅州
+		state = 343 #河源
+		state = 349 #肇庆
+		state = 351 #潮州
+		state = 353 #惠州
+		state = 355 #广州
+		state = 357 #揭阳
+		state = 358 #汕头
+		state = 361 #佛山
+		state = 362 #汕尾
+		state = 365 #云浮
+		state = 367 #东莞
+		state = 368 #江门
+		state = 369 #宝安
+		state = 370 #香山
+		state = 372 #茂名
+		state = 373 #阳江
+		state = 375 #香港
+		state = 377 #珠海
+		state = 379 #澳门
+		state = 382 #湛江
+		state = 371 #钦州
+		state = 378 #防城港
+		state = 381 #北海
+	}
+}
+
+is_fujian_state = {
+	OR = {
+		state = 291 #南平
+		state = 304 #宁德
+		state = 311 #三明
+		state = 317 #福州
+		state = 325 #龙岩
+		state = 326 #泉州
+		state = 328 #莆田
+		state = 334 #漳州
+		state = 341 #厦门
+	}
+}
+
+is_hunan_state = {
+	OR = {
+		state = 258 #常德
+		state = 262 #澧州
+		state = 263 #岳阳
+		state = 269 #凤凰
+		state = 270 #益阳
+		state = 282 #怀化
+		state = 285 #长沙
+		state = 294 #娄底
+		state = 297 #湘潭
+		state = 298 #株洲
+		state = 303 #邵阳
+		state = 306 #衡阳
+		state = 313 #永州
+		state = 314 #郴州
+	}
+}
+
+is_jiangxi_state = {
+	OR = {
+		state = 260 #景德镇
+		state = 264 #九江
+		state = 267 #上饶
+		state = 279 #南昌
+		state = 280 #宜春
+		state = 286 #鹰潭
+		state = 290 #抚州
+		state = 296 #新余
+		state = 299 #萍乡
+		state = 300 #吉安
+		state = 310 #赣州
+	}
+}
+
+is_guangxi_state = {
+	OR = {
+		state = 322 #桂林
+		state = 324 #柳州
+		state = 329 #河池
+		state = 335 #贺州
+		state = 337 #百色
+		state = 347 #来宾
+		state = 348 #梧州
+		state = 352 #南宁
+		state = 354 #贵港
+		state = 364 #崇左
+		state = 366 #玉林
+	}
+}
+
+is_zhejiang_state = {
+	OR = {
+		state = 233 #湖州
+		state = 235 #嘉兴
+		state = 246 #杭州
+		state = 253 #宁波
+		state = 254 #舟山
+		state = 256 #绍兴
+		state = 266 #金华
+		state = 271 #衢州
+		state = 274 #台州
+		state = 283 #丽水
+		state = 287 #温州
+	}
+}
+
+is_jiangsu_state = {
+	OR = {
+		state = 161 #连云港
+		state = 166 #徐州
+		state = 174 #盐城
+		state = 179 #宿迁
+		state = 185 #淮安
+		state = 195 #扬州
+		state = 198 #泰州
+		state = 203 #南通
+		state = 211 #镇江
+		state = 212 #南京
+		state = 213 #常州
+		state = 214 #苏州
+		state = 217 #无锡
+	}
+}
+
+is_anhui_state = {
+	OR = {
+		state = 170 #宿州
+		state = 171 #淮南
+		state = 183 #淮北
+		state = 184 #毫州
+		state = 191 #阜阳
+		state = 194 #蚌埠
+		state = 197 #滁州
+		state = 201 #六安
+		state = 205 #合肥
+		state = 210 #马鞍山
+		state = 228 #芜湖
+		state = 229 #铜陵
+		state = 230 #宣城
+		state = 231 #安庆
+		state = 240 #池州
+		state = 247 #黄山
+	}
+}
+
+is_hubei_state = {
+	OR = {
+		state = 196 #十堰
+		state = 206 #襄阳
+		state = 208 #随州
+		state = 216 #神农架
+		state = 218 #孝感
+		state = 222 #宜昌
+		state = 223 #荆门
+		state = 224 #黄冈
+		state = 238 #恩施
+		state = 242 #荆州
+		state = 244 #武汉
+		state = 245 #潜江
+		state = 248 #仙桃
+		state = 249 #天门
+		state = 252 #鄂州
+		state = 255 #黄石
+		state = 257 #咸宁
+	}
+}
+
+is_henan_state = {
+	OR = {
+		state = 134 #安阳
+		state = 136 #濮阳
+		state = 145 #新乡
+		state = 157 #焦作
+		state = 158 #济源
+		state = 162 #三门峡
+		state = 163 #开封
+		state = 164 #洛阳
+		state = 165 #郑州
+		state = 167 #商丘
+		state = 175 #平顶山
+		state = 176 #许昌
+		state = 177 #宛西
+		state = 178 #漯河
+		state = 182 #周口
+		state = 190 #南阳
+		state = 192 #驻马店
+		state = 204 #信阳
+	}
+}
+
+is_shandong_state = {
+	OR = {
+		state = 105 #滨州
+		state = 107 #东营
+		state = 109 #德州
+		state = 110 #烟台
+		state = 114 #威海
+		state = 117 #潍坊
+		state = 118 #济南
+		state = 122 #淄博
+		state = 125 #胶州
+		state = 129 #聊城
+		state = 133 #泰安
+		state = 137 #临沂
+		state = 142 #日照
+		state = 143 #济宁
+		state = 144 #菏泽
+		state = 156 #枣庄
+		state = 654 #青岛
+	}
+}
+
+is_hebei_state = {
+	OR = {
+		state = 59 #承德
+		state = 63 #宣化
+		state = 510 #张家口
+		state = 78 #秦皇岛
+		state = 79 #唐山
+		state = 84 #保定
+		state = 89 #廊坊
+		state = 95 #沧州
+		state = 97 #石家庄
+		state = 102 #衡水
+		state = 112 #邢台
+		state = 127 #邯郸
+	}
+}
+
+is_hainan_state = {
+	OR = {
+		state = 385 #海南岛
+		state = 386 #琼州
+		state = 389 #崖州
+		state = 383 #儋州
+	}
+}
+
+is_sichuan_state = {
+	OR = {
+		state = 181 #阿坝
+		state = 186 #康定
+		state = 199 #绵阳
+		state = 200 #广元
+		state = 202 #巴中
+		state = 209 #达州
+		state = 215 #南充
+		state = 221 #德阳
+		state = 227 #成都
+		state = 232 #遂宁
+		state = 237 #雅安
+		state = 239 #广安
+		state = 241 #资阳
+		state = 251 #眉山
+		state = 259 #内江
+		state = 261 #乐山
+		state = 268 #自贡
+		state = 273 #泸州
+		state = 275 #凉山
+		state = 276 #宜宾
+		state = 308 #米易
+		state = 236 #巴县
+		state = 515 #万县
+		state = 516 #黔江
+		state = 517 #涪陵
+	}
+}
+
+is_xikang_state = {
+	OR = {
+		state = 181 #阿坝
+		state = 186 #康定
+	}
+}
+
+is_west_sichuan_state = {
+	OR = {
+		state = 199 #绵阳
+		state = 221 #德阳
+		state = 227 #成都
+		state = 237 #雅安
+		state = 241 #资阳
+		state = 251 #眉山
+	}
+}
+
+is_south_sichuan_state = {
+	OR = {
+		state = 259 #内江
+		state = 261 #乐山
+		state = 268 #自贡
+		state = 273 #泸州
+		state = 276 #宜宾 
+	}
+}
+
+is_north_sichuan_state = {
+	OR = {
+		state = 200 #广元
+		state = 202 #巴中
+		state = 215 #南充
+		state = 232 #遂宁
+	}
+}
+
+is_east_sichuan_state = {
+	OR = {
+		state = 209 #达州
+		state = 236 #巴县
+		state = 239 #广安
+		state = 515 #万县
+		state = 516 #黔江
+		state = 517 #涪陵
+	}
+}
+
+is_shaanxi_state = {
+	OR = {
+		state = 88 #榆林
+		state = 115 #延安
+		state = 146 #渭南
+		state = 153 #铜川
+		state = 155 #咸阳
+		state = 160 #宝鸡
+		state = 168 #长安
+		state = 173 #商洛
+		state = 188 #汉中
+		state = 189 #安康
+	}
+}
+
+is_shanxi_state = {
+	OR = {
+		state = 77 #大同
+		state = 80 #朔州
+		state = 86 #忻州
+		state = 93 #阳泉
+		state = 98 #吕梁
+		state = 103 #太原
+		state = 108 #晋中
+		state = 124 #长治
+		state = 130 #临汾
+		state = 141 #晋城
+		state = 147 #运城
+	}
+}
+
+is_guizhou_state = {
+	OR = {
+		state = 278 #遵义
+		state = 281 #铜仁
+		state = 302 #毕节
+		state = 305 #镇远
+		state = 307 #都匀
+		state = 309 #贵阳
+		state = 315 #盘州
+		state = 318 #安顺
+		state = 323 #兴义
+	}
+}
+
+is_yunnan_state = {
+	OR = {
+		state = 277 #迪庆
+		state = 284 #昭通
+		state = 293 #怒江
+		state = 301 #丽江
+		state = 312 #曲靖
+		state = 316 #大理
+		state = 319 #楚雄
+		state = 321 #昆明
+		state = 327 #保山
+		state = 331 #德宏
+		state = 338 #临沧
+		state = 339 #玉溪
+		state = 342 #普洱
+		state = 344 #红河
+		state = 345 #文山
+		state = 374 #西双版纳
+		state = 504 #孟拱/江心坡
+		state = 557 #野人山
+		state = 638 #澜沧
+	}
+}
+
+is_gansu_state = {
+	OR = {
+		state = 31 #嘉峪关
+		state = 55 #酒泉
+		state = 85 #张掖
+		state = 90 #武威
+		state = 94 #金昌
+		state = 113 #白银
+		state = 121 #庆阳
+		state = 128 #兰州
+		state = 139 #临夏
+		state = 140 #定西
+		state = 148 #平凉
+		state = 154 #甘南
+		state = 159 #天水
+		state = 172 #陇南
+		state = 96 #银川
+		state = 104 #石嘴山
+		state = 106 #吴忠
+		state = 111 #中卫
+		state = 131 #固原
+	}
+}
+
+is_qinghai_state = {
+	OR = {
+		state = 91 #海西
+		state = 92 #海北
+		state = 116 #西宁
+		state = 119 #海南
+		state = 123 #海东
+		state = 135 #玉树
+		state = 138 #黄南
+		state = 151 #果洛
+	}
+}
+
+is_liaoning_state = {
+	OR = {
+		state = 60 #抚顺
+		state = 64 #锦州
+		state = 65 #本溪
+		state = 66 #鞍山
+		state = 67 #辽阳
+		state = 69 #盘山
+		state = 72 #兴城
+		state = 73 #丹东
+		state = 75 #营口
+		state = 83 #复州
+		state = 635 #宽甸
+		state = 591 #关东州
+	}
+}
+
+is_china_state = {
+	AND = {
+		#直辖市
+		state = 82 #天津
+		state = 219 #崇明岛
+		state = 226 #上海
+		#广东
+		state = 330 #韶关
+		state = 333 #清远
+		state = 340 #梅州
+		state = 343 #河源
+		state = 349 #肇庆
+		state = 351 #潮州
+		state = 353 #惠州
+		state = 355 #广州
+		state = 357 #揭阳
+		state = 358 #汕头
+		state = 361 #佛山
+		state = 362 #汕尾
+		state = 365 #云浮
+		state = 367 #东莞
+		state = 368 #江门
+		state = 369 #宝安
+		state = 370 #香山
+		state = 372 #茂名
+		state = 373 #阳江
+		state = 375 #香港
+		state = 377 #珠海
+		state = 379 #澳门
+		state = 382 #湛江
+		#福建
+		state = 291 #南平
+		state = 304 #宁德
+		state = 311 #三明
+		state = 317 #福州
+		state = 325 #龙岩
+		state = 326 #泉州
+		state = 328 #莆田
+		state = 334 #漳州
+		state = 341 #厦门
+		state = 538 #金门
+		state = 539 #连江
+		#湖南
+		state = 258 #常德
+		state = 262 #澧州
+		state = 263 #岳阳
+		state = 269 #凤凰
+		state = 270 #益阳
+		state = 282 #怀化
+		state = 285 #长沙
+		state = 294 #娄底
+		state = 297 #湘潭
+		state = 298 #株洲
+		state = 303 #邵阳
+		state = 306 #衡阳
+		state = 313 #永州
+		state = 314 #郴州
+ 		#江西
+		state = 260 #景德镇
+		state = 264 #九江
+		state = 267 #上饶
+		state = 279 #南昌
+		state = 280 #宜春
+		state = 286 #鹰潭
+		state = 290 #抚州
+		state = 296 #新余
+		state = 299 #萍乡
+		state = 300 #吉安
+		state = 310 #赣州
+ 		#广西
+		state = 322 #桂林
+		state = 324 #柳州
+		state = 329 #河池
+		state = 335 #贺州
+		state = 337 #百色
+		state = 347 #来宾
+		state = 348 #梧州
+		state = 352 #南宁
+		state = 354 #贵港
+		state = 364 #崇左
+		state = 366 #玉林
+		state = 371 #钦州
+		state = 378 #防城港
+		state = 381 #北海
+ 		#交趾
+		state = 507 #广宁
+		state = 528 #宣光
+		state = 562 #谅山
+		state = 563 #广源
+		state = 564 #太原
+ 		#浙江
+		state = 233 #湖州
+		state = 235 #嘉兴
+		state = 246 #杭州
+		state = 253 #宁波
+		state = 254 #舟山
+		state = 256 #绍兴
+		state = 266 #金华
+		state = 271 #衢州
+		state = 274 #台州
+		state = 283 #丽水
+		state = 287 #温州
+ 		#江苏
+		state = 161 #连云港
+		state = 166 #徐州
+		state = 174 #盐城
+		state = 179 #宿迁
+		state = 185 #淮安
+		state = 195 #扬州
+		state = 198 #泰州
+		state = 203 #南通
+		state = 211 #镇江
+		state = 212 #京师
+		state = 213 #常州
+		state = 214 #苏州
+		state = 217 #无锡
+ 		#安徽
+		state = 170 #宿州
+		state = 171 #淮南
+		state = 183 #淮北
+		state = 184 #毫州
+		state = 191 #阜阳
+		state = 194 #蚌埠
+		state = 197 #滁州
+		state = 201 #六安
+		state = 205 #合肥
+		state = 210 #马鞍山
+		state = 228 #芜湖
+		state = 229 #铜陵
+		state = 230 #宣城
+		state = 231 #安庆
+		state = 240 #池州
+		state = 247 #黄山
+ 		#湖北
+		state = 196 #十堰
+		state = 206 #襄阳
+		state = 208 #随州
+		state = 216 #神农架
+		state = 218 #孝感
+		state = 222 #宜昌
+		state = 223 #荆门
+		state = 224 #黄冈
+		state = 238 #恩施
+		state = 242 #荆州
+		state = 244 #武汉
+		state = 245 #潜江
+		state = 248 #仙桃
+		state = 249 #天门
+		state = 252 #鄂州
+		state = 255 #黄石
+		state = 257 #咸宁
+ 		#河南
+		state = 134 #安阳
+		state = 136 #濮阳
+		state = 145 #新乡
+		state = 157 #焦作
+		state = 158 #济源
+		state = 162 #三门峡
+		state = 163 #开封
+		state = 164 #洛阳
+		state = 165 #郑州
+		state = 167 #商丘
+		state = 175 #平顶山
+		state = 176 #许昌
+		state = 177 #宛西
+		state = 178 #漯河
+		state = 182 #周口
+		state = 190 #南阳
+		state = 192 #驻马店
+		state = 204 #信阳
+ 		#山东
+		state = 105 #滨州
+		state = 107 #东营
+		state = 109 #德州
+		state = 110 #烟台
+		state = 114 #威海
+		state = 117 #潍坊
+		state = 118 #济南
+		state = 122 #淄博
+		state = 125 #胶州
+		state = 129 #聊城
+		state = 133 #泰安
+		state = 137 #临沂
+		state = 142 #日照
+		state = 143 #济宁
+		state = 144 #菏泽
+		state = 156 #枣庄
+		state = 654 #青岛
+ 		#河北
+		state = 59 #承德
+		state = 63 #宣化
+		state = 74 #北平
+		state = 510 #张家口
+		state = 78 #秦皇岛
+		state = 79 #唐山
+		state = 84 #保定
+		state = 89 #廊坊
+		state = 95 #沧州
+		state = 97 #石家庄
+		state = 102 #衡水
+		state = 112 #邢台
+		state = 127 #邯郸
+ 		#海南
+		state = 385 #海南岛
+		state = 386 #琼州
+		state = 389 #崖州
+		state = 383 #儋州
+ 		#辽东
+		state = 60 #抚顺
+		state = 64 #锦州
+		state = 65 #本溪
+		state = 66 #鞍山
+		state = 67 #辽阳
+		state = 69 #盘山
+		state = 72 #兴城
+		state = 73 #丹东
+		state = 75 #营口
+		state = 83 #复州
+		state = 635 #宽甸
+		state = 591 #关东州
+ 		#四川
+		state = 181 #阿坝
+		state = 186 #康定
+		state = 199 #绵阳
+		state = 200 #广元
+		state = 202 #巴中
+		state = 209 #达州
+		state = 215 #南充
+		state = 221 #德阳
+		state = 227 #成都
+		state = 232 #遂宁
+		state = 237 #雅安
+		state = 239 #广安
+		state = 241 #资阳
+		state = 251 #眉山
+		state = 259 #内江
+		state = 261 #乐山
+		state = 268 #自贡
+		state = 273 #泸州
+		state = 275 #凉山
+		state = 276 #宜宾
+		state = 308 #米易
+ 		#重庆
+		state = 236 #巴县
+		state = 515 #万县
+		state = 516 #黔江
+		state = 517 #涪陵
+ 		#陕西
+		state = 88 #榆林
+		state = 115 #延安
+		state = 146 #渭南
+		state = 153 #铜川
+		state = 155 #咸阳
+		state = 160 #宝鸡
+		state = 168 #长安
+		state = 173 #商洛
+		state = 188 #汉中
+		state = 189 #安康
+ 		#山西
+		state = 77 #大同
+		state = 80 #朔州
+		state = 86 #忻州
+		state = 93 #阳泉
+		state = 98 #吕梁
+		state = 103 #太原
+		state = 108 #晋中
+		state = 124 #长治
+		state = 130 #临汾
+		state = 141 #晋城
+		state = 147 #运城
+ 		#贵州
+		state = 278 #遵义
+		state = 281 #铜仁
+		state = 302 #毕节
+		state = 305 #镇远
+		state = 307 #都匀
+		state = 309 #贵阳
+		state = 315 #盘州
+		state = 318 #安顺
+		state = 323 #兴义
+ 		#云南
+		state = 277 #迪庆
+		state = 284 #昭通
+		state = 293 #怒江
+		state = 301 #丽江
+		state = 312 #曲靖
+		state = 316 #大理
+		state = 319 #楚雄
+		state = 321 #昆明
+		state = 327 #保山
+		state = 331 #德宏
+		state = 338 #临沧
+		state = 339 #玉溪
+		state = 342 #普洱
+		state = 344 #红河
+		state = 345 #文山
+		state = 374 #西双版纳
+		state = 504 #孟拱/江心坡
+		state = 638 #澜沧
+ 		#甘肃
+		state = 31 #嘉峪关
+		state = 55 #酒泉
+		state = 85 #张掖
+		state = 90 #武威
+		state = 94 #金昌
+		state = 113 #白银
+		state = 121 #庆阳
+		state = 128 #兰州
+		state = 139 #临夏
+		state = 140 #定西
+		state = 148 #平凉
+		state = 154 #甘南
+		state = 159 #天水
+		state = 172 #陇南
+ 		#宁夏
+		state = 96 #银川
+		state = 104 #石嘴山
+		state = 106 #吴忠
+		state = 111 #中卫
+		state = 131 #固原
+ 		#内蒙古
+		state = 43 #乌海
+		state = 49 #乌兰察布
+		state = 56 #阿拉善
+		state = 57 #包头
+		state = 61 #五原/巴彦淖尔
+		state = 71 #归绥/呼和浩特
+		state = 76 #伊克昭/鄂尔多斯
+		state = 511 #东胜/托克托
+ 		#青海
+		state = 91 #海西
+		state = 92 #海北
+		state = 116 #西宁
+		state = 119 #海南
+		state = 123 #海东
+		state = 135 #玉树
+		state = 138 #黄南
+		state = 151 #果洛
+	}
+}
+
+is_any_china_state = {
+	OR = {
+		#直辖市
+		state = 82 #天津
+		state = 219 #崇明岛
+		state = 226 #上海
+		#广东
+		state = 330 #韶关
+		state = 333 #清远
+		state = 340 #梅州
+		state = 343 #河源
+		state = 349 #肇庆
+		state = 351 #潮州
+		state = 353 #惠州
+		state = 355 #广州
+		state = 357 #揭阳
+		state = 358 #汕头
+		state = 361 #佛山
+		state = 362 #汕尾
+		state = 365 #云浮
+		state = 367 #东莞
+		state = 368 #江门
+		state = 369 #宝安
+		state = 370 #香山
+		state = 372 #茂名
+		state = 373 #阳江
+		state = 375 #香港
+		state = 377 #珠海
+		state = 379 #澳门
+		state = 382 #湛江
+		#福建
+		state = 291 #南平
+		state = 304 #宁德
+		state = 311 #三明
+		state = 317 #福州
+		state = 325 #龙岩
+		state = 326 #泉州
+		state = 328 #莆田
+		state = 334 #漳州
+		state = 341 #厦门
+		state = 538 #金门
+		state = 539 #连江
+		#湖南
+		state = 258 #常德
+		state = 262 #澧州
+		state = 263 #岳阳
+		state = 269 #凤凰
+		state = 270 #益阳
+		state = 282 #怀化
+		state = 285 #长沙
+		state = 294 #娄底
+		state = 297 #湘潭
+		state = 298 #株洲
+		state = 303 #邵阳
+		state = 306 #衡阳
+		state = 313 #永州
+		state = 314 #郴州
+ 		#江西
+		state = 260 #景德镇
+		state = 264 #九江
+		state = 267 #上饶
+		state = 279 #南昌
+		state = 280 #宜春
+		state = 286 #鹰潭
+		state = 290 #抚州
+		state = 296 #新余
+		state = 299 #萍乡
+		state = 300 #吉安
+		state = 310 #赣州
+ 		#广西
+		state = 322 #桂林
+		state = 324 #柳州
+		state = 329 #河池
+		state = 335 #贺州
+		state = 337 #百色
+		state = 347 #来宾
+		state = 348 #梧州
+		state = 352 #南宁
+		state = 354 #贵港
+		state = 364 #崇左
+		state = 366 #玉林
+		state = 371 #钦州
+		state = 378 #防城港
+		state = 381 #北海
+ 		#交趾
+		state = 507 #广宁
+		state = 528 #宣光
+		state = 562 #谅山
+		state = 563 #广源
+		state = 564 #太原
+ 		#浙江
+		state = 233 #湖州
+		state = 235 #嘉兴
+		state = 246 #杭州
+		state = 253 #宁波
+		state = 254 #舟山
+		state = 256 #绍兴
+		state = 266 #金华
+		state = 271 #衢州
+		state = 274 #台州
+		state = 283 #丽水
+		state = 287 #温州
+ 		#江苏
+		state = 161 #连云港
+		state = 166 #徐州
+		state = 174 #盐城
+		state = 179 #宿迁
+		state = 185 #淮安
+		state = 195 #扬州
+		state = 198 #泰州
+		state = 203 #南通
+		state = 211 #镇江
+		state = 212 #京师
+		state = 213 #常州
+		state = 214 #苏州
+		state = 217 #无锡
+ 		#安徽
+		state = 170 #宿州
+		state = 171 #淮南
+		state = 183 #淮北
+		state = 184 #毫州
+		state = 191 #阜阳
+		state = 194 #蚌埠
+		state = 197 #滁州
+		state = 201 #六安
+		state = 205 #合肥
+		state = 210 #马鞍山
+		state = 228 #芜湖
+		state = 229 #铜陵
+		state = 230 #宣城
+		state = 231 #安庆
+		state = 240 #池州
+		state = 247 #黄山
+ 		#湖北
+		state = 196 #十堰
+		state = 206 #襄阳
+		state = 208 #随州
+		state = 216 #神农架
+		state = 218 #孝感
+		state = 222 #宜昌
+		state = 223 #荆门
+		state = 224 #黄冈
+		state = 238 #恩施
+		state = 242 #荆州
+		state = 244 #武汉
+		state = 245 #潜江
+		state = 248 #仙桃
+		state = 249 #天门
+		state = 252 #鄂州
+		state = 255 #黄石
+		state = 257 #咸宁
+ 		#河南
+		state = 134 #安阳
+		state = 136 #濮阳
+		state = 145 #新乡
+		state = 157 #焦作
+		state = 158 #济源
+		state = 162 #三门峡
+		state = 163 #开封
+		state = 164 #洛阳
+		state = 165 #郑州
+		state = 167 #商丘
+		state = 175 #平顶山
+		state = 176 #许昌
+		state = 177 #宛西
+		state = 178 #漯河
+		state = 182 #周口
+		state = 190 #南阳
+		state = 192 #驻马店
+		state = 204 #信阳
+ 		#山东
+		state = 105 #滨州
+		state = 107 #东营
+		state = 109 #德州
+		state = 110 #烟台
+		state = 114 #威海
+		state = 117 #潍坊
+		state = 118 #济南
+		state = 122 #淄博
+		state = 125 #胶州
+		state = 129 #聊城
+		state = 133 #泰安
+		state = 137 #临沂
+		state = 142 #日照
+		state = 143 #济宁
+		state = 144 #菏泽
+		state = 156 #枣庄
+		state = 654 #青岛
+ 		#河北
+		state = 59 #承德
+		state = 63 #宣化
+		state = 74 #北平
+		state = 78 #秦皇岛
+		state = 79 #唐山
+		state = 84 #保定
+		state = 89 #廊坊
+		state = 95 #沧州
+		state = 97 #石家庄
+		state = 102 #衡水
+		state = 112 #邢台
+		state = 127 #邯郸
+		state = 510 #张家口
+ 		#海南
+		state = 385 #海南岛
+		state = 386 #琼州
+		state = 389 #崖州
+		state = 383 #儋州
+ 		#辽东
+		state = 60 #抚顺
+		state = 64 #锦州
+		state = 65 #本溪
+		state = 66 #鞍山
+		state = 67 #辽阳
+		state = 69 #盘山
+		state = 72 #兴城
+		state = 73 #丹东
+		state = 75 #营口
+		state = 83 #复州
+		state = 635 #宽甸
+		state = 591 #关东州
+ 		#四川
+		state = 181 #阿坝
+		state = 186 #康定
+		state = 199 #绵阳
+		state = 200 #广元
+		state = 202 #巴中
+		state = 209 #达州
+		state = 215 #南充
+		state = 221 #德阳
+		state = 227 #成都
+		state = 232 #遂宁
+		state = 237 #雅安
+		state = 239 #广安
+		state = 241 #资阳
+		state = 251 #眉山
+		state = 259 #内江
+		state = 261 #乐山
+		state = 268 #自贡
+		state = 273 #泸州
+		state = 275 #凉山
+		state = 276 #宜宾
+		state = 308 #米易
+ 		#重庆
+		state = 236 #巴县
+		state = 515 #万县
+		state = 516 #黔江
+		state = 517 #涪陵
+ 		#陕西
+		state = 88 #榆林
+		state = 115 #延安
+		state = 146 #渭南
+		state = 153 #铜川
+		state = 155 #咸阳
+		state = 160 #宝鸡
+		state = 168 #长安
+		state = 173 #商洛
+		state = 188 #汉中
+		state = 189 #安康
+ 		#山西
+		state = 77 #大同
+		state = 80 #朔州
+		state = 86 #忻州
+		state = 93 #阳泉
+		state = 98 #吕梁
+		state = 103 #太原
+		state = 108 #晋中
+		state = 124 #长治
+		state = 130 #临汾
+		state = 141 #晋城
+		state = 147 #运城
+ 		#贵州
+		state = 278 #遵义
+		state = 281 #铜仁
+		state = 302 #毕节
+		state = 305 #镇远
+		state = 307 #都匀
+		state = 309 #贵阳
+		state = 315 #盘州
+		state = 318 #安顺
+		state = 323 #兴义
+ 		#云南
+		state = 277 #迪庆
+		state = 284 #昭通
+		state = 293 #怒江
+		state = 301 #丽江
+		state = 312 #曲靖
+		state = 316 #大理
+		state = 319 #楚雄
+		state = 321 #昆明
+		state = 327 #保山
+		state = 331 #德宏
+		state = 338 #临沧
+		state = 339 #玉溪
+		state = 342 #普洱
+		state = 344 #红河
+		state = 345 #文山
+		state = 374 #西双版纳
+		state = 504 #孟拱/江心坡
+		state = 638 #澜沧
+ 		#甘肃
+		state = 31 #嘉峪关
+		state = 55 #酒泉
+		state = 85 #张掖
+		state = 90 #武威
+		state = 94 #金昌
+		state = 113 #白银
+		state = 121 #庆阳
+		state = 128 #兰州
+		state = 139 #临夏
+		state = 140 #定西
+		state = 148 #平凉
+		state = 154 #甘南
+		state = 159 #天水
+		state = 172 #陇南
+ 		#宁夏
+		state = 96 #银川
+		state = 104 #石嘴山
+		state = 106 #吴忠
+		state = 111 #中卫
+		state = 131 #固原
+ 		#内蒙古
+		state = 43 #乌海
+		state = 49 #乌兰察布
+		state = 56 #阿拉善
+		state = 57 #包头
+		state = 61 #五原/巴彦淖尔
+		state = 71 #归绥/呼和浩特
+		state = 76 #伊克昭/鄂尔多斯
+		state = 511 #东胜/托克托
+ 		#青海
+		state = 91 #海西
+		state = 92 #海北
+		state = 116 #西宁
+		state = 119 #海南
+		state = 123 #海东
+		state = 135 #玉树
+		state = 138 #黄南
+		state = 151 #果洛
+	}
+}
+
+can_form_huabei = {
+    AND = {
+        #河南
+		owns_state = 134 #安阳
+		owns_state = 136 #濮阳
+		owns_state = 145 #新乡
+		owns_state = 157 #焦作
+		owns_state = 158 #济源
+		owns_state = 162 #三门峡
+		owns_state = 163 #开封
+		owns_state = 164 #洛阳
+		owns_state = 165 #郑州
+		owns_state = 167 #商丘
+		owns_state = 175 #平顶山
+		owns_state = 176 #许昌
+		owns_state = 177 #宛西
+		owns_state = 178 #漯河
+		owns_state = 182 #周口
+		owns_state = 190 #南阳
+		owns_state = 192 #驻马店
+		owns_state = 204 #信阳
+ 		#山东
+		owns_state = 105 #滨州
+		owns_state = 107 #东营
+		owns_state = 109 #德州
+		owns_state = 110 #烟台
+		owns_state = 114 #威海
+		owns_state = 117 #潍坊
+		owns_state = 118 #济南
+		owns_state = 122 #淄博
+		owns_state = 125 #胶州
+		owns_state = 129 #聊城
+		owns_state = 133 #泰安
+		owns_state = 137 #临沂
+		owns_state = 142 #日照
+		owns_state = 143 #济宁
+		owns_state = 144 #菏泽
+		owns_state = 156 #枣庄
+		owns_state = 654 #青岛
+ 		#河北 
+		owns_state = 59 #承德
+		owns_state = 63 #宣化
+		owns_state = 74 #北平
+		owns_state = 510 #张家口
+		owns_state = 78 #秦皇岛
+		owns_state = 79 #唐山
+        owns_state = 82 #天津
+		owns_state = 84 #保定
+		owns_state = 89 #廊坊
+		owns_state = 95 #沧州
+		owns_state = 97 #石家庄
+		owns_state = 102 #衡水
+		owns_state = 112 #邢台
+		owns_state = 127 #邯郸
+        #辽东
+		owns_state = 60 #抚顺
+		owns_state = 64 #锦州
+		owns_state = 65 #本溪
+		owns_state = 66 #鞍山
+		owns_state = 67 #辽阳
+		owns_state = 69 #盘山
+		owns_state = 72 #兴城
+		owns_state = 73 #丹东
+		owns_state = 75 #营口
+		owns_state = 83 #复州
+		owns_state = 635 #宽甸
+		owns_state = 591 #关东州
+        #山西
+		owns_state = 77 #大同
+		owns_state = 80 #朔州
+		owns_state = 86 #忻州
+		owns_state = 93 #阳泉
+		owns_state = 98 #吕梁
+		owns_state = 103 #太原
+		owns_state = 108 #晋中
+		owns_state = 124 #长治
+		owns_state = 130 #临汾
+		owns_state = 141 #晋城
+		owns_state = 147 #运城
+        #内蒙古
+		owns_state = 43 #乌海
+		owns_state = 49 #乌兰察布
+		owns_state = 56 #阿拉善
+		owns_state = 57 #包头
+		owns_state = 61 #五原/巴彦淖尔
+		owns_state = 71 #归绥/呼和浩特
+		owns_state = 76 #伊克昭/鄂尔多斯
+		owns_state = 511 #东胜/托克托
+    }
+}
+
+can_form_huanan = {
+    AND = {
+		#福建
+		owns_state = 291 #南平
+		owns_state = 304 #宁德
+		owns_state = 311 #三明
+		owns_state = 317 #福州
+		owns_state = 325 #龙岩
+		owns_state = 326 #泉州
+		owns_state = 328 #莆田
+		owns_state = 334 #漳州
+		owns_state = 341 #厦门
+		owns_state = 538 #金门
+		owns_state = 539 #连江
+		#广东
+		owns_state = 330 #韶关
+		owns_state = 333 #清远
+		owns_state = 340 #梅州
+		owns_state = 343 #河源
+		owns_state = 349 #肇庆
+		owns_state = 351 #潮州
+		owns_state = 353 #惠州
+		owns_state = 355 #广州
+		owns_state = 357 #揭阳
+		owns_state = 358 #汕头
+		owns_state = 361 #佛山
+		owns_state = 362 #汕尾
+		owns_state = 365 #云浮
+		owns_state = 367 #东莞
+		owns_state = 368 #江门
+		owns_state = 369 #宝安
+		owns_state = 370 #香山
+		owns_state = 372 #茂名
+		owns_state = 373 #阳江
+		owns_state = 375 #香港
+		owns_state = 377 #珠海
+		owns_state = 379 #澳门
+		owns_state = 382 #湛江
+ 		#广西
+		owns_state = 322 #桂林
+		owns_state = 324 #柳州
+		owns_state = 329 #河池
+		owns_state = 335 #贺州
+		owns_state = 337 #百色
+		owns_state = 347 #来宾
+		owns_state = 348 #梧州
+		owns_state = 352 #南宁
+		owns_state = 354 #贵港
+		owns_state = 364 #崇左
+		owns_state = 366 #玉林
+		owns_state = 371 #钦州
+		owns_state = 378 #防城港
+		owns_state = 381 #北海
+        #海南
+		owns_state = 385 #海南岛
+		owns_state = 386 #琼州
+		owns_state = 389 #崖州
+		owns_state = 383 #儋州
+    }
+}
+
+can_form_huadong = {
+    AND = {
+        #上海
+		owns_state = 219 #崇明岛
+		owns_state = 226 #上海
+ 		#浙江
+		owns_state = 233 #湖州
+		owns_state = 235 #嘉兴
+		owns_state = 246 #杭州
+		owns_state = 253 #宁波
+		owns_state = 254 #舟山
+		owns_state = 256 #绍兴
+		owns_state = 266 #金华
+		owns_state = 271 #衢州
+		owns_state = 274 #台州
+		owns_state = 283 #丽水
+		owns_state = 287 #温州
+ 		#江苏
+		owns_state = 161 #连云港
+		owns_state = 166 #徐州
+		owns_state = 174 #盐城
+		owns_state = 179 #宿迁
+		owns_state = 185 #淮安
+		owns_state = 195 #扬州
+		owns_state = 198 #泰州
+		owns_state = 203 #南通
+		owns_state = 211 #镇江
+		owns_state = 212 #京师
+		owns_state = 213 #常州
+		owns_state = 214 #苏州
+		owns_state = 217 #无锡
+ 		#安徽
+		owns_state = 170 #宿州
+		owns_state = 171 #淮南
+		owns_state = 183 #淮北
+		owns_state = 184 #毫州
+		owns_state = 191 #阜阳
+		owns_state = 194 #蚌埠
+		owns_state = 197 #滁州
+		owns_state = 201 #六安
+		owns_state = 205 #合肥
+		owns_state = 210 #马鞍山
+		owns_state = 228 #芜湖
+		owns_state = 229 #铜陵
+		owns_state = 230 #宣城
+		owns_state = 231 #安庆
+		owns_state = 240 #池州
+		owns_state = 247 #黄山
+    }
+}
+
+can_form_huazhong = {
+	AND = {
+		#湖南
+		owns_state = 258 #常德
+		owns_state = 262 #澧州
+		owns_state = 263 #岳阳
+		owns_state = 269 #凤凰
+		owns_state = 270 #益阳
+		owns_state = 282 #怀化
+		owns_state = 285 #长沙
+		owns_state = 294 #娄底
+		owns_state = 297 #湘潭
+		owns_state = 298 #株洲
+		owns_state = 303 #邵阳
+		owns_state = 306 #衡阳
+		owns_state = 313 #永州
+		owns_state = 314 #郴州
+        #湖北
+		owns_state = 196 #十堰
+		owns_state = 206 #襄阳
+		owns_state = 208 #随州
+		owns_state = 216 #神农架
+		owns_state = 218 #孝感
+		owns_state = 222 #宜昌
+		owns_state = 223 #荆门
+		owns_state = 224 #黄冈
+		owns_state = 238 #恩施
+		owns_state = 242 #荆州
+		owns_state = 244 #武汉
+		owns_state = 245 #潜江
+		owns_state = 248 #仙桃
+		owns_state = 249 #天门
+		owns_state = 252 #鄂州
+		owns_state = 255 #黄石
+		owns_state = 257 #咸宁
+		#江西
+		owns_state = 260 #景德镇
+		owns_state = 264 #九江
+		owns_state = 267 #上饶
+		owns_state = 279 #南昌
+		owns_state = 280 #宜春
+		owns_state = 286 #鹰潭
+		owns_state = 290 #抚州
+		owns_state = 296 #新余
+		owns_state = 299 #萍乡
+		owns_state = 300 #吉安
+		owns_state = 310 #赣州
+	}
+}
+
+can_form_xinan = {
+    AND = {
+        #四川
+		owns_state = 199 #绵阳
+		owns_state = 200 #广元
+		owns_state = 202 #巴中
+		owns_state = 209 #达州
+		owns_state = 215 #南充
+		owns_state = 221 #德阳
+		owns_state = 227 #成都
+		owns_state = 232 #遂宁
+		owns_state = 237 #雅安
+		owns_state = 239 #广安
+		owns_state = 241 #资阳
+		owns_state = 251 #眉山
+		owns_state = 259 #内江
+		owns_state = 261 #乐山
+		owns_state = 268 #自贡
+		owns_state = 273 #泸州
+		owns_state = 276 #宜宾
+ 		#重庆
+		owns_state = 236 #巴县
+		owns_state = 515 #万县
+		owns_state = 516 #黔江
+		owns_state = 517 #涪陵
+        #贵州
+		owns_state = 278 #遵义
+		owns_state = 281 #铜仁
+		owns_state = 302 #毕节
+		owns_state = 305 #镇远
+		owns_state = 307 #都匀
+		owns_state = 309 #贵阳
+		owns_state = 315 #盘州
+		owns_state = 318 #安顺
+		owns_state = 323 #兴义
+ 		#云南
+		owns_state = 293 #怒江
+		owns_state = 301 #丽江
+		owns_state = 312 #曲靖
+		owns_state = 321 #昆明
+		owns_state = 327 #保山
+		owns_state = 338 #临沧
+		owns_state = 339 #玉溪
+		owns_state = 342 #普洱
+		owns_state = 344 #红河
+		owns_state = 345 #文山
+    }
+}
+
+can_form_xibei = {
+    AND = {
+        #陕西
+		owns_state = 88 #榆林
+		owns_state = 115 #延安
+		owns_state = 146 #渭南
+		owns_state = 153 #铜川
+		owns_state = 155 #咸阳
+		owns_state = 160 #宝鸡
+		owns_state = 168 #长安
+		owns_state = 173 #商洛
+		owns_state = 188 #汉中
+		owns_state = 189 #安康
+        #甘肃
+		owns_state = 31 #嘉峪关
+		owns_state = 55 #酒泉
+		owns_state = 85 #张掖
+		owns_state = 90 #武威
+		owns_state = 94 #金昌
+		owns_state = 113 #白银
+		owns_state = 121 #庆阳
+		owns_state = 128 #兰州
+		owns_state = 139 #临夏
+		owns_state = 140 #定西
+		owns_state = 148 #平凉
+		owns_state = 154 #甘南
+		owns_state = 159 #天水
+		owns_state = 172 #陇南
+ 		#宁夏
+		owns_state = 96 #银川
+		owns_state = 104 #石嘴山
+		owns_state = 106 #吴忠
+		owns_state = 111 #中卫
+		owns_state = 131 #固原
+        #青海
+		owns_state = 91 #海西
+		owns_state = 92 #海北
+		owns_state = 116 #西宁
+		owns_state = 119 #海南
+		owns_state = 123 #海东
+		owns_state = 135 #玉树
+		owns_state = 138 #黄南
+		owns_state = 151 #果洛
+    }
+}
+
+is_yi_state = {
+	AND = {
+        state = 275 #凉山
+        state = 284 #昭通
+        state = 302 #毕节
+        state = 308 #米易/攀枝花
+		state = 319 #楚雄
+		state = 344 #红河
+	}
+}
+
+is_any_yi_state = {
+	OR = {
+        state = 275 #凉山
+        state = 284 #昭通
+        state = 302 #毕节
+        state = 308 #米易/攀枝花
+		state = 319 #楚雄
+		state = 344 #红河
+	}
+}
+
+is_bai_state = {
+	AND = {
+        state = 301 #丽江
+		state = 316 #大理
+	}
+}
+
+is_any_bai_state = {
+	OR = {
+        state = 301 #丽江
+		state = 316 #大理
+	}
+}
+
+is_miao_state = {
+	AND = {
+        state = 238 #恩施
+        state = 269 #凤凰/湘西
+		state = 305 #镇远/黔东南
+        state = 307 #都匀/黔南
+        state = 315 #盘州/六盘水
+        state = 318 #安顺
+        state = 323 #兴义/黔西南
+        state = 345 #文山
+	}
+}
+
+is_any_miao_state = {
+	OR = {
+        state = 238 #恩施
+        state = 269 #凤凰/湘西
+		state = 305 #镇远/黔东南
+        state = 307 #都匀/黔南
+        state = 315 #盘州/六盘水
+        state = 318 #安顺
+        state = 323 #兴义/黔西南
+        state = 345 #文山
+	}
+}
+
+can_form_miao = {
+    AND = {
+        owns_state = 238 #恩施
+        owns_state = 269 #凤凰/湘西
+		owns_state = 305 #镇远/黔东南
+        owns_state = 307 #都匀/黔南
+        owns_state = 315 #盘州/六盘水
+        owns_state = 318 #安顺
+        owns_state = 323 #兴义/黔西南
+        owns_state = 345 #文山
+    }
+}
+
+can_form_yi = {
+    AND = {
+        owns_state = 275 #凉山
+        owns_state = 284 #昭通
+        owns_state = 302 #毕节
+        owns_state = 308 #米易/攀枝花
+		owns_state = 319 #楚雄
+		owns_state = 344 #红河
+	}
+}

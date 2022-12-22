@@ -1,0 +1,54 @@
+capital = 81 # Kashgar
+
+oob = "empty"
+
+set_stability = 0.35
+set_war_support = 0.70
+set_research_slots = 2
+set_convoys = 5
+
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+}
+
+set_politics = {	
+	ruling_party = socialism
+	last_election = "1920.11.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+recruit_character = ETK_masud_shabir # 麦斯武德·沙比尔
+recruit_character = ETK_sabit_damolla # 沙比提·大毛拉
+recruit_character = ETK_elihan_tore # 艾力汗·吐烈
+recruit_character = ETK_burhan_shahidi # 包尔汉·沙希迪
+
+set_popularities = {
+	communism = 0
+	anarchism = 6
+	socialism = 26
+	democratic = 24
+    neutrality = 0
+	monarchism = 10
+	fascism = 20
+	imperialism = 14
+	futurism = 0
+}
+
+add_ideas = {
+	limited_exports
+	limited_conscription
+	civilian_economy
+}
+
+add_ideas = {
+	country_development1
+	country_tech2
+	dirigisme_economy
+	unitary_state1
+}

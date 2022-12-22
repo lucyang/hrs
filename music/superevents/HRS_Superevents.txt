@@ -1,0 +1,8 @@
+music_station = "hrs_superevents"
+
+music = {
+	song = "JAP_civil_war_se"
+	chance = {
+		modifier = { factor = 0 }
+	}
+}

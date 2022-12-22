@@ -1,0 +1,20 @@
+state={
+	id=433
+	name="STATE_433"
+	provinces={
+		177 1061 3117
+	}
+	history = {
+		owner = TIB
+		add_core_of = TIB
+
+		victory_points = { 177 1 } #墨脱
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=10561
+	state_category = rural
+	local_supplies = 0.0
+}

@@ -1,0 +1,22 @@
+ideas = {
+	country = {
+		EZO_ainu_problem = {
+			name = EZO_ainu_problem
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = EZO_ainu_problem
+			modifier = {
+				stability_factor = -0.05
+				communism_drift = 0.1
+				anarchism_drift = 0.1
+				conscription_factor = -0.05
+			}
+		}
+	}
+}

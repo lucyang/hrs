@@ -1,0 +1,20 @@
+state={
+	id=631
+	name="STATE_631"
+	provinces={
+		165 1000 1883
+	}
+	history = {
+		owner = DZU
+		add_core_of = DZU
+
+		victory_points = { 1883 1 }
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=756454
+	state_category = rural
+	local_supplies = 0.0
+}

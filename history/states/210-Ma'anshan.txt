@@ -1,0 +1,23 @@
+state={
+	id=210
+	name="STATE_210"
+	provinces={
+		3780 4049 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 3780 3 } #马鞍山
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		
+	}
+	manpower=465350
+	state_category = city
+	local_supplies = 0.0
+}

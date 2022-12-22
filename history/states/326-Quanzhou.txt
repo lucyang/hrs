@@ -1,0 +1,25 @@
+state={
+	id=326
+	name="STATE_326"
+	provinces={
+		1064 1905 2205 2627 3109 3235 3291 3366 4019 4032 4044 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 2627 10 }
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			dockyard = 4
+			2627 = {
+				naval_base = 6
+			}
+		}
+	}
+	manpower=2367727
+	state_category = large_city
+	local_supplies = 0.0
+}

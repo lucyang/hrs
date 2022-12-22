@@ -1,0 +1,30 @@
+characters={
+	SHD_liang_shuming={
+		name=SHD_liang_shuming
+		portraits={
+			civilian={
+				large="gfx/leaders/SHD/Portrait_Liang_Shuming.png"
+			}
+		}
+		country_leader={
+			ideology=agrarianism_subtype
+			desc=SHD_liang_shuming_desc
+			traits={ defender_of_the_peasantry gentle_scholar }
+			expire="1988.6.23.1"
+		}
+	}
+	SHD_zhou_zuoren={
+		name=SHD_zhou_zuoren
+		portraits={
+			civilian={
+				large="gfx/leaders/SHD/Portrait_Zhou_Zuoren.png"
+			}
+		}
+		country_leader={
+			ideology=agrarian_socialism_subtype
+			desc=SHD_zhou_zuoren_desc
+			traits={ japanizer social_reformer }
+			expire="1967.5.6.1"
+		}
+	}
+}

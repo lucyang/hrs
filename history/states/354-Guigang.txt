@@ -1,0 +1,25 @@
+state={
+	id=354
+	name="STATE_354"
+	provinces={
+		140 2169 2221 3176 4132 
+	}
+	resources = {
+		steel = 4
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = {
+			2221 3
+		}
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=1737099
+	state_category = rural
+	local_supplies = 0.0
+}

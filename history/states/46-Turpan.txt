@@ -1,0 +1,20 @@
+state={
+	id=46
+	name="STATE_46"
+	provinces={
+		110 247 611 1328 1414 1576 1764 2038 2185 2430 2445 2921 3156 3610 3653
+	}
+	history = {
+		owner = DZU
+		add_core_of = DZU
+
+		victory_points = { 3610 5 } #吐鲁番
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=72084
+	state_category = rural
+	local_supplies = 0.0
+}

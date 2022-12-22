@@ -1,0 +1,52 @@
+characters={
+	NSB_long_yun={
+		name=NSB_long_yun
+		portraits={
+			civilian={
+				large="gfx/leaders/YUN/Portrait_Long_Yun.png"
+			}
+		}
+		country_leader={
+			ideology=development_authoritarianism_subtype
+			desc=NSB_long_yun_desc
+			traits={ hardened_officer reluctant_veteran }
+			expire="1962.6.27.1"
+		}
+	}
+	NSB_lu_han={
+		name=NSB_lu_han
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/Portrait_Lu_Han.dds"
+			}
+		}
+	}
+	NSB_chu_tunan={
+		name=NSB_chu_tunan
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/Portrait_Chu_Tunan.dds"
+			}
+		}
+		country_leader={
+			ideology=national_communism_subtype
+			desc=NSB_chu_tunan_desc
+			traits={ education_reformer marxist_academic }
+			expire="1994.4.11.1"
+		}
+	}
+	NSB_qumu_zangyao={
+		name=NSB_qumu_zangyao
+		portraits={
+			civilian={
+				large="gfx/leaders/YUN/Portrait_Qumu_Zangyao.png"
+			}
+		}
+		country_leader={
+			ideology=national_conservatism_subtype
+			desc=NSB_qumu_zangyao_desc
+			traits={ }
+			expire="1994.4.11.1"
+		}
+	}
+}

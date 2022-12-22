@@ -1,0 +1,121 @@
+add_namespace = jap
+
+################
+# japAN EVENTS #
+################
+country_event = {
+	id = jap.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event jap.1"
+		hidden_effect = {
+			country_event = { id = jap.2 days = 12 } # 9.30
+		}
+	}
+	title = jap.1.t
+	desc = jap.1.desc
+	picture = GFX_report_event_japanese_soldiers_03
+
+	is_triggered_only = yes
+
+	option = {
+		name = jap.1.a
+		add_manpower = -12	
+	}
+}
+country_event = {
+	id = jap.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event jap.2"
+	}
+	title = jap.2.t
+	desc = jap.2.desc
+	picture = GFX_report_event_chinese_soldiers_city_ruin
+
+	is_triggered_only = yes
+
+	option = {
+		name = jap.2.a
+		country_event = { id = jap.3 days = 4 } # 10.3
+	}
+}
+country_event = { #where to go?
+	id = jap.3
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event jap.3"
+	}
+	title = jap.3.t
+	desc = jap.3.desc
+	picture = GFX_report_event_china_infiltration
+
+	is_triggered_only = yes
+
+	option = { #Stay in Chugoku and conquer Osaka
+		name = jap.3.a
+		country_event = { id = jap.4 days = 3 }
+		IMC = { country_event = { id = chi_rev.1 days = 5 } } # 10.8
+	}
+}
+country_event = { # Revolt in Central Japan
+	id = jap.4
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event jap.4"
+	}
+	title = jap.4.t
+	desc = jap.4.desc
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+
+	option = {
+		name = jap.4.a
+		IMJ_collapse_coup = yes
+		hidden_effect = { 
+			country_event = { id = jap.5 days = 7 }
+		}
+	}
+}
+country_event = {
+	id = jap.5
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event jap.5"
+	}
+	title = jap.5.t
+	desc = jap.5.desc
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+
+	option = {
+		name = jap.5.a
+		hidden_effect = { 
+			country_event = { id = jap.6 days = 7 }
+			country_event = { id = ezo.1 days = 3 }
+			country_event = { id = thk.1 days = 7 }
+		}
+	}
+}
+country_event = {
+	id = jap.6
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event jap.6"
+	}
+	title = jap.6.t
+	desc = jap.6.desc
+	picture = GFX_report_event_chinese_soldiers_city_ruin
+
+	is_triggered_only = yes
+
+	option = {
+		name = jap.6.a
+		#IMJ_collapse_start = yes
+		every_state = {
+			limit = { is_karafuto_state = yes }
+			remove_core_of = IMJ
+			add_core_of = OWNER
+		}
+		hidden_effect = {
+			set_global_flag = JAP_Civil_War_Begins
+			news_event = civilwar_news.2
+		}
+	}
+}

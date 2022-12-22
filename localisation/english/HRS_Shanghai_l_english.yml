@@ -1,0 +1,80 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ SHH_communism:0 "上海公社"
+ SHH_communism_DEF:0 "上海特别市自治政府"
+ SHH_anarchism:0 "上海公社"
+ SHH_anarchism_DEF:0 "上海特别市自治政府"
+ SHH_socialism:0 "上海公社"
+ SHH_socialism_DEF:0 "上海特别市自治政府"
+ SHH_democratic:0 "上海公社"
+ SHH_democratic_DEF:0 "上海特别市自治政府"
+ SHH_neutrality:0 "上海公社"
+ SHH_neutrality_DEF:0 "上海特别市自治政府"
+ SHH_monarchism:0 "上海公社"
+ SHH_monarchism_DEF:0 "上海特别市自治政府"
+ SHH_fascism:0 "上海公社"
+ SHH_fascism_DEF:0 "上海特别市自治政府"
+ SHH_imperialism:0 "上海公社"
+ SHH_imperialism_DEF:0 "上海特别市自治政府"
+ SHH_futurism:0 "上海公社"
+ SHH_futurism_DEF:0 "上海特别市自治政府"
+ SHH_communism_ADJ:0 "上海"
+ SHH_anarchism_ADJ:0 "上海"
+ SHH_democratic_ADJ:0 "上海"
+ SHH_neutrality_ADJ:0 "上海"
+ SHH_monarchism_ADJ:0 "上海"
+ SHH_fascism_ADJ:0 "上海"
+ SHH_imperialism_ADJ:0 "上海"
+ SHH_futurism_ADJ:0 "上海"
+ SHH:0 "上海"
+ SHH_DEF:0 "上海"
+ SHH_ADJ:0 "上海"
+ #############
+ ## PARTIES ##
+ #############
+ SHH_communism_party:0 "社民农工党"
+ SHH_communism_party_long:0 "中国社会民主农工党"
+ SHH_anarchism_party:0 "上海工会联合会"
+ SHH_anarchism_party_long:0 "上海工会联合会"
+ SHH_socialism_party:0 "革命互济会"
+ SHH_socialism_party_long:0 "中国革命互济会"
+ SHH_democratic_party:0 "中华革命党"
+ SHH_democratic_party_long:0 "中华革命党"
+ SHH_neutrality_party:0 "上海工人纠察队"
+ SHH_neutrality_party_long:0 "上海工人纠察队"
+ SHH_monarchism_party:0 "和朝保皇派"
+ SHH_monarchism_party_long:0 "和朝保皇派"
+ SHH_fascism_party:0 "中国青年党"
+ SHH_fascism_party_long:0 "中国青年党"
+ SHH_imperialism_party:0 "战国策派"
+ SHH_imperialism_party_long:0 "战国策派"
+ SHH_futurism_party:0 "江浙财团"
+ SHH_futurism_party_long:0 "江浙财团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ ### JUNTA ###
+ SHH_yu_xiusong:0 "俞秀松"
+ SHH_yu_xiusong_desc:0 "§Y出生日期§!：§G1899年8月1日§!\n§Y出生地点§!：§G大东帝国会稽道绍兴县§!\n\n§Y俞秀松§!是浙江诸暨大桥乡溪棣村人。1916年入读浙江省立第一师范学校，为杭州学生运动骨干分子。1920年初加入§Y京师工读互助团§!，在帝国大学哲学系旁听，后赴上海，参加激进刊物《星期评论》社编辑工作，与陈独秀等发起成立农工党上海支部，8月受陈独秀委托，组织§R中国社会主义青年团§!，任第一任书记。"
+ SHH_zhao_shiyan:0 "赵世炎"
+ SHH_zhao_shiyan_desc:0 "§Y出生日期§!：§G1901年4月13日§!\n§Y出生地点§!：§G大东帝国川东道酉阳县§!"
+ SHH_zhou_enlai:0 "周恩来"
+ SHH_zhou_enlai_desc:0 "§Y出生日期§!：§G1898年3月5日§!\n§Y出生地点§!：§G大东帝国淮扬道淮安县§!"
+ SHH_wang_shouhua:0 "汪寿华"
+ SHH_wang_shouhua_desc:0 "§Y出生日期§!：§G1901年§!\n§Y出生地点§!：§G大东帝国会稽道绍兴县§!\n\n§Y汪寿华§!原名何纪元，曾用名何今亮，字介尘，浙江诸暨人。1917年秋，汪寿华考入浙江省立第一师范学校，受学运风潮影响，开始学习并接受科学社会主义。1920年9月，经沈玄庐等人介绍，加入§Y中国社会主义青年团§!。1921年起，汪寿华前往镇东府工作学习，其间联络俄国、朝鲜革命组织，潜心学习俄语并阅读革命方面的书籍。\n\n1923年汪寿华回到帝国本土，加入§R社会民主农工党§!，因其富有工人运动的组织经验，被派往上海组织工人运动。在上海工人起义时，汪寿华正是§R上海工会联合会§!主席，尔后当选为§Y上海特别市临时政府§!执行委员。汪寿华深知临时政府处于反动派的重重包围之下，他必须挑起大梁，捍卫革命直到最后一息。"
+ SHH_yang_xingfo:0 "杨杏佛"
+ SHH_yang_xingfo_desc:0 "§Y出生日期§!：§G1893年4月5日§!\n§Y出生地点§!：§G大东帝国庐陵道宜春县§!"
+ SHH_zheng_yuxiu:0 "郑毓秀"
+ SHH_zheng_yuxiu_desc:0 "§Y出生日期§!：§G1891年3月20日§!\n§Y出生地点§!：§G大东帝国粤海道宝安县§!"
+ ###########
+ ## IDEAS ##
+ ###########
+ ############
+ ## EVENTS ##
+ ############

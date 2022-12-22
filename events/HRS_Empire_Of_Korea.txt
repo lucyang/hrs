@@ -1,0 +1,240 @@
+add_namespace = kor_rev
+
+#########################
+# IMPERIAL KOREA EVENTS #
+#########################
+country_event = { # A Bomb in Kyeongcheon
+	id = kor_rev.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kor_rev.1"
+		hidden_effect = {
+			#
+		}
+	}
+	title = kor_rev.1.t
+	desc = kor_rev.1.desc
+	picture = GFX_report_event_ger_civil_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = kor_rev.1.a
+		add_stability = -0.01
+		99 = { add_manpower = -300 }
+		country_event = kor_rev.4
+	}
+	option = {
+		name = kor_rev.1.b
+		KOR = {
+			transfer_state = 99
+			country_event = { id = kor_rev.3 days = 3 }
+		}
+	}
+	option = {
+		name = kor_rev.1.c
+		KOR = { 
+			transfer_state = 99
+			country_event = { id = kor_rev.2 days = 3 }
+		}	
+	}
+}
+country_event = { # Who Wins?
+	id = kor_rev.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kor_rev.2"
+		hidden_effect = {
+			99 = { set_demilitarized_zone = no }
+		}
+	}
+	title = kor_rev.2.t
+	desc = kor_rev.2.desc
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = { # Pak Fumiko
+		name = kor_rev.2.a
+		trigger = {
+			NOT = { has_country_flag = KOR_pak_fumiko_was_arrested }
+		}
+		set_party_name = {
+			ideology = anarchism
+			long_name = KOR_anarchist_party_long
+			name = KOR_anarchist_party
+		}
+		add_ideas = {
+			unitary_state1
+			collective_economy
+		}
+		add_country_leader_role = {
+			character = KOR_pak_fumiko
+			country_leader={
+				ideology=anarcho_communism_subtype
+				desc=KOR_pak_fumiko_desc
+				traits={ nationalist_symbol }
+				expire="1951.11.10.1"
+			}
+			promote_leader = yes 
+		}
+		set_cosmetic_tag = KOR_commune
+		set_politics = { ruling_party = anarchism elections_allowed = no }
+		set_country_flag = ROOT_is_anarchist
+		hidden_effect = {
+			add_popularity = {
+				ideology = anarchism
+				popularity = 0.20
+			}
+			#load_oob = "KOR_militia"
+		}
+	}
+	option = { # Trade Union
+		name = kor_rev.2.b
+		add_country_leader_role = {
+			character = KOR_anarchist_commune
+			country_leader={
+				ideology=anarcho_syndicalism_subtype
+				desc=KOR_anarchist_commune_desc
+				traits={ our_right_to_survive }
+				expire="1950.1.30.1"
+			}
+			promote_leader = yes 
+		}
+		add_ideas = {
+			federation1
+			collective_economy
+		}
+		set_politics = { ruling_party = anarchism elections_allowed = no }
+		set_country_flag = ROOT_is_anarchist
+		hidden_effect = {
+			add_popularity = {
+				ideology = anarchism
+				popularity = 0.18
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.10
+			}
+			#load_oob = "KOR_militia"
+		}
+	}
+	option = { # Pak Hon-yong
+		name = kor_rev.2.c
+		add_country_leader_role = {
+			character = KOR_pak_honyong
+			country_leader={
+				ideology=leninism_subtype
+				desc=KOR_pak_honyong_desc
+				traits={ colonial_communist }
+				expire="1956.12.5.1"
+			}
+			promote_leader = yes 
+		}
+		add_ideas = {
+			unitary_state2
+			planned_economy2
+		}
+		set_politics = { ruling_party = communism elections_allowed = no }
+		set_country_flag = ROOT_is_communism
+		hidden_effect = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.20
+			}
+			#load_oob = "KOR_militia"
+		}
+	}
+	option = { # Monarchist
+		name = kor_rev.2.d
+		add_country_leader_role = {
+			character = KOR_i_eun
+			country_leader={
+				ideology=noble_republic_subtype
+				desc=KOR_i_eun_desc
+				traits={ unpopular_monarch }
+				expire="1955.2.18.1"
+			}
+			promote_leader = yes 
+		}
+		# country_event = kor_rev.3
+		set_politics = { ruling_party = monarchism elections_allowed = no }
+		set_country_flag = ROOT_is_monarchist
+		hidden_effect = {
+			add_popularity = {
+				ideology = monarchism
+				popularity = 0.10
+			}
+			add_popularity = {
+				ideology = imperialism
+				popularity = 0.10
+			}
+			#load_oob = "KOR_royalists"
+		}
+	}
+}
+country_event = { # Chosen-gun betrayed us!
+	id = kor_rev.3
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kor_rev.3"
+		hidden_effect = {
+			99 = { set_demilitarized_zone = no }
+			KOR = { 
+				transfer_state = 99
+				add_country_leader_role = {
+					character = KOR_pak_chungyang
+					country_leader={
+						ideology=development_authoritarianism_subtype
+						desc=KOR_pak_chungyang_desc
+						traits={ political_chameleon }
+						expire="1955.2.18.1"
+					}
+					promote_leader = yes 
+				}
+				add_ideas = {
+					unitary_state2
+					dirigisme_economy
+				}
+				set_politics = { ruling_party = neutrality elections_allowed = no }
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.10
+				}
+				#load_oob = "KOR_1923"
+			}
+		}
+	}
+	title = kor_rev.3.t
+	desc = kor_rev.3.desc
+	picture = GFX_report_event_china_infiltration
+
+	is_triggered_only = yes
+
+	option = {
+		name = kor_rev.3.a
+		add_stability = -0.05
+		99 = { add_manpower = -3200 }
+	}
+	option = {
+		name = kor_rev.3.b
+		add_stability = -0.05
+		99 = { add_manpower = -3200 }
+		KOR = { change_tag_from = ROOT }	
+	}
+}
+country_event = { # Chosen-gun suppressed them
+	id = kor_rev.4
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kor_rev.4"
+	}
+	title = kor_rev.4.t
+	desc = kor_rev.4.desc
+	picture = GFX_report_event_dead_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = kor_rev.4.a
+		add_political_power = -99
+		add_manpower = -3200
+		99 = { add_manpower = -3200 }
+	}
+}

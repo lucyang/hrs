@@ -1,0 +1,21 @@
+state={
+	id=217
+	name="STATE_217"
+	provinces={
+		2460 3216 3343
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 3216 1 } #无锡
+		
+		buildings = {
+			infrastructure = 4
+		}
+		
+	}
+	manpower=2670000
+	state_category = city
+	local_supplies = 0.0
+}

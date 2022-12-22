@@ -1,0 +1,20 @@
+state={
+	id=360
+	name="STATE_360"
+	provinces={
+		2966 4154 4160 4170 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 2966 1 }
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=481228
+	state_category = town
+	local_supplies = 0.0
+}

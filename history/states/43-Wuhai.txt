@@ -1,0 +1,18 @@
+state={
+	id=43
+	name="STATE_43"
+	provinces={
+		4138 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+		
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=65700
+	state_category = rural
+	local_supplies = 0.0
+}

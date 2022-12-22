@@ -1,0 +1,117 @@
+PRC_balance_of_power_category = {
+	
+	PRC_establish_political_commissars = {
+		icon = GFX_decision_generic_military 
+		allowed = { original_tag = PRC }
+		available = {
+			NOT = { has_global_flag = China_has_unified }
+		}
+		visible = {
+			NOT = { has_global_flag = China_has_unified }
+		}
+		days_remove = 7
+		fire_only_once = yes 
+		cost = 30
+		
+		complete_effect = {
+			PRC_BOP_communist_large_effect = yes 
+			add_ideas = political_commissars_focus
+		}
+		remove_effect = {
+			#
+		}
+		
+		ai_will_do = {
+			base = 250
+		}
+	}
+
+	PRC_moibilize_people = {
+		icon = GFX_decision_generic_military 
+		allowed = { original_tag = PRC }
+		available = {
+			NOT = { has_global_flag = China_has_unified }
+		}
+		visible = {
+			NOT = { has_global_flag = China_has_unified }
+		}
+		days_remove = 7
+		days_re_enable = 120
+		fire_only_once = no
+		cost = 10
+		
+		complete_effect = {
+			add_manpower = 3000
+			PRC_BOP_communist_small_effect = yes 
+		}
+		remove_effect = {
+			#
+		}
+		
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	PRC_establish_civilian_government = {
+		icon = GFX_decision_generic_military 
+		allowed = { original_tag = PRC }
+		available = {
+			NOT = { has_global_flag = China_has_unified }
+		}
+		visible = {
+			NOT = { has_global_flag = China_has_unified }
+		}
+		days_remove = 14
+		fire_only_once = yes
+		cost = 50
+		
+		complete_effect = {
+			decrease_coring_time_medium_effect = yes
+			PRC_BOP_socialist_large_effect = yes 
+		}
+		remove_effect = {
+			#
+		}
+		
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	PRC_integrate_local_militia = {
+		icon = GFX_decision_generic_military 
+		allowed = { original_tag = PRC }
+		available = {
+			NOT = { has_global_flag = China_has_unified }
+		}
+		visible = {
+			NOT = { has_global_flag = China_has_unified }
+		}
+		days_remove = 14
+		days_re_enable = 90
+		fire_only_once = no
+		cost = 10
+		
+		complete_effect = {
+			add_command_power = -10
+			PRC_BOP_socialist_small_effect = yes
+			every_owned_state = {
+				limit = {
+					is_capital = yes
+				}
+				create_unit = {
+					division = "name = \"革命义勇军\" division_template = \"民兵联队\" start_experience_factor = 0.3 start_equipment_factor = 0.5 start_manpower_factor = 1"
+					owner = ROOT
+				}
+			}	
+		}
+		remove_effect = {
+			#
+		}
+		
+		ai_will_do = {
+			base = 150
+		}
+	}
+}

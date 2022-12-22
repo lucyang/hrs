@@ -1,0 +1,51 @@
+﻿capital = 23 #锡林郭勒
+
+recruit_character = MEN_demchugdongrub
+
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	tech_recon = 1
+	tech_support = 1		
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	fuel_refining = 1
+}
+
+set_research_slots = 2
+set_convoys = 10
+set_stability = 0.45
+set_war_support = 0.70
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1922.9.14"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	anarchism = 5
+	socialism = 8
+	democratic = 15
+	neutrality = 49
+	monarchism = 10
+	fascism = 13
+	imperialism = 0
+	futurism = 0
+}
+
+add_ideas = {
+	closed_economy
+	extensive_conscription
+	war_economy
+}
+add_ideas = {
+	country_development1
+	country_tech1
+	federation
+	market_economy1
+}

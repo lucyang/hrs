@@ -1,0 +1,77 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ JID_communism:0 "冀东非武装区"
+ JID_communism_DEF:0 "冀东防共自治政府"
+ JID_anarchism:0 "冀东非武装区"
+ JID_anarchism_DEF:0 "冀东防共自治政府"
+ JID_socialism:0 "冀东非武装区"
+ JID_socialism_DEF:0 "冀东防共自治政府"
+ JID_democratic:0 "冀东非武装区"
+ JID_democratic_DEF:0 "冀东防共自治政府"
+ JID_neutrality:0 "冀东非武装区"
+ JID_neutrality_DEF:0 "冀东防共自治政府"
+ JID_monarchism:0 "冀东非武装区"
+ JID_monarchism_DEF:0 "冀东防共自治政府"
+ JID_fascism:0 "冀东非武装区"
+ JID_fascism_DEF:0 "冀东防共自治政府"
+ JID_imperialism:0 "冀东非武装区"
+ JID_imperialism_DEF:0 "冀东防共自治政府"
+ JID_futurism:0 "冀东非武装区"
+ JID_futurism_DEF:0 "冀东防共自治政府"
+ JID_communism_ADJ:0 "冀东"
+ JID_anarchism_ADJ:0 "冀东"
+ JID_socialism_ADJ:0 "冀东"
+ JID_democratic_ADJ:0 "冀东"
+ JID_neutrality_ADJ:0 "冀东"
+ JID_monarchism_ADJ:0 "冀东"
+ JID_fascism_ADJ:0 "冀东"
+ JID_imperialism_ADJ:0 "冀东"
+ JID_futurism_ADJ:0 "冀东"
+ JID:0 "冀东"
+ JID_DEF:0 "冀东"
+ JID_ADJ:0 "冀东"
+ #############
+ ## PARTIES ##
+ #############
+ JID_communism_party:0 "社民农工党"
+ JID_communism_party_long:0 "中国社会民主农工党"
+ JID_anarchism_party:0 "劳动组合书记部"
+ JID_anarchism_party_long:0 "中国劳动组合书记部"
+ JID_socialism_party:0 "革命同盟军"
+ JID_socialism_party_long:0 "革命同盟军"
+ JID_democratic_party:0 "中华革命党"
+ JID_democratic_party_long:0 "中华革命党"
+ JID_neutrality_party:0 "冀东商会"
+ JID_neutrality_party_long:0 "冀东商会"
+ JID_monarchism_party:0 "孔教会"
+ JID_monarchism_party_long:0 "孔教会"
+ JID_fascism_party:0 "中国新民会"
+ JID_fascism_party_long:0 "中国新民会"
+ JID_imperialism_party:0 "战国策派"
+ JID_imperialism_party_long:0 "战国策派"
+ JID_futurism_party:0 "技术官僚"
+ JID_futurism_party_long:0 "技术官僚"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ JID_yin_rugeng:0 "井上耕二"
+ JID_yin_rugeng_desc:0 "§Y出生日期§!：§G1883年§!\n§Y出生地点§!：§G大东帝国浙江省瓯海道平阳县§!\n\n井上耕二原名§Y殷汝耕§!，浙江温州人。殷汝耕21岁时东渡日本，进入早稻田大学学习。在日本期间，殷汝耕结识了自己的妻子，他用妻姓取了个日式名字名，叫井上耕二。1909年，殷汝耕加入了§Y黄兴§!领导的§Y中国同盟会§!，致力于秘密推翻帝国统治。但是派系斗争、路线冲突令同盟会土崩瓦解，这一切让殷汝耕十分失望，思索再三后，他选择用非暴力的方式改革帝国弊政。\n\n1913年，备考四年的殷汝耕成功上岸，通过科举考入帝国大藏省。然而大东政坛在1915年发生地震，§t社会党§!连续十五年的执政生涯终结。殷汝耕丢掉了大藏省的公职，左迁至唐山就任地方官员。好在§Y池宗墨§!接济了殷汝耕，殷汝耕来到唐山后投桃报李，给池宗墨的企业种种特权。原本是商业庸才的池宗墨，竟成了冀东地区的大财主。\n\n当燕赵之地再次陷入战火，殷汝耕与池宗墨宣布建立§Y冀东防共自治政府§!。二人宣布冀东将§R“武装中立”§!，抵抗一切共产势力的武力侵略，矛头所指自然是吉鸿昌部和察哈尔的内人党势力。然而许多证据指出，殷汝耕麾下的§Y冀东保安队§!正在大肆搜刮军火，无人知晓殷汝耕的野心究竟为何······"
+ JID_chi_zongmo:0 "池宗墨"
+ JID_chi_zongmo_desc:0 "§Y出生日期§!：§G1890年§!\n§Y出生地点§!：§G大东帝国浙江省瓯海道平阳县§!\n\n池宗墨与殷汝耕既是老乡也是早稻田大学的同学，但是他的经济头脑远不及殷汝耕，无论是当官还是开公司，池宗墨都能把事情搞得一塌糊涂。1915年，苦闷的池宗墨正在河北四处借债度日，却撞上了吕不韦的“大运”——殷汝耕即将赴任唐山。感到奇货可居的池宗墨立刻向殷汝耕伸出了援手，深谙其中道理的殷汝耕也回报了老乡与同学的慷慨接济。\n\n在殷汝耕的庇护下，池宗墨在唐山可谓一手遮天，权势与§R黑社会§!无异。他的商队穿梭在中满边境，将迁西高丽纸、宝抵布料、唐山煤炭，甚至包括鸦片和军火，走私到满洲帝国去，由此大发利市——举报人最终都消失在了渤海的波涛中。当河北陷入内乱时，池宗墨与殷汝耕策划了冀东自治，池宗墨联络了§Y于品卿§!、§Y夏恭§!等生意伙伴，邀请他们共建§R华北反共防波堤§!······"
+ JID_zhang_qingyu:0 "张庆余"
+ ###########
+ ## IDEAS ##
+ ###########
+ JID_syndicate_state:0 "猖獗的黑社会"
+ #JID_syndicate_state_desc:0 ""
+ JID_anti_commie_wall:0 "反共防波堤"
+ #JID_anti_commie_wall_desc:0 ""
+ ############
+ ## EVENTS ##
+ ############

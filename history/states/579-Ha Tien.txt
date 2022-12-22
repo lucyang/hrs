@@ -1,0 +1,23 @@
+state={
+	id=579
+	name="STATE_579"
+	provinces={
+		2600 5141 5142
+	}
+	history={
+		owner = ANM
+		add_core_of = VIN
+		victory_points = { 2600 5 } #河仙
+		victory_points = { 5141 1 } #Cần Bột/芹孛
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+
+	}
+	manpower=76000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

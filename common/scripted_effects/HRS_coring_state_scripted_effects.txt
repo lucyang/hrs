@@ -1,0 +1,42 @@
+# effects that starts with name d_ will be available as console command
+# use "effect_name_DESC" to define a description
+
+remove_PREV_core = {
+	hidden_effect = { every_country = { remove_state_core = FROM } }
+}
+
+remove_PREV_core_and_add_OWNER_core = {
+	hidden_effect = { every_country = { remove_state_core = FROM } }
+	add_core_of = CONTROLLER
+}
+
+increase_coring_time_large_effect = {
+	custom_effect_tooltip = HRS_make_core_cost_days_large_increase_tt
+	add_to_variable = { HRS_make_core_cost_days = 21 }
+	clamp_variable = { var = HRS_make_core_cost_days max = 1000 min = 0 }
+}
+increase_coring_time_medium_effect = {
+	custom_effect_tooltip = HRS_make_core_cost_days_medium_increase_tt
+	add_to_variable = { HRS_make_core_cost_days = 14 }
+	clamp_variable = { var = HRS_make_core_cost_days max = 1000 min = 0 }
+}
+increase_coring_time_small_effect = {
+	custom_effect_tooltip = HRS_make_core_cost_days_small_increase_tt
+	add_to_variable = { HRS_make_core_cost_days = 7 }
+	clamp_variable = { var = HRS_make_core_cost_days max = 1000 min = 0 }
+}
+decrease_coring_time_large_effect = {
+	custom_effect_tooltip = HRS_make_core_cost_days_large_decrease_tt
+	add_to_variable = { HRS_make_core_cost_days = -21 }
+	clamp_variable = { var = HRS_make_core_cost_days max = 1000 min = 0 }
+}
+decrease_coring_time_medium_effect = {
+	custom_effect_tooltip = HRS_make_core_cost_days_medium_decrease_tt
+	add_to_variable = { HRS_make_core_cost_days = -14 }
+	clamp_variable = { var = HRS_make_core_cost_days max = 1000 min = 0 }
+}
+decrease_coring_time_small_effect = {
+	custom_effect_tooltip = HRS_make_core_cost_days_small_decrease_tt
+	add_to_variable = { HRS_make_core_cost_days = -7 }
+	clamp_variable = { var = HRS_make_core_cost_days max = 1000 min = 0 }
+}

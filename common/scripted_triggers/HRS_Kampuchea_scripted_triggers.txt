@@ -1,0 +1,61 @@
+is_cambodia_nation = {
+	OR = {
+		original_tag = CAM
+		original_tag = KMK
+		original_tag = KHR
+	}
+}
+
+is_cambodia_unifier = {
+	OR = {
+		original_tag = CAM
+		original_tag = KMK
+		original_tag = KHR
+	}
+}
+
+is_cambodia_state = {
+	AND = {
+		state = 395 #南高棉/金边
+		state = 558 #东高棉
+		state = 559 #暹那空/暹粒
+		state = 560 #西高棉
+		state = 578 #西港/西哈努克港
+		state = 577 #富国岛
+		state = 579 #河仙
+		state = 580 #柴桢
+		state = 581 #上丁/相当
+		state = 649 #马德望
+		state = 650 #柏威夏
+	}
+}
+
+is_any_cambodia_state = {
+	OR = {
+		state = 395 #南高棉/金边
+		state = 558 #东高棉
+		state = 559 #暹那空/暹粒
+		state = 560 #西高棉
+		state = 578 #西港/西哈努克港
+		state = 577 #富国岛
+		state = 579 #河仙
+		state = 580 #柴桢
+		state = 581 #上丁/相当
+		state = 649 #马德望
+		state = 650 #柏威夏
+	}
+}
+
+can_form_cambodia = {
+	AND = {
+		owns_state = 395 #南高棉/金边
+		owns_state = 558 #东高棉
+		owns_state = 559 #暹那空/暹粒
+		owns_state = 560 #西高棉
+		owns_state = 578 #西港/西哈努克港
+		owns_state = 580 #柴桢
+		owns_state = 581 #上丁/相当
+		owns_state = 649 #马德望
+		owns_state = 650 #柏威夏
+	}
+}

@@ -1,0 +1,24 @@
+
+state={
+	id=573
+	name="STATE_573"
+
+	history={
+		owner = ANM
+		add_core_of = LAO
+		victory_points = { 4245 5 } #万象
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		2853 4245 5082 5083 5084 5085 
+	}
+	manpower=327000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

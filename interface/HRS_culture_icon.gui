@@ -1,0 +1,30 @@
+guiTypes = {
+	containerWindowType = {
+		name = "culture_icon_container"
+		position = {x=382 y=87}
+		size = { width=780 height=496 }
+
+		#background = {
+		#	name = "Background"
+		#	quadTextureSprite ="GFX_culture_bg"
+		#	position = { x = 83 y = -74 }
+		#}
+
+		instantTextboxType = {
+			name = "culture_title_marker"
+			position = { x = 101 y = -68 }
+			font = "hoi_18"
+			text = culture_icon_container_culture_title_marker
+			maxWidth = 50
+			maxHeight = 30
+			format = left
+		}
+
+		iconType = {
+			name = "culture_icon"
+			position = {x=96 y=-47}
+			spriteType = GFX_culture_0
+			pdx_tooltip = "EOANB_CULTURE_INFO"
+		}
+	}
+}

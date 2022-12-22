@@ -1,0 +1,16 @@
+characters={
+	TUK_mustafa_shokay={
+		name=KAZ_mustafa_shokay
+		portraits={
+			civilian={
+				large="gfx/leaders/KAZ/Portrait_Mustafa_Shokay.dds"
+			}
+		}
+		country_leader={
+			ideology=development_authoritarianism_subtype
+			desc=KAZ_mustafa_shokay_desc
+			traits={ avid_turanist anti_communist_crusader }
+			expire="1941.12.27.1"
+		}
+	}
+}

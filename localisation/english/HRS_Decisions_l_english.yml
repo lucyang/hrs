@@ -1,0 +1,74 @@
+﻿l_english:
+ ################
+ # MOBILIZATION #
+ ################
+ HRS_mobilization:0 "战争动员"
+ HRS_mobilization_desc:0 "实行总动员后，我们可以在己方控制领土花费政治点数征召预备役人口，每一地区可组建两种部队：§G步兵联队§!和§Y警备队§!。一些地区还可组建摩托化的§Y机动步兵联队§!，部队质量越好，需要的§Y政治点数§!也越多。非核心地区亦可征召部队，但是会引发当地居民的§t强烈不满§!。\n\n战争总动员无法持续太久，旷日持久的战争会滋生愈发强烈的反战情绪。请留意下方的任务进度条，务必体面地结束战争，或者采取一些特别手段来维持民众的战争热情。"
+ HRS_total_mobilization:0 "开始总动员"
+ HRS_end_mobilization:0 "结束总动员"
+ HRS_nationalist_propaganda:0 "国家主义宣传"
+ HRS_nationalist_propaganda_desc:0 "利用媒体进行国家主义宣传，会大大激励民粹和民族主义者。"
+ HRS_incite_hatred:0 "煽动仇恨情绪"
+ HRS_incite_hatred_desc:0 "煽动国民的仇恨情绪，当心引火烧身。"
+ HRS_enforce_martial_law:0 "厉行经济统制"
+ HRS_enforce_martial_law_desc:0 "严格执行战时经济管制政策，也许会启发人民意识到统制经济的好处。"
+ HRS_civil_education:0 "宣传战争英雄"
+ HRS_civil_education_desc:0 "向民众宣传前线的英勇事迹，有可能让聪明的人看穿前线的惨烈现状。"
+ HRS_communist_propaganda:0 "革命精神动员"
+ HRS_communist_propaganda_desc:0 "发动基层党组织进行征兵宣传和思想动员，但是基层干部的亲戚通常享受豁免权。"
+ HRS_begin_total_mobilization:0 "§Y已进入总动员状态§!"
+
+ HRS_recruit_regular_division:0 "在§G[FROM.GetName]§!征召§G步兵联队§!"
+ HRS_recruit_garrison_division:0 "在§G[FROM.GetName]§!征召§G警备队§!"
+ HRS_recruit_elite_division:0 "在§G[FROM.GetName]§!征召§G机动步兵联队§!"
+ HRS_recruit_cavalry_division:0 "在§G[FROM.GetName]§!征召§G骑兵联队§!"
+ HRS_recruit_militia_division:0 "在§G[FROM.GetName]§!征召§G民兵联队§!"
+
+ HRS_days_mobilization_large_decrease_tt:0 "总动员持续时间§R大幅减少§!\n"
+ HRS_days_mobilization_medium_decrease_tt:0 "总动员持续时间§O中幅减少§!\n"
+ HRS_days_mobilization_small_decrease_tt:0 "总动员持续时间§Y小幅减少§!\n"
+ HRS_days_mobilization_large_increase_tt:0 "总动员持续时间§G大幅增加§!\n"
+ HRS_days_mobilization_medium_increase_tt:0 "总动员持续时间§7中幅增加§!\n"
+ HRS_days_mobilization_small_increase_tt:0 "总动员持续时间§Y小幅增加§!\n"
+
+ HRS_war_weariness_large_increase_tt:0 "民众的反战情绪§R急剧增强§!\n"
+ HRS_war_weariness_small_increase_tt:0 "民众的反战情绪§O增强§!\n"
+ HRS_war_weariness_large_decrease_tt:0 "民众的反战情绪§G大幅降低§!\n"
+ HRS_war_weariness_small_decrease_tt:0 "民众的反战情绪§7降低§!\n"
+
+ HRS_total_war:0 "战争狂热"
+ HRS_total_war_desc:0 "我们的人民对战争爆发感到十分兴奋，受到爱国主义和民族主义感召的民众，纷纷涌入征兵处以及军工厂。在席卷一切的国家主义狂热中，政治异见者都闭上了嘴，开始为当局摇旗呐喊，普通平民更是热切地想要参与到这场“史无前例”的总体战当中去。"
+ HRS_possible_war:0 "胜利主义"
+ HRS_possible_war_desc:0 "战争持续了很久，但仍未有结束的迹象。好在战争并未过度影响平民的正常生活，兵工厂和前线都在正常运转，士兵们仍然士气高涨，相信他们必将取得胜利。与此同时，前线送回的骨灰盒和家书得到了“妥善处理”，一切尽在掌握之中。"
+ HRS_defeatist_war:0 "厌战情绪"
+ HRS_defeatist_war_desc:0 "战争旷日持久，却从未有过结束的迹象。我们的士兵和民众精疲力竭，他们开始抱怨这场战争给自己带来的伤害。反战组织日益壮大，兵变与罢工在国内各处酝酿，激进分子与政治反对派都要求我们立刻结束战争——无论付出何种代价。"
+ ################
+ # CORING STATE #
+ ################
+ HRS_make_core_cost_days_large_increase_tt:0 "§R大幅增加§!制造核心所需的时间"
+ HRS_make_core_cost_days_medium_increase_tt:0 "§O中度增加§!制造核心所需的时间"
+ HRS_make_core_cost_days_small_increase_tt:0 "§Y小幅增加§!制造核心所需的时间"
+ HRS_make_core_cost_days_large_decrease_tt:0 "§G大幅减少§!制造核心所需的时间"
+ HRS_make_core_cost_days_medium_decrease_tt:0 "§7中度减少§!制造核心所需的时间"
+ HRS_make_core_cost_days_small_decrease_tt:0 "§Y小幅减少§!制造核心所需的时间"
+ # DEVELOPMENT #
+ ###############
+ HRS_development_resource:0 "开发资源"
+ HRS_development_resource_desc:0 "中国国土广阔，地大物博，各类自然资源等待着我们去发掘和利用。"
+ ###################
+ # KYOTO-3 PROJECT #
+ ###################
+ HRS_construct_tokyo_iii:0 "建设第三京都市"
+ HRS_construct_tokyo_iii_desc:0 "§Y《新京都市计划》§!（或称“第三京都市计划”）由中国城市规划专家设计，计划在隅田川河口建设帝国新都。该项目规划总面积200平方公里，第一期5年建设区域为20平方公里，该项目已在1915年基本完成，入住人口达50万人。§Y第三京都市（Kyoto-3）§!规划的初衷是疏解京都的首都机能，增强东日本落后地区的开发建设工作。新城建设提供了大量就业岗位和空闲住房，能提振社会经济、解决失业问题，疏散大阪、京都等大城市的低端人口。这一计划是§t中国社会党§!粉红时代的产物，在军人抚恤金丑闻爆发后，社会党终结了20年连续执政的奇迹，但是社会党一系列“规划社会主义”的遗产，至今仍在激发着人们对未来居住空间的想象力。\n\n"
+ ################
+ # WAR MEASURES #
+ ################
+ HRS_war_measures:0 "战时措施"
+ HRS_emergency_factory_conversion_defensive:0 "紧急工厂转换"
+ emergency_factory_conversion_defensive_desc:0 "前线急需更多装备，我们必须转换更多的工厂来制造武器，以此保卫我们的国家。"
+ HRS_emergency_factory_conversion_offensive:0 "紧急工厂转换"
+ HRS_emergency_factory_conversion_offensive_desc:0 "我军急需更多装备，我们必须转换更多的工厂来制造武器，以此赢得战争。"
+ HRS_desperate_defense:0 "殊死防御"
+ HRS_desperate_defense_desc:0 "我们已经退无可退，士兵们必须掘壕固守并且撑住防线。"
+ HRS_women_in_the_workforce:0 "女性劳工"
+ HRS_women_in_the_workforce_desc:0 "当男性服役参战时，成千上万的女性接替了在工厂里的岗位以维持战争机器的运转。"

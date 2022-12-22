@@ -1,0 +1,157 @@
+spriteTypes = {
+	
+	#################################
+	### Open Introductions Window ###
+	#################################
+	spriteType = {
+		name = "GFX_introduction_button"
+		texturefile = "gfx/interface/topbar/introduction_button.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_IMC_introduction_button"
+		texturefile = "gfx/interface/topbar/IMC_introduction_button.png"
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	################################
+	### Introduction Backgrounds ###
+	################################
+	spriteType = {
+		name = "GFX_introduction_bg"
+		texturefile = "gfx/interface/introductions/introduction_bg.png"
+	}
+	spriteType = {
+		name = "GFX_IMC_introduction_bg"
+		texturefile = "gfx/interface/introductions/IMC_introduction_bg.png"
+	}
+	spriteType = {
+		name = "GFX_JAP_introduction_bg"
+		texturefile = "gfx/interface/introductions/JAP_introduction_bg.png"
+	}
+	spriteType = {
+		name = "GFX_KOR_introduction_bg"
+		texturefile = "gfx/interface/introductions/KOR_introduction_bg.png"
+	}
+	spriteType = {
+		name = "GFX_VIN_introduction_bg"
+		texturefile = "gfx/interface/introductions/VIN_introduction_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_SIA_introduction_bg"
+		texturefile = "gfx/interface/introductions/SIA_introduction_bg.png"
+	}
+	
+	#############
+	### Flags ###
+	#############
+	spriteType = {
+		name = "GFX_IMC_introduction_flag_default"
+		texturefile = "gfx/interface/introductions/flags/IMC_introduction_flag_default.png"
+	}
+	spriteType = {
+		name = "GFX_IMK_introduction_flag_default"
+		texturefile = "gfx/interface/introductions/flags/IMJ_introduction_flag_default.png"
+	}
+	spriteType = {
+		name = "GFX_IMJ_introduction_flag_default"
+		texturefile = "gfx/interface/introductions/flags/IMK_introduction_flag_default.png"
+	}
+	spriteType = {
+		name = "GFX_ANM_introduction_flag_default"
+		texturefile = "gfx/interface/introductions/flags/ANM_introduction_flag_default.dds"
+	}
+	spriteType = {
+		name = "GFX_SIA_introduction_flag_default"
+		texturefile = "gfx/interface/introductions/flags/SIA_introduction_flag_default.png"
+	}
+	
+	###############
+	### Emblems ###
+	###############
+	spriteType = {
+		name = "GFX_introduction_emblem"
+		texturefile = "gfx/interface/introductions/emblems/introduction_emblem.png"
+	}
+	spriteType = {
+		name = "GFX_IMC_introduction_emblem"
+		texturefile = "gfx/interface/introductions/emblems/IMC_introduction_emblem.png"
+	}
+	spriteType = {
+		name = "GFX_SIA_introduction_emblem"
+		texturefile = "gfx/interface/introductions/emblems/SIA_introduction_emblem.png"
+	}
+	
+	#####################
+	### Country Lores ###
+	#####################
+	spriteType = {
+		name = "GFX_country_lore_button"
+		texturefile = "gfx/interface/introductions/lores/country_lore_button.png"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_IMC_country_lore_button"
+		texturefile = "gfx/interface/introductions/lores/IMC_country_lore_button.png"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_KOR_country_lore_button"
+		texturefile = "gfx/interface/introductions/lores/KOR_country_lore_button.png"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_JAP_country_lore_button"
+		texturefile = "gfx/interface/introductions/lores/JAP_country_lore_button.png"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_VIN_country_lore_button"
+		texturefile = "gfx/interface/introductions/lores/VIN_country_lore_button.dds"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_SIA_country_lore_button"
+		texturefile = "gfx/interface/introductions/lores/SIA_country_lore_button.png"
+		noOfFrames = 3
+	}
+	
+	############################
+	### Introductions Window ###
+	############################
+	spriteType = {
+		name = "GFX_introduction_flag_bg"
+		texturefile = "gfx/interface/introductions/introduction_flag_bg.png"
+	}
+	spriteType = {
+		name = "GFX_introduction_category_button"
+		texturefile = "gfx/interface/introductions/introduction_category_button.png"
+	}
+	spriteType = {
+		name = "GFX_introduction_category_icon"
+		texturefile = "gfx/interface/introductions/introduction_category_icon.png"
+	}
+	
+	###############################
+	### Introductiontext Slider ###
+	###############################
+	spriteType = {
+		name = "GFX_int_scroll_up"
+		texturefile = "gfx/interface/introductions/int_scroll_up.png"
+	}
+	spriteType = {
+		name = "GFX_int_scroll_down"
+		texturefile = "gfx/interface/introductions/int_scroll_down.png"
+	}
+	spriteType = {
+		name = "GFX_int_scroll_drager"
+		texturefile = "gfx/interface/introductions/int_scroll_drager.png"
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_int_scroll_track"
+		size= {x =12 y = 12 }
+		texturefile = "gfx/interface/introductions/int_scroll_track.png"
+		borderSize = { x=4 y=4 }
+	}
+}

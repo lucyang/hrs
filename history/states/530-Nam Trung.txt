@@ -1,0 +1,21 @@
+state={
+	id=530
+	name="STATE_530"
+	provinces={
+		14 73 131 1725 2394 2514 3186 3232 4261 4263 5075
+	}
+	history = {
+		owner = ANM
+		add_core_of = VIN
+		victory_points = { 1725 5 } #归仁
+		victory_points = { 73 5 } #芽庄
+		victory_points = { 4263 1 } #潘切
+		victory_points = { 4261 1 } #绥和
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=363000
+	state_category = rural
+	local_supplies = 0.0
+}

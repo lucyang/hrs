@@ -1,0 +1,98 @@
+characters={
+	TIB_thubten_gyatso={
+		name=TIB_thubten_gyatso
+		portraits={
+			civilian={
+				large="gfx/leaders/TIB/Portrait_Thubten_Gyatso.png"
+			}
+		}
+		country_leader={
+			ideology=development_authoritarianism_subtype
+			desc=TIB_thubten_gyatso_desc
+			traits={ nationalist_symbol }
+			expire="1933.12.17.1"
+		}
+	}
+	TIB_tsipon_lungshar={
+		name=TIB_tsipon_lungshar
+		portraits={
+			civilian={
+				large="gfx/leaders/TIB/Portrait_Tsipon_Lungshar_Gyatso.png"
+			}
+		}
+		country_leader={
+			ideology=national_conservatism_subtype
+			desc=TIB_tsipon_lungshar_desc
+			traits={ social_reformer }
+			expire="1950.1.1.1"
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+	TIB_thubten_kunphela={
+		name=TIB_thubten_kunphela
+		portraits={
+			civilian={
+				large="gfx/leaders/TIB/Portrait_Thubten_Kunphela.png"
+			}
+		}
+	}
+	TIB_tsarong_dasang_dramdul = {
+		name=TIB_tsarong_dasang_dramdul
+		portraits={
+			civilian={
+				large="gfx/leaders/TIB/Portrait_Tsarong_Dasang_Dramdul.png"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	TIB_changgnopa_ringang = {
+		name=TIB_changgnopa_ringang
+		portraits={
+			civilian={
+				large="gfx/leaders/TIB/Portrait_Changngopa_Ringang.png"
+			}
+		}
+	}
+	TIB_zhang_yintang = {
+		name=TIB_zhang_yintang
+		portraits={
+			civilian={
+				large="gfx/leaders/TIB/Portrait_Zhang_Yintang.png"
+			}
+		}
+		country_leader={
+			ideology=fascism_subtype
+			desc=TIB_thubten_gyatso_desc
+			traits={  }
+			expire="1937.7.7.1"
+		}
+	}
+	TIB_nicholas_roerich = {
+		name=TIB_nicholas_roerich
+		portraits={
+			civilian={
+				large="gfx/leaders/TIB/Portrait_Nicholas_Roerich.png"
+			}
+		}
+		country_leader={
+			ideology=ethnofuturism
+			desc=TIB_nicholas_roerich_desc
+			traits={  }
+			expire="1947.12.13.1"
+		}
+	}
+}

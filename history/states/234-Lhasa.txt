@@ -1,0 +1,20 @@
+state={
+	id=234
+	name="STATE_234"
+	provinces={
+		758 1439 1480
+	}
+	history = {
+		owner = TIB
+		add_core_of = TIB
+
+		victory_points = { 1480 10 } #拉萨
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=20000
+	state_category = rural
+	local_supplies = 0.0
+}

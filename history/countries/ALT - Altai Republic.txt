@@ -1,0 +1,59 @@
+﻿capital = 429 #Oyrot/Gorno-Altaysk
+
+oob = "empty"
+
+set_research_slots = 1
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_politics = {
+	ruling_party = socialism
+	last_election = "1920.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+recruit_character = ALT_grigory_gurkin
+recruit_character = ALT_vasily_anuchin
+recruit_character = ALT_dmitry_satunin
+
+set_popularities = {
+	communism = 8
+	anarchism = 12
+	socialism = 30
+	democratic = 7
+	neutrality = 13
+	monarchism = 22
+	imperialism = 8
+	fascism = 0
+	futurism = 0
+}
+
+give_guarantee = TAN
+diplomatic_relation = {
+    country = TAN
+    relation = non_aggression_pact
+    active = yes
+}
+
+add_ideas = {
+	limited_exports
+	extensive_conscription
+	low_economic_mobilisation
+}
+add_ideas = {
+	country_development2
+	country_tech2
+	market_economy3
+	unitary_state1
+}
+
+
+
+
+
+
+
+

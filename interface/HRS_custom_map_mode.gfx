@@ -1,0 +1,11 @@
+spritetypes = {
+	# Culture
+	spritetype = {
+		name = "GFX_mapmode_buttons_deselected_small_hrs_culture_map_mode"
+		texturefile = "gfx/interface/custom_map_modes/GFX_mapmode_buttons_deselected_small_hrs_culture_mapmode.dds"
+	}
+	spritetype = {
+		name = "GFX_mapmode_buttons_selected_small_hrs_culture_map_mode"
+		texturefile = "gfx/interface/custom_map_modes/GFX_mapmode_buttons_selected_small_hrs_culture_map_mode.dds"
+	}
+}

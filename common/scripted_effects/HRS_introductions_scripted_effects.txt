@@ -1,0 +1,13 @@
+country_introduction = {
+	if = {
+		limit = { has_country_flag = country_introduction }
+		clr_country_flag = country_introduction
+		clr_country_flag = country_lore
+		clr_country_flag = country_paths
+		else = {
+			set_country_flag = country_introduction
+			set_country_flag = country_lore
+			set_variable = { country_lore_desc = 1 }
+		}
+	}
+}

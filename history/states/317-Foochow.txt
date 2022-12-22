@@ -1,0 +1,32 @@
+
+state={
+	id=317
+	name="STATE_317"
+
+	history={
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 4002 10 }
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 3
+			dockyard = 1
+			2347 = {
+				naval_base = 3
+				coastal_bunker = 2
+			}
+		}
+
+	}
+
+	provinces={
+		2347 2885 2910 3035 3169 3252 3986 3992 3994 4002 4007 4025
+	}
+	manpower=2355990
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

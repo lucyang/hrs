@@ -1,0 +1,33 @@
+state={
+	id=152
+	name="STATE_152"
+	provinces={
+		2548 2672
+	}
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+
+		victory_points = { 2672 3 } #下关
+		victory_points = { 2548 1 } #山口
+			
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			air_base = 2
+			
+			2672 = {
+				naval_base = 2
+			}
+			2548 = {
+				naval_base = 1
+			}
+		}
+		
+	}
+	manpower=1041013
+	state_category = town
+	local_supplies = 0.0
+}

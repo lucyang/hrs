@@ -1,0 +1,24 @@
+state={
+	id=44
+	name="STATE_44"
+	provinces={
+		747 1156 2999 3557 
+	}
+	history = {
+		owner = MAN
+		add_core_of = MAN
+		victory_points = {
+			3557 1
+			}
+		victory_points = {
+			2999 5
+			}
+		buildings = {
+			infrastructure = 1
+		}
+		
+	}
+	manpower=125942
+	state_category = rural
+	local_supplies = 0.0
+}

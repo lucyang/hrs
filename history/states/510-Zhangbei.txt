@@ -1,0 +1,21 @@
+
+state={
+	id=510
+	name="STATE_510"
+	provinces={
+		818 1587 1908 2482 3357 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		victory_points = { 818 1 } #张北
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	manpower=252997
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,29 @@
+state={
+	id=180
+	name="STATE_180"
+	provinces={
+		987 2605 3756 
+	}
+	
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+
+		victory_points = { 987 5 } #德岛
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+
+			987 = { #小松岛港
+				naval_base = 2
+			}
+		}
+		
+	}
+	manpower=670212
+	state_category = town
+	local_supplies = 0.0
+}

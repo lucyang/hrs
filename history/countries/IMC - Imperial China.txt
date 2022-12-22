@@ -1,0 +1,231 @@
+﻿capital = 212 #京师/南京
+
+oob = "empty"
+
+recruit_character = IMC_emperor_taisho
+recruit_character = IMC_sun_zhongshan
+recruit_character = IMC_hu_shi
+recruit_character = IMC_zhang_junmai
+recruit_character = IMC_zhang_dongsun
+recruit_character = IMC_jiang_kanghu
+recruit_character = IMC_zhang_taiyan
+recruit_character = IMC_liang_qichao
+recruit_character = IMC_kang_youwei
+
+set_technology = {
+	#infantry
+	infantry_weapons = 1
+	support_weapons = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	#support
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
+	#train
+	basic_train = 1
+	#artillery
+	gw_artillery = 1
+	interwar_artillery = 1
+	interwar_antiair = 1
+	#doctrines
+	trench_warfare = 1
+	#electronics
+	electronic_mechanical_engineering = 1
+	radio = 1
+	#industry
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	fuel_refining = 1
+	#air
+	early_fighter = 1
+	early_bomber = 1
+	
+}
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "empty"
+	set_technology = {
+		gwtank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"	
+	}
+	set_oob = "empty"
+	set_technology = {
+		gwtank_chassis = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		improved_ship_torpedo_launcher = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		mtg_transport = 1
+		coastal_defense_ships = 1
+		#basic_secondary_battery = 1
+		basic_depth_charges = 1
+		basic_cruiser_armor_scheme = 1
+		cruiser_submarines = 1
+	}
+	#set_naval_oob = "IMC_1923_naval"
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		transport = 1
+	}
+	#set_naval_oob = "IMC_1923_naval_legacy"
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+set_research_slots = 4
+set_convoys = 300
+set_stability = 0.50
+
+add_ideas = {
+	free_trade
+	volunteer_only
+	civilian_economy
+}
+add_ideas = {
+	IMC_emperor_taisho
+	IMC_heyday_of_poverty
+	IMC_zaibatsu_ally
+	#IMC_shadow_of_rose_era
+}
+add_ideas = {
+	country_development4
+	country_tech4
+	federation2
+	dirigisme_economy
+}
+
+give_guarantee = SIA
+give_guarantee = MAN
+give_guarantee = TIB
+give_guarantee = PRM
+
+add_equipment_to_stockpile = {
+    type = train_equipment
+    amount = 50
+    producer = IMC
+}
+add_equipment_to_stockpile = {
+    type = motorized_equipment
+    amount = 500
+    producer = IMC
+}
+add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = 10000
+    producer = IMC
+}
+add_equipment_to_stockpile = {
+    type = artillery_equipment
+    amount = 1000
+    producer = IMC
+}
+
+set_autonomy = {
+	target = BRM
+	autonomous_state = autonomy_wtt_imperial_protectorate
+}
+set_autonomy = {
+	target = ANM
+	autonomous_state = autonomy_wtt_imperial_associate
+}
+set_autonomy = {
+	target = IMJ
+	autonomous_state = autonomy_wtt_imperial_associate
+}
+set_autonomy = {
+	target = IMK
+	autonomous_state = autonomy_wtt_imperial_associate
+}
+set_autonomy = {
+	target = LNF
+	autonomous_state = autonomy_wtt_imperial_protectorate
+}
+set_autonomy = {
+	target = PHI
+	autonomous_state = autonomy_wtt_imperial_protectorate
+}
+set_autonomy = {
+	target = MAL
+	autonomous_state = autonomy_wtt_imperial_protectorate
+}
+set_autonomy = {
+	target = DBJ
+	autonomous_state = autonomy_wtt_imperial_associate
+}
+set_autonomy = {
+	target = ZDJ
+	autonomous_state = autonomy_wtt_imperial_associate
+}
+set_autonomy = {
+	target = HSW
+	autonomous_state = autonomy_wtt_imperial_associate
+}
+
+PHI = {
+	set_autonomy = {
+		target = BSM
+		autonomous_state = autonomy_puppet
+	}
+}
+
+BSM = { set_cosmetic_tag = BSM_IMC }
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1920.5.10"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	communism = 0
+	anarchism = 7
+	socialism = 14
+	democratic = 20
+	neutrality = 31
+	monarchism = 13
+	fascism = 9
+	imperialism = 6
+	futurism = 0
+}

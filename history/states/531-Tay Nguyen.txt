@@ -1,0 +1,22 @@
+state={
+	id=531
+	name="STATE_531"
+	provinces={
+		489 1456 2652 3133 5069 5070 5071 5072 5073 5074
+	}
+	history = {
+		owner = ANM
+		add_core_of = DEG
+
+		victory_points = { 2652 3 } #波来古
+		victory_points = { 3133 1 } #邦美蜀
+		victory_points = { 5073 1 } #大叻
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=665000
+	state_category = rural
+	local_supplies = 0.0
+}

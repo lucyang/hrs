@@ -1,0 +1,46 @@
+﻿capital = 391 # Manila
+
+oob = "empty"
+
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_engineers = 1
+}
+
+set_convoys = 10
+
+set_politics = {	
+	ruling_party = neutrality
+	last_election = "1917.9.15"
+	election_frequency = 72
+	elections_allowed = no
+}
+
+set_cosmetic_tag = PHI_IMC
+
+recruit_character = PHI_wang_yitang
+
+set_popularities = {
+    communism = 0
+	anarchism = 7
+	democratic = 14
+	neutrality = 42
+	monarchism = 0
+	fascism = 9
+	imperialism = 18
+	futurism = 10
+}
+
+add_ideas = {
+	export_focus
+	limited_conscription
+	civilian_economy
+}
+add_ideas = {
+	country_development1
+	country_tech3
+	market_economy2
+	unitary_state2
+}

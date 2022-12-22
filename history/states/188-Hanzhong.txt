@@ -1,0 +1,21 @@
+state={
+	id=188
+	name="STATE_188"
+	provinces={
+		596 2522 2785 2961 3044 3771 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 596 3 } #汉中
+		
+		buildings = {
+			infrastructure = 2
+		}
+		
+	}
+	manpower=2111804
+	state_category = rural
+	local_supplies = 0.0
+}

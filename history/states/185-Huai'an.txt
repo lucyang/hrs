@@ -1,0 +1,21 @@
+state={
+	id=185
+	name="STATE_185"
+	provinces={
+		495 2790 3761 3783 4729
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points ={ 3761 1 } #淮安
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+	}
+	manpower=790413
+	state_category = town
+	local_supplies = 0.0
+}

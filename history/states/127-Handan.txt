@@ -1,0 +1,27 @@
+state={
+	id=127
+	name="STATE_127"
+	provinces={
+		1464 2378 2613 3689 
+	}
+	resources = {
+		steel = 20
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 2378 5 } #邯郸
+		victory_points = { 2613 1 } #大名
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 2
+		}
+		
+	}
+	manpower=3154304
+	state_category = city
+	local_supplies = 0.0
+}

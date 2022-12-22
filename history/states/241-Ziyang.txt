@@ -1,0 +1,20 @@
+state={
+	id=241
+	name="STATE_241"
+	provinces={
+		1137 3844 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+		victory_points = {
+			3844 1
+			}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=682020
+	state_category = town
+	local_supplies = 0.0
+}

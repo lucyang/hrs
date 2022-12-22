@@ -1,0 +1,18 @@
+state={
+	id=469
+	name="STATE_469"
+	provinces={
+		116 142 147 367 1115 2472 2603 2751 3730 3778 4830
+	}
+	history = {
+		owner = HIN
+		add_core_of = HIN
+		
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=1000
+	state_category = town
+	local_supplies = 0.0
+}

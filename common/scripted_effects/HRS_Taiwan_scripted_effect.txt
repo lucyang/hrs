@@ -1,0 +1,40 @@
+TAW_china_support_large_decrease = {
+	custom_effect_tooltip = TAW_china_support_large_decrease_tt
+	add_to_variable = { TAW_china_support = -3 }
+	clamp_variable = { var = TAW_china_support_large max = 10 min = 0 }
+}
+TAW_china_support_small_decrease = {
+	custom_effect_tooltip = TAW_china_support_small_decrease_tt
+	add_to_variable = { TAW_china_support = -1 }
+	clamp_variable = { var = TAW_china_support max = 10 min = 0 }
+}
+TAW_china_support_large_increase = {
+	custom_effect_tooltip = TAW_china_support_large_increase_tt
+	add_to_variable = { TAW_china_support = 3 }
+	clamp_variable = { var = TAW_china_support max = 10 min = 0 }
+}
+TAW_china_support_small_increase = {
+	custom_effect_tooltip = TAW_china_support_small_increase_tt
+	add_to_variable = { TAW_china_support = 1 }
+	clamp_variable = { var = TAW_china_support max = 10 min = 0 }
+}
+TAW_taiwan_support_large_increase = {
+	custom_effect_tooltip = TAW_taiwan_support_large_increase_tt
+	add_to_variable = { TAW_taiwan_support = 3 }
+	clamp_variable = { var = TAW_taiwan_support max = 10 min = 0 }
+}
+TAW_taiwan_support_small_increase = {
+	custom_effect_tooltip = TAW_taiwan_support_small_increase_tt
+	add_to_variable = { TAW_taiwan_support = 1 }
+	clamp_variable = { var = TAW_taiwan_support max = 10 min = 0 }
+}
+TAW_taiwan_support_large_decrease = {
+	custom_effect_tooltip = TAW_taiwan_support_large_decrease_tt
+	add_to_variable = { TAW_taiwan_support = -3 }
+	clamp_variable = { var = TAW_taiwan_support max = 10 min = 0 }
+}
+TAW_taiwan_support_small_decrease = {
+	custom_effect_tooltip = TAW_taiwan_support_small_decrease_tt
+	add_to_variable = { TAW_taiwan_support = -1 }
+	clamp_variable = { var = TAW_taiwan_support max = 10 min = 0 }
+}

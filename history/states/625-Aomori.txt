@@ -1,0 +1,23 @@
+state={
+	id=625
+	name="STATE_625"
+	provinces={
+		1395 2501 3619 3620 
+	}
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+
+		victory_points = { 3619 1 } #八戸
+
+		buildings = {
+			infrastructure = 2
+			1395 = {
+				naval_base = 1
+			}
+		}
+	}
+	manpower=756454
+	state_category = town
+	local_supplies = 0.0
+}

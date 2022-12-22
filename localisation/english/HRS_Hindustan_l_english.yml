@@ -1,0 +1,76 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ HIN_communism:0 "印度社会主义共和国"
+ HIN_communism_DEF:0 "印度社会主义共和国"
+ HIN_anarchism:0 "印度人民共和国"
+ HIN_anarchism_DEF:0 "印度人民共和国"
+ HIN_socialism:0 "印度人民共和国"
+ HIN_socialism_DEF:0 "印度人民共和国"
+ HIN_democratic:0 "印度帝国"
+ HIN_democratic_DEF:0 "印度斯坦大萨瓦德"
+ HIN_neutrality:0 "印度帝国"
+ HIN_neutrality_DEF:0 "印度斯坦大萨瓦德"
+ HIN_monarchism:0 "印度帝国"
+ HIN_monarchism_DEF:0 "印度斯坦大萨瓦德"
+ HIN_fascism:0 "正法国"
+ HIN_fascism_DEF:0 "正法国"
+ HIN_imperialism:0 "婆罗多伐罗刹"
+ HIN_imperialism_DEF:0 "婆罗多伐罗刹"
+ HIN_futurism:0 "雅利安伐尔塔"
+ HIN_futurism_DEF:0 "雅利安伐尔塔" # Āryāvarta
+ HIN_communism_ADJ:0 "印度"
+ HIN_anarchism_ADJ:0 "印度"
+ HIN_socialism_ADJ:0 "印度"
+ HIN_democratic_ADJ:0 "印度"
+ HIN_neutrality_ADJ:0 "印度"
+ HIN_monarchism_ADJ:0 "印度"
+ HIN_fascism_ADJ:0 "婆罗多"
+ HIN_imperialism_ADJ:0 "婆罗多"
+ HIN_futurism_ADJ:0 "雅利安"
+ HIN:0 "印度"
+ HIN_DEF:0 "印度"
+ HIN_ADJ:0 "印度"
+ #############
+ ## PARTIES ##
+ #############
+ HIN_communism_party:0 "印共"
+ HIN_communism_party_long:0 "印度共产党"
+ HIN_anarchism_party:0 "印共"
+ HIN_anarchism_party_long:0 "印度共产党"
+ HIN_socialism_party:0 "国大党 - 左翼"
+ HIN_socialism_party_long:0 "印度国民大会党 - 左翼"
+ HIN_democratic_party:0 "国大党 - 右翼"
+ HIN_democratic_party_long:0 "印度国民大会党 - 右翼"
+ HIN_neutrality_party:0 "十人委员会"
+ HIN_neutrality_party_long:0 "德里十人委员会"
+ HIN_monarchism_party:0 "莫卧儿王朝"
+ HIN_monarchism_party_long:0 "莫卧儿王朝"
+ HIN_fascism_party:0 "人民党"
+ HIN_fascism_party_long:0 "印度人民党"
+ HIN_imperialism_party:0 "大斋会"
+ HIN_imperialism_party_long:0 "印度教大斋会"
+ HIN_futurism_party:0 "技术官僚"
+ HIN_futurism_party_long:0 "技术官僚运动"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ HIN_jawaharlal_nehru:0 "贾瓦哈拉尔·尼赫鲁"
+ HIN_rajendra_prasad:0 "拉金德拉·普拉萨德"
+ HIN_alamgir_shah_III:0 "阿拉姆吉尔三世" #Original Name: Bedaar Bakht)
+ HIN_malayapuram_singaravelu:0 "马拉雅普兰·辛格拉维鲁"
+ HIN_shrlpad_amrit_dange:0 "施里帕德·阿姆里特·丹吉"
+ HIN_keshav_baliram_hedgewar:0 "凯沙夫·巴里拉姆·海德盖瓦"
+ HIN_madan_mohan_malaviya:0 "马丹·莫罕·马拉维亚"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

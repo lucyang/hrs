@@ -1,0 +1,43 @@
+characters={
+	LYG_liu_zhenhua={
+		name=LYG_liu_zhenhua
+		portraits={
+			civilian={
+				large="gfx/leaders/LYG/Portrait_Liu_Zhenhua.png"
+			}
+			army={
+				large="gfx/leaders/LYG/Portrait_Liu_Zhenhua.png"
+			}
+		}
+		country_leader={
+			ideology=warlordism_subtype
+			desc=LYG_liu_zhenhua_desc
+			traits={  }
+			expire="1955.11.18.1"
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	LYG_liu_maoen={
+		name=LYG_liu_maoen
+		portraits={
+			army={
+				large="gfx/leaders/LYG/Portrait_Liu_Maoen.png"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer defensive_doctrine fast_planner }
+			skill=3
+			attack_skill=1
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+		}
+	}
+}

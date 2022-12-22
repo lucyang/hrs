@@ -1,0 +1,23 @@
+
+state={
+	id=380
+	name="STATE_380"
+
+	history={
+		owner = HIN
+		add_core_of = HIN
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		407 689 865 924 1362 1571 1674 1804 1904 1924 2215 2261 2344 2990 3158 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

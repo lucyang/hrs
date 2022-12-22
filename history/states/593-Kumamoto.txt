@@ -1,0 +1,22 @@
+state={
+	id=593
+	name="STATE_593"
+	provinces={
+		2247 3788 4278
+	}
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+
+		victory_points = { 2247 5 } #熊本
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+	manpower=1233233
+	state_category = rural
+	local_supplies = 0.0
+}

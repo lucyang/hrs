@@ -1,0 +1,64 @@
+characters={
+	ALT_grigory_gurkin={
+		name=ALT_grigory_gurkin
+		portraits={
+			civilian={
+				large="gfx/leaders/ALT/Portrait_Grigory_Gurkin.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democratic_subtype
+			desc=ALT_grigory_gurkin_desc
+			traits={  }
+			expire="1937.10.11.1"
+		}
+	}
+	ALT_vasily_anuchin={
+		name=ALT_vasily_anuchin
+		portraits={
+			civilian={
+				large="gfx/leaders/ALT/Portrait_Vasily_Anuchin.png"
+			}
+		}
+		country_leader={
+			ideology=national_communism_subtype
+			desc=ALT_vasily_anuchin_desc
+			traits={  }
+			expire="1941.11.4.1"
+		}
+	}
+	ALT_dmitry_satunin={
+		name=ALT_dmitry_satunin
+		portraits={
+			civilian={
+				large="gfx/leaders/ALT/Portrait_Dmitry_Satunin.png"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ALT_aleksandr_kaigorodov={
+		name=ALT_aleksandr_kaigorodov
+		portraits={
+			civilian={
+				#large="gfx/leaders/ALT/Portrait_Aleksandr_Kaigorodov.png"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+}

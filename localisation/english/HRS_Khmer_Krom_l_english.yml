@@ -1,0 +1,64 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ KMK_communism:0 "下高棉社会主义共和国"
+ KMK_communism_DEF:0 "下高棉社会主义共和国"
+ KMK_anarchism:0 "下高棉人民共和国"
+ KMK_anarchism_DEF:0 "下高棉人民共和国"
+ KMK_socialism:0 "下高棉民主共和国"
+ KMK_socialism_DEF:0 "下高棉民主共和国"
+ KMK_democratic:0 "下高棉共和国"
+ KMK_democratic_DEF:0 "下高棉共和国"
+ KMK_neutrality:0 "下高棉共和国"
+ KMK_neutrality_DEF:0 "下高棉共和国"
+ KMK_monarchism:0 "下高棉国"
+ KMK_monarchism_DEF:0 "下高棉国"
+ KMK_fascism:0 "下高棉共和国"
+ KMK_fascism_DEF:0 "下高棉共和国"
+ KMK_imperialism:0 "下高棉共和国"
+ KMK_imperialism_DEF:0 "下高棉共和国"
+ KMK_futurism:0 "下高棉共和国"
+ KMK_futurism_DEF:0 "下高棉共和国"
+ KMK_communism_ADJ:0 "下高棉"
+ KMK_anarchism_ADJ:0 "下高棉"
+ KMK_democratic_ADJ:0 "下高棉"
+ KMK_neutrality_ADJ:0 "下高棉"
+ KMK_monarchism_ADJ:0 "下高棉"
+ KMK_fascism_ADJ:0 "下高棉"
+ KMK_imperialism_ADJ:0 "下高棉"
+ KMK_futurism_ADJ:0 "下高棉"
+ KMK:0 "下高棉"
+ KMK_DEF:0 "下高棉"
+ KMK_ADJ:0 "下高棉"
+ #############
+ ## PARTIES ##
+ #############
+ KMK_communism_party:0 "民族解放委员会"
+ KMK_communism_party_long:0 "高棉民族解放委员会"
+ KMK_anarchism_party:0 "人民革命党"
+ KMK_anarchism_party_long:0 "高棉人民革命党" #Son Ngo Minh
+ KMK_socialism_party:0 "桑功"
+ KMK_socialism_party_long:0 "人民社会同盟"
+ KMK_democratic_party:0 "自由高棉 - 宋双派"
+ KMK_democratic_party_long:0 "自由高棉 - 宋双派" #Son Sann
+ KMK_neutrality_party:0 "高棉自由军"
+ KMK_neutrality_party_long:0 "高棉自由军"
+ KMK_monarchism_party:0 "保皇派"
+ KMK_monarchism_party_long:0 "保皇派"
+ KMK_fascism_party:0 "自由高棉 - 山玉成派"
+ KMK_fascism_party_long:0 "自由高棉 - 山玉成派" #Son Ngo Thanh
+ KMK_imperialism_party:0 "自由高棉 - 朗诺派"
+ KMK_imperialism_party_long:0 "自由高棉 - 朗诺派"
+ KMK_futurism_party:0 "技术官僚"
+ KMK_futurism_party_long:0 "技术官僚"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ KMK_son_ngo_thanh:0 "山玉成"
+ KMK_lan_nol:0 "朗诺"
+ KMK_son_sann:0 "宋双"

@@ -1,0 +1,18 @@
+state={
+	id=584
+	name="STATE_584"
+	provinces={
+		126 207 263 336 413 552 644 673 832 1006 1613 1689 1736 1759 1850 2283 2698 3238 3497 3523 5116 5117 5118
+	}
+	history={
+		owner = DZU
+		add_core_of = KAZ
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=987863
+	state_category = rural
+	local_supplies = 0.0
+}

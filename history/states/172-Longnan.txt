@@ -1,0 +1,21 @@
+state={
+	id=172
+	name="STATE_172"
+	provinces={
+		1272 1775 2541 2780 3243 3384 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 1775 1 } #陇南
+		
+		buildings = {
+			infrastructure = 1
+		}
+		
+	}
+	manpower=1655979
+	state_category = rural
+	local_supplies = 0.0
+}

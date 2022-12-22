@@ -1,0 +1,25 @@
+state={
+	id=212
+	name="STATE_212"
+	provinces={
+		1313 1337 2941 2957
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 2957 20 } #京师
+		victory_points = { 2941 5 } #浦口
+		victory_points = { 1313 1 } #江宁
+	
+		buildings = {
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 4
+		}
+	}
+	manpower = 2587847
+	state_category = metropolis
+	local_supplies = 0.0
+}

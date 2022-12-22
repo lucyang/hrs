@@ -1,0 +1,611 @@
+add_namespace = yun_rev
+add_namespace = yun
+
+#################
+# YUNNAN EVENTS #
+#################
+country_event = {
+	id = yun_rev.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event yun_rev.1"
+		hidden_effect = {
+			country_event = { id = yi_rev.1 days = 12 }
+		}
+	}
+	title = yun_rev.1.t
+	desc = yun_rev.1.desc
+	picture = GFX_report_event_ger_civil_war
+
+	is_triggered_only = yes
+
+	option = { #the revolt succeed
+		name = yun_rev.1.a
+		ai_chance = { base = 90 }
+		321 = { add_manpower = -650 }
+		country_event = yun_rev.2
+	}
+}
+country_event = {
+	id = yun_rev.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event yun_rev.2"
+		hidden_effect = {
+			HSW = { transfer_state = 504 }
+			every_state = {
+				limit = { is_yunnan_state = yes }
+				transfer_state_to = YUN
+				add_core_of = YUN
+			}
+			YUN = {
+				#load_oob = "YUN_1923"
+				country_event = { id = yun_rev.3 days = 7 }
+				add_country_leader_role = {
+					character = YUN_cai_e
+					country_leader={
+						ideology=provisional_government_subtype
+						desc=YUN_cai_e_desc
+						traits={ liberal_democratic_paragon infirm }
+						expire="1926.12.8.1"
+					}
+					promote_leader = yes 
+				}
+			}
+		}
+	}
+	title = yun_rev.2.t
+	desc = yun_rev.2.desc
+	picture = GFX_report_event_basuria_independence
+
+	is_triggered_only = yes
+
+	option = {
+		name = yun_rev.2.a
+	}
+}
+country_event = {
+	id = yun_rev.3
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event yun_rev.3"
+		hidden_effect = {
+			country_event = { id = yun_rev.4 days = 3 }
+			DLI = {
+				add_political_power = 50
+				transfer_state = 277 # Diqing
+				add_state_core = 277
+				transfer_state = 293 # Nujiang
+				add_state_core = 293
+				transfer_state = 316 # Dali
+				add_state_core = 316
+				transfer_state = 301 # Lijiang
+				add_state_core = 301
+				#load_oob = "DLI_CivilWar"
+			}
+		}
+	}
+	title = yun_rev.3.t
+	desc = yun_rev.3.desc
+	picture = GFX_report_event_generic_funeral
+
+	is_triggered_only = yes
+
+	option = {
+		name = yun_rev.3.a
+		set_country_flag = YUN_revolutionary_army_empowered
+	}
+	option = {
+		name = yun_rev.3.b
+		set_country_flag = YUN_civilian_government_empowered
+	}
+	option = {
+		name = yun_rev.3.c
+		set_country_flag = YUN_nobody_empowered
+	}
+}
+country_event = { # Cai E passed away
+	id = yun_rev.4
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event yun_rev.4"
+		hidden_effect = {
+			set_party_name = {
+				ideology = neutrality
+				long_name = YUN_junta_party_long
+				name = YUN_junta_party
+			}
+			LAX = {
+				transfer_state = 638
+				add_state_core = 638
+				#load_oob = "LAX_CivilWar"
+			}
+		}
+	}
+	title = yun_rev.4.t
+	desc = yun_rev.4.desc
+	picture = GFX_report_event_generic_funeral
+
+	is_triggered_only = yes
+
+	option = {
+		name = yun_rev.4.a
+		add_political_power = -10
+		retire_character = YUN_cai_e
+		add_country_leader_role = {
+			character = YUN_yunnan_government
+			country_leader={
+				ideology=interim_government_subtype
+				desc=YUN_yunnan_government_desc
+				traits={ emergency_powers }
+				expire="1950.4.13.1"
+			}
+			promote_leader = yes 
+		}
+		country_event = yun_rev.5
+	}
+}
+country_event = { # Choose path for Yunnan
+	id = yun_rev.5
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event yun_rev.5"
+		hidden_effect = {
+			country_event = { id = yun_rev.6 days = 3 }
+			JXP = {
+				add_political_power = 100
+				transfer_state = 504
+				add_state_core = 504
+				transfer_state = 557
+				add_state_core = 557
+				#load_oob = "JXP_CivilWar"
+			}
+		}
+	}
+	title = yun_rev.5.t
+	desc = yun_rev.5.desc
+	picture = GFX_report_event_generic_funeral
+
+	is_triggered_only = yes
+
+	option = { # Military Junta→yun.1
+		name = yun_rev.5.a
+		add_stability = -0.05
+		country_event = yun.1
+	}
+	option = { # Civilian Government→yun.6
+		name = yun_rev.5.b
+		add_war_support = -0.05
+		country_event = yun.6
+	}
+	option = { # Yunnan Independence→yun.7
+		name = yun_rev.5.c
+		add_stability = -0.10	
+		country_event = yun.7
+	}
+	option = { # Monarchist Restoration→yun.8
+		name = yun_rev.5.d
+		add_political_power = -100	
+		country_event = yun.4
+	}
+}
+country_event = {
+	id = yun_rev.6
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event yun_rev.6"
+		hidden_effect = {
+			MMA = {
+				transfer_state = 331 # Dehong
+				add_state_core = 331
+				#load_oob = "MMA_CivilWar"
+			}
+			CHH = {
+				transfer_state = 374 # Sipsongbanna
+				add_state_core = 374
+				#load_oob = "CHH_CivilWar"
+			}
+		}
+	}
+	title = yun_rev.6.t
+	desc = yun_rev.6.desc
+	picture = GFX_report_event_generic_funeral
+
+	is_triggered_only = yes
+
+	option = {
+		name = yun_rev.6.a
+	}
+}
+country_event = { # A cout d'etat against Tang Jiyao
+	id = yun.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event yun.1"
+	}
+	title = yun.1.t
+	desc = yun.1.desc
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = { # coup failed
+		name = yun.1.a
+		country_event = yun.2
+		retire_character = YUN_li_genyuan
+		retire_character = YUN_zhu_peide
+		retire_character = YUN_zhu_de
+		hidden_effect = {
+			add_popularity = {
+				ideology = socialism
+				popularity = -0.10
+				}
+			add_popularity = {
+				ideology = democratic
+				popularity = -0.10
+			}
+		}	
+	}
+	option = { # coup succeeded
+		name = yun.1.b
+		country_event = yun.3
+		retire_character = YUN_tang_jiyao
+		add_country_leader_role = {
+			character = YUN_yunnan_government
+			country_leader={
+				ideology=interim_government_subtype
+				desc=YUN_yunnan_government_desc
+				traits={ emergency_powers }
+				expire="1950.4.13.1"
+			}
+			promote_leader = yes 
+		}		
+		hidden_effect = {
+			add_popularity = {
+				ideology = neutrality
+				popularity = -0.20
+			}
+		}
+	}
+}
+country_event = { # Coup failed and Tang seized power
+	id = yun.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event yun.2"
+	}
+	title = yun.2.t
+	desc = yun.2.desc
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = { # "Civic" Government
+		name = yun.2.a
+		add_political_power = 50
+		add_war_support = -0.10
+		add_ideas = { market_economy1 federation2 }
+		add_country_leader_role = {
+			character = YUN_tang_jiyao
+			country_leader={
+				ideology=development_authoritarianism_subtype
+				desc=YUN_tang_jiyao_desc
+				traits={ celebrity_junta_leader old_coup_maker }
+				expire="1927.5.23.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = neutrality }
+		hidden_effect = {
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = socialism
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.15
+			}
+		}
+	}
+	option = { # Military Government
+		name = yun.2.b
+		add_stability = -0.10
+		add_political_power = 120
+		add_ideas = { dirigisme_economy federation2 }
+		add_country_leader_role = {
+			character = YUN_tang_jiyao
+			country_leader={
+				ideology=military_government_subtype
+				desc=YUN_tang_jiyao_desc
+				traits={ celebrity_junta_leader old_coup_maker }
+				expire="1927.5.23.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = neutrality }
+		hidden_effect = {
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.20
+			}
+		}
+	}
+}
+country_event = { # Coup succeeded and Tang seized power
+	id = yun.3
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event yun.3"
+		hidden_effect = {
+			#
+		}
+	}
+	title = yun.3.t
+	desc = yun.3.desc
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = { # Zhu and Progressivists→yun.5
+		name = yun.3.a
+		country_event = yun.5
+		hidden_effect = {
+			add_popularity = {
+				ideology = socialism
+				popularity = 0.20
+			}
+		}
+	}
+	option = { # Li and Nationalists→yun.4
+		name = yun.3.b
+		country_event = yun.4
+		hidden_effect = {
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.15
+			}
+		}
+	}
+}
+country_event = { # Li seized power!
+	id = yun.4
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event yun.4"
+		hidden_effect = {
+			add_ideas = { market_economy2 unitary_state1 }
+			add_country_leader_role = {
+				character = YUN_li_genyuan
+				country_leader={
+					ideology=national_liberalism_subtype
+					desc=YUN_li_genyuan_desc
+					traits={  }
+					expire="1965.7.6.1"
+				}
+				promote_leader = yes 
+			}
+			set_politics = { ruling_party = democratic }
+		}
+	}
+	title = yun.4.t
+	desc = yun.4.desc
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = yun.4.a
+		add_popularity = {
+			ideology = imperialism
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.05
+		}
+	}
+}
+country_event = { # "Two Zhu" seized power!
+	id = yun.5
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event yun.5"
+		hidden_effect = {
+			add_ideas = { market_economy2 unitary_state2 }
+			add_country_leader_role = {
+				character = YUN_zhu_peide
+				country_leader={
+					ideology=new_tridemism_subtype
+					desc=YUN_zhu_peide_desc
+					traits={ political_dancer jefe }
+					expire="1937.2.17.1"
+				}
+				promote_leader = yes 
+			}
+			set_politics = { ruling_party = socialism }
+		}
+	}
+	title = yun.5.t
+	desc = yun.5.desc
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = yun.5.a
+		add_popularity = {
+			ideology = anarchism
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.05
+		}
+	}
+}
+country_event = { # Tang's retire and first election
+	id = yun.6
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event yun.4"
+		hidden_effect = {
+			set_party_name = {
+				ideology = neutrality
+				long_name = YUN_despotism_party_long
+				name = YUN_despotism_party
+			}
+		}
+	}
+	title = yun.6.t
+	desc = yun.6.desc
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = yun.6.a
+		add_country_leader_role = {
+			character = YUN_tang_jiyao
+			country_leader={
+				ideology=development_authoritarianism_subtype
+				desc=YUN_tang_jiyao_desc
+				traits={ celebrity_junta_leader old_coup_maker }
+				expire="1927.5.23.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = neutrality }
+	}
+	option = {
+		name = yun.6.b
+		add_ideas = { market_economy1 unitary_state1 }
+		add_country_leader_role = {
+			character = YUN_lv_yizhi
+			country_leader={
+				ideology=tridemism_subtype
+				desc=YUN_lv_yizhi_desc
+				traits={ silent_workhorse connected_citizen }
+				expire="1940.1.1.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = democratic }
+		hidden_effect = {
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.10
+			}
+		}
+	}
+	option = {
+		name = yun.6.c
+		add_ideas = { market_economy3 unitary_state1 }
+		add_country_leader_role = {
+			character = YUN_zhang_bojun
+			country_leader={
+				ideology=state_socialism_subtype
+				desc=YUN_zhang_bojun_desc
+				traits={ }
+				expire="1969.5.17.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = socialism }
+		hidden_effect = {
+			add_popularity = {
+				ideology = socialism
+				popularity = 0.05
+			}
+		}
+	}
+}
+country_event = {
+	id = yun.7
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event yun.7"
+		hidden_effect = {
+			add_country_leader_role = {
+				character = YUN_miu_yuntai
+				country_leader={
+					ideology=social_democratic_subtype
+					desc=YUN_miu_yuntai_desc
+					traits={ technocrat }
+					expire="1988.9.3.1"
+				}
+				promote_leader = yes 
+			}
+			add_country_leader_role = {
+				character = YUN_tang_jiyao
+				country_leader={
+					ideology=national_conservatism_subtype
+					desc=YUN_tang_jiyao_desc
+					traits={ celebrity_junta_leader old_coup_maker }
+					expire="1927.5.23.1"
+				}
+			}
+			set_politics = { ruling_party = socialism }
+			set_party_name = {
+				ideology = neutrality
+				long_name = YUN_junta_party_long
+				name = YUN_junta_party
+			}
+			set_party_name = {
+				ideology = democratic
+				long_name = YUN_despotism_party_long
+				name = YUN_despotism_party
+			}
+			set_party_name = {
+				ideology = socialism
+				long_name = YUN_independent_party_long
+				name = YUN_independent_party
+			}
+		}
+	}
+	title = yun.7.t
+	desc = yun.7.desc
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = yun.7.a
+		drop_cosmetic_tag = yes
+		set_cosmetic_tag = YUN_diantnam
+		add_popularity = {
+			ideology = socialism
+			popularity = 0.05
+		}
+	}
+	option = {
+		name = yun.7.b
+		drop_cosmetic_tag = yes
+		set_cosmetic_tag = YUN_yunnan
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.05
+		}
+	}
+}
+country_event = {
+	id = yun.8
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event yun.8"
+		hidden_effect = {
+			add_country_leader_role = {
+				character = YUN_li_jingxi
+				country_leader={
+					ideology=interim_government_subtype
+					desc=YUN_li_jingxi_desc
+					traits={ political_chameleon political_dancer }
+					expire="1925.9.18.1"
+				}
+				promote_leader = yes 
+			}
+			set_politics = { ruling_party = neutrality }
+		}
+	}
+	title = yun.8.t
+	desc = yun.8.desc
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = yun.8.a
+		set_cosmetic_tag = YUN_IMC
+		give_military_access = IMC
+		give_military_access = HSW
+	}
+}

@@ -1,0 +1,24 @@
+state={
+	id=460
+	name="STATE_460"
+	provinces={
+		4800
+	}
+	history = {
+		owner = IMK
+		add_core_of = IMK
+		
+		victory_points = { 4800 5 } #開城
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			4800 = {
+				naval_base = 2
+			}
+		}
+	}
+	manpower=49520
+	state_category = town
+	local_supplies = 0.0
+}

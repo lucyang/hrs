@@ -1,0 +1,21 @@
+state={
+	id=197
+	name="STATE_197"
+	provinces={
+		1305 2323 2809 3786 3797 3803 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 3797 1 } #滁州
+		
+		buildings = {
+			infrastructure = 2
+		}
+		
+	}
+	manpower=3122815
+	state_category = town
+	local_supplies = 0.0
+}

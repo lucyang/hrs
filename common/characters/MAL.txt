@@ -1,0 +1,30 @@
+characters={
+	MAL_wang_kemin={
+		name=MAL_wang_kemin
+		portraits={
+			civilian={
+				large="gfx/leaders/MAL/Portrait_Wang_Kemin.dds"
+			}
+		}
+		country_leader={
+			ideology=kongsi_republic_subtype
+			desc=MAL_wang_kemin_desc
+			traits={ financial_expert dealbroker }
+			expire="1945.12.26.1"
+		}
+	}
+	MAL_chen_zhenlu={
+		name=MAL_chen_zhenlu
+		portraits={
+			civilian={
+				large="gfx/leaders/MAL/Portrait_Chen_Zhenlu.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism_subtype
+			desc=MAL_chen_zhenlu_desc
+			traits={ }
+			expire="1960.12.13.1"
+		}
+	}
+}

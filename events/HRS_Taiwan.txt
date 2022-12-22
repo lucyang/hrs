@@ -1,0 +1,1091 @@
+add_namespace = taw
+add_namespace = asn
+
+#################
+# TAIWAN EVENTS #
+#################
+country_event = {
+	id = taw.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event taw.1" }
+	title = taw.1.t
+	desc = taw.1.desc
+	picture = GFX_report_event_chencheng_accept_japs_surrender
+
+	is_triggered_only = yes
+
+	option = { #Accept
+		name = taw.1.a
+		ai_chance = {
+			base = 95
+			modifier = {
+				factor = 0.8
+				FRM = { has_government = democratic }
+			}
+			modifier = {
+				factor = 0.5
+				FRM = { has_government = anarchism }
+			}
+		}
+		TAW = { 
+			transfer_state = 332
+			transfer_state = 356
+			transfer_state = 359
+			transfer_state = 519
+			add_state_core = 332
+			add_state_core = 356
+			add_state_core = 359
+			add_state_core = 519
+			#load_oob = "TAW_1945"
+			change_tag_from = ROOT
+		}
+		TAW = { country_event = { id = taw.2 days = 3 } }
+	}
+	option = { #refuse
+		name = taw.1.b
+		ai_chance = {
+			base = 5
+			modifier = {
+				factor = 0
+				FRM = { has_government = communism }
+			}
+		}
+		drop_cosmetic_tag = yes
+		every_state = {
+			limit = { is_any_taiwan_state = yes }
+			remove_core_of = TAW
+			remove_core_of = FRM
+		}
+		TAW = {
+			transfer_state = 332
+			transfer_state = 359
+			transfer_state = 537
+		}
+		country_event = { id = taw.3 days = 3 }	
+	}
+}
+country_event = {
+	id = taw.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event taw.2"
+	}
+	title = taw.2.t
+	desc = taw.2.desc
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = {
+		name = taw.2.a
+		TAW = { country_event = taw.4 }  # Start Negotiation; About Militia
+	}
+}
+country_event = { #Second Taiwan Liberation War
+	id = taw.3
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event taw.3"
+		hidden_effect = {
+			TAW = { 
+				#load_oob = "TAW_1923"
+				set_province_controller = 1173
+				set_province_controller = 1899
+				set_province_controller = 2839
+				set_province_controller = 2918
+				set_province_controller = 4964
+				declare_war_on = {
+					target = FRM
+					type = annex_everything
+				}
+			}
+			#FRM = { country_event = taw.4 }
+		}
+	}
+	title = taw.3.t
+	desc = taw.3.desc
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+
+	option = {
+		name = taw.3.a
+		FRM = { change_tag_from = ROOT }
+	}
+	option = {
+		name = taw.3.b
+		TAW = { change_tag_from = ROOT }
+	}
+}
+country_event = { # First Issue: Future of Taiwan Army
+	id = taw.4
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event taw.4"
+	}
+	title = taw.4.t
+	desc = taw.4.desc
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = { # Allow them Keep an Army
+		name = taw.4.a
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 3
+				KMT = { has_government = neutrality }
+			}
+		}
+		country_event = taw.5
+		FRM = { give_military_access = TAW }
+		TAW_china_support_small_increase = yes
+		if = {
+			limit = {
+				FRM = { has_idea = SOV_the_peoples_revolution_idea }
+			}
+			TAW_taiwan_support_large_increase = yes
+		}
+		else = {
+			TAW_taiwan_support_small_increase = yes
+		}
+	}
+	option = { # Militia is Enough
+		name = taw.4.b
+		ai_chance = {
+			base = 60
+			modifier = {
+				factor = 1.5
+				KMT = { has_government = anarchism }
+			}
+		}
+		country_event = taw.5
+		FRM = { give_military_access = TAW }
+		TAW_china_support_large_increase = yes
+		TAW_taiwan_support_small_increase = yes
+	}
+	option = { # They don't Need Troops!
+		name = taw.4.c
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 0
+				KMT = { has_government = neutrality }
+			}
+		}
+		country_event = taw.5
+		FRM = { give_military_access = TAW }
+		TAW_china_support_small_increase = yes
+		if = {
+			limit = {
+				FRM = { has_idea = SOV_the_peoples_revolution_idea }
+			}
+			TAW_taiwan_support_large_decrease = yes
+		}
+		else = {
+			TAW_taiwan_support_small_decrease = yes
+		}
+	}
+}
+country_event = { # Second Issue: Taiwan Peasants
+	id = taw.5
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event taw.5"
+	}
+	title = taw.5.t
+	desc = taw.5.desc
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = { # Enact Land Reform
+		name = taw.5.a
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 0.3
+				KMT = { has_government = communism }
+			}
+			modifier = {
+				factor = 0.5
+				KMT = { has_government = anarchism }
+			}
+		}
+		TAW_china_support_small_increase = yes
+		if = {
+			limit = {
+				FRM = { has_idea = SOV_support_of_the_peasants_idea }
+			}
+			TAW_taiwan_support_large_decrease = yes
+		}
+		else = {
+			TAW_taiwan_support_small_increase = yes
+		}
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.05
+		}
+		country_event = taw.6
+	}
+	option = { # Demand them to Recover Land
+		name = taw.5.b
+		ai_chance = {
+			base = 50
+			modifier = {
+				factor = 0
+				KMT = { has_government = communism }
+			}
+			modifier = {
+				factor = 0
+				KMT = { has_government = anarchism }
+			}
+			modifier = {
+				factor = 1.5
+				KMT = { has_government = fascism }
+			}
+			modifier = {
+				factor = 1.7
+				KMT = { has_government = democratic }
+			}
+		}
+		trigger = {
+			FRM = { has_idea = SOV_support_of_the_peasants_idea }
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.05
+		}
+		country_event = taw.6
+		TAW_china_support_large_increase = yes
+		TAW_taiwan_support_large_decrease = yes
+	}
+	option = { # Enact a Land Revolution
+		name = taw.5.c
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 0
+				KMT = { has_government = fascism }
+			}
+			modifier = {
+				factor = 1
+				KMT = { has_government = democratic }
+			}
+			modifier = {
+				factor = 9
+				KMT = { has_government = communism }
+			}
+			modifier = {
+				factor = 10
+				KMT = { has_government = anarchism }
+			}
+		}
+		trigger = {
+			FRM = { has_idea = SOV_support_of_the_peasants_idea }
+		}
+		add_popularity = {
+			ideology = anarchism
+			popularity = 0.05
+		}
+		country_event = taw.6
+		TAW_china_support_large_decrease = yes
+		TAW_taiwan_support_large_increase = yes
+	}
+}
+country_event = { # Third Issue: Taiwan Industry
+	id = taw.6
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event taw.6"
+	}
+	title = taw.6.t
+	desc = taw.6.desc
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = { # As Always do
+		name = taw.6.a
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 1.5
+				KMT = { has_government = fascism }
+			}
+			modifier = {
+				factor = 3
+				KMT = { has_government = democratic }
+			}
+			modifier = {
+				factor = 0
+				KMT = { has_government = communism }
+			}
+			modifier = {
+				factor = 0
+				KMT = { has_government = anarchism }
+			}
+		}
+		country_event = taw.7
+		random_controlled_state = {
+			limit = { is_any_taiwan_state = yes }
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_controlled_state = {
+			limit = { is_any_taiwan_state = yes }
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_controlled_state = {
+			limit = { is_any_taiwan_state = yes }
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		TAW_china_support_small_increase = yes
+		if = {
+			limit = {
+				FRM = { has_idea = SOV_strong_trade_unions_idea }
+			}
+			TAW_taiwan_support_small_increase = yes
+		}
+		else = {
+			TAW_taiwan_support_large_increase = yes
+		}
+	}
+	option = { # Nationalization but Belonging to KMT
+		name = taw.6.b
+		trigger = {
+			FRM = { has_idea = SOV_strong_trade_unions_idea }
+		}
+		ai_chance = {
+			base = 60
+			modifier = {
+				factor = 2
+				KMT = { has_government = fascism }
+			}
+			modifier = {
+				factor = 1
+				KMT = { has_government = democratic }
+			}
+			modifier = {
+				factor = 0.8
+				KMT = { has_government = communism }
+			}
+			modifier = {
+				factor = 0.5
+				KMT = { has_government = anarchism }
+			}
+		}
+		KMT = {
+			add_offsite_building = { type = arms_factory level = 1 }
+			add_offsite_building = { type = industrial_complex level = 2 }
+		}
+		country_event = taw.7
+		TAW_china_support_large_increase = yes
+		TAW_taiwan_support_small_decrease = yes
+	}
+	option = { # Recognize Their Nationalization
+		name = taw.6.c
+		trigger = {
+			FRM = { has_idea = SOV_strong_trade_unions_idea }
+		}
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 0
+				KMT = { has_government = fascism }
+			}
+			modifier = {
+				factor = 1
+				KMT = { has_government = democratic }
+			}
+			modifier = {
+				factor = 9
+				KMT = { has_government = communism }
+			}
+			modifier = {
+				factor = 10
+				KMT = { has_government = anarchism }
+			}
+		}
+		random_controlled_state = {
+			limit = { is_any_taiwan_state = yes }
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_controlled_state = {
+			limit = { is_any_taiwan_state = yes }
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		country_event = taw.7
+		TAW_china_support_large_decrease = yes
+		TAW_taiwan_support_large_increase = yes
+	}
+}
+country_event = { # Fourth Issue: Autonomy of Taiwan?
+	id = taw.7
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event taw.7"
+	}
+	title = taw.7.t
+	desc = taw.7.desc
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = { # Taiwan Special Administrative Region
+		name = taw.7.a
+		ai_chance = {
+			base = 40
+			modifier = {
+				factor = 0
+				KMT = { has_government = fascism }
+			}
+			modifier = {
+				factor = 0
+				KMT = { has_government = democratic }
+			}
+			modifier = {
+				factor = 1.5
+				KMT = { has_government = communism }
+			}
+			modifier = {
+				factor = 2
+				KMT = { has_government = anarchism }
+			}
+		}
+		TAW_china_support_small_increase = yes
+		TAW_taiwan_support_small_increase = yes
+		country_event = taw.8
+	}
+	option = { # Taiwan Province
+		name = taw.7.b
+		ai_chance = {
+			base = 60
+			modifier = {
+				factor = 1.5
+				KMT = { has_government = fascism }
+			}
+			modifier = {
+				factor = 1.2
+				KMT = { has_government = democratic }
+			}
+			modifier = {
+				factor = 0.8
+				KMT = { has_government = communism }
+			}
+			modifier = {
+				factor = 0.7
+				KMT = { has_government = anarchism }
+			}
+		}
+		TAW_china_support_large_increase = yes
+		TAW_taiwan_support_small_decrease = yes
+		country_event = taw.8
+	}
+}
+country_event = { # Additional Issue: Future of Native People
+	id = taw.8
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event taw.8"
+	}
+	title = taw.8.t
+	desc = taw.8.desc
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = {
+		name = taw.8.a
+		ai_chance = {
+			base = 50
+			modifier = {
+				factor = 0
+				KMT = { has_government = fascism }
+			}
+			modifier = {
+				factor = 1.6
+				KMT = { has_government = democratic }
+			}
+			modifier = {
+				factor = 2
+				KMT = { has_government = communism }
+			}
+			modifier = {
+				factor = 2
+				KMT = { has_government = anarchism }
+			}
+		}
+		FRM = {
+			set_country_flag = FRM_assimilation_of_native_people 
+		}
+		country_event = taw.9
+	}
+	option = {
+		name = taw.8.b
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 8
+				KMT = { has_government = fascism }
+			}
+			modifier = {
+				factor = 7
+				KMT = { has_government = democratic }
+			}
+			modifier = {
+				factor = 0
+				KMT = { has_government = communism }
+			}
+			modifier = {
+				factor = 0
+				KMT = { has_government = anarchism }
+			}
+		}
+		FRM = {
+			set_country_flag = FRM_protection_of_native_people 
+		}
+		country_event = taw.9
+	}
+	option = {
+		name = taw.8.c
+		trigger = {
+			FRM = { has_country_flag = FRM_respect_native_people }
+		}
+		ai_chance = {
+			base = 20
+			modifier = {
+				factor = 0
+				KMT = { has_government = fascism }
+			}
+			modifier = {
+				factor = 1.6
+				KMT = { has_government = democratic }
+			}
+			modifier = {
+				factor = 2
+				KMT = { has_government = communism }
+			}
+			modifier = {
+				factor = 2
+				KMT = { has_government = anarchism }
+			}
+		}
+		FRM = {
+			set_country_flag = FRM_autonomy_of_native_people 
+		}
+		country_event = taw.9
+	}
+}
+country_event = { # Response
+	id = taw.9
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event taw.9"
+	}
+	title = taw.9.t
+	desc = taw.9.desc
+	picture = GFX_report_event_read_and_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = taw.9.a
+		trigger = {
+			check_variable = {
+				var = TAW_taiwan_support
+				value = 3
+				compare = less_than_or_equals
+			}
+		}
+		FRM = { country_event = taw.11 }
+	}
+	option = {
+		name = taw.9.b
+		trigger = {
+			check_variable = {
+				var = TAW_china_support
+				value = 3
+				compare = less_than_or_equals
+			}
+		}
+		TAW = { country_event = taw.12 }
+	}
+	option = {
+		name = taw.9.c
+		trigger = {
+			AND = {
+				check_variable = {
+					var = TAW_china_support
+					value = 3
+					compare = less_than_or_equals
+				}
+				check_variable = {
+					var = TAW_taiwan_support
+					value = 3
+					compare = less_than_or_equals
+				}
+			}
+		}
+		TAW = { country_event = taw.13 }
+	}
+	option = {
+		name = taw.9.d
+		trigger = {
+			AND = {
+				check_variable = {
+					var = TAW_china_support
+					value = 3
+					compare = greater_than
+				}
+				check_variable = {
+					var = TAW_taiwan_support
+					value = 3
+					compare = greater_than
+				}
+			}
+		}
+		every_state = {
+			limit = { is_taiwan_state = yes }
+			remove_core_of = FRM
+			add_core_of = TAW
+		}
+		TAW = {
+			#load_oob = "FRM_1923"
+			annex_country = {
+				target = FRM
+				transfer_troops = no
+			}
+		}
+		KMT = { country_event = { id = taw.10 days = 14 } }
+	}
+}
+country_event = { # Response
+	id = taw.10
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event taw.10"
+	}
+	title = taw.10.t
+	desc = taw.10.desc
+	picture = GFX_report_event_generic_sign_treaty2
+
+	is_triggered_only = yes
+
+	option = {
+		name = taw.10.a
+		annex_country = {
+			target = TAW
+			transfer_troops = yes
+		}
+		annex_country = {
+			target = FRM
+			transfer_troops = no
+		}
+	}
+}
+country_event = { # Response
+	id = taw.11
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event taw.11"
+	}
+	title = taw.11.t
+	desc = taw.11.desc
+	picture = GFX_report_event_generic_sign_treaty2
+
+	is_triggered_only = yes
+
+	option = {
+		name = taw.11.a
+		ai_chance = {
+			base = 30
+		}
+		KMT = { country_event = { id = taw.10 days = 3 } }
+	}
+	option = {
+		name = taw.11.b
+		ai_chance = {
+			base = 70
+		}
+		TAW = { country_event = taw.13 }
+	}
+}
+country_event = { # Response
+	id = taw.12
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event taw.12"
+	}
+	title = taw.12.t
+	desc = taw.12.desc
+	picture = GFX_report_event_generic_sign_treaty2
+
+	is_triggered_only = yes
+
+	option = {
+		name = taw.12.a
+		ai_chance = {
+			base = 60
+		}
+		KMT = { country_event = { id = taw.10 days = 14 } }
+	}
+	option = {
+		name = taw.12.b
+		ai_chance = {
+			base = 40
+		}
+		TAW = { country_event = taw.13 }
+	}
+}
+country_event = { # Riot in Taiwan
+	id = taw.13
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event taw.13"
+		hidden_effect = {
+			country_event = { id = taw.228 days = 9 }
+		}
+	}
+	title = taw.13.t
+	desc = taw.13.desc
+	picture = GFX_report_event_gathering_protest
+
+	is_triggered_only = yes
+
+	option = {
+		name = taw.13.a
+		358 = { set_demilitarized_zone = yes }
+		361 = { set_demilitarized_zone = yes }
+		525 = { set_demilitarized_zone = yes }
+		526 = { set_demilitarized_zone = yes }
+		527 = { set_demilitarized_zone = yes }
+		528 = { set_demilitarized_zone = yes }
+	}
+}
+country_event = {
+	id = taw.99
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event taw.99"
+		hidden_effect = {
+			every_state = {
+				limit = { is_any_taiwan_native_state = yes }
+				add_core_of = ASN
+				remove_core_of = FRM
+				remove_core_of = TAW
+			}
+		}
+	}
+	title = taw.99.t
+	desc = taw.99.desc
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+    is_triggered_only = yes
+
+	option = {
+		name = taw.99.a
+		ASN = { change_tag_from = ROOT }
+	}
+	option = {
+		name = taw.99.b
+	}
+}
+country_event = {
+	id = taw.228
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event taw.228"
+		hidden_effect = {
+			every_state = {
+				limit = { is_any_taiwan_state = yes }
+				add_core_of = FRM
+			}
+			FRM = { 
+				set_global_flag = FRM_taiwan_refuse_china
+				drop_cosmetic_tag = yes
+				declare_war_on = {
+					target = FRM
+					type = annex_everything
+				}
+			}
+			TAW = { 
+				declare_war_on = {
+					target = FRM
+					type = annex_everything
+				}
+			}
+		}
+	}
+	title = taw.228.t
+	desc = taw.228.desc
+	picture = GFX_report_event_chencheng_accept_japs_surrender
+
+	is_triggered_only = yes
+
+	option = {
+		name = taw.228.a
+		custom_effect_tooltip = HRS_China_has_lost_taiwan
+		FRM = { change_tag_from = ROOT }
+	}
+	option = {
+		name = taw.228.b
+		custom_effect_tooltip = HRS_China_has_lost_taiwan
+		TAW = { change_tag_from = ROOT }
+	}
+}
+###########
+# FORMOSA #
+###########
+country_event = { # The Choice of Taiwan Native People...
+	id = asn.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event asn.1"
+	}
+	title = asn.1.t
+	desc = asn.1.desc
+	picture = GFX_report_event_generic_conference
+
+	fire_only_once = yes
+
+	trigger = {
+		original_tag = FRM
+		FRM = { has_war_with = TAW }
+	}
+
+	option = {
+		name = asn.1.a
+		country_event = asn.2
+	}
+}
+country_event = { # The Choice of Taiwan Native People...
+	id = asn.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event asn.2"
+	}
+	title = asn.2.t
+	desc = asn.2.desc
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = {
+		name = asn.2.a
+		ai_chance = {
+			base = 25
+			modifier = {
+				factor = 4
+				AND = {
+					FRM = { has_country_flag = FRM_autonomy_of_native_people }
+					OR = {
+						FRM = { has_government = communism }
+						FRM = { has_government = anarchism }
+					}
+				}
+			}
+			modifier = {
+				factor = 3
+				FRM = { has_country_flag = FRM_protection_of_native_people }
+			}
+			modifier = {
+				factor = 0
+				FRM = { has_country_flag = FRM_assimilation_of_native_people }
+			}
+		}
+		if = {
+			limit = { 
+				AND = {
+					ASN = { exists = yes }
+					ASN = { is_subject_of = FRM }
+				}
+			}
+			ASN = { 
+				#load_oob = "ASN_1923" 
+			}
+			FRM = { 
+				add_manpower = 20000
+				country_event = taw.99
+			}
+		}
+		else = {
+			every_state = {
+				limit = { is_any_taiwan_native_state = yes }
+				transfer_state_to = FRM
+			}
+			FRM = { 
+				#load_oob = "ASN_1923" 
+			}
+		}
+	}
+	option = {
+		name = asn.2.b
+		ai_chance = {
+			base = 35
+			modifier = {
+				factor = 0
+				AND = {
+					FRM = { has_country_flag = FRM_autonomy_of_native_people }
+					OR = {
+						FRM = { has_government = communism }
+						FRM = { has_government = anarchism }
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				FRM = { has_country_flag = FRM_protection_of_native_people }
+			}
+			modifier = {
+				factor = 2
+				FRM = { has_country_flag = FRM_assimilation_of_native_people }
+			}
+		}
+		if = {
+			limit = { 
+				ASN = { exists = yes }
+				ASN = { is_subject_of = FRM }
+			}
+			FRM = { end_puppet = ASN }
+			#ASN = { load_oob = "ASN_1923" }
+			KMT = {
+				puppet = ASN
+				country_event = taw.99
+			}
+		}
+		else = {
+			every_state = {
+				limit = { is_any_taiwan_native_state = yes }
+				transfer_state_to = KMT
+			}
+			#KMT = { load_oob = "ASN_1923" }
+		}
+	}
+	option = {
+		name = asn.2.c
+		ai_chance = {
+			base = 40
+			modifier = {
+				factor = 0
+				AND = {
+					FRM = { has_country_flag = FRM_autonomy_of_native_people }
+					OR = {
+						FRM = { has_government = communism }
+						FRM = { has_government = anarchism }
+					}
+				}
+			}
+			modifier = {
+				factor = 2
+				FRM = { has_country_flag = FRM_protection_of_native_people }
+			}
+			modifier = {
+				factor = 3
+				FRM = { has_country_flag = FRM_assimilation_of_native_people }
+			}
+		}
+		if = {
+			limit = { 
+				AND = {
+					ASN = { exists = yes }
+					ASN = { is_subject_of = FRM }
+				}
+			}
+			FRM = { end_puppet = ASN }
+		}
+		else = {
+			every_state = {
+				limit = { is_taiwan_native_state = yes }
+				transfer_state_to = ASN
+			}
+			ASN = { #load_oob = "ASN_1923" }
+		}
+		FRM = { country_event = asn.3 }
+		TAW = { country_event = asn.3 }
+		ASN = { change_tag_from = ROOT }
+	}
+}
+country_event = {
+	id = asn.3
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event asn.3"
+	}
+	title = asn.3.t
+	desc = asn.3.desc
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only =  yes
+
+	option = {
+		name = asn.3.a
+		ai_chance = {
+			base = 70
+			modifier = {
+				factor = 0
+				AND = {
+					original_tag = FRM
+					FRM = { has_country_flag = FRM_autonomy_of_native_people }
+				}
+			}
+			modifier = {
+				factor = 1.5
+				AND = {
+					original_tag = FRM
+					OR = {
+						FRM = { has_government = communism }
+						FRM = { has_government = anarchism }
+					}
+				}
+			}
+			modifier = {
+				factor = 2
+				AND = {
+					original_tag = TAW
+					FRM = { has_country_flag = FRM_assimilation_of_native_people }
+				}
+			}
+		}
+		ASN = {
+			give_military_access = FRM
+			give_military_access = TAW
+		}
+	}
+	option = {
+		name = asn.3.b
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 3
+				AND = {
+					original_tag = FRM
+					FRM = { has_country_flag = FRM_assimilation_of_native_people }
+				}
+			}
+			modifier = {
+				factor = 0
+				AND = {
+					original_tag = FRM
+					OR = {
+						FRM = { has_government = communism }
+						FRM = { has_government = anarchism }
+					}
+				}
+			}
+			modifier = {
+				factor = 1.5
+				AND = {
+					original_tag = TAW
+					FRM = { has_country_flag = FRM_protection_of_native_people }
+				}
+			}
+		}
+		declare_war_on = {
+			target = ASN
+			type = annex_everything
+		}
+	}
+}

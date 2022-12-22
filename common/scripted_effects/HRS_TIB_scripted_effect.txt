@@ -1,0 +1,24 @@
+TIB_BOP_modernist_small_effect = {
+	add_power_balance_value = {
+		id = TIB_power_balance
+		value = -0.05
+	}
+}
+TIB_BOP_modernist_large_effect = {
+	add_power_balance_value = {
+		id = TIB_power_balance 
+		value = -0.1
+	}
+}
+TIB_BOP_traditionalist_small_effect = {
+	add_power_balance_value = {
+		id = TIB_power_balance
+		value = 0.05
+	}
+}
+TIB_BOP_traditionalist_large_effect = {
+	add_power_balance_value = {
+		id = TIB_power_balance
+		value = 0.1
+	}
+}

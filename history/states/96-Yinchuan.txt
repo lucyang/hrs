@@ -1,0 +1,21 @@
+state={
+	id=96
+	name="STATE_96"
+	provinces={
+		474 3656 3671 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 474 3 } #银川
+		
+		buildings = {
+			infrastructure = 3
+		}
+		
+	}
+	manpower=612179
+	state_category = town
+	local_supplies = 0.0
+}

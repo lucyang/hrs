@@ -1,0 +1,75 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ QNG_communism:0 "东干斯坦共和国"
+ QNG_communism_DEF:0 "东干斯坦共和国"
+ QNG_anarchism:0 "东干斯坦共和国"
+ QNG_anarchism_DEF:0 "东干斯坦共和国"
+ QNG_socialism:0 "东干斯坦共和国"
+ QNG_socialism_DEF:0 "东干斯坦共和国"
+ QNG_democratic:0 "东干斯坦共和国"
+ QNG_democratic_DEF:0 "东干斯坦共和国"
+ QNG_neutrality:0 "东干斯坦共和国"
+ QNG_neutrality_DEF:0 "东干斯坦共和国"
+ QNG_monarchism:0 "东干斯坦共和国"
+ QNG_monarchism_DEF:0 "东干斯坦共和国"
+ QNG_fascism:0 "东干斯坦共和国"
+ QNG_fascism_DEF:0 "东干斯坦共和国"
+ QNG_imperialism:0 "东干斯坦共和国"
+ QNG_imperialism_DEF:0 "东干斯坦共和国"
+ QNG_futurism:0 "东干斯坦共和国"
+ QNG_futurism_DEF:0 "东干斯坦共和国"
+ QNG_communism_ADJ:0 "东干斯坦"
+ QNG_anarchism_ADJ:0 "东干斯坦"
+ QNG_socialism_ADJ:0 "东干斯坦"
+ QNG_democratic_ADJ:0 "东干斯坦"
+ QNG_neutrality_ADJ:0 "东干斯坦"
+ QNG_monarchism_ADJ:0 "东干斯坦"
+ QNG_fascism_ADJ:0 "东干斯坦"
+ QNG_imperialism_ADJ:0 "东干斯坦"
+ QNG_futurism_ADJ:0 "东干斯坦"
+ QNG:0 "东干斯坦"
+ QNG_DEF:0 "东干斯坦"
+ QNG_ADJ:0 "东干斯坦"
+ #############
+ ## PARTIES ##
+ #############
+ QNG_communism_party:0 "社民农工党"
+ QNG_communism_party_long:0 "中国社会民主农工党"
+ QNG_anarchism_party:0 "西道堂"
+ QNG_anarchism_party_long:0 "西道堂"
+ QNG_socialism_party:0 "穆兄会 - 努哈派"
+ QNG_socialism_party_long:0 "穆斯林兄弟会 - 努哈派"
+ QNG_democratic_party:0 "穆兄会 - 赛尔敦丁派"
+ QNG_democratic_party_long:0 "穆斯林兄弟会 - 赛尔敦丁派" # 赛尔敦丁·虎嵩山
+ QNG_neutrality_party:0 "青海马家军"
+ QNG_neutrality_party_long:0 "青海马家军" # 马步芳
+ QNG_monarchism_party:0 "穆兄会 - 优努斯派"
+ QNG_monarchism_party_long:0 "穆斯林兄弟会 - 优努斯派" #马正清
+ QNG_fascism_party:0 "中国法西斯党"
+ QNG_fascism_party_long:0 "中国法西斯党"
+ QNG_imperialism_party:0 "中国法西斯党"
+ QNG_imperialism_party_long:0 "中国法西斯党"
+ QNG_futurism_party:0 "晋商财团"
+ QNG_futurism_party_long:0 "晋商财团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ QNG_ma_bufang:0 "胡塞尼·马阿訇"
+ QNG_ma_bufang_desc:0 "§Y出生日期§!：§G1903年§!\n§Y出生地点§!：§G大东帝国兰州道临夏县§!\n\n"
+ QNG_ma_buqing:0 "马步青"
+ QNG_ma_buqing_desc:0 "§Y出生日期§!：§G1901年§!\n§Y出生地点§!：§G大东帝国兰州道临夏县§!"
+ QNG_ma_wanfu:0 "穆罕默德·马万福"
+ QNG_ma_wanfu_desc:0 "§Y出生日期§!：§G1853年§!\n§Y出生地点§!：§G大东帝国兰州道临夏县§!\n\n§Y马万福§!经名穆罕默德，生于临夏县果园乡果园村，世人尊称果园哈吉。马万福少时仪表出众，记忆非凡，人称“胎里会”。他博览群经，学识渊博，精通阿拉伯文和波斯文。1886年马万福偕师去麦加朝觐，居留四年学习《古兰经》。伊斯兰社会主义、§Y瓦哈比派§!、伊斯兰民主主义在此激烈碰撞，最终启发马万福产生了改革中国伊斯兰教的想法。\n\n1893年马万福回到家乡，提出著名的§Y“果园十条”§!，号召全国穆斯林§Y“凭经立教，遵经革俗”§!，引起了中国伊斯兰教的震动。于是马万福另创§Y伊赫瓦尼教派§!，组建了§G穆斯林兄弟会§!——该名称取自伊赫瓦尼“兄弟会”之意，穆兄会致力于伊斯兰教改革，与中亚及俄国的扎吉德运动遥相呼应。\n\n1916年，在§Y马麒§!兄弟的支持下，马万福以西宁为中心宣讲伊赫瓦尼派。随着教派影响力日益扩大，穆兄会内部也出现了裂痕，赛莱菲耶派、伊赫瓦尼派之间的冲突愈演愈烈。当革命的战火燃烧到西北地区时，§Y胡塞尼·马阿訇§!率领他的部队前来投奔马万福。穆兄会对此莫衷一是，马万福没有任何选择的余地，他很明白，只有生存下去，才能谈论东干人的未来与自由。"
+ #############
+ # Decisions #
+ #############
+
+ #################
+ # POWER BALANCE #
+ #################

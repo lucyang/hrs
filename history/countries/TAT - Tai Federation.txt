@@ -1,0 +1,44 @@
+﻿capital = 572 #泰处
+
+oob = "empty"
+
+recruit_character = TAT_deo_van_long
+
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	limited_exports
+	feudal_levy
+	civilian_economy
+}
+add_ideas = {
+	country_development
+	country_tech
+	natural_economy
+	primitive_state
+}
+
+set_war_support = 0.35
+set_stability = 0.60
+
+set_politics = {	
+	ruling_party = monarchism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 10
+	anarchism = 9
+	socialism = 0
+	democratic = 0
+	neutrality = 11
+	monarchism = 70
+    fascism = 0
+	imperialism = 0
+	futurism = 0
+}

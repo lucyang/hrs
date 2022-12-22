@@ -1,0 +1,91 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ CAM_communism:0 "柬埔寨人民共和国"
+ CAM_communism_DEF:0 "柬埔寨人民共和国"
+ CAM_anarchism:0 "柬埔寨人民共和国"
+ CAM_anarchism_DEF:0 "柬埔寨人民共和国"
+ CAM_democratic:0 "柬埔寨王国"
+ CAM_democratic_DEF:0 "柬埔寨王国"
+ CAM_neutrality:0 "柬埔寨王国"
+ CAM_neutrality_DEF:0 "柬埔寨王国"
+ CAM_monarchism:0 "柬埔寨王国"
+ CAM_monarchism_DEF:0 "柬埔寨王国"
+ CAM_fascism:0 "柬埔寨国"
+ CAM_fascism_DEF:0 "柬埔寨国"
+ CAM_imperialism:0 "柬埔寨国"
+ CAM_imperialism_DEF:0 "柬埔寨国"
+ CAM_futurism:0 "柬埔寨国"
+ CAM_futurism_DEF:0 "柬埔寨国"
+ CAM_communism_ADJ:0 "柬埔寨"
+ CAM_anarchism_ADJ:0 "柬埔寨"
+ CAM_democratic_ADJ:0 "柬埔寨"
+ CAM_neutrality_ADJ:0 "柬埔寨"
+ CAM_monarchism_ADJ:0 "柬埔寨"
+ CAM_fascism_ADJ:0 "柬埔寨"
+ CAM_imperialism_ADJ:0 "柬埔寨"
+ CAM_futurism_ADJ:0 "柬埔寨"
+ CAM:0 "柬埔寨"
+ CAM_DEF:0 "柬埔寨"
+ CAM_ADJ:0 "柬埔寨"
+ #############
+ ## PARTIES ##
+ #############
+ CAM_communism_party:0 "人民派"
+ CAM_communism_party_long:0 "人民派"
+ CAM_anarchism_party:0 "人民派"
+ CAM_anarchism_party_long:0 "人民派"
+ CAM_socialism_party:0 "桑功 - 宾努派"
+ CAM_soicalism_party_long:0 "人民社会同盟 - 宾努派"
+ CAM_democratic_party:0 "桑功 - 朗诺派"
+ CAM_democratic_party_long:0 "人民社会同盟 - 朗诺派"
+ CAM_neutrality_party:0 "桑功 - 诺罗敦派"
+ CAM_neutrality_party_long:0 "人民社会同盟 - 诺罗敦派"
+ CAM_monarchism_party:0 "西索瓦家族"
+ CAM_monarchism_party_long:0 "西索瓦家族"
+ CAM_fascism_party:0 "自由高棉"
+ CAM_fascism_party_long:0 "高棉自由民族统一战线"
+ CAM_imperialism_party:0 "大高棉主义者"
+ CAM_imperialism_party_long:0 "大高棉主义者"
+ CAM_futurism_party:0 "技术官僚"
+ CAM_futurism_party_long:0 "技术官僚运动"
+ 
+ CAM_polpot_party:0 "柬共"
+ CAM_polpot_party_long:0 "柬埔寨共产党"
+ CAM_lannol_party:0 "社会共和党"
+ CAM_lannol_party_long:0 "社会共和党"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ CAM_republic_democratic:0 "高棉共和国"
+ CAM_republic_democratic_DEF:0 "高棉共和国"
+ CAM_republic_neutrality:0 "高棉共和国"
+ CAM_republic_neutrality_DEF:0 "高棉共和国"
+ CAM_republic_monarchism:0 "高棉共和国"
+ CAM_republic_monarchism_DEF:0 "高棉共和国"
+ CAM_republic_fascism:0 "高棉共和国"
+ CAM_republic_fascism_DEF:0 "高棉共和国"
+ CAM_republic_imperialism:0 "高棉共和国"
+ CAM_republic_imperialism_DEF:0 "高棉共和国"
+ CAM_republic_democratic_ADJ:0 "高棉"
+ CAM_republic_neutrality_ADJ:0 "高棉"
+ CAM_republic_fascism_ADJ:0 "高棉"
+ CAM_republic_imperialism_ADJ:0 "高棉"
+ ################
+ ## CHARACTERS ##
+ ################
+ CAM_tou_samouth:0 "杜斯木"
+ CAM_norodom_suramarit:0 "诺罗敦·苏拉玛里特"
+ CAM_norodom_sihanouk:0 "诺罗敦·西哈努克"
+ CAM_sisowath_monivong:0 "西索瓦·莫尼旺"
+ CAM_sisowath_monireth:0 "西索瓦·莫尼勒"
+ CAM_penn_nouth:0 "宾努亲王"
+ IND_indochina_cambodia:0 "高棉民族解放委员会"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

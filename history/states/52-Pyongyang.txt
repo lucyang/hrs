@@ -1,0 +1,22 @@
+state={
+	id=52
+	name="STATE_52"
+	provinces={
+		4805
+	}
+	history={
+		owner = IMK
+		add_core_of = IMK
+
+		victory_points = { 4805 5 } #平壌
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+	manpower=119423	
+	state_category = city
+	local_supplies = 1.0
+}

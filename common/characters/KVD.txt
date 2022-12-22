@@ -1,0 +1,27 @@
+characters={
+	KVD_khatanbaatar_magsarjav={
+		name=KVD_khatanbaatar_magsarjav
+		portraits={
+			civilian={
+				large="gfx/leaders/KVD/Portrait_Khatanbaatar_Magsarjav.png"
+			}
+			army={
+				large="gfx/leaders/KVD/Portrait_Khatanbaatar_Magsarjav.png"
+			}
+		}
+		country_leader={
+			ideology=military_government_subtype
+			desc=KVD_khatanbaatar_magsarjav_desc
+			traits={ nationalist_symbol }
+			expire="1935.9.2.1"
+		}
+		corps_commander={
+			traits={ fast_planner cavalry_officer ambusher }
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+}

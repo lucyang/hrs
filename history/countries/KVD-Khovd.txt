@@ -1,0 +1,42 @@
+﻿capital = 425 #科布多
+
+recruit_character = KVD_khatanbaatar_magsarjav # 哈丹巴特尔·马克思尔扎布
+
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	fuel_refining = 1
+}
+
+set_stability = 0.35
+set_war_support = 0.75
+
+add_ideas = {
+	country_development
+	country_tech
+	natural_economy
+    unitary_state1
+}
+
+set_politics = {	
+	ruling_party = neutrality
+	last_election = "1920.3.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 3
+	anarchism = 5
+	socialism = 16
+	democratic = 12
+	neutrality = 30
+	monarchism = 14
+	fascism = 0
+	imperialism = 20
+	futurism = 0
+}

@@ -1,0 +1,303 @@
+#	Example:
+# 
+#	example_trigger = {
+#		tag = IMC
+#		is_ai = no
+#	}
+#
+#
+#	In a script file:
+#
+#	trigger = {
+#		exampel_trigger = yes
+#	}
+#
+GAW_is_compatible = {
+	OR = {
+		has_same_government_as_ROOT = yes
+	}
+}
+
+has_similar_ideology_as_ROOT = {
+
+}
+
+has_same_government_as_ROOT = {
+	OR = {
+		AND = {
+			has_government = communism
+			ROOT = { has_government = communism }
+		}
+		AND = {
+			has_government = anarchism
+			ROOT = { has_government = anarchism }
+		}
+		AND = {
+			has_government = socialism
+			ROOT = { has_government = socialism }
+		}
+		AND = {
+			has_government = democratic
+			ROOT = { has_government = democratic }
+		}
+		AND = {
+			has_government = neutrality
+			ROOT = { has_government = neutrality }
+		}
+		AND = {
+			has_government = monarchism
+			ROOT = { has_government = monarchism }
+		}
+		AND = {
+			has_government = fascism
+			ROOT = { has_government = fascism }
+		}
+		AND = {
+			has_government = imperialism
+			ROOT = { has_government = imperialism }
+		}
+		AND = {
+			has_government = futurism
+			ROOT = { has_government = futurism }
+		}
+	}
+}
+
+has_similar_government_as_ROOT = {
+	OR = {
+		AND = {
+			has_government = communism
+			ROOT = { 
+				OR = {
+					has_government = communism
+					has_government = anarchism
+				}	 
+			}
+		}
+		AND = {
+			has_government = anarchism
+			ROOT = { 
+				OR = {
+					has_government = communism
+					has_government = socialism
+				}	 
+			}
+		}
+		AND = {
+			has_government = socialism
+			ROOT = { 
+				OR = {
+					has_government = socialism
+					has_government = democratic
+				}	 
+			}
+		}
+		AND = {
+			has_government = democratic
+			ROOT = { 
+				OR = {
+					has_government = socialism
+					has_government = democratic
+				}	 
+			}
+		}
+		AND = {
+			has_government = neutrality
+			ROOT = { has_government = neutrality }
+		}
+		AND = {
+			has_government = monarchism
+			ROOT = { has_government = monarchism }
+		}
+		AND = {
+			has_government = fascism
+			ROOT = { 
+				OR = {
+					has_government = neutrality
+					has_government = fascism
+				}	 
+			}
+		}
+		AND = {
+			has_government = imperialism
+			ROOT = { 
+				OR = {
+					has_government = imperialism
+					has_government = fascism
+				}	 
+			}
+		}
+		AND = {
+			has_government = futurism
+			ROOT = { 
+				OR = {
+					has_government = communism
+					has_government = futurism
+				}	 
+			}
+		}
+	}
+}
+
+has_same_economy_as_ROOT = {
+	OR = {
+		AND = {
+			has_idea = market_economy
+			ROOT = { 
+				has_idea = market_economy 
+			}
+		}
+		AND = {
+			has_idea = market_economy1
+			ROOT = { 
+				has_idea = market_economy1
+			}
+		}
+		AND = {
+			has_idea = market_economy2
+			ROOT = { 
+				has_idea = market_economy2
+			}
+		}
+		AND = {
+			has_idea = market_economy3
+			ROOT = { 
+				has_idea = market_economy3
+			}
+		}
+		AND = {
+			has_idea = planned_economy
+			ROOT = { 
+				has_idea = planned_economy
+			}
+		}
+		AND = {
+			has_idea = planned_economy1
+			ROOT = { 
+				has_idea = planned_economy1
+			}
+		}
+		AND = {
+			has_idea = planned_economy2
+			ROOT = { 
+				has_idea = planned_economy2
+			}
+		}
+		AND = {
+			has_idea = dirigisme_economy
+			ROOT = { 
+				has_idea = dirigisme_economy
+			}
+		}
+		AND = {
+			has_idea = corporatist_economy
+			ROOT = { 
+				has_idea = corporatist_economy
+			}
+		}
+		AND = {
+			has_idea = collective_economy
+			ROOT = { 
+				has_idea = collective_economy
+			}
+		}
+	}
+}
+
+has_similar_economy_as_ROOT = {
+	OR = {
+		AND = {
+			has_idea = market_economy
+			ROOT = { 
+				OR = {
+					has_idea = market_economy
+					has_idea = market_economy1
+				}
+			}
+		}
+		AND = {
+			has_idea = market_economy1
+			ROOT = { 
+				OR = {
+					has_idea = market_economy
+					has_idea = market_economy1
+				}
+			}
+		}
+		AND = {
+			has_idea = market_economy2
+			ROOT = { 
+				OR = {
+					has_idea = market_economy1
+					has_idea = market_economy2
+					has_idea = market_economy3
+				}
+			}
+		}
+		AND = {
+			has_idea = market_economy3
+			ROOT = { 
+				OR = {
+					has_idea = market_economy2
+					has_idea = market_economy3
+					has_idea = planned_economy
+				}
+			}
+		}
+		AND = {
+			has_idea = planned_economy
+			ROOT = { 
+				OR = {
+					has_idea = planned_economy
+					has_idea = collective_economy
+				}
+			}
+		}
+		AND = {
+			has_idea = planned_economy1
+			ROOT = { 
+				OR = {
+					has_idea = planned_economy1
+					has_idea = planned_economy2
+				}
+			}
+		}
+		AND = {
+			has_idea = planned_economy2
+			ROOT = { 
+				OR = {
+					has_idea = planned_economy1
+					has_idea = planned_economy2
+				}
+			}
+		}
+		AND = {
+			has_idea = dirigisme_economy
+			ROOT = { 
+				OR = {
+					has_idea = dirigisme_economy
+					has_idea = corporatist_economy
+					has_idea = market_economy3
+				}
+			}
+		}
+		AND = {
+			has_idea = corporatist_economy
+			ROOT = { 
+				OR = {
+					has_idea = dirigisme_economy
+					has_idea = corporatist_economy
+				}
+			}
+		}
+		AND = {
+			has_idea = collective_economy
+			ROOT = { 
+				OR = {
+					has_idea = planned_economy
+					has_idea = collective_economy
+				}
+			}
+		}
+	}
+}

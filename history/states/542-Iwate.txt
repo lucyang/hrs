@@ -1,0 +1,24 @@
+
+state={
+	id=542
+	name="STATE_542"
+	provinces={
+		765 2091 2098 2686 3060 3066 3096 3199 3626 3640 3647 3652 
+	}
+	history = { 
+		owner = IMJ
+		add_core_of = IMJ
+
+		victory_points = { 3199 5 } #盛岡
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			air_base = 3
+		}
+	}
+	manpower=3293443
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

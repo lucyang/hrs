@@ -1,0 +1,20 @@
+state={
+	id=283
+	name="STATE_283"
+	provinces={
+		1747 1839 2376 2524 2744 2906 2938 3090 3092 3895 3903 3906 3911 3920 3925 3927 3931 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 3903 1 } #丽水
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=1457127
+	state_category = town
+	local_supplies = 0.0
+}

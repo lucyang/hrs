@@ -1,0 +1,100 @@
+is_hokkaido_nation = {
+	OR = {
+		original_tag = AIN
+		original_tag = EZO
+		original_tag = KRF
+		original_tag = SKL
+	}
+}
+
+is_hokkaido_unifier = {
+	OR = {
+		original_tag = AIN
+		original_tag = EZO
+		original_tag = KRF
+		original_tag = SKL
+	}
+}
+
+is_hokkaido_state = {
+	AND = {
+		state = 28 #千岛
+		state = 33 #札幌
+		state = 543 #函馆
+		state = 544 #石狩
+		state = 545 #虾夷
+		state = 546 #根室
+	}
+}
+
+is_karafuto_state = {
+	AND = {
+		state = 6 #南桦太
+		state = 633 #中桦太
+		state = 634 #北桦太
+	}
+}
+
+is_any_karafuto_state = {
+	OR = {
+		state = 6 #南桦太
+		state = 633 #中桦太
+		state = 634 #北桦太
+	}
+}
+
+is_any_hokkaido_state = {
+	OR = {
+		state = 28 #千岛
+		state = 33 #札幌
+		state = 543 #函馆
+		state = 544 #石狩
+		state = 545 #虾夷
+		state = 546 #根室
+	}
+}
+
+is_ainu_state = {
+	AND = {
+		state = 6 #桦太岛
+		state = 28 #千岛群岛
+		state = 544 #石狩
+		state = 545 #虾夷
+		state = 546 #根室
+	}
+}
+
+is_any_ainu_state = {
+	OR = {
+		state = 6 #桦太岛
+		state = 28 #千岛群岛
+		state = 544 #石狩
+		state = 545 #虾夷
+		state = 546 #根室
+	}
+}
+
+is_ezo_state = {
+	AND = {
+		state = 33 #札幌
+		state = 543 #函馆
+	}
+}
+
+is_any_ezo_state = {
+	OR = {
+		state = 33 #札幌
+		state = 543 #函馆
+	}
+}
+
+can_form_hokkaido = {
+	AND = {
+		owns_state = 28 #千岛
+		owns_state = 33 #札幌
+		owns_state = 543 #函馆
+		owns_state = 544 #石狩
+		owns_state = 545 #虾夷
+		owns_state = 546 #根室
+	}
+}

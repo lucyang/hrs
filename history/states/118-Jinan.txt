@@ -1,0 +1,25 @@
+state={
+	id=118
+	name="STATE_118"
+	provinces={
+		1636 2178 3683 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points ={ 2178 5 } #济南
+		victory_points ={ 3683 1 } #莱芜
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+			air_base = 4
+		}
+		
+	}
+	manpower=780084
+	state_category = city
+	local_supplies = 0.0
+}

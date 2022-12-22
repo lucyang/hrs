@@ -1,0 +1,20 @@
+state={
+	id=425
+	name="STATE_425"
+	provinces={
+		261 555 1026 1233 1380 1580 2256 2509 3064 4748
+	}
+	history = {
+		owner = DZU
+		add_core_of = DZU
+
+		victory_points = { 1380 5 } #科布多
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=44800
+	state_category = pastoral
+	local_supplies = 0.0
+}

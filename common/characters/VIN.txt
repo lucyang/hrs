@@ -1,0 +1,249 @@
+characters={
+	### VIC-Vietcong ###
+	VIC_truong_chinh={ #长征/邓春区
+		name=VIC_truong_chinh
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Portrait_Truong_Chinh.png"
+			}
+		}
+	}
+	VIC_ho_chi_minh={ #胡志明
+		name=VIC_ho_chi_minh
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Portrait_Ho_Chi_Minh.png"
+			}
+		}
+		country_leader={
+			ideology=national_communism_subtype
+			desc=VIC_ho_chi_minh_desc
+			traits={ }
+			expire="1963.7.7.1"
+		}
+	}
+	### VQD-Vietquoc ###
+	VQD_nguyen_tuong_tam={ #阮祥三
+		name=VQD_nguyen_tuong_tam
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Portrait_Nguyen_Tuong_Tam.png"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_front_subtype
+			desc=VQD_nguyen_tuong_tam_desc
+			traits={ }
+			expire="1963.7.7.1"
+		}
+	}
+	VQD_nguyen_thai_hoc={ #阮太学
+		name=VQD_nguyen_thai_hoc
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Portrait_Nguyen_Thai_Hoc.png"
+			}
+		}
+		country_leader={
+			ideology=tridemism_subtype
+			desc=VQD_nguyen_thai_hoc_desc
+			traits={ }
+			expire="1962.6.17.1"
+		}
+	}
+	### DNA-Danang ###
+	DNA_dao_duy_anh={ #陶维英
+		name=DNA_dao_duy_anh
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Portrait_Dao_Duy_Anh.png"
+			}
+		}
+		country_leader={
+			ideology=social_democratic_subtype
+			desc=DNA_dao_duy_anh_desc
+			traits={ }
+			expire="1940.10.29.1"
+		}
+	}
+	DNA_vo_nguyen_giap={ #武元甲
+		name=DNA_vo_nguyen_giap
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Portrait_Vo_Nguyen_Giap.png"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_front_subtype
+			desc=DNA_vo_nguyen_giap_desc
+			traits={ }
+			expire="1960.10.29.1"
+		}
+	}
+	DNA_nguyen_thi_minhkhai={ #阮氏明开
+		name=DNA_nguyen_thi_minhkhai
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Portrait_Nguyen_Thi_Minhkhai.png"
+			}
+		}
+		country_leader={
+			ideology=marxism_subtype
+			desc=DNA_nguyen_thi_minhkhai_desc
+			traits={ }
+			expire="1960.10.29.1"
+		}
+	}
+	### SRV-Trungky ###
+	SRV_tran_phu={ #陈富
+		name=SRV_tran_phu
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Portrait_Tran_Phu.png"
+			}
+		}
+		country_leader={
+			ideology=agrarian_socialism_subtype
+			desc=SRV_tran_phu_desc
+			traits={ }
+			expire="1960.10.29.1"
+		}
+	}
+	### VIN-Vietnam ###
+	VIN_phan_boi_chau={ #潘佩珠
+		name=VIN_phan_boi_chau
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Portrait_Phan_Boi_Chau.png"
+			}
+		}
+		country_leader={
+			ideology=liberalism_subtype
+			desc=VIN_phan_boi_chau_desc
+			traits={ }
+			expire="1940.10.29.1"
+		}
+	}
+	VIN_bao_dai={ #保大帝
+		name=VIN_bao_dai
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Portrait_Bao_Dai.png"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_subtype
+			desc=VIN_bao_dai_desc
+			traits={ }
+			expire="1997.7.30.1"
+		}
+	}
+	VIN_tran_trong_kim={ #陈仲金
+		name=VIN_tran_trong_kim
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Portrait_Tran_Trong_Kim.png"
+			}
+		}
+	}
+	VIN_cuong_de={ #强㭽/疆㭽
+		name=VIN_cuong_de
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Portrait_Cuong_De.png"
+			}
+		}
+		country_leader={
+			ideology=guided_democracy_subtype
+			desc=VIN_cuong_de_desc
+			traits={ }
+			expire="1951.4.5.1"
+		}
+	}
+	VIN_ngo_dinh_diem={ #吴廷琰
+		name=VIN_ngo_dinh_diem
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Portrait_Ngo_Dinh_Diem.png"
+			}
+		}
+		country_leader={
+			ideology=personalism_subtype
+			desc=VIN_ngo_dinh_diem_desc
+			traits={ }
+			expire="1963.11.2.1"
+		}
+	}
+	### SAI-Saigon ###
+	SAI_ta_thu_thau={ #谢秋收
+		name=SAI_ta_thu_thau
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Portrait_Ta_Thu_Thau.png"
+			}
+		}
+		country_leader={
+			ideology=leninism_subtype
+			desc=SAI_ta_thu_thau_desc
+			traits={ }
+			expire="1963.11.2.1"
+		}
+	}
+	SAI_nguyen_an_ninh={ #阮安宁
+		name=SAI_nguyen_an_ninh
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Portrait_Nguyen_An_Nihn.png"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialism_subtype
+			desc=SAI_nguyen_an_ninh_desc
+			traits={ }
+			expire="1963.11.2.1"
+		}
+	}
+	SAI_le_van_vien={ #黎文远
+		name=SAI_le_van_vien
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Portrait_Le_Van_Vien.png"
+			}
+		}
+		country_leader={
+			ideology=warlordism_subtype
+			desc=SAI_le_van_vien_desc
+			traits={ }
+			expire="1963.11.2.1"
+		}
+	}
+	### CAD-Caodai ###
+	CAD_le_van_trung={ #黎文忠
+		name=CAD_le_van_trung
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Portrait_Le_Van_Trung.png"
+			}
+		}
+		country_leader={
+			ideology=guided_democracy_subtype
+			desc=CAD_le_van_trung_desc
+			traits={ }
+			expire="1963.11.2.1"
+		}
+	}
+	CAD_nguyen_van_ngoi={ #阮文谊
+		name=CAD_nguyen_van_ngoi
+		portraits={
+			civilian={
+				large="gfx/leaders/VIN/Portrait_Nguyen_Van_Ngoi.png"
+			}
+		}
+		country_leader={
+			ideology=religious_socialism_subtype
+			desc=CAD_nguyen_van_ngoi_desc
+			traits={ }
+			expire="1963.11.2.1"
+		}
+	}
+}

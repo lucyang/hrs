@@ -1,0 +1,22 @@
+state={
+	id=73
+	name="STATE_73"
+	provinces={
+		250 383 2149 2361 2841 3178 3612 3630 3634
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+		victory_points = { 3630 5 } #安东/丹东
+		victory_points = { 3634 1 } #瓦房店
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+	manpower=1691112
+	state_category = town
+	local_supplies = 0.0
+}

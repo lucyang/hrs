@@ -1,0 +1,18 @@
+state={
+	id=31
+	name="STATE_31"
+	provinces={
+		4184 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+		
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=6796
+	state_category = wasteland
+	local_supplies = 0.0
+}

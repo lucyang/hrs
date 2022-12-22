@@ -1,0 +1,2580 @@
+﻿defined_text = {
+	name = GetPrefecture
+	text = {
+		trigger = {
+			check_variable = { prefecture = 0 }
+		}
+		localization_key = var_prefecture.0
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 1 }
+		}
+		localization_key = var_prefecture.1
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 2 }
+		}
+		localization_key = var_prefecture.2
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 3 }
+		}
+		localization_key = var_prefecture.3
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 4 }
+		}
+		localization_key = var_prefecture.4
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 5 }
+		}
+		localization_key = var_prefecture.5
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 6 }
+		}
+		localization_key = var_prefecture.6
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 7 }
+		}
+		localization_key = var_prefecture.7
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 8 }
+		}
+		localization_key = var_prefecture.8
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 9 }
+		}
+		localization_key = var_prefecture.9
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 10 }
+		}
+		localization_key = var_prefecture.10
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 11 }
+		}
+		localization_key = var_prefecture.11
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 12 }
+		}
+		localization_key = var_prefecture.12
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 13 }
+		}
+		localization_key = var_prefecture.13
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 14 }
+		}
+		localization_key = var_prefecture.14
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 15 }
+		}
+		localization_key = var_prefecture.15
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 16 }
+		}
+		localization_key = var_prefecture.16
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 17 }
+		}
+		localization_key = var_prefecture.17
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 18 }
+		}
+		localization_key = var_prefecture.18
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 19 }
+		}
+		localization_key = var_prefecture.19
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 20 }
+		}
+		localization_key = var_prefecture.20
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 21 }
+		}
+		localization_key = var_prefecture.21
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 22 }
+		}
+		localization_key = var_prefecture.22
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 23 }
+		}
+		localization_key = var_prefecture.23
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 24 }
+		}
+		localization_key = var_prefecture.24
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 25 }
+		}
+		localization_key = var_prefecture.25
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 26 }
+		}
+		localization_key = var_prefecture.26
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 27 }
+		}
+		localization_key = var_prefecture.27
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 28 }
+		}
+		localization_key = var_prefecture.28
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 29 }
+		}
+		localization_key = var_prefecture.29
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 30 }
+		}
+		localization_key = var_prefecture.30
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 31 }
+		}
+		localization_key = var_prefecture.31
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 32 }
+		}
+		localization_key = var_prefecture.32
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 33 }
+		}
+		localization_key = var_prefecture.33
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 34 }
+		}
+		localization_key = var_prefecture.34
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 35 }
+		}
+		localization_key = var_prefecture.35
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 36 }
+		}
+		localization_key = var_prefecture.36
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 37 }
+		}
+		localization_key = var_prefecture.37
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 38 }
+		}
+		localization_key = var_prefecture.38
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 39 }
+		}
+		localization_key = var_prefecture.39
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 40 }
+		}
+		localization_key = var_prefecture.40
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 41 }
+		}
+		localization_key = var_prefecture.41
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 42 }
+		}
+		localization_key = var_prefecture.42
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 43 }
+		}
+		localization_key = var_prefecture.43
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 44 }
+		}
+		localization_key = var_prefecture.44
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 45 }
+		}
+		localization_key = var_prefecture.45
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 46 }
+		}
+		localization_key = var_prefecture.46
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 47 }
+		}
+		localization_key = var_prefecture.47
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 48 }
+		}
+		localization_key = var_prefecture.48
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 49 }
+		}
+		localization_key = var_prefecture.49
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 50 }
+		}
+		localization_key = var_prefecture.50
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 51 }
+		}
+		localization_key = var_prefecture.51
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 52 }
+		}
+		localization_key = var_prefecture.52
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 53 }
+		}
+		localization_key = var_prefecture.53
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 54 }
+		}
+		localization_key = var_prefecture.54
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 55 }
+		}
+		localization_key = var_prefecture.55
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 56 }
+		}
+		localization_key = var_prefecture.56
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 57 }
+		}
+		localization_key = var_prefecture.57
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 58 }
+		}
+		localization_key = var_prefecture.58
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 59 }
+		}
+		localization_key = var_prefecture.59
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 60 }
+		}
+		localization_key = var_prefecture.60
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 61 }
+		}
+		localization_key = var_prefecture.61
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { prefecture = 62 }
+		}
+		localization_key = var_prefecture.62
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 63 }
+		}
+		localization_key = var_prefecture.63
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 64 }
+		}
+		localization_key = var_prefecture.64
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 65 }
+		}
+		localization_key = var_prefecture.65
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 66 }
+		}
+		localization_key = var_prefecture.66
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 67 }
+		}
+		localization_key = var_prefecture.67
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 68 }
+		}
+		localization_key = var_prefecture.68
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 69 }
+		}
+		localization_key = var_prefecture.69
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 70 }
+		}
+		localization_key = var_prefecture.70
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 71 }
+		}
+		localization_key = var_prefecture.71
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 72 }
+		}
+		localization_key = var_prefecture.72
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 73 }
+		}
+		localization_key = var_prefecture.73
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 74 }
+		}
+		localization_key = var_prefecture.74
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 75 }
+		}
+		localization_key = var_prefecture.75
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 76 }
+		}
+		localization_key = var_prefecture.76
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 77 }
+		}
+		localization_key = var_prefecture.77
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 78 }
+		}
+		localization_key = var_prefecture.78
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 79 }
+		}
+		localization_key = var_prefecture.79
+	}
+
+	text = {
+		trigger = {
+			check_variable = { prefecture = 80 }
+		}
+		localization_key = var_prefecture.80
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 81 }
+		}
+		localization_key = var_prefecture.81
+	}
+
+	text = {
+		trigger = {
+			check_variable = { prefecture = 82 }
+		}
+		localization_key = var_prefecture.82
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 83 }
+		}
+		localization_key = var_prefecture.83
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 84 }
+		}
+		localization_key = var_prefecture.84
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 85 }
+		}
+		localization_key = var_prefecture.85
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 86 }
+		}
+		localization_key = var_prefecture.86
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 87 }
+		}
+		localization_key = var_prefecture.87
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 88 }
+		}
+		localization_key = var_prefecture.88
+	}
+	text = {
+			trigger = {
+				check_variable = { prefecture = 337 }
+			}
+			localization_key = var_prefecture.337
+		}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 89 }
+		}
+		localization_key = var_prefecture.89
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 90 }
+		}
+		localization_key = var_prefecture.90
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 91 }
+		}
+		localization_key = var_prefecture.91
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 92 }
+		}
+		localization_key = var_prefecture.92
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 93 }
+		}
+		localization_key = var_prefecture.93
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 94 }
+		}
+		localization_key = var_prefecture.94
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 95 }
+		}
+		localization_key = var_prefecture.95
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 96 }
+		}
+		localization_key = var_prefecture.96
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 97 }
+		}
+		localization_key = var_prefecture.97
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 98 }
+		}
+		localization_key = var_prefecture.98
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 99 }
+		}
+		localization_key = var_prefecture.99
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 100 }
+		}
+		localization_key = var_prefecture.100
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 101 }
+		}
+		localization_key = var_prefecture.101
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 102 }
+		}
+		localization_key = var_prefecture.102
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 103 }
+		}
+		localization_key = var_prefecture.103
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 104 }
+		}
+		localization_key = var_prefecture.104
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 105 }
+		}
+		localization_key = var_prefecture.105
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 106 }
+		}
+		localization_key = var_prefecture.106
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 107 }
+		}
+		localization_key = var_prefecture.107
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 108 }
+		}
+		localization_key = var_prefecture.108
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 109 }
+		}
+		localization_key = var_prefecture.109
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 110 }
+		}
+		localization_key = var_prefecture.110
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 111 }
+		}
+		localization_key = var_prefecture.111
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 112 }
+		}
+		localization_key = var_prefecture.112
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 113 }
+		}
+		localization_key = var_prefecture.113
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 114 }
+		}
+		localization_key = var_prefecture.114
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 115 }
+		}
+		localization_key = var_prefecture.115
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { prefecture = 116 }
+		}
+		localization_key = var_prefecture.116
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 117 }
+		}
+		localization_key = var_prefecture.117
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 118 }
+		}
+		localization_key = var_prefecture.118
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 119 }
+		}
+		localization_key = var_prefecture.119
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 120 }
+		}
+		localization_key = var_prefecture.120
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 121 }
+		}
+		localization_key = var_prefecture.121
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 122 }
+		}
+		localization_key = var_prefecture.122
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 123 }
+		}
+		localization_key = var_prefecture.123
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 124 }
+		}
+		localization_key = var_prefecture.124
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 125 }
+		}
+		localization_key = var_prefecture.125
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 126 }
+		}
+		localization_key = var_prefecture.126
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 127 }
+		}
+		localization_key = var_prefecture.127
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 129 }
+		}
+		localization_key = var_prefecture.129
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 130 }
+		}
+		localization_key = var_prefecture.130
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 131 }
+		}
+		localization_key = var_prefecture.131
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 132 }
+		}
+		localization_key = var_prefecture.132
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 133 }
+		}
+		localization_key = var_prefecture.133
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 134 }
+		}
+		localization_key = var_prefecture.134
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 135 }
+		}
+		localization_key = var_prefecture.135
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 136 }
+		}
+		localization_key = var_prefecture.136
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 137 }
+		}
+		localization_key = var_prefecture.137
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 138 }
+		}
+		localization_key = var_prefecture.138
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 139 }
+		}
+		localization_key = var_prefecture.139
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 140 }
+		}
+		localization_key = var_prefecture.140
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 141 }
+		}
+		localization_key = var_prefecture.141
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 142 }
+		}
+		localization_key = var_prefecture.142
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 143 }
+		}
+		localization_key = var_prefecture.143
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 144 }
+		}
+		localization_key = var_prefecture.144
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 145 }
+		}
+		localization_key = var_prefecture.145
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 146 }
+		}
+		localization_key = var_prefecture.146
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 147 }
+		}
+		localization_key = var_prefecture.147
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 148 }
+		}
+		localization_key = var_prefecture.148
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 149 }
+		}
+		localization_key = var_prefecture.149
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 150 }
+		}
+		localization_key = var_prefecture.150
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 151 }
+		}
+		localization_key = var_prefecture.151
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 152 }
+		}
+		localization_key = var_prefecture.152
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 153 }
+		}
+		localization_key = var_prefecture.153
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 154 }
+		}
+		localization_key = var_prefecture.154
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 155 }
+		}
+		localization_key = var_prefecture.155
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 156 }
+		}
+		localization_key = var_prefecture.156
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 157 }
+		}
+		localization_key = var_prefecture.157
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 158 }
+		}
+		localization_key = var_prefecture.158
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 159 }
+		}
+		localization_key = var_prefecture.159
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 160 }
+		}
+		localization_key = var_prefecture.160
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 161 }
+		}
+		localization_key = var_prefecture.161
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 162 }
+		}
+		localization_key = var_prefecture.162
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 163 }
+		}
+		localization_key = var_prefecture.163
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 164 }
+		}
+		localization_key = var_prefecture.164
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 165 }
+		}
+		localization_key = var_prefecture.165
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 166 }
+		}
+		localization_key = var_prefecture.166
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 167 }
+		}
+		localization_key = var_prefecture.167
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 168 }
+		}
+		localization_key = var_prefecture.168
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 169 }
+		}
+		localization_key = var_prefecture.169
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 170 }
+		}
+		localization_key = var_prefecture.170
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 171 }
+		}
+		localization_key = var_prefecture.171
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 172 }
+		}
+		localization_key = var_prefecture.172
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 173 }
+		}
+		localization_key = var_prefecture.173
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 174 }
+		}
+		localization_key = var_prefecture.174
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 175 }
+		}
+		localization_key = var_prefecture.175
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 176 }
+		}
+		localization_key = var_prefecture.176
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 177 }
+		}
+		localization_key = var_prefecture.177
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 178 }
+		}
+		localization_key = var_prefecture.178
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 179 }
+		}
+		localization_key = var_prefecture.179
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 180 }
+		}
+		localization_key = var_prefecture.180
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 181 }
+		}
+		localization_key = var_prefecture.181
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 182 }
+		}
+		localization_key = var_prefecture.182
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 183 }
+		}
+		localization_key = var_prefecture.183
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 184 }
+		}
+		localization_key = var_prefecture.184
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 185 }
+		}
+		localization_key = var_prefecture.185
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 186 }
+		}
+		localization_key = var_prefecture.186
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 187 }
+		}
+		localization_key = var_prefecture.187
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 188 }
+		}
+		localization_key = var_prefecture.188
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 189 }
+		}
+		localization_key = var_prefecture.189
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 190 }
+		}
+		localization_key = var_prefecture.190
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 191 }
+		}
+		localization_key = var_prefecture.191
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 192 }
+		}
+		localization_key = var_prefecture.192
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 193 }
+		}
+		localization_key = var_prefecture.193
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 194 }
+		}
+		localization_key = var_prefecture.194
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 195 }
+		}
+		localization_key = var_prefecture.195
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 196 }
+		}
+		localization_key = var_prefecture.196
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 197 }
+		}
+		localization_key = var_prefecture.197
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 198 }
+		}
+		localization_key = var_prefecture.198
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 199 }
+		}
+		localization_key = var_prefecture.199
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 200 }
+		}
+		localization_key = var_prefecture.200
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 201 }
+		}
+		localization_key = var_prefecture.201
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 202 }
+		}
+		localization_key = var_prefecture.202
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 203 }
+		}
+		localization_key = var_prefecture.203
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 204 }
+		}
+		localization_key = var_prefecture.204
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 205 }
+		}
+		localization_key = var_prefecture.205
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 206 }
+		}
+		localization_key = var_prefecture.206
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 207 }
+		}
+		localization_key = var_prefecture.207
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 208 }
+		}
+		localization_key = var_prefecture.208
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 209 }
+		}
+		localization_key = var_prefecture.209
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 210 }
+		}
+		localization_key = var_prefecture.210
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 211 }
+		}
+		localization_key = var_prefecture.211
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 212 }
+		}
+		localization_key = var_prefecture.212
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 213 }
+		}
+		localization_key = var_prefecture.213
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 214 }
+		}
+		localization_key = var_prefecture.214
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 215 }
+		}
+		localization_key = var_prefecture.215
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 216 }
+		}
+		localization_key = var_prefecture.216
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 217 }
+		}
+		localization_key = var_prefecture.217
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 218 }
+		}
+		localization_key = var_prefecture.218
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 219 }
+		}
+		localization_key = var_prefecture.219
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 220 }
+		}
+		localization_key = var_prefecture.220
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 221 }
+		}
+		localization_key = var_prefecture.221
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 222 }
+		}
+		localization_key = var_prefecture.222
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 223 }
+		}
+		localization_key = var_prefecture.223
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 224 }
+		}
+		localization_key = var_prefecture.224
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 225 }
+		}
+		localization_key = var_prefecture.225
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 226 }
+		}
+		localization_key = var_prefecture.226
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 227 }
+		}
+		localization_key = var_prefecture.227
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 228 }
+		}
+		localization_key = var_prefecture.228
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 229 }
+		}
+		localization_key = var_prefecture.229
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 230 }
+		}
+		localization_key = var_prefecture.230
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 231 }
+		}
+		localization_key = var_prefecture.231
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 232 }
+		}
+		localization_key = var_prefecture.232
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 233 }
+		}
+		localization_key = var_prefecture.233
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 234 }
+		}
+		localization_key = var_prefecture.234
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 235 }
+		}
+		localization_key = var_prefecture.235
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 236 }
+		}
+		localization_key = var_prefecture.236
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 237 }
+		}
+		localization_key = var_prefecture.237
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 238 }
+		}
+		localization_key = var_prefecture.238
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 239 }
+		}
+		localization_key = var_prefecture.239
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 240 }
+		}
+		localization_key = var_prefecture.240
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 241 }
+		}
+		localization_key = var_prefecture.241
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 242 }
+		}
+		localization_key = var_prefecture.242
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 243 }
+		}
+		localization_key = var_prefecture.243
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 244 }
+		}
+		localization_key = var_prefecture.244
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 245 }
+		}
+		localization_key = var_prefecture.245
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 246 }
+		}
+		localization_key = var_prefecture.246
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 247 }
+		}
+		localization_key = var_prefecture.247
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 248 }
+		}
+		localization_key = var_prefecture.248
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 249 }
+		}
+		localization_key = var_prefecture.249
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 250 }
+		}
+		localization_key = var_prefecture.250
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 251 }
+		}
+		localization_key = var_prefecture.251
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 252 }
+		}
+		localization_key = var_prefecture.252
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 253 }
+		}
+		localization_key = var_prefecture.253
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 254 }
+		}
+		localization_key = var_prefecture.254
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 255 }
+		}
+		localization_key = var_prefecture.255
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 256 }
+		}
+		localization_key = var_prefecture.256
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 257 }
+		}
+		localization_key = var_prefecture.257
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 258 }
+		}
+		localization_key = var_prefecture.258
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 259 }
+		}
+		localization_key = var_prefecture.259
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 260 }
+		}
+		localization_key = var_prefecture.260
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 261 }
+		}
+		localization_key = var_prefecture.261
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 262 }
+		}
+		localization_key = var_prefecture.262
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 263 }
+		}
+		localization_key = var_prefecture.263
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 264 }
+		}
+		localization_key = var_prefecture.264
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 265 }
+		}
+		localization_key = var_prefecture.265
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 266 }
+		}
+		localization_key = var_prefecture.266
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 267 }
+		}
+		localization_key = var_prefecture.267
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 268 }
+		}
+		localization_key = var_prefecture.268
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 269 }
+		}
+		localization_key = var_prefecture.269
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 270 }
+		}
+		localization_key = var_prefecture.270
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 271 }
+		}
+		localization_key = var_prefecture.271
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 272 }
+		}
+		localization_key = var_prefecture.272
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 273 }
+		}
+		localization_key = var_prefecture.273
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 274 }
+		}
+		localization_key = var_prefecture.274
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 275 }
+		}
+		localization_key = var_prefecture.275
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 276 }
+		}
+		localization_key = var_prefecture.276
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 277 }
+		}
+		localization_key = var_prefecture.277
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 278 }
+		}
+		localization_key = var_prefecture.278
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 279 }
+		}
+		localization_key = var_prefecture.279
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 280 }
+		}
+		localization_key = var_prefecture.280
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 281 }
+		}
+		localization_key = var_prefecture.281
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 282 }
+		}
+		localization_key = var_prefecture.282
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 283 }
+		}
+		localization_key = var_prefecture.283
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 284 }
+		}
+		localization_key = var_prefecture.284
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 285 }
+		}
+		localization_key = var_prefecture.285
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 286 }
+		}
+		localization_key = var_prefecture.286
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 287 }
+		}
+		localization_key = var_prefecture.287
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 288 }
+		}
+		localization_key = var_prefecture.288
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 289 }
+		}
+		localization_key = var_prefecture.289
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 290 }
+		}
+		localization_key = var_prefecture.290
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 291 }
+		}
+		localization_key = var_prefecture.291
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 292 }
+		}
+		localization_key = var_prefecture.292
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 293 }
+		}
+		localization_key = var_prefecture.293
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 294 }
+		}
+		localization_key = var_prefecture.294
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 295 }
+		}
+		localization_key = var_prefecture.295
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 296 }
+		}
+		localization_key = var_prefecture.296
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 297 }
+		}
+		localization_key = var_prefecture.297
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 298 }
+		}
+		localization_key = var_prefecture.298
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 299 }
+		}
+		localization_key = var_prefecture.299
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 300 }
+		}
+		localization_key = var_prefecture.300
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 301 }
+		}
+		localization_key = var_prefecture.301
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 302 }
+		}
+		localization_key = var_prefecture.302
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 303 }
+		}
+		localization_key = var_prefecture.303
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 304 }
+		}
+		localization_key = var_prefecture.304
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 305 }
+		}
+		localization_key = var_prefecture.305
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 306 }
+		}
+		localization_key = var_prefecture.306
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 307 }
+		}
+		localization_key = var_prefecture.307
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 308 }
+		}
+		localization_key = var_prefecture.308
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 309 }
+		}
+		localization_key = var_prefecture.309
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 310 }
+		}
+		localization_key = var_prefecture.310
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 311 }
+		}
+		localization_key = var_prefecture.311
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 312 }
+		}
+		localization_key = var_prefecture.312
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 313 }
+		}
+		localization_key = var_prefecture.313
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 314 }
+		}
+		localization_key = var_prefecture.314
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 315 }
+		}
+		localization_key = var_prefecture.315
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 316 }
+		}
+		localization_key = var_prefecture.316
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 317 }
+		}
+		localization_key = var_prefecture.317
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 318 }
+		}
+		localization_key = var_prefecture.318
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 319 }
+		}
+		localization_key = var_prefecture.319
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 320 }
+		}
+		localization_key = var_prefecture.320
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 321 }
+		}
+		localization_key = var_prefecture.321
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 322 }
+		}
+		localization_key = var_prefecture.322
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 323 }
+		}
+		localization_key = var_prefecture.323
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 324 }
+		}
+		localization_key = var_prefecture.324
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 325 }
+		}
+		localization_key = var_prefecture.325
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 326 }
+		}
+		localization_key = var_prefecture.326
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 327 }
+		}
+		localization_key = var_prefecture.327
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 328 }
+		}
+		localization_key = var_prefecture.328
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 329 }
+		}
+		localization_key = var_prefecture.329
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 330 }
+		}
+		localization_key = var_prefecture.330
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 331 }
+		}
+		localization_key = var_prefecture.331
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 332 }
+		}
+		localization_key = var_prefecture.332
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 333 }
+		}
+		localization_key = var_prefecture.333
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 334 }
+		}
+		localization_key = var_prefecture.334
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 335 }
+		}
+		localization_key = var_prefecture.335
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 336 }
+		}
+		localization_key = var_prefecture.336
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 777 }
+		}
+		localization_key = var_prefecture.777
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 778 }
+		}
+		localization_key = var_prefecture.778
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 779 }
+		}
+		localization_key = var_prefecture.779
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 780 }
+		}
+		localization_key = var_prefecture.780
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 338 }
+		}
+		localization_key = var_prefecture.338
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 339 }
+		}
+		localization_key = var_prefecture.339
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 340 }
+		}
+		localization_key = var_prefecture.340
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 341 }
+		}
+		localization_key = var_prefecture.341
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 342 }
+		}
+		localization_key = var_prefecture.342
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 343 }
+		}
+		localization_key = var_prefecture.343
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 344 }
+		}
+		localization_key = var_prefecture.344
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 345 }
+		}
+		localization_key = var_prefecture.345
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 346 }
+		}
+		localization_key = var_prefecture.346
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 347 }
+		}
+		localization_key = var_prefecture.347
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 348 }
+		}
+		localization_key = var_prefecture.348
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 349 }
+		}
+		localization_key = var_prefecture.349
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 350 }
+		}
+		localization_key = var_prefecture.350
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 351 }
+		}
+		localization_key = var_prefecture.351
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 352 }
+		}
+		localization_key = var_prefecture.352
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 353 }
+		}
+		localization_key = var_prefecture.353
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 354 }
+		}
+		localization_key = var_prefecture.354
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 355 }
+		}
+		localization_key = var_prefecture.355
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 356 }
+		}
+		localization_key = var_prefecture.356
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 357 }
+		}
+		localization_key = var_prefecture.357
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 358 }
+		}
+		localization_key = var_prefecture.358
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 361 }
+		}
+		localization_key = var_prefecture.361
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 362 }
+		}
+		localization_key = var_prefecture.362
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 363 }
+		}
+		localization_key = var_prefecture.363
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 364 }
+		}
+		localization_key = var_prefecture.364
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 365 }
+		}
+		localization_key = var_prefecture.365
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 366 }
+		}
+		localization_key = var_prefecture.366
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 367 }
+		}
+		localization_key = var_prefecture.367
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 368 }
+		}
+		localization_key = var_prefecture.368
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 369 }
+		}
+		localization_key = var_prefecture.369
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 370 }
+		}
+		localization_key = var_prefecture.370
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 371 }
+		}
+		localization_key = var_prefecture.371
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 372 }
+		}
+		localization_key = var_prefecture.372
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 373 }
+		}
+		localization_key = var_prefecture.373
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 374 }
+		}
+		localization_key = var_prefecture.374
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 375 }
+		}
+		localization_key = var_prefecture.375
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 376 }
+		}
+		localization_key = var_prefecture.376
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 377 }
+		}
+		localization_key = var_prefecture.377
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 378 }
+		}
+		localization_key = var_prefecture.378
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 379 }
+		}
+		localization_key = var_prefecture.379
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 380 }
+		}
+		localization_key = var_prefecture.380
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 381 }
+		}
+		localization_key = var_prefecture.381
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 382 }
+		}
+		localization_key = var_prefecture.382
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 383 }
+		}
+		localization_key = var_prefecture.383
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 384 }
+		}
+		localization_key = var_prefecture.384
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 385 }
+		}
+		localization_key = var_prefecture.385
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 386 }
+		}
+		localization_key = var_prefecture.386
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 387 }
+		}
+		localization_key = var_prefecture.387
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 388 }
+		}
+		localization_key = var_prefecture.388
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 389 }
+		}
+		localization_key = var_prefecture.389
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 390 }
+		}
+		localization_key = var_prefecture.390
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 391 }
+		}
+		localization_key = var_prefecture.391
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 392 }
+		}
+		localization_key = var_prefecture.392
+	}
+	text = {
+		trigger = {
+			check_variable = { prefecture = 393 }
+		}
+		localization_key = var_prefecture.393
+	}
+
+	text = {
+		trigger = {
+			check_variable = { prefecture = 394 }
+		}
+		localization_key = var_prefecture.394
+	}
+
+	text = {
+		trigger = {
+			check_variable = { prefecture = 395 }
+		}
+		localization_key = var_prefecture.395
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { prefecture = 396 }
+		}
+		localization_key = var_prefecture.396
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { prefecture = 397 }
+		}
+		localization_key = var_prefecture.397
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { prefecture = 398 }
+		}
+		localization_key = var_prefecture.398
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { prefecture = 399 }
+		}
+		localization_key = var_prefecture.399
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { prefecture = 400 }
+		}
+		localization_key = var_prefecture.400
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { prefecture = 401 }
+		}
+		localization_key = var_prefecture.401
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { prefecture = 402 }
+		}
+		localization_key = var_prefecture.402
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { prefecture = 403 }
+		}
+		localization_key = var_prefecture.403
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { prefecture = 404 }
+		}
+		localization_key = var_prefecture.404
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { prefecture = 405 }
+		}
+		localization_key = var_prefecture.405
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { prefecture = 406 }
+		}
+		localization_key = var_prefecture.406
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { prefecture = 407 }
+		}
+		localization_key = var_prefecture.407
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { prefecture = 408 }
+		}
+		localization_key = var_prefecture.408
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { prefecture = 409 }
+		}
+		localization_key = var_prefecture.409
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { prefecture = 410 }
+		}
+		localization_key = var_prefecture.410
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { prefecture = 411 }
+		}
+		localization_key = var_prefecture.411
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { prefecture = 412 }
+		}
+		localization_key = var_prefecture.412
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { prefecture = 413 }
+		}
+		localization_key = var_prefecture.413
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { prefecture = 414 }
+		}
+		localization_key = var_prefecture.414
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { prefecture = 415 }
+		}
+		localization_key = var_prefecture.415
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { prefecture = 416 }
+		}
+		localization_key = var_prefecture.416
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { prefecture = 417 }
+		}
+		localization_key = var_prefecture.417
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { prefecture = 418 }
+		}
+		localization_key = var_prefecture.418
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { prefecture = 419 }
+		}
+		localization_key = var_prefecture.419
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { prefecture = 420 }
+		}
+		localization_key = var_prefecture.420
+	}
+	
+	text = {
+		trigger = {
+			check_variable = { prefecture = 421 }
+		}
+		localization_key = var_prefecture.421
+	}
+
+	text = {
+		trigger = {
+			check_variable = { prefecture = 422 }
+		}
+		localization_key = var_prefecture.422
+	}
+}

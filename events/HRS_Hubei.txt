@@ -1,0 +1,499 @@
+add_namespace = chi_rev
+
+################
+# HUBEI EVENTS #
+################
+### A small conflicts in military camp
+country_event = {
+	id = chi_rev.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event chi_rev.1"
+		hidden_effect = {
+			country_event = { id = chi_rev.2 days = 1 } # 10.9
+		}
+	}
+	title = chi_rev.1.t
+	desc = chi_rev.1.desc
+	picture = GFX_report_event_nationalist_china_machinegun_firing
+
+	is_triggered_only = yes
+
+	option = {
+		name = chi_rev.1.a #restraint soldiers
+		add_political_power = -10
+	}
+	option = {
+		name = chi_rev.1.b #martial law
+		add_command_power = -10
+	}
+}
+### A bomb broke out in Wuhan?
+country_event = {
+	id = chi_rev.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event chi_rev.2"
+		hidden_effect = {
+			country_event = { id = chi_rev.3 days = 1 } # 10.10
+		}
+	}
+	title = chi_rev.2.t
+	desc = chi_rev.2.desc
+	picture = GFX_report_event_wuhan_street
+
+	is_triggered_only = yes
+
+	option = {
+		name = chi_rev.2.a #check out armies!
+		add_manpower = -3
+	}
+	option = {
+		name = chi_rev.2.b #check out worker
+		add_manpower = -3
+	}
+}
+### Execute revolutionary leaders
+country_event = {
+	id = chi_rev.3
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event chi_rev.3"
+		hidden_effect = {
+			every_state = {
+				limit = { is_hubei_state = yes }
+				transfer_state_to = CHI
+				add_core_of = CHI
+			}
+			CHI = { 
+				#load_oob = "CHI_1923"
+				country_event = { id = chi_rev.4 days = 3 }
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 3000
+					producer = IMC
+				}
+				add_equipment_to_stockpile = {
+					type = artillery_equipment
+					amount = 200
+					producer = IMC
+				}
+			}
+			ZDJ = { country_event = { id = zdj_rev.1 days = 28 } }
+			IMC = {
+				end_puppet = ZDJ
+				end_puppet = DBJ
+				end_puppet = ANM
+				end_puppet = HSW
+				end_puppet = BRM
+				country_event = { id = sch_rev.1 days = 11 } # Sichuan 10.21
+				country_event = { id = mao_rev.1 days = 12 } # Hunan 10.22
+				country_event = { id = prc_rev.1 days = 13 } # Shaanxi(Commie) 10.22
+				country_event = { id = chq_rev.1 days = 14 } # Chongqong 10.22
+				country_event = { id = shx_rev.1 days = 19 } # Shanxi 10.29
+				country_event = { id = yun_rev.1 days = 20 } # Yunnan 10.30
+				country_event = { id = gzh_rev.1 days = 25 } # Guizhou 11.4
+				country_event = { id = kmt_rev.1 days = 30 } # Guangdong 11.9
+			}
+			IMK = { country_event = { id = prk_rev.1 days = 17 } }
+		}
+	}
+	title = chi_rev.3.t
+	desc = chi_rev.3.desc
+	picture = GFX_report_event_dead_soldiers
+
+	is_triggered_only = yes
+
+	option = { # Play as Hubei Revolutionaries
+		name = chi_rev.3.a
+		news_event = civilwar_news.1
+	}
+}
+### Select Leaders
+country_event = {
+	id = chi_rev.4
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event chi_rev.4"
+	}
+	title = chi_rev.4.t
+	desc = chi_rev.4.desc
+	picture = GFX_report_event_wuchang_uprising
+
+	is_triggered_only = yes
+
+	option = { # Select Hu Ying
+		name = chi_rev.4.a
+		ai_chance = {
+			base = 20
+		}
+		country_event = { id = chi_rev.5 days = 2 }
+		set_politics = { ruling_party = democratic }
+		hidden_effect = {
+			set_party_name = { 
+				ideology = democratic
+				long_name = CHI_lkmt_party_long 
+				name = CHI_lkmt_party
+			}
+			set_party_name = { 
+				ideology = neutrality 
+				long_name = CHI_nra_party_long 
+				name = CHI_nra_party
+			}
+			set_party_name = { 
+				ideology = monarchism
+				long_name = CHI_huanghan_party_long 
+				name = CHI_huanghan_party
+			}
+			set_party_name = {
+				ideology = fascism
+				long_name = CHI_rkmt_party_long 
+				name = CHI_rkmt_party
+			}
+			set_party_name = { 
+				ideology = imperialism
+				long_name = CHI_frkmt_party_long 
+				name = CHI_frkmt_party
+			}
+		}
+	}
+	option = { # Select Li Yuanhong
+		name = chi_rev.4.b
+		ai_chance = {
+			base = 80
+		}
+		country_event = { id = chi_rev.5 days = 2 }
+		add_country_leader_role = {
+			character = CHI_li_yuanhong
+			country_leader={
+				ideology=conservatism_subtype
+				traits={ political_chameleon genial_anti_revolutionary }
+				expire="1928.6.3.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = democratic }
+		hidden_effect = {
+			set_party_name = { 
+				ideology = neutrality 
+				long_name = CHI_nra_party_long 
+				name = CHI_nra_party
+			}
+			set_party_name = { 
+				ideology = monarchism
+				long_name = CHI_huanghan_party_long 
+				name = CHI_huanghan_party
+			}
+			set_party_name = { 
+				ideology = democratic
+				long_name = CHI_lkmt_party_long 
+				name = CHI_lkmt_party
+			}
+			set_party_name = { 
+				ideology = fascism
+				long_name = CHI_rkmt_party_long 
+				name = CHI_rkmt_party
+			}
+			set_party_name = { 
+				ideology = imperialism
+				long_name = CHI_frkmt_party_long 
+				name = CHI_frkmt_party
+			}
+		}
+	}
+}
+### Damage Jinghan Railway?
+country_event = {
+	id = chi_rev.5
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event chi_rev.5"
+	}
+	title = chi_rev.5.t
+	desc = chi_rev.5.desc
+	picture = GFX_report_event_railway_worker_strikes
+
+	is_triggered_only = yes
+
+	option = { # Agree
+		name = chi_rev.5.a
+		set_country_flag = hubei_trade_unionists_have_weapons
+		country_event = chi_rev.6
+	}
+	option = { # Disagree
+		name = chi_rev.5.b
+		country_event = chi_rev.6
+	}
+}
+### Nationalise Hanyang Steel?
+country_event = {
+	id = chi_rev.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event chi_rev.6" }
+	title = chi_rev.6.t
+	desc = chi_rev.6.desc
+	picture = GFX_report_event_hanyang_steel
+
+	is_triggered_only = yes
+
+	option = { # Agree
+		name = chi_rev.6.a
+		add_stability = -0.03
+		add_offsite_building = { type = arms_factory level = 1 }
+		add_offsite_building = { type = industrial_complex level = 1 }
+		set_country_flag = hubei_trade_unionists_have_industry
+		country_event = chi_rev.7
+	}
+	option = { # Disagree
+		name = chi_rev.6.b
+		add_political_power = -120
+		add_offsite_building = { type = arms_factory level = 1 }
+		add_offsite_building = { type = industrial_complex level = 1 }
+		country_event = chi_rev.7
+	}
+}
+### Who wins?
+country_event = {
+	id = chi_rev.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event chi_rev.7" }
+	title = chi_rev.7.t
+	desc = chi_rev.7.desc
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = { # A democratic people's republic
+		name = chi_rev.7.a
+		set_country_flag = hubei_democratic_republic
+		country_event = chi_rev.9
+	}
+	option = { # A workers' and peasants' commune
+		name = chi_rev.7.b
+		set_country_flag = hubei_worker_commune
+		country_event = chi_rev.8
+	}
+}
+### Commie wins
+country_event = {
+	id = chi_rev.8
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event chi_rev.8"
+		hidden_effect = {
+			set_party_name = { 
+				ideology = neutrality 
+				long_name = CHI_nra_party_long 
+				name = CHI_nra_party
+			}
+			set_party_name = { 
+				ideology = monarchism
+				long_name = CHI_huanghan_party_long 
+				name = CHI_huanghan_party
+			}
+			set_party_name = { 
+				ideology = democratic
+				long_name = CHI_lkmt_party_long 
+				name = CHI_lkmt_party
+			}
+			set_party_name = { 
+				ideology = fascism
+				long_name = CHI_rkmt_party_long 
+				name = CHI_rkmt_party
+			}
+			set_party_name = { 
+				ideology = imperialism
+				long_name = CHI_frkmt_party_long 
+				name = CHI_frkmt_party
+			}
+		}
+	}
+	title = chi_rev.8.t
+	desc = chi_rev.8.desc
+	picture = GFX_report_event_election_vote
+
+	is_triggered_only = yes
+
+	option = {
+		name = chi_rev.8.a
+		#load_oob = CHI_militia
+		add_political_power = 50
+		set_politics = { ruling_party = communism }
+		add_ideas = {
+			unitary_state1
+			planned_economy1
+		}
+		hidden_effect = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.15
+			}
+			add_popularity = {
+				ideology = anarchism
+				popularity = 0.10
+			}
+		}
+	}
+	option = {
+		name = chi_rev.8.b
+		set_politics = { ruling_party = anarchism }
+		add_political_power = 50
+		add_ideas = {
+			unitary_state1
+			planned_economy
+		}
+	}
+}
+### Democrat "wins"
+country_event = {
+	id = chi_rev.9
+	immediate = { log = "[GetDateText]: [Root.GetName]: event chi_rev.9" }
+	title = chi_rev.9.t
+	desc = chi_rev.9.desc
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = chi_rev.9.a
+		add_manpower = -800
+		add_stability = -0.10
+		add_political_power = -50
+		add_war_support = -0.10
+		add_country_leader_role = {
+			character = CHI_li_yuanhong
+			country_leader={
+				ideology=warlordism_subtype
+				traits={ political_chameleon genial_anti_revolutionary }
+				expire="1928.6.3.1"
+			}
+			promote_leader = yes 
+		}
+		add_ideas = {
+			unitary_state2
+			dirigisme_economy
+		}
+		set_politics = { ruling_party = neutrality }
+		hidden_effect = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.10
+			}
+			add_popularity = {
+				ideology = anarchism
+				popularity = 0.10
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.10
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.20
+			}
+			add_popularity = {
+				ideology = monarchism
+				popularity = 0.10
+			}
+		}
+	}
+}
+### Transfer to Sichuan?
+country_event = {
+	id = chi_rev.10
+	immediate = { log = "[GetDateText]: [Root.GetName]: event chi_rev.10" }
+	title = chi_rev.10.t
+	desc = chi_rev.10.desc
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = chi_rev.10.a
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 8
+				OR = {
+					num_of_controlled_states < 2
+					has_army_size = {
+						size < 6
+						type = infantry
+					}
+				}
+				
+			}
+			modifier = {
+				factor = 9
+				AND = {
+					num_of_controlled_states < 2
+					has_army_size = {
+						size < 8
+						type = infantry
+					}
+				}
+				
+			}
+		}
+		trigger = { SCH = { exists = yes } }
+		SCH = { 
+			change_tag_from = CHI
+			country_event = { id = swc_rev.3 days = 7 }
+		}
+	}
+	option = {
+		name = chi_rev.10.b
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 8
+				OR = {
+					num_of_controlled_states < 2
+					has_army_size = {
+						size < 6
+						type = infantry
+					}
+				}
+				
+			}
+			modifier = {
+				factor = 9
+				AND = {
+					num_of_controlled_states < 2
+					has_army_size = {
+						size < 8
+						type = infantry
+					}
+				}
+				
+			}
+		}
+		trigger = { CHQ = { exists = yes } }
+		CHQ = { 
+			change_tag_from = CHI
+			country_event = { id = swc_rev.3 days = 7 }
+		}
+	}
+	option = {
+		name = chi_rev.10.c
+		ai_chance = {
+			base = 90
+			modifier = {
+				factor = 0.5
+				OR = {
+					num_of_controlled_states > 1
+					has_army_size = {
+						size > 6
+						type = infantry
+					}
+				}
+				
+			}
+			modifier = {
+				factor = 0
+				AND = {
+					num_of_controlled_states > 1
+					has_army_size = {
+						size > 6
+						type = infantry
+					}
+				}
+			}
+		}
+		CHQ = { country_event = { id = swc_rev.4 days = 7 } }
+		SCH = { country_event = { id = swc_rev.4 days = 7 } }
+		add_war_support = 0.05
+	}
+}

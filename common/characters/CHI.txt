@@ -1,0 +1,72 @@
+characters={
+	CHI_hubei_government={
+		name=CHI_hubei_government
+		portraits={
+			civilian={
+				large="gfx/leaders/generic/Portrait_Military_Government.png"
+			}
+		}
+		country_leader={
+			ideology=provisional_government_subtype
+			desc=CHI_hubei_government_desc
+			traits={ desperate_gambit }
+			expire="1936.1.1.1"
+		}
+	}
+	CHI_hu_ying={
+		name=CHI_hu_ying
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/Portrait_Hu_Ying.dds"
+			}
+		}
+		country_leader={
+			ideology=national_liberalism_subtype
+			desc=CHI_hu_ying_desc
+			traits={ liberal_democratic_paragon indomitable_perseverance }
+			expire="1933.11.1.1"
+		}
+	}
+	CHI_dong_biwu={
+		name=CHI_dong_biwu
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/Portrait_Dong_Biwu.dds"
+			}
+		}
+		country_leader={
+			ideology=marxism_subtype
+			desc=CHI_dong_biwu_desc
+			traits={ veteran_communist communist_revolutionary }
+			expire="1975.4.25.1"
+		}
+	}
+	CHI_li_lisan={
+		name=CHI_li_lisan
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/Portrait_Li_Lisan.dds"
+			}
+		}
+		country_leader={
+			ideology=anarcho_syndicalism_subtype
+			desc=CHI_li_lisan_desc
+			traits={ communist_theorist left_trade_unionist }
+			expire="1967.6.22.1"
+		}
+	}
+	CHI_li_yuanhong={
+		name=CHI_li_yuanhong
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/Portrait_Li_Yuanhong.dds"
+			}
+		}
+		#country_leader={
+		#	ideology=guided_democracy_subtype
+		#	desc=CHI_li_yuanhong_desc
+		#	traits={ desperate_gambit }
+		#	expire="1936.1.1.1"
+		#}
+	}
+}

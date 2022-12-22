@@ -1,0 +1,18 @@
+state={
+	id=488
+	name="STATE_488"
+	provinces={
+		4915
+	}
+	history = {
+		owner = HIN
+		add_core_of = HIN
+		
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=1000
+	state_category = town
+	local_supplies = 0.0
+}

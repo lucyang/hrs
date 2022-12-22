@@ -1,0 +1,59 @@
+is_laos_nation = {
+	OR = {
+		original_tag = LAO
+		original_tag = CHP
+		original_tag = TAT
+	}
+}
+
+is_laos_unifier = {
+	OR = {
+		original_tag = LAO
+		original_tag = CHP
+		original_tag = TAT
+	}
+}
+
+is_laos_state = {
+	AND = {
+		state = 376 #中寮
+		state = 534 #下寮
+		state = 535 #上寮
+		state = 571 #泰处
+		state = 572 #澜沧/沙耶武里
+		state = 573 #万象
+		state = 574 #川圹/芒盆/镇宁
+		state = 575 #琅勃拉邦
+		state = 576 #占巴塞
+		state = 651 #那空占巴塞
+	}
+}
+
+is_any_laos_state = {
+	OR = {
+		state = 376 #中寮
+		state = 534 #下寮
+		state = 535 #上寮
+		state = 571 #泰处
+		state = 572 #澜沧/沙耶武里
+		state = 573 #万象
+		state = 574 #川圹/芒盆/镇宁
+		state = 575 #琅勃拉邦
+		state = 576 #占巴塞
+		state = 651 #那空占巴塞
+	}
+}
+
+can_form_laos = {
+	AND = {
+		owns_state = 376 #中寮
+		owns_state = 534 #下寮
+		owns_state = 535 #上寮
+		owns_state = 572 #澜沧/沙耶武里
+		owns_state = 573 #万象
+		owns_state = 574 #川圹/芒盆/镇宁
+		owns_state = 575 #琅勃拉邦
+		owns_state = 576 #占巴塞
+		owns_state = 651 #那空占巴塞
+	}
+}

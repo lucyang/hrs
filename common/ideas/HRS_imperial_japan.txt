@@ -1,0 +1,54 @@
+ideas = {
+	country = {
+		IMJ_watanabe_bank_crisis = {
+			name = IMJ_watanabe_bank_crisis
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = EST_exploit_the_banks
+			modifier = {
+				stability_factor = -0.10
+				war_support_factor = -0.10
+				army_morale_factor = -0.10
+			}
+		}
+		IMJ_rice_riot = {
+			name = IMJ_rice_riot
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = IMJ_Rice_Riot
+			modifier = {
+				consumer_goods_factor = 0.05
+				compliance_gain = -0.5
+			}
+		}
+		IMJ_kanto_construction_plan = {
+			name = IMJ_kanto_construction_plan
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = IMJ_Kanto_Construction_Plan
+			modifier = {
+				production_speed_infrastructure_factor = 0.05
+				production_speed_dockyard_factor = 0.05
+				production_speed_fuel_silo_factor = 0.05
+			}
+		}
+	}
+}

@@ -1,0 +1,376 @@
+add_namespace = kmt_rev
+
+#####################
+# KUOMINTANG EVENTS #
+#####################
+country_event = {
+	id = kmt_rev.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt_rev.1"
+		hidden_effect = {
+			IMC = {	country_event = { id = gxc_rev.1 days = 9 } }
+			KMT = {
+				transfer_state = 353
+				transfer_state = 358
+				transfer_state = 370
+				country_event = { id = kmt_rev.2 days = 7 }
+			}
+			IMC = { country_event = { id = gxc_rev.1 days = 9 } }
+		}
+	}
+	title = kmt_rev.1.t
+	desc = kmt_rev.1.desc
+	picture = GFX_report_event_dead_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = kmt_rev.1.a
+	}
+}
+country_event = {
+	id = kmt_rev.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt_rev.2"
+		hidden_effect = {
+			every_state = {
+				limit = { is_guangdong_state = yes }
+				transfer_state_to = KMT
+			}
+			KMT = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 5000
+					producer = IMC
+				}
+				add_equipment_to_stockpile = {
+					type = artillery_equipment
+					amount = 300
+					producer = IMC
+				}
+				country_event = { id = hlf_rev.2 days = 7 }
+				country_event = { id = kmt_rev.3 days = 3 }
+			}
+			IMC = {
+				add_political_power = -100
+				add_stability = -0.10
+			}
+		}
+	}
+	title = kmt_rev.2.t
+	desc = kmt_rev.2.desc
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = { #Civil war starts!
+		name = kmt_rev.2.a
+		KMT = {
+			country_event = { id = frm_rev.1 days = 21 }
+			change_tag_from = ROOT
+		}
+	}
+	option = { #peaceful transfer of state
+		name = kmt_rev.2.b
+		KMT = {
+			country_event = { id = frm_rev.1 days = 21 }
+		}
+	}
+}
+country_event = { #Guangdong autonomy or unification of China?
+	id = kmt_rev.3
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kmt_rev.3"
+	}
+	title = kmt_rev.3.t
+	desc = kmt_rev.3.desc
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = {
+		name = kmt_rev.3.a
+		add_political_power = -10
+		country_event = kmt_rev.4
+	}
+}
+country_event = { #Zhu Zhixin's request
+	id = kmt_rev.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event kmt_rev.4" }
+	title = kmt_rev.4.t
+	desc = kmt_rev.4.desc
+	picture = GFX_report_event_ger_civil_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = kmt_rev.4.a
+		ai_chance = {
+			base = 10
+		}
+		add_command_power = -10
+		hidden_effect = { country_event = { id = kmt_rev.6 days = 7 } }
+	}
+	option = {
+		name = kmt_rev.4.b
+		ai_chance = {
+			base = 90
+			modifier = {
+				factor = 100
+				is_ai = yes
+			}
+		}
+		add_political_power = 10
+		hidden_effect = { country_event = { id = kmt_rev.5 days = 7 } }
+	}
+}
+country_event = { #6·16 Accident; Sun's victory
+	id = kmt_rev.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event kmt_rev.5" }
+	title = kmt_rev.5.t
+	desc = kmt_rev.5.desc
+	picture = GFX_report_event_ger_civil_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = kmt_rev.5.a
+		retire_character = KMT_chen_jiongming
+		add_country_leader_role = {
+			character = KMT_sun_zhongshan
+			country_leader={
+				ideology=tridemism_subtype
+				desc=KMT_sun_zhongshan_desc
+				traits={ liberal_democratic_paragon }
+				expire="1925.3.12.1"
+			}
+			promote_leader = yes 
+		}
+		add_country_leader_role = {
+			character = KMT_hu_hanmin
+			country_leader={
+				ideology=daijitaoism_subtype
+				desc=KMT_hu_hanmin_desc
+				traits={ connected_citizen }
+				expire="1936.5.12.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = democratic elections_allowed = no }
+		hidden_effect = {
+			add_popularity = {
+				ideology = neutrality
+				popularity = -0.10
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.15
+			}
+			add_popularity = {
+				ideology = anarchism
+				popularity = 0.07
+			}
+			set_party_name = {
+				ideology = democratic
+				long_name = KMT_lkmt_party_long
+				name = KMT_lkmt_party
+			}
+			set_party_name = {
+				ideology = anarchism
+				long_name = KMT_flkmt_party_long
+				name = KMT_flkmt_party
+			}
+			set_party_name = {
+				ideology = fascism
+				long_name = KMT_rkmt_party_long
+				name = KMT_rkmt_party
+			}
+			set_party_name = {
+				ideology = imperialism
+				long_name = KMT_frkmt_party_long
+				name = KMT_frkmt_party
+			}
+			set_party_name = {
+				ideology = neutrality
+				long_name = KMT_nra_party_long
+				name = KMT_nra_party
+			}
+		}
+	}
+}
+country_event = { #6·16 Accident; Chen's victory
+	id = kmt_rev.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event kmt_rev.6" }
+	title = kmt_rev.6.t
+	desc = kmt_rev.6.desc
+	picture = GFX_report_event_ger_civil_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = kmt_rev.6.a
+		set_politics = { ruling_party = neutrality elections_allowed = no }
+		retire_character = KMT_zhu_zhixin
+		add_country_leader_role = {
+			character = KMT_chen_jiongming
+			country_leader={
+				ideology=military_government_subtype
+				desc=KMT_chen_jiongming_desc
+				traits={ political_chameleon }
+				expire="1933.9.23.1"
+			}
+			promote_leader = yes 
+		}
+		add_country_leader_role = {
+			character = KMT_wang_jingwei
+			country_leader={
+				ideology=democratic_socialism_subtype
+				desc=KMT_wang_jingwei_desc
+				traits={ political_chameleon }
+				expire="1949.11.10.1"
+			}
+			promote_leader = yes 
+		}
+		country_event = kmt.1
+		hidden_effect = {
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.30
+			}
+			add_popularity = {
+				ideology = futurism
+				popularity = 0.10
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = -0.15
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = anarchism
+				popularity = 0.05
+			}
+		}
+	}
+}
+country_event = { #help Guangxi?
+	id = kmt_rev.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event kmt_rev.7" }
+	title = kmt_rev.7.t
+	desc = kmt_rev.7.desc
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = {
+		name = kmt_rev.7.a
+		add_political_power = -10
+		add_war_support = 0.20
+		GXC = { country_event = kmt_rev.8 }
+		
+	}
+}
+country_event = { #accept KMT's assistance?
+	id = kmt_rev.8
+	immediate = { log = "[GetDateText]: [Root.GetName]: event kmt_rev.8" }
+	title = kmt_rev.8.t
+	desc = kmt_rev.8.desc
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = kmt_rev.8.a
+		ai_chance = { base = 60 }
+		add_political_power = 10
+		add_war_support = 0.10
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 1000
+			producer = IMC
+		}
+		add_equipment_to_stockpile = {
+			type = artillery_equipment
+			amount = 50
+			producer = IMC
+		}
+		give_military_access = KMT
+		give_guarantee = KMT
+		KMT = { country_event = kmt_rev.9 }
+	}
+	option = {
+		name = kmt_rev.8.b
+		ai_chance = { base = 30 }
+		add_political_power = 10
+		add_war_support = 0.10
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 1000
+			producer = IMC
+		}
+		add_equipment_to_stockpile = {
+			type = artillery_equipment
+			amount = 50
+			producer = IMC
+		}
+		give_military_access = KMT
+		KMT = { country_event = kmt_rev.10 }
+	}
+	option = {
+		name = kmt_rev.8.c
+		ai_chance = { 
+			base = 10
+			modifier = {
+				factor = 100
+				KMT = { has_government = neutrality }
+			}
+		}
+		KMT = { country_event = kmt_rev.11 }
+	}
+}
+country_event = { #help Guangxi?
+	id = kmt_rev.9
+	immediate = { log = "[GetDateText]: [Root.GetName]: event kmt_rev.9" }
+	title = kmt_rev.9.t
+	desc = kmt_rev.9.desc
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = {
+		name = kmt_rev.9.a
+		give_military_access = GXC
+		give_guarantee = GXC
+	}
+}
+country_event = { #help Guangxi?
+	id = kmt_rev.10
+	immediate = { log = "[GetDateText]: [Root.GetName]: event kmt_rev.10" }
+	title = kmt_rev.10.t
+	desc = kmt_rev.10.desc
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = {
+		name = kmt_rev.9.a
+		give_military_access = GXC
+	}
+}
+country_event = { #help Guangxi?
+	id = kmt_rev.11
+	immediate = { log = "[GetDateText]: [Root.GetName]: event kmt_rev.11" }
+	title = kmt_rev.11.t
+	desc = kmt_rev.11.desc
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = {
+		name = kmt_rev.11.a
+		add_political_power = -10
+	}
+}

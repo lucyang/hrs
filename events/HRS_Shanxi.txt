@@ -1,0 +1,107 @@
+##################
+## Shanxi Events #
+##################
+add_namespace = shx_rev
+
+country_event = {
+	id = shx_rev.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event shx_rev.1"
+		hidden_effect = {
+			country_event = { id = shx_rev.2 days = 5 } 
+		}
+	}
+	title = shx_rev.1.t
+	desc = shx_rev.1.desc
+	picture = GFX_report_event_nationalist_china_machinegun_firing
+
+	is_triggered_only = yes
+
+	option = {
+		name = shx_rev.1.a
+	}
+}
+country_event = {
+	id = shx_rev.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event shx_rev.2"
+		hidden_effect = {
+			country_event = { id = shx_rev.3 days = 7 }
+		}
+	}
+	title = shx_rev.2.t
+	desc = shx_rev.2.desc
+	picture = GFX_report_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = shx_rev.2.a
+		SHX = {
+			add_political_power = 50
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.01
+			}
+		}
+	}
+	option = {
+		name = shx_rev.2.b
+		SHX = {
+			add_political_power = 100
+			add_popularity = {
+				ideology = anarchism
+				popularity = 0.01
+			}
+		}
+	}
+}
+country_event = {
+	id = shx_rev.3
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event shx_rev.3"
+		hidden_effect = {
+			country_event = { id = shx_rev.4 days = 3 }
+			every_state = {
+				limit = { is_shanxi_state = yes }
+				transfer_state_to = SHX
+			}
+			SHX = { 
+				country_event = shx_rev.4
+				#load_oob = "SHX_1923"
+			}
+		}
+	}
+	title = shx_rev.3.t
+	desc = shx_rev.3.desc
+	picture = GFX_report_event_wuchang_uprising
+
+	is_triggered_only = yes
+
+	option = {
+		name = shx_rev.3.a
+		SHX = { change_tag_from = ROOT }
+	}
+	option = {
+		name = shx_rev.3.b
+	}
+}
+country_event = {
+	id = shx_rev.4
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event shx_rev.4"
+		hidden_effect = {
+			#country_event = { id = chi_rev.2 days = 3 } 
+		}
+	}
+	title = chi_rev.4.t
+	desc = chi_rev.4.desc
+	picture = GFX_report_event_nationalist_china_machinegun_firing
+
+	is_triggered_only = yes
+
+	option = {
+		name = shx_rev.4.a
+		add_political_power = -10
+	}
+}

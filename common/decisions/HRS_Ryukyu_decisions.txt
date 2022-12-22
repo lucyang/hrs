@@ -1,0 +1,352 @@
+HRS_ryukyu_revolution = {
+
+	HRS_expand_land = {
+
+		icon = generic_industry
+		
+		days_remove = 14
+		
+		cost = 10
+
+		available = {
+			has_war = yes
+			NOT = { has_global_flag = Ryukyu_has_unified }
+			capital_scope = {
+				has_state_category = tiny_island
+				NOT = { has_state_flag = HRS_RYU_expand_land }
+			}
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		visible = {
+			has_war = yes
+			NOT = { has_global_flag = Ryukyu_has_unified }
+		}
+		
+		modifier = {
+			#
+		}
+		remove_effect = {
+			capital_scope = {
+				set_state_flag = HRS_RYU_expand_land
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+
+
+	HRS_weapon_workshop = {
+
+		icon = generic_industry
+		
+		days_remove = 5
+
+		days_re_enable = 7
+		
+		cost = 10
+
+		available = {
+			has_war = yes
+			NOT = { has_global_flag = Ryukyu_has_unified }
+			num_of_military_factories < 3
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		visible = {
+			num_of_military_factories < 3
+			has_war = yes
+			NOT = { has_global_flag = Ryukyu_has_unified }
+		}
+		
+		modifier = {
+			#
+		}
+		remove_effect = {
+			random_list = {
+				40 = {
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = 500
+						producer = ROOT
+					}
+				}
+				50 = {
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = 700
+						producer = ROOT
+					}
+				}
+				10 = {
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = 900
+						producer = ROOT
+					}
+				}
+			}
+		}
+	}
+
+	HRS_produce_transport_ship = {
+
+		icon = generic_wreckers
+		
+		days_remove = 10
+
+		days_re_enable = 7
+		
+		cost = 10
+
+		available = {
+			has_war = yes
+			num_of_naval_factories < 3
+			has_equipment = {
+				infantry_equipment > 49
+			}
+			NOT = { has_global_flag = Ryukyu_has_unified }
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		visible = {
+			is_ryukyu_nation = yes
+			NOT = { has_global_flag = Ryukyu_has_unified }
+			num_of_naval_factories < 3
+			has_war = yes
+		}
+		
+		modifier = {
+			#
+		}
+		
+		remove_effect = {
+			custom_effect_tooltip = HRS_RYU_collect_tt
+			hidden_effect = {
+				random_list = {
+					30 = { 
+						add_to_variable = { var = HRS_RYU_ships value = 60 }
+						send_equipment = {
+							equipment = infantry_equipment
+							amount = 50
+							target = ZZZ
+						}
+					}
+					60 = { 
+						add_to_variable = { var = HRS_RYU_ships value = 40 }
+						send_equipment = {
+							equipment = infantry_equipment
+							amount = 50
+							target = ZZZ
+						}
+					}
+					10 = { 
+						add_to_variable = { var = HRS_RYU_ships value = 30 }
+						send_equipment = {
+							equipment = infantry_equipment
+							amount = 50
+							target = ZZZ
+						}
+					}
+				}
+			}	
+		}
+	}
+
+	HRS_collect_fuel = {
+
+		icon = generic_factory
+		
+		days_remove = 7
+
+		days_re_enable = 7
+		
+		cost = 50
+
+		available = {
+			has_war = yes
+			fuel_ratio < 0.20
+			NOT = { has_global_flag = Ryukyu_has_unified }
+		}
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		visible = {
+			has_war = yes
+			NOT = { has_global_flag = Ryukyu_has_unified }
+			is_ryukyu_nation = yes
+		}
+		
+		modifier = {
+			#
+		}
+		
+		complete_effect = {	
+			
+		}
+
+		remove_effect = {
+			add_stability = -0.05
+			add_war_support = -0.05
+			add_fuel = 2000
+		}
+	}
+
+	HRS_RYU_peaceful_annexation = {
+
+		icon = generic_political_discourse
+
+		days_remove = 7
+
+		fire_only_once = yes
+		
+		cost = 50
+
+		available = {
+			has_war = no
+			OR = {
+				RYU = { has_government = democratic }
+				AND = {
+					YYM = { has_government = democratic }
+					MYK = { has_government = democratic }
+				}
+			}	
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		visible = {
+			is_ryukyu_nation = yes
+			has_government = democratic
+		}
+		
+		modifier = {
+			#
+		}
+		
+		complete_effect = {	
+			
+		}
+
+		remove_effect = {
+			550 = { add_dynamic_modifier = { modifier = autonomous_state } }
+			551 = { add_dynamic_modifier = { modifier = autonomous_state } }
+			if = {
+				limit = { original_tag = RYU }
+				annex_country = {
+					target = YYM
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = MYK
+					transfer_troops = yes
+				}
+			}
+			else_if = {
+				limit = { original_tag = YYM }
+				annex_country = {
+					target = MYK
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = RYU
+					transfer_troops = yes
+				}
+			}
+			else = {
+				annex_country = {
+					target = YYM
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = RYU
+					transfer_troops = yes
+				}
+			}
+		}
+	}
+
+	HRS_strike_islands = {
+
+		icon = generic_operation
+
+		state_target = yes
+
+		target_trigger = { 
+			FROM = {
+				NOT = { is_controlled_by_ROOT_or_subject = yes }
+				is_ryukyu_state = yes
+			}
+		}
+		
+		days_remove = 3
+
+		days_re_enable = 15
+		
+		cost = 10
+
+		available = {
+			has_war = yes
+			command_power > 10
+			has_fuel > 1500
+			has_manpower > 2000
+			has_equipment = {
+				infantry_equipment > 1999
+			}
+			NOT = { has_global_flag = Ryukyu_has_unified }
+			custom_trigger_tooltip = {
+				tooltip = HRS_ryukyu_invasion_tt		
+				check_variable = { HRS_RYU_ships > 49 }
+			}
+		}
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		visible = {
+			is_ryukyu_nation = yes
+			has_war = yes
+			NOT = { has_global_flag = Ryukyu_has_unified }
+		}
+		
+		modifier = {
+			#
+		}
+
+		complete_effect = {
+			clamp_variable = { var = HRS_RYU_ships max = 5000 min = 0 }
+		}	
+		remove_effect = {
+			FROM = {
+				owner = { save_global_event_target_as = RYU_event_target_defender }
+				state_event = { id = invasion.1 trigger_for = ROOT }
+				save_global_event_target_as = RYU_event_target_state
+			}
+			hidden_effect = {
+				send_equipment = {
+					equipment = infantry_equipment
+					amount = 1000
+					target = ZZZ
+				}
+			}
+		}
+	}
+}

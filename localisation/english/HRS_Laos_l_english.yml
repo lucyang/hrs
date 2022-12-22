@@ -1,0 +1,80 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ LAO_communism:0 "琅勃拉邦人民共和国"
+ LAO_communism_DEF:0 "琅勃拉邦人民共和国"
+ LAO_anarchism:0 "琅勃拉邦人民共和国"
+ LAO_anarchism_DEF:0 "琅勃拉邦人民共和国"
+ LAO_socialism:0 "琅勃拉邦王国"
+ LAO_socialism_DEF:0 "琅勃拉邦王国"
+ LAO_democratic:0 "琅勃拉邦王国"
+ LAO_democratic_DEF:0 "琅勃拉邦王国"
+ LAO_neutrality:0 "琅勃拉邦王国"
+ LAO_neutrality_DEF:0 "琅勃拉邦王国"
+ LAO_monarchism:0 "琅勃拉邦王国"
+ LAO_monarchism_DEF:0 "琅勃拉邦王国"
+ LAO_fascism:0 "琅勃拉邦王国"
+ LAO_fascism_DEF:0 "琅勃拉邦王国"
+ LAO_imperialism:0 "琅勃拉邦王国"
+ LAO_imperialism_DEF:0 "琅勃拉邦王国"
+ LAO_futurism:0 "琅勃拉邦王国"
+ LAO_futurism_DEF:0 "琅勃拉邦王国"
+ LAO_communism_ADJ:0 "琅勃拉邦"
+ LAO_socialism_ADJ:0 "琅勃拉邦"
+ LAO_anarchism_ADJ:0 "琅勃拉邦"
+ LAO_democratic_ADJ:0 "琅勃拉邦"
+ LAO_neutrality_ADJ:0 "琅勃拉邦"
+ LAO_monarchism_ADJ:0 "琅勃拉邦"
+ LAO_fascism_ADJ:0 "琅勃拉邦"
+ LAO_imperialism_ADJ:0 "琅勃拉邦"
+ LAO_futurism_ADJ:0 "琅勃拉邦"
+ LAO:0 "琅勃拉邦"
+ LAO_DEF:0 "琅勃拉邦"
+ LAO_ADJ:0 "琅勃拉邦"
+ #############
+ ## PARTIES ##
+ #############
+ LAO_communism_party:0 "巴特寮"
+ LAO_communism_party_long:0 "老挝自由民族统一战线和老挝爱国战线"
+ LAO_anarchism_party:0 "巴特寮"
+ LAO_anarchism_party_long:0 "老挝自由民族统一战线和老挝爱国战线"
+ LAO_socialism_party:0 "国家联盟党"
+ LAO_socialism_party_long:0 "老挝国家联盟党" #Lao National Union Party
+ LAO_democratic_party:0 "国家进步党"
+ LAO_democratic_party_long:0 "国家进步党" # National Progressive Party
+ LAO_neutrality_party:0 "自由老挝"
+ LAO_neutrality_party_long:0 "老挝自由民族统一战线"
+ LAO_monarchism_party:0 "琅勃拉邦王朝"
+ LAO_monarchism_party_long:0 "琅勃拉邦王朝"
+ LAO_fascism_party:0 "自由老挝"
+ LAO_fascism_party_long:0 "老挝自由民族统一战线"
+ LAO_imperialism_party:0 "泛泰主义者"
+ LAO_imperialism_party_long:0 "泛泰主义者"
+ LAO_futurism_party:0 "技术官僚"
+ LAO_futurism_party_long:0 "技术官僚运动"
+ 
+ LAO_commie_party:0 "人民党"
+ LAO_commie_party_long:0 "老挝人民党"
+ LAO_champasak_party:0 "占巴塞王朝"
+ LAO_champasak_party_long:0 "占巴塞王朝"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ LAO_sisavang_vong:0 "西萨旺·冯亲王"
+ LAO_boun_oum:0 "文翁亲王"
+ LAO_phetsarath_ratanavongsa:0 "佩差拉·拉达纳冯亲王"
+ LAO_souvanna_phouma:0 "梭发那·富马亲王"
+ LAO_souphanouvong:0 "苏发努冯亲王"
+ IND_indochina_laos:0 "老挝民族解放委员会"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

@@ -1,0 +1,55 @@
+ideas = {
+	country = {
+		JPR_the_dissidents = {
+			name = JPR_the_dissidents
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = JPR_the_dissidents
+			modifier = {
+				fascism_drift = 0.05
+				democratic_drift = 0.05
+			}
+		}
+
+		JPR_isolated_vanguard = {
+			name = JPR_isolated_vanguard
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = JPR_isolated_vanguard
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.1
+			}
+		}
+
+		JPR_army_beyong_control = {
+			name = JPR_army_beyong_control
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = JPR_army_beyong_control
+			modifier = {
+				command_power_gain = -0.50
+				military_leader_cost_factor = 0.25
+				army_chief_cost_factor = 0.25
+			}
+		}
+	}
+}

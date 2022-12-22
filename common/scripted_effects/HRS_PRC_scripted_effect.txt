@@ -1,0 +1,24 @@
+PRC_BOP_communist_small_effect = {
+	add_power_balance_value = {
+		id = PRC_power_balance
+		value = -0.05
+	}
+}
+PRC_BOP_communist_large_effect = {
+	add_power_balance_value = {
+		id = PRC_power_balance 
+		value = -0.1
+	}
+}
+PRC_BOP_socialist_small_effect = {
+	add_power_balance_value = {
+		id = PRC_power_balance
+		value = 0.05
+	}
+}
+PRC_BOP_socialist_large_effect = {
+	add_power_balance_value = {
+		id = PRC_power_balance
+		value = 0.1
+	}
+}

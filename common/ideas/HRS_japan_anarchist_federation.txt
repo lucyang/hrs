@@ -1,0 +1,42 @@
+ideas = {
+	country = {
+		JAF_troika = {
+			name = JAF_troika
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = JAF_troika
+			modifier = {
+				political_power_factor = -0.1
+				war_support_weekly = -0.01
+				political_advisor_cost_factor = 0.25
+				#trade_laws_cost_factor = 0.25
+				#mobilization_laws_cost_factor = 0.25
+				#economy_cost_factor = 0.25
+			}
+		}
+
+		JAF_anarchist_trade_union = {
+			name = JAF_anarchist_trade_union
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = JAF_anarchist_trade_union
+			modifier = {
+				anarchism_drift = 0.1
+				army_core_defence_factor = 0.1
+				party_popularity_stability_factor = 0.1
+			}
+		}
+	}
+}

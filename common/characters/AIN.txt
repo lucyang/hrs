@@ -1,0 +1,30 @@
+characters={
+	AIN_iboshi_hokuto={
+		name=AIN_iboshi_hokuto
+		portraits={
+			civilian={
+				large="gfx/leaders/AIN/Portrait_Iboshi_Hokuto.png"
+			}
+		}
+		country_leader={
+			ideology=left_nationalism_subtype
+			desc=AIN_iboshi_hokuto_desc
+			traits={  }
+			expire="1929.2.26.1"
+		}
+	}
+	AIN_yaeko_batchelor={
+		name=AIN_yaeko_batchelor
+		portraits={
+			civilian={
+				large="gfx/leaders/AIN/Portrait_Yaeko_Batchelor.png"
+			}
+		}
+		country_leader={
+			ideology=liberalism_subtype
+			desc=AIN_yaeko_batchelor_desc
+			traits={  }
+			expire="1962.4.29.1"
+		}
+	}
+}

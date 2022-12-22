@@ -1,0 +1,25 @@
+state={
+	id=607
+	name="STATE_607"
+	provinces={
+		2735 2274 3001 3731
+	}
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+
+		victory_points = { 2274 1 } #冈山
+			
+		buildings = {
+			infrastructure = 3
+
+			2274 = {
+				naval_base = 1
+			}
+		}
+		
+	}
+	manpower=1217698
+	state_category = city
+	local_supplies = 0.0
+}

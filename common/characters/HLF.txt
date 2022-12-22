@@ -1,0 +1,59 @@
+characters={
+
+	HLF_peng_pai={
+		name=HLF_peng_pai
+		portraits={
+			civilian={
+				large="gfx/leaders/HLF/Portrait_Peng_Pai.dds"
+			}
+		}
+		country_leader={
+			ideology=mariateguism_subtype
+			desc=HLF_peng_pai_desc
+			traits={ militant_socialist leader_of_the_agrarian_union }
+			expire="1950.1.1.1"
+		}
+	}
+	HLF_peng_hanyu={
+		name=HLF_peng_hanyu
+		portraits={
+			civilian={
+				large="gfx/leaders/HLF/Portrait_Peng_Pai.dds"
+			}
+		}
+		country_leader={
+			ideology=warlordism_subtype
+			desc=HLF_peng_hanyu_desc
+			traits={ figurehead_president }
+			expire="1950.1.1.1"
+		}
+	}
+	HLF_yang_qishan={
+		name=HLF_yang_qishan
+		portraits={
+			civilian={
+				large="gfx/leaders/HLF/Portrait_Yang_Qishan.dds"
+			}
+		}
+		country_leader={
+			ideology=agrarian_socialism_subtype
+			desc=HLF_yang_qishan_desc
+			traits={ voice_of_restraint hero_of_the_peasantry }
+			expire="1950.1.1.1"
+		}
+	}
+	HLF_peng_hanyuan={
+		name=HLF_peng_hanyuan
+		portraits={
+			civilian={
+				large="gfx/leaders/HLF/Portrait_Peng_Hanyuan.dds"
+			}
+		}
+		country_leader={
+			ideology=new_tridemism_subtype
+			desc=HLF_peng_hanyuan_desc
+			traits={ social_reformer peoples_commissar_of_finance }
+			expire="1950.1.1.1"
+		}
+	}
+}

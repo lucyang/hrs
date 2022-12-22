@@ -1,0 +1,14 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_old_i_seungman"
+		textureFile = "gfx/leaders/KOR/Portrait_Old_I_Seungman.dds"
+	}
+	spriteType = {
+		name = "GFX_old_kim_koo"
+		textureFile = "gfx/leaders/KOR/Portrait_Kim_Koo.dds"
+	}
+	spriteType = {
+		name = "GFX_old_deguchi_onisaburo"
+		textureFile = "gfx/leaders/OMT/Portrait_old_Deguchi_Onisaburo.png"
+	}
+}

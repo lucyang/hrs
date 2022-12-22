@@ -1,0 +1,20 @@
+state={
+	id=35
+	name="STATE_35"
+	provinces={
+		48 624 1170
+	}
+	history = {
+		owner = DZU
+		add_core_of = DZU
+
+		victory_points = { 624 1 }
+
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=40501
+	state_category = pastoral
+	local_supplies = 0.0
+}

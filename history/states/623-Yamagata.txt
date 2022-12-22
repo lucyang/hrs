@@ -1,0 +1,20 @@
+state={
+	id=623
+	name="STATE_623"
+	provinces={
+		362 2066 2894
+	}
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+
+		victory_points = { 362 1 } #山形
+
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=968925
+	state_category = rural
+	local_supplies = 0.0
+}

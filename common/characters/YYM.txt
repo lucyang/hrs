@@ -1,0 +1,16 @@
+characters={
+	YYM_miyara_chosho={
+		name=YYM_miyara_chosho
+		portraits={
+			civilian={
+				large="gfx/leaders/Ryukyu/Portrait_Miyara_Chosho.png"
+			}
+		}
+		country_leader={
+			ideology=national_liberalism_subtype
+			desc=YYM_miyara_chosho_desc
+			traits={ }
+			expire="1965.1.30.1"
+		}
+	}
+}

@@ -1,0 +1,108 @@
+﻿division_template = {
+	name = "步兵联队"
+	division_names_group = CHI_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "炮兵联队"
+	division_names_group = CHI_INF_01
+
+	regiments = {
+		artillery_brigade = { x = 0 y = 0 }
+		artillery_brigade = { x = 0 y = 1 }
+		artillery_brigade = { x = 1 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "骑兵联队"
+	division_names_group = CHI_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "独立步兵联队"
+	division_names_group = CHI_MTN_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "独立守备队"
+
+	division_names_group = CHI_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+units = {
+	#### 16th Division, HQ:Kunming ####
+	### 46th Infantry Brigade ###
+	division = {
+		name = "第182步兵团"
+		location = 1663 #Kunming
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "第77独立团"
+		location = 1675 #Kunming
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+	}
+	### 47th Infantry Brigade ###
+	division = {
+		name = "第183步兵团"
+		location = 707 #Dali
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "第167步兵团"
+		location = 1086 #Dali
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "第213山炮兵团"
+		location = 2094 #Kunming
+		division_template = "炮兵联队"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "第36独立步兵团"
+		location = 2319 #Tengchong
+		division_template = "独立步兵联队"
+		start_experience_factor = 0.5
+	}
+}

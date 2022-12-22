@@ -1,0 +1,21 @@
+state={
+	id=647
+	name="STATE_647"
+	provinces={
+		114 1367 766 4252 2353
+	}
+	history = {
+		owner = SIA
+		add_core_of = SIA
+
+		#victory_points = { 47 3 } #叻武里/叻丕
+		#victory_points = { 2002 1 } #班武里/巴蜀
+		
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=752551
+	state_category = pastoral
+	local_supplies = 0.0
+}

@@ -1,0 +1,202 @@
+
+PRC_power_balance = {
+	initial_value = 0.10
+	left_side = PRC_communist_side	
+	right_side = PRC_socialist_side	
+	decision_category = PRC_balance_of_power_category
+	### Neutral Status ###
+	range = {
+		id = PRC_balance_range
+		min = -0.15
+		max = 0.15
+		modifier = {
+			war_support_factor = 0
+			research_speed_factor = 0
+			political_power_factor = 0
+			max_command_power_mult = 0
+			consumer_goods_factor = 0
+			#custom_modifier_tooltip = PRC_balance_range_tt
+		}
+		on_activate = {
+			# Country Variables
+			set_variable = { PRC_communist_advisor_cost = 150 }
+			set_variable = { PRC_socialist_advisor_cost = 150 }
+		}
+		on_deactivate = {
+			# deactivation effect
+		}
+
+	}
+
+	### Communist Influence
+	side = {
+		id = PRC_communist_side		
+		icon = GFX_bop_ITA_communism_improved_side
+		range = {
+			id = PRC_communist_total_control_range
+			min = -1
+			max = -0.9
+			modifier = {
+				war_support_factor = 0.1
+				research_speed_factor = -0.1
+				political_power_factor = -0.15
+				max_command_power_mult = 0.1
+				consumer_goods_factor = 0.1
+				#custom_modifier_tooltip = ETH_mesafint_total_control_range_state_modifiers_tt
+			}
+			on_activate = {
+				# activation effect
+			}
+			on_deactivate = {
+				# deactivation effect
+			}
+
+		}
+		range = {
+			id = PRC_communist_dominant_range
+			min = -0.9
+			max = -0.65
+			modifier = {
+				war_support_factor = 0.1
+				research_speed_factor = -0.1
+				political_power_factor = -0.1
+				max_command_power_mult = 0.1
+				consumer_goods_factor = 0.1
+				#custom_modifier_tooltip = ETH_mesafint_dominant_range_state_modifiers_tt
+			}
+			on_activate = {
+				#
+			}
+			on_deactivate = {
+				# deactivation effect
+			}
+
+		}
+		range = {
+			id = PRC_communist_power_range
+			min = -0.65
+			max = -0.35
+			modifier = {
+				war_support_factor = 0.05
+				research_speed_factor = -0.05
+				political_power_factor = -0.1
+				max_command_power_mult = 0.05
+				consumer_goods_factor = 0.05
+				#custom_modifier_tooltip = ETH_mesafint_power_range_state_modifiers_tt
+			}
+			on_activate = {
+				#
+			}
+			on_deactivate = {
+				# deactivation effect
+			}
+
+		}
+		range = {
+			id = PRC_communist_influence_range
+			min = -0.35
+			max = -0.15
+			modifier = {
+				war_support_factor = 0.02
+				research_speed_factor = -0.05
+				political_power_factor = -0.05
+				max_command_power_mult = 0.05
+				consumer_goods_factor = 0
+				#custom_modifier_tooltip = ETH_mesafint_influence_range_state_modifiers_tt
+			}
+			on_activate = {
+				#
+			}
+			on_deactivate = {
+				# deactivation effect
+			}
+
+		}
+	}
+	side = {
+		id = PRC_socialist_side	
+		icon = GFX_bop_ITA_democratic_improved_side
+		range = {
+			id = PRC_socialist_influence_range
+			min = 0.15
+			max = 0.35
+			modifier = {
+				war_support_factor = 0
+				research_speed_factor = 0
+				political_power_factor = 0.02
+				max_command_power_mult = 0
+				consumer_goods_factor = 0
+				#custom_modifier_tooltip = PRC_socialist_influence_range_state_modifiers_tt
+			}
+			on_activate = {
+				#
+			}
+			on_deactivate = {
+				# deactivation effect
+			}
+
+		}
+		range = {
+			id = PRC_socialist_power_range
+			min = 0.35
+			max = 0.65
+			modifier = {
+				war_support_factor = 0
+				research_speed_factor = 0.02
+				political_power_factor = 0.05
+				max_command_power_mult = 0
+				consumer_goods_factor = -0.05
+
+				#custom_modifier_tooltip = PRC_socialist_power_range_state_modifiers_tt
+			}
+			on_activate = {
+				#
+			}
+			on_deactivate = {
+				# deactivation effect
+			}
+
+		}
+		range = {
+			id = PRC_socialist_dominant_range
+			min = 0.65
+			max = 0.9
+			modifier = {
+				war_support_factor = 0
+				research_speed_factor = 0.05
+				political_power_factor = 0.05
+				max_command_power_mult = 0
+				consumer_goods_factor = -0.05
+				#custom_modifier_tooltip = PRC_socialist_dominant_range_state_modifiers_tt
+			}
+			on_activate = {
+				#
+			}
+			on_deactivate = {
+				# deactivation effect
+			}
+
+		}
+		range = {
+			id = PRC_socialist_total_control_range
+			min = 0.9
+			max = 1
+			modifier = {
+				war_support_factor = 0
+				research_speed_factor = 0.05
+				political_power_factor = 0.1
+				max_command_power_mult = 0
+				consumer_goods_factor = -0.05
+				#custom_modifier_tooltip = PRC_socialist_total_control_range_state_modifiers_tt
+			}
+			on_activate = {
+				#
+			}
+			on_deactivate = {
+				# deactivation effect
+			}
+
+		}
+	}
+}
+

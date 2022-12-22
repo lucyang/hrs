@@ -1,0 +1,23 @@
+state={
+	id=444
+	name="STATE_444"
+	provinces={
+		2 79 174 182 264 280 346 375 462 515 584 559 693 810 878 918 1044 1065 1071 1146 1198 1315 1820 1940 1952 2007 2420 2432 2582 3046 3234 3288 3395 3420 3448 3449 4775 4776
+	}
+	history = {
+		owner = TBA
+		add_core_of = TBA
+
+		victory_points = { 1820 5 } #赤塔
+		victory_points = { 346 1 } #尼布楚/涅尔琴斯克
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+	manpower=509503
+	state_category = rural
+	local_supplies = 0.0
+}

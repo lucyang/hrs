@@ -1,0 +1,66 @@
+characters={
+	JID_yin_rugeng={ 
+		name=JID_yin_rugeng
+		portraits={
+			civilian={
+				large="gfx/leaders/JID/Portrait_Yin_Rugeng.png"
+			}
+			army={
+				large="gfx/leaders/JID/Portrait_Yin_Rugeng.png"
+			}
+		}
+		country_leader={
+			ideology=corporatism_subtype
+			desc=JID_yin_rugeng_desc
+			traits={ political_chameleon technocrat }
+			expire="1950.1.1.1"
+		}
+		corps_commander={
+			traits={ }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+	JID_chi_zongmo={ 
+		name=JID_chi_zongmo
+		portraits={
+			civilian={
+				large="gfx/leaders/JID/Portrait_Chi_Zongmo.png"
+			}
+		}
+		country_leader={
+			ideology=corporacracy_subtype
+			desc=JID_chi_zongmo_desc
+			traits={ war_profiteer dealbroker }
+			expire="1950.1.1.1"
+		}
+	}
+	JID_zhang_qingyu={ 
+		name=JID_zhang_qingyu
+		portraits={
+			civilian={
+				large="gfx/leaders/JID/Portrait_Zhang_Qingyu.png"
+			}
+			army={
+				large="gfx/leaders/JID/Portrait_Zhang_Qingyu.png"
+			}
+		}
+		#country_leader={
+		#	ideology=military_government_subtype
+		#	desc=JID_zhang_qingyu
+		#	traits={ political_chameleon genial_anti_revolutionary }
+		#	expire="1963.9.18.1"
+		#}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+}

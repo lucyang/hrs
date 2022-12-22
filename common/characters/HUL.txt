@@ -1,0 +1,16 @@
+characters={
+	HUL_merse={
+		name=HUL_merse
+		portraits={
+			civilian={
+				large="gfx/leaders/HUL/Portrait_Merse.png"
+			}
+		}
+		country_leader={
+			ideology=national_communism_subtype
+			desc=HUL_merse_desc
+			traits={  }
+			expire="1950.1.1.1"
+		}
+	}
+}

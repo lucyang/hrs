@@ -1,0 +1,33 @@
+characters = {
+	ANM_zhang_mingqi = {
+		name = ANM_zhang_mingqi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ANM/Portrait_Zhang_Mingqi.dds"
+			}
+		}
+		country_leader = {
+			ideology=colonialism_subtype
+			desc = ANM_zhang_mingqi_desc
+			traits = { emergency_powers prince_of_terror }
+			expire = "1945.9.15.1"
+		}
+	}
+	ANM_long_jiguang = {
+		name = ANM_long_jiguang
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ANM/Portrait_Long_Jiguang.png"
+			}
+			army = {
+				large = "gfx/leaders/ANM/Portrait_Long_Jiguang.png"
+			}
+		}
+		#country_leader = {
+		#	ideology = military_government_subtype
+		#	desc = ANM_long_jiguang_desc
+		#	traits = { emergency_powers reluctant_veteran }
+		#	expire = "1993.11.14.1"
+		#}
+	}
+}

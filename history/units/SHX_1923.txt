@@ -1,0 +1,115 @@
+﻿division_template = {
+	name = "步兵团"
+	division_names_group = CHI_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "混成团"
+	division_names_group = CHI_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+	priority = 2
+}
+division_template = {
+	name = "炮兵团"
+	division_names_group = CHI_INF_01
+
+	regiments = {
+		artillery_brigade = { x = 0 y = 0 }
+		artillery_brigade = { x = 1 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "骑兵团"
+	division_names_group = CHI_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "警备队"
+
+	division_names_group = CHI_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+	priority = 0
+}
+units = {
+	division = {
+		name = "第1步兵团"
+		location = 102 #太原
+		division_template = "步兵团"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "第2步兵团"
+		location = 499 #临汾
+		division_template = "步兵团"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "第1骑兵团"
+		location = 1975 #太原
+		division_template = "骑兵团"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "晋北混成团"
+		location = 920 #大同
+		division_template = "混成团"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "晋北警备队"
+		location = 1868 #大同
+		division_template = "警备队"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "晋南混成团"
+		location = 1502 #运城
+		division_template = "混成团"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "晋南警备队"
+		location = 2008 #大同
+		division_template = "警备队"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "忻州农民自卫军"
+		location = 568 #忻州
+		division_template = "警备队"
+		start_experience_factor = 0.1
+	}
+}

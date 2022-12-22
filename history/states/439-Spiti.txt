@@ -1,0 +1,18 @@
+state={
+	id=439
+	name="STATE_439"
+	provinces={
+		77 1033 1678 4834
+	}
+	history = {
+		owner = LDK
+		add_core_of = LDK
+		
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=1000
+	state_category = rural
+	local_supplies = 0.0
+}

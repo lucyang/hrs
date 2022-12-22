@@ -1,0 +1,646 @@
+﻿division_template = {
+	name = "步兵联队"
+	division_names_group = IMC_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "机动步兵联队"
+	division_names_group = IMC_MOT_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		mot_recon = { x= 0 y = 1 }
+	}
+}
+division_template = {
+	name = "炮兵联队"
+	division_names_group = IMC_INF_01
+
+	regiments = {
+		artillery_brigade = { x = 0 y = 0 }
+		artillery_brigade = { x = 1 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "骑兵联队"
+	division_names_group = IMC_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "搜索联队"
+	division_names_group = IMC_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 1 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "独立步兵联队"
+	division_names_group = IMC_MTN_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 1 y = 0 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "宪兵队"
+	template_counter = 42
+	division_names_group = IMC_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+	support = {
+		military_police = { x = 0 y = 0 }
+	}
+	priority = 0
+}
+units = {
+	#### KYUSHU ####
+	### 12th Division HQ:Kokura ###
+	division = {
+		name = "步兵第14联队"
+		location = 537 #小仓
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "步兵第47联队"
+		location = 537 #小仓
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "步兵第24联队"
+		location = 3767 #福冈
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "步兵第48联队"
+		location = 3767 #福冈(久留米)
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "骑兵第12联队"
+		location = 537 #小仓
+		division_template = "炮兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "野战炮兵第12联队"
+		location = 537 #小仓
+		division_template = "炮兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	### 6th Division HQ:Kumamoto ###
+	division = {
+		name = "步兵第13联队"
+		location = 2247 #熊本
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "步兵第47联队"
+		location = 2247 #熊本
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "步兵第23联队"
+		location = 2570 #宫崎
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "步兵第45联队"
+		location = 2646 #鹿儿岛
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "骑兵第6联队"
+		location = 2247 #熊本
+		division_template = "炮兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "炮兵第6联队"
+		location = 2247 #熊本
+		division_template = "炮兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	#### CHUGOKU ####
+	### 5th Division HQ:Hiroshima ###
+	division = {
+		name = "步兵第11联队"
+		location = 3049 #广岛
+		division_template = "步兵联队"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "步兵第21联队"
+		location = 3336 #岛根
+		division_template = "步兵联队"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "步兵第41联队"
+		location = 2542 #福山
+		division_template = "机动步兵联队"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "步兵第42联队"
+		location = 2548 #山口
+		division_template = "机动步兵联队"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "骑兵第5联队"
+		location = 3049 #广岛
+		division_template = "骑兵联队"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "炮兵第5联队"
+		location = 3049 #广岛
+		division_template = "炮兵联队"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	#### SHIKOKU ####
+	### 11th Division HQ:Kagawa ###
+	division = {
+		name = "步兵第12联队"
+		location = 2200 #香川
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "步兵第22联队"
+		location = 2200 #香川
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "步兵第43联队"
+		location = 987 #德岛
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "步兵第44联队"
+		location = 1662 #高知
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "骑兵第11联队"
+		location = 2200 #香川
+		division_template = "骑兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "山炮兵第11联队"
+		location = 2200 #香川
+		division_template = "炮兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	#### KANSAI ####
+	### 10th Division HQ:Himeji ###
+	division = {
+		name = "第39步兵联队"
+		location = 2373 #姬路
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "第40步兵联队"
+		location = 2373 #姬路
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "第10步兵联队"
+		location = 2274 #冈山
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "第63步兵联队"
+		location = 2446 #松江
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "骑兵第10联队"
+		location = 2373 #姬路
+		division_template = "骑兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "野战炮兵第10联队"
+		location = 2373 #姬路
+		division_template = "炮兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	#### KINKI ####
+	### 4th Division HQ:Osaka ###
+	division = {
+		name = "步兵第8联队"
+		location = 1600 #大阪
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "步兵第9联队"
+		location = 1600 #大阪
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "步兵第33联队"
+		location = 1600 #大阪
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "步兵第61联队"
+		location = 1650 #和歌山
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "骑兵第4联队"
+		location = 1600 #大阪
+		division_template = "骑兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "野战炮兵第4联队"
+		location = 1600 #大阪
+		division_template = "炮兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	### 16th Division HQ:Kyoto ###
+	division = {
+		name = "步兵第33联队"
+		location = 1677 #津
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "步兵第38联队"
+		location = 3719 #京都
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "步兵第9联队"
+		location = 3719 #京都
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "步兵第20联队"
+		location = 3719 #京都
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "骑兵第16联队"
+		location = 3719 #京都
+		division_template = "骑兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "野战炮兵第16联队"
+		location = 3719 #京都
+		division_template = "炮兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	#### CHUBU ####
+	### 3th Division HQ:Nagoya ###
+	division = {
+		name = "第6步兵联队"
+		location = 3716 #名古屋
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "第68步兵联队"
+		location = 55 #岐阜
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "第18步兵联队"
+		location = 3727 #丰桥
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "第34步兵联队"
+		location = 3728 #静冈
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "第3骑兵联队"
+		location = 3716 #守山/名古屋
+		division_template = "骑兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "第3野战重炮兵联队"
+		location = 3728 #三岛/静冈
+		division_template = "炮兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	### 9th Division HQ:Kanazawa ###
+	division = {
+		name = "步兵第7联队"
+		location = 3695 #金泽
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "步兵第35联队"
+		location = 752 #富山
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "步兵第19联队"
+		location = 3703 #敦贺
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "步兵第36联队"
+		location = 3695 #金泽
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "骑兵第9联队"
+		location = 3695 #金泽
+		division_template = "骑兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "山炮兵第9联队"
+		location = 3695 #金泽
+		division_template = "炮兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	#### KANTO ####
+	### 14th Division HQ:Utsunomiya ###
+	division = {
+		name = "步兵第2联队"
+		location = 2607 #水户
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "步兵第59联队"
+		location = 352 #宇都宫
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "步兵第15联队"
+		location = 2924 #高崎/群马
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "步兵第50联队"
+		location = 352 #宇都宫
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "骑兵第14联队"
+		location = 352 #宇都宫
+		division_template = "骑兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "山炮兵第14联队"
+		location = 352 #宇都宫
+		division_template = "炮兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	#### TOHOKO ####
+	### 2th Division HQ:Sendai ###
+	division = {
+		name = "步兵第4联队"
+		location = 720 #仙台
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "步兵第29联队"
+		location = 2138 #若松
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "步兵第16联队"
+		location = 2665 #新潟
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "步兵第30联队"
+		location = 720 #仙台
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "骑兵第2联队"
+		location = 720 #仙台
+		division_template = "骑兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "野战炮兵第2联队"
+		location = 720 #仙台
+		division_template = "炮兵联队"
+		start_experience_factor = 0.3
+	}
+	### 8th Division HQ:Hirosaki ###
+	division = {
+		name = "步兵第5联队"
+		location = 3619 #青森
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "步兵第31联队"
+		location = 1395 #弘前
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "步兵第17联队"
+		location = 3287 #秋田
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "步兵第32联队"
+		location = 1395 #弘前
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "骑兵第8联队"
+		location = 1395 #弘前
+		division_template = "骑兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "野战炮兵第8联队"
+		location =1395 #弘前
+		division_template = "炮兵联队"
+		start_experience_factor = 0.3
+	}
+	#### HOKKAIDO ####
+	### 7th Division HQ:Sapporo ###
+	division = {
+		name = "步兵第25联队"
+		location = 2713 #旭川
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "步兵第26联队"
+		location = 2713 #旭川
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "步兵第27联队"
+		location = 2713 #旭川
+		division_template = "步兵联队"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "步兵第28联队"
+		location = 2713 #旭川
+		division_template = "步兵联队"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "骑兵第7联队"
+		location = 2713 #旭川
+		division_template = "骑兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "野战炮兵第7联队"
+		location = 2713 #旭川
+		division_template = "炮兵联队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+}

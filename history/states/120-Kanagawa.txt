@@ -1,0 +1,31 @@
+
+state={
+	id=120
+	name="STATE_120"
+
+	history={
+		owner = IMJ
+		add_core_of = IMJ
+
+		victory_points = { 3712 10 } #横須賀
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 3
+			3712 = {
+				naval_base = 4
+			}
+		}
+
+	}
+
+	provinces={
+		3712
+	}
+	manpower=1323390
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

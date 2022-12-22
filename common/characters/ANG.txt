@@ -1,0 +1,128 @@
+characters={
+	ANG_alfonso_xiii={
+		name=ANG_alfonso_xiii
+		portraits={
+			civilian={
+				large="gfx/leaders/ANG/Portrait_Alfonso_XIII.dds"
+			}
+		}
+		#country_leader={
+		#	ideology=absolute_monarchy_subtype
+		#	desc=ANG_alfonso_xiii_desc
+		#	traits={ }
+		#	expire="1941.2.28.1"
+		#}
+	}
+	ANG_infante_alfonso_carlos={
+		name=ANG_infante_alfonso_carlos
+		portraits={
+			civilian={
+				large="gfx/leaders/ANG/Portrait_Infante_Alfonso_Carlos.dds"
+			}
+		}
+		#country_leader={
+		#	ideology=absolute_monarchy_subtype
+		#	desc=ANG_infante_alfonso_carlos_desc
+		#	traits={ }
+		#	expire="1939.9.29.1"
+		#}
+	}
+	ANG_xavier_of_bourbon_parma={
+		name=ANG_xavier_of_bourbon_parma
+		portraits={
+			civilian={
+				large="gfx/leaders/ANG/Portrait_Xavier_of_Bourbon_Parma.dds"
+			}
+		}
+		#country_leader={
+		#	ideology=absolute_monarchy_subtype
+		#	desc=ANG_xavier_of_bourbon_parma_desc
+		#	traits={ }
+		#	expire="1977.5.7.1"
+		#}
+	}
+	ANG_pierre_laval={
+		name=ANG_pierre_laval
+		portraits={
+			civilian={
+				large="gfx/leaders/ANG/Portrait_Pierre_Laval.png"
+			}
+		}
+		country_leader={
+			ideology=corporatism_subtype
+			desc=ANG_pierre_laval_desc
+			traits={ }
+			expire="1945.10.15.1"
+		}
+	}
+	ANG_philippe_petain={
+		name=ANG_philippe_petain
+		portraits={
+			civilian={
+				large="gfx/leaders/ANG/Portrait_Philippe_Petain.png"
+			}
+		}
+		country_leader={
+			ideology=military_government_subtype
+			desc=ANG_philippe_petain_desc
+			traits={ }
+			expire="1951.7.23.1"
+		}
+	}
+	ANG_georges_clemenceau={
+		name=ANG_georges_clemenceau
+		portraits={
+			civilian={
+				large="gfx/leaders/ANG/Portrait_Georges_Clemenceau.png"
+			}
+		}
+		country_leader={
+			ideology=social_democratic_subtype
+			desc=ANG_georges_clemenceau_desc
+			traits={ }
+			expire="1929.11.24.1"
+		}
+	}
+	ANG_francois_de_la_rocque={
+		name=ANG_francois_de_la_rocque
+		portraits={
+			civilian={
+				large="gfx/leaders/ANG/Portrait_Francois_de_la_Rocque.png"
+			}
+		}
+		country_leader={
+			ideology=ultranationalism_subtype
+			desc=ANG_francois_de_la_rocque_desc
+			traits={ }
+			expire="1946.4.28.1"
+		}
+	}
+	ANG_jean_of_orleans={
+		name=ANG_jean_of_orleans
+		portraits={
+			civilian={
+				large="gfx/leaders/ANG/Portrait_Jean_of_Orleans.dds"
+			}
+		}
+		country_leader={
+			ideology=accelerationism_subtype
+			desc=ANG_jean_of_orleans_desc
+			traits={ }
+			expire="1940.8.25.1"
+		}
+	}
+	ANG_infante_jaime={
+		name=ANG_infante_jaime
+		portraits={
+			civilian={
+				large="gfx/leaders/ANG/Portrait_Infante_Jaime.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_subtype
+			desc=ANG_infante_jaime_desc
+			traits={ }
+			expire="1975.3.20.1"
+		}
+	}
+}

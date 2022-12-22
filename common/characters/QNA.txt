@@ -1,0 +1,16 @@
+characters={
+	QNA_shen_honglie={
+		name=QNA_shen_honglie
+		portraits={
+			civilian={
+				large="gfx/leaders/QNA/Portrait_Shen_Honglie.png"
+			}
+		}
+		country_leader={
+			ideology=military_government_subtype
+			desc=QNA_shen_honglie_desc
+			traits={ anti_communist armaments_organizer }
+			expire="1969.3.12.1"
+		}
+	}
+}

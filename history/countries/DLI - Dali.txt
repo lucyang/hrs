@@ -1,0 +1,64 @@
+﻿capital = 316 #大理
+
+recruit_character = DLI_yan_zizhen
+recruit_character = DLI_qu_huanzhang
+
+oob = "empty"
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	basic_train = 1
+	gw_artillery = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	fuel_refining = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+add_ideas = {
+	free_trade
+	limited_conscription
+	war_economy
+}
+add_ideas = {
+	country_development2
+	country_tech2
+	dirigisme_economy
+	unitary_state2
+}
+
+set_research_slots = 1
+set_convoys = 10
+set_stability = 0.50
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1923.10.30"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 4
+	anarchism = 0
+	socialism = 8
+	democratic = 41
+	neutrality = 29
+	monarchism = 8
+	fascism = 10
+	imperialism = 0
+	futurism = 0
+}

@@ -1,0 +1,23 @@
+state={
+	id=206
+	name="STATE_206"
+	provinces={
+		192 368 1565 3031 3135 3240 3363 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 1565 5 } #襄阳
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		
+	}
+	manpower=5059465
+	state_category = city
+	local_supplies = 0.0
+}

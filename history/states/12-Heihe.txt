@@ -1,0 +1,26 @@
+state={
+	id=12
+	name="STATE_12"
+	provinces={
+		70 423 697 1081 1287 1329 1715 1838 2034 2311 2417 2816 2845 2948 3441 3459 
+	}
+	history = {
+		owner = MAN
+		add_core_of = MAN
+		victory_points = {
+			2034 1
+			}
+		victory_points = {
+			2417 1
+			}
+		victory_points = {
+			2816 1
+			}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=119887
+	state_category = rural
+	local_supplies = 0.0
+}

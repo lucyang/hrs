@@ -1,0 +1,126 @@
+﻿capital = 180 # Fukuora
+
+recruit_character = JPR_sakai_toshihiko #堺利彦
+recruit_character = JPR_arahata_kanso #荒畑寒村
+recruit_character = JPR_yamakawa_hitoshi #山川均
+recruit_character = JPR_noro_eitaro #野吕荣太郎
+recruit_character = JPR_fukumoto_kazuo #福本和夫
+recruit_character = JPR_akamatsu_katsumaro #赤松克麿
+
+oob = "empty"
+
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	tech_recon = 1
+	tech_support = 1		
+	basic_train = 1
+	gw_artillery = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	fuel_refining = 1
+}
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+if = {
+	limit = {
+		
+		has_dlc = "No Step Back"
+		
+	}
+	set_technology = {
+		gwtank_chassis = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		improved_ship_torpedo_launcher = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		mtg_transport = 1
+		coastal_defense_ships = 1
+		#basic_secondary_battery = 1
+		basic_depth_charges = 1
+		basic_cruiser_armor_scheme = 1
+		cruiser_submarines = 1
+	}
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		transport = 1
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+add_ideas = {
+	JPR_the_dissidents
+	JPR_isolated_vanguard
+	JPR_army_beyong_control
+}
+
+add_ideas = {
+	closed_economy
+	limited_conscription
+	war_economy
+}
+add_ideas = {
+	country_development3
+	country_tech3
+	planned_economy
+	federation1
+}
+
+set_research_slots = 2
+set_convoys = 10
+set_stability = 0.45
+set_war_support = 0.70
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1922.9.14"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 32
+	anarchism = 30
+	socialism = 31
+	democratic = 0
+	neutrality = 0
+	monarchism = 0
+	fascism = 7
+	imperialism = 0
+	futurism = 0
+}

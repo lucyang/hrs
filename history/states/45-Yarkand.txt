@@ -1,0 +1,22 @@
+state={
+	id=45
+	name="STATE_45"
+	provinces={
+		574 1777 1810 2309 2898 3705 4784 332 1926 2697
+	}
+	history = {
+		owner = DZU
+		add_core_of = DZU
+
+		victory_points = { 1810 10 } #叶尔羌
+		victory_points = { 574 1 } #叶城
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	manpower=625859
+	state_category = town
+	local_supplies = 0.0
+}

@@ -1,0 +1,16 @@
+characters={
+	ULQ_bayandalai={
+		name=ULQ_bayandalai
+		portraits={
+			civilian={
+				large="gfx/leaders/ULQ/Portrait_Bayandalai.png"
+			}
+		}
+		country_leader={
+			ideology=left_nationalism_subtype
+			desc=ULQ_bayandalai_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+	}
+}

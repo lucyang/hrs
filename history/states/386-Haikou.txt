@@ -1,0 +1,31 @@
+state={
+	id=386
+	name="STATE_386"
+	resources = {
+		steel = 14
+	}
+	provinces={
+		1289 4225 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 4225 3 }
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 1
+			4225 = {
+				naval_base = 4 #洋浦�?
+				coastal_bunker = 1
+			}
+		}
+		
+	}
+	manpower=135337
+	state_category = city
+	local_supplies = 0.0
+}

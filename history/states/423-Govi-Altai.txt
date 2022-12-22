@@ -1,0 +1,19 @@
+
+state={
+	id=423
+	name="STATE_423"
+	provinces={
+		122 178 482 715 993 1019 1357 1602 1819 2327 2404 3192 3332 3525 3529 
+	}
+	history = {
+		owner = DBJ
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=40500
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

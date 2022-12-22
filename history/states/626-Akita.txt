@@ -1,0 +1,25 @@
+state={
+	id=626
+	name="STATE_626"
+	provinces={
+		1018 1993 2544 2660 3287 3641
+	}
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+
+		victory_points = { 3287 3 } #秋田
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			3287 = {
+				naval_base = 1
+			}
+		}
+	}
+	manpower=756454
+	state_category = town
+	local_supplies = 0.0
+}

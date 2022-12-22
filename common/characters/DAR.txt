@@ -1,0 +1,16 @@
+characters={
+	DAR_kong_xiangxi={
+		name=DAR_kong_xiangxi
+		portraits={
+			civilian={
+				large="gfx/leaders/DAR/Portrait_Kong_Xiangxi.png"
+			}
+		}
+		country_leader={
+			ideology=corporacracy_subtype
+			desc=DAR_kong_xiangxi_desc
+			traits={ financial_expert technocrat }
+			expire="1967.8.16.1"
+		}
+	}
+}

@@ -1,0 +1,27 @@
+characters={
+	HEB_han_fuju={
+		name=HEB_han_fuju
+		portraits={
+			civilian={
+				large="gfx/leaders/HEB/Portrait_Han_Fuju.png"
+			}
+			army={
+				large="gfx/leaders/HEB/Portrait_Han_Fuju.png"
+			}
+		}
+		country_leader={
+			ideology=provisional_government_subtype
+			desc=HEB_han_fuju_desc
+			traits={  }
+			expire="1950.1.1.1"
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer politically_connected }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=1
+		}
+	}
+}

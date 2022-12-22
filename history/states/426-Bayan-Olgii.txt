@@ -1,0 +1,20 @@
+state={
+	id=426
+	name="STATE_426"
+	provinces={
+		345 885 1425 2428 4746
+	}
+	history = {
+		owner = DZU
+		add_core_of = DZU
+		
+		victory_points = { 885 1 } #乌列盖
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=45100
+	state_category = pastoral
+	local_supplies = 0.0
+}

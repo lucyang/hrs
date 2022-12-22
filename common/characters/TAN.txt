@@ -1,0 +1,44 @@
+characters={
+	TAN_mongush_buyan_badyrgy={
+		name=TAN_mongush_buyan_badyrgy
+		portraits={
+			civilian={
+				large="gfx/leaders/TAN/Portrait_Mongush_Buyan-Badyrgy.dds"
+			}
+		}
+		country_leader={
+			ideology=national_communism_subtype
+			desc=TAN_mongush_buyan_badyrgy_desc
+			traits={ veteran_communist }
+			expire="1937.12.25.1"
+		}
+	}
+	TAN_vasily_chapayev={
+		name=TAN_vasily_chapayev
+		portraits={
+			civilian={
+				large="gfx/leaders/TAN/Portrait_Vasily_Chapayev.dds"
+			}
+		}
+		country_leader={
+			ideology=leninism_subtype
+			desc=TAN_vasily_chapayev_desc
+			traits={ revolutionary_general }
+			expire="1943.5.11.1"
+		}
+	}
+	TAN_donduk_kuular={
+		name=TAN_donduk_kuular
+		portraits={
+			civilian={
+				large="gfx/leaders/TAN/Portrait_Donduk_Kuular.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democratic_subtype
+			desc=TAN_donduk_kuular_desc
+			traits={  }
+			expire="1950.12.25.1"
+		}
+	}
+}

@@ -1,0 +1,299 @@
+characters = {
+	### ETK-East Turkestan ###
+	ETK_masud_shabir = {
+		name = ETK_masud_shabir 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ETK/Portrait_Masud_Shabir.png"
+			}
+		}
+		country_leader = {
+			ideology = social_democratic_subtype
+			desc = ETK_masud_shabir_desc
+			traits = {  }
+			expire = "1952.1.1.1"
+		}
+	}
+	ETK_elihan_tore = {
+		name = ETK_elihan_tore
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ETK/Portrait_Elihan_Tore.png"
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism_subtype
+			desc = ETK_elihan_tore_desc
+			traits = {  }
+			expire = "1976.2.28.1"
+		}
+	}
+	ETK_burhan_shahidi = {
+		name = ETK_burhan_shahidi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ETK/Portrait_Burhan_Shahidi.png"
+			}
+		}
+		country_leader = {
+			ideology = national_communism_subtype
+			desc = ETK_burhan_shahidi_desc
+			traits = {  }
+			expire = "1954.1.1.1"
+		}
+	}
+	### HOT-Hotan ###
+	HOT_muhammad_amin = {
+		name = HOT_muhammad_amin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ETK/Portrait_Muhammad_Amin.png"
+			}
+		}
+		country_leader = {
+			ideology = guided_democracy_subtype
+			desc = HOT_muhammad_amin_desc
+			traits = {  }
+			expire = "1954.1.1.1"
+		}
+	}
+	### ASH-Ashan ###
+	ASH_usman_batur = {
+		name = ASH_usman_batur
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ETK/Portrait_Usman_Batur.png"
+			}
+		}
+	}
+	ASH_dalelkhan_sugirbayev = {
+		name = ASH_dalelkhan_sugirbayev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ETK/Portrait_Dalelkhan_Sugirbayev.png"
+			}
+			army={
+				large="gfx/leaders/KVD/Portrait_Dalelkhan_Sugirbayev_military.png"
+			}
+		}
+		country_leader = {
+			ideology = left_nationalism_subtype
+			desc = ASH_dalelkhan_sugirbayev_desc
+			traits = {  }
+			expire = "1954.1.1.1"
+		}
+		corps_commander={
+			traits={ cavalry_officer }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+	### HAM-Hami(deletaed) ###
+	HAM_sabit_damolla = {
+		name = HAM_sabit_damolla
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ETK/Portrait_Sabit_Damolla.png"
+			}
+		}
+		country_leader = {
+			ideology = legionism_subtype
+			desc = HAM_sabit_damolla_desc
+			traits = {  }
+			expire = "1954.1.1.1"
+		}
+	}
+	HAM_maqsud_shah = {
+		name = HAM_maqsud_shah
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ETK/Portrait_Maqsud_Shah.png"
+			}
+		}
+		country_leader = {
+			ideology = islamic_state_subtype
+			desc = HAM_maqsud_shah_desc
+			traits = {  }
+			expire = "1971.1.1.1"
+		}
+	}
+	HAM_yulbars_khan = {
+		name = HAM_yulbars_khan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ETK/Portrait_Yulbars_Khan.png"
+			}
+		}
+		country_leader = {
+			ideology = military_government_subtype
+			desc = HAM_yulbars_khan_desc
+			traits = {  }
+			expire = "1971.1.1.1"
+		}
+	}
+	HAM_khoja_niyaz = {
+		name = HAM_khoja_niyaz
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ETK/Portrait_Khoja_Niyaz.png"
+			}
+		}
+		country_leader = {
+			ideology = national_conservatism_subtype
+			desc = HAM_khoja_niyaz_desc
+			traits = {  }
+			expire = "1941.1.1.1"
+		}
+	}
+	### AKS-Aksu ###
+	AKS_timur_beg = {
+		name = AKS_timur_beg
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ETK/Portrait_Timur_Beg.png"
+			}
+		}
+		country_leader = {
+			ideology = irredentism_subtype
+			desc = AKS_timur_beg_desc
+			traits = {  }
+			expire = "1951.1.1.1"
+		}
+	}
+	AKS_timur_shah = {
+		name = AKS_timur_shah
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ETK/Portrait_Timur_Beg.png"
+			}
+		}
+		country_leader = {
+			ideology = islamic_state_subtype
+			desc = AKS_timur_shah_desc
+			traits = {  }
+			expire = "1951.1.1.1"
+		}
+	}
+	### SIK-Sinkiang ###
+	SIK_sheng_shicai = {
+		name = SIK_sheng_shicai
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ETK/Portrait_Sheng_Shicai.png"
+			} 
+		}
+		country_leader = {
+			ideology = left_militarism_subtype
+			desc = SIK_sheng_shicai_desc
+			traits = { political_chameleon emergency_powers }
+			expire = "1970.7.13.1"
+		}
+	}
+	SIK_jin_shuren = {
+		name = SIK_jin_shuren
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ETK/Portrait_Jin_Shuren.png"
+			}
+		}
+		country_leader = {
+			ideology = development_authoritarianism_subtype
+			desc = SIK_jin_shuren_desc
+			traits = { technocrat genial_anti_revolutionary }
+			expire = "1941.9.12.1"
+		}
+	}
+	### TCH - Tacheng ###
+	TCH_boris_annenkov = {
+		name = TCH_boris_annenkov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ETK/Portrait_Boris_Annenkov.png"
+			}
+			army={
+				large="gfx/leaders/ETK/Portrait_Boris_Annenkov.png"
+			}
+		}
+		country_leader = {
+			ideology = warlordism_subtype
+			desc = TCH_boris_annenkov_desc
+			traits = { LAT_military_dictator the_foreign_connection }
+			expire = "1950.1.1.1"
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	TCH_andrei_bakich = {
+		name = TCH_andrei_bakich
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ETK/Portrait_Andrei_Bakich.png"
+			}
+			army={
+				large="gfx/leaders/ETK/Portrait_Andrei_Bakich.png"
+			}
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+	TCH_alexander_dutov = {
+		name = TCH_alexander_dutov
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ETK/Portrait_Alexander_Dutov.png"
+			}
+			army={
+				large="gfx/leaders/ETK/Portrait_Alexander_Dutov.png"
+			}
+		}
+		corps_commander={
+			traits={ career_officer cavalry_officer war_hero }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	### ILI - Ili ###
+	ILI_gheni_batur = {
+		name = ILI_gheni_batur
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ETK/Portrait_Gheni_Batur.png"
+			}
+			army={
+				large="gfx/leaders/ETK/Portrait_Gheni_Batur.png"
+			}
+		}
+		country_leader = {
+			ideology = military_government_subtype
+			desc = ILI_gheni_batur_desc
+			traits = { }
+			expire = "1950.1.1.1"
+		}
+		corps_commander={
+			traits={ war_hero }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+}

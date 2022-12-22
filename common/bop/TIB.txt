@@ -1,0 +1,218 @@
+
+TIB_power_balance = {
+	initial_value = -0.25
+	left_side = TIB_reformist_side	
+	right_side = TIB_traditionalist_side	
+	decision_category = TIB_balance_of_power_category
+	### Neutral Status ###
+	range = {
+		id = TIB_balance_range
+		min = -0.15
+		max = 0.15
+		modifier = {
+			stability_factor = 0
+			war_support_factor = 0
+			research_speed_factor = 0
+			political_power_factor = 0
+			production_speed_buildings_factor = 0
+			industrial_capacity_factory = 0
+			#custom_modifier_tooltip = TIB_balance_range_tt
+		}
+		on_activate = {
+			# Country Variables
+			set_variable = { TIB_reformist_advisor_cost = 150 }
+			set_variable = { TIB_traditionalist_advisor_cost = 150 }
+		}
+		on_deactivate = {
+			# deactivation effect
+		}
+
+	}
+
+	### Modernist Influence
+	side = {
+		id = TIB_reformist_side		
+		icon = GFX_bop_SWI_centralization_canton_side
+		range = {
+			id = TIB_reformist_total_control_range
+			min = -1
+			max = -0.9
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = 0.1
+				research_speed_factor = 0.1
+				political_power_factor = -0.15
+				production_speed_buildings_factor = 0.1
+				industrial_capacity_factory = 0.1
+				consumer_goods_factor = 0.1
+				#custom_modifier_tooltip = ETH_mesafint_total_control_range_state_modifiers_tt
+			}
+			on_activate = {
+				# activation effect
+			}
+			on_deactivate = {
+				# deactivation effect
+			}
+
+		}
+		range = {
+			id = TIB_reformist_dominant_range
+			min = -0.9
+			max = -0.65
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = 0.1
+				research_speed_factor = 0.1
+				political_power_factor = -0.1
+				production_speed_buildings_factor = 0.1
+				industrial_capacity_factory = 0.1
+				consumer_goods_factor = 0.1
+				#custom_modifier_tooltip = ETH_mesafint_dominant_range_state_modifiers_tt
+			}
+			on_activate = {
+				#
+			}
+			on_deactivate = {
+				# deactivation effect
+			}
+
+		}
+		range = {
+			id = TIB_reformist_power_range
+			min = -0.65
+			max = -0.35
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = 0.05
+				research_speed_factor = 0.05
+				political_power_factor = -0.1
+				production_speed_buildings_factor = 0.05
+				industrial_capacity_factory = 0.05
+				consumer_goods_factor = 0.05
+				#custom_modifier_tooltip = ETH_mesafint_power_range_state_modifiers_tt
+			}
+			on_activate = {
+				#
+			}
+			on_deactivate = {
+				# deactivation effect
+			}
+
+		}
+		range = {
+			id = TIB_reformist_influence_range
+			min = -0.35
+			max = -0.15
+			modifier = {
+				stability_factor = -0.02
+				war_support_factor = 0.05
+				research_speed_factor = 0.05
+				political_power_factor = -0.05
+				production_speed_buildings_factor = 0.05
+				industrial_capacity_factory = 0.05
+				consumer_goods_factor = 0
+				#custom_modifier_tooltip = ETH_mesafint_influence_range_state_modifiers_tt
+			}
+			on_activate = {
+				#
+			}
+			on_deactivate = {
+				# deactivation effect
+			}
+
+		}
+	}
+	side = {
+		id = TIB_traditionalist_side	
+		icon = GFX_bop_SWI_centralization_council_side
+		range = {
+			id = TIB_traditionalist_influence_range
+			min = 0.15
+			max = 0.35
+			modifier = {
+				stability_factor = 0.02
+				war_support_factor = 0
+				research_speed_factor = 0
+				political_power_factor = 0.02
+				production_speed_buildings_factor = 0
+				industrial_capacity_factory = 0
+				consumer_goods_factor = 0
+				#custom_modifier_tooltip = TIB_traditionalist_influence_range_state_modifiers_tt
+			}
+			on_activate = {
+				#
+			}
+			on_deactivate = {
+				# deactivation effect
+			}
+
+		}
+		range = {
+			id = TIB_traditionalist_power_range
+			min = 0.35
+			max = 0.65
+			modifier = {
+				stability_factor = 0.02
+				war_support_factor = 0
+				research_speed_factor = -0.02
+				political_power_factor = 0.05
+				production_speed_buildings_factor = -0.05
+				industrial_capacity_factory = -0.05
+				consumer_goods_factor = -0.05
+				#custom_modifier_tooltip = TIB_traditionalist_power_range_state_modifiers_tt
+			}
+			on_activate = {
+				#
+			}
+			on_deactivate = {
+				# deactivation effect
+			}
+
+		}
+		range = {
+			id = TIB_traditionalist_dominant_range
+			min = 0.65
+			max = 0.9
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = -0.05
+				research_speed_factor = -0.05
+				political_power_factor = 0.05
+				production_speed_buildings_factor = -0.1
+				industrial_capacity_factory = -0.1
+				consumer_goods_factor = -0.1
+				#custom_modifier_tooltip = TIB_traditionalist_dominant_range_state_modifiers_tt
+			}
+			on_activate = {
+				#
+			}
+			on_deactivate = {
+				# deactivation effect
+			}
+
+		}
+		range = {
+			id = TIB_traditionalist_total_control_range
+			min = 0.9
+			max = 1
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = -0.1
+				research_speed_factor = -0.1
+				political_power_factor = 0.1
+				production_speed_buildings_factor = -0.1
+				industrial_capacity_factory = -0.1
+				consumer_goods_factor = -0.1
+				#custom_modifier_tooltip = TIB_traditionalist_total_control_range_state_modifiers_tt
+			}
+			on_activate = {
+				#
+			}
+			on_deactivate = {
+				# deactivation effect
+			}
+
+		}
+	}
+}
+

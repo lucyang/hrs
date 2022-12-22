@@ -1,0 +1,50 @@
+scripted_gui = {
+
+	HRS_super_event_window = {
+		context_type = player_context
+		window_name = "HRS_super_event_window"
+
+		visible = {
+			has_global_flag = HRS_super_event_visible
+		}
+
+		triggers = {
+			Super_Event_Image_CHI_civil_war_se_visible = {
+				has_global_flag = CHI_civil_war_se_visible
+			}
+			Super_Event_Image_JAP_civil_war_se_visible = {
+				has_global_flag = JAP_civil_war_se_visible
+			}
+			Super_Event_Image_KOR_civil_war_se_visible = {
+				has_global_flag = KOR_civil_war_se_visible
+			}
+			Super_Event_Image_CHI_shanghai_uprising_se_visible = {
+				has_global_flag = CHI_shanghai_uprising_se_visible
+			}
+		}
+		properties = {
+			Super_Event_Image_Default = {
+				image = "[get_my_superevent_texture]"
+			}
+		}
+		effects = {
+			Super_Event_Close_click = {
+				clr_global_flag = HRS_super_event_visible
+				if = {
+					limit = {
+						OR = {
+							has_global_flag = CHI_civil_war_se_visible
+							has_global_flag = JAP_civil_war_se_visible
+							has_global_flag = KOR_civil_war_se_visible
+							has_global_flag = CHI_shanghai_uprising_se_visible
+						}
+					}
+					clr_global_flag = CHI_civil_war_se_visible
+					clr_global_flag = JAP_civil_war_se_visible
+					clr_global_flag = KOR_civil_war_se_visible
+					clr_global_flag = CHI_shanghai_uprising_se_visible
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+characters={
+	DZU_choros_tangguse={
+		name=DZU_choros_tangguse
+		portraits={
+			civilian={
+				large="gfx/leaders/MON/Portrait_Choros_Tangguse.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_subtype
+			desc=DZU_choros_tangguse_desc
+			traits={  }
+			expire="1930.12.25.1"
+		}
+	}
+	DZU_regent_council={
+		name=DZU_regent_council
+		portraits={
+			civilian={
+				large="gfx/leaders/DZU/Portrait_Regent_Council.dds"
+			}
+		}
+		country_leader={
+			ideology=feudalism_subtype
+			desc=DZU_regent_council_desc
+			traits={  }
+			expire="1950.1.1.1"
+		}
+	}
+}

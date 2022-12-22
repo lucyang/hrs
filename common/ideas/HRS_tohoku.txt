@@ -1,0 +1,53 @@
+ideas = {
+	country = {
+		THK_northeast_mutual_protection = {
+			name = THK_northeast_mutual_protection
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = THK_northeast_mutual_protection
+			modifier = {
+				army_defence_factor = 0.1
+				political_power_cost = 0.5
+			}
+		}
+
+		THK_yasuhito_shinnou = {
+			name = THK_yasuhito_shinnou
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = THK_yasuhito_shinnou
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+
+		THK_the_last_days = {
+			name = THK_the_last_days
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = THK_the_last_days
+			modifier = {
+				consumer_goods_factor = 0.1
+				war_support_factor = -0.2
+			}
+		}
+	}
+}

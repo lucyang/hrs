@@ -1,0 +1,22 @@
+state={
+	id=204
+	name="STATE_204"
+	provinces={
+		476 1767 2095 2628 3228 3798 3807 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 2095 1 } #信阳
+		victory_points = { 3798 1 } #固始
+		
+		buildings = {
+			infrastructure = 2
+		}
+		
+	}
+	manpower=7239231
+	state_category = rural
+	local_supplies = 0.0
+}

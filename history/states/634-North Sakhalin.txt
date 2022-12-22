@@ -1,0 +1,22 @@
+state={
+	id=634
+	name="STATE_634"
+	provinces={
+		979 2012 3122
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 3122 1 } #縫江(诺格利基)
+		victory_points = { 979 1 } #奥端(奥哈)
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+	manpower=46000
+	state_category = rural
+	local_supplies = 0.0
+}

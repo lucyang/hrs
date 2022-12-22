@@ -1,0 +1,25 @@
+state={
+	id=95
+	name="STATE_95"
+	provinces={
+		2265 3664 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 2265 3 } #沧州
+		victory_points = { 3664 1 } #黄骅/盐山
+		
+		buildings = {
+			infrastructure = 3
+			3664 = { #盐山港
+				naval_base = 1
+			}
+		}
+		
+	}
+	manpower=3975741
+	state_category = town
+	local_supplies = 0.0
+}

@@ -1,0 +1,21 @@
+state={
+	id=166
+	name="STATE_166"
+	provinces={
+		731 884 3091 3739 3741 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points ={ 3739 5 } #徐州
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+	}
+	manpower=4402000
+	state_category = large_town
+	local_supplies = 0.0
+}

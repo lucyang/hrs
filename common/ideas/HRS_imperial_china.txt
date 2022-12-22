@@ -1,0 +1,74 @@
+ideas = {
+	country = {
+		IMC_emperor_taisho = {
+			allowed = {
+				always = no
+			}
+			cancel = { has_global_flag = Emperor_Taisho_Passed_Away }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = IMC_Emperor_Taisho
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = -0.5
+			}
+		}
+		IMC_heyday_of_poverty = {
+			name = IMC_heyday_of_poverty
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = CHI_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = chi_hyper_inflation5
+			modifier = {
+				stability_weekly = -0.01
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+			}
+		}
+		IMC_zaibatsu_ally = {
+			name = IMC_zaibatsu_ally
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = CHI_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = jap_zaibatsu_ally
+			modifier = {
+				political_power_cost = 0.25
+				#trade_laws_cost_factor = 0.25
+				#economy_cost_factor = 0.25
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+				production_speed_dockyard_factor = 0.05
+			}
+		}
+		IMC_shadow_of_rose_era = {
+			name = IMC_shadow_of_rose_era
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = CHI_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = new_deal
+			modifier = {
+				consumer_goods_factor = 0.05
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+				production_speed_dockyard_factor = 0.05
+			}
+		}
+	}
+}

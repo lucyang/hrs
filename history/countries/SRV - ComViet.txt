@@ -1,0 +1,48 @@
+﻿capital = 570 #乂静
+
+recruit_character = SRV_tran_phu
+
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	gw_artillery = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	fuel_refining = 1
+}
+
+set_stability = 0.65
+set_war_support = 0.75
+
+add_ideas = {
+	closed_economy
+	extensive_conscription
+	war_economy
+}
+add_ideas = {
+	country_development1
+	country_tech1
+	planned_economy
+	unitary_state
+}
+
+set_politics = {	
+	ruling_party = anarchism
+	last_election = "1920.3.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 18
+	anarchism = 72
+	socialism = 10
+	democratic = 0
+	neutrality = 0
+	monarchism = 0
+	fascism = 0
+	imperialism = 0
+	futurism = 0
+}

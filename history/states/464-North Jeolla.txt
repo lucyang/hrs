@@ -1,0 +1,25 @@
+state={
+	id=464
+	name="STATE_464"
+	provinces={
+		1039 2993 4813 4814
+	}
+	history = {
+		owner = IMK
+		add_core_of = IMK
+		
+		victory_points = { 4814 10 } #全州
+		victory_points = { 1039 3 } #群山
+
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			1039 = {
+				naval_base = 2
+			}
+		}
+	}
+	manpower=1503695
+	state_category = town
+	local_supplies = 0.0
+}

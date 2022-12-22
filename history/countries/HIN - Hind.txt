@@ -1,0 +1,91 @@
+﻿capital = 478 #Delhi
+
+recruit_character = HIN_jawaharlal_nehru #贾瓦哈拉尔·尼赫鲁
+recruit_character = HIN_rajendra_prasad #拉金德拉·普拉萨德
+recruit_character = HIN_alamgir_shah_III #阿拉姆吉尔三世(Original Name: Bedaar Bakht)
+recruit_character = HIN_malayapuram_singaravelu #马拉雅普兰·辛格拉维鲁
+recruit_character = HIN_shrlpad_amrit_dange #施里帕德·阿姆里特·丹吉
+recruit_character = HIN_keshav_baliram_hedgewar #凯沙夫·巴里拉姆·海德盖瓦
+recruit_character = HIN_madan_mohan_malaviya #马丹·莫罕·马拉维亚
+
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	basic_train = 1
+	gw_artillery = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	fuel_refining = 1
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		improved_ship_torpedo_launcher = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		mtg_transport = 1
+		coastal_defense_ships = 1
+		#basic_secondary_battery = 1
+		basic_depth_charges = 1
+		basic_cruiser_armor_scheme = 1
+		cruiser_submarines = 1
+	}
+	#set_naval_oob = "HIN_1923_naval"
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		transport = 1
+	}
+	#set_naval_oob = "HIN_1923_naval_legacy"
+}
+
+set_stability = 0.10
+set_war_support = 0.35
+
+add_ideas = {
+	free_trade
+	volunteer_only
+	civilian_economy
+}
+add_ideas = {
+	country_development1
+	country_tech2
+	market_economy2
+	unitary_state2
+}
+
+set_politics = {	
+	ruling_party = neutrality
+	last_election = "1920.4.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	anarchism = 10
+	socialism = 13
+	democratic = 21
+	neutrality = 24
+	monarchism = 8
+	fascism = 15
+	imperialism = 9
+	futurism = 0
+}

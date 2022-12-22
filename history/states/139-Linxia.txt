@@ -1,0 +1,19 @@
+state={
+	id=139
+	name="STATE_139"
+	provinces={
+		2004 2269 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+		
+		buildings = {
+			infrastructure = 1
+		}
+		
+	}
+	manpower=63317
+	state_category = rural
+	local_supplies = 0.0
+}

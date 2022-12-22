@@ -1,0 +1,22 @@
+
+state={
+	id=417
+	name="STATE_417"
+
+	history={
+		owner = DBJ
+		
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		61 96 402 492 1355 2685 3454 4750 
+	}
+	manpower=31200
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

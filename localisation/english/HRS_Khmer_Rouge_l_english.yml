@@ -1,0 +1,71 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ KHR_communism:0 "红色高棉"
+ KHR_communism_DEF:0 "红色高棉"
+ KHR_anarchism:0 "红色高棉"
+ KHR_anarchism_DEF:0 "红色高棉"
+ KHR_socialism:0 "红色高棉"
+ KHR_socialism_DEF:0 "红色高棉"
+ KHR_democratic:0 "红色高棉"
+ KHR_democratic_DEF:0 "红色高棉"
+ KHR_neutrality:0 "红色高棉"
+ KHR_neutrality_DEF:0 "红色高棉"
+ KHR_monarchism:0 "红色高棉"
+ KHR_monarchism_DEF:0 "红色高棉"
+ KHR_fascism:0 "红色高棉"
+ KHR_fascism_DEF:0 "红色高棉"
+ KHR_imperialism:0 "红色高棉"
+ KHR_imperialism_DEF:0 "红色高棉"
+ KHR_futurism:0 "红色高棉"
+ KHR_futurism_DEF:0 "红色高棉"
+ KHR_communism_ADJ:0 "赤柬"
+ KHR_socialism_ADJ:0 "赤柬"
+ KHR_anarchism_ADJ:0 "赤柬"
+ KHR_democratic_ADJ:0 "赤柬"
+ KHR_neutrality_ADJ:0 "赤柬"
+ KHR_monarchism_ADJ:0 "赤柬"
+ KHR_fascism_ADJ:0 "赤柬"
+ KHR_imperialism_ADJ:0 "赤柬"
+ KHR_futurism_ADJ:0 "赤柬"
+ KHR:0 "红色高棉"
+ KHR_DEF:0 "红色高棉"
+ KHR_ADJ:0 "赤柬"
+ #############
+ ## PARTIES ##
+ #############
+ KHR_communism_party:0 "柬共 - 温和派"
+ KHR_communism_party_long:0 "柬埔寨共产党 - 温和派"
+ KHR_anarchism_party:0 "柬共 - 激进派"
+ KHR_anarchism_party_long:0 "柬埔寨共产党 - 激进派"
+ KHR_socialism_party:0 "桑功 - 宾努派"
+ KHR_socialism_party_long:0 "人民社会同盟 - 宾努派"
+ KHR_democratic_party:0 "桑功 - 朗诺派"
+ KHR_democratic_party_long:0 "人民社会同盟 - 朗诺派"
+ KHR_neutrality_party:0 "民族解放军"
+ KHR_neutrality_party_long:0 "柬埔寨民族解放军"
+ KHR_monarchism_party:0 "桑功 - 诺罗敦派"
+ KHR_monarchism_party_long:0 "人民社会同盟 - 诺罗敦派"
+ KHR_fascism_party:0 "自由高棉"
+ KHR_fascism_party_long:0 "自由高棉"
+ KHR_imperialism_party:0 "高棉复兴党"
+ KHR_imperialism_party_long:0 "高棉复兴党"
+ KHR_futurism_party:0 "技术官僚"
+ KHR_futurism_party_long:0 "技术官僚运动"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ KHR_san_ngo_minh:0 "山玉明"
+ KHR_tou_samouth:0 "杜斯木"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

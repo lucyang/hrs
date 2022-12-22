@@ -1,0 +1,39 @@
+
+state={
+	id=187
+	name="STATE_187"
+	resources = {
+		steel = 30
+	}
+	history={
+		owner = IMJ
+		add_core_of = IMJ
+
+		victory_points = { 3767 10 } #福冈
+		victory_points = { 537 5 } #小仓
+
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 4
+			dockyard = 3
+			air_base = 3
+
+			3767 = {
+				naval_base = 3
+			}
+			537 = {
+				naval_base = 4
+			}
+		}
+
+	}
+
+	provinces={
+		537 3767
+	}
+	manpower=2188249
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=2.000
+}

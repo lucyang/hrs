@@ -1,0 +1,66 @@
+characters={
+	PRA_mihail_diterikhs={
+		name=PRA_mihail_diterikhs
+		portraits={
+			civilian={
+				large="gfx/leaders/PRA/Portrait_Mihail_Diterikhs.png"
+			}
+		}
+		country_leader={
+			ideology=noble_republic_subtype
+			desc=PRA_mihail_diterikhs_desc
+			traits={ retired_officer ideological_crusader }
+			expire="1940.10.9.1"
+		}
+		corps_commander={
+			traits={ career_officer fast_planner }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	PRA_nicholas_nikolaevich={
+		name=PRA_nicholas_nikolaevich
+		portraits={
+			civilian={
+				large="gfx/leaders/PRA/Portrait_Nicholas_Nikolaevich.png"
+			}
+		}
+		#country_leader={
+		#	ideology=absolute_monarchy_subtype
+		#	desc=PRA_nicholas_nikolaevich_desc
+		#	traits={ emperor_and_autocrat_of_all_the_russias }
+		#	expire="1929.1.5.1"
+		#}
+	}
+	YAK_anatoly_pepelyayev={
+		name=YAK_anatoly_pepelyayev
+		portraits={
+			civilian={
+				large="gfx/leaders/YAK/Portrait_Anatoly_Pepelyayev.png"
+			}
+		}
+		country_leader={
+			ideology=military_government_subtype
+			desc=YAK_anatoly_pepelyayev_desc
+			traits={ celebrity_junta_leader reluctant_veteran }
+			expire="1950.1.7.1"
+		}
+	}
+	PRA_meletius_metaxakis={
+		name=PRA_meletius_metaxakis
+		portraits={
+			civilian={
+				large="gfx/leaders/PRA/Portrait_Meletius_Metaxakis.png"
+			}
+		}
+		#country_leader={
+		#	ideology=christian_state_subtype
+		#	desc=PRA_meletius_metaxakis_desc
+		#	traits={ supreme_representative_of_god_on_earth  }
+		#	expire="1935.7.28.1"
+		#}
+	}
+}

@@ -1,0 +1,112 @@
+division_template = {
+	name = "工农红军"
+
+	division_names_group = CHI_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+ivision_template = {
+	name = "炮兵纵队"
+	division_names_group = CHI_INF_01
+
+	regiments = {
+		artillery_brigade = { x = 0 y = 0 }
+		artillery_brigade = { x = 0 y = 1 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "骑兵纵队"
+	division_names_group = CHI_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "赤卫队"
+
+	division_names_group = CHI_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+units = {
+	division = {
+		name = "工农红军第3军"
+		location = 2396
+		division_template = "工农红军"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "工农红军第4军"
+		location = 3171
+		division_template = "工农红军"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "工农红军第6军"
+		location = 3891
+		division_template = "工农红军"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "工农红军第5军"
+		location = 1862
+		division_template = "工农红军"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "工农红军第8军"
+		location = 3905
+		division_template = "工农红军"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "工农红军第16军"
+		location = 2700
+		division_template = "工农红军"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "修水警卫团"
+		location = 2396
+		division_template = "工农红军"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "安源矿工纠察队"
+		location = 2700
+		division_template = "赤卫队"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "浏阳农民义勇军"
+		location = 960
+		division_template = "赤卫队"
+		start_experience_factor = 0.1
+	}
+	division = {
+		name = "平江农民义勇军"
+		location = 478
+		division_template = "赤卫队"
+		start_experience_factor = 0.1
+	}
+}

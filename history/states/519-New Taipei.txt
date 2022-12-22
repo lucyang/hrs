@@ -1,0 +1,30 @@
+state={
+	id=519
+	name="STATE_519"
+	provinces={
+		472 1351 2727 2839 4056 4956
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 2839 5 } #基隆
+		victory_points = { 4956 1 } #淡水
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 2
+			2839 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+			4956 = {
+				naval_base = 1
+			}
+		}
+	}
+	manpower=437007
+	state_category = city
+	local_supplies = 0.0
+}

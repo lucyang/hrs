@@ -1,0 +1,25 @@
+state={
+	id=105
+	name="STATE_105"
+	provinces={
+		2236 2381 2688 
+	}
+	resources = {
+		aluminium = 30
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 2688 1 } #滨州
+		
+		buildings = {
+			infrastructure = 2
+			
+		}
+		
+	}
+	manpower=3047324
+	state_category = town
+	local_supplies = 0.0
+}

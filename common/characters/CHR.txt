@@ -1,0 +1,16 @@
+characters={
+	CHR_yu_pinqing={
+		name=CHR_yu_pinqing
+		portraits={
+			civilian={
+				large="gfx/leaders/CHR/Portrait_Yu_Pinqing.png"
+			}
+		}
+		country_leader={
+			ideology=development_authoritarianism_subtype
+			desc=CHR_yu_pinqing_desc
+			traits={ anti_communist lieutenant_of_industry }
+			expire="1950.1.1.1"
+		}
+	}
+}

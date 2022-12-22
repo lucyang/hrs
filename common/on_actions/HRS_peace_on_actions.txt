@@ -1,0 +1,81 @@
+# FROM = winner
+# ROOT = country being capitulated/loser
+on_actions = {
+	
+	on_capitulation = {
+		effect = {
+			log = "[GetDateText]: FROM: [From.GetName] ROOT: [Root.GetName] on_capitulation"
+
+			set_global_flag = show_peace_popup_alert
+			FROM = {
+				save_global_event_target_as = winning_country
+			}
+			ROOT = {
+				save_global_event_target_as = losing_country
+			}
+
+			log = "[GetDateText]: winner/loser: FROM: [winning_country.GetName] ROOT: [losing_country.GetName] on_capitulation"
+
+			if = {
+				limit = {
+					event_target:losing_country = {
+						any_allied_country = {
+							has_war_together_with = event_target:losing_country
+						}
+					}
+				}
+				set_global_flag = losing_country_multiple
+			}
+
+			if = {
+				limit = {
+					event_target:winning_country = {
+						any_allied_country = {
+							has_war_together_with = event_target:winning_country
+						}
+					}
+				}
+				set_global_flag = winning_country_multiple
+			}
+			add_to_variable = { global.peace_popup_dirty = 1 }
+
+			set_global_flag = skip_default_capitulation
+
+			if = {
+				limit = {
+					FROM = {
+						OR = {
+							is_GAW_rebel_actor = yes
+							is_GAW_neutral_actor = yes
+						}
+					}
+					ROOT = { original_tag = AMM }
+				}
+				IMJ = { country_event = ryu.1 }
+				every_state = {
+					limit = { is_kyushu_state = yes }
+					transfer_state_to = FROM
+				}
+				FROM = { white_peace = AMM }
+			}
+			else = {
+				every_country = {
+					limit = { has_war_with = ROOT }
+					white_peace = ROOT
+				}
+				FROM = {
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
+			}
+		}
+	}
+
+	on_declare_war = {
+		effect = {
+			log="[GetDateText]: [Root.GetName] declared war on [From.GetName]"
+		}
+	}
+}

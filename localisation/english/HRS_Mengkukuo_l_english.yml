@@ -1,0 +1,75 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ MEN_communism:0 "蒙古联盟自治政府"
+ MEN_communism_DEF:0 "蒙古联盟自治政府"
+ MEN_anarchism:0 "蒙古联盟自治政府"
+ MEN_anarchism_DEF:0 "蒙古联盟自治政府"
+ MEN_democratic:0 "蒙古联盟自治政府"
+ MEN_democratic_DEF:0 "蒙古联盟自治政府"
+ MEN_socialism:0 "蒙古联盟自治政府
+ MEN_socialism_DEF:0 "蒙古联盟自治政府"
+ MEN_neutrality:0 "蒙古联盟自治政府"
+ MEN_neutrality_DEF:0 "蒙古联盟自治政府"
+ MEN_monarchism:0 "蒙古联盟自治政府"
+ MEN_monarchism_DEF:0 "蒙古联盟自治政府"
+ MEN_fascism:0 "蒙古联盟自治政府"
+ MEN_fascism_DEF:0 "蒙古联盟自治政府"
+ MEN_imperialism:0 "蒙古联盟自治政府"
+ MEN_imperialism_DEF:0 "蒙古联盟自治政府"
+ MEN_futurism:0 "蒙古联盟自治政府"
+ MEN_futurism_DEF:0 "蒙古联盟自治政府"
+ MEN_communism_ADJ:0 "锡林郭勒"
+ MEN_anarchism_ADJ:0 "锡林郭勒"
+ MEN_socialism_ADJ:0 "锡林郭勒"
+ MEN_democratic_ADJ:0 "锡林郭勒"
+ MEN_neutrality_ADJ:0 "锡林郭勒"
+ MEN_monarchism_ADJ:0 "锡林郭勒"
+ MEN_fascism_ADJ:0 "锡林郭勒"
+ MEN_imperialism_ADJ:0 "锡林郭勒"
+ MEN_futurism_ADJ:0 "锡林郭勒"
+ MEN:0 "锡林郭勒"
+ MEN_DEF:0 "锡林郭勒"
+ MEN_ADJ:0 "锡林郭勒"
+ #############
+ ## PARTIES ##
+ #############
+ MEN_communism_party:0 "内蒙古人民革命党"
+ MEN_communism_party_long:0 "内蒙古人民革命党"
+ MEN_anarchism_party:0 "内蒙古人民革命党"
+ MEN_anarchism_party_long:0 "内蒙古人民革命党"
+ MEN_socialism_party:0 "内蒙古青年革命党"
+ MEN_socialism_party_long:0 "内蒙古青年革命党"
+ MEN_democratic_party:0 "内蒙古国民党"
+ MEN_democratic_party_long:0 "内蒙古国民党"
+ MEN_neutrality_party:0 "内蒙古自治会议"
+ MEN_neutrality_party_long:0 "内蒙古自治会议"
+ MEN_monarchism_party:0 "博克多汗效忠者"
+ MEN_monarchism_party_long:0 "博克多汗效忠者"
+ MEN_fascism_party:0 "蒙藏委员会"
+ MEN_fascism_party_long:0 "蒙藏委员会"
+ MEN_imperialism_party:0 "黑喇嘛效忠者"
+ MEN_imperialism_party_long:0 "黑喇嘛效忠者"
+ MEN_futurism_party:0 "晋商财阀"
+ MEN_futurism_party_long:0 "晋商财阀"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ MEN_yondonwangchug:0 "云端旺楚克"
+ MEN_demchugdongrub:0 "德穆楚克栋鲁普"
+ ################
+ ## CHARACTERS ##
+ ################
+
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

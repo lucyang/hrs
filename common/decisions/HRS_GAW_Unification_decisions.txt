@@ -1,0 +1,768 @@
+HRS_great_asian_war_category = {
+
+	HRS_make_states_core = {
+		
+		icon = generic_civil_support
+
+		days_remove = HRS_make_core_cost_days?0
+
+		on_map_mode = map_only
+
+		state_target = yes
+
+		target_trigger = {
+			OR = {
+				AND = {
+					ROOT = {
+						OR = {
+							is_china_nation = yes
+							is_asia_unifier = yes
+						}
+					}
+					FROM = {
+						is_any_china_state = yes
+						is_fully_controlled_by = ROOT
+						NOT = { is_core_of = ROOT }
+					}
+				}
+				AND = {
+					ROOT = {
+						OR = {
+							is_korea_nation = yes
+							is_asia_unifier = yes
+						}
+					}
+					FROM = {
+						is_any_korea_state = yes
+						is_fully_controlled_by = ROOT
+						NOT = { is_core_of = ROOT }
+					}
+				}
+				AND = {
+					ROOT = {
+						OR = {
+							is_japan_nation = yes
+							is_hokkaido_nation = yes
+							is_ryukyu_nation = yes
+							is_asia_unifier = yes
+						}
+					}
+					FROM = {
+						OR = {
+							is_any_japan_state = yes
+							is_any_hokkaido_state = yes
+							is_any_ryukyu_state = yes
+						}
+						is_fully_controlled_by = ROOT
+						NOT = { is_core_of = ROOT }
+					}
+				}
+				AND = {
+					ROOT = {
+						OR = {
+							is_japan_nation = yes
+							is_hokkaido_nation = yes
+							is_ryukyu_nation = yes
+							is_asia_unifier = yes
+						}
+					}
+					FROM = {
+						OR = {
+							is_any_japan_state = yes
+							is_any_hokkaido_state = yes
+							is_any_ryukyu_state = yes
+						}
+						is_fully_controlled_by = ROOT
+						NOT = { is_core_of = ROOT }
+					}
+				}
+				AND = {
+					ROOT = {
+						OR = {
+							is_taiwan_nation = yes
+							AND = {
+								is_china_nation = yes
+								NOT = { has_global_flag = FRM_taiwan_refuse_china }
+							}
+						}
+					}
+					FROM = {
+						is_any_taiwan_state = yes
+						is_fully_controlled_by = ROOT
+						NOT = { is_core_of = ROOT }
+					}
+				}
+				AND = {
+					ROOT = {
+						is_laos_nation = yes
+					}
+					FROM = {
+						is_any_laos_state = yes
+						is_fully_controlled_by = ROOT
+						NOT = { is_core_of = ROOT }
+					}
+				}
+				AND = {
+					ROOT = {
+						is_cambodia_nation = yes
+					}
+					FROM = {
+						is_any_cambodia_state = yes
+						is_fully_controlled_by = ROOT
+						NOT = { is_core_of = ROOT }
+					}
+				}
+				AND = {
+					ROOT = {
+						is_vietnam_nation = yes
+					}
+					FROM = {
+						is_any_vietnam_state = yes
+						is_fully_controlled_by = ROOT
+						NOT = { is_core_of = ROOT }
+					}
+				}
+				AND = {
+					ROOT = {
+						is_mongolia_nation = yes
+					}
+					FROM = {
+						is_any_mongolia_state = yes
+						is_fully_controlled_by = ROOT
+						NOT = { is_core_of = ROOT }
+					}
+				}
+			}
+		}
+
+		available = {
+			always = yes
+		}
+
+		visible = {
+			always = yes
+		}
+
+		cost = 20
+
+		modifier = {
+			stability_weekly = -0.0025
+			political_power_gain = -0.15
+		}
+		
+		complete_effect = {
+			#
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		remove_effect = {
+			FROM = { remove_PREV_core_and_add_OWNER_core = yes }
+		}
+	}
+	#########
+	# China #
+	#########
+	HRS_reunify_china = {
+		icon = generic_civil_support
+
+		allowed = {
+			is_china_unifier = yes
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = can_form_huabei_tt
+				can_form_huabei = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = can_form_huadong_tt
+				can_form_huadong = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = can_form_huanan_tt
+				can_form_huanan = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = can_form_xibei_tt
+				can_form_xibei = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = can_form_xinan_tt
+				can_form_xinan = yes
+			}
+		}
+		
+		cost = 50
+		days_remove = 14
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			is_china_unifier = yes
+		}
+		
+		fire_only_once = yes 
+		
+		remove_effect = {
+			set_global_flag = China_has_unified
+			save_global_event_target_as = China_unifier
+			add_research_slot = 1
+			country_event = chi_unification.1
+			CHI_select_unified_cosmetic_tag = yes
+		}
+	}
+
+	HRS_deunify_china = {
+		icon = generic_civil_support
+		allowed = {
+			is_china_nation = yes
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = can_form_huabei_tt
+				can_form_huabei = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = can_form_huadong_tt
+				can_form_huadong = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = can_form_huanan_tt
+				can_form_huanan = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = can_form_xibei_tt
+				can_form_xibei = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = can_form_xinan_tt
+				can_form_xinan = yes
+			}
+		}
+		
+		cost = 50
+		days_remove = 14
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			is_china_nation = yes
+		}
+		
+		fire_only_once = yes 
+		
+		remove_effect = {
+			set_global_flag = China_has_unified
+		}
+	}
+
+	#########
+	# Japan #
+	#########
+	HRS_reunify_japan = {
+		icon = generic_civil_support
+
+		allowed = {
+			is_japan_unifier = yes
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = can_form_saigoku_tt
+				can_form_saigoku = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = can_form_togoku_tt
+				can_form_togoku = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = can_form_kinki_tt
+				can_form_kinki = yes
+			}
+		}
+		
+		cost = 50
+		days_remove = 14
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			is_japan_unifier = yes
+		}
+		
+		fire_only_once = yes 
+		
+		remove_effect = {
+			set_global_flag = Japan_has_unified
+			set_country_flag = JAP_cancel_all_ideas
+			save_global_event_target_as = Japan_unifier
+			add_research_slot = 2
+			country_event = jap_unification.1
+			JAP_select_unified_cosmetic_tag = yes
+		}
+	}
+
+	#HRS_deunify_japan = {
+	#	icon = generic_civil_support
+	#}
+	#########
+	# Korea #
+	#########
+	HRS_reunify_korea = {
+		icon = generic_civil_support
+
+		allowed = {
+			is_korea_unifier = yes
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = can_form_korea_tt
+				can_form_korea = yes
+			}
+		}
+		
+		cost = 50
+		days_remove = 14
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			is_korea_unifier = yes
+		}
+		
+		fire_only_once = yes 
+		
+		remove_effect = {
+			set_global_flag = Korea_has_unified
+			save_global_event_target_as = Korea_unifier
+			add_research_slot = 2
+			KOR_select_unified_cosmetic_tag = yes
+		}
+	}
+
+	############
+	# Mongolia #
+	############
+	HRS_reunify_mongolia = {
+		icon = generic_civil_support
+
+		allowed = {
+			is_mongolia_unifier = yes
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = can_form_mongolia_tt
+				can_form_mongolia = yes
+			}
+		}
+		
+		cost = 50
+		days_remove = 14
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			is_mongolia_unifier = yes
+		}
+		
+		fire_only_once = yes 
+		
+		remove_effect = {
+			set_global_flag = Mongolia_has_unified
+			save_global_event_target_as = Mongolia_unifier
+			add_research_slot = 2
+			MON_select_unified_cosmetic_tag = yes
+		}
+	}
+	##########
+	# Ryukyu #
+	##########
+	HRS_reunify_ryukyu = {
+		icon = generic_civil_support
+
+		allowed = {
+			is_korea_unifier = yes
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = can_form_ryukyu_tt
+				can_form_ryukyu = yes
+			}
+		}
+		
+		cost = 50
+		days_remove = 14
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			is_ryukyu_unifier = yes
+		}
+		
+		fire_only_once = yes 
+		
+		remove_effect = {
+			set_global_flag = Ryukyu_has_unified
+			save_global_event_target_as = Ryukyu_unifier
+			add_research_slot = 2
+			RYU_select_unified_cosmetic_tag = yes
+		}
+	}
+
+	###########
+	# Vietnam #
+	###########
+	HRS_reunify_vietnam = {
+		icon = generic_civil_support
+
+		allowed = {
+			is_vietnam_unifier = yes
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = can_form_vietnam_tt
+				can_form_vietnam = yes
+			}
+		}
+		
+		cost = 50
+		days_remove = 14
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			is_vietnam_unifier = yes
+		}
+		
+		fire_only_once = yes 
+		
+		remove_effect = {
+			set_global_flag = Vietnam_has_unified
+			save_global_event_target_as = Vietnam_unifier
+			add_research_slot = 2
+			#VIN_select_unified_cosmetic_tag = yes
+		}
+	}
+
+	############
+	# Cambodia #
+	############
+	HRS_reunify_cambodia = {
+		icon = generic_civil_support
+
+		allowed = {
+			is_cambodia_unifier = yes
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = can_form_cambodia_tt
+				can_form_cambodia = yes
+			}
+		}
+		
+		cost = 50
+		days_remove = 14
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			is_cambodia_unifier = yes
+		}
+		
+		fire_only_once = yes 
+		
+		remove_effect = {
+			set_global_flag = Cambodia_has_unified
+			save_global_event_target_as = Cambodia_unifier
+			add_research_slot = 2
+			#CAM_select_unified_cosmetic_tag = yes
+		}
+	}
+
+	########
+	# Laos #
+	########
+	HRS_reunify_laos = {
+		icon = generic_civil_support
+
+		allowed = {
+			is_laos_unifier = yes
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = can_form_laos_tt
+				can_form_laos = yes
+			}
+		}
+		
+		cost = 50
+		days_remove = 14
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			is_laos_unifier = yes
+		}
+		
+		fire_only_once = yes 
+		
+		remove_effect = {
+			set_global_flag = Laos_has_unified
+			save_global_event_target_as = Laos_unifier
+			add_research_slot = 2
+			#LAO_select_unified_cosmetic_tag = yes
+		}
+	}
+	##########################
+	# Unify Regions of China #
+	##########################
+	HRS_form_huabei = {
+		icon = generic_civil_support
+
+		allowed = {
+			is_china_unifier = yes
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = can_form_huabei_tt
+				can_form_huabei = yes
+			}
+		}
+		
+		cost = 30
+		days_remove = 7
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			is_huabei_nation = yes
+		}
+		
+		fire_only_once = yes 
+		
+		remove_effect = {
+			set_global_flag = China_Huabei_has_unified
+			save_global_event_target_as = China_Huabei_unifier
+			add_research_slot = 1
+			CHI_select_regional_cosmetic_tag = yes
+		}
+	}
+
+	HRS_form_huadong = {
+		icon = generic_civil_support
+
+		allowed = {
+			is_china_unifier = yes
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = can_form_huadong_tt
+				can_form_huadong = yes
+			}
+		}
+		
+		cost = 30
+		days_remove = 7
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			is_huadong_nation = yes
+		}
+		
+		fire_only_once = yes 
+		
+		remove_effect = {
+			set_global_flag = China_Huadong_has_unified
+			save_global_event_target_as = China_Huadong_unifier
+			add_research_slot = 1
+			CHI_select_regional_cosmetic_tag = yes
+		}
+	}
+
+	HRS_form_huazhong = {
+		icon = generic_civil_support
+
+		allowed = {
+			is_china_unifier = yes
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = can_form_huazhong_tt
+				can_form_huazhong = yes
+			}
+		}
+		
+		cost = 30
+		days_remove = 7
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			is_huazhong_nation = yes
+		}
+		
+		fire_only_once = yes 
+		
+		remove_effect = {
+			set_global_flag = China_Huazhong_has_unified
+			save_global_event_target_as = China_Huazhong_unifier
+			add_research_slot = 1
+			CHI_select_regional_cosmetic_tag = yes
+		}
+	}
+
+	HRS_form_huanan = {
+		icon = generic_civil_support
+
+		allowed = {
+			is_huanan_nation = yes
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = can_form_huanan_tt
+				can_form_huanan = yes
+			}
+		}
+		
+		cost = 30
+		days_remove = 7
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			is_huanan_nation = yes
+		}
+		
+		fire_only_once = yes 
+		
+		remove_effect = {
+			set_global_flag = China_Huanan_has_unified
+			save_global_event_target_as = China_Huanan_unifier
+			add_research_slot = 1
+			CHI_select_regional_cosmetic_tag = yes
+		}
+	}
+
+	HRS_form_xibei = {
+		icon = generic_civil_support
+
+		allowed = {
+			AND = {
+				is_china_unifier = yes
+				is_xibei_nation = yes
+			}	
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = can_form_xibei_tt
+				can_form_xibei = yes
+			}
+		}
+		
+		cost = 30
+		days_remove = 7
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			AND = {
+				is_china_unifier = yes
+				is_xibei_nation = yes
+			}
+		}
+		
+		fire_only_once = yes 
+		
+		remove_effect = {
+			set_global_flag = China_Xibei_has_unified
+			save_global_event_target_as = China_Xibei_unifier
+			add_research_slot = 1
+			CHI_select_regional_cosmetic_tag = yes
+		}
+	}
+
+	HRS_form_xinan = {
+		icon = generic_civil_support
+
+		allowed = {
+			AND = {
+				is_china_unifier = yes
+				is_xinan_nation = yes
+			}
+		}
+		available = {
+			is_subject = no
+			custom_trigger_tooltip = {
+				tooltip = can_form_xinan_tt
+				can_form_xinan = yes
+			}
+		}
+		
+		cost = 30
+		days_remove = 7
+
+		ai_will_do = {
+			factor = 200
+		}
+
+		visible = {
+			AND = {
+				is_china_unifier = yes
+				is_xinan_nation = yes
+			}
+		}
+		
+		fire_only_once = yes 
+		
+		remove_effect = {
+			set_global_flag = China_Xinan_has_unified
+			save_global_event_target_as = China_Xinan_unifier
+			add_research_slot = 1
+			CHI_select_regional_cosmetic_tag = yes
+		}
+	}
+}

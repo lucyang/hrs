@@ -1,0 +1,16 @@
+characters={
+	YAK_pyetr_kulikovsky={
+		name=YAK_pyetr_kulikovsky
+		portraits={
+			civilian={
+				large="gfx/leaders/YAK/Portrait_Pyetr_Kulikovsky.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democratic_subtype
+			desc=YAK_pyetr_kulikovsky_desc
+			traits={ }
+			expire="1950.1.7.1"
+		}
+	}
+}

@@ -1,0 +1,74 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ HUL_communism:0 "东蒙古人民自治政府"
+ HUL_communism_DEF:0 "东蒙古人民自治政府"
+ HUL_anarchism:0 "东蒙古人民自治政府"
+ HUL_anarchism_DEF:0 "东蒙古人民自治政府"
+ HUL_democratic:0 "东蒙古人民自治政府"
+ HUL_democratic_DEF:0 "东蒙古人民自治政府"
+ HUL_socialism:0 "东蒙古人民自治政府"
+ HUL_socialism_DEF:0 "东蒙古人民自治政府"
+ HUL_neutrality:0 "东蒙古人民自治政府"
+ HUL_neutrality_DEF:0 "东蒙古人民自治政府"
+ HUL_monarchism:0 "东蒙古人民自治政府"
+ HUL_monarchism_DEF:0 "东蒙古人民自治政府"
+ HUL_fascism:0 "东蒙古人民自治政府"
+ HUL_fascism_DEF:0 "东蒙古人民自治政府"
+ HUL_imperialism:0 "东蒙古人民自治政府"
+ HUL_imperialism_DEF:0 "东蒙古人民自治政府"
+ HUL_futurism:0 "东蒙古人民自治政府"
+ HUL_futurism_DEF:0 "东蒙古人民自治政府"
+ HUL_communism_ADJ:0 "呼伦贝尔"
+ HUL_anarchism_ADJ:0 "呼伦贝尔"
+ HUL_socialism_ADJ:0 "呼伦贝尔"
+ HUL_democratic_ADJ:0 "呼伦贝尔"
+ HUL_neutrality_ADJ:0 "呼伦贝尔"
+ HUL_monarchism_ADJ:0 "呼伦贝尔"
+ HUL_fascism_ADJ:0 "呼伦贝尔"
+ HUL_imperialism_ADJ:0 "呼伦贝尔"
+ HUL_futurism_ADJ:0 "呼伦贝尔"
+ HUL:0 "呼伦贝尔"
+ HUL_DEF:0 "呼伦贝尔"
+ HUL_ADJ:0 "呼伦贝尔"
+ #############
+ ## PARTIES ##
+ #############
+ HUL_communism_party:0 "蒙古人民党"
+ HUL_communism_party_long:0 "蒙古人民党"
+ HUL_anarchism_party:0 "呼伦贝尔青年党"
+ HUL_anarchism_party_long:0 "呼伦贝尔青年党"
+ HUL_socialism_party:0 "内蒙古青年革命党"
+ HUL_socialism_party_long:0 "内蒙古青年革命党"
+ HUL_democratic_party:0 "内蒙古国民党"
+ HUL_democratic_party_long:0 "内蒙古国民党"
+ HUL_neutrality_party:0 "东蒙古人民自治政府"
+ HUL_neutrality_party_long:0 "东蒙古人民自治政府"
+ HUL_monarchism_party:0 "博克多汗效忠者"
+ HUL_monarchism_party_long:0 "博克多汗效忠者"
+ HUL_fascism_party:0 "蒙藏委员会"
+ HUL_fascism_party_long:0 "蒙藏委员会"
+ HUL_imperialism_party:0 "黑喇嘛效忠者"
+ HUL_imperialism_party_long:0 "黑喇嘛效忠者"
+ HUL_futurism_party:0 "晋商财阀"
+ HUL_futurism_party_long:0 "晋商财阀"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ HUL_merse:0 "墨尔森泰"
+ ################
+ ## CHARACTERS ##
+ ################
+
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

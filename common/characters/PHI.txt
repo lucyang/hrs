@@ -1,0 +1,16 @@
+characters={
+	PHI_wang_yitang={
+		name=PHI_wang_yitang
+		portraits={
+			civilian={
+				large="gfx/leaders/PHI/Portrait_Wang_Yitang.dds"
+			}
+		}
+		country_leader={
+			ideology=colonialism_subtype
+			desc=PHI_wang_yitang_desc
+			traits={ incognito silent_mule }
+			expire="1950.12.26.1"
+		}
+	}
+}

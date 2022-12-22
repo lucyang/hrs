@@ -1,0 +1,656 @@
+add_namespace = kor_unification
+add_namespace = ank_news
+add_namespace = kor_news
+add_namespace = prk_news
+
+news_event = {
+	id = ank_news.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event ank_news.1"
+		hidden_effect = {
+			#play_song = "redkorea1"
+		}
+	}
+	title = ank_news.1.t
+	desc = ank_news.1.desc
+	picture = GFX_news_event_1st_march_movement
+
+	is_triggered_only = yes
+
+	option = {
+		name = ank_news.1.a
+	}
+}
+news_event = {
+	id = ank_news.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event ank_news.2"
+		hidden_effect = {
+			#play_song = "redkorea1"
+		}
+	}
+	title = ank_news.2.t
+	desc = ank_news.2.desc
+	picture = GFX_news_event_1st_march_movement
+
+	is_triggered_only = yes
+
+	option = {
+		name = ank_news.2.a
+	}
+}
+news_event = {
+	id = ank_news.3
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event ank_news.3"
+		hidden_effect = {
+			#play_song = "redkorea1"
+		}
+	}
+	title = ank_news.3.t
+	desc = ank_news.3.desc
+	picture = GFX_news_event_1st_march_movement
+
+	is_triggered_only = yes
+
+	option = {
+		name = ank_news.3.a
+	}
+}
+news_event = {
+	id = ank_news.4
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event ank_news.4"
+		hidden_effect = {
+			#play_song = "redkorea1"
+		}
+	}
+	title = ank_news.4.t
+	desc = ank_news.4.desc
+	picture = GFX_news_event_1st_march_movement
+
+	is_triggered_only = yes
+
+	option = {
+		name = ank_news.4.a
+	}
+}
+news_event = {
+	id = ank_news.5
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event ank_news.5"
+		hidden_effect = {
+			#play_song = "redkorea1"
+		}
+	}
+	title = ank_news.5.t
+	desc = ank_news.5.desc
+	picture = GFX_news_event_1st_march_movement
+
+	is_triggered_only = yes
+
+	option = {
+		name = ank_news.5.a
+	}
+}
+news_event = {
+	id = ank_news.6
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event ank_news.6"
+		hidden_effect = {
+			#play_song = "redkorea1"
+		}
+	}
+	title = ank_news.6.t
+	desc = ank_news.6.desc
+	picture = GFX_news_event_1st_march_movement
+
+	is_triggered_only = yes
+
+	option = {
+		name = ank_news.6.a
+	}
+}
+news_event = {
+	id = ank_news.7
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event ank_news.7"
+		hidden_effect = {
+			#play_song = "redkorea1"
+		}
+	}
+	title = ank_news.7.t
+	desc = ank_news.7.desc
+	picture = GFX_news_event_1st_march_movement
+
+	is_triggered_only = yes
+
+	option = {
+		name = ank_news.7.a
+	}
+}
+news_event = {
+	id = ank_news.8
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event ank_news.8"
+		hidden_effect = {
+			#play_song = "redkorea1"
+		}
+	}
+	title = ank_news.8.t
+	desc = ank_news.8.desc
+	picture = GFX_news_event_1st_march_movement
+
+	is_triggered_only = yes
+
+	option = {
+		name = ank_news.8.a
+	}
+}
+news_event = {
+	id = ank_news.9
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event ank_news.9"
+		hidden_effect = {
+			#play_song = "redkorea1"
+		}
+	}
+	title = ank_news.9.t
+	desc = ank_news.9.desc
+	picture = GFX_news_event_1st_march_movement
+
+	is_triggered_only = yes
+
+	option = {
+		name = ank_news.9.a
+	}
+}
+news_event = {
+	id = kor_news.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kor_news.1"
+		hidden_effect = {
+			#play_song = "redkorea1"
+		}
+	}
+	title = kor_news.1.t
+	desc = kor_news.1.desc
+	picture = GFX_news_event_1st_march_movement
+
+	is_triggered_only = yes
+
+	option = {
+		name = kor_news.1.a
+	}
+}
+news_event = {
+	id = kor_news.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kor_news.2"
+		hidden_effect = {
+			#play_song = "redkorea1"
+		}
+	}
+	title = kor_news.2.t
+	desc = kor_news.2.desc
+	picture = GFX_news_event_1st_march_movement
+
+	is_triggered_only = yes
+
+	option = {
+		name = kor_news.2.a
+	}
+}
+news_event = {
+	id = kor_news.3
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kor_news.3"
+		hidden_effect = {
+			#play_song = "redkorea1"
+		}
+	}
+	title = kor_news.3.t
+	desc = kor_news.3.desc
+	picture = GFX_news_event_1st_march_movement
+
+	is_triggered_only = yes
+
+	option = {
+		name = kor_news.3.a
+	}
+}
+news_event = {
+	id = kor_news.4
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kor_news.4"
+		hidden_effect = {
+			#play_song = "redkorea1"
+		}
+	}
+	title = kor_news.4.t
+	desc = kor_news.4.desc
+	picture = GFX_news_event_1st_march_movement
+
+	is_triggered_only = yes
+
+	option = {
+		name = kor_news.4.a
+	}
+}
+news_event = {
+	id = kor_news.5
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kor_news.5"
+		hidden_effect = {
+			#play_song = "redkorea1"
+		}
+	}
+	title = kor_news.5.t
+	desc = kor_news.5.desc
+	picture = GFX_news_event_1st_march_movement
+
+	is_triggered_only = yes
+
+	option = {
+		name = kor_news.5.a
+	}
+}
+news_event = {
+	id = prk_news.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prk_news.1"
+		hidden_effect = {
+			#play_song = "redkorea1"
+		}
+	}
+	title = prk_news.1.t
+	desc = prk_news.1.desc
+	picture = GFX_news_event_1st_march_movement
+
+	is_triggered_only = yes
+
+	option = {
+		name = prk_news.1.a
+	}
+}
+news_event = {
+	id = prk_news.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prk_news.2"
+		hidden_effect = {
+			#play_song = "redkorea1"
+		}
+	}
+	title = prk_news.2.t
+	desc = prk_news.2.desc
+	picture = GFX_news_event_1st_march_movement
+
+	is_triggered_only = yes
+
+	option = {
+		name = prk_news.2.a
+	}
+}
+### 金九(左翼) ###
+news_event = {
+	id = prk_news.3
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prk_news.3"
+		hidden_effect = {
+			#play_song = "redkorea1"
+		}
+	}
+	title = prk_news.3.t
+	desc = prk_news.3.desc
+	picture = GFX_news_event_speech_of_kim_koo
+
+	is_triggered_only = yes
+
+	option = {
+		name = prk_news.3.a
+	}
+}
+### 金九(右翼) ###
+news_event = {
+	id = prk_news.4
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prk_news.4"
+		hidden_effect = {
+			#play_song = "redkorea1"
+		}
+	}
+	title = prk_news.4.t
+	desc = prk_news.4.desc
+	picture = GFX_news_event_proclamation_of_republic_of_korea
+
+	is_triggered_only = yes
+
+	option = {
+		name = prk_news.4.a
+	}
+}
+news_event = {
+	id = prk_news.5
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prk_news.5"
+		hidden_effect = {
+			#play_song = "redkorea1"
+		}
+	}
+	title = prk_news.5.t
+	desc = prk_news.5.desc
+	picture = GFX_news_event_1st_march_movement
+
+	is_triggered_only = yes
+
+	option = {
+		name = prk_news.5.a
+	}
+}
+news_event = {
+	id = prk_news.6
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prk_news.6"
+		hidden_effect = {
+			#play_song = "redkorea1"
+		}
+	}
+	title = prk_news.6.t
+	desc = prk_news.6.desc
+	picture = GFX_news_event_1st_march_movement
+
+	is_triggered_only = yes
+
+	option = {
+		name = prk_news.6.a
+	}
+}
+news_event = {
+	id = prk_news.7
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prk_news.7"
+		hidden_effect = {
+			#play_song = "redkorea1"
+		}
+	}
+	title = prk_news.7.t
+	desc = prk_news.7.desc
+	picture = GFX_news_event_1st_march_movement
+
+	is_triggered_only = yes
+
+	option = {
+		name = prk_news.7.a
+	}
+}
+news_event = {
+	id = prk_news.8
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prk_news.8"
+		hidden_effect = {
+			#play_song = "redkorea1"
+		}
+	}
+	title = prk_news.8.t
+	desc = prk_news.8.desc
+	picture = GFX_news_event_1st_march_movement
+
+	is_triggered_only = yes
+
+	option = {
+		name = prk_news.8.a
+	}
+}
+news_event = {
+	id = prk_news.9
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prk_news.9"
+		hidden_effect = {
+			#play_song = "redkorea1"
+		}
+	}
+	title = prk_news.9.t
+	desc = prk_news.9.desc
+	picture = GFX_news_event_1st_march_movement
+
+	is_triggered_only = yes
+
+	option = {
+		name = prk_news.9.a
+	}
+}
+news_event = {
+	id = prk_news.10
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prk_news.10"
+		hidden_effect = {
+			#play_song = "redkorea1"
+		}
+	}
+	title = prk_news.10.t
+	desc = prk_news.10.desc
+	picture = GFX_news_event_1st_march_movement
+
+	is_triggered_only = yes
+
+	option = {
+		name = prk_news.10.a
+	}
+}
+news_event = {
+	id = prk_news.11
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prk_news.11"
+		hidden_effect = {
+			#play_song = "redkorea1"
+		}
+	}
+	title = prk_news.11.t
+	desc = prk_news.11.desc
+	picture = GFX_news_event_1st_march_movement
+
+	is_triggered_only = yes
+
+	option = {
+		name = prk_news.11.a
+	}
+}
+news_event = {
+	id = prk_news.12
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prk_news.12"
+		hidden_effect = {
+			#play_song = "redkorea1"
+		}
+	}
+	title = prk_news.12.t
+	desc = prk_news.12.desc
+	picture = GFX_news_event_1st_march_movement
+
+	is_triggered_only = yes
+
+	option = {
+		name = prk_news.12.a
+	}
+}
+news_event = {
+	id = prk_news.13
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event prk_news.13"
+		hidden_effect = {
+			#play_song = "redkorea1"
+		}
+	}
+	title = prk_news.13.t
+	desc = prk_news.13.desc
+	picture = GFX_news_event_1st_march_movement
+
+	is_triggered_only = yes
+
+	option = {
+		name = prk_news.13.a
+	}
+}
+country_event = { # Selec a Capital
+	id = kor_unification.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kor_unification.1"
+	}
+	title = kor_unification.1.t
+	desc = kor_unification.1.desc
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = { #Pyongyang
+		name = kor_unification.1.a
+		ai_chance = {
+			base = 20
+			modifier = {
+				factor = 2
+				OR = {
+					has_government = communism
+					has_government = anarchism
+				}
+			}
+		}
+		set_capital = { state = 52 }
+		
+	}
+	option = { #Kaesong
+		name = kor_unification.1.b
+		ai_chance = {
+			base = 30
+		}
+		set_capital = { state = 460 }
+		country_event = kor_unification.2
+	}
+	option = { #Seoul
+		name = kor_unification.1.c
+		ai_chance = {
+			base = 50
+			modifier = {
+				factor = 2
+				has_government = monarchism
+			}
+		}
+		set_capital = { state = 99 }
+		country_event = kor_unification.3
+	}
+	option = {
+		name = kor_unification.1.d
+		add_political_power = 10
+	}
+}
+country_event = { 
+	id = kor_unification.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kor_unification.2"
+	}
+	title = kor_unification.2.t
+	desc = kor_unification.2.desc
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = kor_unification.2.a
+		set_province_name = {
+			id = 4800
+			name = VICTORY_POINTS_Kaegyeong
+		}	
+	}
+	option = { #Kaesong
+		name = kor_unification.1.b
+		add_political_power = 10
+	}
+}
+country_event = {
+	id = kor_unification.3
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event kor_unification.3"
+	}
+	title = kor_unification.3.t
+	desc = kor_unification.3.desc
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = kor_unification.3.a
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 3
+				OR = {
+					has_government = democratic
+					has_government = neutrality
+				}	
+			}
+			modifier = {
+				factor = 5
+				has_government = imperialism
+			}
+		}
+		set_province_name = {
+			id = 1423
+			name = VICTORY_POINTS_Seoul
+		}	
+	}
+	option = {
+		name = kor_unification.3.b
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 0.5
+				OR = {
+					has_government = communism
+					has_government = anarchism
+				}	
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					has_government = democratic
+					has_government = neutrality
+				}	
+			}
+			modifier = {
+				factor = 5
+				has_government = monarchism
+			}
+		}
+		set_province_name = {
+			id = 1423
+			name = VICTORY_POINTS_Hanseong
+		}	
+	}
+	option = {
+		name = kor_unification.3.c
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 3
+				OR = {
+					has_government = communism
+					has_government = anarchism
+				}	
+			}
+			modifier = {
+				factor = 2
+				OR = {
+					has_government = democratic
+					has_government = neutrality
+				}	
+			}
+			modifier = {
+				factor = 1.5
+				has_government = monarchism
+			}
+		}
+		set_province_name = {
+			id = 1423
+			name = VICTORY_POINTS_Wiryeseong
+		}
+	}
+}

@@ -1,0 +1,20 @@
+state={
+	id=70
+	name="STATE_70"
+	provinces={
+		850 1208 3024 3613 
+	}
+	history = {
+		owner = DZU
+		add_core_of = DZU
+
+		victory_points = { 3024 1 } #阿图什/克孜勒苏
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=104125
+	state_category = rural
+	local_supplies = 0.0
+}

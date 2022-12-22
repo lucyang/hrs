@@ -1,0 +1,73 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ LNG_communism:0 "关东临时军政府"
+ LNG_communism_DEF:0 "关东临时军政府"
+ LNG_anarchism:0 "关东临时军政府"
+ LNG_anarchism_DEF:0 "关东临时军政府"
+ LNG_socialism:0 "关东临时军政府"
+ LNG_socialism_DEF:0 "关东临时军政府"
+ LNG_democratic:0 "关东临时军政府"
+ LNG_democratic_DEF:0 "关东临时军政府"
+ LNG_neutrality:0 "关东临时军政府"
+ LNG_neutrality_DEF:0 "关东临时军政府"
+ LNG_monarchism:0 "关东临时军政府"
+ LNG_monarchism_DEF:0 "关东临时军政府"
+ LNG_fascism:0 "关东临时军政府"
+ LNG_fascism_DEF:0 "关东临时军政府"
+ LNG_imperialism:0 "关东临时军政府"
+ LNG_imperialism_DEF:0 "关东临时军政府"
+ LNG_futurism:0 "关东临时军政府"
+ LNG_futurism_DEF:0 "关东临时军政府"
+ LNG_communism_ADJ:0 "关东军"
+ LNG_anarchism_ADJ:0 "关东军"
+ LNG_socialism_ADJ:0 "关东军"
+ LNG_democratic_ADJ:0 "关东军"
+ LNG_neutrality_ADJ:0 "关东军"
+ LNG_monarchism_ADJ:0 "关东军"
+ LNG_fascism_ADJ:0 "关东军"
+ LNG_imperialism_ADJ:0 "关东军"
+ LNG_futurism_ADJ:0 "关东军"
+ LNG:0 "关东军"
+ LNG_DEF:0 "关东军"
+ LNG_ADJ:0 "关东军"
+ #############
+ ## PARTIES ##
+ #############
+ LNG_communism_party:0 "社民农工党"
+ LNG_communism_party_long:0 "中国社会民主农工党"
+ LNG_anarchism_party:0 "中国基督教促进社"
+ LNG_anarchism_party_long:0 "中国基督教促进社"
+ LNG_socialism_party:0 "中国民主政团同盟"
+ LNG_socialism_party_long:0 "中国民主政团同盟"
+ LNG_democratic_party:0 "国民保安公会"
+ LNG_democratic_party_long:0 "国民保安公会"
+ LNG_neutrality_party:0 "关东军司令部"
+ LNG_neutrality_party_long:0 "关东军司令部"
+ LNG_monarchism_party:0 "孔教会"
+ LNG_monarchism_party_long:0 "孔教会"
+ LNG_fascism_party:0 "中国新民会"
+ LNG_fascism_party_long:0 "中国新民会"
+ LNG_imperialism_party:0 "战国策派"
+ LNG_imperialism_party_long:0 "战国策派"
+ LNG_futurism_party:0 "满洲重工业开发"
+ LNG_futurism_party_long:0 "满洲重工业开发"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ LNG_feng_yuxiang:0 "冯玉祥"
+ LNG_feng_yuxiang_desc:0 "§Y出生日期§!：§G1882年11月6日§!\n§Y出生地点§!：§G大东帝国安庆道巢县§!\n\n§Y冯玉祥§!"
+ LNG_zhang_shizhang:0 "张仕章"
+ LNG_zhang_shizhang_desc:0 "§Y出生日期§!：§G1896年§!\n§Y出生地点§!：§G不详§!\n\n§Y张仕章§!"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

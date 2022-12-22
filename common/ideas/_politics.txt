@@ -1,0 +1,411 @@
+ideas = {
+
+	power = { 
+		law = yes
+		use_list_view = yes
+
+		confederation = {
+
+			name = confederation
+
+			visible = {
+				has_idea = confederation
+				NOT = { has_idea = primitive_state }
+			}
+
+			allowed_to_remove = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			cost = 300
+			level = 1
+
+			picture = generic_confederation
+
+			on_remove = {
+				add_stability = 0.10
+			}
+
+			ai_will_do = {
+				factor = 0
+		 	}
+
+			modifier = {
+				mobilization_laws_cost_factor = 0.25
+				economy_cost_factor = 0.25
+				#trade_laws_cost_factor = 0.25
+				political_power_gain = -0.25
+				compliance_growth = 0.1
+			}
+		}
+
+		federation = {
+
+			name = federation
+
+			visible = {
+				OR = {
+					has_idea = federation
+					has_idea = federation1
+					has_idea = unitary_state
+				}
+				NOT = { has_idea = primitive_state }
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+			
+			removal_cost = -1
+			cost = 300
+			level = 1
+
+			picture = generic_federation
+
+			on_remove = {
+				add_political_power = -500
+				add_stability = -0.30
+			}
+
+			ai_will_do = {
+				factor = 0
+		 	}
+
+			modifier = {
+				mobilization_laws_cost_factor = 0.07
+				economy_cost_factor = 0.07
+				political_power_gain = -0.10
+				compliance_growth = 0.15
+			}
+		}
+
+		federation1 = {
+
+			name = federation1
+
+			visible = {
+				OR = {
+					has_idea = federation
+					has_idea = federation1
+					has_idea = unitary_state
+				}
+				NOT = { has_idea = primitive_state }
+			}
+
+			allowed_to_remove = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			cost = 300
+			level = 1
+
+			picture = generic_federation1
+
+			on_remove = {
+				add_political_power = -500
+				add_stability = -0.30
+			}
+
+			ai_will_do = {
+				factor = 0
+		 	}
+
+			modifier = {
+				mobilization_laws_cost_factor = 0.05
+				economy_cost_factor = 0.05
+				#trade_laws_cost_factor = 0.05
+				political_power_gain = -0.25
+				compliance_growth = 0.2
+			}
+		}
+
+		unitary_state = {
+
+			name = unitary_state
+
+			visible = {
+				OR = {
+					has_idea = federation2
+					has_idea = unitary_state
+					has_idea = unitary_state1
+					has_idea = unitary_state2
+				}
+				NOT = { has_idea = primitive_state }
+			}
+
+			allowed_to_remove = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			cost = 300
+			level = 1
+
+			picture = generic_unitary_state
+
+			on_remove = {
+				add_political_power = -500
+				add_stability = -0.30
+			}
+
+			ai_will_do = {
+				factor = 0
+		 	}
+
+			modifier = {
+				mobilization_laws_cost_factor = -0.05
+				economy_cost_factor = -0.05
+				#trade_laws_cost_factor = -0.05
+				political_power_cost = 0.35
+				root_out_resistance_effectiveness_factor = 0.15
+			}
+		}
+
+		unitary_state1 = {
+
+			name = unitary_state1
+
+			visible = {
+				OR = {
+					has_idea = federation2
+					has_idea = unitary_state
+					has_idea = unitary_state1
+					has_idea = unitary_state2
+				}
+				NOT = { has_idea = primitive_state }
+			}
+
+			allowed_to_remove = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			cost = 300
+			level = 1
+
+			picture = generic_unitary_state1
+
+			on_remove = {
+				add_political_power = -500
+				add_stability = -0.30
+			}
+
+			ai_will_do = {
+				factor = 0
+		 	}
+
+			modifier = {
+				mobilization_laws_cost_factor = -0.07
+				economy_cost_factor = -0.07
+				#trade_laws_cost_factor = -0.07
+				political_power_cost = 0.50
+				root_out_resistance_effectiveness_factor = 0.2
+			}
+
+			default = yes
+		}
+
+		federation2 = {
+
+			name = federation2
+
+			visible = {
+				OR = {
+					has_idea = federation2
+					has_idea = unitary_state
+					has_idea = unitary_state1
+					has_idea = unitary_state2
+				}
+				NOT = { has_idea = primitive_state }
+			}
+
+			allowed_to_remove = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			cost = 300
+			level = 1
+
+			picture = generic_federation2
+
+			on_remove = {
+				add_political_power = -500
+				add_stability = -0.30
+			}
+
+			ai_will_do = {
+				factor = 0
+		 	}
+
+			modifier = {
+				mobilization_laws_cost_factor = -0.05
+				economy_cost_factor = -0.05
+				#trade_laws_cost_factor = -0.05
+				political_power_cost = 1.0
+				compliance_growth = 0.1
+				root_out_resistance_effectiveness_factor = 0.1
+			}
+		}
+
+		unitary_state2 = {
+
+			name = unitary_state2
+
+			visible = {
+				OR = {
+					has_idea = federation2
+					has_idea = unitary_state
+					has_idea = unitary_state1
+					has_idea = unitary_state2
+				}
+				NOT = { has_idea = primitive_state }
+			}
+
+			allowed_to_remove = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			cost = 300
+			level = 1
+
+			picture = generic_unitary_state2
+
+			on_remove = {
+				add_political_power = -500
+				add_stability = -0.30
+			}
+
+			ai_will_do = {
+				factor = 0
+		 	}
+
+			modifier = {
+				mobilization_laws_cost_factor = -0.10
+				economy_cost_factor = -0.10
+				#trade_laws_cost_factor = -0.10
+				political_power_cost = 0.75
+				root_out_resistance_effectiveness_factor = 0.2
+			}
+		}
+
+		state_union = {
+
+			name = state_union
+
+			visible = {
+				OR = {
+					has_government = communism
+					has_government = anarchism
+				}
+			}
+
+			allowed_to_remove = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			cost = 300
+			level = 1
+
+			picture = generic_state_union
+
+			on_remove = {
+				add_political_power = -500
+				add_stability = -0.50
+			}
+
+			ai_will_do = {
+				factor = 0
+		 	}
+
+			modifier = {
+				mobilization_laws_cost_factor = -0.05
+				economy_cost_factor = -0.05
+				#trade_laws_cost_factor = -0.05
+				political_power_cost = 0.30
+				compliance_growth = 0.15
+				root_out_resistance_effectiveness_factor = 0.15
+			}
+		}
+
+		anarchist_commune = {
+
+			name = anarchist_commune
+
+			visible = {
+				has_government = anarchism
+			}
+
+			allowed_to_remove = {
+				NOT = { has_government = anarchism }
+			}
+			
+			removal_cost = -1
+			cost = 300
+			level = 1
+
+			picture = generic_anarchist_commune
+			
+			on_remove = {
+				add_political_power = -500
+				add_stability = -0.50
+			}
+
+			ai_will_do = {
+				factor = 0
+		 	}
+
+			modifier = {
+				mobilization_laws_cost_factor = -0.10
+				economy_cost_factor = -0.10
+				#trade_laws_cost_factor = -0.10
+				political_power_cost = 0.75
+				compliance_growth = 0.50
+				root_out_resistance_effectiveness_factor = -0.50
+			}
+		}
+
+		primitive_state = {
+
+			name = primitive_state
+
+			visible = {
+				AND = {
+					OR = {
+						has_idea = country_development
+						has_idea = country_development1
+					}
+					OR = {
+						has_idea = country_tech
+						has_idea = country_tech1
+					}
+				}
+			}
+
+			allowed_to_remove = {
+				always = no
+			}
+			
+			removal_cost = -1
+			cost = 300
+			level = 1
+
+			picture = generic_primitive_state
+
+			ai_will_do = {
+				factor = 0
+		 	}
+
+			modifier = {
+				political_power_gain = -1.0
+				mobilization_laws_cost_factor = 0.75
+				economy_cost_factor = 0.75
+				#trade_laws_cost_factor = 0.75
+			}
+		}
+	}
+}

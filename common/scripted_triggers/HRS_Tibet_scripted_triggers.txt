@@ -1,0 +1,190 @@
+is_tibet_nation = {
+	OR = {
+		original_tag = TIB
+		original_tag = AMD
+		original_tag = KHM
+		original_tag = SHG
+		original_tag = LDK
+		original_tag = BHU
+		original_tag = SKM
+	}
+}
+
+is_tibet_unifier = {
+	OR = {
+		original_tag = TIB
+		original_tag = AMD
+		original_tag = KHM
+		original_tag = SHG
+		original_tag = LDK
+		original_tag = BHU
+		original_tag = SKM
+	}
+}
+
+is_tibet_state = {
+	AND = {
+		state = 92 #海北
+		state = 119 #海南
+		state = 132 #霍尔/那曲
+		state = 135 #玉树
+		state = 138 #黄南
+		state = 151 #果洛
+		state = 150 #阿里
+		state = 181 #阿坝
+		state = 186 #康定/打箭炉
+		state = 207 #朵麦
+		state = 220 #日喀则
+		state = 234 #拉萨
+		state = 243 #达贡/林芝
+		state = 265 #山南
+		state = 277 #迪庆
+		state = 432 #墨拉萨丁
+		state = 433 #门基
+		state = 437 #拉达克
+		state = 439 #毕底
+	}
+}
+
+is_any_tibet_state = {
+	OR = {
+		state = 92 #海北
+		state = 119 #海南
+		state = 132 #霍尔/那曲
+		state = 135 #玉树
+		state = 138 #黄南
+		state = 151 #果洛
+		state = 150 #阿里
+		state = 181 #阿坝
+		state = 186 #康定/打箭炉
+		state = 207 #朵麦
+		state = 220 #日喀则
+		state = 234 #拉萨
+		state = 243 #达贡/林芝
+		state = 265 #山南
+		state = 277 #迪庆
+		state = 432 #墨拉萨丁
+		state = 433 #门基
+		state = 437 #拉达克
+		state = 439 #毕底
+	}
+}
+
+can_form_tibet = {
+	OR = {
+		owns_state = 132 #霍尔/那曲
+		owns_state = 150 #阿里
+		owns_state = 207 #朵麦
+		owns_state = 220 #日喀则
+		owns_state = 234 #拉萨
+		owns_state = 243 #达贡/林芝
+	}
+}
+
+TIB_bop_is_neutral_influence = {
+	custom_trigger_tooltip = {
+		tooltip = TIB_bop_is_neutral_influence_tt 
+		OR = {
+			is_power_balance_in_range = {
+				id = TIB_power_balance
+				range = TIB_balance_range
+			}
+			is_power_balance_in_range = {
+				id = TIB_power_balance
+				range = TIB_reformist_influence_range
+			}
+			is_power_balance_in_range = {
+				id = TIB_power_balance
+				range = TIB_traditionalist_influence_range
+			}
+		}		
+	}
+}
+
+TIB_bop_is_reformist_influence_or_higher = {
+	custom_trigger_tooltip = {
+		tooltip = TIB_bop_is_reformist_influence_or_higher_tt 
+		OR = {
+			is_power_balance_in_range = {
+				id = TIB_power_balance
+				range = TIB_reformist_influence_range
+			}
+			is_power_balance_in_range = {
+				id = TIB_power_balance
+				range = TIB_reformist_power_range
+			}
+			is_power_balance_in_range = {
+				id = TIB_power_balance
+				range = TIB_reformist_dominant_range
+			}
+			is_power_balance_in_range = {
+				id = TIB_power_balance
+				range = TIB_reformist_total_control_range
+			}
+		}		
+	}
+}
+
+TIB_bop_is_reformist_power_or_higher = {
+	custom_trigger_tooltip = {
+		tooltip = TIB_bop_is_reformist_power_or_higher_tt 
+		OR = {
+			is_power_balance_in_range = {
+				id = TIB_power_balance
+				range = TIB_reformist_power_range
+			}
+			is_power_balance_in_range = {
+				id = TIB_power_balance
+				range = TIB_reformist_dominant_range
+			}
+			is_power_balance_in_range = {
+				id = TIB_power_balance
+				range = TIB_reformist_total_control_range
+			}
+		}		
+	}
+}
+
+TIB_bop_is_traditionalist_influence_or_higher = {
+	custom_trigger_tooltip = {
+		tooltip = TIB_bop_is_traditionalist_influence_or_higher_tt 
+		OR = {
+			is_power_balance_in_range = {
+				id = TIB_power_balance
+				range = TIB_traditionalist_influence_range
+			}
+			is_power_balance_in_range = {
+				id = TIB_power_balance
+				range = TIB_traditionalist_power_range
+			}
+			is_power_balance_in_range = {
+				id = TIB_power_balance
+				range = TIB_traditionalist_dominant_range
+			}
+			is_power_balance_in_range = {
+				id = TIB_power_balance
+				range = TIB_traditionalist_total_control_range
+			}
+		}		
+	}
+}
+
+TIB_bop_is_modernist_power_or_higher = {
+	custom_trigger_tooltip = {
+		tooltip = TIB_bop_is_modernist_power_or_higher_tt 
+		OR = {
+			is_power_balance_in_range = {
+				id = TIB_power_balance
+				range = TIB_traditionalist_power_range
+			}
+			is_power_balance_in_range = {
+				id = TIB_power_balance
+				range = TIB_traditionalist_dominant_range
+			}
+			is_power_balance_in_range = {
+				id = TIB_power_balance
+				range = TIB_traditionalist_total_control_range
+			}
+		}		
+	}
+}

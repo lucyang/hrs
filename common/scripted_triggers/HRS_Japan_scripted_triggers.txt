@@ -1,0 +1,349 @@
+is_japan_nation = {
+	OR = {
+		original_tag = IMJ
+		original_tag = AMM
+		original_tag = CGK
+		original_tag = JLF
+		original_tag = JPN
+		original_tag = JPR
+		original_tag = JAF
+		original_tag = KYU
+		original_tag = CHB
+		original_tag = TOK
+		original_tag = NGN
+		original_tag = THK
+		original_tag = OMT
+		original_tag = KKG
+		AND = {
+			original_tag = KOR
+			KOR = { 
+				has_country_leader = {
+					character = KOR_pak_honyong
+					ruling_only = yes
+				}
+			}
+		}
+	}
+}
+is_shikoku_nation = {
+	OR = {
+		original_tag = IMJ
+		original_tag = AMM
+		original_tag = CGK
+		original_tag = JLF
+		original_tag = JPR
+		original_tag = KYU
+		original_tag = OMT
+	}
+}
+is_togoku_nation = {
+	OR = {
+		original_tag = CHB
+		original_tag = TOK
+		original_tag = NGN
+		original_tag = KKG
+		original_tag = JAF
+		original_tag = JPN
+		original_tag = THK
+	}
+}
+is_japan_unifier = {
+	OR = {
+		is_japan_nation = yes
+		is_hokkaido_nation = yes
+		is_ryukyu_nation = yes
+	}
+}
+is_kyushu_state = {
+	OR = {
+		#九州
+		state = 187 #福冈
+		state = 540 #鹿儿岛
+		state = 592 #长崎
+		state = 593 #熊本
+		state = 601 #大分
+		state = 602 #宫崎
+		state = 653 #佐贺
+	}
+}
+
+is_shikoku_state = {
+	OR = {
+		#四国
+		state = 180 #德岛
+		state = 603 #香川
+		state = 604 #爱媛
+		state = 605 #高知
+	}
+}
+
+is_chugoku_state = {
+	OR = {
+		#山阳
+		state = 152 #山口
+		state = 606 #广岛
+		state = 607 #冈山
+		#山阴
+		state = 594 #岛根
+		state = 608 #鸟取
+	}
+}
+
+is_chubu_state = {
+	OR = {
+		#东山
+		state = 599 #长野
+		state = 612 #岐阜
+		state = 614 #山梨
+		#东海
+		state = 100 #爱知
+		state = 611 #三重
+		state = 613 #静冈
+		#北陆
+		state = 541 #石川
+		state = 615 #福井
+		state = 616 #富山
+		state = 617 #新潟
+	}
+}
+
+is_tohoku_state = {
+	OR = {
+		#东北
+		state = 68 #福岛
+		state = 623 #山形
+		state = 624 #宫城
+		state = 542 #岩手
+		state = 625 #青森
+		state = 626 #秋田
+	}
+}
+
+is_kansai_state = {
+	OR = {
+		#近畿
+		state = 149 #兵库
+		state = 595 #大阪
+		state = 596 #京都
+		state = 597 #丹波
+		state = 598 #和歌山
+		state = 609 #奈良
+		state = 610 #滋贺	
+	}
+}
+
+is_kanto_state = {
+	AND = {
+		#关东
+		state = 120 #相模/神奈川
+		state = 600 #江户/东京都
+		state = 618 #千叶
+		state = 619 #埼玉
+		state = 620 #茨城
+		state = 621 #栃木
+		state = 622 #群马	
+	}
+}
+
+is_any_japan_state = {
+	OR = {
+		#九州
+		state = 169 #对马岛
+		state = 187 #福冈
+		state = 540 #鹿儿岛
+		state = 592 #长崎
+		state = 593 #熊本
+		state = 601 #大分
+		state = 602 #宫崎
+		state = 653 #佐贺
+		#山阳
+		state = 152 #山口
+		state = 606 #广岛
+		state = 607 #冈山
+		#山阴
+		state = 594 #岛根
+		state = 608 #鸟取
+		#四国
+		state = 180 #德岛
+		state = 603 #香川
+		state = 604 #爱媛
+		state = 605 #高知
+		#近畿
+		state = 149 #兵库
+		state = 595 #大阪
+		state = 596 #京都
+		state = 597 #丹波
+		state = 598 #和歌山
+		state = 609 #奈良
+		state = 610 #滋贺	
+		#东山
+		state = 599 #长野
+		state = 612 #岐阜
+		state = 614 #山梨
+		#东海
+		state = 100 #爱知
+		state = 611 #三重
+		state = 613 #静冈
+		#北陆
+		state = 541 #石川
+		state = 615 #福井
+		state = 616 #富山
+		state = 617 #新潟
+		#关东
+		state = 120 #相模/神奈川
+		state = 600 #江户/东京都
+		state = 618 #千叶
+		state = 619 #埼玉
+		state = 620 #茨城
+		state = 621 #栃木
+		state = 622 #群马	
+		#东北
+		state = 68 #福岛
+		state = 623 #山形
+		state = 624 #宫城
+		state = 542 #岩手
+		state = 625 #青森
+		state = 626 #秋田
+		#北海道
+		state = 33 #札幌
+		state = 543 #函馆
+		state = 544 #石狩
+	}
+}
+
+is_japan_state = {
+	AND = {
+		#九州
+		state = 169 #对马岛
+		state = 187 #福冈
+		state = 540 #鹿儿岛
+		state = 592 #长崎
+		state = 593 #熊本
+		state = 601 #大分
+		state = 602 #宫崎
+		state = 653 #佐贺
+		#山阳
+		state = 152 #山口
+		state = 606 #广岛
+		state = 607 #冈山
+		#山阴
+		state = 594 #岛根
+		state = 608 #鸟取
+		#四国
+		state = 180 #德岛
+		state = 603 #香川
+		state = 604 #爱媛
+		state = 605 #高知
+		#近畿
+		state = 149 #兵库
+		state = 595 #大阪
+		state = 596 #京都
+		state = 597 #丹波
+		state = 598 #和歌山
+		state = 609 #奈良
+		state = 610 #滋贺	
+		#东山
+		state = 599 #长野
+		state = 612 #岐阜
+		state = 614 #山梨
+		#东海
+		state = 100 #爱知
+		state = 611 #三重
+		state = 613 #静冈
+		#北陆
+		state = 541 #石川
+		state = 615 #福井
+		state = 616 #富山
+		state = 617 #新潟
+		#关东
+		state = 120 #相模/神奈川
+		state = 600 #江户/东京都
+		state = 618 #千叶
+		state = 619 #埼玉
+		state = 620 #茨城
+		state = 621 #栃木
+		state = 622 #群马	
+		#东北
+		state = 68 #福岛
+		state = 623 #山形
+		state = 624 #宫城
+		state = 542 #岩手
+		state = 625 #青森
+		state = 626 #秋田
+		#北海道
+		state = 33 #札幌
+		state = 543 #函馆
+		state = 544 #石狩
+	}
+}
+
+can_form_saigoku = {
+	AND = {
+		#九州
+		owns_state = 187 #福冈
+		owns_state = 540 #鹿儿岛
+		owns_state = 592 #长崎
+		owns_state = 593 #熊本
+		owns_state = 601 #大分
+		owns_state = 602 #宫崎
+		owns_state = 653 #佐贺
+		#山阳
+		owns_state = 152 #山口
+		owns_state = 606 #广岛
+		owns_state = 607 #冈山
+		#山阴
+		owns_state = 594 #岛根
+		owns_state = 608 #鸟取
+		#四国
+		owns_state = 180 #德岛
+		owns_state = 603 #香川
+		owns_state = 604 #爱媛
+		owns_state = 605 #高知
+	}
+}
+
+can_form_kinki = {
+	AND = {
+		#近畿
+		owns_state = 149 #兵库
+		owns_state = 595 #大阪
+		owns_state = 596 #京都
+		owns_state = 597 #丹波
+		owns_state = 598 #和歌山
+		owns_state = 609 #奈良
+		owns_state = 610 #滋贺	
+	}
+}
+
+can_form_togoku = {
+	AND = {
+		#东山
+		owns_state = 599 #长野
+		owns_state = 612 #岐阜
+		owns_state = 614 #山梨
+		#东海
+		owns_state = 100 #爱知
+		owns_state = 611 #三重
+		owns_state = 613 #静冈
+		#北陆
+		owns_state = 541 #石川
+		owns_state = 615 #福井
+		owns_state = 616 #富山
+		owns_state = 617 #新潟
+		#关东
+		owns_state = 120 #相模/神奈川
+		owns_state = 600 #江户/东京都
+		owns_state = 618 #千叶
+		owns_state = 619 #埼玉
+		owns_state = 620 #茨城
+		owns_state = 621 #栃木
+		owns_state = 622 #群马	
+		#东北
+		owns_state = 68 #福岛
+		owns_state = 623 #山形
+		owns_state = 624 #宫城
+		owns_state = 542 #岩手
+		owns_state = 625 #青森
+		owns_state = 626 #秋田	
+	}
+}

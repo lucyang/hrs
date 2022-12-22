@@ -1,0 +1,75 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ HEN_communism:0 "河南紧急政府"
+ HEN_communism_DEF:0 "河南紧急政府"
+ HEN_anarchism:0 "河南紧急政府"
+ HEN_anarchism_DEF:0 "河南紧急政府"
+ HEN_socialism:0 "河南紧急政府"
+ HEN_socialism_DEF:0 "河南紧急政府"
+ HEN_democratic:0 "河南紧急政府"
+ HEN_democratic_DEF:0 "河南紧急政府"
+ HEN_neutrality:0 "河南紧急政府"
+ HEN_neutrality_DEF:0 "河南紧急政府"
+ HEN_monarchism:0 "河南紧急政府"
+ HEN_monarchism_DEF:0 "河南紧急政府"
+ HEN_fascism:0 "河南紧急政府"
+ HEN_fascism_DEF:0 "河南紧急政府"
+ HEN_imperialism:0 "河南紧急政府"
+ HEN_imperialism_DEF:0 "河南紧急政府"
+ HEN_futurism:0 "河南紧急政府"
+ HEN_futurism_DEF:0 "河南紧急政府"
+ HEN_communism_ADJ:0 "豫南"
+ HEN_anarchism_ADJ:0 "豫南"
+ HEN_socialism_ADJ:0 "豫南"
+ HEN_democratic_ADJ:0 "豫南"
+ HEN_neutrality_ADJ:0 "豫南"
+ HEN_monarchism_ADJ:0 "豫南"
+ HEN_fascism_ADJ:0 "豫南"
+ HEN_imperialism_ADJ:0 "豫南"
+ HEN_futurism_ADJ:0 "豫南"
+ HEN:0 "河南紧急政府"
+ HEN_DEF:0 "河南紧急政府"
+ HEN_ADJ:0 "豫南"
+ #############
+ ## PARTIES ##
+ #############
+ HEN_communism_party:0 "社民农工党"
+ HEN_communism_party_long:0 "社会民主农工党"
+ HEN_anarchism_party:0 "农工党"
+ HEN_anarchism_party_long:0 "中国农工民主党"
+ HEN_socialism_party:0 "中华民国工党"
+ HEN_socialism_party_long:0 "中华民国工党"
+ HEN_democratic_party:0 "中华革命党"
+ HEN_democratic_party_long:0 "中华革命党"
+ HEN_neutrality_party:0 "河南紧急政府"
+ HEN_neutrality_party_long:0 "河南紧急政府"
+ HEN_monarchism_party:0 "孔教会"
+ HEN_monarchism_party_long:0 "孔教会"
+ HEN_fascism_party:0 "中国新民会"
+ HEN_fascism_party_long:0 "中国新民会"
+ HEN_imperialism_party:0 "中国同盟会"
+ HEN_imperialism_party_long:0 "中国同盟会"
+ HEN_futurism_party:0 "技术官僚"
+ HEN_futurism_party_long:0 "技术官僚"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ HEN_zhang_fang:0 "张钫"
+ HEN_zhang_fang_desc:0 "§Y出生日期§!：§G1886年§!\n§Y出生地点§!：§G大东帝国河洛道新安县§!\n\n§Y张钫§!曾是一名热血的革命军官，他毕业于保定军官学校炮兵科，与中国同盟会骨干歃血为盟，在陕西驻军中鼓动青年军官加入革命党。然而，在§Y中国同盟会§!决定参加大选时，一切都结束了。张钫犹记得，§Y孙中山§!接受了帝国总理大臣的职位后，同盟会的成员在酒肆和茶室里坐了几天几夜，直到身上所有的钱全部花光。\n\n有人邀请张钫加入§Y中国革命党§!，这是孙中山的亲信§Y朱执信§!、§Y廖仲恺§!和§Y胡汉民§!建立的新政党。中国革命党有许多公开的合法身份，但是张钫注意到，这个由“三巨头”领导的政党不过是反帝国派的大帐篷——社会主义者、中间派、民族主义者——革命党实际上不过是三四个政党的联盟，几乎无时无刻不在争吵与内耗中。\n\n失望的张钫淡出了革命党的政治舞台，但是革命的烈火从未熄灭。当帝国因内战陷入混乱时，张钫密电吉鸿昌，邀请他进入河南完成共和革命。然而一心只想争名夺利的军阀竟然§R炸开黄河大坝§!，洪水怀山襄陵，百万黎民百姓流离失所。在一片混乱中，张钫控制了与帝国控制区接壤的豫南地区，接济试图向南逃亡的难民。他已经无暇思考革命或是民主，唯有生存下去才是目前唯一的愿望。"
+ ############
+ ## TRAITS ##
+ ############
+
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

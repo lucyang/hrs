@@ -1,0 +1,29 @@
+
+state={
+	id=546
+	name="STATE_546"
+
+	history={
+		owner = IMJ
+		add_core_of = IMJ
+
+		victory_points = { 3152 5 } #釧路
+		victory_points = { 393 1 } #根室
+
+		buildings = {
+			infrastructure = 1
+			3152 = {
+				naval_base = 1
+			}
+		}
+
+	}
+
+	provinces={
+		393 1197 2778 3152 
+	}
+	manpower=307738
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

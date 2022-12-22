@@ -1,0 +1,25 @@
+state={
+	id=294
+	name="STATE_294"
+	provinces={
+		2704 2749 3937 
+	}
+	resources = {
+		steel = 12
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 3937 5 }
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+		}
+	}
+	manpower=5742464
+	state_category = city
+	local_supplies = 0.0
+}

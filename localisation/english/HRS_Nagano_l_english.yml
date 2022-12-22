@@ -1,0 +1,76 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ NGN_communism:0 "困民党起义军"
+ NGN_communism_DEF:0 "困民党起义军"
+ NGN_anarchism:0 "困民党起义军"
+ NGN_anarchism_DEF:0 "困民党起义军"
+ NGN_democratic:0 "困民党起义军"
+ NGN_democratic_DEF:0 "困民党起义军"
+ NGN_neutrality:0 "困民党起义军"
+ NGN_neutrality_DEF:0 "困民党起义军"
+ NGN_monarchism:0 "困民党起义军"
+ NGN_monarchism_DEF:0 "困民党起义军"
+ NGN_fascism:0 "困民党起义军"
+ NGN_fascism_DEF:0 "困民党起义军"
+ NGN_imperialism:0 "困民党起义军"
+ NGN_imperialism_DEF:0 "困民党起义军"
+ NGN_futurism:0 "困民党起义军"
+ NGN_futurism_DEF:0 "困民党起义军"
+ NGN_communism_ADJ:0 "困民党"
+ NGN_anarchism_ADJ:0 "困民党"
+ NGN_socialism_ADJ:0 "困民党"
+ NGN_democratic_ADJ:0 "困民党"
+ NGN_neutrality_ADJ:0 "困民党"
+ NGN_monarchism_ADJ:0 "困民党"
+ NGN_fascism_ADJ:0 "困民党"
+ NGN_imperialism_ADJ:0 "困民党"
+ NGN_futurism_ADJ:0 "困民党"
+ NGN:0 "困民党"
+ NGN_DEF:0 "困民党"
+ NGN_ADJ:0 "困民党"
+ #############
+ ## PARTIES ##
+ #############
+ NGN_communism_party:0 "日本共产党"
+ NGN_communism_party_long:0 "日本共产党" #大山郁夫
+ NGN_anarchism_party:0 "无政府主义者联盟"
+ NGN_anarchism_party_long:0 "日本无政府主义者联盟" #石川三四郎
+ NGN_socialism_party:0 "新村主义派"
+ NGN_socialism_party_long:0 "新村主义派" #武者小路実篤
+ NGN_democratic_party:0 "农本社会党"
+ NGN_democratic_party_long:0 "农本社会党" #下中弥三郎
+ NGN_neutrality_party:0 "日本村治同盟"
+ NGN_neutrality_party_long:0 "日本村治同盟"
+ NGN_monarchism_party:0 "农本联盟"
+ NGN_monarchism_party_long:0 "农本联盟" #権藤成卿
+ NGN_fascism_party:0 "爱乡会"
+ NGN_fascism_party_long:0 "爱乡会" #橘孝三郎
+ NGN_imperialism_party:0 "血盟团"
+ NGN_imperialism_party_long:0 "血盟团" #井上日召
+ NGN_futurism_party:0 "犹存社"
+ NGN_futurism_party_long:0 "犹存社"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ NGN_peasant_union:0 "自治农民议会"
+ NGN_ishikawa_sanshiro:0 "石川三四郎"
+ NGN_mushanokoji_saneatsu:0 "武者小路実篤"
+ NGN_shimonaka_yasaburo:0 "下中弥三郎"
+ NGN_gondo_seikyo:0 "権藤成卿"
+ NGN_gondo_seikyo_desc:0 "§Y出生日期§!：§G1868年4月13日§!\n§Y出生地点§!：§G大东帝国九州道福冈县§!\n\n§Y权藤成卿§!是东亚农本主义者的领袖，也是一位极具传奇色彩而富有魅力的思想家。他出身自诗书世家，祖父师从多位大儒学习经学，其家族世代为久留米藩主御医，兼任“东洋古制度学”研究，为和朝整理搜集中日两国古代的政制法规。\n\n权藤成卿继承了先祖的学术天分，据说他14岁通读家藏汉文古籍，18岁即考入京都帝国大学，曾寻访阿苏神社，整理日本“神代文字”，专事国学研究。1900年后，权藤成卿积极参与§Y泛亚主义运动§!，支持§Y「鳳の国」计划§!——待中国重新合并朝鲜后，将多余的人朝鲜人口移民到土地肥沃的外满洲，以此为基地建立“大高丽国”。\n\n在读过北一辉的著作后，权藤成卿转向了农本主义，提出了一套极为独特的政治理念。他认为东亚应当回归传统的§Y“社稷国家”§!，彻底消灭民族主义与资本主义流毒，实现平民“邻里相望”“原始自治”的§Y“无何有之乡”§!。1915年后，权藤成卿与橘孝三郎、武者小路実篤等结成§O日本村治同盟§!，逐渐倾向于模仿大化改新，通过打倒“苏我氏”实现日本的变革。\n\n此后，村治同盟在日本最贫困的长野山区秘密活动，权藤成卿的政治理念力压群雄，得到了许多农民的支持。当革命的曙光初现，长野农民长期的斗争转化为武装起义。农民们自称为四十年前抗捐抗税的§Y困民党§!武装，由各村庄代表组成的§Y自治农民议会§!领导着这支躁动的起义部队，而他们的精神领袖自然是权藤成卿。但是起义军内仍有许多人反对他的激进思想，正在密谋词汇权藤成卿的未来蓝图······"
+ ###########
+ ## IDEAS ##
+ ###########
+ NGN_collapsed_countryside:0 "凋敝的乡村"
+ NGN_collapsed_countryside_desc:0 "维新以来，政府与企业对农村人口与财富的盘剥、工业化对传统农村产业的挤压，已经使日本农村的状况不容乐观。而进入20年代，安达卢斯流感、米骚动、渡边银行破产，1923年夏天的严重高温干旱、关东大地震——接踵而至的天灾人祸将小农脆弱的经济循环彻底摧毁。在以农业为经济支柱的困民党，农民破产的情况更加严重，大量无路可走的农民只能自杀、抢劫、杀人······在这样一个“发达”国家，农民的生活却倒退回与数百年前的祖先一样挣扎求生的地步。"
+ NGN_konmintou:0 "“困民党”"
+ NGN_konmintou_desc:0 "“困民党”运动已经是四十年前的旧事了。但在各路农民揭竿而起的时刻，他们不约而同地自称“困民党”。重生的“困民党”是农民政权的联盟，持各种观点的农业主义领袖试图用武装实现自己改造农村的理想。而那些前来投奔的农民和历史上的起义农民一样，只想为一个能拥有一片土地的未来而战斗。"
+ ############
+ ## EVENTS ##
+ ############

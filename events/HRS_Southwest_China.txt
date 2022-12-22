@@ -1,0 +1,77 @@
+add_namespace = swc_rev
+
+####################
+# SOUTHWEST EVENTS #
+####################
+### Annexation of Sichuan and Chongqing
+country_event = {
+	id = swc_rev.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event swc_rev.1" }
+	title = swc_rev.1.t
+	desc = swc_rev.1.desc
+	picture = GFX_report_event_generic_conference
+	is_triggered_only = yes
+
+	option = { # play as Sichuan
+		name = swc_rev.1.a
+		annex_country = {
+			target = CHQ
+			transfer_troops = yes
+		}
+		country_event = swc_rev.2
+	}
+	option = { # play as Chongqing
+		name = swc_rev.1.b
+		annex_country = {
+			target = SCH
+			transfer_troops = yes
+		}
+		country_event = swc_rev.2
+	}
+}
+country_event = {
+	id = swc_rev.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event swc_rev.2" }
+	title = swc_rev.2.t
+	desc = swc_rev.2.desc
+	picture = GFX_report_event_generic_conference
+	is_triggered_only = yes
+
+	option = { # Agree
+		name = swc_rev.2.a
+		CHI = { country_event = chi_rev.10 }
+	}
+	option = { # Disagree
+		name = swc_rev.2.b
+		add_political_power = 10
+	}
+}
+country_event = {
+	id = swc_rev.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event swc_rev.3" }
+	title = swc_rev.3.t
+	desc = swc_rev.3.desc
+	picture = GFX_report_event_china_infiltration
+	is_triggered_only = yes
+
+	option = { # Agree
+		name = swc_rev.3.a
+		add_manpower = 30000
+		annex_country = {
+			target = CHI
+   			transfer_troops = no
+		}
+	}
+}
+country_event = {
+	id = swc_rev.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event swc_rev.4" }
+	title = swc_rev.4.t
+	desc = swc_rev.4.desc
+	picture = GFX_report_event_generic_read_write
+	is_triggered_only = yes
+
+	option = {
+		name = swc_rev.4.a	
+	}
+}

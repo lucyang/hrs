@@ -1,0 +1,17 @@
+characters={
+	### JXP - Jiangxinpo ###
+	JXP_deng_xiuting={
+		name=JXP_deng_xiuting
+		portraits={
+			civilian={
+				large="gfx/leaders/YUN/Portrait_Deng_Xiuting.png"
+			}
+		}
+		country_leader={
+			ideology=despotism_subtype
+			desc=JXP_deng_xiuting_desc
+			traits={ }
+			expire="1941.1.1.1"
+		}
+	}
+}

@@ -1,0 +1,16 @@
+characters={
+	MYK_gushiken_sosei={
+		name=MYK_gushiken_sosei
+		portraits={
+			civilian={
+				large="gfx/leaders/Ryukyu/Portrait_Gushiken_Sosei.png"
+			}
+		}
+		country_leader={
+			ideology=conservatism_subtype
+			desc=MYK_gushiken_sosei_desc
+			traits={ }
+			expire="1979.12.29.1"
+		}
+	}
+}

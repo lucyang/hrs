@@ -1,0 +1,24 @@
+
+state={
+	id=135
+	name="STATE_135"
+
+	history={
+		owner = IMC
+		add_core_of = IMC
+		add_core_of = AMD
+
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		68 75 311 685 703 851 883 895 970 1009 1046 1155 1202 1212 1250 1346 1420 1503 1579 1639 1816 2142 2150 2598 2696 2762 2831 2832 2900 3028 3339 3714 3724 3732 3746 3779 3785 3801 
+	}
+	manpower=126383
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

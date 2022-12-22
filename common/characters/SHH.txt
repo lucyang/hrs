@@ -1,0 +1,130 @@
+characters={
+	SHH_yu_xiusong={
+		name=SHH_yu_xiusong
+		portraits={
+			civilian={
+				large="gfx/leaders/SHH/Portrait_Yu_Xiusong.png"
+			}
+			army={
+				large="gfx/leaders/SHH/Portrait_Yu_Xiusong.png"
+			}
+		}
+		#country_leader={
+		#	ideology=revolutionary_front_subtype
+		#	desc=SHH_yu_xiusong_desc
+		#	traits={ ambitious_union_boss militant_socialist }
+		#	expire="1949.10.1.1"
+		#}
+		corps_commander={
+			traits={ militias_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+	SHH_wang_shouhua={
+		name=SHH_wang_shouhua
+		portraits={
+			civilian={
+				large="gfx/leaders/SHH/Portrait_Wang_Shouhua.png"
+			}
+			army={
+				large="gfx/leaders/SHH/Portrait_Wang_Shouhua.png"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_front_subtype
+			desc=SHH_wang_shouhua_desc
+			traits={ ambitious_union_boss militant_socialist }
+			expire="1949.10.1.1"
+		}
+		corps_commander={
+			traits={ militias_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	SHH_zhao_shiyan={
+		name=SHH_zhao_shiyan
+		portraits={
+			civilian={
+				large="gfx/leaders/SHH/Portrait_Zhao_Shiyan.png"
+			}
+			army={
+				large="gfx/leaders/SHH/Portrait_Zhao_Shiyan.png"
+			}
+		}
+		country_leader={
+			ideology=leninism_subtype
+			desc=SHH_zhao_shiyan_desc
+			traits={ communist_orator devoted_marxist }
+			expire="1949.10.1.1"
+		}
+		corps_commander={
+			traits={ militias_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+	SHH_zhou_enlai={
+		name=SHH_zhou_enlai
+		portraits={
+			civilian={
+				large="gfx/leaders/SHH/Portrait_Zhou_Enlai.png"
+			}
+			army={
+				large="gfx/leaders/SHH/Portrait_Zhou_Enlai.png"
+			}
+		}
+		country_leader={
+			ideology=partisan_movement_subtype
+			desc=SHH_zhou_enlai_desc
+			traits={ SWI_intelligence_officer devoted_marxist }
+			expire="1976.1.8.1"
+		}
+		corps_commander={
+			traits={ infantry_officer militias_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	SHH_yang_xingfo={
+		name=SHH_yang_xingfo
+		portraits={
+			civilian={
+				large="gfx/leaders/SHH/Portrait_Yang_Xingfo.png"
+			}
+		}
+		country_leader={
+			ideology=social_democratic_subtype
+			desc=SHH_yang_xingfo_desc
+			traits={ social_reformer rebellious_educator }
+			expire="1949.10.1.1"
+		}
+	}
+	SHH_zheng_yuxiu={
+		name=SHH_zheng_yuxiu
+		portraits={
+			civilian={
+				large="gfx/leaders/SHH/Portrait_Zheng_Yuxiu.png"
+			}
+		}
+		country_leader={
+			ideology=tridemism_subtype
+			desc=SHH_zheng_yuxiu_desc
+			traits={ SWI_nationalistic_industrialist womens_rights_activist }
+			expire="1959.12.16.1"
+		}
+	}
+}

@@ -1,0 +1,22 @@
+state={
+	id=189
+	name="STATE_189"
+	provinces={
+		320 1937 2549 3782 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 2549 1 } #安康
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		
+	}
+	manpower=1693267
+	state_category = town
+	local_supplies = 0.0
+}

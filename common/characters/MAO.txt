@@ -1,0 +1,58 @@
+characters={
+	MAO_mao_zedong={
+		name=MAO_mao_zedong
+		portraits={
+			civilian={
+				large="gfx/leaders/MAO/Portrait_Mao_Zedong.png"
+			}
+		}
+		country_leader={
+			ideology=maoism_subtype
+			desc=MAO_mao_zedong_desc
+			traits={ cornered_fox veteran_communist }
+			expire="1976.9.9.1"
+		}
+	}
+	MAO_right_mao_zedong={
+		name=MAO_right_mao_zedong
+		portraits={
+			civilian={
+				large="gfx/leaders/MAO/Portrait_right_Mao_Zedong.png"
+			}
+		}
+		country_leader={
+			ideology=new_tridemism_subtype
+			desc=MAO_mao_zedong_desc
+			traits={ cornered_fox connected_citizen }
+			expire="1976.9.9.1"
+		}
+	}
+	MAO_left_mao_zedong={
+		name=MAO_left_mao_zedong
+		portraits={
+			civilian={
+				large="gfx/leaders/MAO/Portrait_left_Mao_Zedong.png"
+			}
+		}
+		country_leader={
+			ideology=anarcho_maoism_subtype
+			desc=MAO_mao_zedong_desc
+			traits={ cornered_fox anarchist_zeal }
+			expire="1976.9.9.1"
+		}
+	}
+	MAO_liu_shaoqi={
+		name=MAO_liu_shaoqi
+		portraits={
+			civilian={
+				large="gfx/leaders/MAO/Portrait_Liu_Shaoqi.dds"
+			}
+		}
+		#country_leader={
+		#	ideology=leninism_subtype
+		#	desc=MAO_liu_shaoqi_desc
+		#	traits={ veteran_communist ambitious_union_boss }
+		#	expire="1969.11.12.1"
+		#}
+	}
+}

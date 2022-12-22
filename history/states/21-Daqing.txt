@@ -1,0 +1,20 @@
+state={
+	id=21
+	name="STATE_21"
+	provinces={
+		594 2090 2298 2312 2782 2842 3040 3498 3510 
+	}
+	history = {
+		owner = MAN
+		add_core_of = MAN
+		victory_points = {
+			2312 1
+			}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=36200
+	state_category = pastoral
+	local_supplies = 0.0
+}

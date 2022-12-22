@@ -1,0 +1,35 @@
+add_namespace = dynamic_name
+
+#############
+# YI EVENTS #
+#############
+country_event = {
+	id = dynamic_name.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event dynamic_name.1"
+		hidden_effect = {
+			74 = { reset_state_name = yes }
+		}
+	}
+	title = dynamic_name.1.t
+	desc = dynamic_name.1.desc
+
+	trigger = {
+		74 = { NOT = { has_state_flag = Changed_to_Mongolian_Name } }
+		any_country = {
+			limit = { is_mongolia_nation = yes }
+			has_full_control_of_state = 74 #北平
+		}
+	}
+	
+	fire_only_once = yes
+	hidden = yes
+
+	option = {
+		name = dynamic_name.1.a
+		74 = { 
+			set_state_name = "汗八里"
+			set_state_flag = Changed_to_Mongolian_Name
+		}
+	}
+}

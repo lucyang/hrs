@@ -1,0 +1,76 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ ZZH_communism:0 "工人委员会联邦"
+ ZZH_communism_DEF:0 "工人委员会联邦"
+ ZZH_anarchism:0 "工人委员会联邦"
+ ZZH_anarchism_DEF:0 "工人委员会联邦"
+ ZZH_socialism:0 "工人委员会联邦"
+ ZZH_socialism_DEF:0 "工人委员会联邦"
+ ZZH_democratic:0 "工人委员会联邦"
+ ZZH_democratic_DEF:0 "工人委员会联邦"
+ ZZH_neutrality:0 "工人委员会联邦"
+ ZZH_neutrality_DEF:0 "工人委员会联邦"
+ ZZH_monarchism:0 "工人委员会联邦"
+ ZZH_monarchism_DEF:0 "工人委员会联邦"
+ ZZH_fascism:0 "工人委员会联邦"
+ ZZH_fascism_DEF:0 "工人委员会联邦"
+ ZZH_imperialism:0 "工人委员会联邦"
+ ZZH_imperialism_DEF:0 "工人委员会联邦"
+ ZZH_futurism:0 "工人委员会联邦"
+ ZZH_futurism_DEF:0 "工人委员会联邦"
+ ZZH_communism_ADJ:0 "工人委员会联邦"
+ ZZH_anarchism_ADJ:0 "工人委员会联邦"
+ ZZH_socialism_ADJ:0 "工人委员会联邦"
+ ZZH_democratic_ADJ:0 "工人委员会联邦"
+ ZZH_neutrality_ADJ:0 "工人委员会联邦"
+ ZZH_monarchism_ADJ:0 "工人委员会联邦"
+ ZZH_fascism_ADJ:0 "工人委员会联邦"
+ ZZH_imperialism_ADJ:0 "工人委员会联邦"
+ ZZH_futurism_ADJ:0 "工人委员会联邦"
+ ZZH:0 "工人委员会联邦"
+ ZZH_DEF:0 "工人委员会联邦"
+ ZZH_ADJ:0 "工人委员会联邦"
+ #############
+ ## PARTIES ##
+ #############
+ ZZH_communism_party:0 "社民农工党"
+ ZZH_communism_party_long:0 "社会民主农工党"
+ ZZH_anarchism_party:0 "京汉铁路总工会"
+ ZZH_anarchism_party_long:0 "京汉铁路总工会"
+ ZZH_socialism_party:0 "中国社会党"
+ ZZH_socialism_party_long:0 "中国社会党"
+ ZZH_democratic_party:0 "中华革命党"
+ ZZH_democratic_party_long:0 "中华革命党"
+ ZZH_neutrality_party:0 "铁路工人纠察队"
+ ZZH_neutrality_party_long:0 "铁路工人纠察队"
+ ZZH_monarchism_party:0 "孔教会"
+ ZZH_monarchism_party_long:0 "孔教会"
+ ZZH_fascism_party:0 "中国新民会"
+ ZZH_fascism_party_long:0 "中国新民会"
+ ZZH_imperialism_party:0 "黄卫军"
+ ZZH_imperialism_party_long:0 "黄卫军"
+ ZZH_futurism_party:0 "技术官僚"
+ ZZH_futurism_party_long:0 "技术官僚"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ ZZH_zhang_guotao:0 "张国焘"
+ ZZH_zhang_guotao_desc:0 "§Y出生日期§!：§G1897年11月26日§!\n§Y出生地点§!：§G大东帝国庐陵道萍乡县§!\n\n作为一名成功的小镇做题家，§Y张国焘§!于1916年考入帝国大学理工科，作为中国革命运动的元老，他见证了社民农工党建立的全过程。1920年，张国焘追随李大钊参与共产主义小组活动，参与创建§R社会民主农工党§!。1921年，社民农工党与社会党正式决裂，张国焘当选为社民农工党中央局三人团成员（任组织主任），随后兼职§R中国劳动组合书记部§!总主任。\n\n张国焘是中国工人运动的伟大舵手，他的工会建设思想重质而非重量。慧眼识人的张国焘将许多工作委托给了§Y俞秀松§!等青年才俊，培养他们领导工人运动的能力。此外，张国焘认为认为资产阶级不可能领导像样的革命，而盲目无知的工农群众急需先锋队的开导。因此，只能把希望寄托在“知识阶级”组成的先锋党身上。\n\n张国焘亲自指挥了郑县起义。当§Y京汉铁路工人罢工§!爆发时，张国焘作为劳动组合书记部的负责人亲赴郑州指导工作。罢工工人与多数党员害怕流血冲突，就在他们莫衷一是之时，张国焘在罢工现场振臂高呼，以热情激扬的演说鼓动人民拿起武器，罢工很快演变为武装起义。在张国焘的部署和指挥下，§R京汉铁路总工会§!夺取了郑县的控制权，邻近城市也很快加入了革命阵营。\n\n§Y（以上内容如与史实有出入，请仔细研读张国焘总书记编写的革命史著作《红太阳是怎样升起的》）§!"
+ ZZH_lin_yunan:0 "林育南"
+ ############
+ ## TRAITS ##
+ ############
+
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

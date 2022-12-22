@@ -1,0 +1,26 @@
+state={
+	id=632
+	name="STATE_632"
+	provinces={
+		1423
+	}
+	history = {
+		owner = IMK
+		add_core_of = IMK
+
+		victory_points = { 1423 10 } #京城/首尔
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			air_base = 2
+			dockyard = 1
+			1423 = {
+				naval_base = 2
+			}
+		}
+	}
+	manpower=342626
+	state_category = city
+	local_supplies = 0.0
+}

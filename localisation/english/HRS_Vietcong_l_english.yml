@@ -1,0 +1,62 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ VIC_communism:0 "越南社会主义共和国"
+ VIC_communism_DEF:0 "越南社会主义共和国"
+ VIC_anarchism:0 "越南社会主义共和国"
+ VIC_anarchism_DEF:0 "越南社会主义共和国"
+ VIC_socialism:0 "越南社会主义共和国"
+ VIC_socialism_DEF:0 "越南社会主义共和国"
+ VIC_democratic:0 "越南社会主义共和国"
+ VIC_democratic_DEF:0 "越南社会主义共和国"
+ VIC_neutrality:0 "越南社会主义共和国"
+ VIC_neutrality_DEF:0 "越南社会主义共和国"
+ VIC_monarchism:0 "越南社会主义共和国"
+ VIC_monarchism_DEF:0 "越南社会主义共和国"
+ VIC_fascism:0 "越南社会主义共和国"
+ VIC_fascism_DEF:0 "越南社会主义共和国"
+ VIC_imperialism:0 "越南社会主义共和国"
+ VIC_imperialism_DEF:0 "越南社会主义共和国"
+ VIC_futurism:0 "越南社会主义共和国"
+ VIC_futurism_DEF:0 "越南社会主义共和国"
+ VIC_communism_ADJ:0 "越共"
+ VIC_anarchism_ADJ:0 "越共"
+ VIC_democratic_ADJ:0 "越共"
+ VIC_neutrality_ADJ:0 "越共"
+ VIC_monarchism_ADJ:0 "越共"
+ VIC_fascism_ADJ:0 "越共"
+ VIC_imperialism_ADJ:0 "越共"
+ VIC_futurism_ADJ:0 "越共"
+ VIC:0 "越共"
+ VIC_DEF:0 "越共"
+ VIC_ADJ:0 "越共"
+ #############
+ ## PARTIES ##
+ #############
+ VIC_communism_party:0 "越共"
+ VIC_communism_party_long:0 "越南共产党"
+ VIC_anarchism_party:0 "越共"
+ VIC_anarchism_party_long:0 "越南共产党"
+ VIC_socialism_party:0 "新越党"
+ VIC_socialism_party_long:0 "新越革命党"
+ VIC_democratic_party:0 "越国党"
+ VIC_democratic_party_long:0 "越南国民党"
+ VIC_neutrality_party:0 "人民军"
+ VIC_neutrality_party_long:0 "越南人民军"
+ VIC_monarchism_party:0 "勤王运动"
+ VIC_monarchism_party_long:0 "勤王运动"
+ VIC_fascism_party:0 "复国会"
+ VIC_fascism_party_long:0 "越南复国会"
+ VIC_imperialism_party:0 "复国会"
+ VIC_imperialism_party_long:0 "越南复国会"
+ VIC_futurism_party:0 "技术官僚"
+ VIC_futurism_party_long:0 "技术官僚"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ VIC_truong_chinh:0 "邓春区"
+ VIC_ho_chi_minh:0 "阮爱国"
+ ################
+ ## CHARACTERS ##
+ ################

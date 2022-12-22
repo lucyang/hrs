@@ -1,0 +1,227 @@
+add_namespace = test_news
+add_namespace = zdj_news
+add_namespace = zzz_news
+add_namespace = annam_news
+add_namespace = disaster_news
+add_namespace = civilwar_news
+add_namespace = shh_news
+add_namespace = russia_invasion_news
+
+news_event = {
+	id = disaster_news.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event disaster_news.1" }
+	title = disaster_news.1.t
+	desc = disaster_news.1.desc
+	picture = GFX_news_event_kiev_ruins
+
+	is_triggered_only = yes
+
+	option = {
+		name = disaster_news.1.a
+	}
+}
+###################
+# CHINA CIVIL WAR #
+###################
+news_event = {
+	id = civilwar_news.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event civilwar_news.1"
+		hidden_effect = {
+			set_global_flag = HRS_super_event_visible
+			set_global_flag = CHI_civil_war_se_visible
+			set_global_flag = CHI_Civil_War_Begins
+		}
+	}
+	title = civilwar_news.1.t
+	desc = civilwar_news.1.desc
+	picture = GFX_news_event_chinese_soldiers_city_ruin
+
+	is_triggered_only = yes
+
+	option = {
+		name = civilwar_news.1.a
+	}
+}
+####################
+# SHANGHAI COMMUNE #
+####################
+news_event = {
+	id = shh_news.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event shh_news.1"
+		hidden_effect = {
+			set_global_flag = HRS_super_event_visible
+			set_global_flag = CHI_shanghai_uprising_se_visible
+		}
+	}
+	title = shh_news.1.t
+	desc = shh_news.1.desc
+	picture = GFX_news_event_shanghai_syndicate_militias
+
+	is_triggered_only = yes
+
+	option = {
+		name = shh_news.1.a
+	}
+}
+###################
+# JAPAN CIVIL WAR #
+###################
+news_event = {
+	id = civilwar_news.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event civilwar_news.2"
+		hidden_effect = {
+			set_global_flag = HRS_super_event_visible
+			set_global_flag = JAP_civil_war_se_visible
+			set_global_flag = JAP_Civil_War_Begins
+			play_song = "JAP_civil_war_se" 
+		}
+	}
+	title = civilwar_news.2.t
+	desc = civilwar_news.2.desc
+	picture = GFX_news_event_japanese_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = civilwar_news.2.a
+	}
+}
+###################
+# KOREA CIVIL WAR #
+###################
+news_event = {
+	id = civilwar_news.3
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event civilwar_news.3"
+		hidden_effect = {
+			set_global_flag = HRS_super_event_visible
+			set_global_flag = KOR_civil_war_se_visible
+			set_global_flag = KOR_Civil_War_Begins
+		}
+	}
+	title = civilwar_news.3.t
+	desc = civilwar_news.3.desc
+	picture = GFX_news_event_generic_riot
+
+	is_triggered_only = yes
+
+	option = {
+		name = civilwar_news.3.a
+	}
+}
+news_event = {
+	id = zdj_news.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event zdj_news.1" }
+	title = zdj_news.1.t
+	desc = zdj_news.1.desc
+	picture = GFX_news_event_soviet_soldiers_ruins
+
+	is_triggered_only = yes
+
+	option = {
+		name = zdj_news.1.a
+	}
+}
+news_event = {
+	id = test_news.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event test_news.1" }
+	title = test_news.1.t
+	desc = test_news.1.desc
+	picture = GFX_news_event_military_planning
+
+	is_triggered_only = yes
+
+	option = {
+		name = test_news.1.a
+	}
+}
+##################
+# ANNAM COLLAPSE #
+##################
+news_event = {
+	id = annam_news.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event zzz_news.1" }
+	title = annam_news.1.t
+	desc = annam_news.1.desc
+	picture = GFX_news_event_spr_spanish_civil_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = annam_news.1.a
+	}
+}
+####################
+# SINO-RUSSIAN WAR #
+####################
+news_event = {
+	id = russia_invasion_news.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event russia_invasion_news.1" }
+	title = russia_invasion_news.1.t
+	desc = russia_invasion_news.1.desc
+	picture = GFX_news_event_soviet_tanks
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia_invasion_news.1.a
+	}
+}
+news_event = {
+	id = russia_invasion_news.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event russia_invasion_news.2" }
+	title = russia_invasion_news.2.t
+	desc = russia_invasion_news.2.desc
+	picture = GFX_news_event_soviet_tanks
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia_invasion_news.2.a
+	}
+}
+news_event = {
+	id = russia_invasion_news.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event russia_invasion_news.3" }
+	title = russia_invasion_news.3.t
+	desc = russia_invasion_news.3.desc
+	picture = GFX_news_event_soviet_tanks
+
+	is_triggered_only = yes
+
+	option = {
+		name = russia_invasion_news.3.a
+	}
+}
+########################
+# RUSSIA REUNIFICATION #
+########################
+news_event = {
+	id = zzz_news.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event zzz_news.1" }
+	title = zzz_news.1.t
+	desc = zzz_news.1.desc
+	picture = GFX_news_event_soviet_tanks
+
+	is_triggered_only = yes
+
+	option = {
+		name = zzz_news.1.a
+	}
+}
+news_event = {
+	id = zzz_news.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event zzz_news.2" }
+	title = zzz_news.2.t
+	desc = zzz_news.2.desc
+	picture = GFX_news_event_soviet_tanks
+
+	is_triggered_only = yes
+
+	option = {
+		name = zzz_news.2.a
+	}
+}

@@ -1,0 +1,76 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ MCS_communism:0 "满洲苏维埃共和国"
+ MCS_communism_DEF:0 "满洲苏维埃共和国"
+ MCS_anarchism:0 "满洲苏维埃共和国"
+ MCS_anarchism_DEF:0 "满洲苏维埃共和国"
+ MCS_democratic:0 "满洲苏维埃共和国"
+ MCS_democratic_DEF:0 "满洲苏维埃共和国"
+ MCS_neutrality:0 "满洲苏维埃共和国"
+ MCS_neutrality_DEF:0 "满洲苏维埃共和国"
+ MCS_monarchism:0 "索伦汗国"
+ MCS_monarchism_DEF:0 "索伦汗国"
+ MCS_fascism:0 "索伦国"
+ MCS_fascism_DEF:0 "索伦国"
+ MCS_imperialism:0 "索伦国"
+ MCS_imperialism_DEF:0 "索伦国"
+ MCS_futurism:0 "南满洲铁道辖区"
+ MCS_futurism_DEF:0 "南满洲铁道辖区"
+ MCS_communism_ADJ:0 "满洲"
+ MCS_anarchism_ADJ:0 "满洲"
+ MCS_democratic_ADJ:0 "满洲"
+ MCS_neutrality_ADJ:0 "满洲"
+ MCS_monarchism_ADJ:0 "索伦"
+ MCS_fascism_ADJ:0 "索伦"
+ MCS_imperialism_ADJ:0 "索伦"
+ MCS_futurism_ADJ:0 "满铁"
+ MCS:0 "满洲苏维埃"
+ MCS_DEF:0 "满洲苏维埃"
+ MCS_ADJ:0 "满洲苏维埃"
+ #############
+ ## PARTIES ##
+ #############
+ MCS_communism_party:0 "满共 - 国际派"
+ MCS_communism_party_long:0 "满洲共产党 - 国际派"
+ MCS_anarchism_party:0 "满共 - 游击队派"
+ MCS_anarchism_party_long:0 "满洲共产党 - 游击队派"
+ MCS_socialism_party:0 "进步党"
+ MCS_socialism_party_long:0 "满洲进步党"
+ MCS_democratic_party:0 "大满洲党"
+ MCS_democratic_party_long:0 "大满洲党"
+ MCS_neutrality_party:0 "人民革命军"
+ MCS_neutrality_party_long:0 "满洲人民革命军"
+ MCS_monarchism_party:0 "宗社党 - 溥伟派"
+ MCS_monarchism_party_long:0 "君主立宪维持会 - 溥伟派"
+ MCS_fascism_party:0 "协和会"
+ MCS_fascism_party_long:0 "满洲协和会"
+ MCS_imperialism_party:0 "宗社党 - 熙洽派"
+ MCS_imperialism_party_long:0 "君主立宪维持会 - 熙洽派"
+ MCS_futurism_party:0 "满铁"
+ MCS_futurism_party_long:0 "南满洲铁道"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ MCS_zhao_chengjin:0 "赵承金"
+ #MCS_zhao_chengjin_desc:0 ""
+ ###########
+ ## IDEAS ##
+ ###########
+
+ #################
+ ### DECISIONS ###
+ ################# 
+
+ ################
+ ## FOCUS TREE ##
+ ################
+ 
+ #############
+ ### EVENT ###
+ #############

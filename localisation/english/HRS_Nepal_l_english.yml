@@ -1,0 +1,61 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ NEP_communism:0 "尼泊尔民主联邦共和国"
+ NEP_communism_DEF:0 "尼泊尔民主联邦共和国"
+ NEP_anarchism:0 "尼泊尔民主联邦共和国"
+ NEP_anarchism_DEF:0 "尼泊尔民主联邦共和国"
+ NEP_socialism:0 "尼泊尔王国"
+ NEP_socialism_DEF:0 "尼泊尔王国"
+ NEP_democratic:0 "尼泊尔王国"
+ NEP_democratic_DEF:0 "尼泊尔王国"
+ NEP_neutrality:0 "尼泊尔王国"
+ NEP_neutrality_DEF:0 "尼泊尔王国"
+ NEP_monarchism:0 "尼泊尔王国"
+ NEP_monarchism_DEF:0 "尼泊尔王国"
+ NEP_fascism:0 "尼泊尔王国"
+ NEP_fascism_DEF:0 "尼泊尔王国"
+ NEP_imperialism:0 "尼泊尔王国"
+ NEP_imperialism_DEF:0 "尼泊尔王国"
+ NEP_futurism:0 "尼泊尔人民邦"
+ NEP_futurism_DEF:0 "尼泊尔人民邦"
+ NEP_communism_ADJ:0 "尼泊尔"
+ NEP_anarchism_ADJ:0 "尼泊尔"
+ NEP_socialism_ADJ:0 "尼泊尔"
+ NEP_democratic_ADJ:0 "尼泊尔"
+ NEP_neutrality_ADJ:0 "尼泊尔"
+ NEP_monarchism_ADJ:0 "尼泊尔"
+ NEP_fascism_ADJ:0 "尼泊尔"
+ NEP_imperialism_ADJ:0 "尼泊尔"
+ NEP_futurism_ADJ:0 "尼泊尔"
+ NEP:0 "尼泊尔"
+ NEP_DEF:0 "尼泊尔"
+ NEP_ADJ:0 "尼泊尔"
+ #############
+ ## PARTIES ##
+ #############
+ NEP_communism_party:0 "尼泊尔共产党"
+ NEP_communism_party_long:0 "尼泊尔共产党"
+ NEP_anarchism_party:0 "尼泊尔大会党"
+ NEP_anarchism_party_long:0 "尼泊尔大会党"
+ NEP_socialism_party:0 "尼泊尔大会党"
+ NEP_socialism_party_long:0 "尼泊尔大会党"
+ NEP_democratic_party:0 "尼泊尔大会党"
+ NEP_democratic_party_long:0 "尼泊尔大会党"
+ NEP_neutrality_party:0 "拉纳家族"
+ NEP_neutrality_party_long:0 "拉纳家族" #Juddha Shumsher Jang Bahadur Rana
+ NEP_monarchism_party:0 "廓尔喀王朝"
+ NEP_monarchism_party_long:0 "廓尔喀王朝"
+ NEP_imperialism_party:0 "大尼泊尔主义者"
+ NEP_imperialism_party_long:0 "大尼泊尔主义者"
+ NEP_futurism_party:0 "希特勒秘传同盟"
+ NEP_futurism_party_long:0 "希特勒秘传同盟"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ NEP_tribhuvan:0 "特里布万"

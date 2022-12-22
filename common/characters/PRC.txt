@@ -1,0 +1,162 @@
+characters={
+	PRC_ji_hongchang={
+		name=PRC_ji_hongchang
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/Portrait_Ji_Hongchang.png"
+			}
+			army={
+				large="gfx/leaders/PRC/Portrait_Ji_Hongchang_military.png"
+			}
+		}
+		country_leader={
+			ideology=new_tridemism_subtype
+			desc=PRC_ji_hongchang_desc
+			traits={ revolutionary_general patriotic_guerilla }
+			expire="1950.6.18.1"
+		}
+		corps_commander={
+			traits={ career_officer brilliant_strategist commando }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=1
+		}
+	}
+	PRC_fang_zhenwu={
+		name=PRC_fang_zhenwu
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/Portrait_Fang_Zhenwu.png"
+			}
+			army={
+				large="gfx/leaders/PRC/Portrait_Fang_Zhenwu_military.png"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_front_subtype
+			desc=PRC_fang_zhenwu_desc
+			traits={  }
+			expire="1950.6.18.1"
+		}
+		corps_commander={
+			traits={ infantry_officer organizer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	PRC_zhang_kexia={
+		name=PRC_zhang_kexia
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/Portrait_Zhang_Kexia.png"
+			}
+			army={
+				large="gfx/leaders/PRC/Portrait_Zhang_Kexia.png"
+			}
+		}
+		#country_leader={
+		#	ideology=dengism_subtype
+		#	desc=PRC_zhang_kexia_desc
+		#	traits={ }
+		#	expire="1984.7.7.1"
+		#}
+		corps_commander={
+			traits={ politically_connected }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	PRC_xuan_xiafu={
+		name=PRC_xuan_xiafu
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/Portrait_Xuan_Xiafu.png"
+			}
+			army={
+				large="gfx/leaders/PRC/Portrait_Xuan_Xiafu.png"
+			}
+		}
+		country_leader={
+			ideology=neo_asianism_subtype
+			desc=PRC_xuan_xiafu_desc
+			traits={ }
+			expire="1950.6.18.1"
+		}
+		corps_commander={
+			traits={ politically_connected }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	PRC_dong_zhentang={
+		name=PRC_dong_zhentang
+		portraits={
+			army={
+				large="gfx/leaders/PRC/Portrait_Dong_Zhentang.png"
+			}
+		}
+		corps_commander={
+			traits={ infantry_leader trait_cautious }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+		}
+	}
+	PRC_bian_zhangwu={
+		name=PRC_bian_zhangwu
+		portraits={
+			army={
+				large="gfx/leaders/PRC/Portrait_Bian_Zhangwu.png"
+			}
+		}
+		corps_commander={
+			traits={ politically_connected }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	PRC_chen_duxiu={
+		name=PRC_chen_duxiu
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/Portrait_Chen_Duxiu.png"
+			}
+		}
+		#country_leader={
+		#	ideology=democratic_socialism_subtype
+		#	desc=PRC_chen_duxiu_desc
+		#	traits={ council_communist veteran_communist }
+		#	expire="1950.6.18.1"
+		#}
+	}
+	PRC_li_dazhao={
+		name=PRC_li_dazhao
+		portraits={
+			civilian={
+				large="gfx/leaders/PRC/Portrait_Li_Dazhao.png"
+			}
+		}
+		#country_leader={
+		#	ideology=neo_asoanism_subtype
+		#	desc=PRC_li_dazhao_desc
+		#	traits={ proletariat_internationalist devoted_marxist }
+		#	expire="1950.6.18.1"
+		#}
+	}
+}

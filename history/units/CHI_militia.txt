@@ -1,0 +1,37 @@
+﻿division_template = {
+	name = "赤卫队"
+
+	division_names_group = CHI_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+units = {
+	division = {
+		name = "汉冶萍工人纠察队"
+		location = 2141
+		division_template = "赤卫队"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "汉阳赤卫队"
+		location = 2141
+		division_template = "赤卫队"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "汉口赤卫队"
+		location = 3023
+		division_template = "赤卫队"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "武昌赤卫队"
+		location = 3846
+		division_template = "赤卫队"
+		start_experience_factor = 0.3
+	}
+}

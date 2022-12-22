@@ -1,0 +1,18 @@
+state={
+	id=399
+	name="STATE_399"
+	provinces={
+		419 2285 
+	}
+	history={
+		owner = PHI
+		add_core_of = PHI
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=3753000
+	state_category = rural
+	local_supplies = 0.0
+}

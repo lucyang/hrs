@@ -1,0 +1,82 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ ALT_communism:0 "卫拉特苏维埃"
+ ALT_communism_DEF:0 "卫拉特苏维埃社会主义共和国"
+ ALT_anarchism:0 "卫拉特苏维埃"
+ ALT_anarchism_DEF:0 "卫拉特苏维埃社会主义共和国"
+ ALT_socialism:0 "哈拉和林政府"
+ ALT_socialism_DEF:0 "阿尔泰联盟共和国"
+ ALT_democratic:0 "哈拉和林政府"
+ ALT_democratic_DEF:0 "阿尔泰联盟共和国"
+ ALT_neutrality:0 "哈拉和林政府"
+ ALT_neutrality_DEF:0 "阿尔泰联盟共和国"
+ ALT_monarchism:0 "哈拉和林政府"
+ ALT_monarchism_DEF:0 "阿尔泰联盟共和国"
+ ALT_fascism:0 "哈拉和林政府"
+ ALT_fascism_DEF:0 "阿尔泰联盟共和国"
+ ALT_imperialism:0 "哈拉和林政府"
+ ALT_imperialism_DEF:0 "阿尔泰联盟共和国"
+ ALT_futurism:0 "哈拉和林政府"
+ ALT_futurism_DEF:0 "阿尔泰联盟共和国"
+ ALT_communism_ADJ:0 "卫拉特"
+ ALT_anarchism_ADJ:0 "卫拉特"
+ ALT_socialism_ADJ:0 "卫拉特"
+ ALT_democratic_ADJ:0 "阿尔泰"
+ ALT_neutrality_ADJ:0 "阿尔泰"
+ ALT_monarchism_ADJ:0 "阿尔泰"
+ ALT_fascism_ADJ:0 "阿尔泰"
+ ALT_imperialism_ADJ:0 "阿尔泰"
+ ALT_futurism_ADJ:0 "阿尔泰"
+ ALT:0 "阿尔泰"
+ ALT_DEF:0 "阿尔泰"
+ ALT_ADJ:0 "阿尔泰"
+ #############
+ ## PARTIES ##
+ #############
+ ALT_communism_party:0 "俄罗斯共产党"
+ ALT_communism_party_long:0 "俄罗斯共产党"
+ ALT_anarchism_party:0 "社会民主党"
+ ALT_anarchism_party_long:0 "俄国社会民主工党"
+ ALT_socialism_party:0 "社会革命党"
+ ALT_socialism_party_long:0 "社会革命党"
+ ALT_democratic_party:0 "立宪民主党"
+ ALT_democratic_party_long:0 "立宪民主党"
+ ALT_neutrality_party:0 "阿尔泰土著师"
+ ALT_neutrality_party_long:0 "阿尔泰土著师" # Алтайский туземный дивизион/Altai Native Division
+ ALT_monarchism_party:0 "布尔罕教团"
+ ALT_monarchism_party_long:0 "布尔罕教团" # Burkhanism
+ ALT_fascism_party:0 "民族劳动联盟"
+ ALT_fascism_party_long:0 "俄罗斯团结主义者民族劳动联盟"
+ ALT_imperialism_party:0 "俄罗斯全军联盟"
+ ALT_imperialism_party_long:0 "俄罗斯全军联盟"
+ ALT_futurism_party:0 "人民意志党"
+ ALT_futurism_party_long:0 "人民意志党"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ ALT_grigory_gurkin:0 "格里戈里·绰罗斯-古尔金"
+ ALT_grigory_gurkin_desc:0 "格里戈里·绰罗斯-古尔金，从小就表现出了惊人的绘画天赋，27岁时得以前往俄罗斯的国立美术学院学习绘画。在这期间他接触了名为§Y布尔罕§!的宗教信仰，将长生天信仰、东正教以及萨满教融会贯通。此后格里戈里成为了布尔罕教的忠实信徒，创作了大量赞颂家乡美好风光的油画。与此同时，格里戈里奔走于俄罗斯与中国，试图争取阿尔泰乌梁海的独立。\n\n这一愿望在俄罗斯内战期间得到实现。红军与白军的交战蹂躏了汗国最北端，阿尔泰人于1918年组建了§Y哈拉和林政府§!，然而§Y高尔察克§!的白军摧毁了新生的共和国，若非邻国图瓦出手援助，阿尔泰人的自由将再度灭亡。如今，格里戈里作为总统管理着这个弹丸小国，他发誓无论付出何种代价，都要保卫阿尔泰人民来之不易的独立与自由。"
+ ALT_vasily_anuchin:0 "瓦西里·阿努金"
+ ALT_dmitry_satunin:0 "季米特里·萨图宁"
+ ALT_aleksandr_kaigorodov:0 "亚历山大·凯戈罗多夫"
+ ###########
+ ## IDEAS ##
+ ###########
+
+ #################
+ ### DECISIONS ###
+ ################# 
+
+ #############
+ ## FACTION ##
+ #############
+
+ #############
+ ### EVENT ###
+ #############

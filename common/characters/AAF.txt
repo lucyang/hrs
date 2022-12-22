@@ -1,0 +1,73 @@
+characters={
+	AAF_anarchist_commune={
+		name=AAF_anarchist_commune
+		portraits={
+			civilian={
+				large="gfx/leaders/AAF/Portrait_Altai_Anarchist_Federation.dds"
+			}
+		}
+		country_leader={
+			ideology=anarcho_communism_subtype
+			desc=AAF_anarchist_commune_desc
+			traits={ our_right_to_survive }
+			expire="1950.1.1.1"
+		}
+	}
+	AAF_yefim_mamontov={
+		name=AAF_yefim_mamontov
+		portraits={
+			civilian={
+				large="gfx/leaders/AAF/Portrait_Yefim_Mamontov.png"
+			}
+			army={
+				large="gfx/leaders/AAF/Portrait_Yefim_Mamontov.png"
+			}
+		}
+		country_leader={
+			ideology=partisan_movement_subtype
+			desc=AAF_yefim_mamontov_desc
+			traits={ anarchist_zeal }
+			expire="1950.1.1.1"
+		}
+		corps_commander={
+			traits={ militias_officer guerilla_fighter }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	AAF_grigory_golov={
+		name=AAF_grigory_golov
+		portraits={
+			army={
+				large="gfx/leaders/AAF/Portrait_Grigory_Golov.png"
+			}
+		}
+		corps_commander={
+			traits={ militias_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	AAF_kozyr_sidorovich={
+		name=AAF_kozyr_sidorovich
+		portraits={
+			army={
+				large="gfx/leaders/AAF/Portrait_Kozyr_Sidorovich.png"
+			}
+		}
+		corps_commander={
+			traits={ irregulars_officer }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+}

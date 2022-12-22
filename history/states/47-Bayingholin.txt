@@ -1,0 +1,22 @@
+state={
+	id=47
+	name="STATE_47"
+	provinces={
+		9 34 539 595 672 745 980 1100 1366 1659 1884 2051 2158 2354 2357 2595 2725 2793 3141 3341 3657 3667 3690
+	}
+	history = {
+		owner = DZU
+		add_core_of = DZU
+
+		victory_points = { 2051 1 } #若羌
+		victory_points = { 1884 1 } #且末
+		victory_points = { 2595 3 } #尉犁
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=57024
+	state_category = pastoral
+	local_supplies = 0.0
+}

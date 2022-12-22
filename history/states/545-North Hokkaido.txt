@@ -1,0 +1,33 @@
+
+state={
+	id=545
+	name="STATE_545"
+
+	history={
+		owner = IMJ
+		add_core_of = IMJ
+
+		victory_points = { 2713 10 } #旭川
+		victory_points = { 1740 1 } #稚内
+		victory_points = { 926 1 } #網走
+
+		buildings = {
+			infrastructure = 1
+			926 = {
+				naval_base = 1
+			}
+			1740 = {
+				coastal_bunker = 1
+			}
+		}
+
+	}
+
+	provinces={
+		926 1728 1740 2713
+	}
+	manpower=313354
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

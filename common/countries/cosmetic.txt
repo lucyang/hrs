@@ -1,0 +1,152 @@
+IMJ_IMC = {
+	color = rgb { 204 117 2 }
+	color_ui = rgb { 204 117 2 }
+}
+IMK_IMC = {
+	color = rgb { 204 117 2 }
+	color_ui = rgb { 204 117 2 }
+}
+TGG_IMC = {
+	color = rgb { 204 117 2 }
+	color_ui = rgb { 204 117 2 }
+}
+ZDJ_IMC = {
+	color = rgb { 182 104 1 }
+	color_ui = rgb { 182 104 1 }
+}
+DBJ_IMC = {
+	color = rgb { 182 104 1 }
+	color_ui = rgb { 182 104 1 }
+}
+PHI_IMC = {
+	color = rgb { 182 104 1 }
+	color_ui = rgb { 182 104 1 }
+}
+ANM_IMC = {
+	color = rgb { 182 104 1 }
+	color_ui = rgb { 182 104 1 }
+}
+AMM_IMC = {
+	color = rgb { 182 104 1 }
+	color_ui = rgb { 182 104 1 }
+}
+XSM_IMC = {
+	color = rgb { 182 104 1 }
+	color_ui = rgb { 182 104 1 }
+}
+HSW_IMC = {
+	color = rgb { 182 104 1 }
+	color_ui = rgb { 182 104 1 }
+}
+MAN_IMC = {
+	color = rgb { 159 90 0 }
+	color_ui = rgb { 159 90 0 }
+}
+KMT_IMC = {
+	color = rgb { 159 90 0 }
+	color_ui = rgb { 159 90 0 }
+}
+BRM_IMC = {
+	color = rgb { 159 90 0 }
+	color_ui = rgb { 159 90 0 }
+}
+LNF_IMC = {
+	color = rgb { 159 90 0 }
+	color_ui = rgb { 159 90 0 }
+}
+MAL_IMC = {
+	color = rgb { 159 90 0 }
+	color_ui = rgb { 159 90 0 }
+}
+BSM_IMC = {
+	color = rgb { 159 90 0 }
+	color_ui = rgb { 159 90 0 }
+}
+YUN_IMC = {
+	color = rgb { 159 90 0 }
+	color_ui = rgb { 159 90 0 }
+}
+CHQ_FR = {
+	color = rgb { 80 0 0 }
+	color_ui = rgb { 80 0 0 }
+}
+CHQ_FL = {
+	color = rgb { 80 0 0 }
+	color_ui = rgb { 80 0 0 }
+}
+TAW_KMT = {
+	color = rgb { 0 33 138 }
+	color_ui = rgb { 0 33 138 }
+}
+FRM_KMT = {
+	color = rgb { 0 33 138 }
+	color_ui = rgb { 0 33 138 }
+}
+PRJ_junta = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+PRK_commune_unification = {
+	color = rgb { 135 2 2 }
+	color_ui = rgb { 125  13  24 }
+}
+PRK_commie = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 125 13 24 }
+}
+PRK_juche = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+ANK_unification = {
+	color = rgb { 125  13  24 }
+	color_ui = rgb { 125  13  24 }
+}
+PRC_left = {
+	color = rgb { 205 0 0 }
+	color_ui = rgb { 205 0 0 }
+}
+PRC_far_left = {
+	color = rgb { 139 0 0 }
+	color_ui = rgb { 139 0 0 }
+}
+DAL_ZZZ = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+ZZZ_soviet = {
+	color = rgb { 125  13  24 }
+	color_ui = rgb { 125  13  24 }
+}
+ZZZ_soviet_russia = {
+	color = rgb { 125  13  24 }
+	color_ui = rgb { 125  13  24 }
+}
+ZZZ_rada = {
+	color = rgb { 150 23 23 }
+	color_ui = rgb { 150 23 23 }
+}
+ZZZ_sejm = {
+	color = rgb { 125  13  24 }
+	color_ui = rgb { 125  13  24 }
+}
+ZZZ_ancom = {
+	color = rgb { 135 2 2 }
+	color_ui = rgb { 125  13  24 }
+}
+ZZZ_people_republic = {
+	color = rgb { 135 2 2 }
+	color_ui = rgb { 125  13  24 }
+}
+ZZZ_socialist_republic = {
+	color = rgb { 98 72 124 }
+	color_ui = rgb { 98 72 124 }
+}
+ZZZ_federation = {
+	color = rgb { 0 155 214 }
+	color_ui = rgb { 0 155 214 }
+}
+ZZZ_republic = {
+	color = rgb { 0 155 214 }
+	color_ui = rgb { 0 155 214 }
+}

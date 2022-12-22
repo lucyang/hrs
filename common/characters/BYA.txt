@@ -1,0 +1,16 @@
+characters = {
+	BYA_boris_shumyatsky = {
+		name=BYA_boris_shumyatsky
+		portraits={
+			civilian={
+				large="gfx/leaders/BYA/Portrait_Boris_Shumyatsky.png"
+			}
+		}
+		country_leader={
+			ideology=leninism_subtype
+			desc=BYA_boris_shumyatsky_desc
+			traits={ soviet_thaw international_revolutionary }
+			expire="1950.1.1.1"
+		}
+	}
+}

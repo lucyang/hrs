@@ -1,0 +1,44 @@
+characters={
+	OMT_deguchi_onisaburo={
+		name=OMT_deguchi_onisaburo
+		portraits={
+			civilian={
+				large="gfx/leaders/OMT/Portrait_Deguchi_Onisaburo.png"
+			}
+		}
+		country_leader={
+			ideology=despotism_subtype
+			desc=OMT_deguchi_onisaburo_desc
+			traits={ political_chameleon the_masses_opium }
+			expire="1948.1.19.1"
+		}
+	}
+	OMT_left_deguchi_onisaburo={
+		name=OMT_deguchi_onisaburo
+		portraits={
+			civilian={
+				large="gfx/leaders/OMT/Portrait_Deguchi_Onisaburo.png"
+			}
+		}
+		country_leader={
+			ideology=religious_socialism_subtype
+			desc=OMT_deguchi_onisaburo_desc
+			traits={ political_chameleon the_masses_opium }
+			expire="1948.1.19.1"
+		}
+	}
+	OMT_right_deguchi_onisaburo={
+		name=OMT_deguchi_onisaburo
+		portraits={
+			civilian={
+				large="gfx/leaders/OMT/Portrait_Deguchi_Onisaburo.png"
+			}
+		}
+		country_leader={
+			ideology=reactionary_populism_subtype
+			desc=OMT_deguchi_onisaburo_desc
+			traits={ political_chameleon the_masses_opium }
+			expire="1948.1.19.1"
+		}
+	}
+}

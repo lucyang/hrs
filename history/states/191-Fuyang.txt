@@ -1,0 +1,21 @@
+state={
+	id=191
+	name="STATE_191"
+	provinces={
+		1473 3769 3781 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 3781 1 } #阜阳
+		
+		buildings = {
+			infrastructure = 2
+		}
+		
+	}
+	manpower=7177127
+	state_category = town
+	local_supplies = 0.0
+}

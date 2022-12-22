@@ -1,0 +1,31 @@
+state={
+	id=264
+	name="STATE_264"
+	provinces={
+		1060 2396 2403 3171 3204 3879 3891
+	}
+	resources = {
+		tungsten = 30
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = {
+			1060 5
+		}
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			1060 = {
+				naval_base = 1
+			}
+		}
+	}
+	manpower=1690092
+	state_category = city
+	local_supplies = 0.0
+}

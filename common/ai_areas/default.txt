@@ -1,0 +1,97 @@
+areas = {
+
+	huabei = {
+        strategic_regions = {
+            7 # Huabei Plain
+        }
+    }
+
+    xibei = {
+        strategic_regions = {
+            10 # Loess Plateau
+			11 # Qinling Mountain
+        }
+    }
+
+	dongnan = {
+        strategic_regions = {
+            2 # Dongnan
+        }
+    }
+
+	huanan = {
+        strategic_regions = {
+            1 # Liangguang
+            3 # Yantze Plain
+            4 # Huguang
+        }
+    }
+
+	xinan = {
+        strategic_regions = {
+            5 # Liangguang
+			6 # Yungui Plateau
+        }
+    }
+
+	tibet = {
+        strategic_regions = {
+            12 # Tibet
+        }
+    }
+
+	yangtze_river = {
+        strategic_regions = {
+            14 # Upper Yangtze River
+            32 # Lower Yangtze River
+        }
+    }
+
+    east_china_sea = {
+        strategic_regions = {
+            18 # Taiwan
+            35 # East China Sea
+        }
+    }
+
+    yellow_sea = {
+        strategic_regions = {
+            36 # Yellow Sea
+        }
+    }
+
+    bohai_sea = {
+        strategic_regions = {
+            37 # Bohai Sea
+        }
+    }
+
+    south_china_sea = {
+        strategic_regions = {
+            19 # Hainan Island
+            34 # South China Sea
+            43 # Sulawesi Sea
+        }
+    }
+
+    japan_sea = {
+        strategic_regions = {
+            38 # Sea of Japan
+            39 # Seto Inland Sea
+        }
+    }
+
+    okhotsk_sea = {
+        strategic_regions = {
+            20 # Sakhalin Island
+            40 # Okhotsk Sea
+        }    
+    }
+    west_pacific = {
+         strategic_regions = {
+            25 # Philippines
+            41 # North West Pacific
+            42 # South West Pacific
+        }
+    }
+}

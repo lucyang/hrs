@@ -1,0 +1,44 @@
+characters={
+	JAF_iwasa_sakutaro={
+		name=JAF_iwasa_sakutaro
+		portraits={
+			civilian={
+				large="gfx/leaders/JAF/Portrait_Iwasa_Sakutaro.png"
+			}
+		}
+		country_leader={
+			ideology=pure_anarchism_subtype
+			desc=JAF_iwasa_sakutaro_desc
+			traits={ militant_socialist anti_unionist_pure_anarchist }
+			expire="1967.2.13.1"
+		} 
+	}
+	JAF_hatta_shuzo={
+		name=JAF_hatta_shuzo
+		portraits={
+			civilian={
+				large="gfx/leaders/JAF/Portrait_Hatta_Shuzo.png"
+			}
+		}
+		#country_leader={
+		#	ideology=anarcho_communism_subtype
+		#	desc=JAF_hatta_shuzo_desc
+		#	traits={ anarchist_zeal our_right_to_survive }
+		#	expire="1934.1.30.1"
+		#} 
+	}
+	JAF_ishikawa_sanshiro={
+		name=JAF_ishikawa_sanshiro
+		portraits={
+			civilian={
+				large="gfx/leaders/NGN/Portrait_Ishikawa_Sanshiro.png"
+			}
+		}
+		#country_leader={
+		#	ideology=anarchism_subtype
+		#	desc=JAF_ishikawa_sanshiro_desc
+		#	traits={ militant_socialist defender_of_the_peasantry }
+		#	expire="1956.11.28.1"
+		#}
+	}
+}

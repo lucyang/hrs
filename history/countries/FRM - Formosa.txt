@@ -1,0 +1,72 @@
+﻿capital = 346 # Taichung
+
+recruit_character = FRM_lin_xiantang
+recruit_character = FRM_jiang_weishui
+recruit_character = FRM_lian_wenqing
+recruit_character = FRM_li_weiguang
+recruit_character = FRM_chen_fengyuan
+#recruit_character = FRM_cai_peihuo
+recruit_character = FRM_luo_fuxing
+recruit_character = FRM_xie_xuehong
+#recruit_character = FRM_jian_ji
+#recruit_character = FRM_yu_qingfang
+
+oob = "empty"
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	basic_train = 1
+	gw_artillery = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	fuel_refining = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+add_ideas = {
+	limited_exports
+	extensive_conscription
+	partial_economic_mobilisation
+}
+add_ideas = {
+	country_development2
+	country_tech2
+	unitary_state1
+	market_economy2
+}
+
+set_research_slots = 1
+set_convoys = 10
+set_stability = 0.50
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1921.2.28"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 6
+	anarchism = 18
+	socialism = 20
+	democratic = 24
+	neutrality = 26
+	monarchism = 6
+	fascism = 0
+	imperialism = 0
+	futurism = 0
+}

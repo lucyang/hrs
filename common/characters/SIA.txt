@@ -1,0 +1,29 @@
+characters={
+	SIA_rama_vi={
+		name=SIA_rama_vi
+		portraits={
+			civilian={
+				large="gfx/leaders/SIA/Portrait_Rama_VI.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_subtype
+			desc=SIA_rama_vi_desc
+			traits={ social_reformer divisive_absolute_monarch }
+			expire="1925.11.26.1"
+		}
+	}
+	SIA_phraya_manopakorn_nititada={
+		name=SIA_phraya_manopakorn_nititada
+		portraits={
+			civilian={
+				large="gfx/leaders/MAN/Portrait_Phraya_Manopakorn.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism_subtype
+			traits={ }
+			expire="1948.10.1.1"
+		}
+	}
+}

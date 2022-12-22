@@ -1,0 +1,52 @@
+characters={
+	AMM_ushijima_mitsuru={
+		name=AMM_ushijima_mitsuru
+		portraits={
+			civilian={
+				large="gfx/leaders/AMM/Portrait_Ushijima_Mitsuru.png"
+			}
+			army={
+				large="gfx/leaders/AMM/Portrait_Ushijima_Mitsuru.png"
+			}
+		}
+		country_leader={
+			ideology=military_government_subtype
+			desc=AMM_ushijima_mitsuru_desc
+			traits={ silent_mule warrior_code }
+			expire="1945.6.22.1"
+		}
+		corps_commander={
+			traits={ infantry_officer career_officer defensive_doctrine }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+		}
+	}
+	AMM_shirakawa_yoshinori={
+		name=AMM_shirakawa_yoshinori
+		portraits={
+			civilian={
+				large="gfx/leaders/AMM/Portrait_Shirakawa_Yoshinori.png"
+			}
+			army={
+				large="gfx/leaders/AMM/Portrait_Shirakawa_Yoshinori.png"
+			}
+		}
+		#country_leader={
+		#	ideology=military_government_subtype
+		#	desc=AMM_shirakawa_yoshinori_desc
+		#	traits={ }
+		#	expire="1932.5.26.1"
+		#}
+		corps_commander={
+			traits={ infantry_officer old_guard }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+}

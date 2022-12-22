@@ -1,0 +1,21 @@
+
+state={
+	id=557
+	name="STATE_557"
+	provinces={
+		4 1551 3953
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+	manpower=37000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

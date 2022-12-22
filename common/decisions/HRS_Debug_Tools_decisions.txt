@@ -1,0 +1,1284 @@
+HRS_debug_tool_cataegory = {
+
+	HRS_control_all_china_states = {
+
+		allowed = {
+			#		
+		}
+
+		available = {
+			#
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+		}
+		
+		modifier = {
+			#
+		}
+		
+		complete_effect = {
+			every_state = {
+				limit = { is_any_china_state = yes }
+				transfer_state_to = ROOT
+			}
+		}
+	}
+
+	HRS_control_all_korea_states = {
+
+		allowed = {
+			#		
+		}
+
+		available = {
+			#
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+		}
+		
+		modifier = {
+			#
+		}
+		
+		complete_effect = {
+			every_state = {
+				limit = { is_any_korea_state = yes }
+				transfer_state_to = ROOT
+			}
+		}
+	}
+
+	HRS_control_all_japan_states = {
+
+		allowed = {
+			#		
+		}
+
+		available = {
+			#
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+		}
+		
+		modifier = {
+			#
+		}
+		
+		complete_effect = {
+			every_state = {
+				limit = { is_any_japan_state = yes }
+				transfer_state_to = ROOT
+			}
+		}
+	}
+
+	HRS_control_all_mongolia_states = { 
+
+		allowed = {
+			#		
+		}
+
+		available = {
+			#
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+		}
+		
+		modifier = {
+			#
+		}
+		
+		complete_effect = {
+			every_state = {
+				limit = { is_any_mongolia_state = yes }
+				transfer_state_to = ROOT
+			}
+		}
+	}
+
+	HRS_control_all_taiwan_states = {
+
+		allowed = {
+			#		
+		}
+
+		available = {
+			#
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+		}
+		
+		modifier = {
+			#
+		}
+		
+		complete_effect = {
+			every_state = {
+				limit = { is_any_taiwan_state = yes }
+				transfer_state_to = ROOT
+			}
+		}
+	}
+
+	HRS_control_all_ryukyu_states = {
+
+		allowed = {
+			#		
+		}
+
+		available = {
+			#
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+		}
+		
+		modifier = {
+			#
+		}
+		
+		complete_effect = {
+			every_state = {
+				limit = { is_any_ryukyu_state = yes }
+				transfer_state_to = ROOT
+			}
+		}
+	}
+
+	HRS_trigger_kazakh_dzungar_war = {
+
+		allowed = {
+			#		
+		}
+
+		available = {
+			#
+			AND = {
+				KAZ = { exists = yes }
+				DZU = { exists = yes }
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+			AND = {
+				KAZ = { exists = yes }
+				DZU = { exists = yes }
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		complete_effect = {
+			KAZ = {
+				declare_war_on = {
+					target = DZU
+					type = take_state_focus
+					generator = { 514 582 584 }
+				}
+			}
+		}
+	}
+
+	HRS_kazakh_victory_in_kazakh_dzungar_war = {
+
+		allowed = {
+			#		
+		}
+
+		available = {
+			#
+			AND = {
+				KAZ = { has_war_with = DZU }
+				KAZ = { exists = yes }
+				DZU = { exists = yes }
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+			AND = {
+				KAZ = { has_war_with = DZU }
+				KAZ = { exists = yes }
+				DZU = { exists = yes }
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		complete_effect = {
+			KAZ = {
+				white_peace = DZU
+				transfer_state = 514
+				transfer_state = 582
+				transfer_state = 584
+				transfer_state = 585
+			}
+			DZU = {
+				add_stability = -0.20
+				add_political_power = -200
+			}
+		}
+	}
+
+	HRS_dzungar_victory_in_kazakh_dzungar_war = {
+
+		allowed = {
+			#		
+		}
+
+		available = {
+			#
+			AND = {
+				KAZ = { has_war_with = DZU }
+				KAZ = { exists = yes }
+				DZU = { exists = yes }
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+			AND = {
+				KAZ = { has_war_with = DZU }
+				KAZ = { exists = yes }
+				DZU = { exists = yes }
+			}
+		}
+		
+		modifier = {
+			#
+		}
+		
+		complete_effect = {
+			DZU = {
+				white_peace = KAZ
+				add_stability = -0.10
+				add_political_power = -100
+			}
+			KAZ = {
+				add_stability = -0.20
+				add_war_support = -0.20
+			}
+		}
+	}
+
+	HRS_collapse_of_china = {
+
+		allowed = {
+			#		
+		}
+
+		available = {
+			#
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+		}
+		
+		modifier = {
+			#
+		}
+		
+		complete_effect = {
+			set_global_flag = CHI_Civil_War_Begins
+			every_state = {
+				limit = { is_guangxi_state = yes }
+				transfer_state_to = GXC
+			}
+			every_state = {
+				limit = { is_shanxi_state = yes }
+				transfer_state_to = SHX
+			}
+			every_state = {
+				limit = { is_sichuan_state = yes }
+				transfer_state_to = SCH
+			}
+			every_state = {
+				limit = { is_hubei_state = yes }
+				transfer_state_to = CHI
+			}
+			every_state = {
+				limit = { is_guangdong_state = yes }
+				transfer_state_to = KMT
+			}
+			every_state = {
+				limit = { is_yunnan_state = yes }
+				transfer_state_to = YUN
+			}
+			every_state = {
+				limit = { is_guizhou_state = yes }
+				transfer_state_to = GZH
+			}
+			every_state = {
+				limit = { is_east_sichuan_state = yes }
+				transfer_state_to = CHQ
+			}
+			# 河南
+			PDS = {	
+				transfer_state = 163 #开封
+				add_state_core = 163
+				transfer_state = 167 #商丘
+				add_state_core = 167
+				transfer_state = 182 #周口
+				add_state_core = 182
+			}
+			ZZH = {
+				transfer_state = 165 #郑州
+				add_state_core = 165
+				transfer_state = 176 #许昌
+				add_state_core = 176
+				transfer_state = 178 #漯河
+				add_state_core = 178
+				transfer_state = 175 #平顶山
+				add_state_core = 175
+			}
+			AYG = {
+				transfer_state = 134 #安阳
+				add_state_core = 134
+				transfer_state = 136 #濮阳
+				add_state_core = 136
+				transfer_state = 145 #新乡
+				add_state_core = 144
+				transfer_state = 157 #焦作
+				add_state_core = 157				
+			}
+			LYG = {
+				transfer_state = 158 #济源
+				add_state_core = 158
+				transfer_state = 162 #三门峡
+				add_state_core = 162
+				transfer_state = 164 #洛阳
+				add_state_core = 164	
+			}
+			HEN = {
+				transfer_state = 190 #南阳
+				add_state_core = 190
+				transfer_state = 192 #驻马店
+				add_state_core = 192
+				transfer_state = 204 #信阳
+				add_state_core = 204
+			}
+			WAX = {
+				transfer_state = 177 #宛西
+				add_state_core = 177
+			}
+			# 安达曼
+			ADM = {
+				transfer_state = 396
+				add_state_core = 396
+			}
+			# 河北
+			JID = {
+				transfer_state = 78 #秦皇岛
+				add_state_core = 78
+				transfer_state = 79 #唐山
+				add_state_core = 79
+			}
+			PRC = {
+				transfer_state = 97 #石门
+				add_state_core = 97
+				transfer_state = 112 #邢台
+				add_state_core = 112
+				transfer_state = 127 #邯郸
+				add_state_core = 127
+			}
+			CHR = {
+				transfer_state = 63 #张家口
+				add_state_core = 63
+			}
+			HEB = {
+				transfer_state = 84 #保定
+				add_state_core = 84
+				transfer_state = 95 #沧州
+				add_state_core = 95
+				transfer_state = 102 #衡水
+				add_state_core = 102
+			}
+			TIJ = {
+				transfer_state = 59 #承德
+				add_state_core = 59
+				transfer_state = 74 #北平
+				add_state_core = 74
+				transfer_state = 82 #天津
+				add_state_core = 82
+				transfer_state = 89 #廊坊
+				add_state_core = 89
+			}
+			every_state = {
+				limit = { is_liaoning_state = yes }
+				transfer_state_to = LNG
+				add_core_of = LNG
+			}
+			# 山东
+			SHD = {
+				transfer_state = 105 #滨州
+				transfer_state = 107 #东营
+				transfer_state = 109 #德州
+				transfer_state = 129 #聊城
+			}
+			QND = {
+				transfer_state = 110 #烟台
+				transfer_state = 114 #威海
+				transfer_state = 125 #胶州
+			}
+			QNA = {
+				transfer_state = 654 #青岛
+			}
+			QUF = {
+				transfer_state = 133 #泰安
+				transfer_state = 142 #日照
+				transfer_state = 143 #济宁
+				#transfer_state = 137 #临沂
+				transfer_state = 144 #菏泽
+				#transfer_state = 156 #枣庄
+			}
+			# 湖南
+			MAO = {
+				transfer_state = 298 #株洲
+				transfer_state = 299 #萍乡
+				transfer_state = 300 #吉安
+			}
+			HNA = {
+				transfer_state = 306 #衡阳
+				transfer_state = 313 #永州
+				transfer_state = 314 #郴州
+			}
+			HLF = {
+				transfer_state = 362 #汕尾
+			}
+			JXP = {
+				transfer_state = 504
+				transfer_state = 557
+			}
+			DLI = {
+				transfer_state = 293 #迪庆
+				transfer_state = 316 #大理
+				transfer_state = 301 #丽江
+			}
+			MMA = {
+				transfer_state = 331 # Dehong
+			}
+			CHH = {
+				transfer_state = 374 # Sipsongbanna
+			}
+			NSB = {
+				transfer_state = 275 # Liangshan
+				transfer_state = 284 # Zhaotong
+				transfer_state = 308 # Panzhihua
+			}
+			LAX = {
+				transfer_state = 638 # Lancang
+			}
+		}
+	}
+
+	HRS_collapse_of_japan = {
+
+		allowed = {
+			#		
+		}
+
+		available = {
+			always = yes
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+		}
+		
+		modifier = {
+			#
+		}
+		
+		complete_effect = {
+			set_global_flag = JAP_Civil_War_Begins
+			news_event = civilwar_news.2
+			JLF = {
+				add_political_power = 100
+				transfer_state = 149 #兵库
+				transfer_state = 607 #岡山
+				transfer_state = 608 #鳥取
+				#load_oob = "JLF_CivilWar"
+			}
+			KYU = {
+				transfer_state = 187 #福冈
+				transfer_state = 592 #长崎
+				transfer_state = 653 #佐贺
+				add_political_power = 100
+				#load_oob = "KYU_CivilWar"
+				#load_oob = "KYU_Nagasaki_Uprising"
+			}
+			CGK = {
+				transfer_state = 152
+				transfer_state = 594
+				transfer_state = 606
+				add_political_power = 100
+				load_oob = "CGK_CivilWar"
+			}
+			JPR = {
+				transfer_state = 180
+				transfer_state = 603
+				transfer_state = 604
+				transfer_state = 605
+				add_political_power = 100
+				#load_oob = "JPR_CivilWar"
+			}
+			NGN = {
+				add_political_power = 100
+				transfer_state = 599 #长野
+				transfer_state = 622 #群马
+				#load_oob = "NGN_CivilWar"
+			}
+			AMM = {
+				transfer_state = 540 #鹿儿岛
+				transfer_state = 547 #庵美
+				transfer_state = 593 #熊本
+				transfer_state = 601 #大分
+				transfer_state = 602 #宫城
+				#load_oob = "AMM_CivilWar"
+			}
+			KKG = {
+				transfer_state = 541 #石川
+				transfer_state = 615 #福井
+				transfer_state = 616 #富山
+				#load_oob = "KKG_CivilWar"
+			}
+			CHB = {
+				add_political_power = 200
+				transfer_state = 100 #爱知
+				transfer_state = 612 #岐阜
+				#load_oob = "CHB_CivilWar"
+			}
+			JPN = {
+				transfer_state = 618 #千叶
+				transfer_state = 620 #茨城
+				transfer_state = 621 #枥木
+				add_political_power = 100
+				#load_oob = "JPN_CivilWar"
+			}
+			JAF = {
+				transfer_state = 120 #神奈川
+				transfer_state = 613 #静冈
+				transfer_state = 614 #山梨
+				add_political_power = 150
+				#load_oob = "JAF_CivilWar"
+			}
+			OMT = {
+				add_political_power = 100
+				transfer_state = 597 #舞鹤
+				#load_oob = "OMT_CivilWar"
+			}
+			TOK = {
+				add_political_power = 100
+				transfer_state = 600 #江户/东京都
+				transfer_state = 619 #埼玉
+				set_province_name = {
+					id = 3702
+					name = VICTORY_POINTS_3702_Korean
+				}
+				#load_oob = "TOK_CivilWar"
+			}
+			KRF = { 
+				transfer_state = 6
+				transfer_state = 28
+				transfer_state = 633
+				transfer_state = 634
+				#load_oob = "KRF_CivilWar"
+			}
+			#SKL = { 
+			#	transfer_state = 634
+			#	load_oob = "SKL_CivilWar"
+			#}
+			IMJ = {
+				add_political_power = 50
+				#load_oob = "IMJ_CivilWar"
+			}
+			hidden_effect = {
+				every_state = {
+					limit = { is_japan_state = yes }
+					remove_core_of = IMJ
+					add_core_of = CONTROLLER
+				}
+				every_state = {
+					limit = { is_hokkaido_state = yes }
+					remove_core_of = IMJ
+					add_core_of = CONTROLLER
+				}
+				every_state = {
+					limit = { is_karafuto_state = yes }
+					remove_core_of = IMJ
+					add_core_of = CONTROLLER
+				}
+			}
+		}
+	}
+
+	HRS_collapse_of_korea = {
+
+		allowed = {
+			#		
+		}
+
+		available = {
+			#
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+		}
+		
+		modifier = {
+			#
+		}
+		
+		complete_effect = {
+			set_global_flag = KOR_Civil_War_Begins
+			KOR = {
+				transfer_state = 99 #京城/首尔
+			}
+			ANK = {
+				transfer_state = 41 #间岛
+			}
+			PRK = {
+				transfer_state = 454 #新义州
+			}
+		}
+	}
+
+	HRS_collapse_of_indochina = {
+
+		allowed = {
+			#		
+		}
+
+		available = {
+			#
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+		}
+		
+		modifier = {
+			#
+		}
+		
+		complete_effect = {
+			set_global_flag = ANM_Civil_War_Begins
+			news_event = annam_news.1
+			ANM = {
+				transfer_state = 560 #西高棉
+				transfer_state = 577 #富国岛
+				transfer_state = 578 #西哈努克港
+				transfer_state = 579 #河仙
+				retire_country_leader = yes
+				set_cosmetic_tag = ANM_exile
+				add_country_leader_role = {
+					character = ANM_long_jiguang
+					country_leader={
+						ideology=ultranationalism_subtype
+						desc=ANM_long_jiguang_desc
+						traits={ emergency_powers reluctant_veteran }
+						expire="1930.3.12.1"
+					}
+					promote_leader = yes 
+				}
+			}
+			### Vietnam ###
+			VIN = {
+				transfer_state = 530 
+				transfer_state = 568
+				transfer_state = 569 
+			}
+			DNA = {
+				transfer_state = 529
+				transfer_state = 561
+			}
+			SRV = {
+				transfer_state = 570
+			}
+			CAD = {
+				transfer_state = 565
+			}
+			VIC = {
+				transfer_state = 507
+				transfer_state = 562
+				transfer_state = 564
+			}
+			VQD = {
+				transfer_state = 363
+				transfer_state = 528
+				transfer_state = 563
+			}
+			SAI = {
+				transfer_state = 532
+				transfer_state = 566
+			}
+			DEG = {
+				transfer_state = 531
+			}
+			TAT = {
+				transfer_state = 527
+				transfer_state = 571
+			}
+			### Laos ###
+			LAO = {
+				transfer_state = 535
+				transfer_state = 572
+				transfer_state = 573
+				transfer_state = 574
+				transfer_state = 575
+			}
+			CHP = {
+				transfer_state = 376
+				transfer_state = 534
+				transfer_state = 576
+			}
+			### Cambodia ###
+			CAM = {
+				transfer_state = 395
+				transfer_state = 558
+				transfer_state = 580
+				transfer_state = 581
+			}
+			KMK = {
+				transfer_state = 533
+				transfer_state = 567
+			}
+			KHR = {
+				transfer_state = 559
+			}
+		}
+	}
+
+	HRS_shanghai_uprising = {
+
+		allowed = {
+			#		
+		}
+
+		available = {
+			#
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+		}
+		
+		modifier = {
+			#
+		}
+		
+		complete_effect = {
+			news_event = shh_news.1
+			SHH = {
+				transfer_state = 226
+				add_state_core = 226
+				#load_oob = "SHH_CivilWar"
+			}
+		}
+	}
+
+	HRS_collapse_of_dzungar = {
+
+		allowed = {
+			#		
+		}
+
+		available = {
+			#
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+		}
+		
+		modifier = {
+			#
+		}
+		
+		complete_effect = {
+			every_owned_state = {
+				limit = { is_core_of = DZU }
+				remove_core_of = DZU
+			}
+			KAZ = { 
+				transfer_state = 35
+				transfer_state = 514
+				transfer_state = 582
+				transfer_state = 584
+				transfer_state = 585
+				add_state_core = 35
+				add_state_core = 514
+				add_state_core = 582
+				add_state_core = 584
+				add_state_core = 585
+			}
+			DZU = {
+				retire_country_leader = yes
+				end_puppet = TIB
+				add_country_leader_role = {
+					character = DZU_regent_council
+					country_leader={
+						ideology=feudalism_subtype
+						desc=DZU_regent_council_desc
+						traits={ emergency_powers }
+						expire="1950.1.1.1"
+					}
+					promote_leader = yes 
+				}
+			}
+			TIB = { 
+				drop_cosmetic_tag = yes 
+			}
+			ETK = {
+				transfer_state = 35 # Uchturpan
+				transfer_state = 70 # Kizilsu
+				transfer_state = 81 # Kashgar
+			}
+			HAM = {
+				transfer_state = 45 # Yarkand
+			}
+			HOT = {
+				transfer_state = 47 # Bayingolin
+				transfer_state = 87 # Hotan
+			}
+			AKS = {
+				transfer_state = 58 # Aksu
+				transfer_state = 627 # Kuqa
+				transfer_state = 630 # Karashar
+			}
+			TCH = {
+				transfer_state = 22 # Tacheng
+			}
+			ILI = {
+				transfer_state = 39 # Ili
+				transfer_state = 631
+			}
+			SIK = {
+				transfer_state = 38 # Hami
+				transfer_state = 46 # Turpan
+				transfer_state = 628 # Balikul
+				transfer_state = 629 # Qitai
+			}
+			ASH = {
+				transfer_state = 14 # Altay
+				transfer_state = 426 # Bayan-Ölgii
+			}
+			KVD = {
+				transfer_state = 423 # Govi-Altai
+				transfer_state = 425 # Khovd
+			}
+			ULI = {
+				transfer_state = 422 # Zavkhan
+				transfer_state = 424 # Uvs
+			}
+		}
+	}
+
+	HRS_collapse_of_mongolia = {
+
+		allowed = {
+			#		
+		}
+
+		available = {
+			#
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+		}
+		
+		modifier = {
+			#
+		}
+		
+		complete_effect = {
+			set_global_flag = MON_Civil_War_Begins
+			every_owned_state = {
+				limit = { is_core_of = DBJ }
+				remove_core_of = DBJ
+			}
+			BOG = {
+				transfer_state = 417
+				transfer_state = 419
+				transfer_state = 428
+			}
+			KVD = {
+				transfer_state = 423
+				transfer_state = 425
+			}
+			ULI = {
+				transfer_state = 422
+				transfer_state = 424
+			}
+			MEN = {
+				transfer_state = 23
+				give_military_access = ULQ
+			}
+			IMN = {
+				transfer_state = 49
+				transfer_state = 510
+				give_military_access = HUL
+			}
+			DAR = {
+				transfer_state = 409
+				give_military_access = DAR
+				DBJ = { give_military_access = DAR }
+			}
+			ULQ = {
+				transfer_state = 57
+				transfer_state = 61
+				transfer_state = 71
+				give_military_access = MEN
+			}
+			HUL = {
+				transfer_state = 9
+				transfer_state = 408
+				give_military_access = IMN
+			}
+			MON = {
+				transfer_state = 415
+				transfer_state = 427
+				give_military_access = BYA
+				BYA = { give_military_access = MON }
+			}
+		}
+	}
+
+	HRS_trigger_taiwan_civil_war_first_stage = {
+
+		allowed = {
+			#		
+		}
+
+		available = {
+			#
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+		}
+		
+		modifier = {
+			#
+		}
+		
+		complete_effect = {
+			set_global_flag = CHI_Civil_War_Begins
+			every_state = {
+				limit = { is_any_taiwan_state = yes }
+				transfer_state_to = TGG
+				add_core_of = TGG
+			}
+			MNG = {
+				transfer_state = 356 #台南
+				add_state_core = 356
+			}
+			FRM = {
+				transfer_state = 521 #苗栗
+				add_state_core = 521
+				transfer_state = 523 #彰化
+				add_state_core = 523
+				transfer_state = 524 #嘉义
+				add_state_core = 524
+			}
+		}
+	}
+
+	HRS_trigger_taiwan_civil_war_second_stage = {
+
+		allowed = {
+			#		
+		}
+
+		available = {
+			#
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+		}
+		
+		modifier = {
+			#
+		}
+		
+		complete_effect = {
+			set_global_flag = CHI_Civil_War_Begins
+			every_state = {
+				limit = { is_any_taiwan_state = yes }
+				transfer_state_to = TGG
+				add_core_of = TGG
+			}
+			ASN = {
+				transfer_state = 555 #阿里山
+				add_state_core = 555
+			}
+			MNG = {
+				transfer_state = 356 #台南
+				add_state_core = 356
+				transfer_state = 359 #高雄
+				add_state_core = 359
+			}
+			FRM = {
+				transfer_state = 521 #苗栗
+				add_state_core = 521
+				transfer_state = 523 #彰化
+				add_state_core = 523
+				transfer_state = 524 #嘉义
+				add_state_core = 524
+				transfer_state = 525 #云林
+				add_state_core = 525
+			}
+		}
+	}
+
+	HRS_trigger_taiwan_civil_war_third_stage = {
+
+		allowed = {
+			#		
+		}
+
+		available = {
+			#
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+		}
+		
+		modifier = {
+			#
+		}
+		
+		complete_effect = {
+			set_global_flag = CHI_Civil_War_Begins
+			ASN = {
+				transfer_state = 555 #阿里山
+				transfer_state = 350 #花莲
+				transfer_state = 360 #台东
+				transfer_state = 626 #屏东
+			}
+			MNG = {
+				transfer_state = 356 #台南
+				transfer_state = 359 #高雄
+				transfer_state = 524 #嘉义
+			}
+			FRM = {
+				transfer_state = 346 #台中
+				transfer_state = 522 #南投
+				transfer_state = 523 #彰化
+				transfer_state = 525 #云林
+			}
+			TAW = {
+				transfer_state = 336 #新竹
+				transfer_state = 521 #苗栗
+			}
+			TGG = {
+				transfer_state = 332 #台北
+				transfer_state = 518 #宜兰
+				transfer_state = 519 #新北
+				transfer_state = 520 #桃园
+			}
+		}
+	}
+
+	HRS_trigger_taiwan_civil_war_final_stage = {
+
+		allowed = {
+			#		
+		}
+
+		available = {
+			#
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+		}
+		
+		modifier = {
+			#
+		}
+		
+		complete_effect = {
+			set_global_flag = CHI_Civil_War_Begins
+			ASN = {
+				transfer_state = 555 #阿里山
+				transfer_state = 350 #花莲
+				transfer_state = 360 #台东
+				transfer_state = 626 #屏东
+			}
+			MNG = {
+				transfer_state = 356 #台南
+				transfer_state = 359 #高雄
+				transfer_state = 524 #嘉义
+			}
+			FRM = {
+				transfer_state = 346 #台中
+				transfer_state = 522 #南投
+				transfer_state = 523 #彰化
+				transfer_state = 525 #云林
+			}
+			TAW = {
+				transfer_state = 336 #新竹
+				transfer_state = 521 #苗栗
+			}
+			TGG = {
+				transfer_state = 332 #台北
+				transfer_state = 518 #宜兰
+				transfer_state = 519 #新北
+				transfer_state = 520 #桃园
+			}
+		}
+	}
+
+	HRS_peace_popup_test = {
+
+		allowed = {
+			#		
+		}
+
+		available = {
+			#
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+		}
+		
+		modifier = {
+			#
+		}
+		
+		complete_effect = {
+			load_oob = "IMK_1923"
+			ANK = { transfer_state = 632 }
+			PRK = { transfer_state = 637 }
+			JXP = { transfer_state = 458 }
+			RYU = { transfer_state = 460 }
+			declare_war_on = {
+				target = ANK
+				type = take_state_focus
+				generator = { 632 }
+			}
+			declare_war_on = {
+				target = PRK
+				type = take_state_focus
+				generator = { 637 }
+			}
+			declare_war_on = {
+				target = JXP
+				type = take_state_focus
+				generator = { 458 }
+			}
+			declare_war_on = {
+				target = RYU
+				type = take_state_focus
+				generator = { 460 }
+			}
+		}
+	}
+}

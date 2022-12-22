@@ -1,0 +1,30 @@
+characters={
+	MEN_yondonwangchug={
+		name=MEN_yondonwangchug
+		portraits={
+			civilian={
+				large="gfx/leaders/MEN/Portrait_Yondonwangchug.png"
+			}
+		}
+		#country_leader={
+		#	ideology=guided_democracy_subtype
+		#	desc=MEN_yondonwangchug_desc
+		#	traits={  }
+		#	expire="1938.3.24.1"
+		#}
+	}
+	MEN_demchugdongrub={
+		name=MEN_demchugdongrub
+		portraits={
+			civilian={
+				large="gfx/leaders/MEN/Portrait_Demchugdongrub.png"
+			}
+		}
+		country_leader={
+			ideology=guided_democracy_subtype
+			desc=MEN_demchugdongrub_desc
+			traits={  }
+			expire="1966.5.30.1"
+		}
+	}
+}

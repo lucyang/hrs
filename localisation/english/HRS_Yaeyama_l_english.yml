@@ -1,0 +1,72 @@
+﻿l_english:
+ ################
+ ## COUNTRIES  ##
+ ################
+ YYM_communism:0 "八重山公社"
+ YYM_communism_DEF:0 "八重山公社"
+ YYM_anarchism:0 "八重山公社"
+ YYM_anarchism_DEF:0 "八重山公社"
+ YYM_democratic:0 "八重山民政府"
+ YYM_democratic_DEF:0 "八重山民政府"
+ YYM_neutrality:0 "八重山民政府"
+ YYM_neutrality_DEF:0 "八重山民政府"
+ YYM_monarchism:0 "八重山国"
+ YYM_monarchism_DEF:0 "八重山国"
+ YYM_fascism:0 "八重山国"
+ YYM_fascism_DEF:0 "八重山国"
+ YYM_imperialism:0 "八重山国"
+ YYM_imperialism_DEF:0 "八重山国"
+ YYM_futurism:0 "八重山人民国"
+ YYM_futurism_DEF:0 "八重山人民国"
+ YYM_communism_ADJ:0 "八重山"
+ YYM_anarchism_ADJ:0 "八重山"
+ YYM_democratic_ADJ:0 "八重山"
+ YYM_neutrality_ADJ:0 "八重山"
+ YYM_monarchism_ADJ:0 "八重山"
+ YYM_fascism_ADJ:0 "八重山"
+ YYM_imperialism_ADJ:0 "八重山"
+ YYM_futurism_ADJ:0 "八重山"
+
+ YYM:0 "八重山人民国"
+ YYM_DEF:0 "八重山人民国"
+ YYM_ADJ:0 "八重山"
+ ##############
+ ## PARTIES  ##
+ ##############
+ YYM_communism_party:0 "八重山劳动党"
+ YYM_communism_party_long:0 "八重山劳动党"
+ YYM_anarchism_party:0 "八重山社会党"
+ YYM_anarchism_party_long:0 "八重山社会党"
+ YYM_socialism_party:0 "八重山农本党"
+ YYM_socialism_party_long:0 "八重山农本党"
+ YYM_democratic_party:0 "八重山自治会"
+ YYM_democratic_party_long:0 "八重山自治会"
+ YYM_neutrality_party:0 "八重山自卫队"
+ YYM_neutrality_party_long:0 "八重山自卫队"
+ YYM_monarchism_party:0 "尚氏王朝"
+ YYM_monarchism_party_long:0 "尚氏王朝"
+ YYM_fascism_party:0 "铁血勤皇队"
+ YYM_fascism_party_long:0 "铁血勤皇队"
+ YYM_imperialism_party:0 "兴亚会"
+ YYM_imperialism_party_long:0 "兴亚会"
+ YYM_futurism_party:0 "犹存社"
+ YYM_futurism_party_long:0 "犹存社"
+ ###################
+ ## COSMETIC TAG  ##
+ ###################
+
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ #############
+ ## LEADERS ##
+ #############
+ YYM_miyara_chosho:0 "山陽長詳" #宮良長詳
+ ###############
+ ## DECISIONS ##
+ ###############
+
+ #############
+ ### EVENT ###
+ #############

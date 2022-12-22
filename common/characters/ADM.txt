@@ -1,0 +1,24 @@
+characters = {
+	ADM_mutaguchi_renya = {
+		name = ADM_mutaguchi_renya
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ADM/Portrait_Mutaguchi_Renya.png"
+			}
+		}
+		country_leader = {
+			ideology=ultramilitarism_subtype
+			desc = ADM_mutaguchi_renya_desc
+			traits = { mutaguchi_the_evil ADM_logistic_wizard }
+			expire = "1966.8.2.1"
+		}
+		corps_commander={
+			traits={ infantry_officer career_officer }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+}
