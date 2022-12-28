@@ -32,12 +32,12 @@
  #############
  ## PARTIES ##
  #############
- CHH_communism_party:0 "社民农工党"
- CHH_communism_party_long:0 "中国社会民主农工党"
- CHH_anarchism_party:0 "云南工团联合会"
- CHH_anarchism_party_long:0 "云南工团联合会"
- CHH_socialism_party:0 "云南独立会"
- CHH_socialism_party_long:0 "云南独立会"
+ CHH_communism_party:0 "云南革新社"
+ CHH_communism_party_long:0 "云南革新社"
+ CHH_anarchism_party:0 "劳动组合书记部"
+ CHH_anarchism_party_long:0 "中国劳动组合书记部"
+ CHH_socialism_party:0 "中国农工民主党"
+ CHH_socialism_party_long:0 "中国农工民主党"
  CHH_democratic_party:0 "川康滇夷族独立委员会"
  CHH_democratic_party_long:0 "川康滇夷族独立委员会"
  CHH_neutrality_party:0 "召片领效忠者"
@@ -46,10 +46,10 @@
  CHH_monarchism_party_long:0 "土司集团"
  CHH_fascism_party:0 "中国青年党"
  CHH_fascism_party_long:0 "中国青年党"
- CHH_imperialism_party:0 "中华革命党"
- CHH_imperialism_party_long:0 "中华革命党"
- CHH_futurism_party:0 "永昌祥商会"
- CHH_futurism_party_long:0 "永昌祥商会"
+ CHH_imperialism_party:0 "战国策派"
+ CHH_imperialism_party_long:0 "战国策派"
+ CHH_futurism_party:0 "喜洲商会"
+ CHH_futurism_party_long:0 "喜洲商会"
  ##################
  ## COSMETIC TAG ##
  ##################
@@ -58,6 +58,7 @@
  ## CHARACTERS ##
  ################
  CHH_dao_dongliang:0 "召孟帕坎" #刀栋梁
+ CHH_dao_dongliang_desc:0 "§Y出生日期§!：§G1886年§!\n§Y出生地点§!：§G大东帝国普洱道景洪县§!\n\n§Y召孟帕坎§!（全称为召孟书宛纳帕坎）汉名§Y刀栋梁§!，景陇金殿国第43世召片领、车里宣慰使。1923年，召孟帕坎继承其父§Y召孟罕勒§!（刀承恩）之位成为召片领。此时的云南已为中原王朝征服并殖民数个世纪，召孟帕坎名义上与中央派出的流官共同统治，召孟帕坎能依照傣族习惯法维持社区秩序、防止非法刑罚及处理一些较简单的法律程序。但是他手中的权力仅此而已了，召孟帕坎也没有奢求太多，在他看来帝国的统治就像过往一样，在（WIP）"
  ###########
  ## IDEAS ##
  ###########

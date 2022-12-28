@@ -1,1 +1,1 @@
-# hrs
+# 这是钢铁雄心4的游戏MOD赤日之心（Heart of Red Sun）开发组。
