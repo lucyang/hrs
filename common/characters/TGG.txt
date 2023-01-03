@@ -34,11 +34,25 @@ characters={
 				large="gfx/leaders/TGG/Portrait_Gu_Xianrong.png"
 			}
 		}
+		#country_leader={
+		#	ideology=corporaracy_subtype
+		#	desc=TGG_gu_xianrong_desc
+		#	traits={ SWI_nationalistic_industrialist elected_monarchist_puppet }
+		#	expire="1937.12.9"
+		#}
+	}
+	TGG_den_kenjiro={
+		name=TGG_den_kenjiro
+		portraits={
+			civilian={
+				large="gfx/leaders/TGG/Portrait_Den_Kenjiro.png"
+			}
+		}
 		country_leader={
-			ideology=corporaracy_subtype
-			desc=TGG_gu_xianrong_desc
-			traits={ SWI_nationalistic_industrialist elected_monarchist_puppet }
-			expire="1937.12.9"
+			ideology=colonialism_subtype
+			desc=TGG_den_kenjiro_desc
+			traits={ technocrat moderate_reformist }
+			expire="1930.11.16.1"
 		}
 	}
 	TGG_uchida_kakichi={
@@ -48,12 +62,12 @@ characters={
 				large="gfx/leaders/TGG/Portrait_Uchida_Kakichi.png"
 			}
 		}
-		country_leader={
-			ideology=guided_democracy_subtype
-			desc=TGG_uchida_kakichi_desc
-			traits={ prince_of_terror moderate_reformist }
-			expire="1933.1.3.1"
-		}
+		#country_leader={
+		#	ideology=guided_democracy_subtype
+		#	desc=TGG_uchida_kakichi_desc
+		#	traits={ prince_of_terror moderate_reformist }
+		#	expire="1933.1.3.1"
+		#}
 	}
 	TGG_suzuki_soroku={
 		name=TGG_suzuki_soroku

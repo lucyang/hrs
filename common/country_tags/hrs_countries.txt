@@ -6,9 +6,9 @@ ANM = "countries/Annam.txt"
 ### IMPERIAL COLONIES ###
 ZDJ = "countries/Zhendong Jiedushi.txt"
 DBJ = "countries/Dingbei Jiedushi.txt"
-XSM = "countries/Xibei San Ma.txt"
 HSW = "countries/Hsenwi.txt"
 ADM = "countries/Andaman.txt"
+XSM = "countries/Qinghai.txt"
 ### IMPERIAL DOMINION ###
 MAL = "countries/Malaysia.txt"
 LNF = "countries/Lanfang.txt" # Kalimantan & Borneo
@@ -36,6 +36,9 @@ AYG = "countries/Anyang.txt"
 HEN = "countries/Henan.txt"
 QNA = "countries/Qingdao Naval Authority.txt"
 LNG = "countries/Liaoning.txt"
+SXI = "countries/Shaanxi.txt"
+GNS = "countries/Gansu.txt"
+NIX = "countries/Ningxia.txt"
 ### CHINA/COMMUNIST ###
 PRC = "countries/ComChina.txt"
 SHH = "countries/Shanghai.txt"

@@ -112,6 +112,9 @@ is_xibei_nation = {
 	OR = {
 		original_tag = XSM
 		original_tag = SIK
+		original_tag = SXI
+		original_tag = NIX
+		original_tag = GNS
 	}
 }
 
@@ -589,6 +592,11 @@ is_gansu_state = {
 		state = 154 #甘南
 		state = 159 #天水
 		state = 172 #陇南
+	}
+}
+
+is_ningxia_state = {
+	OR = {
 		state = 96 #银川
 		state = 104 #石嘴山
 		state = 106 #吴忠
@@ -1283,6 +1291,7 @@ is_any_china_state = {
 		state = 159 #天水
 		state = 172 #陇南
  		#宁夏
+		state = 56 #阿拉善
 		state = 96 #银川
 		state = 104 #石嘴山
 		state = 106 #吴忠
@@ -1291,7 +1300,6 @@ is_any_china_state = {
  		#内蒙古
 		state = 43 #乌海
 		state = 49 #乌兰察布
-		state = 56 #阿拉善
 		state = 57 #包头
 		state = 61 #五原/巴彦淖尔
 		state = 71 #归绥/呼和浩特
@@ -1391,7 +1399,6 @@ can_form_huabei = {
         #内蒙古
 		owns_state = 43 #乌海
 		owns_state = 49 #乌兰察布
-		owns_state = 56 #阿拉善
 		owns_state = 57 #包头
 		owns_state = 61 #五原/巴彦淖尔
 		owns_state = 71 #归绥/呼和浩特
@@ -1640,6 +1647,7 @@ can_form_xibei = {
 		owns_state = 159 #天水
 		owns_state = 172 #陇南
  		#宁夏
+		owns_state = 56 #阿拉善
 		owns_state = 96 #银川
 		owns_state = 104 #石嘴山
 		owns_state = 106 #吴忠

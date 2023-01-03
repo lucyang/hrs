@@ -12,6 +12,20 @@
  SE_JAP_civil_war:0 "第二战国"
  SE_JAP_civil_war_TEXT:0 "“人即城，人即垣，人即濠\n\n慈悲乃盟友，仇恨乃敌寇”\n\n——武田信玄"
  SE_JAP_civil_war_QUOTE:0 "日出之国，尸山血海"
+ #######################
+ ## Japan Unification ##
+ #######################
+ SE_JAP_CGK_unification:0 "日本统一"
+ SE_JAP_CGK_unification_TEXT:0 "“”\n\n——"
+ SE_JAP_CGK_unification_QUOTE:0 ""
+
+ SE_JAP_AMM_unification:0 "日本统一"
+ SE_JAP_AMM_unification_TEXT:0 "“”\n\n——"
+ SE_JAP_AMM_unification_QUOTE:0 ""
+
+ SE_JAP_JLF_unification:0 "日本统一"
+ SE_JAP_JLF_unification_TEXT:0 "“”\n\n——"
+ SE_JAP_JLF_unification_QUOTE:0 ""
  #####################
  ## Korea Civil War ##
  #####################
