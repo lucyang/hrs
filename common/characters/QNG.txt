@@ -1,0 +1,57 @@
+characters={
+	QNG_ma_bufang={
+		name=QNG_ma_bufang
+		portraits={
+			civilian={
+				large="gfx/leaders/QNG/Portrait_Ma_Bufang.png"
+			}
+			army={
+				large="gfx/leaders/QNG/Portrait_Ma_Bufang.png"
+			}
+		}
+		country_leader={
+			ideology=military_government_subtype
+			desc=QNG_ma_bufang_desc
+			traits={ backroom_backstabber prince_of_terror }
+			expire="1975.7.31.1"
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	QNG_ma_wanfu={
+		name=QNG_ma_wanfu
+		portraits={
+			civilian={
+				large="gfx/leaders/QNG/Portrait_Ma_Wanfu.png"
+			}
+		}
+		country_leader={
+			ideology=left_nationalism_subtype
+			desc=QNG_ma_bufang_desc
+			traits={ respected_haji social_reformer }
+			expire="1934.1.1.1"
+		}
+	}
+	QNG_ma_buqing={
+		name=QNG_ma_buqing
+		portraits={
+			army={
+				large="gfx/leaders/QNG/Portrait_Ma_Buqing.png"
+			}
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+}

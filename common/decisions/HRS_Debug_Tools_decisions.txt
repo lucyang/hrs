@@ -369,6 +369,62 @@ HRS_debug_tool_cataegory = {
 				limit = { is_east_sichuan_state = yes }
 				transfer_state_to = CHQ
 			}
+			every_state = {
+				limit = { is_ningxia_state = yes }
+				transfer_state_to = NIX
+			}
+			every_state = {
+				limit = { is_qinghai_state = yes }
+				transfer_state_to = QNG
+			}
+			every_state = {
+				limit = { is_shaanxi_state = yes }
+				transfer_state_to = SXI
+			}
+			# 绥远/内蒙古
+			HHT = {
+				transfer_state = 57 #包头
+				transfer_state = 61 #巴彦淖尔
+				transfer_state = 71 #呼和浩特
+				transfer_state = 76 #鄂尔多斯
+				add_state_core = 57
+				add_state_core = 61
+				add_state_core = 71
+				add_state_core = 76
+			}
+			# 甘肃
+			GNS = {	
+				transfer_state = 113 #白银
+				transfer_state = 121 #庆阳
+				transfer_state = 128 #兰州
+				transfer_state = 139 #临夏
+				transfer_state = 140 #定西
+				transfer_state = 148 #平凉
+				transfer_state = 154 #甘南
+				transfer_state = 159 #天水
+				transfer_state = 172 #陇南
+				add_state_core = 113
+				add_state_core = 121
+				add_state_core = 128
+				add_state_core = 139
+				add_state_core = 140
+				add_state_core = 148
+				add_state_core = 154
+				add_state_core = 159
+				add_state_core = 172
+			}
+			XSM = {
+				transfer_state = 31 #嘉峪关
+				transfer_state = 55 #酒泉
+				transfer_state = 85 #张掖
+				transfer_state = 90 #武威
+				transfer_state = 94 #金昌
+				add_state_core = 31
+				add_state_core = 55
+				add_state_core = 85
+				add_state_core = 90
+				add_state_core = 94
+			}
 			# 河南
 			PDS = {	
 				transfer_state = 163 #开封
@@ -1008,9 +1064,8 @@ HRS_debug_tool_cataegory = {
 				DBJ = { give_military_access = DAR }
 			}
 			ULQ = {
-				transfer_state = 57
-				transfer_state = 61
-				transfer_state = 71
+				transfer_state = 49 #乌兰察布
+				add_state_core = 49
 				give_military_access = MEN
 			}
 			HUL = {

@@ -20,18 +20,18 @@
  NIX_imperialism_DEF:0 "西北边防军"
  NIX_futurism:0 "西北边防军"
  NIX_futurism_DEF:0 "西北边防军"
- NIX_communism_ADJ:0 "宁夏"
- NIX_anarchism_ADJ:0 "宁夏"
- NIX_socialism_ADJ:0 "宁夏"
- NIX_democratic_ADJ:0 "宁夏"
- NIX_neutrality_ADJ:0 "宁夏"
- NIX_monarchism_ADJ:0 "宁夏"
- NIX_fascism_ADJ:0 "宁夏"
- NIX_imperialism_ADJ:0 "宁夏"
- NIX_futurism_ADJ:0 "宁夏"
- NIX:0 "宁夏"
- NIX_DEF:0 "宁夏"
- NIX_ADJ:0 "宁夏"
+ NIX_communism_ADJ:0 "西北军"
+ NIX_anarchism_ADJ:0 "西北军"
+ NIX_socialism_ADJ:0 "西北军"
+ NIX_democratic_ADJ:0 "西北军"
+ NIX_neutrality_ADJ:0 "西北军"
+ NIX_monarchism_ADJ:0 "西北军"
+ NIX_fascism_ADJ:0 "西北军"
+ NIX_imperialism_ADJ:0 "西北军"
+ NIX_futurism_ADJ:0 "西北军"
+ NIX:0 "西北军"
+ NIX_DEF:0 "西北军"
+ NIX_ADJ:0 "西北军"
  #############
  ## PARTIES ##
  #############
@@ -39,18 +39,18 @@
  NIX_communism_party_long:0 "中国社会民主农工党"
  NIX_anarchism_party:0 "西道堂"
  NIX_anarchism_party_long:0 "西道堂"
- NIX_socialism_party:0 "穆兄会 - 努哈派"
- NIX_socialism_party_long:0 "穆斯林兄弟会 - 努哈派"
- NIX_democratic_party:0 "穆兄会 - 赛尔敦丁派"
- NIX_democratic_party_long:0 "穆斯林兄弟会 - 赛尔敦丁派" # 赛尔敦丁·虎嵩山
- NIX_neutrality_party:0 "军政长官公署"
+ NIX_socialism_party:0 "穆兄会 - 改革派"
+ NIX_socialism_party_long:0 "穆斯林兄弟会 - 改革派"
+ NIX_democratic_party:0 "穆兄会 - 共和派"
+ NIX_democratic_party_long:0 "穆斯林兄弟会 - 共和派"
+ NIX_neutrality_party:0 "西北边防军"
  NIX_neutrality_party_long:0 "西北边防军" # 马福祥
- NIX_monarchism_party:0 "穆兄会 - 优努斯派"
- NIX_monarchism_party_long:0 "穆斯林兄弟会 - 优努斯派" #马正清
+ NIX_monarchism_party:0 "穆兄会 - 复古派"
+ NIX_monarchism_party_long:0 "穆斯林兄弟会 - 复古派" #马正清
  NIX_fascism_party:0 "中国青年党"
  NIX_fascism_party_long:0 "中国青年党"
- NIX_imperialism_party:0 "战国策派"
- NIX_imperialism_party_long:0 "战国策派"
+ NIX_imperialism_party:0 "穆兄会 - 极端派"
+ NIX_imperialism_party_long:0 "穆斯林兄弟会 - 极端派"
  NIX_futurism_party:0 "晋商财团"
  NIX_futurism_party_long:0 "晋商财团"
  ##################
@@ -61,7 +61,7 @@
  ## CHARACTERS ##
  ################
  NIX_ma_fuxiang:0 "马福祥"
- NIX_ma_fuxiang_desc:0 "§Y出生日期§!：§G1876年2月4日§!\n§Y出生地点§!：§G大东帝国兰州道临夏县§!\n\n§Y马福祥§!出生于甘肃省的一个富裕家庭，他的家族曾出现数位忠勇军人——如马千龄、马占鳌等——他们牢记§G“国有难，汉必乱”§!的训诫，驱使着宛如死神的§G回民骑兵队§!，白衣使者神出鬼没，无情地镇压帝国各处的叛乱。一些人称赞他们为东方的哥萨克，但是马福祥对此并不在意，他只是尽到了一位帝国臣民应有的职责。\n\n当叛乱的火种再次点燃，马福祥目睹了帝国的毁灭。他的弟弟马福禄被暴徒活活烧死，他的族亲§R马步芳§!与极端分子§R努哈·马万福§!同流合污，农工党的叛徒更是在陕北公然扯旗造反，而西北地区的心脏——长安城——沦丧于国民党暴徒§R于右任§!之手。唯一愿意支持马福祥的，也只有他的儿子马鸿逵和侄子马鸿宾。\n\n马福祥只得退回银川，依托宁夏省残存的政权维持统治。但是马福祥绝不会困守孤城，他手下有一支精干的部队，他们的战斗力远超西北叛匪的乌合之众。稍有常识的人都会看出，§O如果马福祥的铁骑继续前进，那些螳臂挡车的叛匪难道能够阻挡得了吗？§!然而他尚未出手，这正好说明了宁夏军保持了最大限度的克制，说明他仍然深爱自己的祖国和人民。"
+ NIX_ma_fuxiang_desc:0 "§Y出生日期§!：§G1876年2月4日§!\n§Y出生地点§!：§G大东帝国兰州道临夏县§!\n\n§Y马福祥§!出生于甘肃省的一个富裕家庭，他的家族曾出现数位忠勇军人——如马千龄、马占鳌等——他们牢记§G“国有难，汉必乱”§!的训诫，驱使着宛如死神的§G回民骑兵队§!，白衣使者神出鬼没，无情地镇压帝国各处的叛乱。一些人称赞他们为东方的哥萨克，但是马福祥对此并不在意，他只是尽到了一位帝国臣民应有的职责。\n\n当叛乱的火种再次点燃，马福祥目睹了帝国的毁灭。他的弟弟马福禄被暴徒活活烧死，他的族亲§R马步芳§!与极端分子§R努哈·马万福§!同流合污，农工党的叛徒更是在陕北公然扯旗造反，而西北地区的心脏——长安城——沦丧于国民党暴徒§R于右任§!之手。唯一愿意支持马福祥的，也只有他的儿子马鸿逵和侄子马鸿宾。\n\n马福祥只得退回银川，依托西北军省残存的政权维持统治。但是马福祥绝不会困守孤城，他手下有一支精干的部队，他们的战斗力远超西北叛匪的乌合之众。稍有常识的人都会看出，§O如果马福祥的铁骑继续前进，那些螳臂挡车的叛匪难道能够阻挡得了吗？§!然而他尚未出手，这正好说明了皇军保持了最大限度的克制。"
  NIX_ma_hongbin:0 "马鸿宾"
  NIX_ma_hongbin_desc:0 "§Y出生日期§!：§G1892年3月9日§!\n§Y出生地点§!：§G大东帝国兰州道临夏县§!"
  NIX_ma_hongkui:0 "马鸿逵"

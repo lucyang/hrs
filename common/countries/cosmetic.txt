@@ -1,70 +1,70 @@
 IMJ_IMC = {
-	color = rgb { 106 119 89 }
-	color_ui = rgb { 106 119 89 }
+	color = rgb { 191 87 0 }
+	color_ui = rgb { 191 87 0 }
 }
 IMK_IMC = {
-	color = rgb { 106 119 89 }
-	color_ui = rgb { 106 119 89 }
+	color = rgb { 191 87 0 }
+	color_ui = rgb { 191 87 0 }
 }
 TGG_IMC = {
-	color = rgb { 106 119 89 }
-	color_ui = rgb { 106 119 89 }
+	color = rgb { 191 87 0 }
+	color_ui = rgb { 191 87 0 }
 }
 ZDJ_IMC = {
-	color = rgb { 124 176 167 }
-	color_ui = rgb { 124 176 167 }
+	color = rgb { 181 105 23 }
+	color_ui = rgb { 181 105 23 }
 }
 DBJ_IMC = {
-	color = rgb { 124 176 167 }
-	color_ui = rgb { 124 176 167 }
+	color = rgb { 181 105 23 }
+	color_ui = rgb { 181 105 23 }
 }
 PHI_IMC = {
-	color = rgb { 124 176 167 }
-	color_ui = rgb { 124 176 167 }
+	color = rgb { 181 105 23 }
+	color_ui = rgb { 181 105 23 }
 }
 ANM_IMC = {
-	color = rgb { 124 176 167 }
-	color_ui = rgb { 124 176 167 }
+	color = rgb { 181 105 23 }
+	color_ui = rgb { 181 105 23 }
 }
 AMM_IMC = {
-	color = rgb { 124 176 167 }
-	color_ui = rgb { 124 176 167 }
+	color = rgb { 181 105 23 }
+	color_ui = rgb { 181 105 23 }
 }
 XSM_IMC = {
-	color = rgb { 124 176 167 }
-	color_ui = rgb { 124 176 167 }
+	color = rgb { 181 105 23 }
+	color_ui = rgb { 181 105 23 }
 }
 HSW_IMC = {
-	color = rgb { 124 176 167 }
-	color_ui = rgb { 124 176 167 }
+	color = rgb { 181 105 23 }
+	color_ui = rgb { 181 105 23 }
 }
 MAN_IMC = {
-	color = rgb { 124 176 167 }
-	color_ui = rgb { 124 176 167 }
+	color = rgb { 181 105 23 }
+	color_ui = rgb { 181 105 23 }
 }
 KMT_IMC = {
-	color = rgb { 124 176 167 }
-	color_ui = rgb { 124 176 167 }
+	color = rgb { 181 105 23 }
+	color_ui = rgb { 181 105 23 }
 }
 BRM_IMC = {
-	color = rgb { 124 176 167 }
-	color_ui = rgb { 124 176 167 }
+	color = rgb { 181 105 23 }
+	color_ui = rgb { 181 105 23 }
 }
 LNF_IMC = {
-	color = rgb { 124 176 167 }
-	color_ui = rgb { 124 176 167 }
+	color = rgb { 181 105 23 }
+	color_ui = rgb { 181 105 23 }
 }
 MAL_IMC = {
-	color = rgb { 124 176 167 }
-	color_ui = rgb { 124 176 167 }
+	color = rgb { 181 105 23 }
+	color_ui = rgb { 181 105 23 }
 }
 BSM_IMC = {
-	color = rgb { 124 176 167 }
-	color_ui = rgb { 124 176 167 }
+	color = rgb { 181 105 23 }
+	color_ui = rgb { 181 105 23 }
 }
 YUN_IMC = {
-	color = rgb { 124 176 167 }
-	color_ui = rgb { 124 176 167 }
+	color = rgb { 181 105 23 }
+	color_ui = rgb { 181 105 23 }
 }
 CHQ_FR = {
 	color = rgb { 80 0 0 }

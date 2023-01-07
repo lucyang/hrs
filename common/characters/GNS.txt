@@ -1,0 +1,30 @@
+characters={
+	GNS_xidaotang={
+		name=GNS_xidaotang
+		portraits={
+			civilian={
+				large="gfx/leaders/GNS/Portrait_Xidaotang.png"
+			}
+		}
+		country_leader={
+			ideology=anarcho_communism_subtype
+			desc=GNS_xidaotang_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+	}
+	GNS_li_jingqing={
+		name=GNS_li_jingqing
+		portraits={
+			civilian={
+				large="gfx/leaders/GNS/Portrait_Li_Jingqing.png"
+			}
+		}
+		country_leader={
+			ideology=national_conservatism_subtype
+			desc=GNS_li_jingqing_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+	}
+}

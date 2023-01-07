@@ -321,6 +321,7 @@ HRS_setup_prefectures = {
 	159 = { set_variable = { prefecture = 34 } } #天水
 	172 = { set_variable = { prefecture = 34 } } #陇南
 	#宁夏
+	43 = { set_variable = { prefecture = 35 } } #乌海
 	56 = { set_variable = { prefecture = 35 } } #阿拉善
 	96 = { set_variable = { prefecture = 35 } } #银川
 	104 = { set_variable = { prefecture = 35 } } #石嘴山
@@ -328,7 +329,7 @@ HRS_setup_prefectures = {
 	111 = { set_variable = { prefecture = 35 } } #中卫
 	131 = { set_variable = { prefecture = 35 } } #固原
 	#绥远
-	43 = { set_variable = { prefecture = 36 } } #乌海
+	49 = { set_variable = { prefecture = 36 } } #乌兰察布
 	57 = { set_variable = { prefecture = 36 } } #包头
 	61 = { set_variable = { prefecture = 36 } } #五原/巴彦淖尔
 	71 = { set_variable = { prefecture = 36 } } #归绥/呼和浩特
@@ -456,7 +457,6 @@ HRS_setup_prefectures = {
 	390 = { set_variable = { prefecture = 46 } } #关岛
 	#察哈尔
 	23 = { set_variable = { prefecture = 47 } } #锡林郭勒
-	49 = { set_variable = { prefecture = 47 } } #乌兰察布
 	63 = { set_variable = { prefecture = 47 } } #张家口
 	510 = { set_variable = { prefecture = 47 } } #张北
 }

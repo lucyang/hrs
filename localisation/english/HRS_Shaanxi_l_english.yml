@@ -1,0 +1,71 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ SXI_communism:0 "秦陇复汉军"
+ SXI_communism_DEF:0 "秦陇复汉军"
+ SXI_anarchism:0 "秦陇复汉军"
+ SXI_anarchism_DEF:0 "秦陇复汉军"
+ SXI_socialism:0 "秦陇复汉军"
+ SXI_socialism_DEF:0 "秦陇复汉军"
+ SXI_democratic:0 "秦陇复汉军"
+ SXI_democratic_DEF:0 "秦陇复汉军"
+ SXI_neutrality:0 "秦陇复汉军"
+ SXI_neutrality_DEF:0 "秦陇复汉军"
+ SXI_monarchism:0 "秦陇复汉军"
+ SXI_monarchism_DEF:0 "秦陇复汉军"
+ SXI_fascism:0 "秦陇复汉军"
+ SXI_fascism_DEF:0 "秦陇复汉军"
+ SXI_imperialism:0 "秦陇复汉军"
+ SXI_imperialism_DEF:0 "秦陇复汉军"
+ SXI_futurism:0 "秦陇复汉军"
+ SXI_futurism_DEF:0 "秦陇复汉军"
+ SXI_communism_ADJ:0 "陕西"
+ SXI_anarchism_ADJ:0 "陕西"
+ SXI_socialism_ADJ:0 "陕西"
+ SXI_democratic_ADJ:0 "陕西"
+ SXI_neutrality_ADJ:0 "陕西"
+ SXI_monarchism_ADJ:0 "陕西"
+ SXI_fascism_ADJ:0 "陕西"
+ SXI_imperialism_ADJ:0 "陕西"
+ SXI_futurism_ADJ:0 "陕西"
+ SXI:0 "陕西"
+ SXI_DEF:0 "陕西"
+ SXI_ADJ:0 "陕西"
+ #############
+ ## PARTIES ##
+ #############
+ SXI_communism_party:0 "社民农工党"
+ SXI_communism_party_long:0 "社会民主农工党"
+ SXI_anarchism_party:0 "农工民主党"
+ SXI_anarchism_party_long:0 "中国农工民主党"
+ SXI_socialism_party:0 "中华民国工党"
+ SXI_socialism_party_long:0 "中华民国工党"
+ SXI_democratic_party:0 "中国复汉党"
+ SXI_democratic_party_long:0 "中国复汉党"
+ SXI_neutrality_party:0 "秦陇复汉军"
+ SXI_neutrality_party_long:0 "秦陇复汉军"
+ SXI_monarchism_party:0 "孔教会"
+ SXI_monarchism_party_long:0 "孔教会"
+ SXI_fascism_party:0 "中国新民会"
+ SXI_fascism_party_long:0 "中国新民会"
+ SXI_imperialism_party:0 "中国同盟会"
+ SXI_imperialism_party_long:0 "中国同盟会"
+ SXI_futurism_party:0 "晋商财团"
+ SXI_futurism_party_long:0 "晋商财团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ SXI_yu_youren:0 "于右任"
+ SXI_yu_youren_desc:0 "§Y出生日期§!：§G1879年4月11日§!\n§Y出生地点§!：§G大东帝国关中道三原县§!\n\n§Y于右任§!"
+ #############
+ # Decisions #
+ #############
+
+ #################
+ # POWER BALANCE #
+ #################

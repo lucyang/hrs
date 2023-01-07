@@ -2,16 +2,16 @@
 ### EMPIRE ###
 ##############
 IMC = {
-	color = rgb { 106 119 89 }
-	color_ui = rgb { 106 119 89 }
+	color = rgb { 191 87 0 }
+	color_ui = rgb { 191 87 0 }
 }
 IMJ = {
-	color = rgb { 106 119 89 }
-	color_ui = rgb { 106 119 89 }
+	color = rgb { 191 87 0 }
+	color_ui = rgb { 191 87 0 }
 }
 IMK = {
-	color = rgb { 106 119 89 }
-	color_ui = rgb { 106 119 89 }
+	color = rgb { 191 87 0 }
+	color_ui = rgb { 191 87 0 }
 }
 SIA = {
 	color = rgb { 171 190 152 }
@@ -95,6 +95,10 @@ HNA = { # 湖南公社
 ###############
 ### SHAANXI ###
 ###############
+QNG = {
+	color = rgb { 9 171 190 }
+	color_ui = rgb { 9 171 190 }
+}
 SXI = {
 	color = rgb { 28 24 55 }
 	color_ui = rgb { 28 24 55 }
@@ -108,8 +112,12 @@ NIX = {
 	color_ui = rgb { 192 64 0 }
 }
 XSM = {
-	color = rgb { 9 171 190 }
-	color_ui = rgb { 9 171 190 }
+	color = rgb { 255 244 190 }
+	color_ui = rgb { 255 244 190 }
+}
+HHT = {
+	color = rgb { 102 0 0 }
+	color_ui = rgb { 102 0 0 }
 }
 ###############
 ### SICHUAN ###

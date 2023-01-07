@@ -89,7 +89,6 @@ HRS_setup_cultures = {
 	177 = { set_variable = { nationality = 10 } } #鹤壁
 	178 = { set_variable = { nationality = 10 } } #漯河
 	182 = { set_variable = { nationality = 10 } } #周口
-	190 = { set_variable = { nationality = 10 } } #南阳
 	192 = { set_variable = { nationality = 10 } } #驻马店
 
 	171 = { set_variable = { nationality = 10 } } #淮南
@@ -135,7 +134,6 @@ HRS_setup_cultures = {
 	258 = { set_variable = { nationality = 13 } } #常德
 
 	196 = { set_variable = { nationality = 13 } } #十堰
-	206 = { set_variable = { nationality = 13 } } #襄阳
 	208 = { set_variable = { nationality = 13 } } #随州
 	216 = { set_variable = { nationality = 13 } } #神农架
 	218 = { set_variable = { nationality = 13 } } #孝感
@@ -607,6 +605,8 @@ HRS_setup_cultures = {
 	331 = { set_variable = { nationality = 87 } } #德宏
 	# Tai Lue
 	374 = { set_variable = { nationality = 88 } } #西双版纳
+	643 = { set_variable = { nationality = 88 } } #北兰纳
+	644 = { set_variable = { nationality = 88 } } #南兰纳
 	# Zhuang
 	329 = { set_variable = { nationality = 89 } } #河池
 	345 = { set_variable = { nationality = 89 } } #文山
@@ -653,6 +653,8 @@ HRS_setup_cultures = {
 	581 = { set_variable = { nationality = 99 } } #上丁/相当
 	649 = { set_variable = { nationality = 99 } } #马德望
 	650 = { set_variable = { nationality = 99 } } #柏威夏
+
+	646 = { set_variable = { nationality = 99 } } #南伊善
 	# Laotian
 	376 = { set_variable = { nationality = 100 } } #中寮
 	534 = { set_variable = { nationality = 100 } } #下寮
@@ -723,16 +725,9 @@ HRS_setup_cultures = {
 	# Bamar/Burmese
 	288 = { set_variable = { nationality = 115 } } #仰光
 	# Siamese/Southern Tai
-	384 = { set_variable = { nationality = 116 } } #曼谷
-	640 = { set_variable = { nationality = 116 } } #南暹罗
 	641 = { set_variable = { nationality = 116 } } #西暹罗
 	642 = { set_variable = { nationality = 116 } } #中暹罗
-	643 = { set_variable = { nationality = 116 } } #北兰纳
-	644 = { set_variable = { nationality = 116 } } #南兰纳
 	645 = { set_variable = { nationality = 116 } } #东暹罗
-	646 = { set_variable = { nationality = 116 } } #南伊善
-	647 = { set_variable = { nationality = 116 } } #中伊善
-	648 = { set_variable = { nationality = 116 } } #北伊善
 	# Kachin/Jingpaw
 	508 = { set_variable = { nationality = 117 } } #北掸邦
 	556 = { set_variable = { nationality = 117 } } #南掸邦
@@ -789,11 +784,21 @@ HRS_setup_cultures = {
 	652 = { set_variable = { nationality = 136 } } #尼科巴群岛
 	# Sinhalese
 	401 = { set_variable = { nationality = 137 } } #斯里兰卡
-	# Tamil
+	# Tamil(138)
 	# Nanyoh/South Sea
 	387 = { set_variable = { nationality = 139 } } #北马里亚纳
 	# Chamorro
 	390 = { set_variable = { nationality = 140 } } #关岛
 	# Lahu
 	638 = { set_variable = { nationality = 141 } } #澜沧
+	# Wan/Nanyang
+	190 = { set_variable = { nationality = 142 } } #南阳
+	206 = { set_variable = { nationality = 142 } } #襄阳
+	# Isan
+	647 = { set_variable = { nationality = 143 } } #中伊善
+	648 = { set_variable = { nationality = 143 } } #北伊善
+	# Sino-Tai
+	384 = { set_variable = { nationality = 144 } } #曼谷
+	# Pak Tai/Southern Tai
+	640 = { set_variable = { nationality = 145 } } #南暹罗
 }

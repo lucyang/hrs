@@ -1,18 +1,11 @@
-﻿capital = 309 #Guiyang
+﻿capital = 128 #兰州
 
 oob = "empty"
 
 set_research_slots = 2
 
-recruit_character = GZH_zhang_bailin
-recruit_character = GZH_yang_jincheng
-recruit_character = GZH_wang_jialie
-recruit_character = GZH_zhou_xicheng
-recruit_character = GZH_yuan_zuming
-recruit_character = GZH_wang_wenhua
-recruit_character = GZH_ren_kecheng
-recruit_character = GZH_liu_xianshi
-recruit_character = GZH_he_yingqin
+recruit_character = GZH_xidaotang
+recruit_character = GZH_li_jingqing
 
 set_technology = {
 	infantry_weapons = 1
@@ -60,7 +53,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = anarchism
 	last_election = "1920.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -68,13 +61,13 @@ set_politics = {
 
 set_popularities = {
 	communism = 5
-	anarchism = 10
+	anarchism = 63
 	socialism = 12
-	democratic = 19
-	neutrality = 36
-	monarchism = 8
-	fascism = 3
-	imperialism = 7
+	democratic = 8
+	neutrality = 12
+	monarchism = 0
+	fascism = 0
+	imperialism = 0
 	futurism = 0
 }
 
@@ -85,9 +78,9 @@ add_ideas = {
 }
 add_ideas = {
 	country_development2
-	country_tech3
-	market_economy1
-	federation1
+	country_tech2
+	collective_economy
+	anarchist_commune
 }
 
 

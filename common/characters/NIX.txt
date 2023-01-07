@@ -1,0 +1,65 @@
+characters={
+	NIX_ma_fuxiang={
+		name=NIX_ma_fuxiang
+		portraits={
+			civilian={
+				large="gfx/leaders/QNG/Portrait_Ma_Fuxiang.png"
+			}
+			army={
+				large="gfx/leaders/QNG/Portrait_Ma_Fuxiang.png"
+			}
+		}
+		country_leader={
+			ideology=provisional_government_subtype
+			desc=NIX_ma_fuxiang_desc
+			traits={  }
+			expire="1932.8.19.1"
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	NIX_ma_hongkui={
+		name=NIX_ma_hongkui
+		portraits={
+			civilian={
+				large="gfx/leaders/QNG/Portrait_Ma_Hongkui.png"
+			}
+			army={
+				large="gfx/leaders/QNG/Portrait_Ma_Hongkui.png"
+			}
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	NIX_ma_hongbin={
+		name=NIX_ma_hongbin
+		portraits={
+			civilian={
+				large="gfx/leaders/QNG/Portrait_Ma_Hongbin.png"
+			}
+			army={
+				large="gfx/leaders/QNG/Portrait_Ma_Hongbin.png"
+			}
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+}

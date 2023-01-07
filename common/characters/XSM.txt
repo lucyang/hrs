@@ -1,16 +1,16 @@
 characters={
-	XSM_ma_qi={
-		name=XSM_ma_qi
+	XSM_hu_songshan={
+		name=XSM_hu_songshan
 		portraits={
 			civilian={
-				large="gfx/leaders/XSM/Portrait_Ma_Qi.dds"
+				large="gfx/leaders/XSM/Portrait_Hu_Songshan.png"
 			}
 		}
 		country_leader={
-			ideology=military_government_subtype
-			desc=XSM_ma_qi_desc
+			ideology=ultranationalism_subtype
+			desc=XSM_hu_songshan_desc
 			traits={ backroom_backstabber political_chameleon }
-			expire="1931.8.5.1"
+			expire="1955.1.1.1"
 		}
 	}
 }

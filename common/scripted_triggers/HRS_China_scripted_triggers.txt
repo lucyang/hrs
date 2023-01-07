@@ -597,6 +597,7 @@ is_gansu_state = {
 
 is_ningxia_state = {
 	OR = {
+		state = 56 #阿拉善
 		state = 96 #银川
 		state = 104 #石嘴山
 		state = 106 #吴忠
@@ -950,6 +951,7 @@ is_china_state = {
 		state = 159 #天水
 		state = 172 #陇南
  		#宁夏
+		state = 56 #阿拉善
 		state = 96 #银川
 		state = 104 #石嘴山
 		state = 106 #吴忠
@@ -958,7 +960,6 @@ is_china_state = {
  		#内蒙古
 		state = 43 #乌海
 		state = 49 #乌兰察布
-		state = 56 #阿拉善
 		state = 57 #包头
 		state = 61 #五原/巴彦淖尔
 		state = 71 #归绥/呼和浩特

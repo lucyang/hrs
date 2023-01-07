@@ -8,55 +8,74 @@ ZDJ = "countries/Zhendong Jiedushi.txt"
 DBJ = "countries/Dingbei Jiedushi.txt"
 HSW = "countries/Hsenwi.txt"
 ADM = "countries/Andaman.txt"
-XSM = "countries/Qinghai.txt"
 ### IMPERIAL DOMINION ###
 MAL = "countries/Malaysia.txt"
 LNF = "countries/Lanfang.txt" # Kalimantan & Borneo
 PHI = "countries/Philippines.txt"
 BSM = "countries/Bangsa Moro.txt"
-### CHINA/NATIONALIST ###
-CHI = "countries/China.txt" # Hubei
-KMT = "countries/Guangdong.txt"
+### CHINA/EAST ###
+# SHANGHAI #
+SHH = "countries/Shanghai.txt"
+### CHINA/NORTH ###
+# SHANXI #
 SHX = "countries/Shanxi.txt"
-SCH = "countries/Sichuan.txt"
-CHQ = "countries/Chongqing.txt"
-YUN = "countries/Yunnan.txt"
-GZH = "countries/Guizhou.txt"
-GNA = "countries/Guizhou Nationalist Army.txt"
-WAX = "countries/Wanxi.txt"
-QND = "countries/Qingdao.txt"
+# SHANDONG #
 SHD = "countries/Shandong.txt"
+QND = "countries/Qingdao.txt"
+QNA = "countries/Qingdao Naval Authority.txt"
 QUF = "countries/Qufu.txt"
+# HENAN #
+LYG = "countries/Luoyang.txt"
+AYG = "countries/Anyang.txt"
+HEN = "countries/Henan.txt"
+PDS = "countries/Pingdingshan.txt"
+ZZH = "countries/Zhengzhou.txt"
+WAX = "countries/Wanxi.txt"
+# HEBEI #
 TIJ = "countries/Tianjin.txt"
 HEB = "countries/Hebei.txt"
 JID = "countries/Jidong.txt"
 CHR = "countries/Chahar.txt"
-LYG = "countries/Luoyang.txt"
-AYG = "countries/Anyang.txt"
-HEN = "countries/Henan.txt"
-QNA = "countries/Qingdao Naval Authority.txt"
+PRC = "countries/ComChina.txt"
+# LIAONING #
 LNG = "countries/Liaoning.txt"
+### CHINA/CENTRAL ###
+# HUBEI #
+CHI = "countries/China.txt"
+# HUNAN #
+MAO = "countries/Lmao.txt"
+HNA = "countries/Hunan.txt"
+### CHINA/SOUTH ###
+# GUANGDONG #
+KMT = "countries/Guangdong.txt"
+FEM = "countries/Feminists.txt"
+HLF = "countries/Hailufeng.txt"
+# GUANGXI #
+GXC = "countries/Guangxi.txt"
+### CHINA/NORTHWEST ###
+QNG = "countries/Qinghai.txt"
 SXI = "countries/Shaanxi.txt"
 GNS = "countries/Gansu.txt"
+XSM = "countries/Guiyi Circuit.txt"
 NIX = "countries/Ningxia.txt"
-### CHINA/COMMUNIST ###
-PRC = "countries/ComChina.txt"
-SHH = "countries/Shanghai.txt"
-MAO = "countries/Lmao.txt"
-HNA = "countries/Hunan.txt" # Hunan
-HLF = "countries/Hailufeng.txt"
-PDS = "countries/Pingdingshan.txt"
-ZZH = "countries/Zhengzhou.txt"
-### CHINA/INDIGENOUS ###
+HHT = "countries/Hohhot.txt"
+### CHINA/SOUTHWEST ###
+# SICHUAN #
+SCH = "countries/Sichuan.txt"
+CHQ = "countries/Chongqing.txt"
 NSB = "countries/Yi.txt"
-GXC = "countries/Guangxi.txt"
+# YUNNAN #
+YUN = "countries/Yunnan.txt"
+JXP = "countries/Jiangxinpo.txt"
 DLI = "countries/Dali.txt"
 MMA = "countries/Mong Mao.txt"
 CHH = "countries/Chiang Hung.txt"
 LAX = "countries/Lan Xang.txt"
+# GUIZHOU #
+GZH = "countries/Guizhou.txt"
+GNA = "countries/Guizhou Nationalist Army.txt"
 MIA = "countries/Miao.txt"
 MIR = "countries/Miao Republic.txt"
-JXP = "countries/Jiangxinpo.txt"
 ### TAIWAN ###
 FRM = "countries/Formosa.txt"
 TAW = "countries/Taiwan.txt"

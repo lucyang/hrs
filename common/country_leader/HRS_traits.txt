@@ -244,4 +244,16 @@ leader_traits = {
 			factor = 1
 		}
 	}
+
+	respected_haji = {
+		random = no
+ 
+		political_power_factor = 0.1
+		mobilization_speed = 0.05
+		stability_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

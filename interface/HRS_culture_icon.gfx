@@ -579,4 +579,20 @@ spriteTypes = {
 		name = "GFX_culture_141"
 		texturefile = "gfx/interface/culture/culture_lahu.png"
 	}
+	spriteType = {
+		name = "GFX_culture_142"
+		texturefile = "gfx/interface/culture/culture_wan.png"
+	}
+	spriteType = {
+		name = "GFX_culture_143"
+		texturefile = "gfx/interface/culture/culture_isan.png"
+	}
+	spriteType = {
+		name = "GFX_culture_144"
+		texturefile = "gfx/interface/culture/culture_bangkok.png"
+	}
+	spriteType = {
+		name = "GFX_culture_145"
+		texturefile = "gfx/interface/culture/culture_paktai.png"
+	}
 }

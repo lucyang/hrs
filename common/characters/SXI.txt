@@ -1,0 +1,16 @@
+characters={
+	SXI_yu_youren={
+		name=SXI_yu_youren
+		portraits={
+			civilian={
+				large="gfx/leaders/SXI/Portrait_Yu_Youren.png"
+			}
+		}
+		country_leader={
+			ideology=tridemism_subtype
+			desc=SXI_yu_youren_desc
+			traits={ popular_figurehead2 connected_citizen }
+			expire="1964.11.10.1"
+		}
+	}
+}
