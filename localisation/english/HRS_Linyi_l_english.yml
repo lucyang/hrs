@@ -1,0 +1,74 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ LNY_communism:0 "山东建国自治军"
+ LNY_communism_DEF:0 "山东建国自治军"
+ LNY_anarchism:0 "山东建国自治军"
+ LNY_anarchism_DEF:0 "山东建国自治军"
+ LNY_socialism:0 "山东建国自治军"
+ LNY_socialism_DEF:0 "山东建国自治军"
+ LNY_democratic:0 "山东建国自治军"
+ LNY_democratic_DEF:0 "山东建国自治军"
+ LNY_neutrality:0 "山东建国自治军"
+ LNY_neutrality_DEF:0 "山东建国自治军"
+ LNY_monarchism:0 "山东建国自治军"
+ LNY_monarchism_DEF:0 "山东建国自治军"
+ LNY_fascism:0 "山东建国自治军"
+ LNY_fascism_DEF:0 "山东建国自治军"
+ LNY_imperialism:0 "山东建国自治军"
+ LNY_imperialism_DEF:0 "山东建国自治军"
+ LNY_futurism:0 "山东建国自治军"
+ LNY_futurism_DEF:0 "山东建国自治军"
+ LNY_communism_ADJ:0 "山东自治军"
+ LNY_anarchism_ADJ:0 "山东自治军"
+ LNY_democratic_ADJ:0 "山东自治军"
+ LNY_neutrality_ADJ:0 "山东自治军"
+ LNY_monarchism_ADJ:0 "山东自治军"
+ LNY_fascism_ADJ:0 "山东自治军"
+ LNY_imperialism_ADJ:0 "山东自治军"
+ LNY_futurism_ADJ:0 "山东自治军"
+ LNY:0 "山东自治军"
+ LNY_DEF:0 "山东自治军"
+ LNY_ADJ:0 "山东自治军"
+ #############
+ ## PARTIES ##
+ #############
+ LNY_communism_party:0 "社民农工党"
+ LNY_communism_party_long:0 "中国社会民主农工党"
+ LNY_anarchism_party:0 "中国新村社"
+ LNY_anarchism_party_long:0 "中国新村社"
+ LNY_socialism_party:0 "中国民主政团同盟"
+ LNY_socialism_party_long:0 "中国民主政团同盟"
+ LNY_democratic_party:0 "中华革命党"
+ LNY_democratic_party_long:0 "中华革命党"
+ LNY_neutrality_party:0 "山东建国自治军"
+ LNY_neutrality_party_long:0 "山东建国自治军"
+ LNY_monarchism_party:0 "孔教会"
+ LNY_monarchism_party_long:0 "孔教会"
+ LNY_fascism_party:0 "中国新民会"
+ LNY_fascism_party_long:0 "中国新民会"
+ LNY_imperialism_party:0 "战国策派"
+ LNY_imperialism_party_long:0 "战国策派"
+ LNY_futurism_party:0 "技术官僚"
+ LNY_futurism_party_long:0 "技术官僚"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ LNY_sun_meiyao:0 "孙美瑶"
+ LNY_sun_meiyao_desc:0 "§Y出生日期§!：§G1898年§!\n§Y出生地点§!：§G大东帝国济宁道峄县§!\n\n§Y孙美瑶§!生于1898年，北庄镇白庄村人。因在家排行老五，乡间称其“孙老五”，其胞兄§Y孙美珠§!为当地一带有名的知识分子。依照山东的传统观念，孙美瑶与孙美珠的人生非常成功：孙氏是当地有声望的富家大户，孙美珠在县政府工作，孙美瑶考上了大学，不久后便可在兄长的恩荫下步入官场。\n\n好景不长，§Y安达卢斯流感§!毁掉了他们的日子人生活。帝国政府将病患“安置”在集中营，这里没有足够的水和食物，只有铁丝网和大狼狗，病人只能在慢慢等死。孙美珠怀揣着为民请命的愿望，带着一大群灾民来到省城，结果命丧宪兵枪口之下。孙家的天瞬间塌了，孙美瑶不得不放弃学业，一边躲避帝国警察的监视，一边尽力为生计奔波。\n\n不久之后，孙美瑶决心策划一起惊天大案，以此报复待孙家不仁的帝国政府。他在§Y抱犊崮§!建立了一个秘密据点，伪造传单称“山东建国自治军”正在秘密筹划武装暴动，以此转移帝国政府的注意力。1923年5月6日凌晨2点半，孙美瑶袭击了津浦铁路上的公务专列，将上面的外国乘客全部绑为肉票。\n\n帝国政府用了几天时间定位了孙美瑶的匪巢，孙美瑶很快被抓捕归案。国内媒体报道了他的悲惨遭遇，舆论霎时逆转，越来越多的人称赞孙美瑶为§Y“当代梁山好汉”§!。帝国政府将孙美瑶暂时收监在县城大牢里，然而随着帝国内战爆发，孙美瑶成功越狱。这一次，“山东建国自治军”不再是一个空壳组织，而是孙美瑶向帝国复仇的第一步······"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############
+ 
+ ##############
+ ## TOOLTIPS ##
+ ##############

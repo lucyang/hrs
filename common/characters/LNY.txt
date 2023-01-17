@@ -1,0 +1,27 @@
+characters={
+	LNY_sun_meiyao={
+		name=LNY_sun_meiyao
+		portraits={
+			civilian={
+				large="gfx/leaders/LNY/Portrait_Sun_Meiyao.png"
+			}
+			army={
+				large="gfx/leaders/LNY/Portrait_Sun_Meiyao.png"
+			}
+		}
+		country_leader={
+			ideology=warlordism_subtype
+			desc=LNY_sun_meiyao_desc
+			traits={  }
+			expire="1955.11.18.1"
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+}

@@ -16,6 +16,8 @@ BSM = "countries/Bangsa Moro.txt"
 ### CHINA/EAST ###
 # SHANGHAI #
 SHH = "countries/Shanghai.txt"
+# ANHUI #
+ANH = "countries/Anhui.txt"
 ### CHINA/NORTH ###
 # SHANXI #
 SHX = "countries/Shanxi.txt"
@@ -24,6 +26,7 @@ SHD = "countries/Shandong.txt"
 QND = "countries/Qingdao.txt"
 QNA = "countries/Qingdao Naval Authority.txt"
 QUF = "countries/Qufu.txt"
+LNY = "countries/Linyi.txt"
 # HENAN #
 LYG = "countries/Luoyang.txt"
 AYG = "countries/Anyang.txt"

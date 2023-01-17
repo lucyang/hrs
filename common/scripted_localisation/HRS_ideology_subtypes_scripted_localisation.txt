@@ -124,6 +124,18 @@ defined_text = {
 		localization_key = pure_anarchism_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = jesuism_subtype }
+		localization_key = jesuism_subtypehhh
+	}
+	text = {
+		trigger = { has_country_leader_ideology = humanistic_buddhism_subtype }
+		localization_key = humanistic_buddhism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = islamic_socialism_subtype }
+		localization_key = islamic_socialism_subtype
+	}
+	text = {
 		localization_key = anarchism_subtype
 	}
 }
@@ -404,6 +416,10 @@ defined_text = {
 	text = {
 		trigger = { has_country_leader_ideology = hindutva_subtype }
 		localization_key = hindutva_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = jihadism_subtype }
+		localization_key = jihadism_subtype
 	}
 	text = {
 		localization_key = imperialism_subtype

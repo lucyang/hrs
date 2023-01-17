@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=anarcho_communism_subtype
+			ideology=islamic_socialism_subtype
 			desc=GNS_xidaotang_desc
 			traits={ }
 			expire="1950.1.1.1"

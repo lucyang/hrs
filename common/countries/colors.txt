@@ -75,6 +75,13 @@ SHH = {
 	color_ui = rgb { 237 40 57 }
 }
 #############
+### ANHUI ###
+#############
+ANH = {
+	color = rgb { 47 79 79 }
+	color_ui = rgb { 47 79 79 }
+}
+#############
 ### HUBEI ###
 #############
 CHI = { # 湖北
@@ -231,21 +238,25 @@ CHR = { # 察哈尔/察南自治政府
 ################
 ### SHANDONG ###
 ################
-QND = { # 青岛
+QND = { # 山东军政府
 	color = rgb { 0 32 106 }
 	color_ui = rgb { 0 32 106 }
 }
-SHD = { # 济南
+SHD = { # 乡村建设研究院
 	color = rgb { 63 127 98 }
 	color_ui = rgb { 63 127 98 }
 }
-QUF = { # 曲阜
+QUF = { # 人民天朝
 	color = rgb { 139 34 82 }
 	color_ui = rgb { 139 34 82 }
 }
 QNA = { # 青岛海军政府
 	color = rgb { 28 28 128 }
 	color_ui = rgb { 28 28 128 }
+}
+LNY = { # 山东建国自治军
+	color = rgb { 85 107 47 }
+	color_ui = rgb { 85 107 47 }
 }
 ##############
 ### TAIWAN ###
