@@ -9,7 +9,7 @@ state={
 
 		victory_points = { 915 3 } #酒泉
 		victory_points = { 2988 1 } #玉门
-		victory_points = { 1770 1 } #瓜州
+		victory_points = { 1770 5 } #瓜州
 		victory_points = { 294 1 } #敦煌
 
 		buildings = {

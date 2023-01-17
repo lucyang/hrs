@@ -1,10 +1,10 @@
-﻿capital = 71 #呼和浩特/归绥
+﻿capital = 57 #包头
 
 oob = "empty"
 
-recruit_character = HHT_kohinata_hakuro
-recruit_character = HHT_lu_zhankui
-recruit_character = HHT_sun_dianying
+recruit_character = SYN_kohinata_hakuro
+recruit_character = SYN_lu_zhankui
+recruit_character = SYN_sun_dianying
 
 set_technology = {
 	infantry_weapons = 1

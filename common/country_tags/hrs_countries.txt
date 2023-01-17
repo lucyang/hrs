@@ -58,7 +58,7 @@ SXI = "countries/Shaanxi.txt"
 GNS = "countries/Gansu.txt"
 XSM = "countries/Guiyi Circuit.txt"
 NIX = "countries/Ningxia.txt"
-HHT = "countries/Hohhot.txt"
+SYN = "countries/Suiyuan.txt"
 ### CHINA/SOUTHWEST ###
 # SICHUAN #
 SCH = "countries/Sichuan.txt"

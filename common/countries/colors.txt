@@ -100,22 +100,22 @@ QNG = {
 	color_ui = rgb { 9 171 190 }
 }
 SXI = {
-	color = rgb { 28 24 55 }
-	color_ui = rgb { 28 24 55 }
+	color = rgb { 255 244 190 }
+	color_ui = rgb { 255 244 190 }
 }
 GNS = {
-	color = rgb { 18 31 31 }
-	color_ui = rgb { 18 31 31 }
+	color = rgb { 205 85 85 }
+	color_ui = rgb { 205 85 85 }
 }
 NIX = {
 	color = rgb { 192 64 0 }
 	color_ui = rgb { 192 64 0 }
 }
 XSM = {
-	color = rgb { 255 244 190 }
-	color_ui = rgb { 255 244 190 }
+	color = rgb { 28 24 55 }
+	color_ui = rgb { 28 24 55 }
 }
-HHT = {
+SYN = {
 	color = rgb { 102 0 0 }
 	color_ui = rgb { 102 0 0 }
 }

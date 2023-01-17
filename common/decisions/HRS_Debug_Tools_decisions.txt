@@ -381,16 +381,22 @@ HRS_debug_tool_cataegory = {
 				limit = { is_shaanxi_state = yes }
 				transfer_state_to = SXI
 			}
+			TIB = {
+				transfer_state = 135 #玉树
+				add_state_core = 135
+			}
 			# 绥远/内蒙古
-			HHT = {
+			SYN = {
 				transfer_state = 57 #包头
 				transfer_state = 61 #巴彦淖尔
 				transfer_state = 71 #呼和浩特
 				transfer_state = 76 #鄂尔多斯
+				transfer_state = 511 #托克托
 				add_state_core = 57
 				add_state_core = 61
 				add_state_core = 71
 				add_state_core = 76
+				add_state_core = 511
 			}
 			# 甘肃
 			GNS = {	
@@ -563,12 +569,18 @@ HRS_debug_tool_cataegory = {
 				transfer_state = 557
 			}
 			DLI = {
-				transfer_state = 293 #迪庆
+				transfer_state = 277 #迪庆
+				add_state_core = 277
+				transfer_state = 293 #怒江
+				add_state_core = 293
 				transfer_state = 316 #大理
+				add_state_core = 316
 				transfer_state = 301 #丽江
+				add_state_core = 301
 			}
 			MMA = {
-				transfer_state = 331 # Dehong
+				transfer_state = 331 #德宏
+				add_state_core = 331
 			}
 			CHH = {
 				transfer_state = 374 # Sipsongbanna

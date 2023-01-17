@@ -597,6 +597,7 @@ is_gansu_state = {
 
 is_ningxia_state = {
 	OR = {
+		state = 43 #乌海
 		state = 56 #阿拉善
 		state = 96 #银川
 		state = 104 #石嘴山

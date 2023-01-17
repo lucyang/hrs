@@ -2,10 +2,10 @@
  ###############
  ## COUNTRIES ##
  ###############
- GNS_communism:0 "甘肃人民舒拉共和国"
- GNS_communism_DEF:0 "甘肃人民舒拉共和国"
- GNS_anarchism:0 "甘肃人民舒拉共和国"
- GNS_anarchism_DEF:0 "甘肃人民舒拉共和国"
+ GNS_communism:0 "甘肃省临时议会"
+ GNS_communism_DEF:0 "甘肃省临时议会"
+ GNS_anarchism:0 "甘肃省临时议会"
+ GNS_anarchism_DEF:0 "甘肃省临时议会"
  GNS_socialism:0 "甘肃省临时议会"
  GNS_socialism_DEF:0 "甘肃省临时议会"
  GNS_democratic:0 "甘肃省临时议会"
