@@ -1,6 +1,6 @@
-﻿capital = 306 #衡阳
+﻿capital = 285 #凤凰/湘西
 
-recruit_character = HNA_peng_huang
+recruit_character = XON_long_yunfei
 
 oob = "empty"
 
@@ -52,7 +52,6 @@ if = {
 		early_ship_hull_cruiser = 1
 		mtg_transport = 1
 		coastal_defense_ships = 1
-		#basic_secondary_battery = 1
 		basic_depth_charges = 1
 		basic_cruiser_armor_scheme = 1
 		cruiser_submarines = 1
@@ -78,15 +77,15 @@ if = {
 }
 
 add_ideas = {
-	closed_economy
-	citizen_militia
-	war_economy
+	limited_exports
+	limited_conscription
+	civilian_economy
 }
 add_ideas = {
-	country_development3
+	country_development1
 	country_tech3
-	collective_economy
-	anarchist_commune
+	market_economy1
+	unitary_state1
 }
 
 set_research_slots = 2
@@ -95,20 +94,20 @@ set_stability = 0.35
 set_war_support = 0.70
 
 set_politics = {
-	ruling_party = anarchism
+	ruling_party = monarchism
 	last_election = "1922.9.14"
 	election_frequency = 60
 	elections_allowed = no
 }
 
 set_popularities = {
-	communism = 21
-	anarchism = 60
-	socialism = 10
-	democratic = 5
-	neutrality = 4
-	monarchism = 0
+	communism = 0
+	anarchism = 0
+	socialism = 0
+	democratic = 24
+	neutrality = 31
+	monarchism = 39
 	fascism = 0
 	imperialism = 0
-	futurism = 0
+	futurism = 6
 }

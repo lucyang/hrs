@@ -1,0 +1,82 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ XXI_communism:0 "湘西十县自治区"
+ XXI_communism_DEF:0 "湘西十县自治区"
+ XXI_anarchism:0 "湘西十县自治区"
+ XXI_anarchism_DEF:0 "湘西十县自治区"
+ XXI_socialism:0 "湘西十县自治区"
+ XXI_socialism_DEF:0 "湘西十县自治区"
+ XXI_democratic:0 "湘西十县自治区"
+ XXI_democratic_DEF:0 "湘西十县自治区"
+ XXI_neutrality:0 "湘西十县自治区"
+ XXI_neutrality_DEF:0 "湘西十县自治区"
+ XXI_monarchism:0 "湘西十县自治区"
+ XXI_monarchism_DEF:0 "湘西十县自治区"
+ XXI_fascism:0 "湘西十县自治区"
+ XXI_fascism_DEF:0 "湘西十县自治区"
+ XXI_imperialism:0 "湘西十县自治区"
+ XXI_imperialism_DEF:0 "湘西十县自治区"
+ XXI_futurism:0 "湘西十县自治区"
+ XXI_futurism_DEF:0 "湘西十县自治区"
+ XXI_communism_ADJ:0 "上湘西"
+ XXI_anarchism_ADJ:0 "上湘西"
+ XXI_socialism_ADJ:0 "上湘西"
+ XXI_democratic_ADJ:0 "上湘西"
+ XXI_neutrality_ADJ:0 "上湘西"
+ XXI_monarchism_ADJ:0 "上湘西"
+ XXI_fascism_ADJ:0 "上湘西"
+ XXI_imperialism_ADJ:0 "上湘西"
+ XXI_futurism_ADJ:0 "上湘西"
+ XXI:0 "上湘西
+ XXI_DEF:0 "上湘西"
+ XXI_ADJ:0 "上湘西"
+ #############
+ ## PARTIES ##
+ #############
+ XXI_communism_party:0 "社民农工党"
+ XXI_communism_party_long:0 "社会民主农工党"
+ XXI_anarchism_party:0 "湘西总工会"
+ XXI_anarchism_party_long:0 "湘西总工会"
+ XXI_socialism_party:0 "自治委员会 - 文官派"
+ XXI_socialism_party_long:0 "湘西十县自治委员会"
+ XXI_democratic_party:0 "湖南宪政党"
+ XXI_democratic_party_long:0 "湖南宪政党"
+ XXI_neutrality_party:0 "自治委员会 - 军队派"
+ XXI_neutrality_party_long:0 "湘西十县自治委员会"
+ XXI_monarchism_party:0 "自治委员会 - 土司派"
+ XXI_monarchism_party_long:0 "湘西十县自治委员会"
+ XXI_fascism_party:0 "中国青年党"
+ XXI_fascism_party_long:0 "中国青年党"
+ XXI_imperialism_party:0 "战国策派"
+ XXI_imperialism_party_long:0 "战国策派"
+ XXI_futurism_party:0 "洪江商会"
+ XXI_futurism_party_long:0 "洪江商会"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ XXI_chen_quzhen:0 "陈渠珍"
+ XXI_chen_quzhen_desc:0 "§Y出生日期§!：§G1882年9月22日§!\n§Y出生地点§!：§G大东帝国辰沅道凤凰县§!\n\n§Y陈渠珍§!"
+ XXI_shen_congwen:0 "沈从文"
+ XXI_shen_congwen_desc:0 "§Y出生日期§!：§G1902年12月28日§!\n§Y出生地点§!：§G大东帝国辰沅道凤凰县§!\n\n§Y沈从文§!"
+ ###########
+ ## IDEAS ##
+ ###########
+
+ ####################
+ # Balance of Power #
+ ####################
+ 
+ #############
+ # DECISIONS #
+ #############
+ 
+ ############
+ ## EVENTS ##
+ ############
+ 

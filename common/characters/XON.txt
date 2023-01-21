@@ -1,0 +1,16 @@
+characters={
+	XON_long_yunfei={
+		name=XON_long_yunfei
+		portraits={
+			civilian={
+				large="gfx/leaders/XON/Portrait_Long_Yunfei.png"
+			}
+		}
+		country_leader={
+			ideology=mandala_monarchy_subtype
+			desc=XON_long_yunfei_desc
+			traits={ XON_chaofa }
+			expire="1950.1.1.1"
+		}
+	}
+}

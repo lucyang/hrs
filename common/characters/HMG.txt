@@ -1,0 +1,44 @@
+characters={
+	HMG_military_government={
+		name=HMG_military_government
+		portraits={
+			civilian={
+				large="gfx/leaders/generic/Portrait_Hubei_Military_Government.png"
+			}
+		}
+		country_leader={
+			ideology=provisional_government_subtype
+			desc=HMG_military_government_desc
+			traits={ emergency_power }
+			expire="1950.1.1.1"
+		}
+	}
+	HMG_yang_duo={
+		name=HMG_yang_duo
+		portraits={
+			civilian={
+				large="gfx/leaders/HNR/Portrait_Yang_Duo.png"
+			}
+		}
+		country_leader={
+			ideology=communism_subtype
+			desc=HMG_yang_duo_desc
+			traits={ conservative_communist }
+			expire="1950.1.1.1"
+		}
+	}
+	HMG_real_yang_duo={
+		name=HMG_yang_duo
+		portraits={
+			civilian={
+				large="gfx/leaders/HNR/Portrait_Yang_Duo.png"
+			}
+		}
+		#country_leader={
+		#	ideology=ultramilitarism_subtype #Economic Militarism
+		#	desc=HMG_real_yang_duo_desc
+		#	traits={ arkhigos warmonger }
+		#	expire="1950.1.1.1"
+		#}
+	}
+}

@@ -1,0 +1,46 @@
+characters={
+	XXC_xiang_jingyu={
+		name=XXC_xiang_jingyu
+		portraits={
+			civilian={
+				large="gfx/leaders/XXC/Portrait_Xiang_Jingyu.png"
+			}
+		}
+		country_leader={
+			ideology=dengism_subtype
+			desc=XXC_xiang_jingyu_desc
+			traits={ red_suffragette }
+			expire="1950.1.1.1"
+		}
+	}
+	XXC_tang_bogeng={
+		name=XXC_tang_bogeng
+		portraits={
+			civilian={
+				large="gfx/leaders/XXC/Portrait_Tang_Bogeng.png"
+			}
+		}
+	}
+	XXC_jiang_xiqing={
+		name=XXC_jiang_xiqing
+		portraits={
+			civilian={
+				large="gfx/leaders/XXC/Portrait_Jiang_Xiqing.png"
+			}
+		}
+		country_leader={
+			ideology=national_communism_subtype
+			desc=XXC_jiang_xiqing_desc
+			traits={ resistance_leader }
+			expire="1950.1.1.1"
+		}
+	}
+	XXC_yang_fang={
+		name=XXC_yang_fang
+		portraits={
+			civilian={
+				large="gfx/leaders/XXC/Portrait_Yang_Fang.png"
+			}
+		}
+	}
+}

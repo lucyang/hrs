@@ -1,12 +1,9 @@
-﻿capital = 299 # Anyuan
+﻿capital = 299 #安源
 
 recruit_character = MAO_mao_zedong
 recruit_character = MAO_left_mao_zedong
 recruit_character = MAO_right_mao_zedong
 recruit_character = MAO_liu_shaoqi
-#recruit_character = MAO_jiang_xianyun
-#recruit_character = MAO_luo_ronghuan
-#recruit_character = MAO_song_renqiong
 
 oob = "empty"
 

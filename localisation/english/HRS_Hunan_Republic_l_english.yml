@@ -1,0 +1,80 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ HNR_communism:0 "湖南共和国"
+ HNR_communism_DEF:0 "湖南共和国"
+ HNR_anarchism:0 "湖南共和国"
+ HNR_anarchism_DEF:0 "湖南共和国"
+ HNR_socialism:0 "湖南共和国"
+ HNR_socialism_DEF:0 "湖南共和国"
+ HNR_democratic:0 "湖南共和国"
+ HNR_democratic_DEF:0 "湖南共和国"
+ HNR_neutrality:0 "湖南共和国"
+ HNR_neutrality_DEF:0 "湖南共和国"
+ HNR_monarchism:0 "湖南共和国"
+ HNR_monarchism_DEF:0 "湖南共和国"
+ HNR_fascism:0 "湖南共和国"
+ HNR_fascism_DEF:0 "湖南共和国"
+ HNR_imperialism:0 "湖南共和国"
+ HNR_imperialism_DEF:0 "湖南共和国"
+ HNR_futurism:0 "湖南共和国"
+ HNR_futurism_DEF:0 "湖南共和国"
+ HNR_communism_ADJ:0 "湖南共和国"
+ HNR_anarchism_ADJ:0 "湖南共和国"
+ HNR_socialism_ADJ:0 "湖南共和国"
+ HNR_democratic_ADJ:0 "湖南共和国"
+ HNR_neutrality_ADJ:0 "湖南共和国"
+ HNR_monarchism_ADJ:0 "湖南共和国"
+ HNR_fascism_ADJ:0 "湖南共和国"
+ HNR_imperialism_ADJ:0 "湖南共和国"
+ HNR_futurism_ADJ:0 "湖南共和国"
+ HNR:0 "湖南共和国"
+ HNR_DEF:0 "湖南共和国"
+ HNR_ADJ:0 "湖南共和国"
+ #############
+ ## PARTIES ##
+ #############
+ HNR_communism_party:0 "社民农工党"
+ HNR_communism_party_long:0 "社会民主农工党"
+ HNR_anarchism_party:0 "新民学会"
+ HNR_anarchism_party_long:0 "新民学会"
+ HNR_socialism_party:0 "湖南改造促进会"
+ HNR_socialism_party_long:0 "湖南改造促进会"
+ HNR_democratic_party:0 "湖南宪政党"
+ HNR_democratic_party_long:0 "湖南宪政党"
+ HNR_neutrality_party:0 "湖南新军"
+ HNR_neutrality_party_long:0 "湖南新军"
+ HNR_monarchism_party:0 "孔教会"
+ HNR_monarchism_party_long:0 "孔教会"
+ HNR_fascism_party:0 "中国青年党"
+ HNR_fascism_party_long:0 "中国青年党"
+ HNR_imperialism_party:0 "战国策派"
+ HNR_imperialism_party_long:0 "战国策派"
+ HNR_futurism_party:0 "安源矿业"
+ HNR_futurism_party_long:0 "安源矿业"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ HNR_tan_yankai:0 "谭延闿"
+ HNR_tan_yankai_desc:0 "§Y出生日期§!：§G1880年1月25日§!\n§Y出生地点§!：§G大东帝国钱塘道杭县§!\n\n§Y谭延闿§!"
+ ###########
+ ## IDEAS ##
+ ###########
+
+ ####################
+ # Balance of Power #
+ ####################
+ 
+ #############
+ # DECISIONS #
+ #############
+ 
+ ############
+ ## EVENTS ##
+ ############
+ 

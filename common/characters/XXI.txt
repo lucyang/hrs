@@ -1,0 +1,30 @@
+characters={
+	XXI_chen_quzhen={
+		name=XXI_chen_quzhen
+		portraits={
+			civilian={
+				large="gfx/leaders/XXI/Portrait_Chen_Quzhen.png"
+			}
+		}
+		country_leader={
+			ideology=development_authoritarianism_subtype
+			desc=XXI_chen_quzhen_desc
+			traits={ jefe celebrity_junta_leader }
+			expire="1952.2.1.1"
+		}
+	}
+	XXI_shen_congwen={
+		name=XXI_shen_congwen
+		portraits={
+			civilian={
+				large="gfx/leaders/XXI/Portrait_Shen_Congwen.png"
+			}
+		}
+		country_leader={
+			ideology=agrarianism_subtype
+			desc=XXI_shen_congwen_desc
+			traits={ moderate_reformist SWI_pragmatic_democrat }
+			expire="1988.5.10.1"
+		}
+	}
+}

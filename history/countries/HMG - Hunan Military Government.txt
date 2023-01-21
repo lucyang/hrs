@@ -1,6 +1,8 @@
-﻿capital = 306 #衡阳
+﻿capital = 285 #长沙
+# Resettled at state 263(岳阳) after coup d'etat
 
-recruit_character = HNA_peng_huang
+recruit_character = HMG_military_government
+recruit_character = HMG_yang_duo
 
 oob = "empty"
 
@@ -52,7 +54,6 @@ if = {
 		early_ship_hull_cruiser = 1
 		mtg_transport = 1
 		coastal_defense_ships = 1
-		#basic_secondary_battery = 1
 		basic_depth_charges = 1
 		basic_cruiser_armor_scheme = 1
 		cruiser_submarines = 1
@@ -78,15 +79,15 @@ if = {
 }
 
 add_ideas = {
-	closed_economy
-	citizen_militia
-	war_economy
+	limited_exports
+	limited_conscription
+	civilian_economy
 }
 add_ideas = {
 	country_development3
 	country_tech3
-	collective_economy
-	anarchist_commune
+	dirigisme_economy
+	unitary_state1
 }
 
 set_research_slots = 2
@@ -95,18 +96,18 @@ set_stability = 0.35
 set_war_support = 0.70
 
 set_politics = {
-	ruling_party = anarchism
+	ruling_party = neutrality
 	last_election = "1922.9.14"
 	election_frequency = 60
 	elections_allowed = no
 }
 
 set_popularities = {
-	communism = 21
-	anarchism = 60
-	socialism = 10
-	democratic = 5
-	neutrality = 4
+	communism = 30
+	anarchism = 8
+	socialism = 12
+	democratic = 16
+	neutrality = 34
 	monarchism = 0
 	fascism = 0
 	imperialism = 0

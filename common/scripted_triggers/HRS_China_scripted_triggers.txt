@@ -19,7 +19,6 @@ is_china_nation = {
 		original_tag = CHI
 		original_tag = MAO
 		original_tag = HNA
-		original_tag = CBS
 		original_tag = KMT
 		original_tag = HLF
 		original_tag = GXC
@@ -40,6 +39,15 @@ is_china_nation = {
 		original_tag = ZZH
 		original_tag = LYG
 		original_tag = HEN
+		original_tag = GNS
+		original_tag = QNG
+		original_tag = NIX
+		original_tag = SYN
+		original_tag = SXI
+		original_tag = HMG
+		original_tag = XXI
+		original_tag = XXC
+		original_tag = XON
 	}
 }
 
@@ -81,6 +89,11 @@ is_china_unifier = {
 		original_tag = WAX
 		original_tag = QNA
 		original_tag = LNG
+		original_tag = NIX
+		original_tag = GNS
+		original_tag = SYN
+		original_tag = SXI
+		original_tag = HMG
 	}
 }
 
@@ -115,6 +128,8 @@ is_xibei_nation = {
 		original_tag = SXI
 		original_tag = NIX
 		original_tag = GNS
+		original_tag = QNG
+		original_tag = SYN
 	}
 }
 
@@ -130,7 +145,10 @@ is_huazhong_nation = {
 		original_tag = CHI
 		original_tag = MAO
 		original_tag = HNA
-		original_tag = CBS
+		original_tag = HMG
+		original_tag = XXI
+		original_tag = XXC
+		original_tag = XON
 	}
 }
 

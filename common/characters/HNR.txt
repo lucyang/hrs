@@ -1,0 +1,16 @@
+characters={
+	HNR_tan_yankai={
+		name=HNR_tan_yankai
+		portraits={
+			civilian={
+				large="gfx/leaders/HNR/Portrait_Tan_Yankai.png"
+			}
+		}
+		country_leader={
+			ideology=national_conservatism_subtype
+			desc=HNR_tan_yankai_desc
+			traits={ liberal_journalist connected_citizen }
+			expire="1930.9.22.1"
+		}
+	}
+}

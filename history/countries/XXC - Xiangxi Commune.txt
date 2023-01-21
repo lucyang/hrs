@@ -1,6 +1,9 @@
-﻿capital = 306 #衡阳
+﻿capital = 282 #怀化
 
-recruit_character = HNA_peng_huang
+recruit_character = XXC_xiang_jingyu
+recruit_character = XXC_jiang_xiqing
+recruit_character = XXC_tang_bogeng
+recruit_character = XXC_yang_fang
 
 oob = "empty"
 
@@ -52,7 +55,6 @@ if = {
 		early_ship_hull_cruiser = 1
 		mtg_transport = 1
 		coastal_defense_ships = 1
-		#basic_secondary_battery = 1
 		basic_depth_charges = 1
 		basic_cruiser_armor_scheme = 1
 		cruiser_submarines = 1
@@ -78,15 +80,15 @@ if = {
 }
 
 add_ideas = {
-	closed_economy
-	citizen_militia
+	limited_exports
+	limited_conscription
 	war_economy
 }
 add_ideas = {
-	country_development3
+	country_development2
 	country_tech3
-	collective_economy
-	anarchist_commune
+	planned_economy1
+	state_union
 }
 
 set_research_slots = 2
@@ -95,19 +97,19 @@ set_stability = 0.35
 set_war_support = 0.70
 
 set_politics = {
-	ruling_party = anarchism
+	ruling_party = communism
 	last_election = "1922.9.14"
 	election_frequency = 60
 	elections_allowed = no
 }
 
 set_popularities = {
-	communism = 21
-	anarchism = 60
-	socialism = 10
-	democratic = 5
-	neutrality = 4
-	monarchism = 0
+	communism = 48
+	anarchism = 44
+	socialism = 0
+	democratic = 0
+	neutrality = 3
+	monarchism = 5
 	fascism = 0
 	imperialism = 0
 	futurism = 0

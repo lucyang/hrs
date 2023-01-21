@@ -1,0 +1,82 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ HMG_communism:0 "湘省军政府"
+ HMG_communism_DEF:0 "湘省军政府"
+ HMG_anarchism:0 "湘省军政府"
+ HMG_anarchism_DEF:0 "湘省军政府"
+ HMG_socialism:0 "湘省军政府"
+ HMG_socialism_DEF:0 "湘省军政府"
+ HMG_democratic:0 "湘省军政府"
+ HMG_democratic_DEF:0 "湘省军政府"
+ HMG_neutrality:0 "湘省军政府"
+ HMG_neutrality_DEF:0 "湘省军政府"
+ HMG_monarchism:0 "湘省军政府"
+ HMG_monarchism_DEF:0 "湘省军政府"
+ HMG_fascism:0 "湘省军政府"
+ HMG_fascism_DEF:0 "湘省军政府"
+ HMG_imperialism:0 "湘省军政府"
+ HMG_imperialism_DEF:0 "湘省军政府"
+ HMG_futurism:0 "湘省军政府"
+ HMG_futurism_DEF:0 "湘省军政府"
+ HMG_communism_ADJ:0 "湘省军政府"
+ HMG_anarchism_ADJ:0 "湘省军政府"
+ HMG_socialism_ADJ:0 "湘省军政府"
+ HMG_democratic_ADJ:0 "湘省军政府"
+ HMG_neutrality_ADJ:0 "湘省军政府"
+ HMG_monarchism_ADJ:0 "湘省军政府"
+ HMG_fascism_ADJ:0 "湘省军政府"
+ HMG_imperialism_ADJ:0 "湘省军政府"
+ HMG_futurism_ADJ:0 "湘省军政府"
+ HMG:0 "湘省军政府"
+ HMG_DEF:0 "湘省军政府"
+ HMG_ADJ:0 "湘省军政府"
+ #############
+ ## PARTIES ##
+ #############
+ HMG_communism_party:0 "中国共产党"
+ HMG_communism_party_long:0 "中国共产党"
+ HMG_anarchism_party:0 "中国劳动组合书记处"
+ HMG_anarchism_party_long:0 "中国劳动组合书记处"
+ HMG_socialism_party:0 "中国农工民主党"
+ HMG_socialism_party_long:0 "中国农工民主党"
+ HMG_democratic_party:0 "中国革命党"
+ HMG_democratic_party_long:0 "中国革命党"
+ HMG_neutrality_party:0 "湖南军政府"
+ HMG_neutrality_party_long:0 "湖南军政府"
+ HMG_monarchism_party:0 "孔教会"
+ HMG_monarchism_party_long:0 "孔教会"
+ HMG_fascism_party:0 "中国青年党"
+ HMG_fascism_party_long:0 "中国青年党"
+ HMG_imperialism_party:0 "战国策派"
+ HMG_imperialism_party_long:0 "战国策派"
+ HMG_futurism_party:0 "安源矿业"
+ HMG_futurism_party_long:0 "安源矿业"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ HMG_military_government:0 "湖南军政府"
+ HMG_military_government_desc:0 ""
+ HMG_yang_duo:0 "杨度"
+ HMG_yang_duo_desc:0 "§Y出生日期§!：§G1875年1月15日§!\n§Y出生地点§!：§G大东帝国湘江道湘潭县§!\n\n§Y杨度§!"
+ ###########
+ ## IDEAS ##
+ ###########
+
+ ####################
+ # Balance of Power #
+ ####################
+ 
+ #############
+ # DECISIONS #
+ #############
+ 
+ ############
+ ## EVENTS ##
+ ############
+ 
