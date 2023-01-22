@@ -1,5 +1,6 @@
-﻿capital = 285 #长沙
-# Resettled at state 263(岳阳) after coup d'etat
+﻿capital = 285 #岳阳
+# In the beginning of GAW, its capital set in 285(长沙) 
+# But resettled at state 263(岳阳) after coup d'etat
 
 recruit_character = HMG_military_government
 recruit_character = HMG_yang_duo

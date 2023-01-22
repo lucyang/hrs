@@ -256,4 +256,15 @@ leader_traits = {
 			factor = 1
 		}
 	}
+
+	XON_chaofa = {
+		random = no
+ 
+		stability_factor = 0.05
+		monarchism_drfit = 0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

@@ -1,0 +1,72 @@
+characters={
+	HNN_song_ziwen={
+		name=HNN_song_ziwen
+		portraits={
+			civilian={
+				large="gfx/leaders/HNN/Portrait_Song_Ziwen.png"
+			}
+		}
+		country_leader={
+			ideology=technocracy_subtype
+			desc=HNN_song_ziwen_desc
+			traits={ the_banker captain_of_industry }
+			expire="1971.4.26.1"
+		}
+	}
+	 HNN_chen_shaokuan={
+		name= HNN_chen_shaokuan
+		portraits={
+			civilian={
+				large="gfx/leaders/HNN/Portrait_Chen_Shaokuan.png"
+			}
+		}
+		country_leader={
+			ideology=military_government_subtype
+			desc= HNN_chen_shaokuan_desc
+			traits={ armaments_organizer naval_aviation_pioneer }
+			expire="1969.7.30.1"
+		}
+	}
+	HNN_wu_chaoshu={
+		name=HNN_wu_chaoshu
+		portraits={
+			civilian={
+				large="gfx/leaders/HNN/Portrait_Wu_Chaoshu.png"
+			}
+		}
+		country_leader={
+			ideology=social_liberalism_subtype
+			desc=HNN_wu_chaoshu_desc
+			traits={ compassionate_gentleman smooth_talking_charmer }
+			expire="1934.1.2.1"
+		}
+	}
+	HNN_wang_wenming={
+		name=HHNN_wang_wenming
+		portraits={
+			civilian={
+				large="gfx/leaders/HNN/Portrait_Wang_Wenming.png"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_front_subtype
+			desc=HNN_wang_wenming_desc
+			traits={ voice_of_restraint guerilla_warfare_expert }
+			expire="1950.1.17.1"
+		}
+	}
+	HNN_feng_baiju={
+		name=HNN_feng_baiju
+		portraits={
+			civilian={
+				large="gfx/leaders/HNN/Portrait_Feng_Baiju.png"
+			}
+		}
+		#country_leader={
+		#	ideology=revolutionary_front_subtype
+		#	desc=HNN_feng_baiju_desc
+		#	traits={ voice_of_restraint guerilla_warfare_expert }
+		#	expire="1950.1.1.1"
+		#}
+	}
+}

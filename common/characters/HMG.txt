@@ -17,11 +17,11 @@ characters={
 		name=HMG_yang_duo
 		portraits={
 			civilian={
-				large="gfx/leaders/HNR/Portrait_Yang_Duo.png"
+				large="gfx/leaders/HMG/Portrait_Yang_Duo.png"
 			}
 		}
 		country_leader={
-			ideology=communism_subtype
+			ideology=military_socialism_subtype
 			desc=HMG_yang_duo_desc
 			traits={ conservative_communist }
 			expire="1950.1.1.1"
@@ -31,7 +31,7 @@ characters={
 		name=HMG_yang_duo
 		portraits={
 			civilian={
-				large="gfx/leaders/HNR/Portrait_Yang_Duo.png"
+				large="gfx/leaders/HMG/Portrait_Yang_Duo.png"
 			}
 		}
 		#country_leader={

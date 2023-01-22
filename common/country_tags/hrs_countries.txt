@@ -48,7 +48,6 @@ CHI = "countries/China.txt"
 # HUNAN #
 MAO = "countries/Lmao.txt"
 HNA = "countries/Hunan.txt"
-
 HNR = "countries/Hunan Republic.txt"
 HMG = "countries/Hunan Military Government.txt"
 XXI = "countries/Xiangxi.txt"
@@ -61,6 +60,8 @@ FEM = "countries/Feminists.txt"
 HLF = "countries/Hailufeng.txt"
 # GUANGXI #
 GXC = "countries/Guangxi.txt"
+# HAINAN #
+HNN = "countries/Hainan.txt"
 ### CHINA/NORTHWEST ###
 QNG = "countries/Qinghai.txt"
 SXI = "countries/Shaanxi.txt"

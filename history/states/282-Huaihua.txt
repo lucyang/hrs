@@ -2,19 +2,20 @@ state={
 	id=282
 	name="STATE_282"
 	provinces={
-		118 439 467 1270 1429 1649 1670 2037 2526 2576 2863 2987 3910 
+		118 439 1429 1649 1670 2526 2576 2863 2987
 	}
 	history = {
 		owner = IMC
 		add_core_of = IMC
 
-		victory_points = { 2987 3 }
+		victory_points = { 1429 3 } #洪江
 		
 		buildings = {
 			infrastructure = 3
 		}
 	}
-	manpower=184731
+	manpower=2037886
 	state_category = town
 	local_supplies = 0.0
+	
 }

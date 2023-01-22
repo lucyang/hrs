@@ -21,6 +21,9 @@
  HRS_collapse_of_mongolia:0 "开始定北节度使内战"
  HRS_shanghai_uprising:0 "触发上海工人起义"
  HRS_trigger_taiwan_civil_war:0 "触发台湾革命"
+ HRS_trigger_hunan_civil_war_first_stage:0 "触发湖南起义（第一阶段）"
+ HRS_trigger_hunan_civil_war_second_stage:0 "触发湖南起义（第二阶段）"
+ HRS_trigger_hunan_civil_war_third_stage:0 "触发湖南起义（第三阶段）"
 
  HRS_peace_popup_test:0 "测试战争结语"
 

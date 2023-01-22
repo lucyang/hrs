@@ -264,6 +264,7 @@ is_hunan_state = {
 		state = 306 #衡阳
 		state = 313 #永州
 		state = 314 #郴州
+		state = 655 #沅陵
 	}
 }
 
@@ -712,6 +713,7 @@ is_china_state = {
 		state = 306 #衡阳
 		state = 313 #永州
 		state = 314 #郴州
+		state = 655 #沅陵
  		#江西
 		state = 260 #景德镇
 		state = 264 #九江
@@ -1053,6 +1055,7 @@ is_any_china_state = {
 		state = 306 #衡阳
 		state = 313 #永州
 		state = 314 #郴州
+		state = 655 #沅陵
  		#江西
 		state = 260 #景德镇
 		state = 264 #九江
@@ -1556,6 +1559,7 @@ can_form_huazhong = {
 		owns_state = 306 #衡阳
 		owns_state = 313 #永州
 		owns_state = 314 #郴州
+		owns_state = 655 #沅陵
         #湖北
 		owns_state = 196 #十堰
 		owns_state = 206 #襄阳

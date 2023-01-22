@@ -69,6 +69,7 @@ HRS_setup_prefectures = {
 	306 = { set_variable = { prefecture = 15 } } #衡阳
 	313 = { set_variable = { prefecture = 15 } } #永州
 	314 = { set_variable = { prefecture = 15 } } #郴州
+	655 = { set_variable = { prefecture = 15 } } #郴州
 	#江西
 	260 = { set_variable = { prefecture = 16 } } #景德镇
 	264 = { set_variable = { prefecture = 16 } } #九江

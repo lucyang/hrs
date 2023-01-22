@@ -8,7 +8,7 @@ state={
 		owner = IMC
 		add_core_of = IMC
 
-		victory_points = { 2982 1 }
+		victory_points = { 2982 1 } #凤凰
 		
 		buildings = {
 			infrastructure = 2

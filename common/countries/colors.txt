@@ -92,28 +92,28 @@ CHI = { # 湖北
 ### HUNAN ###
 #############
 MAO = { # 湘赣人民共和国
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 125 13 24 }
+	color = rgb { 196 30 58 }
+	color_ui = rgb { 196 30 58 }
 }
 HNA = { # 湖南公社
-	color = rgb { 0 0 0 }
-	color_ui = rgb { 0 0 0 }
+	color = rgb { 127 0 32 }
+	color_ui = rgb { 127 0 32 }
 }
 HNR = { # 湖南共和国
-	color = rgb { 139 76 57 }
-	color_ui = rgb { 139 76 57 }
+	color = rgb { 30 144 255 } 
+	color_ui = rgb { 30 144 255 }
 }
 HMG = { # 湘省军政府
-	color = rgb { 47 79 79 }
-	color_ui = rgb { 47 79 79 }
+	color = rgb { 255 121 0 }
+	color_ui = rgb { 255 121 0 }
 }
 XXI = { # 湘西师管区
 	color = rgb { 39 76 57 } 
 	color_ui = rgb { 39 76 57 } 
 }
 XXC = { # 湘西总工会
-	color = rgb { 39 176 57 } 
-	color_ui = rgb { 39 176 57 } 
+	color = rgb { 200 8 21 } 
+	color_ui = rgb { 200 8 21 } 
 }
 XON = { # 湘西苗族
 	color = rgb { 39 76 157 }
@@ -167,6 +167,13 @@ KMT = { # 广东
 HLF = { # 海陆丰
 	color = rgb { 158 0 21 }
 	color_ui = rgb { 158 0 21 }
+}
+##############
+### HAINAN ###
+##############
+HNN = { # 海南
+	color = rgb { 139 69 19 }
+	color_ui = rgb { 139 69 19 }
 }
 ##############
 ### YUNNAN ###

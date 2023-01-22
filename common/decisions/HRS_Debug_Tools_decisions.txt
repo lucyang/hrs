@@ -381,6 +381,11 @@ HRS_debug_tool_cataegory = {
 				limit = { is_shaanxi_state = yes }
 				transfer_state_to = SXI
 			}
+			every_state = {
+				limit = { is_hainan_state = yes }
+				transfer_state_to = HNN
+			}
+			385 = { add_demilitarized_zone = yes }
 			TIB = {
 				transfer_state = 135 #玉树
 				add_state_core = 135
@@ -553,17 +558,55 @@ HRS_debug_tool_cataegory = {
 			# 湖南
 			MAO = {
 				transfer_state = 298 #株洲
+				add_state_core = 298
 				transfer_state = 299 #萍乡
-				transfer_state = 300 #吉安
+				add_state_core = 299
+				transfer_state = 314 #郴州
+				add_state_core = 314
+			}
+			HMG = {
+				transfer_state = 258 #常德
+				add_state_core = 258
+				transfer_state = 263 #岳阳
+				add_state_core = 263
+				transfer_state = 270 #益阳
+				add_state_core = 270
 			}
 			HNA = {
+				transfer_state = 303 #邵阳
+				add_state_core = 303
 				transfer_state = 306 #衡阳
+				add_state_core = 306
 				transfer_state = 313 #永州
-				transfer_state = 314 #郴州
+				add_state_core = 313				
 			}
+			HNR = {
+				transfer_state = 285 #长沙
+				add_state_core = 285
+				transfer_state = 294 #娄底
+				add_state_core = 294
+				transfer_state = 297 #湘潭
+				add_state_core = 297
+			}
+			XXI = {
+				transfer_state = 262 #张家界/澧州
+				add_state_core = 262
+				transfer_state = 269 #凤凰/湘西
+				add_state_core = 269
+			}
+			XXC = {
+				transfer_state = 282 #怀化
+				add_state_core = 282
+			}
+			XON = {
+				transfer_state = 655 #沅陵
+				add_state_core = 655
+			}
+			# 广东
 			HLF = {
 				transfer_state = 362 #汕尾
 			}
+			# 云南
 			JXP = {
 				transfer_state = 504
 				transfer_state = 557
@@ -1094,7 +1137,7 @@ HRS_debug_tool_cataegory = {
 		}
 	}
 
-	HRS_trigger_taiwan_civil_war_first_stage = {
+	HRS_trigger_hunan_civil_war_first_stage = {
 
 		allowed = {
 			#		
@@ -1119,26 +1162,14 @@ HRS_debug_tool_cataegory = {
 		complete_effect = {
 			set_global_flag = CHI_Civil_War_Begins
 			every_state = {
-				limit = { is_any_taiwan_state = yes }
-				transfer_state_to = TGG
-				add_core_of = TGG
-			}
-			MNG = {
-				transfer_state = 356 #台南
-				add_state_core = 356
-			}
-			FRM = {
-				transfer_state = 521 #苗栗
-				add_state_core = 521
-				transfer_state = 523 #彰化
-				add_state_core = 523
-				transfer_state = 524 #嘉义
-				add_state_core = 524
+				limit = { is_hunan_state = yes }
+				transfer_state_to = HMG
+				add_core_of = HMG
 			}
 		}
 	}
 
-	HRS_trigger_taiwan_civil_war_second_stage = {
+	HRS_trigger_hunan_civil_war_second_stage = {
 
 		allowed = {
 			#		
@@ -1162,35 +1193,52 @@ HRS_debug_tool_cataegory = {
 		
 		complete_effect = {
 			set_global_flag = CHI_Civil_War_Begins
-			every_state = {
-				limit = { is_any_taiwan_state = yes }
-				transfer_state_to = TGG
-				add_core_of = TGG
+			HMG = {
+				set_politics = { ruling_party = communism }
+				set_capital = { state = 263 }
+				add_popularity = {
+					ideology = communism
+					popularity = 0.20
+				}
 			}
-			ASN = {
-				transfer_state = 555 #阿里山
-				add_state_core = 555
+			MAO = {
+				transfer_state = 298 #株洲
+				add_state_core = 298
+				transfer_state = 299 #萍乡
+				add_state_core = 299
+				transfer_state = 314 #郴州
+				add_state_core = 314
 			}
-			MNG = {
-				transfer_state = 356 #台南
-				add_state_core = 356
-				transfer_state = 359 #高雄
-				add_state_core = 359
+			HNA = {
+				transfer_state = 303 #邵阳
+				add_state_core = 303
+				transfer_state = 306 #衡阳
+				add_state_core = 306
+				transfer_state = 313 #永州
+				add_state_core = 313				
 			}
-			FRM = {
-				transfer_state = 521 #苗栗
-				add_state_core = 521
-				transfer_state = 523 #彰化
-				add_state_core = 523
-				transfer_state = 524 #嘉义
-				add_state_core = 524
-				transfer_state = 525 #云林
-				add_state_core = 525
+			HNR = {
+				transfer_state = 285 #长沙
+				add_state_core = 285
+				transfer_state = 294 #娄底
+				add_state_core = 294
+				transfer_state = 297 #湘潭
+				add_state_core = 297
+			}
+			XXI = {
+				transfer_state = 262 #张家界/澧州
+				add_state_core = 262
+				transfer_state = 269 #凤凰/湘西
+				add_state_core = 269
+				transfer_state = 282 #怀化
+				add_state_core = 282
+				transfer_state = 655 #沅陵
+				add_state_core = 655
 			}
 		}
 	}
 
-	HRS_trigger_taiwan_civil_war_third_stage = {
+	HRS_trigger_hunan_civil_war_third_stage = {
 
 		allowed = {
 			#		
@@ -1214,86 +1262,13 @@ HRS_debug_tool_cataegory = {
 		
 		complete_effect = {
 			set_global_flag = CHI_Civil_War_Begins
-			ASN = {
-				transfer_state = 555 #阿里山
-				transfer_state = 350 #花莲
-				transfer_state = 360 #台东
-				transfer_state = 626 #屏东
+			XXC = {
+				transfer_state = 282 #怀化
+				add_state_core = 282
 			}
-			MNG = {
-				transfer_state = 356 #台南
-				transfer_state = 359 #高雄
-				transfer_state = 524 #嘉义
-			}
-			FRM = {
-				transfer_state = 346 #台中
-				transfer_state = 522 #南投
-				transfer_state = 523 #彰化
-				transfer_state = 525 #云林
-			}
-			TAW = {
-				transfer_state = 336 #新竹
-				transfer_state = 521 #苗栗
-			}
-			TGG = {
-				transfer_state = 332 #台北
-				transfer_state = 518 #宜兰
-				transfer_state = 519 #新北
-				transfer_state = 520 #桃园
-			}
-		}
-	}
-
-	HRS_trigger_taiwan_civil_war_final_stage = {
-
-		allowed = {
-			#		
-		}
-
-		available = {
-			#
-		}
-
-		ai_will_do = {
-			factor = 0
-		}
-
-		visible = {
-			#
-		}
-		
-		modifier = {
-			#
-		}
-		
-		complete_effect = {
-			set_global_flag = CHI_Civil_War_Begins
-			ASN = {
-				transfer_state = 555 #阿里山
-				transfer_state = 350 #花莲
-				transfer_state = 360 #台东
-				transfer_state = 626 #屏东
-			}
-			MNG = {
-				transfer_state = 356 #台南
-				transfer_state = 359 #高雄
-				transfer_state = 524 #嘉义
-			}
-			FRM = {
-				transfer_state = 346 #台中
-				transfer_state = 522 #南投
-				transfer_state = 523 #彰化
-				transfer_state = 525 #云林
-			}
-			TAW = {
-				transfer_state = 336 #新竹
-				transfer_state = 521 #苗栗
-			}
-			TGG = {
-				transfer_state = 332 #台北
-				transfer_state = 518 #宜兰
-				transfer_state = 519 #新北
-				transfer_state = 520 #桃园
+			XON = {
+				transfer_state = 655 #沅陵
+				add_state_core = 655
 			}
 		}
 	}

@@ -1,4 +1,4 @@
-﻿capital = 285 #凤凰/湘西
+﻿capital = 655 #沅陵
 
 recruit_character = XON_long_yunfei
 

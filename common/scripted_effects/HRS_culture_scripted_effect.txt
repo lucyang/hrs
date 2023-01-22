@@ -86,7 +86,6 @@ HRS_setup_cultures = {
 	167 = { set_variable = { nationality = 10 } } #商丘
 	175 = { set_variable = { nationality = 10 } } #平顶山
 	176 = { set_variable = { nationality = 10 } } #许昌
-	177 = { set_variable = { nationality = 10 } } #鹤壁
 	178 = { set_variable = { nationality = 10 } } #漯河
 	182 = { set_variable = { nationality = 10 } } #周口
 	192 = { set_variable = { nationality = 10 } } #驻马店
@@ -633,6 +632,7 @@ HRS_setup_cultures = {
 	535 = { set_variable = { nationality = 95 } } #上寮
 	# Xong/Eastern Hmongic
 	269 = { set_variable = { nationality = 96 } } #凤凰/湘西
+	655 = { set_variable = { nationality = 96 } } #郴州
 	# Hoa Vietnamese
 	566 = { set_variable = { nationality = 97 } } #西贡
 	578 = { set_variable = { nationality = 97 } } #西港
@@ -792,6 +792,7 @@ HRS_setup_cultures = {
 	# Lahu
 	638 = { set_variable = { nationality = 141 } } #澜沧
 	# Wan/Nanyang
+	177 = { set_variable = { nationality = 142 } } #鹤壁
 	190 = { set_variable = { nationality = 142 } } #南阳
 	206 = { set_variable = { nationality = 142 } } #襄阳
 	# Isan

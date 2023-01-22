@@ -1,0 +1,22 @@
+state={
+	id=655
+	name="STATE_655"
+	provinces={
+		467 1270 2037 3910
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+
+		victory_points = { 1270 1 } #沅陵
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+
+	}
+	manpower=369400
+	state_category = rural
+	local_supplies = 0.0
+}

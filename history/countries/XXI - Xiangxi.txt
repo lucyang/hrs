@@ -1,4 +1,4 @@
-﻿capital = 285 #凤凰
+﻿capital = 269 #凤凰
 
 recruit_character = XXI_chen_quzhen
 recruit_character = XXI_shen_congwen

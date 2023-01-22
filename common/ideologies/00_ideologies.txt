@@ -249,6 +249,7 @@ ideologies = {
 
 			absolute_monarchy_subtype = { can_be_randomly_selected = no }	
 			feudalism_subtype = { can_be_randomly_selected = no }
+			mandala_monarchy_subtype = { can_be_randomly_selected = no }
 			mughal_monarchy_subtype = { can_be_randomly_selected = no }
 
 			noble_republic_subtype = { can_be_randomly_selected = no }
