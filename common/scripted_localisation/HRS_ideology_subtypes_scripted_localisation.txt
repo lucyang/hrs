@@ -104,8 +104,8 @@ defined_text = {
 		localization_key = market_socialism_subtype
 	}
 	text = {
-		trigger = { has_country_leader_ideology = religious_socialism_subtype }
-		localization_key = religious_socialism_subtype
+		trigger = { has_country_leader_ideology = agrarian_anarchism_subtype }
+		localization_key = agrarian_anarchism_subtype
 	}
 	text = {
 		trigger = { has_country_leader_ideology = revolutionary_front_subtype }
@@ -173,6 +173,10 @@ defined_text = {
 	text = {
 		trigger = { has_country_leader_ideology = left_militarism_subtype }
 		localization_key = left_militarism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = religious_socialism_subtype }
+		localization_key = religious_socialism_subtype
 	}
 	text = {
 		localization_key = socialism_subtype

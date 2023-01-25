@@ -93,8 +93,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_ideology_religious_socialism_subtype"
-		texturefile = "gfx/interface/ideologies/anarchism_group/religious_socialism_subtype.dds"
+		name = "GFX_ideology_agrarian_anarchism_subtype"
+		texturefile = "gfx/interface/ideologies/anarchism_group/agrarian_anarchism_subtype.dds"
 	}
 
 	spriteType = {
@@ -176,6 +176,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_left_nationalism_subtype"
 		texturefile = "gfx/interface/ideologies/socialism_group/left_nationalism_subtype.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_religious_socialism_subtype"
+		texturefile = "gfx/interface/ideologies/socialism_group/religious_socialism_subtype.dds"
 	}
 
 	### Democrats Group ###

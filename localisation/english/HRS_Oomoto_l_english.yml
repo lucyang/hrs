@@ -36,11 +36,11 @@
  ## PARTIES  ##
  ##############
  OMT_communism_party:0 "日本共产党"
- OMT_communism_party_long:0 "日本共产党"
- OMT_anarchism_party:0 "人类爱善会"
- OMT_anarchism_party_long:0 "人类爱善会"
- OMT_socialism_party:0 "社会民众党"
- OMT_socialism_party_long:0 "社会民众党"
+ OMT_communism_party_long:0 "日本共产党 - 劳农派"
+ OMT_anarchism_party:0 "日本共产党"
+ OMT_anarchism_party_long:0 "日本共产党 - 讲座派"
+ OMT_socialism_party:0 "人类爱善会"
+ OMT_socialism_party_long:0 "人类爱善会"
  OMT_democratic_party:0 "社会民主党"
  OMT_democratic_party_long:0 "日本社会党"
  OMT_neutrality_party:0 "大本教团"

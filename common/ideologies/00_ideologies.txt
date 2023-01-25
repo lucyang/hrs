@@ -57,11 +57,12 @@ ideologies = {
 			anarcho_maoism_subtype = { can_be_randomly_selected = no }
 			anarcho_nationalism_subtype = { can_be_randomly_selected = no }
 			pure_anarchism_subtype = { can_be_randomly_selected = no }
+			agrarian_anarchism_subtype = { can_be_randomly_selected = no }
 
 			democratic_socialism_subtype = { can_be_randomly_selected = no }
 			agrarian_socialism_subtype = { can_be_randomly_selected = no }
 			market_socialism_subtype = { can_be_randomly_selected = no }
-			religious_socialism_subtype = { can_be_randomly_selected = no }
+			
 			jesuism_subtype = { can_be_randomly_selected = no }
 			humanistic_buddhism_subtype	= { can_be_randomly_selected = no }
 			islamic_socialism_subtype = { can_be_randomly_selected = no }
@@ -110,6 +111,7 @@ ideologies = {
 
 			left_nationalism_subtype = { can_be_randomly_selected = no }
 			left_militarism_subtype = { can_be_randomly_selected = no }
+			religious_socialism_subtype = { can_be_randomly_selected = no }
 		}
 		
 		dynamic_faction_names = {}

@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=religious_socialism_subtype
+			ideology=humanistic_buddhism_subtype
 			desc=PDS_shi_taixu_desc
 			traits={ compassionate_gentleman humanistic_buddhist }
 			expire="1947.3.17.1"

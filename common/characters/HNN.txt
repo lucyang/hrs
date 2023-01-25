@@ -35,14 +35,14 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=social_liberalism_subtype
+			ideology=liberalism_subtype
 			desc=HNN_wu_chaoshu_desc
 			traits={ compassionate_gentleman smooth_talking_charmer }
 			expire="1934.1.2.1"
 		}
 	}
 	HNN_wang_wenming={
-		name=HHNN_wang_wenming
+		name=HNN_wang_wenming
 		portraits={
 			civilian={
 				large="gfx/leaders/HNN/Portrait_Wang_Wenming.png"

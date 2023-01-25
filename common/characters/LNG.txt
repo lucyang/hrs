@@ -32,7 +32,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology=religious_socialism_subtype
+			ideology=jesuism_subtype
 			desc = LNG_zhang_shizhang_desc
 			traits = { cristero_general incognito }
 			expire = "1950.1.1.1"
