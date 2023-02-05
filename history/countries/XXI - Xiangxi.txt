@@ -103,9 +103,9 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	anarchism = 5
-	socialism = 12
-	democratic = 0
+	anarchism = 0
+	socialism = 0
+	democratic = 17
 	neutrality = 72
 	monarchism = 11
 	fascism = 0

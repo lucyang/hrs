@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=national_conservatism_subtype
+			ideology=hunan_constitutionalism_subtype
 			desc=HNR_tan_yankai_desc
 			traits={ liberal_journalist connected_citizen }
 			expire="1930.9.22.1"

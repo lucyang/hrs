@@ -2,74 +2,161 @@ on_actions = {
 	on_startup = {
 		effect = {
 			IMC = {
-				country_event = { id = disaster.1 days = 30 }
-				news_event = { id = disaster_news.1 days = 30 }
-			}
-			every_country = { 
-				set_variable = { war_weariness = 0 } #定义初始厌战度
-				set_variable = { max_mobilization_rate = 0.25 } #定义总动员比例
-				set_variable = { HRS_mobilization_cost_days = 45 }	#定义总动员决议完成时间
-				set_variable = { HRS_end_mobilization_cost_days = 400 } #总动员可持续时间
-				set_variable = { HRS_make_core_cost_days = 40 } #造核时间
+				country_event = {
+					id = imc.1
+					days = 30
+				}
+				news_event = {
+					id = disaster_news.1
+					days = 30
+				}
 			}
 			every_country = {
-				limit = { NOT = { has_template = "步兵联队" } }
+				set_variable = {
+					war_weariness = 0
+				}
+				#定义初始厌战度
+				set_variable = {
+					max_mobilization_rate = 0.25
+				}
+				#定义总动员比例
+				set_variable = {
+					HRS_mobilization_cost_days = 45
+				}
+				#定义总动员决议完成时间
+				set_variable = {
+					HRS_end_mobilization_cost_days = 400
+				}
+				#总动员可持续时间
+				set_variable = {
+					HRS_make_core_cost_days = 40
+				}
+				#造核时间
+			}
+			every_country = {
+				limit = {
+					NOT = {
+						has_template = "步兵联队"
+					}
+				}
 				division_template = {
-					name = "步兵联队"					
+					name = "步兵联队"
 					division_names_group = IMC_INF_01
 					regiments = {
-						infantry = { x = 0 y = 0 }
-						infantry = { x = 0 y = 1 }
-						infantry = { x = 1 y = 0 }
-						infantry = { x = 1 y = 1 }
+						infantry = {
+							x = 0
+							y = 0
+						}
+						infantry = {
+							x = 0
+							y = 1
+						}
+						infantry = {
+							x = 1
+							y = 0
+						}
+						infantry = {
+							x = 1
+							y = 1
+						}
 					}
 					support = {
-						artillery = { x = 0 y = 0 }
-						engineer = { x = 0 y = 1 }
+						artillery = {
+							x = 0
+							y = 0
+						}
+						engineer = {
+							x = 0
+							y = 1
+						}
 					}
 				}
 			}
 			every_country = {
-				limit = { NOT = { has_template = "机动步兵联队" } }
+				limit = {
+					NOT = {
+						has_template = "机动步兵联队"
+					}
+				}
 				division_template = {
-					name = "机动步兵联队"					
+					name = "机动步兵联队"
 					division_names_group = IMC_MOT_01
 					regiments = {
-						motorized = { x = 0 y = 0 }
-						motorized = { x = 0 y = 1 }
+						motorized = {
+							x = 0
+							y = 0
+						}
+						motorized = {
+							x = 0
+							y = 1
+						}
 					}
 					support = {
-						engineer = { x = 0 y = 0 }
-						mot_recon = { x= 0 y = 1 }
+						engineer = {
+							x = 0
+							y = 0
+						}
+						mot_recon = {
+							x = 0
+							y = 1
+						}
 					}
 				}
 			}
 			every_country = {
-				limit = { NOT = { has_template = "骑兵联队" } }
+				limit = {
+					NOT = {
+						has_template = "骑兵联队"
+					}
+				}
 				division_template = {
-					name = "骑兵联队"					
+					name = "骑兵联队"
 					division_names_group = IMC_CAV_01
 					regiments = {
-						cavalry = { x = 0 y = 0 }
-						cavalry = { x = 1 y = 0 }
-						cavalry = { x = 0 y = 1 }
-						cavalry = { x = 1 y = 1 }
+						cavalry = {
+							x = 0
+							y = 0
+						}
+						cavalry = {
+							x = 1
+							y = 0
+						}
+						cavalry = {
+							x = 0
+							y = 1
+						}
+						cavalry = {
+							x = 1
+							y = 1
+						}
 					}
 				}
 			}
 			every_country = {
-				limit = { NOT = { has_template = "民兵联队" } }
+				limit = {
+					NOT = {
+						has_template = "民兵联队"
+					}
+				}
 				division_template = {
-					name = "民兵联队" 						
+					name = "民兵联队"
 					division_names_group = IMC_GAR_01
 					regiments = {
-						infantry = { x = 0 y = 0 }
-						infantry = { x = 1 y = 0 }
+						infantry = {
+							x = 0
+							y = 0
+						}
+						infantry = {
+							x = 1
+							y = 0
+						}
 					}
 				}
 			}
 			every_state = {
-				set_variable = { HRS_state_war_weariness = 0 }
+				set_variable = {
+					HRS_state_war_weariness = 0
+				}
 			}
 		}
 	}

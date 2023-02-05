@@ -35,7 +35,7 @@ characters={
 			}
 		}
 		#country_leader={
-		#	ideology=anarchism_subtype
+		#	ideology=agrarian_anarchism_subtype
 		#	desc=JAF_ishikawa_sanshiro_desc
 		#	traits={ militant_socialist defender_of_the_peasantry }
 		#	expire="1956.11.28.1"

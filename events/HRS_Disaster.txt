@@ -1,6 +1,6 @@
-############################
-## Disaster Events
-############################
+#####################
+## Disaster Events ##
+#####################
 add_namespace = disaster
 
 #Great Kanto Earthquake

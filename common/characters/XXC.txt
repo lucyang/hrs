@@ -9,7 +9,7 @@ characters={
 		country_leader={
 			ideology=dengism_subtype
 			desc=XXC_xiang_jingyu_desc
-			traits={ red_suffragette }
+			traits={ red_suffragette veteran_communist }
 			expire="1950.1.1.1"
 		}
 	}
@@ -20,6 +20,12 @@ characters={
 				large="gfx/leaders/XXC/Portrait_Tang_Bogeng.png"
 			}
 		}
+		country_leader={
+			ideology=anarcho_communism_subtype
+			desc=XXC_tang_bogeng_desc
+			traits={ SWI_anarchist our_right_to_survive }
+			expire="1950.1.1.1"
+		}
 	}
 	XXC_jiang_xiqing={
 		name=XXC_jiang_xiqing
@@ -29,18 +35,10 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=national_communism_subtype
+			ideology=revolutionary_front_subtype
 			desc=XXC_jiang_xiqing_desc
-			traits={ resistance_leader }
+			traits={ conservative_communist right_trade_unionist }
 			expire="1950.1.1.1"
-		}
-	}
-	XXC_yang_fang={
-		name=XXC_yang_fang
-		portraits={
-			civilian={
-				large="gfx/leaders/XXC/Portrait_Yang_Fang.png"
-			}
 		}
 	}
 }

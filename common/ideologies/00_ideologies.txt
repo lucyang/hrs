@@ -150,11 +150,12 @@ ideologies = {
 
 			conservatism_subtype = { can_be_randomly_selected = no }
 			national_conservatism_subtype = { can_be_randomly_selected = no }
+			revisionist_democratic_subtype = { can_be_randomly_selected = no } #修正民主主义
 
 			liberalism_subtype = { can_be_randomly_selected = no }
 			neo_liberalism_subtype = { can_be_randomly_selected = no }
 			national_liberalism_subtype = { can_be_randomly_selected = no }
-			revisionist_democratic_subtype = { can_be_randomly_selected = no } #修正民主主义
+			hunan_constitutionalism_subtype = { can_be_randomly_selected = no }
 	
 			tridemism_subtype = { can_be_randomly_selected = no } #三民主义
 			triequism_subtype = { can_be_randomly_selected = no } #三均主义

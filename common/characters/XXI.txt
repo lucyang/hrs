@@ -21,7 +21,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=agrarianism_subtype
+			ideology=national_conservatism_subtype
 			desc=XXI_shen_congwen_desc
 			traits={ moderate_reformist SWI_pragmatic_democrat }
 			expire="1988.5.10.1"

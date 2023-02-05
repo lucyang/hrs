@@ -218,6 +218,10 @@ defined_text = {
 		localization_key = revisionist_democratic_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = hunan_constitutionalism_subtype }
+		localization_key = hunan_constitutionalism_subtype
+	}
+	text = {
 		localization_key = democratic_subtype
 	}
 }

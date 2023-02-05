@@ -3,7 +3,6 @@ add_namespace = dzu_civ
 ##################
 # DZUNGAR EVENTS #
 ##################
-
 country_event = {
     id = dzu_civ.1 #大玉兹战争
     immediate = {

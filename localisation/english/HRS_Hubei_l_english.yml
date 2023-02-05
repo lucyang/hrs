@@ -46,8 +46,8 @@
  CHI_neutrality_party_long:0 "湖北军政府"
  CHI_monarchism_party:0 "皇汉会"
  CHI_monarchism_party_long:0 "皇汉会"
- CHI_fascism_party:0 "中华民国新民会"
- CHI_fascism_party_long:0 "中华民国新民会"
+ CHI_fascism_party:0 "中国青年党"
+ CHI_fascism_party_long:0 "中国青年党"
  CHI_imperialism_party:0 "战国策派"
  CHI_imperialism_party_long:0 "战国策派"
  CHI_futurism_party:0 "汉阳钢铁"
@@ -83,6 +83,7 @@
  CHI_cai_yuanpei:0 "蔡元培"
  CHI_li_yuanhong:0 "黎元洪"
  CHI_miu_bin:0 "缪斌"
+ CHI_chen_qitian:0 "陈启天"
  ###########
  ## IDEAS ##
  ###########

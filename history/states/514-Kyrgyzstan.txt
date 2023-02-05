@@ -4,8 +4,8 @@ state={
 	name="STATE_514"
 
 	history={
-		owner = DZU
-		add_core_of = KAZ
+		owner = TUK
+		add_core_of = TUK
 
 		buildings = {
 			infrastructure = 1
@@ -15,7 +15,7 @@ state={
 	}
 
 	provinces={
-		155 215 230 417 671 768 783 805 1058 1676 1892 2320 2328 2456 2656 2716 3295 3563 3565 3566 3586 
+		215 230 783 2656 3295 3586
 	}
 	manpower=792783
 	buildings_max_level_factor=1.000

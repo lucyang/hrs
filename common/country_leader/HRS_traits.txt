@@ -261,7 +261,18 @@ leader_traits = {
 		random = no
  
 		stability_factor = 0.05
-		monarchism_drfit = 0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	lusan_sanbagarasu = {
+		random = no
+ 
+		mobilization_speed = 0.05
+		max_command_power_mult = 0.1
+		conscription_factor = 0.02
 
 		ai_will_do = {
 			factor = 1
