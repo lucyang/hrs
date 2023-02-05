@@ -41,6 +41,20 @@ characters={
 			expire="1974.11.29.1"
 		}
 	}
+	HMG_cheng_qian={
+		name=HMG_cheng_qian
+		portraits={
+			civilian={
+				large="gfx/leaders/HMG/Portrait_Cheng_Qian.png"
+			}
+		}
+		country_leader={
+			ideology=liberalism_subtype
+			desc=HMG_cheng_qian_desc
+			traits={ silent_workhorse modernist_and_reformer }
+			expire="1968.4.5.1"
+		}
+	}
 	HMG_real_yang_duo={
 		name=HMG_yang_duo
 		portraits={

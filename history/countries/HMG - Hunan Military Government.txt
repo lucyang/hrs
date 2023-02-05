@@ -4,6 +4,9 @@
 
 recruit_character = HMG_military_government
 recruit_character = HMG_yang_duo
+recruit_character = HMG_peng_dehuai
+recruit_character = HMG_cheng_qian
+recruit_character = HMG_huang_gonglue
 
 oob = "empty"
 
@@ -105,12 +108,12 @@ set_politics = {
 
 set_popularities = {
 	communism = 30
-	anarchism = 8
-	socialism = 12
+	anarchism = 12
+	socialism = 0
 	democratic = 16
 	neutrality = 34
 	monarchism = 0
-	fascism = 0
+	fascism = 8
 	imperialism = 0
 	futurism = 0
 }

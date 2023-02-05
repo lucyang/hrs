@@ -127,7 +127,7 @@ set_popularities = {
 	democratic = 10
 	neutrality = 18
 	monarchism = 8
-	fascism = 6
+	fascism = 12
 	imperialism = 10
-	futurism = 6
+	futurism = 0
 }
