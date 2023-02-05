@@ -104,8 +104,8 @@ HNR = { # 湖南共和国
 	color_ui = rgb { 30 144 255 }
 }
 HMG = { # 湘省军政府
-	color = rgb { 255 121 0 }
-	color_ui = rgb { 255 121 0 }
+	color = rgb { 138 154 91 }
+	color_ui = rgb { 138 154 91 }
 }
 XXI = { # 湘西师管区
 	color = rgb { 39 76 57 } 
@@ -118,6 +118,10 @@ XXC = { # 湘西总工会
 XON = { # 湘西苗族
 	color = rgb { 39 76 157 }
 	color_ui = rgb { 39 76 157 }
+}
+CBS = { # 湖南普渡国
+	color = rgb { 255 121 0 }
+	color_ui = rgb { 255 121 0 }
 }
 ###############
 ### SHAANXI ###

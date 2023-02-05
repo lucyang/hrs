@@ -1195,10 +1195,14 @@ HRS_debug_tool_cataegory = {
 			set_global_flag = CHI_Civil_War_Begins
 			HMG = {
 				set_politics = { ruling_party = communism }
-				set_capital = { state = 263 }
+				set_capital = { state = 258 } #常德
 				add_popularity = {
 					ideology = communism
 					popularity = 0.20
+				}
+				add_popularity = {
+					ideology = anarchism
+					popularity = 0.15
 				}
 			}
 			MAO = {
@@ -1217,13 +1221,17 @@ HRS_debug_tool_cataegory = {
 				transfer_state = 313 #永州
 				add_state_core = 313				
 			}
-			HNR = {
-				transfer_state = 285 #长沙
-				add_state_core = 285
+			CBS = {
 				transfer_state = 294 #娄底
 				add_state_core = 294
 				transfer_state = 297 #湘潭
 				add_state_core = 297
+			}
+			HNR = {
+				transfer_state = 263 #岳阳
+				add_state_core = 263
+				transfer_state = 285 #长沙
+				add_state_core = 285
 			}
 			XXI = {
 				transfer_state = 262 #张家界/澧州

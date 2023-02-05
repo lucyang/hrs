@@ -53,6 +53,7 @@ HMG = "countries/Hunan Military Government.txt"
 XXI = "countries/Xiangxi.txt"
 XXC = "countries/Xiangxi Commune.txt"
 XON = "countries/Xong.txt"
+CBS = "countries/China Buddhist State.txt"
 ### CHINA/SOUTH ###
 # GUANGDONG #
 KMT = "countries/Guangdong.txt"

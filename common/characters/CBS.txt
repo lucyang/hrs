@@ -1,0 +1,16 @@
+characters={
+	CBS_shi_huaizhen={
+		name=CBS_shi_huaizhen
+		portraits={
+			civilian={
+				large="gfx/leaders/CBS/Portrait_Shi_Huaizhen.png"
+			}
+		}
+		country_leader={
+			ideology=ethnofuturism_subtype
+			desc=CBS_shi_huaizhen_desc
+			traits={ incognito the_masses_opium }
+			expire="1930.1.1.1"
+		}
+	}
+}
