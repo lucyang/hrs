@@ -101,7 +101,7 @@ set_politics = {
 }
 
 set_popularities = {
-	communism = 0
+	communism = 10
 	anarchism = 0
 	socialism = 0
 	democratic = 0
@@ -109,5 +109,5 @@ set_popularities = {
 	monarchism = 7
 	fascism = 0
 	imperialism = 0
-	futurism = 88
+	futurism = 78
 }
