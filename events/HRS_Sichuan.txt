@@ -1,12 +1,12 @@
-add_namespace = sch_rev
+add_namespace = sch
 
 ##################
 # CHENGDU EVENTS #
 ##################
 country_event = {
-	id = sch_rev.1
+	id = sch.1
 	immediate = { 
-		log = "[GetDateText]: [Root.GetName]: event sch_rev.1"
+		log = "[GetDateText]: [Root.GetName]: event sch.1"
 		hidden_effect = {
 			every_state = {
 				limit = { is_west_sichuan_state = yes }
@@ -28,39 +28,39 @@ country_event = {
 					amount = 3000
 					producer = IMC
 				}
-				country_event = { id = sch_rev.3 days = 12 }
+				country_event = { id = sch.3 days = 12 }
 			}
 		}
 	}
-	title = sch_rev.1.t
-	desc = sch_rev.1.desc
+	title = sch.1.t
+	desc = sch.1.desc
 	picture = GFX_report_event_chengdu_uprising
 
 	is_triggered_only = yes
 
 	option = {
-		name = sch_rev.1.a
+		name = sch.1.a
 		IMC = { add_stability = -0.05 }
 		SCH = { change_tag_from = ROOT }
 	}
 	option = {
-		name = sch_rev.1.b
+		name = sch.1.b
 		IMC = { add_stability = -0.05 }
 	}
 }
 country_event = {
-	id = sch_rev.2
+	id = sch.2
 	immediate = { 
-		log = "[GetDateText]: [Root.GetName]: event sch_rev.2"
+		log = "[GetDateText]: [Root.GetName]: event sch.2"
 	}
-	title = sch_rev.2.t
-	desc = sch_rev.2.desc
+	title = sch.2.t
+	desc = sch.2.desc
 	picture = GFX_report_event_chengdu_uprising
 
 	is_triggered_only = yes
 
 	option = { # Zhu Qinglan
-		name = sch_rev.2.a
+		name = sch.2.a
 		set_politics = { ruling_party = democratic elections_allowed = no }
 		add_popularity = {
 			ideology = democratic
@@ -76,7 +76,7 @@ country_event = {
 		}
 	}
 	option = { # Wu Yuzhang
-		name = sch_rev.2.b
+		name = sch.2.b
 		set_politics = { ruling_party = democratic elections_allowed = no }
 		add_country_leader_role = {
 			character = SCH_wu_yuzhang
@@ -104,21 +104,21 @@ country_event = {
 }
 
 country_event = { # Chengdu Mutiny
-	id = sch_rev.3 
+	id = sch.3 
 	immediate = { 
-		log = "[GetDateText]: [Root.GetName]: event sch_rev.3"
+		log = "[GetDateText]: [Root.GetName]: event sch.3"
 		hidden_effect = {
-            country_event = { id = sch_rev.4 days = 7 }
+            country_event = { id = sch.4 days = 7 }
         }
 	}
-	title = sch_rev.3.t
-	desc = sch_rev.3.desc
+	title = sch.3.t
+	desc = sch.3.desc
 	picture = GFX_report_event_chengdu_uprising
 
 	is_triggered_only = yes
 
 	option = {
-		name = sch_rev.3.a
+		name = sch.3.a
 		add_stability = -0.20
 		add_political_power = -200
 		add_war_support = -0.20
@@ -126,9 +126,9 @@ country_event = { # Chengdu Mutiny
 }
 
 country_event = { # Collapse of Sichuan Government
-	id = sch_rev.4 
+	id = sch.4 
 	immediate = { 
-		log = "[GetDateText]: [Root.GetName]: event sch_rev.4"
+		log = "[GetDateText]: [Root.GetName]: event sch.4"
 		hidden_effect = {
 			CYA = {
 				transfer_state = 181 
@@ -153,14 +153,14 @@ country_event = { # Collapse of Sichuan Government
 			}
 		}
 	}
-	title = sch_rev.4.t
-	desc = sch_rev.4.desc
+	title = sch.4.t
+	desc = sch.4.desc
 	picture = GFX_report_event_chengdu_uprising
 
 	is_triggered_only = yes
 	
 	option = {
-		name = sch_rev.4.a
+		name = sch.4.a
 		retire_country_leader = yes
 		SCH_liu_wenhui = {
 			promote_leader = yes
@@ -168,7 +168,7 @@ country_event = { # Collapse of Sichuan Government
 				country_leader = {
             		ideology = military_government_subtype
            			desc = SCH_liu_wenhui_desc
-            		#traits = {  }
+            		traits = {  }
             		expire = "1976.6.24.1"
         		}
 				promote_leader = yes
