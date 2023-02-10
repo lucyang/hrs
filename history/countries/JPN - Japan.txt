@@ -30,7 +30,9 @@ if = {
 }
 
 add_ideas = {
-	#
+	JPN_ketsumeidan
+	JPN_kesshitai
+	JPN_young_turks
 }
 
 add_ideas = {

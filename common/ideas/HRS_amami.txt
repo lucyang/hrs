@@ -1,0 +1,20 @@
+ideas = {
+    country = {
+		AMM_isolated_division = {
+			name = AMM_isolated_division
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = AMM_isolated_division
+			modifier = {
+				army_defence_factor = 0.1
+				ai_focus_defense_factor = 0.5
+			}
+		}
+	}
+}

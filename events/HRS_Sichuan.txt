@@ -28,7 +28,7 @@ country_event = {
 					amount = 3000
 					producer = IMC
 				}
-				country_event = { id = sch_rev.2 days = 7 }
+				country_event = { id = sch_rev.3 days = 12 }
 			}
 		}
 	}
@@ -99,6 +99,80 @@ country_event = {
 		add_popularity = {
 			ideology = communism
 			popularity = 0.10
+		}
+	}
+}
+
+country_event = { # Chengdu Mutiny
+	id = sch_rev.3 
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event sch_rev.3"
+		hidden_effect = {
+            country_event = { id = sch_rev.4 days = 7 }
+        }
+	}
+	title = sch_rev.3.t
+	desc = sch_rev.3.desc
+	picture = GFX_report_event_chengdu_uprising
+
+	is_triggered_only = yes
+
+	option = {
+		name = sch_rev.3.a
+		add_stability = -0.20
+		add_political_power = -200
+		add_war_support = -0.20
+	}
+}
+
+country_event = { # Collapse of Sichuan Government
+	id = sch_rev.4 
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event sch_rev.4"
+		hidden_effect = {
+			CYA = {
+				transfer_state = 181 
+				transfer_state = 186
+				transfer_state = 237
+				transfer_state = 277
+			}
+			CLS = {
+				transfer_state = 251
+				transfer_state = 259
+				transfer_state = 261
+				transfer_state = 268
+				transfer_state = 273
+				transfer_state = 276
+			}
+			CNC = {
+				transfer_state = 199
+				transfer_state = 200
+				transfer_state = 202
+				transfer_state = 215
+				transfer_state = 232
+			}
+		}
+	}
+	title = sch_rev.4.t
+	desc = sch_rev.4.desc
+	picture = GFX_report_event_chengdu_uprising
+
+	is_triggered_only = yes
+	
+	option = {
+		name = sch_rev.4.a
+		retire_country_leader = yes
+		SCH_liu_wenhui = {
+			promote_leader = yes
+			add_country_leader_role = {
+				country_leader = {
+            		ideology = military_government_subtype
+           			desc = SCH_liu_wenhui_desc
+            		#traits = {  }
+            		expire = "1976.6.24.1"
+        		}
+				promote_leader = yes
+			}
 		}
 	}
 }

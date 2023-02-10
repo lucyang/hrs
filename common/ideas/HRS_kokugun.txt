@@ -1,0 +1,21 @@
+ideas = {
+    country = {
+        KKG_scattered_army = {
+            name = KKG_scattered_army
+            allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+            picture = KKG_scattered_army
+            modifier = {
+                air_range_factor = 0.1
+                naval_strike_attack_factor = 0.1
+                naval_strike_targetting_factor = 0.1
+            }
+        }
+    }
+}

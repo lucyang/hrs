@@ -1,0 +1,53 @@
+ideas = {
+	country = {
+		JPN_ketsumeidan = {
+			name = JPN_ketsumeidan
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = JPN_ketsumeidan
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = 0.05
+				political_power_factor = 0.05
+			}
+		}
+		JPN_kesshitai = {
+			name = JPN_kesshitai
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = JPN_kesshitai
+			modifier = {
+				monarchism_drift = 0.05
+				army_attack_factor = 0.1
+			}
+		}
+		JPN_young_turks = {
+			name = JPN_young_turks
+			allowed = {
+				always = no
+			}
+			cancel = { has_country_flag = JAP_cancel_all_ideas }
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = JPN_young_turks
+			modifier = {
+				experience_gain_navy_factor = 0.1
+				navy_org = 0.1
+			}
+		}
+	}
+}

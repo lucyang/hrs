@@ -41,6 +41,10 @@ set_convoys = 10
 set_war_support = 0.60
 
 add_ideas = {
+	AMM_isolated_division
+}
+
+add_ideas = {
 	closed_economy
 	extensive_conscription
 	partial_economic_mobilisation

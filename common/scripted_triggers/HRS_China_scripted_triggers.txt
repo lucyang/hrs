@@ -46,7 +46,10 @@ is_china_unifier = {
 		original_tag = SXI
 		original_tag = HMG
 		original_tag = KTS
-		original_tag = 
+		original_tag = XXC
+		original_tag = CYA
+		original_tag = CNC
+		original_tag = CLS
 	}
 }
 
@@ -71,6 +74,7 @@ is_huabei_nation = {
 		original_tag = WAX
 		original_tag = QNA
 		original_tag = LNG
+		original_tag = KTS
 	}
 }
 
@@ -98,6 +102,7 @@ is_huazhong_nation = {
 		original_tag = CHI
 		original_tag = MAO
 		original_tag = HNA
+		original_tag = HNR
 		original_tag = HMG
 		original_tag = XXI
 		original_tag = XXC
@@ -127,6 +132,9 @@ is_xinan_nation = {
 		original_tag = SCH
 		original_tag = CHQ
 		original_tag = NSB
+		original_tag = CYA
+		original_tag = CNC
+		original_tag = CLS
 	}
 }
 
