@@ -6,6 +6,7 @@ recruit_character = IMN_baatarchin #巴吐尔罄/李裕智
 recruit_character = IMN_ulanhu #乌兰夫
 
 oob = "empty"
+set_country_flag = is_china_nation
 
 set_technology = {
 	infantry_weapons = 1

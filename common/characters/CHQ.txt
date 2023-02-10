@@ -3,7 +3,7 @@ characters={
 		name=CHQ_xiong_kewu
 		portraits={
 			civilian={
-				large="gfx/leaders/CHQ/Portrait_Xiong_Kewu.dds"
+				large="gfx/leaders/CHQ/Portrait_Xiong_Kewu.png"
 			}
 		}
 		country_leader={
@@ -17,7 +17,7 @@ characters={
 		name=CHQ_dan_maoxin
 		portraits={
 			civilian={
-				large="gfx/leaders/CHQ/Portrait_Dan_Maoxin.dds"
+				large="gfx/leaders/CHQ/Portrait_Dan_Maoxin.png"
 			}
 		}
 		country_leader={
@@ -31,7 +31,7 @@ characters={
 		name=CHQ_yang_angong
 		portraits={
 			civilian={
-				large="gfx/leaders/CHQ/Portrait_Yang_Angong.dds"
+				large="gfx/leaders/CHQ/Portrait_Yang_Angong.png"
 			}
 		}
 		country_leader={
@@ -45,7 +45,7 @@ characters={
 		name=CHQ_zhang_ji
 		portraits={
 			civilian={
-				large="gfx/leaders/CHQ/Portrait_Zhang_Ji.dds"
+				large="gfx/leaders/CHQ/Portrait_Zhang_Ji.png"
 			}
 		}
 		country_leader={

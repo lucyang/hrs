@@ -4,6 +4,8 @@ recruit_character = SHD_liang_shuming
 recruit_character = SHD_zhou_zuoren
 
 oob = "empty"
+
+set_country_flag = is_china_nation
  
 set_technology = {
 	infantry_weapons = 1

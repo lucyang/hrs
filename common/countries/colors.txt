@@ -63,9 +63,13 @@ HEN = { # 河南紧急管制区
 ################
 ### LIAONING ###
 ################
-LNG = { # 辽东军区
+LNG = { # 南满洲共和国
 	color = rgb { 85 85 85 }
 	color_ui = rgb { 85 85 85 }
+}
+KTS = { # 关东州
+	color = rgb { 19 131 197 }
+	color_ui = rgb { 19 131 197 }
 }
 ################
 ### SHANGHAI ###
@@ -161,6 +165,18 @@ CHQ = { # 重庆
 	color = rgb { 180 220 190 }
 	color_ui = rgb { 180 220 190 }
 }
+CLS = { # 乐山
+	color = rgb { 221 14 14 }
+	color_ui = rgb { 221 14 14 }
+}
+CYA = { # 雅安
+	color = rgb { 176 101 3 }
+	color_ui = rgb { 176 101 3 }
+}
+CNC = { # 南充
+	color = rgb { 200 68 45 }
+	color_ui = rgb { 200 68 45 }
+}
 #################
 ### GUANGDONG ###
 #################
@@ -171,6 +187,10 @@ KMT = { # 广东
 HLF = { # 海陆丰
 	color = rgb { 158 0 21 }
 	color_ui = rgb { 158 0 21 }
+}
+FEM = { # 潮汕女工
+	color = rgb { 197 19 131 }
+	color_ui = rgb { 197 19 131 }
 }
 ##############
 ### HAINAN ###

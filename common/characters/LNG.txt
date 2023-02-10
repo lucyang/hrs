@@ -10,7 +10,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology=conservatism_subtype
+			ideology=military_government_subtype
 			desc = LNG_feng_yuxiang_desc
 			traits = { cristero_general incognito }
 			expire = "1948.9.1.1"
@@ -24,18 +24,18 @@ characters = {
 			logistics_skill=3
 		}
 	}
-	LNG_zhang_shizhang = {
-		name =LNG_zhang_shizhang
+	LNG_bekku_hideo = {
+		name =LNG_bekku_hideo
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/LNG/Portrait_Zhang_Shizhang.png"
+				large = "gfx/leaders/LNG/Portrait_Bekku_Hideo.png"
 			}
 		}
 		country_leader = {
-			ideology=jesuism_subtype
-			desc = LNG_zhang_shizhang_desc
-			traits = { cristero_general incognito }
-			expire = "1950.1.1.1"
+			ideology=liberalism_subtype
+			desc = LNG_bekku_hideo_desc
+			traits = { technocrat captain_of_industry }
+			expire = "1947.5.4.1"
 		}
 	}
 }

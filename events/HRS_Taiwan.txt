@@ -860,7 +860,7 @@ country_event = { # The Choice of Taiwan Native People...
 
 	option = {
 		name = asn.1.a
-		country_event = asn.2
+		#country_event = asn.2
 	}
 }
 country_event = { # The Choice of Taiwan Native People...

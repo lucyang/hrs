@@ -1166,6 +1166,16 @@ HRS_debug_tool_cataegory = {
 				transfer_state_to = HMG
 				add_core_of = HMG
 			}
+			XXI = {
+				transfer_state = 262 #张家界/澧州
+				add_state_core = 262
+				transfer_state = 269 #凤凰/湘西
+				add_state_core = 269
+				transfer_state = 282 #怀化
+				add_state_core = 282
+				transfer_state = 655 #沅陵
+				add_state_core = 655
+			}
 		}
 	}
 
@@ -1232,16 +1242,6 @@ HRS_debug_tool_cataegory = {
 				add_state_core = 263
 				transfer_state = 285 #长沙
 				add_state_core = 285
-			}
-			XXI = {
-				transfer_state = 262 #张家界/澧州
-				add_state_core = 262
-				transfer_state = 269 #凤凰/湘西
-				add_state_core = 269
-				transfer_state = 282 #怀化
-				add_state_core = 282
-				transfer_state = 655 #沅陵
-				add_state_core = 655
 			}
 		}
 	}

@@ -2,6 +2,7 @@
 
 recruit_character = DLI_yan_zizhen
 recruit_character = DLI_qu_huanzhang
+set_country_flag = is_china_nation
 
 oob = "empty"
 

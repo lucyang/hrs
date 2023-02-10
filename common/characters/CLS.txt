@@ -1,0 +1,44 @@
+characters = {
+	CLS_guo_moruo={ #这是人物的键值
+		name = CLS_guo_moruo #这是人物姓名的文本
+		portraits = {
+			civilian = { #这代表该人物是文官，army则是武官
+				large = "gfx/leaders/CLS/Portrait_Guo_Moruo.png" #这是人物的头像文件存储位置，large是头像，small用于顾问
+			}
+		}
+		country_leader = {
+			ideology = leninism_subtype #这是人物的子意识形态，请去localisation/parties_l_english.yml查阅
+			desc = CLS_guo_moruo_desc #这是人物的介绍文本
+			traits = {  } #这是人物的特性，请去common/country_leader文件夹查阅
+			expire = "1978.6.12.1" #这是人物的去世日期，如果不想查就写1950.1.1.1
+		}
+	}
+    CLS_xian_xinghai = {
+        name = CLS_xian_xinghai
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/CLS/Portrait_Xian_Xinghai.png"
+            }
+        }
+        country_leader = {
+            ideology = national_communism_subtype
+            desc = CLS_xian_xinghai_desc
+            traits = {  }
+            expire = "1945.10.30.1"
+        }
+    }
+    CLS_wu_yuzhang = {
+        name = CLS_wu_yuzhang
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/CLS/Portrait_Wu_Yuzhang.png"
+            }
+        }
+        country_leader = {
+            ideology = new_tridemism_subtype
+            desc = CLS_wu_yuzhang_desc
+            traits = {  }
+            expire = "1966.12.12.1"
+        }
+    }
+}

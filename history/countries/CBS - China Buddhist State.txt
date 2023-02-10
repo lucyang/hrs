@@ -4,6 +4,8 @@ recruit_character = CBS_shi_huaizhen
 
 oob = "empty"
 
+set_country_flag = is_china_nation
+
 set_technology = {
 	infantry_weapons = 1
 	support_weapons = 1

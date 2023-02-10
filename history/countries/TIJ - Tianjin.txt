@@ -4,6 +4,7 @@ recruit_character = TIJ_qi_xieyuan
 recruit_character = TIJ_xu_shichang
 
 oob = "empty"
+set_country_flag = is_china_nation
 
 set_technology = {
 	infantry_weapons = 1

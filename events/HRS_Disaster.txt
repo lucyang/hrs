@@ -55,6 +55,10 @@ country_event = {
 		IMJ = { add_manpower = -105385 }
 		add_political_power = -1923
 		add_stability = -0.10
+		hidden_effect = {
+			news_event = disaster_news.1
+		}
+		
 	}
 }
 country_event = {

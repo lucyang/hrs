@@ -2,19 +2,10 @@ on_actions = {
 	on_startup = {
 		effect = {
 			IMC = {
-				country_event = {
-					id = imc.1
-					days = 30
-				}
-				news_event = {
-					id = disaster_news.1
-					days = 30
-				}
+				country_event = imc.1
 			}
 			every_country = {
-				set_variable = {
-					war_weariness = 0
-				}
+				set_variable = { war_weariness = 0 }
 				#定义初始厌战度
 				set_variable = {
 					max_mobilization_rate = 0.25

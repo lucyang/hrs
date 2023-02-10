@@ -1,357 +1,326 @@
-add_namespace = mao_rev
-add_namespace = mao
-
+add_namespace = hmg
+add_namespace = hnr
+add_namespace = hna
+add_namespace = xxi
 ################
-# MAO'S EVENTS #
+# HUNAN EVENTS #
 ################
+# Before Revolution
 country_event = {
-	id = mao.1
-	immediate = { 
-		log = "[GetDateText]: [Root.GetName]: event mao.1"
+	id = hmg.1
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event hmg.1"
 	}
-	title = mao.1.t
-	desc = mao.1.desc
-	picture = GFX_report_event_railway_worker_strikes
-
-	fire_only_once = yes
-
-	trigger = {
-		tag = IMC
-		date > 1923.8.1
-		date < 1923.9.1
-	}
-
-	option = {
-		name = mao.1.a
-		country_event = { id = mao.2 days = 7 }
-	}
-}
-country_event = {
-	id = mao.2
-	immediate = { 
-		log = "[GetDateText]: [Root.GetName]: event mao.2"
-	}
-	title = mao.2.t
-	desc = mao.2.desc
-	picture = GFX_report_event_railway_worker_strikes
-
+	title = hmg.1.t
+	desc = hmg.1.desc
+	picture = GFX_report_event_american_hunger_march
 	is_triggered_only = yes
-
 	option = {
-		name = mao.2.a
-		hidden_effect = {
-			MAO = {
-				set_politics = { ruling_party = socialism }
-				set_popularities = {
-					communism = 8
-					anarchism = 12
-					socialism = 70
-					democratic = 10
-					neutrality = 0
-					monarchism = 0
-					fascism = 0
-					imperialism = 0
-					futurism = 0
-				}
-			}	
-		}
+		name = hmg.1.a
+		country_event = mao.1
+		country_event = { id = hmg.2 days = 3 }
 	}
-	#option = {
-	#	name = mao.2.b
-	#	hidden_effect = {
-	#		MAO = {
-	#			set_politics = { ruling_party = anarchism }
-	#			set_popularities = {
-	#				communism = 33
-	#				anarchism = 37
-	#				socialism = 20
-	#				democratic = 10
-	#				neutrality = 0
-	#				monarchism = 0
-	#				fascism = 0
-	#				imperialism = 0
-	#				futurism = 0
-	#			}
-	#		}
-	#	}
-	#}
-	option = {
-		name = mao.2.c
+	
+}
+# Changsha Uprising
+country_event = {
+	id = hmg.2
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event hmg.2"
 		hidden_effect = {
-			MAO = {
-				set_politics = { ruling_party = communism }
-				set_popularities = {
-					communism = 72
-					anarchism = 11
-					socialism = 7
-					democratic = 0
-					neutrality = 10
-					monarchism = 0
-					fascism = 0
-					imperialism = 0
-					futurism = 0
-				}
+			every_state = {
+				limit = { is_hunan_state = yes }
+				transfer_state_to = HMG
 			}
 		}
 	}
-}
-country_event = {
-	id = mao_rev.1
-	immediate = { 
-		log = "[GetDateText]: [Root.GetName]: event mao_rev.1"
-	}
-	title = mao_rev.1.t
-	desc = mao_rev.1.desc
-	picture = GFX_report_event_railway_worker_strikes
-
-	fire_only_once = yes
-
-	trigger = {
-		IMC = { has_war = yes }
-		285 = { NOT = { is_controlled_by = IMC } }
-	}
-
+	title = hmg.2.t
+	desc = hmg.2.desc
+	picture = GFX_report_event_chinese_soldiers_running
+	is_triggered_only = yes
 	option = {
-		name = mao_rev.1.a
-		add_stability = -0.01
-		country_event = mao_rev.2
-		299 = {
-			set_compliance = 10
-			set_resistance = 10
+		name = hmg.2.a
+		HMG = {
+			change_tag_from = ROOT
+			country_event = { id = hmg.3 days = 3 }
+		}
+	}
+	option = {
+		name = hmg.2.b
+		HMG = { 
+			country_event = { id = hmg.3 days = 3 }
 		}
 	}
 }
+# Xiangxi Riot
 country_event = {
-	id = mao_rev.2
-	immediate = { log = "[GetDateText]: [Root.GetName]: event mao_rev.2" }
-	title = mao_rev.2.t
-	desc = mao_rev.2.desc
-	picture = GFX_report_event_railway_worker_strikes
-
-	is_triggered_only = yes
-
-	option = { # no more please
-		name = mao_rev.2.a
-		299 = {
-			add_compliance = 5
-			add_resistance = -5
+	id = hmg.3
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event hmg.3"
+		hidden_effect = {
+			XXI = {
+				transfer_state = 262 #张家界/澧州
+				add_state_core = 262
+				transfer_state = 269 #凤凰/湘西
+				add_state_core = 269
+				transfer_state = 282 #怀化
+				add_state_core = 282
+				transfer_state = 655 #沅陵
+				add_state_core = 655
+				
+			}
 		}
-		country_event = mao_rev.3
-		country_event = { id = mao_rev.4 days = 3 }
 	}
-	option = { # more please
-		name = mao_rev.2.b
-		add_command_power = -10
-		299 = {
-			add_compliance = 10
-			add_resistance = -5
+	title = hmg.3.t
+	desc = hmg.3.desc
+	picture = GFX_report_event_generic_conference
+	is_triggered_only = yes
+	option = {
+		name = hmg.3.a
+		country_event = { id = hmg.4 days = 3 }
+		XXI = {
+			change_tag_from = ROOT
+			country_event = { id = xxi.1 days = 1 }
 		}
-		country_event = mao_rev.3
-		country_event = { id = mao_rev.5 days = 3 }
+	}
+	option = {
+		name = hmg.3.b
+		country_event = { id = hmg.4 days = 3 }
+		XXI = {
+			country_event = { id = xxi.1 days = 1 }
+		}
 	}
 }
+# Problem of Hunanese Seperatists
 country_event = {
-	id = mao_rev.3
-	immediate = { log = "[GetDateText]: [Root.GetName]: event mao_rev.3" }
-	title = mao_rev.3.t
-	desc = mao_rev.3.desc
-	picture = GFX_report_event_railway_worker_strikes
-
+	id = hmg.4
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event hmg.4"
+	}
+	title = hmg.4.t
+	desc = hmg.4.desc
+	picture = GFX_report_event_ITA_democratic_parlament
 	is_triggered_only = yes
-
 	option = {
-		name = mao_rev.3.a
+		name = hmg.4.a
+		add_ideas = federation1
+		hidden_effect = {
+			country_event = hmg.5
+		}
+	}
+	option = {
+		name = hmg.4.b	
+		add_stability = -0.05
+		hidden_effect = {
+			country_event = hmg.5
+		}
+	}
+	option = {
+		name = hmg.4.c
+		add_political_power = -150
+		hidden_effect = {
+			country_event = hmg.5
+		}
 	}
 }
-country_event = { # Mao survived
-	id = mao_rev.4
-	immediate = { log = "[GetDateText]: [Root.GetName]: event mao_rev.4" }
-	title = mao_rev.4.t
-	desc = mao_rev.4.desc
-	picture = GFX_report_event_china_infiltration
-
-	is_triggered_only = yes
-
-	option = {
-		name = mao_rev.4.a
-		country_event = { id = mao_rev.6 days = 7 }
+# Song was Assassinated
+country_event = {
+	id = hmg.5
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event hmg.5"
 	}
-}
-country_event = { # Mao not survived
-	id = mao_rev.5
-	immediate = { log = "[GetDateText]: [Root.GetName]: event mao_rev.5" }
-	title = mao_rev.5.t
-	desc = mao_rev.5.desc
-	picture = GFX_report_event_dead_soldiers
-
+	title = hmg.5.t
+	desc = hmg.5.desc
+	picture = GFX_report_event_europe_funeral
 	is_triggered_only = yes
-
 	option = {
-		name = mao_rev.5.a
-		MAO = {
-			set_politics = { ruling_party = communism }
-			retire_character = MAO_mao_zedong
+		name = hmg.5.a
+		country_event = { id = hmg.6 days = 3 }
+		set_politics = { ruling_party = neutrality elections_allowed = no }
+		retire_character = HMG_song_jiaoren
+		add_country_leader_role = {
+			character = HMG_military_government
+			country_leader={
+				ideology=interim_government_subtype
+				desc=HMG_military_government_desc
+				traits={ emergency_power }
+				expire="1950.1.1.1"
+			}
+			promote_leader = yes 
+		}
+		hidden_effect = {
 			add_country_leader_role = {
-				character = MAO_liu_shaoqi
+				character = HMG_cheng_qian
 				country_leader={
-					ideology=leninism_subtype
-					desc=MAO_liu_shaoqi_desc
-					traits={ veteran_communist ambitious_union_boss }
-					expire="1969.11.12.1"
-				}
-				promote_leader = yes 
+					ideology=liberalism_subtype
+					desc=HMG_cheng_qian_desc
+					traits={ silent_workhorse modernist_and_reformer }
+					expire="1968.4.5.1"
+				} 
 			}
 		}
-		country_event = mao_rev.7
+	}
+}
+# Coup d'etat of Hunan Army
+country_event = {
+	id = hmg.6
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event hmg.6"
+		hidden_effect = {
+			set_capital = { state = 258 } #常德
+			HNA = {
+				transfer_state = 303 #邵阳
+				add_state_core = 303
+				transfer_state = 306 #衡阳
+				add_state_core = 306
+				transfer_state = 313 #永州
+				add_state_core = 313				
+			}
+			CBS = {
+				transfer_state = 294 #娄底
+				add_state_core = 294
+				transfer_state = 297 #湘潭
+				add_state_core = 297
+			}
+			HNR = {
+				transfer_state = 263 #岳阳
+				add_state_core = 263
+				transfer_state = 285 #长沙
+				add_state_core = 285
+			}
+		}
+	}
+	title = hmg.6.t
+	desc = hmg.6.desc
+	picture = GFX_report_event_chinese_army_training
+	is_triggered_only = yes
+	option = {
+		name = hmg.6.a
+		add_political_power = -100
+		country_event = { id = hmg.7 days = 3 }
+	}
+}
+# Coup d'etat of Hunan Army
+country_event = {
+	id = hmg.7
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event hmg.7"
+	}
+	title = hmg.7.t
+	desc = hmg.7.desc
+	picture = GFX_report_event_manchukuo_army
+	is_triggered_only = yes
+	option = { # Cheng Qian
+		name = hmg.7.a
+		set_politics = { ruling_party = democratic }
+	}
+	option = { # Yang Duo
+		name = hmg.7.b
+		add_country_leader_role = {
+			character = HMG_yang_duo
+			country_leader={
+				ideology=national_communism_subtype
+				desc=HMG_yang_duo_desc
+				traits={ conservative_communist }
+				expire="1950.1.1.1"
+			}
+			promote_leader = yes 
+		}
+		set_politics = { ruling_party = anarchism }
+	}
+}
+# On Occupation of Changsha
+country_event = {
+	id = hmg.8
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event hmg.8"
+	}
+	title = hmg.8.t
+	desc = hmg.8.desc
+	picture = GFX_report_event_chinese_soldiers_city_ruin
+	trigger = {
+		original_tag = HMG
+		has_government = anarchism
+		owns_state = 285 #长沙
+	}
+	fire_only_once = yes
+	option = { # Yang Duo's Corruption
+		name = hmg.8.a
+		country_event = hmg.9
+	}
+	option = { # Peng's Coup d'etat
+		name = hmg.8.b
+		country_event = hmg.10
 	}
 }
 country_event = {
-	id = mao_rev.6
-	immediate = { 
-		log = "[GetDateText]: [Root.GetName]: event mao_rev.6"
+	id = hmg.9
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event hmg.9"
+	}
+	title = hmg.9.t
+	desc = hmg.9.desc
+	picture = GFX_report_event_generic_conference
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = hmg.9.a
+		set_politics = { ruling_party = imperialism }
 		hidden_effect = {
-			MAO = {
-				transfer_state = 298 #株洲
-				add_state_core = 298
-				transfer_state = 299 #萍乡
-				add_state_core = 299
-				transfer_state = 300 #吉安
-				add_state_core = 300
-				#load_oob = "MAO_1923"
-				add_equipment_to_stockpile = {
-					type = infantry_equipment
-					amount = 2000
-					producer = IMC
-				}
-				add_equipment_to_stockpile = {
-					type = motorized_equipment
-					amount = 50
-					producer = IMC
-				}
-				add_equipment_to_stockpile = {
-					type = armored_car_equipment
-					amount = 20
-					producer = IMC
-				}
-				add_equipment_to_stockpile = {
-					type = train_equipment
-					amount = 20
-					producer = IMC
-				}
-				add_equipment_to_stockpile = {
-					type = light_tank_chassis
-					amount = 20
-					producer = IMC
-				}
-			}
-			IMC = {
-				remove_state_core = 265
-				remove_state_core = 266
-				remove_state_core = 282
-				remove_state_core = 299
-				remove_state_core = 300
-				remove_state_core = 301
-				remove_state_core = 302
-				declare_war_on = {
-					target = MAO
-					type = annex_everything
-				}
+			set_popularities = {
+				communism = 4
+				anarchism = 7
+				socialism = 0
+				democratic = 3
+				neutrality = 10
+				monarchism = 0
+				fascism = 0
+				imperialism = 76
+				futurism = 0
 			}
 		}
-	}
-	title = mao_rev.6.t
-	desc = mao_rev.6.desc
-	picture = GFX_report_event_dead_soldiers
-
-	is_triggered_only = yes
-
-	option = {
-		name = mao_rev.6.a
-		MAO = { change_tag_from = ROOT }
-	}
-	option = {
-		name = mao_rev.6.b
 	}
 }
 country_event = {
-	id = mao_rev.7
-	immediate = { 
-		log = "[GetDateText]: [Root.GetName]: event mao_rev.7"
-		hidden_effect = {
-			263 = {
-				add_core_of = MAO
-				set_compliance = 10
-				set_resistance = 70
+	id = hmg.10
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event hmg.10"
+	}
+	title = hmg.10.t
+	desc = hmg.10.desc
+	picture = GFX_report_event_generic_conference
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = hmg.10.a
+		set_politics = { ruling_party = communism }
+		retire_character = HMG_yang_duo
+		add_country_leader_role = {
+			character = HMG_peng_dehuai
+			country_leader={
+				ideology=military_socialism_subtype
+				desc=HMG_peng_dehuai_desc
+				traits={ lusan_sanbagarasu }
+				expire="1974.11.29.1"
 			}
-			264 = {
-				add_core_of = MAO
-				set_compliance = 10
-				set_resistance = 70
-			}
-			280 = {
-				add_core_of = MAO
-				set_compliance = 10
-				set_resistance = 70
-			}
-			MAO = {
-				transfer_state = 298 #株洲
-				add_state_core = 298
-				transfer_state = 299 #萍乡
-				add_state_core = 299
-				transfer_state = 300 #吉安
-				add_state_core = 300
-				add_equipment_to_stockpile = {
-					type = infantry_equipment
-					amount = 2000
-					producer = IMC
-				}
-				add_equipment_to_stockpile = {
-					type = motorized_equipment
-					amount = 50
-					producer = IMC
-				}
-				add_equipment_to_stockpile = {
-					type = armored_car_equipment
-					amount = 20
-					producer = IMC
-				}
-				add_equipment_to_stockpile = {
-					type = train_equipment
-					amount = 20
-					producer = IMC
-				}
-				add_equipment_to_stockpile = {
-					type = light_tank_chassis
-					amount = 20
-					producer = IMC
-				}
-			}
-			IMC = {
-				remove_state_core = 265
-				remove_state_core = 266
-				remove_state_core = 282
-				remove_state_core = 299
-				remove_state_core = 300
-				remove_state_core = 301
-				remove_state_core = 302
-				declare_war_on = {
-					target = MAO
-					type = annex_everything
-				}
-			}
+			promote_leader = yes 
 		}
 	}
-	title = mao_rev.7.t
-	desc = mao_rev.7.desc
-	picture = GFX_report_event_dead_soldiers
-
-	is_triggered_only = yes
-
-	option = {
-		name = mao_rev.7.a
-		MAO = { change_tag_from = ROOT }
+}
+##################
+# XIANGXI EVENTS #
+##################
+# Xiangxi Riot
+country_event = {
+	id = xxi.1
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: event xxi.1"
 	}
+	title = xxi.1.t
+	desc = xxi.1.desc
+	picture = GFX_report_event_generic_strike
+	is_triggered_only = yes
 	option = {
-		name = mao_rev.7.b
+		name = xxi.1.a
 	}
 }

@@ -11,6 +11,8 @@ recruit_character = FRM_xie_xuehong
 #recruit_character = FRM_jian_ji
 #recruit_character = FRM_yu_qingfang
 
+set_country_flag = is_china_nation
+
 oob = "empty"
 
 set_technology = {

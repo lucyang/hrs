@@ -1,54 +1,5 @@
 is_china_nation = {
-	OR = {
-		original_tag = SHX
-		original_tag = SHD
-		original_tag = QND
-		original_tag = WAX
-		original_tag = IMN
-		original_tag = DAR
-		original_tag = PRC
-		original_tag = JID
-		original_tag = TIJ
-		original_tag = HEB
-		original_tag = PRC
-		original_tag = QUF
-		original_tag = XSM
-		original_tag = SIK
-		original_tag = IMC
-		original_tag = SHH
-		original_tag = CHI
-		original_tag = MAO
-		original_tag = HNA
-		original_tag = KMT
-		original_tag = HLF
-		original_tag = GXC
-		original_tag = YUN
-		original_tag = JXP
-		original_tag = MMA
-		original_tag = CHH
-		original_tag = DLI
-		original_tag = GZH
-		original_tag = GNA
-		original_tag = MIA
-		original_tag = MIR
-		original_tag = SCH
-		original_tag = CHQ
-		original_tag = NSB
-		original_tag = PDS
-		original_tag = AYG
-		original_tag = ZZH
-		original_tag = LYG
-		original_tag = HEN
-		original_tag = GNS
-		original_tag = QNG
-		original_tag = NIX
-		original_tag = SYN
-		original_tag = SXI
-		original_tag = HMG
-		original_tag = XXI
-		original_tag = XXC
-		original_tag = XON
-	}
+	has_country_flag = is_china_nation
 }
 
 is_china_unifier = {
@@ -94,6 +45,8 @@ is_china_unifier = {
 		original_tag = SYN
 		original_tag = SXI
 		original_tag = HMG
+		original_tag = KTS
+		original_tag = 
 	}
 }
 

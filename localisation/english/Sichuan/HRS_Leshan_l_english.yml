@@ -1,0 +1,62 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ CLS_communism:0 "创造社"
+ CLS_communism_DEF:0 "创造社"
+ CLS_anarchism:0 "创造社"
+ CLS_anarchism_DEF:0 "创造社"
+ CLS_democratic:0 "创造社"
+ CLS_democratic_DEF:0 "创造社"
+ CLS_neutrality:0 "创造社"
+ CLS_neutrality_DEF:0 "创造社"
+ CLS_monarchism:0 "创造社"
+ CLS_monarchism_DEF:0 "创造社"
+ CLS_fascism:0 "创造社"
+ CLS_fascism_DEF:0 "创造社"
+ CLS_imperialism:0 "创造社"
+ CLS_imperialism_DEF:0 "创造社"
+ CLS_futurism:0 "创造社"
+ CLS_futurism_DEF:0 "创造社"
+ CLS_communism_ADJ:0 "川南"
+ CLS_anarchism_ADJ:0 "川南"
+ CLS_democratic_ADJ:0 "川南"
+ CLS_neutrality_ADJ:0 "川南"
+ CLS_monarchism_ADJ:0 "川南"
+ CLS_fascism_ADJ:0 "川南"
+ CLS_imperialism_ADJ:0 "川南"
+ CLS_futurism_ADJ:0 "川南"
+ CLS:0 "川南"
+ CLS_DEF:0 "川南"
+ CLS_ADJ:0 "川南"
+ #############
+ ## PARTIES ##
+ #############
+ CLS_communism_party:0 "创造社"
+ CLS_communism_party_long:0 "创造社"
+ CLS_anarchism_party:0 "创造社"
+ CLS_anarchism_party_long:0 "创造社"
+ CLS_socialism_party:0 "左派国民党"
+ CLS_socialism_party_long:0 "左派国民党"
+ CLS_democratic_party:0 "中国国民党"
+ CLS_democratic_party_long:0 "中国国民党"
+ CLS_neutrality_party:0 "自贡地方议事会"
+ CLS_neutrality_party_long:0 "自贡地方议事会"
+ CLS_monarchism_party:0 "孔教会"
+ CLS_monarchism_party_long:0 "孔教会"
+ CLS_fascism_party:0 "中国青年党"
+ CLS_fascism_party_long:0 "中国青年党"
+ CLS_imperialism_party:0 "右派国民党"
+ CLS_imperialism_party_long:0 "右派国民党"
+ CLS_futurism_party:0 "创造社"
+ CLS_futurism_party_long:0 "创造社"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ CLS_guo_moruo:0 "郭沫若"
+ CLS_xian_xinghai:0 "冼星海"
+ CLS_wu_yuzhang:0 "吴玉章"

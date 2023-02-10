@@ -5,6 +5,8 @@ recruit_character = PDS_wu_peifu
 recruit_character = PDS_tang_shengzhi
 
 oob = "empty"
+
+set_country_flag = is_china_nation
  
 set_technology = {
 	infantry_weapons = 1

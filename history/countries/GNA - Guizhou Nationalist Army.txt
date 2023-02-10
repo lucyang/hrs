@@ -2,6 +2,8 @@
 
 oob = "empty"
 
+set_country_flag = is_china_nation
+
 set_research_slots = 2
 
 set_technology = {

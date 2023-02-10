@@ -1,0 +1,63 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ CYA_communism:0 "川西工农兵代表政府"
+ CYA_communism_DEF:0 "川西工农兵代表政府"
+ CYA_anarchism:0 "川西工农兵代表政府"
+ CYA_anarchism_DEF:0 "川西工农兵代表政府"
+ CYA_socialism:0 "川西工农兵代表政府"
+ CYA_socialism_DEF:0 "川西工农兵代表政府"
+ CYA_democratic:0 "西康边防区"
+ CYA_democratic_DEF:0 "西康边防区"
+ CYA_neutrality:0 "西康边防区"
+ CYA_neutrality_DEF:0 "西康边防区"
+ CYA_monarchism:0 "西康边防区"
+ CYA_monarchism_DEF:0 "西康边防区"
+ CYA_fascism:0 "西康边防区"
+ CYA_fascism_DEF:0 "西康边防区"
+ CYA_imperialism:0 "西康边防区"
+ CYA_imperialism_DEF:0 "西康边防区"
+ CYA_futurism:0 "西康边防区"
+ CYA_futurism_DEF:0 "西康边防区"
+ CYA_communism_ADJ:0 "川西"
+ CYA_anarchism_ADJ:0 "川西"
+ CYA_socialism_ADJ:0 "川西"
+ CYA_democratic_ADJ:0 "川西"
+ CYA_neutrality_ADJ:0 "川西"
+ CYA_monarchism_ADJ:0 "川西"
+ CYA_fascism_ADJ:0 "川西"
+ CYA_imperialism_ADJ:0 "川西"
+ CYA_futurism_ADJ:0 "川西"
+ CYA:0 "川西"
+ CYA_DEF:0 "川西"
+ CYA_ADJ:0 "川西"
+ #############
+ ## PARTIES ##
+ #############
+ CYA_communism_party:0 "青年共产党"
+ CYA_communism_party_long:0 "中国青年共产党"
+ CYA_anarchism_party:0 "无政府共产党"
+ CYA_anarchism_party_long:0 "无政府共产党"
+ CYA_socialism_party:0 "左派国民党"
+ CYA_socialism_party_long:0 "中国国民党左派"
+ CYA_democratic_party:0 "中国国民党"
+ CYA_democratic_party_long:0 "中国国民党"
+ CYA_neutrality_party:0 "西康边军"
+ CYA_neutrality_party_long:0 "西康边军"
+ CYA_monarchism_party:0 "孔教会"
+ CYA_monarchism_party_long:0 "孔教会"
+ CYA_fascism_party:0 "中国青年党"
+ CYA_fascism_party_long:0 "中国青年党"
+ CYA_imperialism_party:0 "右派国民党"
+ CYA_imperialism_party_long:0 "中国国民党右派"
+ CYA_futurism_party:0 "西南制药"
+ CYA_futurism_party_long:0 "西南制药"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ CYA_chen_xialing:0 "陈遐龄"

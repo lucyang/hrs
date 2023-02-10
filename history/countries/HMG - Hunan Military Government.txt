@@ -4,11 +4,13 @@
 
 recruit_character = HMG_military_government
 recruit_character = HMG_yang_duo
+recruit_character = HMG_song_jiaoren
 recruit_character = HMG_peng_dehuai
 recruit_character = HMG_cheng_qian
 recruit_character = HMG_huang_gonglue
 
 oob = "empty"
+set_country_flag = is_china_nation
 
 set_technology = {
 	infantry_weapons = 1
@@ -100,20 +102,20 @@ set_stability = 0.35
 set_war_support = 0.70
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1922.9.14"
 	election_frequency = 60
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
-	communism = 30
-	anarchism = 12
-	socialism = 0
-	democratic = 16
-	neutrality = 34
+	communism = 24
+	anarchism = 26
+	socialism = 10
+	democratic = 28
+	neutrality = 12
 	monarchism = 0
-	fascism = 8
+	fascism = 0
 	imperialism = 0
 	futurism = 0
 }

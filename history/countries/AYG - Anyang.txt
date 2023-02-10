@@ -3,6 +3,8 @@
 recruit_character = AYG_xiong_jiandong
 recruit_character = AYG_wang_guowei
 
+set_country_flag = is_china_nation
+
 oob = "empty"
  
 set_technology = {

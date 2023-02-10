@@ -5,6 +5,7 @@ recruit_character = TAW_qiu_niantai
 recruit_character = TAW_chen_yi
 
 oob = "empty"
+set_country_flag = is_china_nation
 
 set_technology = {
 	infantry_weapons = 1

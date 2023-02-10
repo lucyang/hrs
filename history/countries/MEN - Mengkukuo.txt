@@ -1,7 +1,7 @@
 ﻿capital = 23 #锡林郭勒
 
 recruit_character = MEN_demchugdongrub
-
+set_country_flag = is_china_nation
 
 set_technology = {
 	infantry_weapons = 1

@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=provisional_government_subtype
+			ideology=interim_government_subtype
 			desc=HMG_military_government_desc
 			traits={ emergency_power }
 			expire="1950.1.1.1"
@@ -21,7 +21,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=military_socialism_subtype
+			ideology=national_communism_subtype
 			desc=HMG_yang_duo_desc
 			traits={ conservative_communist }
 			expire="1950.1.1.1"
@@ -35,7 +35,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=revolutionary_front_subtype
+			ideology=military_socialism_subtype
 			desc=HMG_peng_dehuai_desc
 			traits={ lusan_sanbagarasu }
 			expire="1974.11.29.1"
@@ -48,11 +48,25 @@ characters={
 				large="gfx/leaders/HMG/Portrait_Cheng_Qian.png"
 			}
 		}
+		#country_leader={
+		#	ideology=liberalism_subtype
+		#	desc=HMG_cheng_qian_desc
+		#	traits={ silent_workhorse modernist_and_reformer }
+		#	expire="1968.4.5.1"
+		#}
+	}
+	HMG_song_jiaoren={
+		name=HMG_song_jiaoren
+		portraits={
+			civilian={
+				large="gfx/leaders/HMG/Portrait_Song_Jiaoren.png"
+			}
+		}
 		country_leader={
-			ideology=liberalism_subtype
-			desc=HMG_cheng_qian_desc
-			traits={ silent_workhorse modernist_and_reformer }
-			expire="1968.4.5.1"
+			ideology=national_liberalism_subtype
+			desc=HMG_song_jiaoren_desc
+			traits={ SWI_radical_democrat liberal_democratic_paragon }
+			expire="1950.1.1.1"
 		}
 	}
 	HMG_real_yang_duo={

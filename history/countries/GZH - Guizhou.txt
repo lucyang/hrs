@@ -1,6 +1,7 @@
 ﻿capital = 309 #Guiyang
 
 oob = "empty"
+set_country_flag = is_china_nation
 
 set_research_slots = 2
 

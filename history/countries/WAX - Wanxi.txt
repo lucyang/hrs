@@ -5,6 +5,7 @@ recruit_character = WAX_peng_yuting
 recruit_character = WAX_ning_xigu
 
 oob = "empty"
+set_country_flag = is_china_nation
 
 set_technology = {
 	infantry_weapons = 1

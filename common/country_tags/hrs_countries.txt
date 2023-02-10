@@ -42,6 +42,7 @@ CHR = "countries/Chahar.txt"
 PRC = "countries/ComChina.txt"
 # LIAONING #
 LNG = "countries/Liaoning.txt"
+KTS = "countries/Kantoshu.txt"
 ### CHINA/CENTRAL ###
 # HUBEI #
 CHI = "countries/China.txt"
@@ -75,6 +76,9 @@ SYN = "countries/Suiyuan.txt"
 SCH = "countries/Sichuan.txt"
 CHQ = "countries/Chongqing.txt"
 NSB = "countries/Yi.txt"
+CLS = "countries/Leshan.txt"
+CNC = "countries/Nanchong.txt"
+CYA = "countries/Yaan.txt"
 # YUNNAN #
 YUN = "countries/Yunnan.txt"
 JXP = "countries/Jiangxinpo.txt"

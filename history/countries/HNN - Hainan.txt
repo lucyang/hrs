@@ -1,6 +1,7 @@
-﻿capital = 389 #琼州/海口
+﻿capital = 386 #琼州/海口
 
 oob = "empty"
+set_country_flag = is_china_nation
 
 recruit_character = HNN_song_ziwen
 recruit_character = HNN_chen_shaokuan

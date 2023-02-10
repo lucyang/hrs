@@ -4,6 +4,7 @@ recruit_character = ZZH_zhang_guotao
 recruit_character = ZZH_lin_yunan
 
 oob = "empty"
+set_country_flag = is_china_nation
  
 set_technology = {
 	infantry_weapons = 1

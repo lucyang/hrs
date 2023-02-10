@@ -1,0 +1,16 @@
+characters = {
+    CYA_chen_xialing = {
+        name = CYA_chen_xialing
+        portraits = {
+            civilian = {
+                large = "gfx/leaders/Sichuan/Portrait_Chen_Xialing.png"
+            }
+        }
+        country_leader = {
+            ideology = military_government_subtype
+            desc = CYA_chen_xialing_desc
+            traits = {  }
+            expire = "1950.12.1.1"
+        }
+    }
+}

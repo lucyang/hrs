@@ -1,14 +1,11 @@
 add_namespace = imc
-#######################
-# REPPAN DOMEI EVENTS #
-#######################
+###################
+# START-UP EVENTS #
+###################
 country_event = {
 	id = imc.1
 	immediate = {
 		log = "[GetDateText]: [Root.GetName]: event imc.1"
-		hidden_effect = {
-			#
-		}
 	}
 	title = imc.1.t
 	desc = imc.1.desc
@@ -16,76 +13,10 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = imc.1.a
-		add_stability = -0.05
-		hidden_effect = {
-			every_state = {
-				limit = {
-					is_tohoku_state = yes
-				}
-				transfer_state_to = imc
-				add_core_of = imc
-			}
-			imc = {
-				transfer_state = 617
-				add_state_core = 617
-			}
-		}
+		country_event = disaster.1
 	}
-}
-
-country_event = {
-	id = imc.2
-	immediate = {
-		log = "[GetDateText]: [Root.GetName]: event imc.2"
-	}
-	title = imc.2.t
-	desc = imc.2.desc
-	picture = GFX_report_event_generic_conference
-	is_triggered_only = yes
 	option = {
-		name = imc.2.a
-		country_event = {
-			id = imc.3
-			days = 3
-		}
-	}
-}
-
-country_event = {
-	id = imc.3
-	immediate = {
-		log = "[GetDateText]: [Root.GetName]: event imc.3"
-	}
-	title = imc.3.t
-	desc = imc.3.desc
-	picture = GFX_report_event_generic_conference
-	is_triggered_only = yes
-	option = {
-		name = imc.3.a
-		diplomatic_relation = {
-			country = IMJ
-			relation = docking_rights
-			active = yes
-		}
-		country_event = {
-			id = imc.4
-			days = 3
-		}
-	}
-}
-
-country_event = {
-	id = imc.4
-	immediate = {
-		log = "[GetDateText]: [Root.GetName]: event imc.4"
-	}
-	title = imc.4.t
-	desc = imc.4.desc
-	picture = GFX_report_event_generic_conference
-	fire_only_once = yes
-	is_triggered_only = yes
-	option = {
-		name = imc.4.a
-		give_military_access = IMJ
+		name = imc.1.b
+		country_event = { id = disaster.1 days = 30 }
 	}
 }

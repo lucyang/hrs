@@ -10,6 +10,7 @@ recruit_character = PRC_dong_zhentang
 recruit_character = PRC_bian_zhangwu
 
 oob = "empty"
+set_country_flag = is_china_nation
 
 set_technology = {
 	infantry_weapons = 1

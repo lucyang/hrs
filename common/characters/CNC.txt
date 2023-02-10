@@ -1,0 +1,16 @@
+characters={
+	CNC_zeng_qi = {
+		name = CNC_zeng_qi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CNC/Portrait_Zeng_Qi.png"
+			}
+		}
+		country_leader = {
+			ideology = corporatism_subtype
+			desc = CNC_zeng_qi_desc
+			traits = {  }
+			expire = "1951.5.7.1"
+		}
+	}
+}

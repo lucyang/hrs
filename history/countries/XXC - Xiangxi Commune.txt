@@ -6,6 +6,7 @@ recruit_character = XXC_tang_bogeng
 recruit_character = XXC_yang_fang
 
 oob = "empty"
+set_country_flag = is_china_nation
 
 set_technology = {
 	infantry_weapons = 1

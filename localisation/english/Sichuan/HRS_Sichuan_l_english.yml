@@ -1,0 +1,107 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ SCH_communism:0 "成都工农兵代表政府"
+ SCH_communism_DEF:0 "成都工农兵代表政府"
+ SCH_anarchism:0 "成都工农兵代表政府"
+ SCH_anarchism_DEF:0 "成都工农兵代表政府"
+ SCH_socialism:0 "成都工农兵代表政府"
+ SCH_socialism_DEF:0 "成都工农兵代表政府"
+ SCH_democratic:0 "大汉四川军政府"
+ SCH_democratic_DEF:0 "大汉四川军政府"
+ SCH_neutrality:0 "大汉四川军政府"
+ SCH_neutrality_DEF:0 "大汉四川军政府"
+ SCH_monarchism:0 "大汉四川军政府"
+ SCH_monarchism_DEF:0 "大汉四川军政府"
+ SCH_fascism:0 "大汉四川军政府"
+ SCH_fascism_DEF:0 "大汉四川军政府"
+ SCH_imperialism:0 "大汉四川军政府"
+ SCH_imperialism_DEF:0 "大汉四川军政府"
+ SCH_futurism:0 "大汉四川军政府"
+ SCH_futurism_DEF:0 "大汉四川军政府"
+ SCH_communism_ADJ:0 "成都"
+ SCH_anarchism_ADJ:0 "成都"
+ SCH_socialism_ADJ:0 "成都"
+ SCH_democratic_ADJ:0 "成都"
+ SCH_neutrality_ADJ:0 "成都"
+ SCH_monarchism_ADJ:0 "成都"
+ SCH_fascism_ADJ:0 "成都"
+ SCH_imperialism_ADJ:0 "成都"
+ SCH_futurism_ADJ:0 "成都"
+ SCH:0 "四川"
+ SCH_DEF:0 "四川"
+ SCH_ADJ:0 "成都"
+ #############
+ ## PARTIES ##
+ #############
+ SCH_communism_party:0 "青年共产党"
+ SCH_communism_party_long:0 "中国青年共产党" #Wang Youmu
+ SCH_anarchism_party:0 "无政府共产党"
+ SCH_anarchism_party_long:0 "无政府共产党"
+ SCH_socialism_party:0 "农工民主党"
+ SCH_socialism_party_long:0 "中国农工民主党"
+ SCH_democratic_party:0 "中国革命党"
+ SCH_democratic_party_long:0 "中国革命党"
+ SCH_neutrality_party:0 "川系军阀"
+ SCH_neutrality_party_long:0 "川系军阀"
+ SCH_monarchism_party:0 "孔教会"
+ SCH_monarchism_party_long:0 "孔教会"
+ SCH_fascism_party:0 "中国青年党"
+ SCH_fascism_party_long:0 "中国青年党"
+ SCH_imperialism_party:0 "右派国民党"
+ SCH_imperialism_party_long:0 "中国国民党右派"
+ SCH_futurism_party:0 "西南制药"
+ SCH_futurism_party_long:0 "西南制药"
+
+ SCH_flkmt_party:0 "国民党 - 民权派"
+ SCH_flkmt_party_long:0 "中国国民党 - 民权派"
+ SCH_lkmt_party:0 "国民党 - 民生派"
+ SCH_lkmt_party_long:0 "中国国民党 - 民生派"
+ SCH_rkmt_party:0 "国民党 - 民族派"
+ SCH_rkmt_party_long:0 "中国国民党 - 民族派"
+ SCH_frkmt_party:0 "国民党 - 邹容派"
+ SCH_frkmt_party_long:0 "中国国民党 - 邹容派"
+ SCH_huanghan_party:0 "皇汉会"
+ SCH_huanghan_party_long:0 "皇汉会"
+ SCH_nra_party:0 "国民革命军"
+ SCH_nra_party_long:0 "中国国民革命军"
+ SCH_roc_government_party:0 "大汉民国军政府"
+ SCH_roc_government_party_long:0 "大汉民国军政府"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ SCH_sichuan_government:0 "大汉四川军政府"
+ SCH_wang_youmu:0 "王右木"
+ SCH_zhu_qinglan:0 "朱庆澜"
+ SCH_xiong_kewu:0 "熊克武"
+ SCH_liu_xiang:0 "刘湘"
+ SCH_liu_wenhui:0 "刘文辉"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############
+ sch_rev.1.t:0 "成都叛乱"
+ sch_rev.1.desc:0 "“夫川人以争路与政府相抵抗，猛历进行，万死不顾。不二三月，闻天下土崩。各省次第宣告独立，吾川灿烂光华之大汉独立军政府，亦于今日告其成。大汉四川军政府之宗旨，基于世界之公理，人道主义组织共和宪法，以巩固我大汉联邦之帝国而与世罔极，所当与吾川七千万人子子孙孙共守之。”"
+ sch_rev.1.a:0 "扮演成都军政府"
+ sch_rev.1.b:0 "扮演大东帝国"
+
+ sch_rev.2.t:0 "总理选举"
+ sch_rev.2.desc:0 "[SCH.GetName]成立时的军事管制政策取得了很大的成功，如今首都及周边地区的治安状况良好，百姓的生产生活也得到了一定程度的恢复。在[SCH.GetLeader]的邀请下，我们管辖区的民选代表、社会贤达以及国民党会员前来共商国是。[SCH.GetLeader]表达了隐退之意，他希望选举出一位新的总理，自己则专注于军队建设，保护革命政权不受侵犯。在众人的商谈声中，两位德高望重、政绩颇丰的国民党干部脱颖而出，他们就是朱庆澜和吴玉章。朱庆澜曾在川军中服役过，他支持革命党人，为国民党的革命工作作出了很大的贡献，而吴玉章是国民党重要的理论家，他在成都兴办教育，秘密进行宣传鼓动工作。可以看出二人的功劳不相上下，都有资格统领[SCH.GetName]，此次选举的获胜者会是谁？"
+ sch_rev.2.a:0 "务实的改革家朱庆澜"
+ sch_rev.2.b:0 "开明的教育家吴玉章"
+
+ sch_rev.3.t:0 "成都兵变"
+ sch_rev.3.desc:0 "“师长，我们的钱哪阵发下来哦？造反那天熊司令说好了要发三个月的饷，结果现在又不发。再不发钱我们个人手头都没得几块得了，更莫说寄钱回克了！明天不发钱我们就不干了哦······”\n\n“兄弟伙些，先莫愣个大的火气，上头军饷尽倒都发不下来，我个人也没得办法给你们变出来得嘛。明儿我去城头找熊司令说，要是实在搞不到着，我跟你们一块，也不干了······”\n\n······\n\n“你们听我说，老子今天去城头找熊克武问发军饷的事，他龟儿跟老子说发不出来钱。我说‘你哪怕先只发一个月的都要得，我先得把兄弟们的心稳到起。’结果他黑起个脸跟我扯啥子要服从指挥、军队要忍耐······日妈忍耐个锤子！我跟其他几个营的营长已经商量好了，明天我们带起枪再去，讨不到就把成都城闹翻！”\n\n由于数年来帝国财政严重的亏空，四川军政府虽然成功占领了富庶的成都市，它的财政状况并不乐观。在帝国统治时期，军饷就已经不得不从原先的三个银元降到一个，再到停发，这已引发了军队极大的不满。而随着军政府的承诺化为泡影，这种不满终于演变成了大规模的哗变。驻扎在成都周边的大多数军队或是消极罢兵、原地解散，或是直接进入成都城与军政府对峙、以及抢劫。\n\n军政府正焦头烂额之际，川西边防军司令陈遐龄带精兵突然（毕竟周边已经没有巡逻部队了）出现在成都城外，向成都城发起进攻。在内外威胁下，熊克武等人不得不向东逃跑。而哗变的军队在得到陈遐龄补齐所有欠发军饷的承诺后，欣然打开了城门。"
+ sch_rev.3.a:0 "“日你妈，不发钱就滚！哪个发得起钱，老子跟倒哪个走！”"
+
+ sch_rev.4.t:0 "成都梦"
+ sch_rev.4.desc:0 "进入成都的陈遐龄自封“临时督军”，但他并没有过上几天安稳日子。成都虽然被哗变部队拱手送给了他，但城内的百姓并不接受他这个一进城就开始横征暴敛、甚至放纵军队抢劫银行财产的军头——“不然欠的饷银哪里来还呢。”没过几天，成都城里残余的革命党人和愤怒的百姓一起又发动了起义；将陈遐龄，以及那些闹事的大兵赶去了雅安。\n\n而今成都城里群龙无首，新的军政府急需一个强有力的领袖来控制军队。熊克武已经不可能再得到军队的信任，但是一时间还真找不到一个能够服众的人物。在军队、革命党与市民的联席会议的漫长争吵之后，他们最终“推举”出了刘文辉——这中间自然少不了他兄弟刘文彩的运作，但是敢说出来的都被绑去府南河喂鱼了。\n\n虽然刘文辉成为了“四川督军”，但是此时的“大汉四川军政府”已经名存实亡。成都兵变导致驻守地方的部队纷纷脱离指挥，军政府也失去了对地方的控制。知名知识分子团体“创造社”突然宣布自己改组为政党，还在乐山成功建立起自己的政权。而在川北，激进的中国青年党召集起自己的秘密民兵，占山为王。如今的刘文辉只是成都之主，但西边的陈遐龄依然对督军之位虎视眈眈······不管他们胸怀什么谋略，统一四川都是当务之急。"
+ sch_rev.4.a:0 "天府之国，再一次沦为人间地狱。"

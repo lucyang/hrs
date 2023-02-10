@@ -7,7 +7,7 @@ recruit_character = GXC_wang_heshun
 recruit_character = GXC_lei_jingtian
 
 oob = "GXC_1923"
-
+set_country_flag = is_china_nation
 
 set_technology = {
 	infantry_weapons = 1

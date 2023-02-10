@@ -1,8 +1,10 @@
 ﻿capital = 67 #辽阳
 
 recruit_character = LNG_feng_yuxiang
+recruit_character = LNG_bekku_hideo
 
 oob = "empty"
+set_country_flag = is_china_nation
 
 set_technology = {
 	infantry_weapons = 1
@@ -111,10 +113,10 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	anarchism = 14
+	anarchism = 8
 	socialism = 0
 	democratic = 56
-	neutrality = 0
+	neutrality = 6
 	monarchism = 0
 	fascism = 10
 	imperialism = 0

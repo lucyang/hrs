@@ -1,15 +1,15 @@
 characters={
-	SCH_pu_dianjun={
-		name=SCH_pu_dianjun
+	SCH_xiong_kewu={
+		name=SCH_xiong_kewu
 		portraits={
 			civilian={
-				large="gfx/leaders/CHI/Portrait_Pu_Dianjun.dds"
+				large="gfx/leaders/CHI/Portrait_Xiong_Kewu.png"
 			}
 		}
 		country_leader={
-			ideology=military_government_subtype
-			desc=SCH_pu_dianjun_desc
-			traits={ popular_figurehead }
+			ideology=provisional_government_subtype
+			desc=SCH_xiong_kewu_desc
+			traits={ revolutinary_general liberal_democratic_paragon }
 			expire="1970.9.2.1"
 		}
 	}
@@ -17,7 +17,7 @@ characters={
 		name=SCH_zhu_qinglan
 		portraits={
 			civilian={
-				large="gfx/leaders/CHI/Portrait_Zhu_Qinglan.dds"
+				large="gfx/leaders/CHI/Portrait_Zhu_Qinglan.png"
 			}
 		}
 		country_leader={
@@ -31,7 +31,7 @@ characters={
 		name=SCH_wang_youmu
 		portraits={
 			civilian={
-				large="gfx/leaders/CHI/Portrait_Wang_Youmu.dds"
+				large="gfx/leaders/CHI/Portrait_Wang_Youmu.png"
 			}
 		}
 		country_leader={
@@ -45,7 +45,7 @@ characters={
 		name=SCH_wu_yuzhang
 		portraits={
 			civilian={
-				large="gfx/leaders/CHI/Portrait_Wu_Yuzhang.dds"
+				large="gfx/leaders/CHI/Portrait_Wu_Yuzhang.png"
 			}
 		}
 		country_leader={
@@ -59,8 +59,22 @@ characters={
 		name=SCH_liu_xiang
 		portraits={
 			civilian={
-				large="gfx/leaders/CHI/Portrait_Liu_Xiang.dds"
+				large="gfx/leaders/CHI/Portrait_Liu_Xiang.png"
 			}
 		}
+	}
+	SCH_liu_wenhui = {
+		name = SCH_liu_wenhui
+		portraits = {
+			civilian = {
+				large="gfx/leaders/CHI/Portrait_Liu_Wenhui.png"
+			}
+		}
+		country_leader = {
+            ideology = military_government_subtype
+            desc = SCH_liu_wenhui_desc
+            traits = {  }
+            expire = "1976.6.24.1"
+        }
 	}
 }
