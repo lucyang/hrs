@@ -3,7 +3,7 @@ characters={
 		name=SCH_xiong_kewu
 		portraits={
 			civilian={
-				large="gfx/leaders/CHI/Portrait_Xiong_Kewu.png"
+				large="gfx/leaders/SCH/Portrait_Xiong_Kewu.png"
 			}
 		}
 		country_leader={
@@ -17,7 +17,7 @@ characters={
 		name=SCH_zhu_qinglan
 		portraits={
 			civilian={
-				large="gfx/leaders/CHI/Portrait_Zhu_Qinglan.png"
+				large="gfx/leaders/SCH/Portrait_Zhu_Qinglan.png"
 			}
 		}
 		country_leader={
@@ -31,7 +31,7 @@ characters={
 		name=SCH_wang_youmu
 		portraits={
 			civilian={
-				large="gfx/leaders/CHI/Portrait_Wang_Youmu.png"
+				large="gfx/leaders/SCH/Portrait_Wang_Youmu.png"
 			}
 		}
 		country_leader={
@@ -45,7 +45,7 @@ characters={
 		name=SCH_wu_yuzhang
 		portraits={
 			civilian={
-				large="gfx/leaders/CHI/Portrait_Wu_Yuzhang.png"
+				large="gfx/leaders/SCH/Portrait_Wu_Yuzhang.png"
 			}
 		}
 		country_leader={
@@ -59,7 +59,7 @@ characters={
 		name=SCH_liu_xiang
 		portraits={
 			civilian={
-				large="gfx/leaders/CHI/Portrait_Liu_Xiang.png"
+				large="gfx/leaders/SCH/Portrait_Liu_Xiang.png"
 			}
 		}
 	}
@@ -67,7 +67,7 @@ characters={
 		name = SCH_liu_wenhui
 		portraits = {
 			civilian = {
-				large="gfx/leaders/CHI/Portrait_Liu_Wenhui.png"
+				large="gfx/leaders/SCH/Portrait_Liu_Wenhui.png"
 			}
 		}
 		country_leader = {

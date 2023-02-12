@@ -3,7 +3,7 @@ characters = {
         name = CYA_chen_xialing
         portraits = {
             civilian = {
-                large = "gfx/leaders/Sichuan/Portrait_Chen_Xialing.png"
+                large = "gfx/leaders/CYA/Portrait_Chen_Xialing.png"
             }
         }
         country_leader = {

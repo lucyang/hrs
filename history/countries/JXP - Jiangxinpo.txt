@@ -1,6 +1,6 @@
 ﻿capital = 504 # Jiangxinpo
 
-recruit_character = JXP_deng_xiuting
+recruit_character = JXP_amakasu_masahiko
 
 oob = "empty"
 set_country_flag = is_china_nation
