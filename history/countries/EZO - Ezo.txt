@@ -1,7 +1,17 @@
-﻿capital = 33 #札幌
+﻿capital = 543 #函馆
 
-recruit_character = EZO_tawara_magoichi #俵孫一
-recruit_character = EZO_arisue_seizou #有末精三
+recruit_character = EZO_yoshino_sakuzo #吉野作造
+recruit_character = EZO_hasegawa_nyozekan #長谷川如是閑
+recruit_character = EZO_oyama_ikuo #大山郁夫
+recruit_character = EZO_katayama_sen #片山潜
+recruit_character = EZO_sasaki_soichi #佐佐木惣一
+recruit_character = EZO_minobe_tatsukichi #美濃部達吉
+recruit_character = EZO_fukuda_tokuzo #福田德三
+recruit_character = EZO_soeda_juichi #添田壽一
+recruit_character = EZO_arisue_seizou #有未精三
+
+set_country_flag = is_japan_nation
+set_country_flag = is_hokkaido_nation
 
 oob = "empty"
 
@@ -90,19 +100,19 @@ add_ideas = {
 
 set_politics = {	
 	ruling_party = democratic
-	last_election = "1919.12.15"
+	last_election = "1920.2.10"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
-	communism = 8
-	anarchism = 13
-	socialism = 0
-	democratic = 27
+	communism = 0
+	anarchism = 20
+	socialism = 27
+	democratic = 30
 	neutrality = 23
-	monarchism = 12
-	fascism = 10
-	imperialism = 7
+	monarchism = 0
+	fascism = 0
+	imperialism = 0
 	futurism = 0
 }

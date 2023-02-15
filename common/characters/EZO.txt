@@ -1,44 +1,130 @@
 characters={
+	EZO_yoshino_sakuzo={
+		name=EZO_yoshino_sakuzo
+		portraits={
+			civilian={
+				large="gfx/leaders/EZO/Portrait_Yoshino_Sakuzo.png"
+			}
+		}
+		country_leader={
+			ideology=liberalism_subtype
+			desc=EZO_yoshino_sakuzo_desc
+			traits={ popular_figurehead liberal_democratic_paragon }
+			expire="1933.3.18.1"
+		}
+	}
+	EZO_hasegawa_nyozekan={
+		name=EZO_hasegawa_nyozekan
+		portraits={
+			civilian={
+				large="gfx/leaders/EZO/Portrait_Hasegawa_Nyozekan.png"
+			}
+		}
+		#country_leader={
+		#	ideology=liberalism_subtype
+		#	desc=EZO_hasegawa_nyozekan_desc
+		#	traits={ editor compassionate_gentleman }
+		#	expire="1969.11.11.1"
+		#}
+	}
+	EZO_oyama_ikuo={
+		name=EZO_oyama_ikuo
+		portraits={
+			civilian={
+				large="gfx/leaders/EZO/Portrait_Oyama_Ikuo.png"
+			}
+		}
+		country_leader={
+			ideology=agrarian_socialism_subtype
+			desc=EZO_oyama_ikuo_desc
+			traits={ polish_peasant_champion militant_socialist }
+			expire="1955.11.30.1"
+		}
+	}
+	EZO_katayama_sen={
+		name=EZO_katayama_sen
+		portraits={
+			civilian={
+				large="gfx/leaders/EZO/Portrait_Katayama_Sen.png"
+			}
+		}
+		#country_leader={
+		#	ideology=democratic_socialism_subtype_subtype
+		#	desc=EZO_katayama_sen_desc
+		#	traits={ comintern_workhorse voice_of_restraint }
+		#	expire="1944.6.17.1"
+		#}
+	}
+	EZO_sasaki_soichi={
+		name=EZO_sasaki_soichi
+		portraits={
+			civilian={
+				large="gfx/leaders/EZO/Portrait_Sasaki_Soichi.png"
+			}
+		}
+		#country_leader={
+		#	ideology=national_liberalism_subtype
+		#	desc=EZO_sasaki_soichi_desc
+		#	traits={ liberal_professor silent_workhorse }
+		#	expire="1965.8.4.1"
+		#}
+	}
+	EZO_minobe_tatsukichi={
+		name=EZO_minobe_tatsukichi
+		portraits={
+			civilian={
+				large="gfx/leaders/EZO/Portrait_Minobe_Tatsukichi.png"
+			}
+		}
+		#country_leader={
+		#	ideology=national_conservatism_subtype
+		#	desc=EZO_minobe_tatsukichi_desc
+		#	traits={ SWI_conservative_democrat constitutional_philosopher }
+		#	expire="1948.5.23.1"
+		#}
+	}
+	EZO_fukuda_tokuzo={
+		name=EZO_fukuda_tokuzo
+		portraits={
+			civilian={
+				large="gfx/leaders/EZO/Portrait_Fukuda_Tokuzo.png"
+			}
+		}
+		country_leader={
+			ideology=katheder_socialism_subtype
+			desc=EZO_fukuda_tokuzo_desc
+			traits={ economist moderate_reformist }
+			expire="1930.5.8.1"
+		}
+	}
+	EZO_soeda_juichi={
+		name=EZO_soeda_juichi
+		portraits={
+			civilian={
+				large="gfx/leaders/EZO/Portrait_Soeda_Juichi.png"
+			}
+		}
+		country_leader={
+			ideology=guided_democracy_subtype
+			desc=EZO_soeda_juichi_desc
+			traits={ conservative_grandee genial_anti_revolutionary }
+			expire="1929.7.4.1"
+		}
+	}
 	EZO_arisue_seizou={
 		name=EZO_arisue_seizou
 		portraits={
-			civilian={
+			army={
 				large="gfx/leaders/EZO/Portrait_Arisue_Seizou.png"
 			}
 		}
-		country_leader={
-			ideology=military_government_subtype
-			desc=EZO_arisue_seizou_desc
-			traits={ career_officer hardened_officer }
-			expire="1992.2.14.1"
-		}
-	}
-	EZO_tawara_magoichi={
-		name=EZO_tawara_magoichi
-		portraits={
-			civilian={
-				large="gfx/leaders/EZO/Portrait_Tawara_Magoichi.png"
-			}
-		}
-		country_leader={
-			ideology=conservatism_subtype
-			desc=EZO_tawara_magoichi_desc
-			traits={ technocrat railroad_enthusiast }
-			expire="1944.6.17.1"
-		}
-	}
-	EZO_JPLA={
-		name=EZO_JPLA
-		portraits={
-			civilian={
-				large="gfx/leaders/Portrait_JAP_provisional_government.dds"
-			}
-		}
-		country_leader={
-			ideology=revolutionary_front_subtype
-			desc=EZO_JPLA_desc
-			traits={ }
-			expire="1976.1.1.1"
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
 		}
 	}
 }

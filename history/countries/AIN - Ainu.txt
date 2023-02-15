@@ -1,9 +1,11 @@
 ﻿capital = 545 #旭川
 
-recruit_character = AIN_iboshi_hokuto #違星北斗
-recruit_character = AIN_yaeko_batchelor #向井八重子/バチェラー八重子
+recruit_character = AIN_kawamura_kaneto #川村カ子ト
 
 oob = "empty"
+
+set_country_flag = is_japan_nation
+set_country_flag = is_hokkaido_nation
 
 set_technology = {
 	infantry_weapons = 1

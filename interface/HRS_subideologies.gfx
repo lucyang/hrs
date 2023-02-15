@@ -183,6 +183,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/socialism_group/religious_socialism_subtype.dds"
 	}
 
+	spriteType = {
+		name = "GFX_ideology_katheder_socialism_subtype"
+		texturefile = "gfx/interface/ideologies/socialism_group/katheder_socialism_subtype.dds"
+	}
+
 	### Democrats Group ###
 	spriteType = {
 		name = "GFX_ideology_democratic_group"

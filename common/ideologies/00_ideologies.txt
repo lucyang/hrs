@@ -105,6 +105,7 @@ ideologies = {
 			social_democratic_subtype = { can_be_randomly_selected = no }
 			state_socialism_subtype = { can_be_randomly_selected = no }
 			guild_socialism_subtype = { can_be_randomly_selected = no }
+			katheder_socialism_subtype = { can_be_randomly_selected = no }
 
 			agrarianism_subtype = { can_be_randomly_selected = no }
 			new_tridemism_subtype = { can_be_randomly_selected = no }
