@@ -8,10 +8,11 @@ state={
 		owner = IMC
 		add_core_of = IMC
 
-		victory_points = { 4177 3 }
+		victory_points = { 4177 5 }
 		
 		buildings = {
 			infrastructure = 3
+			industrial_complex = 2
 			4177 = {
 				naval_base = 1
 			}

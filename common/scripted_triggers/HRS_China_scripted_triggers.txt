@@ -406,6 +406,7 @@ is_hainan_state = {
 		state = 386 #琼州
 		state = 389 #崖州
 		state = 383 #儋州
+		state = 658 #海南黎族苗族自治州
 	}
 }
 
@@ -552,6 +553,7 @@ is_yunnan_state = {
 		state = 374 #西双版纳
 		state = 504 #孟拱/江心坡
 		state = 557 #野人山
+		state = 571 #莱州
 		state = 638 #澜沧
 	}
 }
@@ -825,6 +827,7 @@ is_china_state = {
 		state = 386 #琼州
 		state = 389 #崖州
 		state = 383 #儋州
+		state = 658 #海南黎族苗族自治州
  		#辽东
 		state = 60 #抚顺
 		state = 64 #锦州
@@ -916,6 +919,8 @@ is_china_state = {
 		state = 345 #文山
 		state = 374 #西双版纳
 		state = 504 #孟拱/江心坡
+		state = 557 #野人山
+		state = 571 #莱州
 		state = 638 #澜沧
  		#甘肃
 		state = 31 #嘉峪关
@@ -1167,6 +1172,7 @@ is_any_china_state = {
 		state = 386 #琼州
 		state = 389 #崖州
 		state = 383 #儋州
+		state = 658 #海南黎族苗族自治州
  		#辽东
 		state = 60 #抚顺
 		state = 64 #锦州
@@ -1258,6 +1264,8 @@ is_any_china_state = {
 		state = 345 #文山
 		state = 374 #西双版纳
 		state = 504 #孟拱/江心坡
+		state = 557 #野人山
+		state = 571 #莱州
 		state = 638 #澜沧
  		#甘肃
 		state = 31 #嘉峪关
@@ -1449,6 +1457,7 @@ can_form_huanan = {
 		owns_state = 386 #琼州
 		owns_state = 389 #崖州
 		owns_state = 383 #儋州
+		owns_state = 658 #海南黎族苗族自治州
     }
 }
 

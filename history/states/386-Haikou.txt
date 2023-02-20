@@ -11,7 +11,7 @@ state={
 		owner = IMC
 		add_core_of = IMC
 
-		victory_points = { 4225 3 }
+		victory_points = { 4225 3 } #海口
 
 		buildings = {
 			infrastructure = 3
@@ -19,7 +19,7 @@ state={
 			dockyard = 1
 			air_base = 1
 			4225 = {
-				naval_base = 4 #洋浦�?
+				naval_base = 4 #洋浦港
 				coastal_bunker = 1
 			}
 		}

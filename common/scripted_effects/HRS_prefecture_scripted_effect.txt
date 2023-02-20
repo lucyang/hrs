@@ -69,7 +69,7 @@ HRS_setup_prefectures = {
 	306 = { set_variable = { prefecture = 15 } } #衡阳
 	313 = { set_variable = { prefecture = 15 } } #永州
 	314 = { set_variable = { prefecture = 15 } } #郴州
-	655 = { set_variable = { prefecture = 15 } } #郴州
+	655 = { set_variable = { prefecture = 15 } } #沅陵
 	#江西
 	260 = { set_variable = { prefecture = 16 } } #景德镇
 	264 = { set_variable = { prefecture = 16 } } #九江
@@ -216,6 +216,7 @@ HRS_setup_prefectures = {
 	386 = { set_variable = { prefecture = 26 } } #琼州
 	389 = { set_variable = { prefecture = 26 } } #崖州
 	383 = { set_variable = { prefecture = 26 } } #儋州
+	658 = { set_variable = { prefecture = 26 } } #海南黎族苗族自治州
 	#辽东
 	60 = { set_variable = { prefecture = 27 } } #抚顺
 	64 = { set_variable = { prefecture = 27 } } #锦州
@@ -305,6 +306,7 @@ HRS_setup_prefectures = {
 	374 = { set_variable = { prefecture = 33 } } #西双版纳
 	504 = { set_variable = { prefecture = 33 } } #孟拱/江心坡
 	557 = { set_variable = { prefecture = 33 } } #野人山
+	571 = { set_variable = { prefecture = 33 } } #澜沧
 	638 = { set_variable = { prefecture = 33 } } #澜沧
 	#甘肃
 	31 = { set_variable = { prefecture = 34 } } #嘉峪关

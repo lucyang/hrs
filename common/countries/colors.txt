@@ -192,6 +192,14 @@ FEM = { # 潮汕女工
 	color = rgb { 197 19 131 }
 	color_ui = rgb { 197 19 131 }
 }
+SZH = { # 粤海公社
+	color = rgb { 46 139 87 }
+	color_ui = rgb { 46 139 87 }
+}
+GND = { # 广东特区
+	color = rgb { 130 37 0 }
+	color_ui = rgb { 130 37 0 }
+}
 ##############
 ### HAINAN ###
 ##############

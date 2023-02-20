@@ -1,0 +1,80 @@
+characters={
+	FEM_shen_peizhen={
+		name=FEM_shen_peizhen
+		portraits={
+			civilian={
+				large="gfx/leaders/FEM/Portrait_Shen_Peizhen.png"
+			}
+			army={
+				large="gfx/leaders/FEM/Portrait_Shen_Peizhen.png"
+			}
+		}
+		country_leader={
+			ideology=military_government_subtype
+			desc=FEM_shen_peizhen_desc
+			traits={ womens_rights_activist silent_workhorse }
+			expire="1935.1.1.1"
+		}
+		corps_commander={
+			traits={ irregulars_officer }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	FEM_tang_qunying={
+		name=FEM_tang_qunying
+		portraits={
+			civilian={
+				large="gfx/leaders/FEM/Portrait_Tang_Qunying.png"
+			}
+			army={
+				large="gfx/leaders/FEM/Portrait_Tang_Qunying.png"
+			}
+		}
+		country_leader={
+			ideology=socialism_subtype
+			desc=FEM_tang_qunying_desc
+			traits={ womens_rights_activist born_agitator }
+			expire="1937.6.3.1"
+		}
+		corps_commander={
+			traits={ irregulars_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	FEM_qiu_jin={
+		name=FEM_qiu_jin
+		portraits={
+			civilian={
+				large="gfx/leaders/FEM/Portrait_Qiu_Jin.png"
+			}
+		}
+		country_leader={
+			ideology=national_liberalism_subtype
+			desc=FEM_qiu_jin_desc
+			traits={ FEM_heroine feminist_ultranationalist }
+			expire="1930.6.3.1"
+		}
+	}
+	FEM_yu_zhezhen={
+		name=FEM_yu_zhezhen
+		portraits={
+			civilian={
+				large="gfx/leaders/FEM/Portrait_Yu_Zhezhen.png"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_front_subtype
+			desc=FEM_yu_zhezhen_desc
+			traits={ red_suffragette voice_of_restraint }
+			expire="1950.1.1.1"
+		}
+	}
+}

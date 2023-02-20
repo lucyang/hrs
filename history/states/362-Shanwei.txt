@@ -8,7 +8,9 @@ state={
 		owner = IMC
 		add_core_of = IMC
 
-		victory_points = { 964 5 }
+		victory_points = { 4167 5 }
+		victory_points = { 4168 3 }
+		victory_points = { 964 1 }
 		
 		buildings = {
 			infrastructure = 3

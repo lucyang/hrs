@@ -89,13 +89,12 @@ IMJ_collapse_coup = {
 			transfer_state = 6
 			transfer_state = 28
 			transfer_state = 633
-			transfer_state = 634
 			#load_oob = "KRF_CivilWar"
 		}
-		#SKL = { 
-		#	transfer_state = 634
-		#	load_oob = "SKL_CivilWar"
-		#}
+		SKL = { 
+			transfer_state = 634
+			load_oob = "SKL_CivilWar"
+		}
 		IMJ = {
 			add_political_power = 50
 			#load_oob = "IMJ_CivilWar"

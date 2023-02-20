@@ -1,0 +1,16 @@
+characters={
+	SZH_liu_shifu={
+		name=SZH_liu_shifu
+		portraits={
+			civilian={
+				large="gfx/leaders/FEM/Portrait_Liu_Shifu.png"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialism_subtype
+			desc=SZH_liu_shifu_desc
+			traits={ womens_rights_activist silent_workhorse }
+			expire="1935.1.1.1"
+		}
+	}
+}

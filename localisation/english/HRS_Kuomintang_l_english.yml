@@ -1,0 +1,89 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ KMT_communism:0 "国民革命政府"
+ KMT_communism_DEF:0 "中华民国国民革命政府"
+ KMT_anarchism:0 "国民革命政府"
+ KMT_anarchism_DEF:0 "中华民国国民革命政府"
+ KMT_socialism:0 "国民革命政府"
+ KMT_socialism_DEF:0 "中华民国国民革命政府"
+ KMT_democratic:0 "国民革命政府"
+ KMT_democratic_DEF:0 "中华民国国民革命政府"
+ KMT_neutrality:0 "国民革命政府"
+ KMT_neutrality_DEF:0 "中华民国国民革命政府"
+ KMT_monarchism:0 "国民革命政府"
+ KMT_monarchism_DEF:0 "中华民国国民革命政府"
+ KMT_fascism:0 "国民革命政府"
+ KMT_fascism_DEF:0 "中华民国国民革命政府"
+ KMT_imperialism:0 "国民革命政府"
+ KMT_imperialism_DEF:0 "中华民国国民革命政府"
+ KMT_futurism:0 "国民革命政府"
+ KMT_futurism_DEF:0 "中华民国国民革命政府"
+ KMT_communism_ADJ:0 "国民革命政府"
+ KMT_anarchism_ADJ:0 "国民革命政府"
+ KMT_socialism_ADJ:0 "国民革命政府"
+ KMT_democratic_ADJ:0 "国民革命政府"
+ KMT_neutrality_ADJ:0 "国民革命政府"
+ KMT_monarchism_ADJ:0 "国民革命政府"
+ KMT_fascism_ADJ:0 "国民革命政府"
+ KMT_imperialism_ADJ:0 "国民革命政府"
+ KMT_futurism_ADJ:0 "国民革命政府"
+ KMT:0 "国民革命政府"
+ KMT_DEF:0 "国民革命政府"
+ KMT_ADJ:0 "国民革命政府"
+ #############
+ ## PARTIES ##
+ #############
+ KMT_communism_party:0 "临时行动委员会"
+ KMT_communism_party_long:0 "中国革命党 - 临时行动委员会"
+ KMT_anarchism_party:0 "三民主义同志联合会"
+ KMT_anarchism_party_long:0 "中国革命党 - 三民主义同志联合会"
+ KMT_socialism_party:0 "中国革命党 - 左派"
+ KMT_socialism_party_long:0 "中国革命党 - 左派"
+ KMT_democratic_party:0 "中国革命党 - 中间派"
+ KMT_democratic_party_long:0 "中国革命党 - 中间派"
+ KMT_neutrality_party:0 "国民革命军"
+ KMT_neutrality_party_long:0 "国民革命军"
+ KMT_monarchism_party:0 "皇汉会"
+ KMT_monarchism_party_long:0 "皇汉会"
+ KMT_fascism_party:0 "中国革命党 - 民族派"
+ KMT_fascism_party_long:0 "中国革命党 - 民族派"
+ KMT_imperialism_party:0 "中国革命党 - 泛亚派"
+ KMT_imperialism_party_long:0 "中国革命党 - 泛亚派"
+ KMT_futurism_party:0 "广州商团"
+ KMT_futurism_party_long:0 "广州商团"
+
+ KMT_left_party:0 "左派同盟"
+ KMT_left_party_long:0 "中国革命党 - 左派同盟"
+ KMT_centre_left_party:0 "中国革命党 - 改组派"
+ KMT_centre_left_party_long:0 "中国革命党 - 改组派"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ KMT_tan_pingshan:0 "谭平山"
+ KMT_gan_naiguang:0 "甘乃光"
+ KMT_zhu_zhixin:0 "朱执信"
+ KMT_zhu_zhixin_desc:0 "§Y出生日期§!：§G1885年§!\n§Y出生地点§!：§G大东帝国南海道番禺县§!\n\n“以文章发挥真理兮，君实为国民之导师。”\n\n朱执信，国民革命政府番禺人，明治十七年（1883年）生，中华革命党的建党元老之一。在1905年退出社会党后的十余年间，朱执信展现了他文武双全的才能：他既能在唐土各大报刊上发表富有煽动性的政论文章，批判社会党的软弱与改良倾向；也能暗中联合国民革命政府与南洋各地的会党与革命派，谋划国民革命政府近年来的多次起义。\n\n作为孙中山的亲密战友，他长年在左右充当其秘书，被视为孙中山的文胆：在经历虎门事件的九死一生与果断决策后，他在党内的声誉更上一层楼，促使孙中山最终决定由他继承总理之位。不过他的极左倾向也使他有不小的争议，他的阐释下的三民主义有了几分马杜赫主义的色彩，党内极右翼甚至指责他已经背叛了三民主义。不过他的支持者认为，他将领导一场更彻底的、将社会革命与政治革命同步进行的国民革命。"
+ KMT_wang_jingwei:0 "汪精卫"
+ KMT_liao_zhongkai:0 "廖仲恺"
+ KMT_hu_hanmin:0 "胡汉民"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############
+ kmt.1.t:0 "惠州叛乱"
+ kmt.1.desc:0 "在帝国中心地带的武汉发生叛乱后，国民革命政府乱党也开始活跃起来，其中最大的威胁便是陈炯明领导的“循军”。这支武装力量自称为国民革命政府民间的自卫警备团，但实际上杂揉了叛逃的帝国正规军、殖民地守备队以及大量民兵，与危险的激进分子彭湃相互勾结，长期潜伏在海陆丰一带。陈炯明依仗帝国议员的身份长期包庇“循军”，还接受法英等境外势力的资金援助。如今，随着帝国略现颓势，陈炯明立刻露出了叛卖国家的丑陋爪牙。"
+ kmt.1.a:0 "命令周边部队镇压这股叛军！"
+
+ kmt.2.t:0 "国民革命政府沦陷"
+ kmt.2.desc:0 "随着陈炯明部攻陷惠州，国民革命政府化州、南海、顺德、三水等各地都发生了军民起义，唯余广州尚未有丝毫动摇。然而国民革命政府道最有影响力的政治团体广州商会，竟然劝说国民革命政府总督投向革命军一方。国民革命政府的士绅阶层开始策划“国民革命政府自保”，甚至有人抬出了“大粤民国”的旗帜，要求国民革命政府独立。几天后，“中华民国国民革命政府”成立，发表了国民革命政府自立自治的宣言：\n\n“夫吾粤，东接闽，西连桂，北枕五岭，南滨大洋，风俗语言嗜好与中原异，固天然独立国也。秦之赵佗，隋之冯盎、邓文进，元之何真，皆乘变乱时代，崛起一方，安辑人民，巩卫疆圉。今兵力强厚，独立之局告成矣，所以谋善后者，何止万端！……国民革命政府省，国民革命政府人之国民革命政府，斯言闻之熟矣。”\n\n自治派与革命派的矛盾已经出现，我们也许可以抓住时机向他们发起突袭，亦或者是静观其变？"
+ kmt.2.a:0 "不过是群年轻人的政治模仿秀"
+ kmt.2.b:0 "任何反叛行径都应得到惩处！"

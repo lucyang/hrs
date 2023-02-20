@@ -57,9 +57,11 @@ XON = "countries/Xong.txt"
 CBS = "countries/China Buddhist State.txt"
 ### CHINA/SOUTH ###
 # GUANGDONG #
-KMT = "countries/Guangdong.txt"
+KMT = "countries/Kuomintang.txt"
 FEM = "countries/Feminists.txt"
 HLF = "countries/Hailufeng.txt"
+SZH = "countries/Shenzhen.txt"
+GND = "countries/Guangdong.txt"
 # GUANGXI #
 GXC = "countries/Guangxi.txt"
 # HAINAN #

@@ -1,0 +1,16 @@
+characters = {
+	GND_zhang_dongsun = {
+		name = GND_zhang_dongsun
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GND/Portrait_Zhang_Dongsun.png"
+			}
+		}
+		country_leader = {
+			ideology=guild_socialism_subtype
+			desc = GND_zhang_dongsun_desc
+			traits = { social_reformer gentle_scholar }
+			expire = "1973.6.2.1"
+		}
+	}
+}

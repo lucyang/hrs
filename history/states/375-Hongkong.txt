@@ -8,10 +8,10 @@ state={
 		owner = IMC
 		add_core_of = IMC
 
-		victory_points = { 4290 10 }
+		victory_points = { 4290 5 }
 		
 		buildings = {
-			infrastructure = 5
+			infrastructure = 4
 			industrial_complex = 3
 			dockyard = 2
 			4290 = {
@@ -22,6 +22,6 @@ state={
 		
 	}
 	manpower=864117	
-	state_category = metropolis
+	state_category = large_city
 	local_supplies = 0.0
 }

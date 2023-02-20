@@ -8,7 +8,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=mariateguism_subtype
+			ideology=leninism_subtype
 			desc=HLF_peng_pai_desc
 			traits={ militant_socialist leader_of_the_agrarian_union }
 			expire="1950.1.1.1"

@@ -1,0 +1,71 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ SZH_communism:0 "粤海公社"
+ SZH_communism_DEF:0 "粤海公社"
+ SZH_anarchism:0 "粤海公社"
+ SZH_anarchism_DEF:0 "粤海公社"
+ SZH_socialism:0 "粤海公社"
+ SZH_socialism_DEF:0 "粤海公社"
+ SZH_democratic:0 "粤海公社"
+ SZH_democratic_DEF:0 "粤海公社"
+ SZH_neutrality:0 "粤海公社"
+ SZH_neutrality_DEF:0 "粤海公社"
+ SZH_monarchism:0 "粤海公社"
+ SZH_monarchism_DEF:0 "粤海公社"
+ SZH_fascism:0 "粤海公社"
+ SZH_fascism_DEF:0 "粤海公社"
+ SZH_imperialism:0 "粤海公社"
+ SZH_imperialism_DEF:0 "粤海公社"
+ SZH_futurism:0 "粤海公社"
+ SZH_futurism_DEF:0 "粤海公社"
+ SZH_communism_ADJ:0 "粤海公社"
+ SZH_anarchism_ADJ:0 "粤海公社"
+ SZH_socialism_ADJ:0 "粤海公社"
+ SZH_democratic_ADJ:0 "粤海公社"
+ SZH_neutrality_ADJ:0 "粤海公社"
+ SZH_monarchism_ADJ:0 "粤海公社"
+ SZH_fascism_ADJ:0 "粤海公社"
+ SZH_imperialism_ADJ:0 "粤海公社"
+ SZH_futurism_ADJ:0 "粤海公社"
+ SZH:0 "粤海公社"
+ SZH_DEF:0 "粤海公社"
+ SZH_ADJ:0 "粤海公社"
+ #############
+ ## PARTIES ##
+ #############
+ SZH_communism_party:0 "社民农工党"
+ SZH_communism_party_long:0 "中国社会民主农工党"
+ SZH_anarchism_party:0 "无政府共产主义同志社"
+ SZH_anarchism_party_long:0 "无政府共产主义同志社"
+ SZH_socialism_party:0 "中华海员工业联合总会"
+ SZH_socialism_party_long:0 "中华海员工业联合总会"
+ SZH_democratic_party:0 "中华革命党 - 民权派"
+ SZH_democratic_party_long:0 "中华革命党 - 民权派"
+ SZH_neutrality_party:0 "粤海革命起义军"
+ SZH_neutrality_party_long:0 "粤海革命起义军"
+ SZH_monarchism_party:0 "皇汉会"
+ SZH_monarchism_party_long:0 "皇汉会"
+ SZH_fascism_party:0 "中华革命党 - 民族派"
+ SZH_fascism_party_long:0 "中华革命党 - 民族派"
+ SZH_imperialism_party:0 "中华革命党 - 泛亚派"
+ SZH_imperialism_party_long:0 "中华革命党 - 泛亚派"
+ SZH_futurism_party:0 "广州商团"
+ SZH_futurism_party_long:0 "广州商团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ SZH_liu_shifu:0 "刘师复"
+ SZH_liu_shifu_desc:0 "§Y出生日期§!：§G1884年§!\n§Y出生地点§!：§G大东帝国粤海道香山县§!\n\n作为一名忧国忧民的革命家，§Y刘师复§!的前半生都便是一部与暴政和权力斗争的革命史。刘师复20岁时赴欧留学，期间与一位俄国无政府主义者发生接触，受其影响开始钻研无政府主义理论。此后刘师复与§Y陈炯明§!等人模仿§R俄国民粹派§!，以暗杀帝国要人的方式进行革命运动。\n\n1910年的大逆事件后，暗杀组织遭到帝国警察查禁，刘师复逃到广州附近的一座小城潜伏起来。几年后，刘师复响应大杉荣的号召，在上海成立了全国性的无政府主义组织——§G无政府共产主义同志社§!。\n\n一次偶然的机会，刘师复来到广东省新安县探望工友，却有意外的收获：当广州市民因§R保卫现代生活§!而忙于反革命事业时，这里的“外地人”顶着守法好公民的谩骂，走上街头争取自己的利益。作为广东社会的最边缘群体，他们迸发出了前所未有的革命力量。\n\n刘师复敏锐地察觉到了这里的革命潜力，他决心以此为基地培养无政府主义力量。当内战爆发后，刘师复指挥的民兵迅速控制了宝安县，支援了邻县的总罢工斗争。如今§G粤海公社§!屹立在南海之滨，向全世界昭告着无政府主义从未消失，也绝不会止息。"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

@@ -1,14 +1,10 @@
-﻿capital = 355 #Guangzhou
+﻿capital = 353 #惠州
 
 oob = "empty"
 
-recruit_character = KMT_sun_zhongshan
-recruit_character = KMT_old_sun_zhongshan
 recruit_character = KMT_wang_jingwei
-recruit_character = KMT_chen_jiongming
 recruit_character = KMT_zhu_zhixin
 recruit_character = KMT_hu_hanmin
-recruit_character = KMT_kmt_government
 
 set_country_flag = is_china_nation
 
@@ -43,12 +39,10 @@ if = {
 		early_ship_hull_cruiser = 1
 		mtg_transport = 1
 		coastal_defense_ships = 1
-		#basic_secondary_battery = 1
 		basic_depth_charges = 1
 		basic_cruiser_armor_scheme = 1
 		cruiser_submarines = 1
 	}
-	#set_naval_oob = "KMT_1923_naval"
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -59,7 +53,6 @@ if = {
 		early_heavy_cruiser = 1
 		transport = 1
 	}
-	#set_naval_oob = "KMT_1923_naval_legacy"
 }
 
 if = {
@@ -87,20 +80,20 @@ add_ideas = {
 }
 
 set_politics = {	
-	ruling_party = neutrality
-	last_election = "1923.1.1"
+	ruling_party = democratic
+	last_election = "1920.5.20"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
-	communism = 3
-	anarchism = 7
-	socialism = 19
-	democratic = 20
-	neutrality = 26
+	communism = 0
+	anarchism = 12
+	socialism = 35
+	democratic = 37
+	neutrality = 7
 	monarchism = 0
-	fascism = 18
+	fascism = 10
 	imperialism = 0
-	futurism = 7
+	futurism = 0
 }

@@ -13,7 +13,7 @@ state={
 		buildings = {
 			infrastructure = 3
 			4126 = {
-				naval_base = 1 #潮洲�?
+				naval_base = 1 #潮洲港
 			}
 		}
 	}

@@ -56,7 +56,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = socialism
 	last_election = "1920.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -65,8 +65,8 @@ set_politics = {
 set_popularities = {
 	communism = 29
 	anarchism = 21
-	socialism = 24
-	democratic = 26
+	socialism = 44
+	democratic = 6
 	neutrality = 0
 	monarchism = 0
 	fascism = 0

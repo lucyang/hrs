@@ -354,10 +354,6 @@ HRS_debug_tool_cataegory = {
 				transfer_state_to = CHI
 			}
 			every_state = {
-				limit = { is_guangdong_state = yes }
-				transfer_state_to = KMT
-			}
-			every_state = {
 				limit = { is_yunnan_state = yes }
 				transfer_state_to = YUN
 			}
@@ -603,8 +599,36 @@ HRS_debug_tool_cataegory = {
 				add_state_core = 655
 			}
 			# 广东
+			every_state = {
+				limit = { is_guangdong_state = yes }
+				transfer_state_to = GND
+				add_core_of = GND
+			}
+			KMT = {
+				transfer_state = 340 #梅州
+				add_state_core = 340
+				transfer_state = 343 #河源
+				add_state_core = 343		
+				transfer_state = 353 #惠州
+				add_state_core = 353
+			}
+			FEM = {
+				transfer_state = 357 #揭阳
+				add_state_core = 357
+				transfer_state = 358 #汕头
+				add_state_core = 358
+			}
 			HLF = {
 				transfer_state = 362 #汕尾
+				add_state_core = 362
+			}
+			SZH = {
+				transfer_state = 367 #东莞
+				add_state_core = 367
+				transfer_state = 369 #深圳
+				add_state_core = 369
+				transfer_state = 375 #香港
+				add_state_core = 375
 			}
 			# 云南
 			JXP = {
@@ -753,16 +777,21 @@ HRS_debug_tool_cataegory = {
 				transfer_state = 6
 				transfer_state = 28
 				transfer_state = 633
-				transfer_state = 634
 				#load_oob = "KRF_CivilWar"
 			}
-			#SKL = { 
-			#	transfer_state = 634
-			#	load_oob = "SKL_CivilWar"
-			#}
-			IMJ = {
-				add_political_power = 50
-				#load_oob = "IMJ_CivilWar"
+			SKL = { 
+				transfer_state = 634
+				load_oob = "SKL_CivilWar"
+			}
+			EZO = {
+				transfer_state = 33
+				transfer_state = 543
+				transfer_state = 544
+			}
+			AIN = {
+				transfer_state = 28
+				transfer_state = 545
+				transfer_state = 546
 			}
 			hidden_effect = {
 				every_state = {
@@ -1204,15 +1233,15 @@ HRS_debug_tool_cataegory = {
 		complete_effect = {
 			set_global_flag = CHI_Civil_War_Begins
 			HMG = {
-				set_politics = { ruling_party = communism }
+				set_politics = { ruling_party = anarchism }
 				set_capital = { state = 258 } #常德
 				add_popularity = {
 					ideology = communism
-					popularity = 0.20
+					popularity = 0.15
 				}
 				add_popularity = {
 					ideology = anarchism
-					popularity = 0.15
+					popularity = 0.20
 				}
 			}
 			MAO = {
