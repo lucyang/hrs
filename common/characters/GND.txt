@@ -13,4 +13,32 @@ characters = {
 			expire = "1973.6.2.1"
 		}
 	}
+	GND_kang_youwei = {
+		name = IMC_kang_youwei
+		portraits = {
+			civilian = {
+				large="gfx/leaders/IMC/Portrait_Kang_Youwei.png"
+			}
+		}
+		country_leader = {
+			ideology=confucian_capitalism_subtype
+			desc = IMC_kang_youwei_desc
+			traits = { staunch_constitutionalist camarilla_leader }
+			expire = "1927.3.31.1"
+		}
+	}
+	GND_lu_rongting = {
+		name = GND_lu_rongting
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GND/Portrait_Lu_Rongting.png"
+			}
+		}
+		country_leader = {
+			ideology=military_government_subtype
+			desc = GND_lu_rongting_desc
+			traits = { conservative_grandee war_industrialist }
+			expire = "1928.11.6.1"
+		}
+	}
 }

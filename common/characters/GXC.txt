@@ -25,7 +25,7 @@ characters={
 		name=GXC_lei_jingtian
 		portraits={
 			civilian={
-				large="gfx/leaders/CHI/Portrait_Lei_Jingtian.dds"
+				large="gfx/leaders/GXC/Portrait_Lei_Jingtian.png"
 			}
 		}
 		country_leader={
@@ -39,7 +39,7 @@ characters={
 		name=GXC_wei_baqun
 		portraits={
 			civilian={
-				large="gfx/leaders/CHI/Portrait_Wei_Baqun.dds"
+				large="gfx/leaders/GXC/Portrait_Wei_Baqun.png"
 			}
 		}
 		country_leader={

@@ -1,11 +1,9 @@
-﻿capital = 355 #广州
+﻿capital = 191 #阜阳
 
 oob = "empty"
 set_country_flag = is_china_nation
 
-recruit_character = GND_kang_youwei
-recruit_character = GND_lu_rongting
-recruit_character = GND_zhang_dongsun
+recruit_character = ANH_bandit
 
 set_technology = {
 	infantry_weapons = 1
@@ -55,21 +53,21 @@ if = {
 }
 
 set_politics = {
-	ruling_party = monarchism
+	ruling_party = neutrality
 	last_election = "1920.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	communism = 0
-	anarchism = 5
-	socialism = 17
-	democratic = 6
-	neutrality = 26
-	monarchism = 32
-	fascism = 4
-	imperialism = 10
+	communism = 4
+	anarchism = 6
+	socialism = 0
+	democratic = 0
+	neutrality = 90
+	monarchism = 0
+	fascism = 0
+	imperialism = 0
 	futurism = 0
 }
 
@@ -79,10 +77,10 @@ add_ideas = {
 	civilian_economy
 }
 add_ideas = {
-	country_development3
-	country_tech3
+	country_development1
+	country_tech2
 	market_economy
-	unitary_state2
+	anarchist_commune
 }
 
 

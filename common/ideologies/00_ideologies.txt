@@ -211,7 +211,6 @@ ideologies = {
 			competitive_authoritarianism_subtype = { can_be_randomly_selected = no }			
 			development_authoritarianism_subtype = { can_be_randomly_selected = no }			
 			guided_democracy_subtype = { can_be_randomly_selected = no }
-			confucian_capitalism_subtype = { can_be_randomly_selected = no }
 			ilminism_subtype = { can_be_randomly_selected = no }
 
 			warlordism_subtype = { can_be_randomly_selected = no }
@@ -262,6 +261,7 @@ ideologies = {
 
 			theocratic_state_subtype = { can_be_randomly_selected = no }
 			fundamentalism_subtype = { can_be_randomly_selected = no }
+			confucian_capitalism_subtype = { can_be_randomly_selected = no }
 			christian_state_subtype = { can_be_randomly_selected = no }
 			christian_republic_subtype = { can_be_randomly_selected = no }
 			islamic_state_subtype = { can_be_randomly_selected = no }

@@ -51,7 +51,7 @@ characters={
 		country_leader={
 			ideology=fundamentalism_subtype
 			desc=IMC_kang_youwei_desc
-			traits={  }
+			traits={ staunch_constitutionalist camarilla_leader }
 			expire="1927.3.31.1"
 		}
 	}

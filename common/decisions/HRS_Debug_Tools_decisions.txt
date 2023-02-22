@@ -386,6 +386,13 @@ HRS_debug_tool_cataegory = {
 				transfer_state = 135 #玉树
 				add_state_core = 135
 			}
+			# 安徽
+			ANH = {
+				transfer_state = 184 #亳州
+				add_state_core = 184
+				transfer_state = 191 #阜阳
+				add_state_core = 191
+			}
 			# 绥远/内蒙古
 			SYN = {
 				transfer_state = 57 #包头
