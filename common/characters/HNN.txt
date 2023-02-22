@@ -13,7 +13,7 @@ characters={
 			expire="1971.4.26.1"
 		}
 	}
-	 HNN_chen_shaokuan={
+	HNN_chen_shaokuan={
 		name= HNN_chen_shaokuan
 		portraits={
 			civilian={

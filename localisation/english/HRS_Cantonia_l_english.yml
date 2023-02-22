@@ -1,0 +1,71 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ CAT_communism:0 "大粤民国"
+ CAT_communism_DEF:0 "大粤民国临时政府"
+ CAT_anarchism:0 "大粤民国"
+ CAT_anarchism_DEF:0 "大粤民国临时政府"
+ CAT_socialism:0 "大粤民国"
+ CAT_socialism_DEF:0 "大粤民国临时政府"
+ CAT_democratic:0 "大粤民国"
+ CAT_democratic_DEF:0 "大粤民国临时政府"
+ CAT_neutrality:0 "大粤民国"
+ CAT_neutrality_DEF:0 "大粤民国临时政府"
+ CAT_monarchism:0 "大粤民国"
+ CAT_monarchism_DEF:0 "大粤民国临时政府"
+ CAT_fascism:0 "大粤民国"
+ CAT_fascism_DEF:0 "大粤民国临时政府"
+ CAT_imperialism:0 "大粤民国"
+ CAT_imperialism_DEF:0 "大粤民国临时政府"
+ CAT_futurism:0 "大粤民国"
+ CAT_futurism_DEF:0 "大粤民国临时政府"
+ CAT_communism_ADJ:0 "大粤民国"
+ CAT_anarchism_ADJ:0 "大粤民国"
+ CAT_socialism_ADJ:0 "大粤民国"
+ CAT_democratic_ADJ:0 "大粤民国"
+ CAT_neutrality_ADJ:0 "大粤民国"
+ CAT_monarchism_ADJ:0 "大粤民国"
+ CAT_fascism_ADJ:0 "大粤民国"
+ CAT_imperialism_ADJ:0 "大粤民国"
+ CAT_futurism_ADJ:0 "大粤民国"
+ CAT:0 "大粤民国"
+ CAT_DEF:0 "大粤民国"
+ CAT_ADJ:0 "大粤民国"
+ #############
+ ## PARTIES ##
+ #############
+ CAT_communism_party:0 "社民农工党"
+ CAT_communism_party_long:0 "中国社会民主农工党"
+ CAT_anarchism_party:0 "无政府共产主义同志社"
+ CAT_anarchism_party_long:0 "无政府共产主义同志社"
+ CAT_socialism_party:0 "广东工会联合会"
+ CAT_socialism_party_long:0 "广东工会联合会"
+ CAT_democratic_party:0 "广东独立协会-自治派"
+ CAT_democratic_party_long:0 "广东独立协会-自治派"
+ CAT_neutrality_party:0 "广东实业党"
+ CAT_neutrality_party_long:0 "广东实业党"
+ CAT_monarchism_party:0 "和朝效忠派"
+ CAT_monarchism_party_long:0 "和朝效忠派"
+ CAT_fascism_party:0 "广东独立协会-本土派"
+ CAT_fascism_party_long:0 "广东独立协会-本土派"
+ CAT_imperialism_party:0 "人民共和党"
+ CAT_imperialism_party_long:0 "人民共和党"
+ CAT_futurism_party:0 "广州商团"
+ CAT_futurism_party_long:0 "广州商团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ CAT_ou_jujia:0 "欧榘甲"
+ CAT_feng_ziyou:0 "冯自由"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

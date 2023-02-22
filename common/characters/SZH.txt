@@ -3,7 +3,7 @@ characters={
 		name=SZH_liu_shifu
 		portraits={
 			civilian={
-				large="gfx/leaders/FEM/Portrait_Liu_Shifu.png"
+				large="gfx/leaders/SZH/Portrait_Liu_Shifu.png"
 			}
 		}
 		country_leader={

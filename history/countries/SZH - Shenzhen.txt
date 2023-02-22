@@ -4,7 +4,7 @@ oob = "empty"
 
 set_country_flag = is_china_nation
 
-recruit_character = FEM_liu_shifu
+recruit_character = SZH_liu_shifu
 
 set_technology = {
 	infantry_weapons = 1
@@ -54,18 +54,18 @@ if = {
 }
 
 set_politics = {
-	ruling_party = socialism
+	ruling_party = anarchism
 	last_election = "1920.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	communism = 7
-	anarchism = 23
-	socialism = 32
-	democratic = 30
-	neutrality = 8
+	communism = 0
+	anarchism = 87
+	socialism = 10
+	democratic = 3
+	neutrality = 0
 	monarchism = 0
 	fascism = 0
 	imperialism = 0

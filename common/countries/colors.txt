@@ -180,7 +180,7 @@ CNC = { # 南充
 #################
 ### GUANGDONG ###
 #################
-KMT = { # 广东
+KMT = { # 国民革命政府
 	color = rgb { 0 33 138 }
 	color_ui = rgb { 0 33 138 }
 }
@@ -197,8 +197,24 @@ SZH = { # 粤海公社
 	color_ui = rgb { 46 139 87 }
 }
 GND = { # 广东特区
-	color = rgb { 130 37 0 }
-	color_ui = rgb { 130 37 0 }
+	color = rgb { 140 112 81 }
+	color_ui = rgb { 140 112 81 }
+}
+SGN = { # 粤北边区
+	color = rgb { 239 48 84 }
+	color_ui = rgb { 239 48 84 }
+}
+LCH = { # 雷州海军政府
+	color = rgb { 68 76 56 }
+	color_ui = rgb { 68 76 56 }
+}
+CAT = { # 大粤民国
+	color = rgb { 40 80 46 }
+	color_ui = rgb { 40 80 46 }
+}
+FED = { # 闽南护法区
+	color = rgb { 158 185 212 }
+	color_ui = rgb { 158 185 212 }
 }
 ##############
 ### HAINAN ###

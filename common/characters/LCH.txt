@@ -1,0 +1,30 @@
+characters={
+	LCH_yang_shuzhuang={
+		name=LCH_yang_shuzhuang
+		portraits={
+			civilian={
+				large="gfx/leaders/LCH/Portrait_Yang_Shuzhuang.png"
+			}
+		}
+		country_leader={
+			ideology=military_government_subtype
+			desc=LCH_yang_shuzhuang_desc
+			traits={ silent_workhorse reluctant_veteran }
+			expire="1934.1.10.1"
+		}
+	}
+	LCH_chen_shaokuan={
+		name= HNN_chen_shaokuan
+		portraits={
+			civilian={
+				large="gfx/leaders/HNN/Portrait_Chen_Shaokuan.png"
+			}
+		}
+		country_leader={
+			ideology=conservatism_subtype
+			desc= HNN_chen_shaokuan_desc
+			traits={ armaments_organizer naval_aviation_pioneer }
+			expire="1969.7.30.1"
+		}
+	}
+}

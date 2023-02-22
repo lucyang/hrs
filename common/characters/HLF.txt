@@ -4,7 +4,7 @@ characters={
 		name=HLF_peng_pai
 		portraits={
 			civilian={
-				large="gfx/leaders/HLF/Portrait_Peng_Pai.dds"
+				large="gfx/leaders/HLF/Portrait_Peng_Pai.png"
 			}
 		}
 		country_leader={
@@ -18,7 +18,7 @@ characters={
 		name=HLF_peng_hanyu
 		portraits={
 			civilian={
-				large="gfx/leaders/HLF/Portrait_Peng_Pai.dds"
+				large="gfx/leaders/HLF/Portrait_Peng_Pai.png"
 			}
 		}
 		country_leader={
@@ -32,7 +32,7 @@ characters={
 		name=HLF_yang_qishan
 		portraits={
 			civilian={
-				large="gfx/leaders/HLF/Portrait_Yang_Qishan.dds"
+				large="gfx/leaders/HLF/Portrait_Yang_Qishan.png"
 			}
 		}
 		country_leader={
@@ -46,7 +46,7 @@ characters={
 		name=HLF_peng_hanyuan
 		portraits={
 			civilian={
-				large="gfx/leaders/HLF/Portrait_Peng_Hanyuan.dds"
+				large="gfx/leaders/HLF/Portrait_Peng_Hanyuan.png"
 			}
 		}
 		country_leader={

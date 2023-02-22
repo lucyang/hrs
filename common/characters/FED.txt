@@ -1,0 +1,41 @@
+characters={
+	FED_chen_jiongming={
+		name=FED_chen_jiongming
+		portraits={
+			civilian={
+				large="gfx/leaders/FED/Portrait_Chen_Jiongming.png"
+			}
+			army={
+				large="gfx/leaders/FED/Portrait_Chen_Jiongming_military.png"
+			}
+		}
+		country_leader={
+			ideology=bad_federalism_subtype
+			desc=FED_chen_jiongming_desc
+			traits={ revolutionary_general }
+			expire="1933.9.22.1"
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+	FED_ou_shengbai={
+		name=FED_ou_shengbai
+		portraits={
+			civilian={
+				large="gfx/leaders/FED/Portrait_Ou_Shengbai.png"
+			}
+		}
+		country_leader={
+			ideology=anarcho_communism_subtype
+			desc=FED_ou_shengbai_desc
+			traits={ ideological_groupie }
+			expire="1950.1.1.1"
+		}
+	}
+}

@@ -2,9 +2,10 @@
 
 oob = "empty"
 
-recruit_character = KMT_wang_jingwei
+recruit_character = KMT_liao_zhongkai
 recruit_character = KMT_zhu_zhixin
 recruit_character = KMT_hu_hanmin
+recruit_character = KMT_national_government
 
 set_country_flag = is_china_nation
 
@@ -80,7 +81,7 @@ add_ideas = {
 }
 
 set_politics = {	
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1920.5.20"
 	election_frequency = 48
 	elections_allowed = yes
@@ -89,9 +90,9 @@ set_politics = {
 set_popularities = {
 	communism = 0
 	anarchism = 12
-	socialism = 35
-	democratic = 37
-	neutrality = 7
+	socialism = 25
+	democratic = 26
+	neutrality = 27
 	monarchism = 0
 	fascism = 10
 	imperialism = 0

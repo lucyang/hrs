@@ -62,6 +62,10 @@ FEM = "countries/Feminists.txt"
 HLF = "countries/Hailufeng.txt"
 SZH = "countries/Shenzhen.txt"
 GND = "countries/Guangdong.txt"
+SGN = "countries/Shaoguan.txt"
+CAT = "countries/Cantonia.txt"
+LCH = "countries/Leichow.txt"
+FED = "countries/Federalists.txt"
 # GUANGXI #
 GXC = "countries/Guangxi.txt"
 # HAINAN #

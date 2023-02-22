@@ -1,0 +1,27 @@
+characters={
+	SGN_zhang_fakui={
+		name=SGN_zhang_fakui
+		portraits={
+			civilian={
+				large="gfx/leaders/SGN/Portrait_Zhang_Fakui.png"
+			}
+			army={
+				large="gfx/leaders/SGN/Portrait_Zhang_Fakui.png"
+			}
+		}
+		country_leader={
+			ideology=dengism_subtype
+			desc=SGN_zhang_fakui_desc
+			traits={ eager_commander devoted_marxist }
+			expire="1980.3.10.1"
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+		}
+	}
+}

@@ -47,10 +47,10 @@
  GND_neutrality_party_long:0 "广东特区政府-稳健派"
  GND_monarchism_party:0 "广东政府-改革派"
  GND_monarchism_party_long:0 "广东特区政府-改革派"
- GND_fascism_party:0 "宪兵队-变节派"
- GND_fascism_party_long:0 "宪兵队-变节派"
- GND_imperialism_party:0 "宪兵队-建制派"
- GND_imperialism_party_long:0 "宪兵队-建制派"
+ GND_fascism_party:0 "广州宪兵队"
+ GND_fascism_party_long:0 "广州宪兵队"
+ GND_imperialism_party:0 "广东驻军"
+ GND_imperialism_party_long:0 "广东驻军"
  GND_futurism_party:0 "广州商团"
  GND_futurism_party_long:0 "广州商团"
  ##################
@@ -61,6 +61,7 @@
  ## CHARACTERS ##
  ################
  GND_zhang_dongsun:0 "张东荪"
+ GND_lu_rongting:0 "陆荣廷"
  ###########
  ## IDEAS ##
  ###########

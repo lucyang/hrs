@@ -60,12 +60,12 @@ set_politics = {
 }
 
 set_popularities = {
-	communism = 0
+	communism = 21
 	anarchism = 0
 	socialism = 9
 	democratic = 41
 	neutrality = 10
-	monarchism = 21
+	monarchism = 0
 	fascism = 0
 	imperialism = 19
 	futurism = 0
