@@ -7,6 +7,11 @@ state={
 	history = {
 		owner = IMJ
 		add_core_of = IMJ
+		1924.1.1 = {
+			owner = CGK
+			add_core_of = CGK
+			remove_core_of = IMJ
+		}
 
 		victory_points = { 2446 1 } #松江
 		victory_points = { 3336 1 } #松江

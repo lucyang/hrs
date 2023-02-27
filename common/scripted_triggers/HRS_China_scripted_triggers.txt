@@ -154,6 +154,7 @@ is_miao_nation = {
 	OR = {
 		original_tag = MIA
 		original_tag = MIR
+		original_tag = XON
 	}
 }
 
@@ -161,6 +162,7 @@ is_dai_nation = {
 	OR = {
 		original_tag = MMA
 		original_tag = CHH
+		original_tag = TAT
 	}
 }
 

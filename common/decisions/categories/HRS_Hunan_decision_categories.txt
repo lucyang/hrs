@@ -1,0 +1,14 @@
+XXI_modernization_project = {
+
+	icon = generic_construction
+
+	priority = 100
+
+	visible = {
+		original_tag = XXI
+	}
+
+	allowed = {
+		original_tag = XXI
+	}
+}

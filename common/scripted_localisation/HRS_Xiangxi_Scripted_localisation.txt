@@ -1,0 +1,44 @@
+defined_text = {
+	name = XXIGetMoneyGrowthLoc
+	text = {
+		trigger = { 
+			check_variable = { XXI_money_growth > 0.35 } 
+		}
+		localization_key = "[XXIMoneyGrowthFast]"
+	}
+	text = {
+		trigger = { 
+			check_variable = { XXI_money_growth > 0.35 } 
+		}
+		localization_key = "[XXIMoneyGrowthSlow]"
+	}
+	text = {
+		trigger = { 
+			check_variable = { XXI_money_growth > 0.35 } 
+		}
+		localization_key = "[XXIMoneyNoChange]"
+	}
+	text = {
+		trigger = { 
+			check_variable = { XXI_money_growth > 0.35 } 
+		}
+		localization_key = "[XXIMoneyDecreaseFast]"
+	}
+	text = {
+		trigger = { 
+			check_variable = { XXI_money_growth < -0.35 } 
+		}
+		localization_key = "[XXIMoneyDecreaseSlow]"
+	}
+}
+defined_text = {
+	name = KORGetReformOpionionLoc
+	text = {
+		trigger = { check_variable = { KOR_reform_support > 5 } }
+		localization_key = "[KORReformHighOpionion]"
+	}
+	text = {
+		trigger = { check_variable = { KOR_reform_support < 3 } }
+		localization_key = "[KORReformLowOpionion]"
+	}
+}

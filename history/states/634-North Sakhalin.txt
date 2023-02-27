@@ -7,6 +7,11 @@ state={
 	history = {
 		owner = IMC
 		add_core_of = IMC
+		1924.1.1 = {
+			owner = SKL
+			add_core_of = SKL
+			remove_core_of = IMJ
+		}
 
 		victory_points = { 3122 1 } #縫江(诺格利基)
 		victory_points = { 979 1 } #奥端(奥哈)

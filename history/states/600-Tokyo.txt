@@ -6,6 +6,11 @@ state={
 	history={
 		owner = IMJ
 		add_core_of = IMJ
+		1924.1.1 = {
+			owner = TOK
+			add_core_of = TOK
+			remove_core_of = IMJ
+		}
 
 		victory_points = { 3702 3 } #江户/東京都
 		victory_points = { 3707 1 } #多摩

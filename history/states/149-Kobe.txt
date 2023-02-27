@@ -6,7 +6,11 @@ state={
 	history={
 		owner = IMJ
 		add_core_of = IMJ
-
+		1924.1.1 = {
+			owner = JLF
+			add_core_of = JLF
+			remove_core_of = IMJ
+		}
 
 		victory_points = { 3725 3 } #神戸
 		victory_points = { 2373 1 } #姬路

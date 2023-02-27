@@ -1,0 +1,28 @@
+XXI_form_miao_nation = {
+
+	icon = generic_construction
+
+	priority = 100
+
+	visible = {
+		is_miao_nation = yes
+	}
+
+	allowed = {
+		is_miao_nation = yes
+	}
+}
+XXI_form_yi_nation = {
+
+	icon = generic_construction
+
+	priority = 100
+
+	visible = {
+		is_yi_nation = yes
+	}
+
+	allowed = {
+		is_yi_nation = yes
+	}
+}

@@ -7,6 +7,11 @@ state={
 	history = {
 		owner = IMC
 		add_core_of = IMC
+		1924.1.1 = {
+			owner = KRF
+			add_core_of = KRF
+			remove_core_of = IMJ
+		}
 
 		victory_points = { 757 3 } #落石/亜港(亚历山德罗夫斯克)
 		victory_points = { 3317 1 } #敷香

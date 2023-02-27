@@ -6,6 +6,11 @@ state={
 	history={
 		owner = IMJ
 		add_core_of = IMJ
+		1924.1.1 = {
+			owner = JAF
+			add_core_of = JAF
+			remove_core_of = IMJ
+		}
 
 		victory_points = { 3712 10 } #横須賀
 		

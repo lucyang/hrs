@@ -1,0 +1,18 @@
+bookmarks = {
+	bookmark = {
+		name = "BLITZKRIEG_NAME"
+		desc = "BLITZKRIEG_DESC"
+		date = 1924.2.26.12
+		picture = "GFX_select_date_1936"
+		default_country = "IMC"
+		default = yes
+		
+		"IMC"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

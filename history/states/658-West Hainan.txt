@@ -15,6 +15,12 @@ state={
 		add_core_of = IMC
 		victory_points = { 4238 3 } #五指山
 		victory_points = { 759 1 } #八所港
+		1924.1.1 = {
+			owner = HNN
+			add_core_of = HNN
+			remove_core_of = IMC
+			set_demilitarized_zone = yes
+		}
 
 		buildings = {
 			infrastructure = 2

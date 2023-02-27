@@ -1,0 +1,260 @@
+XXI_modernization_project = {
+	
+	XXI_enforce_tuntian = {
+		icon = GFX_decision_generic_political_rally
+		allowed = { original_tag = XXI }
+		available = {
+			always = yes
+		}
+		visible = {
+			always = yes
+		}
+		days_remove = 7
+		fire_only_once = no 
+		cost = 30
+		days_re_enable = 60
+		
+		complete_effect = {
+			#
+		}
+		remove_effect = {
+			#
+		}
+		
+		ai_will_do = {
+			base = 250
+		}
+	}
+
+	TIB_raise_feudal_tax = {
+		icon = GFX_decision_generic_speech
+		allowed = { original_tag = TIB }
+		available = {
+			always = yes
+		}
+		visible = {
+			has_idea = primitive_state
+		}
+		days_remove = 7
+		days_re_enable = 120
+		fire_only_once = no
+		cost = 10
+		
+		complete_effect = {
+			TIB_BOP_modernist_small_effect = yes 
+			random_owned_controlled_state = { 
+				limit = { 
+					is_core_of = TIB
+					NOT = { has_state_flag = TIB_has_raised_feudal_tax }
+				}
+				set_state_flag = TIB_has_raised_feudal_tax
+				add_state_modifier = {
+					modifier = {
+						state_resources_factor = 0.10
+						recruitable_population_factor = 0.10
+					}
+				}	
+			}
+		}
+		remove_effect = {
+			#
+		}
+		
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	TIB_promote_modernist = {
+		icon = GFX_decision_SWI_expand_covert_operations
+		allowed = { original_tag = TIB }
+		available = {
+			always = yes
+		}
+		visible = {
+			always = yes
+		}
+		days_remove = 7
+		days_re_enable = 120
+		fire_only_once = no
+		cost = 0
+		
+		complete_effect = {
+			add_stability = -0.02
+			add_political_power = 100
+			TIB_BOP_modernist_small_effect = yes 
+		}
+		remove_effect = {
+			#
+		}
+		
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	TIB_train_regular_army = {
+		icon = GFX_decision_generic_military
+		allowed = { original_tag = TIB }
+		available = {
+			always = yes
+		}
+		visible = {
+			always = yes
+		}
+		days_remove = 14
+		days_re_enable = 120
+		fire_only_once = no
+		cost = 30
+		
+		complete_effect = {
+			add_command_power = 30
+			add_war_support = 0.02
+			TIB_BOP_modernist_small_effect = yes 
+		}
+		remove_effect = {
+			#
+		}
+		
+		ai_will_do = {
+			base = 150
+		}
+	}
+	
+	TIB_ban_giche_guntun = {
+		icon = GFX_decision_generic_political_rally
+		allowed = { original_tag = TIB }
+		available = {
+			TIB_bop_is_traditionalist_influence_or_higher = yes
+		}
+		visible = {
+			NOT = { has_country_flag = Has_Banned_Giche_Guntun }
+		}
+		days_remove = 7
+		fire_only_once = yes 
+		cost = 30
+		
+		complete_effect = {
+			TIB_BOP_traditionalist_large_effect = yes
+			set_country_flag = Has_Banned_Giche_Guntun
+		}
+		remove_effect = {
+			#
+		}
+		
+		ai_will_do = {
+			base = 250
+		}
+	}
+
+	TIB_protect_buddhist_temple = {
+		icon = GFX_decision_generic_speech
+		allowed = { original_tag = TIB }
+		available = {
+			always = yes
+		}
+		visible = {
+			always = yes
+		}
+		days_remove = 7
+		days_re_enable = 90
+		fire_only_once = no
+		cost = 30
+		
+		complete_effect = {
+			TIB_BOP_traditionalist_small_effect = yes
+			random_owned_controlled_state = { 
+				limit = { is_core_of = TIB }
+				add_extra_state_shared_building_slots = 1 
+			}
+		}
+		remove_effect = {
+			#
+		}
+		
+		ai_will_do = {
+			base = 150
+		}
+	}
+
+	TIB_promote_traditionalist = {
+		icon = GFX_decision_SWI_expand_covert_operations
+		allowed = { original_tag = TIB }
+		available = {
+			always = yes
+		}
+		visible = {
+			always = yes
+		}
+		days_remove = 7
+		days_re_enable = 120
+		fire_only_once = no
+		cost = 30
+		
+		complete_effect = {
+			TIB_BOP_traditionalist_small_effect = yes
+			add_stability = 0.02
+		}
+		remove_effect = {
+			#
+		}
+		
+		ai_will_do = {
+			base = 200
+		}
+	}
+
+	TIB_train_irregular_army = {
+		icon = GFX_decision_generic_military
+		allowed = { original_tag = TIB }
+		available = {
+			always = yes
+		}
+		visible = {
+			always = yes
+		}
+		days_remove = 7
+		days_re_enable = 120
+		fire_only_once = no
+		cost = 30
+		
+		complete_effect = {
+			TIB_BOP_traditionalist_small_effect = yes
+		}
+		remove_effect = {
+			#
+		}
+		
+		ai_will_do = {
+			base = 100
+		}
+	}
+
+	TIB_coup_of_traditionalists = {
+		icon = GFX_decision_revolt
+		activation = {
+			TIB_bop_is_modernist_power_or_higher = yes
+		}
+		visible = {
+			has_idea = primitive_state
+		}
+		available = {
+			OR = {
+				NOT = { has_idea = primitive_state }
+				has_country_flag = Reformist_Has_Been_Purged
+			}
+		}
+		cancel_trigger = {
+			TIB_bop_is_neutral_influence = yes
+		}
+		is_good = no
+		days_mission_timeout = 100
+		selectable_mission = yes
+		complete_effect = {
+			TIB_BOP_modernist_large_effect = yes
+		}
+		timeout_effect = {
+			#
+		}
+	}
+}

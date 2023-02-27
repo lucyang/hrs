@@ -4,33 +4,37 @@ HRS_mobilization = {
 
 	priority = 100
 
+	visible = {
+		always = no
+	}
+
 	allowed = {
 		always = yes
 	}
 
-	visible = {
-		OR = {
-			AND = {
-				OR = {
-					is_china_nation = yes
-					is_taiwan_nation = yes
-				}
-				has_global_flag = CHI_Civil_War_Begins
-			}
-			AND = {
-				OR = {
-					is_japan_nation = yes
-					is_ryukyu_nation = yes
-					is_hokkaido_nation = yes
-				}
-				has_global_flag = JAP_Civil_War_Begins
-			}
-			AND = {
-				is_korea_nation = yes
-				has_global_flag = KOR_Civil_War_Begins
-			}
-		}
-	}
+	#visible = {
+	#	OR = {
+	#		AND = {
+	#			OR = {
+	#				is_china_nation = yes
+	#				is_taiwan_nation = yes
+	#			}
+	#			has_global_flag = CHI_Civil_War_Begins
+	#		}
+	#		AND = {
+	#			OR = {
+	#				is_japan_nation = yes
+	#				is_ryukyu_nation = yes
+	#				is_hokkaido_nation = yes
+	#			}
+	#			has_global_flag = JAP_Civil_War_Begins
+	#		}
+	#		AND = {
+	#			is_korea_nation = yes
+	#			has_global_flag = KOR_Civil_War_Begins
+	#		}
+	#	}
+	#}
 }
 
 HRS_war_measures = {

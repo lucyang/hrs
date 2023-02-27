@@ -75,7 +75,28 @@
  #############
  # DECISIONS #
  #############
- 
+ XXI_modernization_project:0 "湘西革新计划"
+ XXI_modernization_project_desc:0 "自1920年以来，自治政府的领导人，§Y[XXI.GetLeader]§!致力于促进湘西地区的§G革新计划§!，将湘西地区改造成中南地区的明珠。但是§Y[XXI.GetLeader]§!的统治严重依赖保甲制度和§R私人关系网§!，§R资金储备§!也始终制约着湘西的步伐。如果§Y[XXI.GetLeader]§!执意将他的理想推行到底，整张关系网的§R崩坏§!可能也只是一瞬之间。"
+ XXI_enforce_tuntian:0 "强化屯田"
+ XXI_enforce_tuntian_desc:0 "我们会把士兵送到环境恶劣的山区，建立自给自足的农业殖民地。屯田能为革新计划提供一些资金，但是会让苗民极为不满。"
+ XXI_issue_currency:0 "发行“湘西联合票”"
+ XXI_issue_currency_desc:0 "在内战爆发后，长沙印制的钞票几乎无法及时送达湘西地区。为此我们紧急印制了地方钞票§Y湘西联合票§!，但是千万不要把印钞机开得太猛。"
+ XXI_produce_morphine:0 "开设吗啡厂"
+ XXI_produce_morphine_desc:0 "人人都知晓吸毒的危害，然而吗啡却是一个例外——士兵和瘾君子都很喜欢它，有时二者身份亦能互相转换。我们可以生产§Y一些§!吗啡，但是最好不要生产§R太多§!。"
+ XXI_raid_neighbors:0 "劫掠周边地区"
+ XXI_raid_neighbors_desc:0 "命令黑旗军劫掠周边地区并非难事——麻烦在于之后的事情：士兵们总要花点时间来§R消耗§!自己的战利品，无论是在酒精、男妓还是上司身上。"
+
+ XXI_build_civ_factory:0 "发展实业"
+ XXI_reclaim_wasteland:0 "开发荒地"
+ XXI_build_school:0 "开设报馆学校"
+ XXI_invest_agriculture:0 "投资农业"
+ XXI_boost_autonomy:0 "推进乡自治"
+
+ XXIMoneyGrowthFast:0 "§G快速增长§!"
+ XXIMoneyGrowthSlow:0 "§7缓慢增长§!"
+ XXIMoneyNoChange:0 "§Y维持不变§!"
+ XXIMoneyDecreaseFast:0 "§O慢速下降§!"
+ XXIMoneyDecreaseSlow:0 "§R快速下降§!"
  ############
  ## EVENTS ##
  ############

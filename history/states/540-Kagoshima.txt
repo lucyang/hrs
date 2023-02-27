@@ -8,6 +8,11 @@ state={
 	history = {
 		owner = IMJ
 		add_core_of = IMJ
+		1924.1.1 = {
+			owner = AMM
+			add_core_of = AMM
+			remove_core_of = IMJ
+		}
 
 		victory_points = { 2646 3 } #鹿儿岛
 

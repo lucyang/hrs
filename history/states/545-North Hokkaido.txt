@@ -6,6 +6,11 @@ state={
 	history={
 		owner = IMJ
 		add_core_of = IMJ
+		1924.1.1 = {
+			owner = EZO
+			add_core_of = AIN
+			remove_core_of = IMJ
+		}
 
 		victory_points = { 2713 10 } #旭川
 		victory_points = { 1740 1 } #稚内

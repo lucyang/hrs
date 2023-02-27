@@ -7,6 +7,11 @@ state={
 	history = {
 		owner = IMC
 		add_core_of = IMC
+		1924.1.1 = {
+			owner = KRF
+			add_core_of = KRF
+			remove_core_of = IMJ
+		}
 
 		victory_points = { 902 5 } #豊原
 		victory_points = { 3464 3 } #泊居

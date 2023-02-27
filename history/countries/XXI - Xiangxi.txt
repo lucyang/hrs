@@ -90,6 +90,11 @@ add_ideas = {
 	unitary_state1
 }
 
+set_variable = { var = XXI_money value = 15 }
+set_variable = { var = XXI_money_growth value = 0.1 }
+set_variable = { var = XXI_xong value = 60 }
+set_variable = { var = XXI_xong_growth value = -0.3 }
+
 set_research_slots = 2
 set_convoys = 10
 set_stability = 0.35

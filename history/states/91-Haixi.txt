@@ -9,7 +9,6 @@ state={
 		add_core_of = AMD
 		buildings = {
 			infrastructure = 2
-
 		}
 
 	}
