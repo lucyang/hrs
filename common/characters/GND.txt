@@ -27,18 +27,60 @@ characters = {
 			expire = "1927.3.31.1"
 		}
 	}
-	GND_lu_rongting = {
-		name = GND_lu_rongting
+	GND_chen_lianbo = {
+		name = GND_chen_lianbo
 		portraits = {
 			civilian = {
-				large="gfx/leaders/GND/Portrait_Lu_Rongting.png"
+				large="gfx/leaders/GND/Portrait_Chen_Lianbo.png"
 			}
 		}
 		country_leader = {
-			ideology=military_government_subtype
-			desc = GND_lu_rongting_desc
-			traits = { conservative_grandee war_industrialist }
-			expire = "1928.11.6.1"
+			ideology=corporacracy_subtype
+			desc = GND_chen_lianbo_desc
+			traits = {  }
+			expire = "1944.12.24.1"
+		}
+	}
+	GND_gu_zhenglun = {
+		name = GND_gu_zhenglun
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GND/Portrait_Gu_Zhenglun.png"
+			}
+		}
+		country_leader = {
+			ideology=daijitaoism_subtype
+			desc = GND_gu_zhenglun_desc
+			traits = { prince_of_terror silent_workhorse }
+			expire = "1953.11.1.1"
+		}
+	}
+	GND_tani_hisao = {
+		name = GND_tani_hisao
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GND/Portrait_Tani_Hisao.png"
+			}
+		}
+		country_leader = {
+			ideology=ultramilitarism_subtype
+			desc = GND_tani_hisao_desc
+			traits = { hardened_officer warrior_code }
+			expire = "1947.4.26.1"
+		}
+	}
+	GND_guangdong_council = {
+		name = GND_guangdong_council
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GND/Portrait_Guangdong_Legislative_Council.png"
+			}
+		}
+		country_leader = {
+			ideology=neo_liberalism_subtype
+			desc = GND_guangdong_council_desc
+			traits = { SWI_pragmatic_democrat }
+			expire = "1950.1.1.1"
 		}
 	}
 }

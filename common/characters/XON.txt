@@ -13,4 +13,18 @@ characters={
 			expire="1950.1.1.1"
 		}
 	}
+	XON_shi_qigui={
+		name=XON_shi_qigui
+		portraits={
+			civilian={
+				large="gfx/leaders/XON/Portrait_Shi_Qigui.png"
+			}
+		}
+		country_leader={
+			ideology=national_liberalism_subtype
+			desc=XON_shi_qigui_desc
+			traits={ gentle_scholar nationalist_symbol }
+			expire="1959.1.1.1"
+		}
+	}
 }

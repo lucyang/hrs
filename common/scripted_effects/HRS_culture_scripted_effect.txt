@@ -631,6 +631,7 @@ HRS_setup_cultures = {
 	# Hmong/Western Hmongic
 	323 = { set_variable = { nationality = 95 } } #兴义/黔西南
 	535 = { set_variable = { nationality = 95 } } #上寮
+	659 = { set_variable = { nationality = 95 } } #威宁
 	# Xong/Eastern Hmongic
 	269 = { set_variable = { nationality = 96 } } #凤凰/湘西
 	655 = { set_variable = { nationality = 96 } } #郴州

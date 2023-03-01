@@ -532,6 +532,7 @@ is_guizhou_state = {
 		state = 315 #盘州
 		state = 318 #安顺
 		state = 323 #兴义
+		state = 659 #威宁
 	}
 }
 
@@ -903,6 +904,7 @@ is_china_state = {
 		state = 315 #盘州
 		state = 318 #安顺
 		state = 323 #兴义
+		state = 659 #威宁
  		#云南
 		state = 277 #迪庆
 		state = 284 #昭通
@@ -1248,6 +1250,7 @@ is_any_china_state = {
 		state = 315 #盘州
 		state = 318 #安顺
 		state = 323 #兴义
+		state = 659 #威宁
  		#云南
 		state = 277 #迪庆
 		state = 284 #昭通
@@ -1600,6 +1603,7 @@ can_form_xinan = {
 		owns_state = 315 #盘州
 		owns_state = 318 #安顺
 		owns_state = 323 #兴义
+		owns_state = 659 #威宁
  		#云南
 		owns_state = 293 #怒江
 		owns_state = 301 #丽江

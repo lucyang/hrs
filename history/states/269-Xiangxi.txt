@@ -7,8 +7,13 @@ state={
 	history = {
 		owner = IMC
 		add_core_of = IMC
+		1924.1.1 = {
+			owner = XXI
+			add_core_of = XXI
+			remove_core_of = IMC
+		}
 
-		victory_points = { 2982 1 } #凤凰
+		victory_points = { 2982 3 } #凤凰
 		
 		buildings = {
 			infrastructure = 2

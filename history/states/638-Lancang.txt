@@ -7,6 +7,11 @@ state={
 	history = {
 		owner = IMC
 		add_core_of = IMC
+		1924.1.1 = {
+			owner = LAX
+			add_core_of = LAX
+			remove_core_of = IMC
+		}
 
 		victory_points = { 2871 1 } #耿马
 		victory_points = { 4174 3 } #澜沧

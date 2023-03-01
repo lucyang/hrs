@@ -9,7 +9,7 @@ characters={
 		country_leader={
 			ideology=provisional_government_subtype
 			desc=CHQ_xiong_kewu_desc
-			traits={ revolutinary_general liberal_democratic_paragon }
+			traits={ revolutinary_general irredentist_academic }
 			expire="1970.9.2.1"
 		}
 	}

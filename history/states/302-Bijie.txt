@@ -2,7 +2,7 @@ state={
 	id=302
 	name="STATE_302"
 	provinces={
-		16 103 1214 1791 1972 2248 3316 
+		16 103 1214 2248 3316 
 	}
 	history = {
 		owner = IMC
@@ -10,14 +10,11 @@ state={
 		victory_points = {
 			2248 1
 		}
-		victory_points = {
-			1972 1
-		}
 		buildings = {
 			infrastructure = 2
 		}
 	}
-	manpower=2938169
+	manpower=2351773
 	state_category = rural
 	local_supplies = 0.0
 }

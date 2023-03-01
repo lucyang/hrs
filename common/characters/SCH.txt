@@ -27,20 +27,6 @@ characters={
 			expire="1965.11.7.1"
 		}
 	}
-	SCH_wang_youmu={
-		name=SCH_wang_youmu
-		portraits={
-			civilian={
-				large="gfx/leaders/SCH/Portrait_Wang_Youmu.png"
-			}
-		}
-		country_leader={
-			ideology=marxism_subtype
-			desc=SCH_wang_youmu_desc
-			traits={ veteran_communist silent_workhorse }
-			expire="1957.7.18.1"
-		}
-	}
 	SCH_wu_yuzhang={
 		name=SCH_wu_yuzhang
 		portraits={
@@ -49,18 +35,10 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=democratic_socialism_subtype
+			ideology=new_tridemism_subtype
 			desc=SCH_wu_yuzhang_desc
 			traits={ education_reformer connected_citizen }
 			expire="1966.12.12.1"
-		}
-	}
-	SCH_liu_xiang={
-		name=SCH_liu_xiang
-		portraits={
-			civilian={
-				large="gfx/leaders/SCH/Portrait_Liu_Xiang.png"
-			}
 		}
 	}
 	SCH_liu_wenhui = {
@@ -73,8 +51,32 @@ characters={
 		country_leader = {
             ideology = military_government_subtype
             desc = SCH_liu_wenhui_desc
-            traits = {  }
+            traits = { jefe the_young_magnate }
             expire = "1976.6.24.1"
         }
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	SCH_liu_xiang={
+		name=SCH_liu_xiang
+		portraits={
+			army={
+				large="gfx/leaders/SCH/Portrait_Liu_Xiang.png"
+			}
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+		}
 	}
 }

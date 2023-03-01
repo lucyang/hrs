@@ -4,8 +4,8 @@ oob = "empty"
 
 set_research_slots = 2
 
-recruit_character = GZH_xidaotang
-recruit_character = GZH_li_jingqing
+recruit_character = GNS_xidaotang
+recruit_character = GNS_li_jingqing
 
 set_country_flag = is_china_nation
 

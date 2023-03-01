@@ -1,24 +1,24 @@
 state={
-	id=277
-	name="STATE_277"
+	id=659
+	name="STATE_659"
+
 	provinces={
-		1424 1766 2748 3076 3123 
+		1791 1972 
 	}
 	history = {
 		owner = IMC
 		add_core_of = IMC
-		add_core_of = KHM
+		victory_points = { 1972 1 }
 		1924.1.1 = {
-			owner = DLI
-			add_core_of = DLI
+			owner = MIA
+			add_core_of = MIA
 			remove_core_of = IMC
 		}
-
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 		}
 	}
-	manpower=276611
+	manpower=586396
 	state_category = rural
 	local_supplies = 0.0
 }

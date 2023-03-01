@@ -287,6 +287,7 @@ HRS_setup_prefectures = {
 	315 = { set_variable = { prefecture = 32 } } #盘州
 	318 = { set_variable = { prefecture = 32 } } #安顺
 	323 = { set_variable = { prefecture = 32 } } #兴义
+	659 = { set_variable = { prefecture = 32 } } #威宁
 	#云南
 	277 = { set_variable = { prefecture = 33 } } #迪庆
 	284 = { set_variable = { prefecture = 33 } } #昭通

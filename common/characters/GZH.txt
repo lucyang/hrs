@@ -8,12 +8,12 @@ characters={
 				large="gfx/leaders/generic/Portrait_Sichuan_Military_Government.png"
 			}
 		}
-		country_leader={
-			ideology=guided_democracy_subtype
-			desc=GZH_yang_jincheng_desc
-			traits={ }
-			expire="1942.7.1.1"
-		}
+		#country_leader={
+		#	ideology=guided_democracy_subtype
+		#	desc=GZH_yang_jincheng_desc
+		#	traits={ }
+		#	expire="1942.7.1.1"
+		#}
 	}
 	GZH_zhang_bailin={
 		name=GZH_zhang_bailin
@@ -23,7 +23,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=liberalism_subtype
+			ideology=provisional_government_subtype
 			desc=GZH_zhang_bailin_desc
 			traits={ liberal_democratic_paragon }
 			expire="1939.2.17.1"
@@ -201,9 +201,9 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=left_nationalism_subtype
+			ideology=religious_socialism_subtype
 			desc=MIA_yacob_yang_desc
-			traits={ }
+			traits={ modernist_and_reformer }
 			expire="1940.1.1.1"
 		}
 	}

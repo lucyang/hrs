@@ -7,9 +7,9 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=development_authoritarianism_subtype
+			ideology=oligarchism_subtype
 			desc=NSB_long_yun_desc
-			traits={ hardened_officer reluctant_veteran }
+			traits={ the_young_magnate opium_trader }
 			expire="1962.6.27.1"
 		}
 	}

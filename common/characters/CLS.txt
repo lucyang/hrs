@@ -4,11 +4,12 @@ characters = {
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/CLS/Portrait_Guo_Moruo.png"
+            }
 		}
 		country_leader = {
 			ideology = leninism_subtype
 			desc = CLS_guo_moruo_desc
-			traits = {  }
+			traits = { revolutionary_author ideological_groupie }
 			expire = "1978.6.12.1"
 		}
 	}
@@ -22,7 +23,7 @@ characters = {
         country_leader = {
             ideology = national_communism_subtype
             desc = CLS_xian_xinghai_desc
-            traits = {  }
+            traits = { nationalist_symbol }
             expire = "1945.10.30.1"
         }
     }
@@ -36,7 +37,7 @@ characters = {
         country_leader = {
             ideology = new_tridemism_subtype
             desc = CLS_wu_yuzhang_desc
-            traits = {  }
+            traits = { education_reformer connected_citizen }
             expire = "1966.12.12.1"
         }
     }

@@ -5,8 +5,8 @@ state={
 		1887 
 	}
 	history={
-		owner = IMC
-		add_core_of = IMC
+		owner = ANM
+		add_core_of = ANM
 		add_core_of = TAT
 		victory_points = { 1887 1 } #芒梭
 		buildings = {

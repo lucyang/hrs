@@ -386,6 +386,28 @@ HRS_debug_tool_cataegory = {
 				transfer_state = 135 #玉树
 				add_state_core = 135
 			}
+			# 四川
+			CYA = {
+				transfer_state = 181 
+				transfer_state = 186
+				transfer_state = 237
+				transfer_state = 277
+			}
+			CLS = {
+				transfer_state = 251
+				transfer_state = 259
+				transfer_state = 261
+				transfer_state = 268
+				transfer_state = 273
+				transfer_state = 276
+			}
+			CNC = {
+				transfer_state = 199
+				transfer_state = 200
+				transfer_state = 202
+				transfer_state = 215
+				transfer_state = 232
+			}
 			# 安徽
 			ANH = {
 				transfer_state = 184 #亳州
@@ -405,6 +427,10 @@ HRS_debug_tool_cataegory = {
 				add_state_core = 71
 				add_state_core = 76
 				add_state_core = 511
+			}
+			# 贵州
+			MIA = {
+				transfer_state = 659 # 威宁
 			}
 			# 甘肃
 			GNS = {	
@@ -588,8 +614,6 @@ HRS_debug_tool_cataegory = {
 				add_state_core = 285
 				transfer_state = 294 #娄底
 				add_state_core = 294
-				transfer_state = 297 #湘潭
-				add_state_core = 297
 			}
 			XXI = {
 				transfer_state = 262 #张家界/澧州
