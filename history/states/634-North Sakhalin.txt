@@ -12,10 +12,8 @@ state={
 			add_core_of = SKL
 			remove_core_of = IMJ
 		}
-
 		victory_points = { 3122 1 } #縫江(诺格利基)
 		victory_points = { 979 1 } #奥端(奥哈)
-		
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1

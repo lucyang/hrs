@@ -11,9 +11,7 @@ state={
 			add_core_of = EZO
 			remove_core_of = IMJ
 		}
-
-		victory_points = { 604 20 } #札幌
-		
+		victory_points = { 604 20 } #札幌	
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2

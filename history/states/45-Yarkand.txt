@@ -7,10 +7,13 @@ state={
 	history = {
 		owner = DZU
 		add_core_of = DZU
-
+		1924.1.1 = {
+			owner = HAM
+			add_core_of = HAM
+			remove_core_of = DZU
+		}
 		victory_points = { 1810 10 } #叶尔羌
 		victory_points = { 574 1 } #叶城
-
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

@@ -7,7 +7,11 @@ state={
 	history = {
 		owner = DZU
 		add_core_of = DZU
-
+		1924.1.1 = {
+			owner = KVD
+			add_core_of = KVD
+			remove_core_of = DZU
+		}
 		victory_points = { 1380 5 } #科布多
 
 		buildings = {

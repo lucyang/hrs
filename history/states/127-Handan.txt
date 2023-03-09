@@ -10,6 +10,11 @@ state={
 	history = {
 		owner = IMC
 		add_core_of = IMC
+		1924.1.1 = {
+			owner = PRC
+			add_core_of = PRC
+			remove_core_of = IMC
+		}
 
 		victory_points = { 2378 5 } #邯郸
 		victory_points = { 2613 1 } #大名

@@ -6,7 +6,12 @@ state={
 	}
 	history = {
 		owner = DZU
-		add_core_of = DZU 
+		add_core_of = DZU
+		1924.1.1 = {
+			owner = ETK
+			add_core_of = ETK
+			remove_core_of = DZU
+		}
 
 		victory_points = { 2100 20 } #喀什噶尔
 		victory_points = { 1158 5 } #英吉沙尔

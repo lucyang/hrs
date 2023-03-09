@@ -6,7 +6,10 @@ state={
 	}
 	history = {
 		owner = DBJ
-
+		1924.1.1 = {
+			owner = ULI
+			add_core_of = ULI
+		}
 		victory_points = { 1314 5 } #乌里雅苏台
 
 		buildings = {

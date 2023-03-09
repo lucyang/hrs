@@ -7,9 +7,13 @@ state={
 	history = {
 		owner = IMC
 		add_core_of = IMC
+		1924.1.1 = {
+			owner = LNG
+			add_core_of = LNG
+			remove_core_of = IMC
+		}
 		victory_points = { 3630 5 } #安东/丹东
 		victory_points = { 3634 1 } #瓦房店
-		
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2

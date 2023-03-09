@@ -7,6 +7,11 @@ state={
 	history = {
 		owner = DZU
 		add_core_of = DZU
+		1924.1.1 = {
+			owner = SIK
+			add_core_of = SIK
+			remove_core_of = DZU
+		}
 
 		victory_points = { 2031 1 } #巴里坤/镇西府
 

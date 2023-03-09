@@ -7,6 +7,11 @@ state={
 	history = {
 		owner = DZU
 		add_core_of = DZU
+		1924.1.1 = {
+			owner = HOT
+			add_core_of = HOT
+			remove_core_of = DZU
+		}
 
 		victory_points = { 1709 3 } #和田
 		victory_points = { 2385 1 } #策勒

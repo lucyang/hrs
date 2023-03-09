@@ -9,14 +9,12 @@ state={
 		1924.1.1 = {
 			owner = ADM
 		}
-		
 		victory_points = { 4299 1 }
-		
 		buildings = {
 			infrastructure = 1
 			air_base = 1	
 			4299 = {
-				naval_base = 2
+				naval_base = 1
 			}
 		}
 	}

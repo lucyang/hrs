@@ -12,9 +12,7 @@ state={
 			add_core_of = XON
 			remove_core_of = IMC
 		}
-
 		victory_points = { 1270 1 } #沅陵
-
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

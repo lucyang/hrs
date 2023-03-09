@@ -10,6 +10,11 @@ state={
 	history = {
 		owner = IMC
 		add_core_of = IMC
+		1924.1.1 = {
+			owner = JID
+			add_core_of = JID
+			remove_core_of = IMC
+		}
 
 		victory_points = { 3111 5 } #唐山
 		

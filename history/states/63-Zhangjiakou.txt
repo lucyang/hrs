@@ -6,6 +6,11 @@ state={
 	history={
 		owner = IMC
 		add_core_of = IMC
+		1924.1.1 = {
+			owner = CHR
+			add_core_of = CHR
+			remove_core_of = IMC
+		}
 
 		victory_points = { 544 5 } #张家口
 		

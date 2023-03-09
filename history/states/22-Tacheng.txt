@@ -9,6 +9,11 @@ state={
 	history = { 
 		owner = DZU
 		add_core_of = DZU
+		1924.1.1 = {
+			owner = TCH
+			add_core_of = TCH
+			remove_core_of = DZU
+		}
 		victory_points = { 3501 3 } #和布克赛尔
 		victory_points = { 804 5 } #塔尔巴哈台
 		buildings = {

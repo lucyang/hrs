@@ -6,6 +6,11 @@ state={
 	history={
 		owner = IMC
 		add_core_of = IMC
+		1924.1.1 = {
+			owner = SYN
+			add_core_of = SYN
+			remove_core_of = IMC
+		}
 
 		victory_points = { 1113 3 } #归绥/呼和浩特
 		

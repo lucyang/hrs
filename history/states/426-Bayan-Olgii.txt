@@ -9,9 +9,12 @@ state={
 	history = {
 		owner = DZU
 		add_core_of = DZU
-		
+		1924.1.1 = {
+			owner = ASH
+			add_core_of = ASH
+			remove_core_of = DZU
+		}
 		victory_points = { 885 1 } #乌列盖
-
 		buildings = {
 			infrastructure = 1
 		}

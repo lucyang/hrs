@@ -1128,9 +1128,6 @@ HRS_debug_tool_cataegory = {
 					promote_leader = yes 
 				}
 			}
-			TIB = { 
-				drop_cosmetic_tag = yes 
-			}
 			ETK = {
 				transfer_state = 35 # Uchturpan
 				transfer_state = 70 # Kizilsu

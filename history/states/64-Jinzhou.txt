@@ -6,12 +6,15 @@ state={
 	history={
 		owner = IMC
 		add_core_of = IMC
+		1924.1.1 = {
+			owner = LNG
+			add_core_of = LNG
+			remove_core_of = IMC
+		}
 		victory_points = { 1936 2 }
 		buildings = {
 			infrastructure = 2
-
 		}
-
 	}
 
 	provinces={
