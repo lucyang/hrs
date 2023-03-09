@@ -24,6 +24,20 @@ characters={
 			logistics_skill=1
 		}
 	}
+	MNG_real_yu_qingfang={
+		name=MNG_yu_qingfang
+		portraits={
+			civilian={
+				large="gfx/leaders/MNG/Portrait_Yu_Qingfang.png"
+			}
+		}
+		#country_leader={
+		#	ideology=anarcho_communism_subtype
+		#	desc=MNG_real_yu_qingfang_desc
+		#	traits={ MNG_great_marshall MNG_the_emperor }
+		#	expire="1940.9.23.1"
+		#}
+	}
 	MNG_luo_jun={
 		name=MNG_luo_jun
 		portraits={

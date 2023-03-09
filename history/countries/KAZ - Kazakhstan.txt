@@ -25,7 +25,6 @@ set_politics = {
 	elections_allowed = no
 }
 
-recruit_character = KAZ_turar_ryskulov
 recruit_character = KAZ_saken_seifullin
 recruit_character = KAZ_alikhan_bukeikhanov
 recruit_character = KAZ_akhmet_baitursynov

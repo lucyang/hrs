@@ -6,7 +6,10 @@ state={
 	}
 	history = {
 		owner = DBJ
-		
+		1924.1.1 = {
+			owner = IMN
+			add_core_of = IMN
+		}
 		victory_points = { 1438 5 } #多伦
 		victory_points = { 496 1 } #二连浩特
 		victory_points = { 2349 1 } #锡林浩特/阿巴哈纳尔旗

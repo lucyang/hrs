@@ -2,20 +2,24 @@ state={
 	id=157
 	name="STATE_157"
 	provinces={
-		3190 3723 
+		1817 3190 3723 
 	}
 	history = {
 		owner = IMC
 		add_core_of = IMC
-
-		victory_points = { 3723 1 } #焦作
+		1924.1.1 = {
+			owner = AYG
+			add_core_of = AYG
+			remove_core_of = IMC
+		}
+		victory_points = { 3723 3 } #焦作/怀庆
 		
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
 		}
 	}
-	manpower=96986
+	manpower=360471
 	state_category = town
 	local_supplies = 0.0
 }

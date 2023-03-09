@@ -78,7 +78,6 @@ HRS_setup_cultures = {
 	136 = { set_variable = { nationality = 10 } } #濮阳
 	145 = { set_variable = { nationality = 10 } } #新乡
 	157 = { set_variable = { nationality = 10 } } #焦作
-	158 = { set_variable = { nationality = 10 } } #济源
 	163 = { set_variable = { nationality = 10 } } #开封
 	164 = { set_variable = { nationality = 10 } } #洛阳
 	165 = { set_variable = { nationality = 10 } } #郑州
@@ -271,6 +270,7 @@ HRS_setup_cultures = {
 	354 = { set_variable = { nationality = 29 } } #贵港
 	366 = { set_variable = { nationality = 29 } } #玉林
 	# Hmao/Miao
+	158 = { set_variable = { nationality = 30 } } #威宁
 	315 = { set_variable = { nationality = 30 } } #盘州/六盘水
 	# Shu/Sichuan
 	188 = { set_variable = { nationality = 31 } } #汉中

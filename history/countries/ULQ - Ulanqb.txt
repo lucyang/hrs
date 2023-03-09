@@ -1,6 +1,7 @@
 ﻿capital = 71 #呼和浩特
 
 recruit_character = ULQ_bayandalai #补英达赖
+set_country_flag = is_mongolia_nation
 
 set_technology = {
 	infantry_weapons = 1

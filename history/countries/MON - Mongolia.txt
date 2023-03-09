@@ -6,6 +6,8 @@ recruit_character = MON_soliin_danzan # 索林·丹增
 recruit_character = MON_dogsomyn_bodoo # 道格索姆·鲍道
 recruit_character = MON_damdin_sukhbaatar # 达木丁·苏赫巴托尔
 
+set_country_flag = is_mongolia_nation
+
 set_technology = {
 	infantry_weapons = 1
 	support_weapons = 1

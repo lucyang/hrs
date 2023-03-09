@@ -12,7 +12,6 @@ state={
 			add_core_of = ETK
 			remove_core_of = DZU
 		}
-
 		victory_points = { 2100 20 } #喀什噶尔
 		victory_points = { 1158 5 } #英吉沙尔
 		victory_points = { 1341 3 } #塔什巴里克

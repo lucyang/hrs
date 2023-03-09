@@ -12,7 +12,6 @@ state={
 			add_core_of = JIN
 			remove_core_of = IMC
 		}
-
 		victory_points = { 1375 1 } #淄博
 		
 		buildings = {

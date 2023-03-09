@@ -1,4 +1,4 @@
-HRS_debug_tool_cataegory = {
+HRS_debug_tool_LGGaegory = {
 
 	HRS_control_all_china_states = {
 
@@ -338,10 +338,6 @@ HRS_debug_tool_cataegory = {
 		complete_effect = {
 			set_global_flag = CHI_Civil_War_Begins
 			every_state = {
-				limit = { is_guangxi_state = yes }
-				transfer_state_to = GXC
-			}
-			every_state = {
 				limit = { is_shanxi_state = yes }
 				transfer_state_to = SHX
 			}
@@ -385,6 +381,15 @@ HRS_debug_tool_cataegory = {
 			YSH = {
 				transfer_state = 135 #玉树
 				add_state_core = 135
+			}
+			# 广西
+			GXC = {
+				transfer_state = 329 #河池
+				add_state_core = 329
+				transfer_state = 337 #百色
+				add_state_core = 337
+				transfer_state = 364 #崇左
+				add_state_core = 364
 			}
 			# 四川
 			CYA = {
@@ -430,7 +435,7 @@ HRS_debug_tool_cataegory = {
 			}
 			# 贵州
 			MIA = {
-				transfer_state = 658 # 威宁
+				transfer_state = 158 # 威宁
 			}
 			# 甘肃
 			GNS = {	
@@ -477,12 +482,12 @@ HRS_debug_tool_cataegory = {
 			ZZH = {
 				transfer_state = 165 #郑州
 				add_state_core = 165
+				transfer_state = 175 #平顶山
+				add_state_core = 175
 				transfer_state = 176 #许昌
 				add_state_core = 176
 				transfer_state = 178 #漯河
 				add_state_core = 178
-				transfer_state = 175 #平顶山
-				add_state_core = 175
 			}
 			AYG = {
 				transfer_state = 134 #安阳
@@ -495,8 +500,6 @@ HRS_debug_tool_cataegory = {
 				add_state_core = 157				
 			}
 			LYG = {
-				transfer_state = 158 #济源
-				add_state_core = 158
 				transfer_state = 162 #三门峡
 				add_state_core = 162
 				transfer_state = 164 #洛阳
@@ -695,12 +698,14 @@ HRS_debug_tool_cataegory = {
 				transfer_state = 382 #湛江
 				add_state_core = 382		
 			}
-			#CAT = {
-			#	transfer_state = 349 #肇庆
-			#	add_state_core = 349
-			#	transfer_state = 365 #云浮
-			#	add_state_core = 365
-			#}
+			LGG = {
+				transfer_state = 371 #钦州
+				add_state_core = 371
+				transfer_state = 378 #防城港
+				add_state_core = 378
+				transfer_state = 381 #北海
+				add_state_core = 381
+			}
 			SGN = {
 				transfer_state = 333 #清远
 				add_state_core = 333

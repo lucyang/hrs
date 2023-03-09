@@ -1,0 +1,70 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ LGG_communism:0 "两广共和国"
+ LGG_communism_DEF:0 "两广共和国临时政府"
+ LGG_anarchism:0 "两广共和国"
+ LGG_anarchism_DEF:0 "两广共和国临时政府"
+ LGG_socialism:0 "两广共和国"
+ LGG_socialism_DEF:0 "两广共和国临时政府"
+ LGG_democratic:0 "两广共和国"
+ LGG_democratic_DEF:0 "两广共和国临时政府"
+ LGG_neutrality:0 "两广共和国"
+ LGG_neutrality_DEF:0 "两广共和国临时政府"
+ LGG_monarchism:0 "两广共和国"
+ LGG_monarchism_DEF:0 "两广共和国临时政府"
+ LGG_fascism:0 "两广共和国"
+ LGG_fascism_DEF:0 "两广共和国临时政府"
+ LGG_imperialism:0 "两广共和国"
+ LGG_imperialism_DEF:0 "两广共和国临时政府"
+ LGG_futurism:0 "两广共和国"
+ LGG_futurism_DEF:0 "两广共和国临时政府"
+ LGG_communism_ADJ:0 "粤独"
+ LGG_anarchism_ADJ:0 "粤独"
+ LGG_socialism_ADJ:0 "粤独"
+ LGG_democratic_ADJ:0 "粤独"
+ LGG_neutrality_ADJ:0 "粤独"
+ LGG_monarchism_ADJ:0 "粤独"
+ LGG_fascism_ADJ:0 "两广共和国"
+ LGG_imperialism_ADJ:0 "粤独"
+ LGG_futurism_ADJ:0 "粤独"
+ LGG:0 "两广共和国"
+ LGG_DEF:0 "两广共和国"
+ LGG_ADJ:0 "粤独"
+ #############
+ ## PARTIES ##
+ #############
+ LGG_communism_party:0 "社民农工党"
+ LGG_communism_party_long:0 "中国社会民主农工党"
+ LGG_anarchism_party:0 "无治主义共产主义同志社"
+ LGG_anarchism_party_long:0 "无治共产主义同志社"
+ LGG_socialism_party:0 "广东工会联合会"
+ LGG_socialism_party_long:0 "广东工会联合会"
+ LGG_democratic_party:0 "广东独立协会-民权派"
+ LGG_democratic_party_long:0 "广东独立协会-民权派"
+ LGG_neutrality_party:0 "广东独立协会-实业派"
+ LGG_neutrality_party_long:0 "广东独立协会-实业派"
+ LGG_monarchism_party:0 "广东独立协会-君主派"
+ LGG_monarchism_party_long:0 "广东独立协会-君主派"
+ LGG_fascism_party:0 "广东独立协会-民族派"
+ LGG_fascism_party_long:0 "广东独立协会-民族派"
+ LGG_imperialism_party:0 "广东独立协会-皇汉派"
+ LGG_imperialism_party_long:0 "广东独立协会-皇汉派"
+ LGG_futurism_party:0 "广州商团"
+ LGG_futurism_party_long:0 "广州商团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ LGG_feng_ziyou:0 "冯自由"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

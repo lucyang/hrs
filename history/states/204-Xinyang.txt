@@ -7,8 +7,12 @@ state={
 	history = {
 		owner = IMC
 		add_core_of = IMC
-
-		victory_points = { 2095 1 } #信阳
+		1924.1.1 = {
+			owner = HEN
+			add_core_of = HEN
+			remove_core_of = IMC
+		}
+		victory_points = { 2095 3 } #信阳
 		victory_points = { 3798 1 } #固始
 		
 		buildings = {

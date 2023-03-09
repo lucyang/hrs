@@ -7,7 +7,11 @@ state={
 	history = {
 		owner = IMC
 		add_core_of = IMC
-
+		1924.1.1 = {
+			owner = AYG
+			add_core_of = AYG
+			remove_core_of = IMC
+		}
 		victory_points = { 287 1 } #新乡
 		
 		buildings = {

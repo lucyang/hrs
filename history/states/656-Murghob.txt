@@ -7,7 +7,11 @@ state={
 	history = {
 		owner = DZU
 		add_core_of = DZU 
-
+		1924.1.1 = {
+			owner = TUK
+			add_core_of = TUK
+			remove_core_of = DZU
+		}
 		victory_points = { 2126 1 } #穆尔加布
 
 		buildings = {

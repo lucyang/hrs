@@ -8,8 +8,8 @@ state={
 		owner = IMC
 		add_core_of = IMC
 		1924.1.1 = {
-			owner = QND
-			add_core_of = QND
+			owner = JIN
+			add_core_of = JIN
 			remove_core_of = IMC
 		}
 

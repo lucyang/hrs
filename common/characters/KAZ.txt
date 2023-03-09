@@ -1,18 +1,4 @@
 characters={
-	KAZ_turar_ryskulov={
-		name=KAZ_turar_ryskulov
-		portraits={
-			civilian={
-				large="gfx/leaders/KAZ/Portrait_Turar_Ryskulov.png"
-			}
-		}
-		country_leader={
-			ideology=leninism_subtype
-			desc=KAZ_turar_ryskulov_desc
-			traits={ veteran_communist proletariat_internationalist }
-			expire="1950.2.10.1"
-		}
-	}
 	KAZ_saken_seifullin={
 		name=KAZ_saken_seifullin
 		portraits={

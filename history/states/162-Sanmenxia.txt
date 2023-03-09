@@ -7,7 +7,11 @@ state={
 	history = {
 		owner = IMC
 		add_core_of = IMC
-
+		1924.1.1 = {
+			owner = LYG
+			add_core_of = LYG
+			remove_core_of = IMC
+		}
 		victory_points = { 2132 3 } #陕州
 		
 		buildings = {

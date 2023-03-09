@@ -21,7 +21,9 @@ state={
 		
 		buildings = {
 			infrastructure = 2
-			
+			1986 = {
+				dockyard = 1
+			}
 		}
 		
 	}

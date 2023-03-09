@@ -1,4 +1,4 @@
-﻿capital = 352 # Nanning
+﻿capital = 337 # 百色
 
 recruit_character = GXC_wei_baqun
 recruit_character = GXC_zhang_yunyi
@@ -6,8 +6,9 @@ recruit_character = GXC_deng_xiaoping
 recruit_character = GXC_wang_heshun
 recruit_character = GXC_lei_jingtian
 
-oob = "GXC_1923"
+oob = "empty"
 set_country_flag = is_china_nation
+set_country_flag = is_zhuang_nation
 
 set_technology = {
 	infantry_weapons = 1

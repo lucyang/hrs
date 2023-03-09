@@ -12,9 +12,7 @@ state={
 			add_core_of = QND
 			remove_core_of = IMC
 		}
-
 		victory_points = { 2599 3 } #威海
-		
 		buildings = {
 			infrastructure = 3
 

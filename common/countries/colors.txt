@@ -212,7 +212,7 @@ LCH = { # 雷州海军政府
 	color = rgb { 68 76 56 }
 	color_ui = rgb { 68 76 56 }
 }
-CAT = { # 大粤民国
+LGG = { # 两广共和国
 	color = rgb { 40 80 46 }
 	color_ui = rgb { 40 80 46 }
 }

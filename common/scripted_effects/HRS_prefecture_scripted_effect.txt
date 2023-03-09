@@ -167,7 +167,6 @@ HRS_setup_prefectures = {
 	136 = { set_variable = { prefecture = 23 } } #濮阳
 	145 = { set_variable = { prefecture = 23 } } #新乡
 	157 = { set_variable = { prefecture = 23 } } #焦作
-	158 = { set_variable = { prefecture = 23 } } #济源
 	162 = { set_variable = { prefecture = 23 } } #三门峡
 	163 = { set_variable = { prefecture = 23 } } #开封
 	164 = { set_variable = { prefecture = 23 } } #洛阳
@@ -278,6 +277,7 @@ HRS_setup_prefectures = {
 	141 = { set_variable = { prefecture = 31 } } #晋城
 	147 = { set_variable = { prefecture = 31 } } #运城
 	#贵州
+	158 = { set_variable = { prefecture = 32 } } #威宁
 	278 = { set_variable = { prefecture = 32 } } #遵义
 	281 = { set_variable = { prefecture = 32 } } #铜仁
 	302 = { set_variable = { prefecture = 32 } } #毕节

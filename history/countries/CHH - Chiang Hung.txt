@@ -1,8 +1,10 @@
 ﻿capital = 374 # 西双版纳
 
 recruit_character = CHH_dao_dongliang
-set_country_flag = is_china_nation
+
 oob = "empty"
+
+set_country_flag = is_dai_nation
 
 set_technology = {
 	infantry_weapons = 1

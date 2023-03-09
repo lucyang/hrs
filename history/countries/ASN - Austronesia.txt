@@ -1,6 +1,8 @@
-﻿capital = 350 # Hualian
+﻿capital = 350 #花莲
 
 recruit_character = ASN_losing_watan
+
+set_country_flag = is_taiwan_nation
 
 oob = "empty"
 

@@ -5,13 +5,10 @@ recruit_character = FRM_jiang_weishui
 recruit_character = FRM_lian_wenqing
 recruit_character = FRM_li_weiguang
 recruit_character = FRM_chen_fengyuan
-#recruit_character = FRM_cai_peihuo
 recruit_character = FRM_luo_fuxing
 recruit_character = FRM_xie_xuehong
-#recruit_character = FRM_jian_ji
-#recruit_character = FRM_yu_qingfang
 
-set_country_flag = is_china_nation
+set_country_flag = is_taiwan_nation
 
 oob = "empty"
 

@@ -1,134 +1,227 @@
 is_china_nation = {
 	has_country_flag = is_china_nation
 }
-
 is_china_unifier = {
+	is_china_nation = yes
+}
+##########
+# HUABEI #
+##########
+is_shandong_nation = {
 	OR = {
-		original_tag = SHX
-		original_tag = SHD
-		original_tag = QND
-		original_tag = IMN
-		original_tag = DAR
-		original_tag = PRC
-		original_tag = JID
-		original_tag = TIJ
-		original_tag = HEB
-		original_tag = PRC
-		original_tag = QUF		
-		original_tag = XSM
-		original_tag = SIK
-		original_tag = IMC
-		original_tag = SHH
-		original_tag = CHI
-		original_tag = MAO
-		original_tag = CBS
-		original_tag = KMT
-		original_tag = HLF
-		original_tag = GXC
-		original_tag = YUN
-		original_tag = JXP
-		original_tag = DLI
-		original_tag = GZH
-		original_tag = GNA
-		original_tag = SCH
-		original_tag = CHQ
-		original_tag = PDS
-		original_tag = AYG
-		original_tag = ZZH
-		original_tag = LYG
-		original_tag = HEN
-		original_tag = WAX
-		original_tag = QNA
-		original_tag = LNG
-		original_tag = NIX
-		original_tag = GNS
-		original_tag = SYN
-		original_tag = SXI
-		original_tag = HMG
-		original_tag = KTS
-		original_tag = XXC
-		original_tag = CYA
-		original_tag = CNC
-		original_tag = CLS
+		original_tag = SHD #乡村建设研究院
+		original_tag = QUF #定武军政府
+		original_tag = QND #山东军政府
+		original_tag = QNA #青岛镇守府
+		original_tag = JIN #山东自治国
 	}
 }
-
+is_hebei_nation = {
+	OR = {
+		original_tag = PRC #革命军事委员会
+		original_tag = HEB #北方革命军政府
+		original_tag = TIJ #华北自治政府
+		original_tag = JID #冀东非武装区
+	}
+}
+is_henan_nation = {
+	OR = {
+		original_tag = ZZH #工人委员会联邦
+		original_tag = PDS #佛教弘誓会
+		original_tag = AYG #黄忠民族保卫军
+		original_tag = LYG #镇嵩军
+		original_tag = HEN #河南紧急政府
+		original_tag = WAX #宛西自治区
+	}
+}
+is_shanxi_nation = {
+	OR = {
+		original_tag = SHX #山西军政府
+	}
+}
+is_liaoning_nation = {
+	OR = {
+		original_tag = LNG #南满洲共和国
+		original_tag = KTS #关东州工兵代表政府
+	}
+}
+is_chahar_nation = {
+	OR = {
+		original_tag = IMN #内蒙古人民共和国
+		original_tag = DAR #达里冈爱牧场
+		original_tag = CHR #察北自治政府
+	}
+}
 is_huabei_nation = {
 	OR = {
-		original_tag = SHX
-		original_tag = SHD
-		original_tag = QUF
-		original_tag = QND
-		original_tag = PRC	
-		original_tag = HEB
-		original_tag = TIJ
-		original_tag = JID
-		original_tag = CHR
-		original_tag = IMN
-		original_tag = DAR
-		original_tag = ZZH
-		original_tag = PDS
-		original_tag = AYG
-		original_tag = LYG
-		original_tag = HEN
-		original_tag = WAX
-		original_tag = QNA
-		original_tag = LNG
-		original_tag = KTS
+		is_shandong_nation = yes
+		is_hebei_nation = yes
+		is_henan_nation = yes
+		is_chahar_nation = yes
 	}
 }
-
-is_xibei_nation = {
+#########
+# XIBEI #
+#########
+is_shaanxi_nation = {
+	OR = {
+		original_tag = SXI
+	}
+}
+is_gansu_nation = {
 	OR = {
 		original_tag = XSM
-		original_tag = SIK
-		original_tag = SXI
-		original_tag = NIX
 		original_tag = GNS
-		original_tag = QNG
+	}
+}
+is_ningxia_nation = {
+	OR = {
+		original_tag = NIX
+	}
+}
+is_suiyuan_nation = {
+	OR = {
 		original_tag = SYN
 	}
 }
-
-is_huadong_nation = {
+is_qinghai_nation = {
+	OR = {
+		original_tag = QNG
+		original_tag = YSH
+	}
+}
+is_xibei_nation = {
+	OR = {
+		is_shaanxi_nation = yes
+		is_gansu_nation = yes
+		is_ningxia_nation = yes
+		is_suiyuan_nation = yes
+		is_qinghai_nation = yes
+	}
+}
+###########
+# HUADONG #
+###########
+is_jiangsu_nation = {
 	OR = {
 		original_tag = IMC
+	}
+}
+is_zhejiang_nation = {
+	#
+}
+is_shanghai_nation = {
+	OR = {
 		original_tag = SHH
 	}
 }
-
-is_huazhong_nation = {
+is_anhui_nation = {
+	OR = {
+		original_tag = ANH
+	}
+}
+is_huadong_nation = {
+	OR = {
+		is_jiangsu_nation = yes
+		is_zhejiang_nation = yes
+		is_shanghai_nation = yes
+		is_anhui_nation = yes
+	}
+}
+############
+# HUAZHONG #
+############
+is_hubei_nation = {
 	OR = {
 		original_tag = CHI
+	}
+}
+is_hunan_nation = {
+	OR = {
 		original_tag = MAO
+		original_tag = CBS
 		original_tag = HNA
 		original_tag = HNR
 		original_tag = HMG
+	}
+}
+is_xiangxi_nation = {
+	OR = {
 		original_tag = XXI
 		original_tag = XXC
 		original_tag = XON
 	}
 }
-
-is_huanan_nation = {
+is_jiangxi_nation = {
+	#
+}
+is_huazhong_nation = {
 	OR = {
-		original_tag = KMT
+		is_hubei_nation = yes
+		is_hunan_nation = yes
+		is_jiangxi_nation = yes
+		is_xiangxi_nation = yes
+	}
+}
+##########
+# HUANAN #
+##########
+is_guangdong_nation = {
+	OR = {
+		original_tag = GND
 		original_tag = HLF
+		original_tag = FEM
+		original_tag = LCH
+		original_tag = SGN
+		original_tag = KMT
+		original_tag = SZH
+	}
+}
+is_guangxi_nation = {
+	OR = {
 		original_tag = GXC
 	}
 }
-
-is_xinan_nation = {
+is_fujian_nation = {
+	OR = {
+		original_tag = FED
+	}
+}
+is_hainan_nation = {
+	OR = {
+		original_tag = HNN
+	}
+}
+is_huanan_nation = {
+	OR = {
+		is_guangdong_nation = yes
+		is_guangxi_nation = yes
+		is_fujian_nation = yes
+		is_hainan_nation = yes
+	}
+}
+#########
+# XINAN #
+#########
+is_yunnan_nation = {
 	OR = {
 		original_tag = YUN
 		original_tag = JXP
 		original_tag = MMA
 		original_tag = CHH
 		original_tag = DLI
+	}
+}
+is_guizhou_nation = {
+	OR = {
 		original_tag = GZH
 		original_tag = GNA
 		original_tag = MIA
 		original_tag = MIR
+	}
+}
+is_sichuan_nation = {
+	OR = {
 		original_tag = SCH
 		original_tag = CHQ
 		original_tag = NSB
@@ -137,35 +230,13 @@ is_xinan_nation = {
 		original_tag = CLS
 	}
 }
-
-is_yi_nation = {
+is_xinan_nation = {
 	OR = {
-		original_tag = NSB
+		is_yunnan_nation = yes
+		is_guizhou_nation = yes
+		is_sichuan_nation = yes
 	}
 }
-
-is_bai_nation = {
-	OR = {
-		original_tag = DLI
-	}
-}
-
-is_miao_nation = {
-	OR = {
-		original_tag = MIA
-		original_tag = MIR
-		original_tag = XON
-	}
-}
-
-is_dai_nation = {
-	OR = {
-		original_tag = MMA
-		original_tag = CHH
-		original_tag = TAT
-	}
-}
-
 is_guangdong_state = {
 	OR = {
 		state = 330 #韶关
@@ -346,7 +417,6 @@ is_henan_state = {
 		state = 136 #濮阳
 		state = 145 #新乡
 		state = 157 #焦作
-		state = 158 #济源
 		state = 162 #三门峡
 		state = 163 #开封
 		state = 164 #洛阳
@@ -389,7 +459,6 @@ is_hebei_state = {
 	OR = {
 		state = 59 #承德
 		state = 63 #宣化
-		state = 510 #张家口
 		state = 78 #秦皇岛
 		state = 79 #唐山
 		state = 84 #保定
@@ -439,6 +508,14 @@ is_sichuan_state = {
 		state = 515 #万县
 		state = 516 #黔江
 		state = 517 #涪陵
+	}
+}
+
+is_chahar_state = {
+	OR = {
+		state = 23 #锡林郭勒
+		state = 63 #张家口
+		state = 510 #张北
 	}
 }
 
@@ -532,7 +609,7 @@ is_guizhou_state = {
 		state = 315 #盘州
 		state = 318 #安顺
 		state = 323 #兴义
-		state = 658 #威宁
+		state = 158 #威宁
 	}
 }
 
@@ -779,7 +856,6 @@ is_china_state = {
 		state = 136 #濮阳
 		state = 145 #新乡
 		state = 157 #焦作
-		state = 158 #济源
 		state = 162 #三门峡
 		state = 163 #开封
 		state = 164 #洛阳
@@ -904,7 +980,7 @@ is_china_state = {
 		state = 315 #盘州
 		state = 318 #安顺
 		state = 323 #兴义
-		state = 658 #威宁
+		state = 158 #威宁
  		#云南
 		state = 277 #迪庆
 		state = 284 #昭通
@@ -1125,7 +1201,6 @@ is_any_china_state = {
 		state = 136 #濮阳
 		state = 145 #新乡
 		state = 157 #焦作
-		state = 158 #济源
 		state = 162 #三门峡
 		state = 163 #开封
 		state = 164 #洛阳
@@ -1250,7 +1325,7 @@ is_any_china_state = {
 		state = 315 #盘州
 		state = 318 #安顺
 		state = 323 #兴义
-		state = 658 #威宁
+		state = 158 #威宁
  		#云南
 		state = 277 #迪庆
 		state = 284 #昭通
@@ -1321,7 +1396,6 @@ can_form_huabei = {
 		owns_state = 136 #濮阳
 		owns_state = 145 #新乡
 		owns_state = 157 #焦作
-		owns_state = 158 #济源
 		owns_state = 162 #三门峡
 		owns_state = 163 #开封
 		owns_state = 164 #洛阳
@@ -1393,14 +1467,6 @@ can_form_huabei = {
 		owns_state = 130 #临汾
 		owns_state = 141 #晋城
 		owns_state = 147 #运城
-        #内蒙古
-		owns_state = 43 #乌海
-		owns_state = 49 #乌兰察布
-		owns_state = 57 #包头
-		owns_state = 61 #五原/巴彦淖尔
-		owns_state = 71 #归绥/呼和浩特
-		owns_state = 76 #伊克昭/鄂尔多斯
-		owns_state = 511 #东胜/托克托
     }
 }
 
@@ -1603,7 +1669,7 @@ can_form_xinan = {
 		owns_state = 315 #盘州
 		owns_state = 318 #安顺
 		owns_state = 323 #兴义
-		owns_state = 658 #威宁
+		owns_state = 158 #威宁
  		#云南
 		owns_state = 293 #怒江
 		owns_state = 301 #丽江
@@ -1659,7 +1725,6 @@ can_form_xibei = {
 		owns_state = 116 #西宁
 		owns_state = 119 #海南
 		owns_state = 123 #海东
-		owns_state = 135 #玉树
 		owns_state = 138 #黄南
 		owns_state = 151 #果洛
     }
