@@ -10,7 +10,7 @@ HRS_setup_prefectures = {
 	355 = { set_variable = { prefecture = 5 } } #广州
 	82 = { set_variable = { prefecture = 6 } } #天津
 	244 = { set_variable = { prefecture = 7 } } #武汉
-	654 = { set_variable = { prefecture = 8 } } #青岛
+	107 = { set_variable = { prefecture = 8 } } #青岛
 	168 = { set_variable = { prefecture = 9 } } #西安
 	595 = { set_variable = { prefecture = 10 } } #大阪
 	636 = { set_variable = { prefecture = 11 } } #釜山
@@ -69,7 +69,7 @@ HRS_setup_prefectures = {
 	306 = { set_variable = { prefecture = 15 } } #衡阳
 	313 = { set_variable = { prefecture = 15 } } #永州
 	314 = { set_variable = { prefecture = 15 } } #郴州
-	655 = { set_variable = { prefecture = 15 } } #沅陵
+	654 = { set_variable = { prefecture = 15 } } #沅陵
 	#江西
 	260 = { set_variable = { prefecture = 16 } } #景德镇
 	264 = { set_variable = { prefecture = 16 } } #九江
@@ -212,11 +212,11 @@ HRS_setup_prefectures = {
 	112 = { set_variable = { prefecture = 25 } } #邢台
 	127 = { set_variable = { prefecture = 25 } } #邯郸
 	#海南
-	385 = { set_variable = { prefecture = 26 } } #海南岛
+	385 = { set_variable = { prefecture = 26 } } #琼东
 	386 = { set_variable = { prefecture = 26 } } #琼州
 	389 = { set_variable = { prefecture = 26 } } #崖州
 	383 = { set_variable = { prefecture = 26 } } #儋州
-	658 = { set_variable = { prefecture = 26 } } #海南黎族苗族自治州
+	657 = { set_variable = { prefecture = 26 } } #琼西
 	#辽东
 	60 = { set_variable = { prefecture = 27 } } #抚顺
 	64 = { set_variable = { prefecture = 27 } } #锦州
@@ -287,7 +287,7 @@ HRS_setup_prefectures = {
 	315 = { set_variable = { prefecture = 32 } } #盘州
 	318 = { set_variable = { prefecture = 32 } } #安顺
 	323 = { set_variable = { prefecture = 32 } } #兴义
-	659 = { set_variable = { prefecture = 32 } } #威宁
+	657 = { set_variable = { prefecture = 32 } } #威宁
 	#云南
 	277 = { set_variable = { prefecture = 33 } } #迪庆
 	284 = { set_variable = { prefecture = 33 } } #昭通

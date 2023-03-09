@@ -1,0 +1,16 @@
+characters={
+	POW_wangchen_dudun={
+		name=POW_wangchen_dudun
+		portraits={
+			civilian={
+				large="gfx/leaders/generic/Portrait_Tibetan_Chief.png"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_subtype
+			desc=POW_wangchen_dudun_desc
+			traits={  }
+			expire="1950.1.1.1"
+		}
+	}
+}

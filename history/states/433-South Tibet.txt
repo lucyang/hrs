@@ -5,8 +5,11 @@ state={
 		177 1061 3117
 	}
 	history = {
-		owner = TIB
-		add_core_of = TIB
+		owner = POW
+		add_core_of = POW
+		1924.1.1 = {
+			add_claim_by = TIB
+		}
 
 		victory_points = { 177 1 } #墨脱
 

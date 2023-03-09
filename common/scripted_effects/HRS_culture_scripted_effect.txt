@@ -28,7 +28,6 @@ HRS_setup_cultures = {
 	74 = { set_variable = { nationality = 4 } } #北平
 	# Qi/Northern Shandong
 	105 = { set_variable = { nationality = 5 } } #滨州
-	107 = { set_variable = { nationality = 5 } } #东营
 	117 = { set_variable = { nationality = 5 } } #日照
 	142 = { set_variable = { nationality = 5 } } #潍坊
 	109 = { set_variable = { nationality = 5 } } #德州
@@ -42,10 +41,10 @@ HRS_setup_cultures = {
 	144 = { set_variable = { nationality = 6 } } #菏泽
 	156 = { set_variable = { nationality = 6 } } #枣庄
 	# Jiaodong
+	107 = { set_variable = { nationality = 7 } } #青岛
 	110 = { set_variable = { nationality = 7 } } #烟台
 	114 = { set_variable = { nationality = 7 } } #威海
-	125 = { set_variable = { nationality = 7 } } #胶州
-	654 = { set_variable = { nationality = 7 } } #青岛
+	125 = { set_variable = { nationality = 7 } } #胶州	
 
 	591 = { set_variable = { nationality = 7 } } #关东州
 
@@ -631,7 +630,7 @@ HRS_setup_cultures = {
 	# Hmong/Western Hmongic
 	323 = { set_variable = { nationality = 95 } } #兴义/黔西南
 	535 = { set_variable = { nationality = 95 } } #上寮
-	659 = { set_variable = { nationality = 95 } } #威宁
+	657 = { set_variable = { nationality = 95 } } #威宁
 	# Xong/Eastern Hmongic
 	269 = { set_variable = { nationality = 96 } } #凤凰/湘西
 	655 = { set_variable = { nationality = 96 } } #郴州
@@ -708,7 +707,7 @@ HRS_setup_cultures = {
 	342 = { set_variable = { nationality = 108 } } #普洱
 	344 = { set_variable = { nationality = 108 } } #红河
 	# Li/Hlai
-	658 = { set_variable = { nationality = 109 } } #海南黎族苗族自治区
+	657 = { set_variable = { nationality = 109 } } #琼西
 	# Turpan Uyghur
 	46 = { set_variable = { nationality = 110 } } #吐鲁番
 	630 = { set_variable = { nationality = 110 } } #喀喇沙尔
@@ -721,12 +720,12 @@ HRS_setup_cultures = {
 	# Kyrgyz
 	70 = { set_variable = { nationality = 113 } } #克孜勒苏
 	514 = { set_variable = { nationality = 113 } } #吉尔吉斯
-	656 = { set_variable = { nationality = 113 } } #伊克塞湖	
+	655 = { set_variable = { nationality = 113 } } #伊克塞湖	
 	# Tajik
 	4 = { set_variable = { nationality = 114 } } #塔吉克斯坦
 	430 = { set_variable = { nationality = 114 } } #山地巴达赫尚
 	# Pamir?
-	657 = { set_variable = { nationality = 115 } } #穆尔加布
+	656 = { set_variable = { nationality = 115 } } #穆尔加布
 	# Bamar/Burmese
 	288 = { set_variable = { nationality = 115 } } #仰光
 	# Siamese/Southern Tai

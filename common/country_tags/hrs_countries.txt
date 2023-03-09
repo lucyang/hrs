@@ -27,6 +27,7 @@ QND = "countries/Qingdao.txt"
 QNA = "countries/Qingdao Naval Authority.txt"
 QUF = "countries/Qufu.txt"
 LNY = "countries/Linyi.txt"
+JIN = "countries/Jinan.txt"
 # HENAN #
 LYG = "countries/Luoyang.txt"
 AYG = "countries/Anyang.txt"
@@ -77,6 +78,7 @@ GNS = "countries/Gansu.txt"
 XSM = "countries/Guiyi Circuit.txt"
 NIX = "countries/Ningxia.txt"
 SYN = "countries/Suiyuan.txt"
+YSH = "countries/Yulshul.txt"
 ### CHINA/SOUTHWEST ###
 # SICHUAN #
 SCH = "countries/Sichuan.txt"
@@ -173,6 +175,7 @@ SHG = "countries/Shigatse.txt"
 KHM = "countries/Khams.txt"
 AMD = "countries/Amdo.txt"
 LDK = "countries/Ladakh.txt"
+POW = "countries/Powo.txt"
 ### XINJIANG ###
 DZU = "countries/Dzungar.txt"
 TAN = "countries/Tannu Tuva.txt"

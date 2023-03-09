@@ -381,8 +381,8 @@ HRS_debug_tool_cataegory = {
 				limit = { is_hainan_state = yes }
 				transfer_state_to = HNN
 			}
-			658 = { set_demilitarized_zone = yes }
-			TIB = {
+			657 = { set_demilitarized_zone = yes }
+			YSH = {
 				transfer_state = 135 #玉树
 				add_state_core = 135
 			}
@@ -430,7 +430,7 @@ HRS_debug_tool_cataegory = {
 			}
 			# 贵州
 			MIA = {
-				transfer_state = 659 # 威宁
+				transfer_state = 658 # 威宁
 			}
 			# 甘肃
 			GNS = {	
@@ -564,25 +564,47 @@ HRS_debug_tool_cataegory = {
 			# 山东
 			SHD = {
 				transfer_state = 105 #滨州
-				transfer_state = 107 #东营
+				add_state_core = 105
 				transfer_state = 109 #德州
+				add_state_core = 109
 				transfer_state = 129 #聊城
+				add_state_core = 129
+			}
+			JIN = {
+				transfer_state = 117 #潍坊
+				add_state_core = 117
+				transfer_state = 118 #济南
+				add_state_core = 118
+				transfer_state = 122 #淄博
+				add_state_core = 122
 			}
 			QND = {
 				transfer_state = 110 #烟台
+				add_state_core = 110
 				transfer_state = 114 #威海
+				add_state_core = 114
 				transfer_state = 125 #胶州
+				add_state_core = 125
 			}
 			QNA = {
-				transfer_state = 654 #青岛
+				transfer_state = 107 #青岛
+				add_state_core = 107
+			}
+			LNY = {
+				transfer_state = 137 #临沂
+				add_state_core = 137
+				transfer_state = 156 #枣庄
+				add_state_core = 156
+				transfer_state = 142 #日照
+				add_state_core = 142
 			}
 			QUF = {
 				transfer_state = 133 #泰安
-				transfer_state = 142 #日照
+				add_state_core = 133				
 				transfer_state = 143 #济宁
-				#transfer_state = 137 #临沂
+				add_state_core = 143		
 				transfer_state = 144 #菏泽
-				#transfer_state = 156 #枣庄
+				add_state_core = 144		
 			}
 			# 湖南
 			MAO = {
@@ -626,8 +648,8 @@ HRS_debug_tool_cataegory = {
 				add_state_core = 282
 			}
 			XON = {
-				transfer_state = 655 #沅陵
-				add_state_core = 655
+				transfer_state = 654 #沅陵
+				add_state_core = 654
 			}
 			# 广东
 			every_state = {

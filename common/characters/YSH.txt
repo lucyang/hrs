@@ -1,0 +1,16 @@
+characters={
+	YSH_yulshu_tribes={
+		name=YSH_yulshu_tribes
+		portraits={
+			civilian={
+				large="gfx/leaders/generic/Portrait_Tibetan_Tribe.png"
+			}
+		}
+		country_leader={
+			ideology=feudalism_subtype
+			desc=YSH_yulshu_tribes_desc
+			traits={  }
+			expire="1950.1.1.1"
+		}
+	}
+}

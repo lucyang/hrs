@@ -7,6 +7,11 @@ state={
 	history = {
 		owner = IMC
 		add_core_of = IMC
+		1924.1.1 = {
+			owner = QUF
+			add_core_of = QUF
+			remove_core_of = IMC
+		}
 
 		victory_points ={ 647 3 } #曲阜
 		victory_points ={ 1680 1 } #兖州

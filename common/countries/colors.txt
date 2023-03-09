@@ -154,6 +154,10 @@ SYN = {
 	color = rgb { 102 0 0 }
 	color_ui = rgb { 102 0 0 }
 }
+YSH = {
+	color = rgb { 130 165 120 }
+	color_ui = rgb { 130 165 120 }
+}
 ###############
 ### SICHUAN ###
 ###############
@@ -332,6 +336,10 @@ QNA = { # 青岛海军政府
 LNY = { # 山东建国自治军
 	color = rgb { 85 107 47 }
 	color_ui = rgb { 85 107 47 }
+}
+JIN = { # 山东自治共和国
+	color = rgb { 181 148 163 }
+	color_ui = rgb { 181 148 163 }
 }
 ##############
 ### TAIWAN ###
@@ -602,6 +610,10 @@ KHM = { # 康区
 LDK = { # 拉达克
 	color = rgb { 35 65 67 }
 	color_ui = rgb { 35 65 67 }
+}
+POW = { # 波密土王
+	color = rgb { 134 139 134 }
+	color_ui = rgb { 134 139 134 }
 }
 ####################
 ### CENTRAL ASIA ###

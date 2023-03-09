@@ -1,0 +1,41 @@
+﻿capital = 433 #墨脱/林芝
+
+oob = "empty"
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+recruit_character = POW_wangchen_dudun #旺钦顿堆
+
+give_military_access = TIB
+
+add_ideas = {
+	civilian_economy
+	feudal_levy
+	free_trade
+}
+add_ideas = {
+	country_development
+	country_tech
+	natural_economy
+	primitive_state
+}
+
+set_politics = {
+	ruling_party = monarchism
+	last_election = "1923.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	anarchism = 0
+	socialism = 0
+	democratic = 0
+	neutrality = 30
+	monarchism = 46
+	fascism = 24
+	imperialism = 0
+	futurism = 0
+}

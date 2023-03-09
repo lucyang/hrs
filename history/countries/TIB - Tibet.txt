@@ -15,9 +15,6 @@ recruit_character = TIB_tsarong_dasang_dramdul # 擦绒·达桑占堆
 recruit_character = TIB_changgnopa_ringang # 强俄巴·仁增多吉
 recruit_character = TIB_zhang_yintang # 张荫棠
 
-set_cosmetic_tag = TIB_DZU
-
-give_military_access = DZU
 give_military_access = IMC
 give_resource_rights = { receiver = IMC state = 267 }
 add_offsite_building = { type = industrial_complex level = 2 }
@@ -53,21 +50,97 @@ add_ideas = {
 	primitive_state
 }
 
+set_autonomy = {
+	target = SKM
+	autonomous_state = autonomy_tributary_state
+}
+set_autonomy = {
+	target = LDK
+	autonomous_state = autonomy_tributary_state
+}
+set_autonomy = {
+	target = POW
+	autonomous_state = autonomy_tributary_state
+}
+set_autonomy = {
+	target = AMD
+	autonomous_state = autonomy_integrated_puppet
+}
+
+SKM = {
+	set_politics = {
+		ruling_party = monarchism
+		last_election = "1923.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		communism = 0
+		anarchism = 4
+		socialism = 14
+		democratic = 20
+		neutrality = 42
+		monarchism = 20
+		fascism = 0
+		imperialism = 0
+		futurism = 0
+	}
+}
+
+AMD = {
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1923.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		communism = 0
+		anarchism = 0
+		socialism = 0
+		democratic = 0
+		neutrality = 79
+		monarchism = 10
+		fascism = 11
+		imperialism = 0
+		futurism = 0
+	}
+}
+
+LDK = {
+	set_politics = {
+		ruling_party = monarchism
+		last_election = "1923.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		communism = 0
+		anarchism = 0
+		socialism = 0
+		democratic = 0
+		neutrality = 38
+		monarchism = 62
+		fascism = 0
+		imperialism = 0
+		futurism = 0
+	}
+}
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1923.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
-
 set_popularities = {
 	communism = 0
 	anarchism = 0
 	socialism = 7
-	democratic = 19
+	democratic = 8
 	neutrality = 31
 	monarchism = 29
 	fascism = 14
 	imperialism = 0
-	futurism = 0
+	futurism = 11
 }

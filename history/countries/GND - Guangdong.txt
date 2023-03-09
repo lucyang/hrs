@@ -7,6 +7,7 @@ recruit_character = GND_kang_youwei
 recruit_character = GND_lu_rongting
 recruit_character = GND_zhang_dongsun
 recruit_character = GND_chen_lianbo
+recruit_character = GND_tani_hisao
 recruit_character = GND_gu_zhenglun
 recruit_character = GND_guangdong_council
 

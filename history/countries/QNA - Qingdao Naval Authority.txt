@@ -1,4 +1,4 @@
-﻿capital = 654 #青岛
+﻿capital = 107 #青岛
 
 recruit_character = QNA_shen_honglie
 

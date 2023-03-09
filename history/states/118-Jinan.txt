@@ -7,6 +7,11 @@ state={
 	history = {
 		owner = IMC
 		add_core_of = IMC
+		1924.1.1 = {
+			owner = JIN
+			add_core_of = JIN
+			remove_core_of = IMC
+		}
 
 		victory_points ={ 2178 5 } #济南
 		victory_points ={ 3683 1 } #莱芜

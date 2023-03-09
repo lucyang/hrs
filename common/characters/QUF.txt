@@ -10,7 +10,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=confucian_capitalism_subtype
+			ideology=military_government_subtype
 			desc=QUF_zhang_xun_desc
 			traits={ hardened_officer silent_mule }
 			expire="1924.9.11.1"

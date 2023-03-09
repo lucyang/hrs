@@ -1,4 +1,4 @@
-﻿capital = 118 # 济南
+﻿capital = 105 # 滨州
 
 recruit_character = SHD_liang_shuming
 recruit_character = SHD_zhou_zuoren

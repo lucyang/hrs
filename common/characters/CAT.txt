@@ -1,0 +1,16 @@
+characters = {
+	CAT_feng_ziyou = {
+		name = CAT_feng_ziyou
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CAT/Portrait_Feng_Ziyou.png"
+			}
+		}
+		country_leader = {
+			ideology=hunan_constitutionalism_subtype
+			desc = CAT_feng_ziyou_desc
+			traits = { social_reformer gentle_scholar }
+			expire = "1973.6.2.1"
+		}
+	}
+}

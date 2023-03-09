@@ -1,0 +1,20 @@
+state={
+	id=656
+	name="STATE_656"
+	provinces={
+		2126 4752 1298
+	}
+	history = {
+		owner = DZU
+		add_core_of = DZU 
+
+		victory_points = { 2126 1 } #穆尔加布
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=15900
+	state_category = pastoral
+	local_supplies = 0.0
+}

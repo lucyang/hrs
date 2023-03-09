@@ -1,0 +1,16 @@
+characters = {
+	JIN_han_gyuseol = {
+		name = JIN_han_gyuseol
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JIN/Portrait_Han_Gyuseol.png"
+			}
+		}
+		country_leader = {
+			ideology=conservatism_subtype
+			desc = JIN_han_gyuseol_desc
+			traits = { gran_carabinero desperate_gambit }
+			expire = "1930.9.22.1"
+		}
+	}
+}

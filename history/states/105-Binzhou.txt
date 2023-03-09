@@ -2,7 +2,7 @@ state={
 	id=105
 	name="STATE_105"
 	provinces={
-		2236 2381 2688 
+		2236 2381 2688 532 1986 2318 
 	}
 	resources = {
 		aluminium = 30
@@ -10,8 +10,14 @@ state={
 	history = {
 		owner = IMC
 		add_core_of = IMC
+		1924.1.1 = {
+			owner = SHD
+			add_core_of = SHD
+			remove_core_of = IMC
+		}
 
-		victory_points = { 2688 1 } #滨州
+		victory_points = { 2688 3 } #滨州
+		victory_points = { 1986 1 } #利津/东营
 		
 		buildings = {
 			infrastructure = 2
@@ -19,7 +25,7 @@ state={
 		}
 		
 	}
-	manpower=3047324
+	manpower=3742932
 	state_category = town
 	local_supplies = 0.0
 }
