@@ -3,11 +3,17 @@ bookmarks = {
 		name = "GATHERING_STORM_NAME"
 		desc = "GATHERING_STORM_DESC"
 		date = 1923.8.1.12
-		picture = "GFX_select_date_1936"
+		picture = "GFX_select_date_1923"
 		default_country = "IMC"
 		default = no
 		
 		"IMC"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"IMJ"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		"IMK"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
 		effect = {

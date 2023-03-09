@@ -3,11 +3,17 @@ bookmarks = {
 		name = "BLITZKRIEG_NAME"
 		desc = "BLITZKRIEG_DESC"
 		date = 1924.2.26.12
-		picture = "GFX_select_date_1936"
-		default_country = "IMC"
+		picture = "GFX_select_date_1924"
+		default_country = "XXI"
 		default = yes
 		
-		"IMC"={
+		"XXC"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+		"XXI"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+		"XON"={
 			history = "OTHER_BLITZKRIEG_DESC"
 		}
 		effect = {
