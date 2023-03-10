@@ -1,9 +1,14 @@
-﻿capital = 322 #桂林
+﻿capital = 337 # 百色
 
-recruit_character = GXC_lu_rongting
+recruit_character = BCH_wei_baqun
+recruit_character = BCH_zhang_yunyi
+recruit_character = BCH_deng_xiaoping
+recruit_character = BCH_wang_heshun
+recruit_character = BCH_lei_jingtian
 
 oob = "empty"
 set_country_flag = is_china_nation
+set_country_flag = is_zhuang_nation
 
 set_technology = {
 	infantry_weapons = 1
@@ -33,7 +38,7 @@ set_convoys = 10
 set_stability = 0.50
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = anarchism
 	last_election = "1923.10.30"
 	election_frequency = 48
 	elections_allowed = no
@@ -45,19 +50,19 @@ add_ideas = {
 	war_economy
 }
 add_ideas = {
-	country_development2
+	country_development1
 	country_tech2
 	federation1
-	dirigisme_economy
+	market_economy2
 }
 
 set_popularities = {
-	communism = 0
-	anarchism = 8
-	socialism = 0
-	democratic = 6
-	neutrality = 70
-	monarchism = 16
+	communism = 22
+	anarchism = 27
+	socialism = 21
+	democratic = 17
+	neutrality = 13
+	monarchism = 0
 	fascism = 0
 	imperialism = 0
 	futurism = 0

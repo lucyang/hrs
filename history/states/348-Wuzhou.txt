@@ -7,7 +7,6 @@ state={
 	history = {
 		owner = IMC
 		add_core_of = IMC
-
 		victory_points = {
 			2759 3
 		}

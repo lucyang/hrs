@@ -4,7 +4,6 @@ oob = "empty"
 set_country_flag = is_china_nation
 
 recruit_character = GND_kang_youwei
-recruit_character = GND_lu_rongting
 recruit_character = GND_zhang_dongsun
 recruit_character = GND_chen_lianbo
 recruit_character = GND_tani_hisao

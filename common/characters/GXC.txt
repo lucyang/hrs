@@ -1,66 +1,16 @@
-characters={
-	GXC_deng_xiaoping={
-		name=GXC_deng_xiaoping
-		portraits={
-			civilian={
-				large="gfx/leaders/CHI/Portrait_Deng_Xiaoping.dds"
+characters = {
+	GXC_lu_rongting = {
+		name = GXC_lu_rongting
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GXC/Portrait_Lu_Rongting.png"
 			}
 		}
-	}
-	GXC_wang_heshun={
-		name=GXC_wang_heshun
-		portraits={
-			civilian={
-				large="gfx/leaders/CHI/Portrait_Wang_Heshun.dds"
-			}
-		}
-		country_leader={
-			ideology=new_tridemism_subtype
-			desc=GXC_wang_heshun_desc
-			traits={  }
-			expire="1934.10.10.1"
-		}
-	}
-	GXC_lei_jingtian={
-		name=GXC_lei_jingtian
-		portraits={
-			civilian={
-				large="gfx/leaders/GXC/Portrait_Lei_Jingtian.png"
-			}
-		}
-		country_leader={
-			ideology=leninism_subtype
-			desc=GXC_lei_jingtian_desc
-			traits={ voice_of_restraint international_revolutionary }
-			expire="1959.8.11.1"
-		}
-	}
-	GXC_wei_baqun={
-		name=GXC_wei_baqun
-		portraits={
-			civilian={
-				large="gfx/leaders/GXC/Portrait_Wei_Baqun.png"
-			}
-		}
-		country_leader={
-			ideology=national_communism_subtype
-			desc=GXC_wei_baqun_desc
-			traits={  }
-			expire="1956.12.18.1"
-		}
-	}
-	GXC_zhang_yunyi={
-		name=GXC_zhang_yunyi
-		portraits={
-			civilian={
-				large="gfx/leaders/CHI/Portrait_young_Zhang_Yunyi.dds"
-			}
-		}
-		country_leader={
-			ideology=guided_democracy_subtype
-			desc=GXC_zhang_yunyi_desc
-			traits={ revolutionary_general }
-			expire="1974.11.19.1"
+		country_leader = {
+			ideology=military_government_subtype
+			desc = GXC_lu_rongting_desc
+			traits = { hardened_officer }
+			expire = "1928.11.6.1"
 		}
 	}
 }

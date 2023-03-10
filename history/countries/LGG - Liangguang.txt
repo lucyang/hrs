@@ -2,6 +2,7 @@
 
 oob = "empty"
 
+recruit_character = LGG_ou_jujia
 recruit_character = LGG_feng_ziyou
 
 set_technology = {
@@ -63,8 +64,8 @@ set_popularities = {
 	anarchism = 2
 	socialism = 7
 	democratic = 61
-	neutrality = 10
-	monarchism = 20
+	neutrality = 30
+	monarchism = 0
 	fascism = 0
 	imperialism = 0
 	futurism = 0
@@ -78,7 +79,7 @@ add_ideas = {
 add_ideas = {
 	country_development2
 	country_tech2
-	market_economy1
+	market_economy
 	unitary_state
 }
 

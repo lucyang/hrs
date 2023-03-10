@@ -69,6 +69,7 @@ LCH = "countries/Leichow.txt"
 FED = "countries/Federalists.txt"
 # GUANGXI #
 GXC = "countries/Guangxi.txt"
+BCH = "countries/Zhuang.txt"
 # HAINAN #
 HNN = "countries/Hainan.txt"
 ### CHINA/NORTHWEST ###

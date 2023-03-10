@@ -3,7 +3,7 @@ characters = {
 		name = LGG_feng_ziyou
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/CAT/Portrait_Feng_Ziyou.png"
+				large = "gfx/leaders/LGG/Portrait_Feng_Ziyou.png"
 			}
 		}
 		country_leader = {
@@ -11,6 +11,20 @@ characters = {
 			desc = LGG_feng_ziyou_desc
 			traits = { social_reformer gentle_scholar }
 			expire = "1973.6.2.1"
+		}
+	}
+	LGG_ou_jujia = {
+		name = LGG_ou_jujia
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LGG/Portrait_Ou_Jujia.png"
+			}
+		}
+		country_leader = {
+			ideology=competitive_authoritarianism_subtype
+			desc = LGG_feng_ziyou_desc
+			traits = { social_reformer gentle_scholar }
+			expire = "1950.1.1.1"
 		}
 	}
 }

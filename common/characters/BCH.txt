@@ -1,0 +1,66 @@
+characters={
+	BCH_deng_xiaoping={
+		name=BCH_deng_xiaoping
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/Portrait_Deng_Xiaoping.dds"
+			}
+		}
+	}
+	BCH_wang_heshun={
+		name=BCH_wang_heshun
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/Portrait_Wang_Heshun.dds"
+			}
+		}
+		country_leader={
+			ideology=new_tridemism_subtype
+			desc=BCH_wang_heshun_desc
+			traits={  }
+			expire="1934.10.10.1"
+		}
+	}
+	BCH_lei_jingtian={
+		name=BCH_lei_jingtian
+		portraits={
+			civilian={
+				large="gfx/leaders/BCH/Portrait_Lei_Jingtian.png"
+			}
+		}
+		country_leader={
+			ideology=leninism_subtype
+			desc=BCH_lei_jingtian_desc
+			traits={ voice_of_restraint international_revolutionary }
+			expire="1959.8.11.1"
+		}
+	}
+	BCH_wei_baqun={
+		name=BCH_wei_baqun
+		portraits={
+			civilian={
+				large="gfx/leaders/BCH/Portrait_Wei_Baqun.png"
+			}
+		}
+		country_leader={
+			ideology=national_communism_subtype
+			desc=BCH_wei_baqun_desc
+			traits={  }
+			expire="1956.12.18.1"
+		}
+	}
+	BCH_zhang_yunyi={
+		name=BCH_zhang_yunyi
+		portraits={
+			civilian={
+				large="gfx/leaders/CHI/Portrait_young_Zhang_Yunyi.dds"
+			}
+		}
+		country_leader={
+			ideology=partisan_movement_subtype
+			desc=BCH_zhang_yunyi_desc
+			traits={ revolutionary_general }
+			expire="1974.11.19.1"
+		}
+	}
+}

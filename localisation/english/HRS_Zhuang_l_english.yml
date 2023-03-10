@@ -1,0 +1,77 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ BCH_communism:0 "布僚人民解放军"
+ BCH_communism_DEF:0 "布僚人民解放军"
+ BCH_anarchism:0 "布僚人民解放军"
+ BCH_anarchism_DEF:0 "布僚人民解放军" # Gaijfangginh Bouxraeuz
+ BCH_socialism:0 "布僚人民解放军"
+ BCH_socialism_DEF:0 "布僚人民解放军"
+ BCH_democratic:0 "布僚人民解放军"
+ BCH_democratic_DEF:0 "布僚人民解放军"
+ BCH_neutrality:0 "布僚人民解放军"
+ BCH_neutrality_DEF:0 "布僚人民解放军"
+ BCH_monarchism:0 "布僚人民解放军"
+ BCH_monarchism_DEF:0 "布僚人民解放军"
+ BCH_fascism:0 "布僚人民解放军"
+ BCH_fascism_DEF:0 "布僚人民解放军"
+ BCH_imperialism:0 "布僚人民解放军"
+ BCH_imperialism_DEF:0 "布僚人民解放军"
+ BCH_futurism:0 "布僚人民解放军"
+ BCH_futurism_DEF:0 "布僚人民解放军"
+ BCH_communism_ADJ:0 "布僚国" # Diegguek Bouxraeuz
+ BCH_anarchism_ADJ:0 "布僚国"
+ BCH_democratic_ADJ:0 "布僚国"
+ BCH_neutrality_ADJ:0 "布僚国"
+ BCH_monarchism_ADJ:0 "布僚国"
+ BCH_fascism_ADJ:0 "布僚国"
+ BCH_imperialism_ADJ:0 "布僚国"
+ BCH_futurism_ADJ:0 "布僚国"
+ BCH:0 "广西"
+ BCH_DEF:0 "广西"
+ BCH_ADJ:0 "广西"
+ #############
+ ## PARTIES ##
+ #############
+ BCH_communism_party:0 "社民农工党"
+ BCH_communism_party_long:0 "中国社会民主农工党"
+ BCH_anarchism_party:0 "布僚人民党 - 激进派"
+ BCH_anarchism_party_long:0 "布僚人民党 - 激进派"
+ BCH_socialism_party:0 "布僚人民党 - 温和派"
+ BCH_socialism_party_long:0 "布僚人民党 - 温和派"
+ BCH_democratic_party:0 "中国革命党"
+ BCH_democratic_party_long:0 "中国革命党"
+ BCH_neutrality_party:0 "布僚民族解放军"
+ BCH_neutrality_party_long:0 "布僚民族解放军"
+ BCH_monarchism_party:0 "和朝效忠派"
+ BCH_monarchism_party_long:0 "和朝效忠派"
+ BCH_fascism_party:0 "布僚人民党 - 民族派"
+ BCH_fascism_party_long:0 "布僚人民党 - 民族派"
+ BCH_imperialism_party:0 "布僚人民党 - 泛泰派"
+ BCH_imperialism_party_long:0 "布僚人民党 - 泛泰派"
+ BCH_futurism_party:0 "广州商团"
+ BCH_futurism_party_long:0 "广州商团"
+
+ BCH_nra_party:0 "国民革命军"
+ BCH_nra_party_long:0 "中国国民革命军"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ BCH_wei_baqun:0 "韦拔群"
+ BCH_wei_baqun_desc:0 "§Y出生日期§!：§G1894年§!\n§Y出生地点§!：§G大东帝国柳江道东兰县§!"
+ BCH_zhang_yunyi:0 "张云逸"
+ BCH_deng_xiaoping:0 "邓希贤"
+ BCH_wang_heshun:0 "王和顺"
+ BCH_lei_jingtian:0 "雷经天"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

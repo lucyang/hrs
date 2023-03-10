@@ -8,9 +8,9 @@ state={
 		owner = IMC
 		add_core_of = IMC
 		1924.1.1 = {
-			owner = CAT
-			add_core_of = CAT
-			remove_core_of = CAT
+			owner = LGG
+			add_core_of = LGG
+			remove_core_of = IMC
 		}
 		victory_points = {
 			2062 1
