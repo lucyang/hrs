@@ -7,7 +7,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology=hunan_constitutionalism_subtype
+			ideology=competitive_authoritarianism_subtype
 			desc = LGG_feng_ziyou_desc
 			traits = { social_reformer gentle_scholar }
 			expire = "1973.6.2.1"
@@ -21,7 +21,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology=competitive_authoritarianism_subtype
+			ideology=hunan_constitutionalism_subtype
 			desc = LGG_feng_ziyou_desc
 			traits = { social_reformer gentle_scholar }
 			expire = "1950.1.1.1"

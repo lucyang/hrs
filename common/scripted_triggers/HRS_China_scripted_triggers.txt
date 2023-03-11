@@ -180,6 +180,8 @@ is_guangdong_nation = {
 is_guangxi_nation = {
 	OR = {
 		original_tag = GXC
+		original_tag = LGG
+		original_tag = BCH
 	}
 }
 is_fujian_nation = {

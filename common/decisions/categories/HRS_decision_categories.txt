@@ -258,7 +258,7 @@ HRS_construct_tokyo_iii = {
 		always = no
 	}
 }
-HRS_debug_tool_cataegory = {
+HRS_debug_tool_category = {
 
 	icon = generic_political_actions
 

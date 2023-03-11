@@ -2,7 +2,7 @@
  ###############
  # DEBUG TOOLS #
  ###############
- HRS_debug_tool_cataegory:0 "调试工具"
+ HRS_debug_tool_category:0 "调试工具"
  HRS_control_all_china_states:0 "控制所有中国领土"
  HRS_control_all_japan_states:0 "控制所有日本领土"
  HRS_control_all_korea_states:0 "控制所有朝鲜领土"

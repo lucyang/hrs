@@ -1,4 +1,4 @@
-HRS_debug_tool_LGGaegory = {
+HRS_debug_tool_category = {
 
 	HRS_control_all_china_states = {
 
@@ -384,12 +384,38 @@ HRS_debug_tool_LGGaegory = {
 			}
 			# 广西
 			GXC = {
+				transfer_state = 322 #桂林*
+				add_state_core = 322
+				transfer_state = 324 #柳州
+				add_state_core = 324
+				transfer_state = 335 #贺州
+				add_state_core = 335
+				transfer_state = 347 #来宾
+				add_state_core = 347	
+			}
+			BCH = {
 				transfer_state = 329 #河池
 				add_state_core = 329
-				transfer_state = 337 #百色
+				transfer_state = 337 #百色*
 				add_state_core = 337
+				transfer_state = 352 #南宁
+				add_state_core = 352
 				transfer_state = 364 #崇左
 				add_state_core = 364
+				transfer_state = 378 #防城港
+				add_state_core = 378
+			}
+			LGG = {
+				transfer_state = 348 #梧州
+				add_state_core = 348
+				transfer_state = 354 #贵港
+				add_state_core = 354
+				transfer_state = 366 #玉林
+				add_state_core = 366
+				transfer_state = 371 #钦州*
+				add_state_core = 371
+				transfer_state = 381 #北海
+				add_state_core = 381
 			}
 			# 四川
 			CYA = {
@@ -715,10 +741,7 @@ HRS_debug_tool_LGGaegory = {
 				add_state_core = 349
 			}
 			# 福建
-			FED = {
-				transfer_state = 334 #漳州
-				add_state_core = 334
-			}
+
 			# 云南
 			JXP = {
 				transfer_state = 504
