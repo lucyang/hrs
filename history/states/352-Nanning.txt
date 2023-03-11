@@ -2,7 +2,7 @@ state={
 	id=352
 	name="STATE_352"
 	provinces={
-		248 1396 1510 3067 3377 4127 4128 4149 4150 4157 4169 
+		248 1510 3067 3377
 	}
 	history = {
 		owner = IMC
@@ -12,17 +12,14 @@ state={
 			add_core_of = GXC
 			remove_core_of = IMC
 		}
-		victory_points = {
-			4169 5
-		}
-		
+		victory_points = { 1510 5 } #南宁
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			arms_factory = 1
 		}
 	}
-	manpower=194641
+	manpower=2360655
 	state_category = city
 	local_supplies = 0.0
 }

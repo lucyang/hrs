@@ -83,6 +83,7 @@ HRS_setup_prefectures = {
 	300 = { set_variable = { prefecture = 16 } } #吉安
 	310 = { set_variable = { prefecture = 16 } } #赣州
 	#广西
+	43 = { set_variable = { prefecture = 17 } } #武鸣
 	322 = { set_variable = { prefecture = 17 } } #桂林
 	324 = { set_variable = { prefecture = 17 } } #柳州
 	329 = { set_variable = { prefecture = 17 } } #河池
@@ -211,11 +212,11 @@ HRS_setup_prefectures = {
 	112 = { set_variable = { prefecture = 25 } } #邢台
 	127 = { set_variable = { prefecture = 25 } } #邯郸
 	#海南
+	104 = { set_variable = { prefecture = 26 } } #琼西
 	385 = { set_variable = { prefecture = 26 } } #琼东
 	386 = { set_variable = { prefecture = 26 } } #琼州
 	389 = { set_variable = { prefecture = 26 } } #崖州
 	383 = { set_variable = { prefecture = 26 } } #儋州
-	657 = { set_variable = { prefecture = 26 } } #琼西
 	#辽东
 	60 = { set_variable = { prefecture = 27 } } #抚顺
 	64 = { set_variable = { prefecture = 27 } } #锦州
@@ -325,10 +326,8 @@ HRS_setup_prefectures = {
 	159 = { set_variable = { prefecture = 34 } } #天水
 	172 = { set_variable = { prefecture = 34 } } #陇南
 	#宁夏
-	43 = { set_variable = { prefecture = 35 } } #乌海
 	56 = { set_variable = { prefecture = 35 } } #阿拉善
 	96 = { set_variable = { prefecture = 35 } } #银川
-	104 = { set_variable = { prefecture = 35 } } #石嘴山
 	106 = { set_variable = { prefecture = 35 } } #吴忠
 	111 = { set_variable = { prefecture = 35 } } #中卫
 	131 = { set_variable = { prefecture = 35 } } #固原

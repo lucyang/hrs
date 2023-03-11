@@ -159,12 +159,9 @@ HRS_setup_cultures = {
 	88 = { set_variable = { nationality = 14 } } #榆林
 	115 = { set_variable = { nationality = 14 } } #延安
 
-	104 = { set_variable = { nationality = 14 } } #石嘴山
-
 	57 = { set_variable = { nationality = 14 } } #包头
 	63 = { set_variable = { nationality = 14 } } #张家口
 	510 = { set_variable = { nationality = 14 } } #张北
-	43 = { set_variable = { nationality = 14 } } #乌海
 	49 = { set_variable = { nationality = 14 } } #乌兰察布
 	71 = { set_variable = { nationality = 14 } } #呼和浩特
 	409 = { set_variable = { nationality = 14 } } #达里冈爱
@@ -607,9 +604,10 @@ HRS_setup_cultures = {
 	643 = { set_variable = { nationality = 88 } } #北兰纳
 	644 = { set_variable = { nationality = 88 } } #南兰纳
 	# Zhuang
+	43 = { set_variable = { nationality = 89 } } #河池
 	329 = { set_variable = { nationality = 89 } } #河池
 	345 = { set_variable = { nationality = 89 } } #文山
-	347 = { set_variable = { nationality = 29 } } #来宾
+	347 = { set_variable = { nationality = 89 } } #来宾
 	337 = { set_variable = { nationality = 89 } } #百色
 	364 = { set_variable = { nationality = 89 } } #崇左
 	# Altai/Oyrot
@@ -630,7 +628,6 @@ HRS_setup_cultures = {
 	# Hmong/Western Hmongic
 	323 = { set_variable = { nationality = 95 } } #兴义/黔西南
 	535 = { set_variable = { nationality = 95 } } #上寮
-	657 = { set_variable = { nationality = 95 } } #威宁
 	# Xong/Eastern Hmongic
 	269 = { set_variable = { nationality = 96 } } #凤凰/湘西
 	655 = { set_variable = { nationality = 96 } } #郴州
@@ -707,7 +704,7 @@ HRS_setup_cultures = {
 	342 = { set_variable = { nationality = 108 } } #普洱
 	344 = { set_variable = { nationality = 108 } } #红河
 	# Li/Hlai
-	657 = { set_variable = { nationality = 109 } } #琼西
+	104 = { set_variable = { nationality = 109 } } #琼西
 	# Turpan Uyghur
 	46 = { set_variable = { nationality = 110 } } #吐鲁番
 	630 = { set_variable = { nationality = 110 } } #喀喇沙尔

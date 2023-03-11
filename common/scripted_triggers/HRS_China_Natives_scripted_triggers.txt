@@ -1,0 +1,45 @@
+### MINORITIES ###
+is_dai_nation = {
+	OR = {
+		original_tag = CHH
+		original_tag = MMA
+	}
+}
+is_miao_nation = {
+	OR = {
+		original_tag = MIR
+		original_tag = MIA
+		original_tag = XON
+	}
+}
+is_bai_nation = {
+	original_tag = DLI
+}
+is_yi_nation = {
+	original_tag = NSB
+}
+is_zhuang_nation = {
+	original_tag = BCH
+}
+is_hui_nation = {
+	OR = {
+		original_tag = QNG
+		original_tag = GNS
+	}
+}
+### REGIONALISTS ###
+is_xiang_nation = {
+	OR = {
+		original_tag = HNR
+		original_tag = HNA
+	}
+}
+is_yue_nation = {
+	OR = {
+		original_tag = FED
+		original_tag = LGG
+	}
+}
+is_dian_nation = {
+	original_tag = YUN
+}

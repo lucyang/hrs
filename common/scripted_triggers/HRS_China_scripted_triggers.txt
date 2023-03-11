@@ -322,6 +322,7 @@ is_jiangxi_state = {
 
 is_guangxi_state = {
 	OR = {
+		state = 43 #武鸣
 		state = 322 #桂林
 		state = 324 #柳州
 		state = 329 #河池
@@ -475,11 +476,11 @@ is_hebei_state = {
 
 is_hainan_state = {
 	OR = {
-		state = 385 #海南岛
+		state = 385 #琼东
 		state = 386 #琼州
 		state = 389 #崖州
 		state = 383 #儋州
-		state = 657 #海南黎族苗族自治州
+		state = 104 #琼西
 	}
 }
 
@@ -661,10 +662,8 @@ is_gansu_state = {
 
 is_ningxia_state = {
 	OR = {
-		state = 43 #乌海
 		state = 56 #阿拉善
 		state = 96 #银川
-		state = 104 #石嘴山
 		state = 106 #吴忠
 		state = 111 #中卫
 		state = 131 #固原
@@ -772,6 +771,7 @@ is_china_state = {
 		state = 300 #吉安
 		state = 310 #赣州
  		#广西
+		state = 43 #武鸣
 		state = 322 #桂林
 		state = 324 #柳州
 		state = 329 #河池
@@ -904,11 +904,11 @@ is_china_state = {
 		state = 112 #邢台
 		state = 127 #邯郸
  		#海南
-		state = 385 #海南岛
+		state = 385 #琼东
 		state = 386 #琼州
 		state = 389 #崖州
 		state = 383 #儋州
-		state = 657 #海南黎族苗族自治州
+		state = 104 #琼西
  		#辽东
 		state = 60 #抚顺
 		state = 64 #锦州
@@ -1021,13 +1021,10 @@ is_china_state = {
 		state = 172 #陇南
  		#宁夏
 		state = 56 #阿拉善
-		state = 96 #银川
-		state = 104 #石嘴山
 		state = 106 #吴忠
 		state = 111 #中卫
 		state = 131 #固原
  		#内蒙古
-		state = 43 #乌海
 		state = 49 #乌兰察布
 		state = 57 #包头
 		state = 61 #五原/巴彦淖尔
@@ -1117,6 +1114,7 @@ is_any_china_state = {
 		state = 300 #吉安
 		state = 310 #赣州
  		#广西
+		state = 43 #武鸣
 		state = 322 #桂林
 		state = 324 #柳州
 		state = 329 #河池
@@ -1253,7 +1251,7 @@ is_any_china_state = {
 		state = 386 #琼州
 		state = 389 #崖州
 		state = 383 #儋州
-		state = 657 #海南黎族苗族自治州
+		state = 104 #海南黎族苗族自治州
  		#辽东
 		state = 60 #抚顺
 		state = 64 #锦州
@@ -1367,12 +1365,10 @@ is_any_china_state = {
  		#宁夏
 		state = 56 #阿拉善
 		state = 96 #银川
-		state = 104 #石嘴山
 		state = 106 #吴忠
 		state = 111 #中卫
 		state = 131 #固原
  		#内蒙古
-		state = 43 #乌海
 		state = 49 #乌兰察布
 		state = 57 #包头
 		state = 61 #五原/巴彦淖尔
@@ -1530,7 +1526,7 @@ can_form_huanan = {
 		owns_state = 386 #琼州
 		owns_state = 389 #崖州
 		owns_state = 383 #儋州
-		owns_state = 657 #海南黎族苗族自治州
+		owns_state = 104 #海南黎族苗族自治州
     }
 }
 
@@ -1717,7 +1713,6 @@ can_form_xibei = {
  		#宁夏
 		owns_state = 56 #阿拉善
 		owns_state = 96 #银川
-		owns_state = 104 #石嘴山
 		owns_state = 106 #吴忠
 		owns_state = 111 #中卫
 		owns_state = 131 #固原

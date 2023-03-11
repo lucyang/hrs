@@ -2,7 +2,7 @@ state={
 	id=96
 	name="STATE_96"
 	provinces={
-		474 3656 3671 
+		474 1089 2792 3654 3656 3671 
 	}
 	history = {
 		owner = IMC
@@ -12,15 +12,13 @@ state={
 			add_core_of = NIX
 			remove_core_of = IMC
 		}
-
-		victory_points = { 474 3 } #银川
-		
+		victory_points = { 474 3 } #银川	
 		buildings = {
 			infrastructure = 3
 		}
 		
 	}
-	manpower=612179
+	manpower=683664
 	state_category = town
 	local_supplies = 0.0
 }
