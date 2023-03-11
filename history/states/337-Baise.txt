@@ -12,9 +12,7 @@ state={
 			add_core_of = BCH
 			remove_core_of = IMC
 		}
-		victory_points = {
-			615 5
-		}
+		victory_points = { 615 5 }
 		
 		buildings = {
 			infrastructure = 3

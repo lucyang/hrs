@@ -10,7 +10,6 @@ state={
 		victory_points = { 2295 1 } #和平
 		buildings = {
 			infrastructure = 2
-
 		}
 
 	}

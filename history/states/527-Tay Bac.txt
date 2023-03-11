@@ -4,19 +4,16 @@ state={
 	name="STATE_527"
 
 	history={
-		owner = ANM
+		owner = IMC
 		add_core_of = VIN
 		add_core_of = TAT
 		victory_points = { 2615 5 } #山罗
 		victory_points = { 274 1 } #老街
-		victory_points = { 2412 1 } #奠边�?勐唐
+		victory_points = { 2412 1 } #奠边府/勐唐
 		buildings = {
 			infrastructure = 2
-
 		}
-
 	}
-
 	provinces={
 		274 2412 2615 
 	}

@@ -4,7 +4,7 @@ state={
 	name="STATE_363"
 
 	history={
-		owner = ANM
+		owner = IMC
 		add_core_of = VIN
 		victory_points = {
 			778 5 

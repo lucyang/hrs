@@ -26,7 +26,7 @@ MAL = {
 	color_ui = rgb { 100  96  197 }
 }
 BSM = {
-	color = rgb { 57 86 18 }
+	color = rgb { 57 86 18 }豫西
 	color_ui = rgb { 57 86 18 }
 }
 ADM = {
@@ -213,8 +213,8 @@ LCH = { # 雷州海军政府
 	color_ui = rgb { 68 76 56 }
 }
 LGG = { # 两广共和国
-	color = rgb { 40 80 46 }
-	color_ui = rgb { 40 80 46 }
+	color = rgb { 9 171 190 }
+	color_ui = rgb { 9 171 190 }
 }
 FED = { # 闽南护法区
 	color = rgb { 158 185 212 }
@@ -262,12 +262,12 @@ LAX = {
 ### GUANGXI ###
 ###############
 GXC = { # 广西军阀
-	color = rgb { 9 171 190 }
-	color_ui = rgb { 9 171 190 }
-}
-BCH = { # 布僚人民解放军
 	color = rgb { 255 136 10 }
 	color_ui = rgb { 255 136 10 }
+}
+BCH = { # 布僚人民解放军
+	color = rgb { 255 8 0 }
+	color_ui = rgb { 255 8 0 }
 }
 ###############
 ### GUIZHOU ###
