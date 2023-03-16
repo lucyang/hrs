@@ -5,8 +5,8 @@ state={
 		2951 5078
 	}
 	history = {
-		owner = IMC
-		add_core_of = IMC
+		owner = IMV
+		add_core_of = IMV
 
 		victory_points = {
 			5078 3

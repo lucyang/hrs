@@ -6,10 +6,10 @@ state={
 		792 2305 4232 
 	}
 	history={
-		owner = ANM
+		owner = LAO
 		add_core_of = LAO
-		victory_points = { 2305 1 } #桑�?
-		victory_points = { 4232 1 } #丰沙�?
+		victory_points = { 2305 1 } #桑�?
+		victory_points = { 4232 1 } #丰沙�?
 		buildings = {
 			infrastructure = 1
 

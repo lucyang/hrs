@@ -5,9 +5,9 @@ state={
 		180 2336 3137 4258
 	}
 	history={
-		owner = ANM
+		owner = CHP
+		add_core_of = CHP
 		add_core_of = CAM
-		add_claim_by = CHP
 		victory_points = { 2336 1 } #邦隆
 		victory_points = { 3137 3 } #上丁/相当(Stung Treng/Xiang Taeng)
 		buildings = {

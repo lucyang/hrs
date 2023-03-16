@@ -4,7 +4,7 @@ state={
 	name="STATE_534"
 
 	history={
-		owner = ANM
+		owner = LAO
 		add_core_of = LAO
 		victory_points = { 1229 1 } #沙湾拿吉
 		buildings = {

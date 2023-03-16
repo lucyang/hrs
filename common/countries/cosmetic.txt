@@ -6,6 +6,30 @@ IMK_IMC = {
 	color = rgb { 191 87 0 }
 	color_ui = rgb { 191 87 0 }
 }
+IMV_IMC = {
+	color = rgb { 191 87 0 }
+	color_ui = rgb { 191 87 0 }
+}
+VIN_IMC = {
+	color = rgb { 191 87 0 }
+	color_ui = rgb { 191 87 0 }
+}
+CHP_IMC = {
+	color = rgb { 191 87 0 }
+	color_ui = rgb { 191 87 0 }
+}
+LAO_IMC = {
+	color = rgb { 191 87 0 }
+	color_ui = rgb { 191 87 0 }
+}
+CAM_IMC = {
+	color = rgb { 191 87 0 }
+	color_ui = rgb { 191 87 0 }
+}
+DEG_VIN = {
+	color = rgb { 191 87 0 }
+	color_ui = rgb { 191 87 0 }
+}
 TGG_IMC = {
 	color = rgb { 191 87 0 }
 	color_ui = rgb { 191 87 0 }

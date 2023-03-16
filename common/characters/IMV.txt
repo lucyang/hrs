@@ -1,0 +1,16 @@
+characters={
+	IMV_zhang_mingqi = {
+		name = IMV_zhang_mingqi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ANM/Portrait_Zhang_Mingqi.dds"
+			}
+		}
+		country_leader = {
+			ideology=colonialism_subtype
+			desc = IMV_zhang_mingqi_desc
+			traits = { emergency_powers prince_of_terror }
+			expire = "1945.9.15.1"
+		}
+	}
+}

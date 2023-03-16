@@ -5,8 +5,8 @@ state={
 		726 2442
 	}
 	history={
-		owner = ANM
-		add_core_of = VIN
+		owner = IMV
+		add_core_of = IMV
 		victory_points = { 726 1 } #河静
 		victory_points = { 2442 5 } #荣市/义安
 		buildings = {

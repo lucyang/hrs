@@ -2,6 +2,7 @@
 IMC = "countries/Imperial China.txt"
 IMJ = "countries/Imperial Japan.txt"
 IMK = "countries/Imperial Korea.txt"
+IMV = "countries/Imperial Vietnam.txt"
 ANM = "countries/Annam.txt"
 ### IMPERIAL COLONIES ###
 ZDJ = "countries/Zhendong Jiedushi.txt"

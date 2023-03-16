@@ -4,7 +4,7 @@ state={
 	name="STATE_395"
 
 	history={
-		owner = ANM
+		owner = CAM
 		add_core_of = CAM
 		victory_points = { 5097 10 } #金边
 		victory_points = { 1521 1 } #磅湛

@@ -62,12 +62,12 @@ characters={
 				large="gfx/leaders/LAO/Portrait_Sisavang_Vong.png"
 			}
 		}
-		#country_leader={
-		#	ideology=absolute_monarchy_subtype
-		#	desc=LAO_sisavang_vong_desc
-		#	traits={ }
-		#	expire="1959.10.29.1"
-		#}
+		country_leader={
+			ideology=absolute_monarchy_subtype
+			desc=LAO_sisavang_vong_desc
+			traits={ }
+			expire="1959.10.29.1"
+		}
 	}
 	LAO_boun_oum={ #文翁亲王
 		name=LAO_boun_oum

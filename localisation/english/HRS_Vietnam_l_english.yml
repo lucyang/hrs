@@ -34,33 +34,38 @@
  #############
  ## PARTIES ##
  #############
- VIN_communism_party:0 "越共"
+ VIN_communism_party:0 "越南共产党"
  VIN_communism_party_long:0 "越南共产党"
- VIN_anarchism_party:0 "新越党"
+ VIN_anarchism_party:0 "新越革命党"
  VIN_anarchism_party_long:0 "新越革命党"
- VIN_socialism_party:0 "越国党"
+ VIN_socialism_party:0 "越南国民党"
  VIN_socialism_party_long:0 "越南国民党"
- VIN_democratic_party:0 "复国会"
+ VIN_democratic_party:0 "越南复国会"
  VIN_democratic_party_long:0 "越南复国会"
- VIN_neutrality_party:0 "复国会"
+ VIN_neutrality_party:0 "越南复国会"
  VIN_neutrality_party_long:0 "越南复国会"
  VIN_monarchism_party:0 "阮家"
  VIN_monarchism_party_long:0 "阮家"
- VIN_fascism_party:0 "勤劳党"
+ VIN_fascism_party:0 "勤劳人为革命党"
  VIN_fascism_party_long:0 "勤劳人为革命党"
  VIN_imperialism_party:0 "平川部队"
  VIN_imperialism_party_long:0 "平川部队"
  VIN_futurism_party:0 "技术官僚"
  VIN_futurism_party_long:0 "技术官僚"
 
- VIN_vietquoc_party:0 "越国党"
- VIN_vietquoc_party_long:0 "越南临时中央政府民党"
- VIN_canlao_party:0 "勤劳党"
+ VIN_vietquoc_party:0 "越南国民党"
+ VIN_vietquoc_party_long:0 "越南国民党"
+ VIN_canlao_party:0 "勤劳人为革命党"
  VIN_canlao_party_long:0 "勤劳人为革命党"
  ##################
  ## COSMETIC TAG ##
  ##################
- 
+ VIN_IMC_democratic:0 "广南国"
+ VIN_IMC_democratic_desc:0 "广南国"
+ VIN_IMC_neutrality:0 "广南国"
+ VIN_IMC_neutrality_desc:0 "广南国"
+ VIN_IMC_monarchism:0 "广南国"
+ VIN_IMC_monarchism_desc:0 "广南国"
  ################
  ## CHARACTERS ##
  ################

@@ -5,9 +5,9 @@ state={
 		2048 5094
 	}
 	history={
-		owner = ANM
+		owner = CHP
+		add_core_of = CHP
 		add_core_of = CAM
-		add_claim_by = CHP
 		victory_points = { 5094 1 } #桔井
 		buildings = {
 			infrastructure = 2

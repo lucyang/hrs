@@ -84,12 +84,10 @@ if = {
 		early_ship_hull_heavy = 1
 		mtg_transport = 1
 		coastal_defense_ships = 1
-		#basic_secondary_battery = 1
 		basic_depth_charges = 1
 		basic_cruiser_armor_scheme = 1
 		cruiser_submarines = 1
 	}
-	#set_naval_oob = "IMC_1923_naval"
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -102,7 +100,6 @@ if = {
 		early_battlecruiser = 1
 		transport = 1
 	}
-	#set_naval_oob = "IMC_1923_naval_legacy"
 }
 
 if = {
@@ -127,7 +124,6 @@ add_ideas = {
 	IMC_emperor_taisho
 	IMC_heyday_of_poverty
 	IMC_zaibatsu_ally
-	#IMC_shadow_of_rose_era
 }
 add_ideas = {
 	country_development4
@@ -161,14 +157,29 @@ add_equipment_to_stockpile = {
     amount = 1000
     producer = IMC
 }
-
 set_autonomy = {
 	target = BRM
 	autonomous_state = autonomy_wtt_imperial_protectorate
 }
 set_autonomy = {
 	target = ANM
-	autonomous_state = autonomy_wtt_imperial_associate
+	autonomous_state = autonomy_wtt_imperial_protectorate
+}
+set_autonomy = {
+	target = VIN
+	autonomous_state = autonomy_wtt_imperial_protectorate
+}
+set_autonomy = {
+	target = LAO
+	autonomous_state = autonomy_wtt_imperial_protectorate
+}
+set_autonomy = {
+	target = CHP
+	autonomous_state = autonomy_wtt_imperial_protectorate
+}
+set_autonomy = {
+	target = CAM
+	autonomous_state = autonomy_wtt_imperial_protectorate
 }
 set_autonomy = {
 	target = IMJ
@@ -176,6 +187,10 @@ set_autonomy = {
 }
 set_autonomy = {
 	target = IMK
+	autonomous_state = autonomy_wtt_imperial_associate
+}
+set_autonomy = {
+	target = IMV
 	autonomous_state = autonomy_wtt_imperial_associate
 }
 set_autonomy = {
@@ -201,6 +216,124 @@ set_autonomy = {
 set_autonomy = {
 	target = HSW
 	autonomous_state = autonomy_wtt_imperial_associate
+}
+
+IMV = {
+	set_politics = {	
+		ruling_party = neutrality
+		last_election = "1920.11.7"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		communism = 21
+		anarchism = 10
+		socialism = 25
+		democratic = 9
+		neutrality = 35
+		fascism = 0
+		imperialism = 0
+		futurism = 0
+	}
+}
+
+ANM = {
+	set_politics = {	
+		ruling_party = democratic
+		last_election = "1920.11.7"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+
+	set_popularities = {
+		communism = 0
+		anarchism = 15
+		socialism = 7
+		democratic = 64
+		neutrality = 0
+		fascism = 8
+		imperialism = 6
+		futurism = 0
+	}
+}
+CHP = {
+	set_politics = {	
+		ruling_party = monarchism
+		last_election = "1920.3.9"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		communism = 0
+		anarchism = 10
+		democratic = 0
+		neutrality = 18
+		monarchism = 72
+		fascism = 0
+		imperialism = 0
+		futurism = 0
+	}
+}
+VIN = {
+	set_politics = {	
+		ruling_party = monarchism
+		last_election = "1920.3.9"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		communism = 4
+		anarchism = 7
+		socialism = 10
+		democratic = 19
+		neutrality = 13
+		monarchism = 30
+		fascism = 10
+		imperialism = 7
+		futurism = 0
+	}
+}
+
+LAO = {
+	set_politics = {	
+		ruling_party = monarchism
+		last_election = "1920.3.9"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		communism = 8
+		anarchism = 7
+		democratic = 32
+		neutrality = 33
+		monarchism = 20
+		fascism = 0
+		imperialism = 0
+		futurism = 0
+	}
+}
+
+CAM = {
+	set_politics = {	
+		ruling_party = monarchism
+		last_election = "1920.3.9"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		communism = 6
+		anarchism = 0
+		socialism = 14
+		democratic = 10
+		neutrality = 13
+		monarchism = 57
+		fascism = 0
+		imperialism = 0
+		futurism = 0
+	}
 }
 
 PHI = {

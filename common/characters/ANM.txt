@@ -1,16 +1,16 @@
 characters = {
-	ANM_zhang_mingqi = {
-		name = ANM_zhang_mingqi
+	ANM_bui_quang_chieu = {
+		name = ANM_bui_quang_chieu
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/ANM/Portrait_Zhang_Mingqi.dds"
+				large = "gfx/leaders/ANM/Portrait_Bui_Quang_Chieu.png"
 			}
 		}
 		country_leader = {
-			ideology=colonialism_subtype
-			desc = ANM_zhang_mingqi_desc
-			traits = { emergency_powers prince_of_terror }
-			expire = "1945.9.15.1"
+			ideology=neo_liberalism_subtype
+			desc = ANM_bui_quang_chieu_desc
+			traits = { eager_collaborator conservative_grandee }
+			expire = "1945.1.1.1"
 		}
 	}
 	ANM_long_jiguang = {
@@ -23,11 +23,11 @@ characters = {
 				large = "gfx/leaders/ANM/Portrait_Long_Jiguang.png"
 			}
 		}
-		#country_leader = {
-		#	ideology = military_government_subtype
-		#	desc = ANM_long_jiguang_desc
-		#	traits = { emergency_powers reluctant_veteran }
-		#	expire = "1993.11.14.1"
-		#}
+		country_leader = {
+			ideology=guided_democracy_subtype
+			desc = ANM_long_jiguang_desc
+			traits = { emergency_powers reluctant_veteran }
+			expire = "1993.11.14.1"
+		}
 	}
 }

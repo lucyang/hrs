@@ -5,7 +5,7 @@ state={
 		422 1290 
 	}
 	history={
-		owner = ANM
+		owner = CHP
 		add_core_of = CHP
 
 		buildings = {

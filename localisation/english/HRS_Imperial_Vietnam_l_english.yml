@@ -1,0 +1,67 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ IMV_communism:0 "交趾总督府"
+ IMV_communism_DEF:0 "交趾军民总督府"
+ IMV_anarchism:0 "交趾总督府"
+ IMV_anarchism_DEF:0 "交趾军民总督府"
+ IMV_socialism:0 "交趾总督府"
+ IMV_socialism_DEF:0 "交趾军民总督府"
+ IMV_democratic:0 "交趾总督府"
+ IMV_democratic_DEF:0 "交趾军民总督府"
+ IMV_neutrality:0 "交趾总督府"
+ IMV_neutrality_DEF:0 "交趾军民总督府"
+ IMV_monarchism:0 "交趾总督府"
+ IMV_monarchism_DEF:0 "交趾军民总督府"
+ IMV_fascism:0 "交趾总督府"
+ IMV_fascism_DEF:0 "交趾军民总督府"
+ IMV_imperialism:0 "交趾总督府"
+ IMV_imperialism_DEF:0 "交趾军民总督府"
+ IMV_futurism:0 "交趾总督府"
+ IMV_futurism_DEF:0 "交趾军民总督府"
+ IMV_communism_ADJ:0 "交趾"
+ IMV_anarchism_ADJ:0 "交趾"
+ IMV_socialism_ADJ:0 "交趾"
+ IMV_democratic_ADJ:0 "交趾"
+ IMV_neutrality_ADJ:0 "交趾"
+ IMV_monarchism_ADJ:0 "交趾"
+ IMV_fascism_ADJ:0 "交趾"
+ IMV_imperialism_ADJ:0 "交趾"
+ IMV_futurism_ADJ:0 "交趾"
+ IMV:0 "交趾军民总督府"
+ IMV_DEF:0 "交趾军民总督府"
+ IMV_ADJ:0 "交趾"
+ #############
+ ## PARTIES ##
+ #############
+ IMV_communism_party:0 "越南共产党"
+ IMV_communism_party_long:0 "越南共产党"
+ IMV_anarchism_party:0 "新越革命党"
+ IMV_anarchism_party_long:0 "新越革命党"
+ IMV_socialism_party:0 "越南国民党"
+ IMV_socialism_party_long:0 "越南国民党"
+ IMV_democratic_party:0 "安南立宪党"
+ IMV_democratic_party_long:0 "安南立宪党"
+ IMV_neutrality_party:0 "交趾总督府"
+ IMV_neutrality_party_long:0 "交趾军民总督府" #张鸣岐
+ IMV_monarchism_party:0 "帝国宪政会"
+ IMV_monarchism_party_long:0 "中华帝国宪政会"
+ IMV_fascism_party:0 "越南复国会"
+ IMV_fascism_party_long:0 "越南复国会"
+ IMV_imperialism_party:0 "越南复国会"
+ IMV_imperialism_party_long:0 "越南复国会"
+ IMV_futurism_party:0 "广州商团"
+ IMV_futurism_party_long:0 "广州商团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ IMV_zhang_mingqi:0 "张鸣岐"
+ IMV_zhang_mingqi_desc:0 "§Y出生日期§!：§G1875年7月29日§!\n§Y出生地点§!：§G大东帝国济南道无棣县§!\n\n§Y张鸣岐§!祖籍在山东无棣县，但从小随父母在湖南生活。他操湖南口音，“一生未改乡音”。1894年，20岁的张鸣岐顺利通过省考，获得举人的头衔。但是张鸣岐在国考中屡战屡败，反倒是顺带考取了教师资格证和汉语教育证书，在首都的语言学校做起了教书先生。1898年，广东布政使§Y岑春煊§!延聘其为幕宾，张鸣岐屡出奇策助岑春煊官运亨通，自己也近水楼台、步步高升。\n\n1903年大正皇帝钦命他为交趾殖民地的总督，接替深得民心的老将§Y冯子材§!。张鸣岐深知皇帝看中了他镇压叛军与革命党人的能力，开始在交趾不遗余力地展开去极端化运动。张鸣岐采取了非常手段，镇压活跃在北圻的游击队，毒气弹、燃烧弹、脏弹、连坐、大屠杀——无所不用其极，只要能恢复交趾军民总督府的稳定与秩序，在他看来这一切就都是值得的。"
+ ###########
+ ## FOCUS ##
+ ###########

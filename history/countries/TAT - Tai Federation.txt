@@ -1,9 +1,8 @@
-﻿capital = 572 #泰处
+﻿capital = 571 #封土
 
 oob = "empty"
 
 recruit_character = TAT_deo_van_long
-
 
 set_technology = {
 	infantry_weapons = 1

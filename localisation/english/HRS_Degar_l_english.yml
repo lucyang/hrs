@@ -46,16 +46,21 @@
  DEG_neutrality_party_long:0 "高原解放阵线"
  DEG_monarchism_party:0 "阮家"
  DEG_monarchism_party_long:0 "阮家"
- DEG_fascism_party:0 "复国会"
+ DEG_fascism_party:0 "越南复国会"
  DEG_fascism_party_long:0 "越南复国会"
- DEG_imperialism_party:0 "复国会"
+ DEG_imperialism_party:0 "越南复国会"
  DEG_imperialism_party_long:0 "越南复国会"
  DEG_futurism_party:0 "技术官僚"
- DEG_futurism_party_long:0 "技术官僚运动"
+ DEG_futurism_party_long:0 "技术官僚"
  ##################
  ## COSMETIC TAG ##
  ##################
- 
+ DEG_VIN_democratic:0 "皇朝疆土"
+ DEG_VIN_democratic_desc:0 "皇朝疆土"
+ DEG_VIN_neutrality:0 "皇朝疆土"
+ DEG_VIN_neutrality_desc:0 "皇朝疆土"
+ DEG_VIN_monarchism:0 "皇朝疆土"
+ DEG_VIN_monarchism_desc:0 "皇朝疆土"
  ################
  ## CHARACTERS ##
  ################

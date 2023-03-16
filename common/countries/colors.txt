@@ -13,6 +13,10 @@ IMK = {
 	color = rgb { 191 87 0 }
 	color_ui = rgb { 191 87 0 }
 }
+IMV = {
+	color = rgb { 191 87 0 }
+	color_ui = rgb { 191 87 0 }
+}
 SIA = {
 	color = rgb { 171 190 152 }
 	color_ui = rgb { 171 190 152 }
@@ -26,7 +30,7 @@ MAL = {
 	color_ui = rgb { 100  96  197 }
 }
 BSM = {
-	color = rgb { 57 86 18 }豫西
+	color = rgb { 57 86 18 }
 	color_ui = rgb { 57 86 18 }
 }
 ADM = {
