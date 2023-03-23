@@ -6,15 +6,14 @@ state={
 	history={
 		owner = IMC
 		add_core_of = IMC
-		victory_points = {
-			2227 5
-			}
-		victory_points = {
-			2847 3
-			}
-		victory_points = {
-			1723 3
-			}
+		1924.1.1 = {
+			owner = CHQ
+			add_core_of = CHQ
+			remove_core_of = IMC
+		}
+		victory_points = { 2227 5 }
+		victory_points = { 2847 3 }
+		victory_points = { 1723 3 }
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

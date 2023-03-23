@@ -7,10 +7,13 @@ state={
 	history = {
 		owner = IMC
 		add_core_of = IMC
-
+		1924.1.1 = {
+			owner = CHI
+			add_core_of = CHI
+			remove_core_of = IMC
+		}
 		victory_points = { 3851 3 } #荆州
-		victory_points = { 2997 1 } #公安
-		
+		victory_points = { 2997 1 } #公安	
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 3

@@ -22,7 +22,7 @@ set_technology = {
 set_stability = 0.55
 set_war_support = 0.65
 
-set_cosmetic_tag = CAM_IMC
+#set_cosmetic_tag = CAM_IMC
 
 add_ideas = {
 	country_development1

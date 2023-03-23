@@ -1,0 +1,16 @@
+characters={
+	JIB_xia_gong={
+		name=JIB_xia_gong
+		portraits={
+			civilian={
+				large="gfx/leaders/JIB/Portrait_Xia_Gong.png"
+			}
+		}
+		country_leader={
+			ideology=provisional_government_subtype
+			desc=JIB_xia_gong_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+	}
+}

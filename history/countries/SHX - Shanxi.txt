@@ -1,4 +1,4 @@
-﻿capital = 103 # Taiyuan
+﻿capital = 103 #太原
 
 recruit_character = SHX_yan_xishan
 recruit_character = SHX_liu_tianzhang

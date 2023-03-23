@@ -6,7 +6,7 @@ recruit_character = LAO_souvanna_phouma
 recruit_character = LAO_souphanouvong
 recruit_character = IND_indochina_laos
 
-set_cosmetic_tag = LAO_IMC
+#set_cosmetic_tag = LAO_IMC
 
 set_technology = {
 	infantry_weapons = 1

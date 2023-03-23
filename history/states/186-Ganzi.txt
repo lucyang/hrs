@@ -7,7 +7,11 @@ state={
 		owner = IMC
 		add_core_of = IMC
 		add_core_of = KHM
-
+		1924.1.1 = {
+			owner = CYA
+			add_core_of = CYA
+			remove_core_of = IMC
+		}
 		victory_points = { 834 3 } #康定
 		victory_points = { 2164 1 } #理塘
 

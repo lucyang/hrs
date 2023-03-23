@@ -7,7 +7,9 @@ state={
 		owner = TIB
 		add_core_of = TIB
 		add_core_of = KHM
-
+		#1924.1.1 = {
+		#	owner = KHM
+		#}
 		victory_points = { 2383 10 } #昌都
 
 		buildings = {

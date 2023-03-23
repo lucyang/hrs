@@ -7,9 +7,12 @@ state={
 	history = {
 		owner = IMC
 		add_core_of = IMC
-
-		victory_points = { 1565 5 } #襄阳
-		
+		1924.1.1 = {
+			owner = CHI
+			add_core_of = CHI
+			remove_core_of = IMC
+		}
+		victory_points = { 1565 5 } #襄阳	
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2

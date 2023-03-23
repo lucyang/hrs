@@ -299,20 +299,24 @@ SHX = { # 山西
 	color = rgb { 9 171 190 }
 	color_ui = rgb { 9 171 190 }
 } 
+JIB = { # 晋北
+	color = rgb { 100 24 0 }
+	color_ui = rgb { 100 24 0 }
+} 
 #############
 ### HEBEI ###
 #############
 PRC = { # 吉鸿昌部
-	color = rgb { 82 2 15 }
-	color_ui = rgb { 82 2 15 }
+	color = rgb { 139 58 58 }
+	color_ui = rgb { 139 58 58 }
 }
 TIJ = { # 齐燮元/京津
 	color = rgb { 0 47 167 }
 	color_ui = rgb { 0 47 167 }
 }
 HEB = { # 韩复榘/保定
-	color = rgb { 205 87 0 }
-	color_ui = rgb { 205 87 0 }
+	color = rgb { 82 2 15 }
+	color_ui = rgb { 82 2 15 }
 }
 JID = { # 冀东自治政府
 	color = rgb { 92 82 72 }

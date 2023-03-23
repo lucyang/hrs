@@ -3,10 +3,10 @@ characters={
 		name=NIX_ma_fuxiang
 		portraits={
 			civilian={
-				large="gfx/leaders/QNG/Portrait_Ma_Fuxiang.png"
+				large="gfx/leaders/NIX/Portrait_Ma_Fuxiang.png"
 			}
 			army={
-				large="gfx/leaders/QNG/Portrait_Ma_Fuxiang.png"
+				large="gfx/leaders/NIX/Portrait_Ma_Fuxiang.png"
 			}
 		}
 		country_leader={
@@ -28,10 +28,10 @@ characters={
 		name=NIX_ma_hongkui
 		portraits={
 			civilian={
-				large="gfx/leaders/QNG/Portrait_Ma_Hongkui.png"
+				large="gfx/leaders/NIX/Portrait_Ma_Hongkui.png"
 			}
 			army={
-				large="gfx/leaders/QNG/Portrait_Ma_Hongkui.png"
+				large="gfx/leaders/NIX/Portrait_Ma_Hongkui.png"
 			}
 		}
 		corps_commander={
@@ -47,10 +47,10 @@ characters={
 		name=NIX_ma_hongbin
 		portraits={
 			civilian={
-				large="gfx/leaders/QNG/Portrait_Ma_Hongbin.png"
+				large="gfx/leaders/NIX/Portrait_Ma_Hongbin.png"
 			}
 			army={
-				large="gfx/leaders/QNG/Portrait_Ma_Hongbin.png"
+				large="gfx/leaders/NIX/Portrait_Ma_Hongbin.png"
 			}
 		}
 		corps_commander={

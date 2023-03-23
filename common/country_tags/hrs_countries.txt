@@ -22,6 +22,7 @@ ANH = "countries/Anhui.txt"
 ### CHINA/NORTH ###
 # SHANXI #
 SHX = "countries/Shanxi.txt"
+JIB = "countries/Jinbei.txt"
 # SHANDONG #
 SHD = "countries/Shandong.txt"
 QND = "countries/Qingdao.txt"

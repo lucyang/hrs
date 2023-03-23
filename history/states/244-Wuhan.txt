@@ -10,11 +10,14 @@ state={
 	history = {
 		owner = IMC
 		add_core_of = IMC
-
-		victory_points = { 3846 15 } #武昌
+		1924.1.1 = {
+			owner = CHI
+			add_core_of = CHI
+			remove_core_of = IMC
+		}
+		victory_points = { 3846 20 } #武昌
 		victory_points = { 2141 10 } #汉口
 		victory_points = { 3023 5 } #汉阳
-		
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 3

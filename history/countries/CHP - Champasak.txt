@@ -22,7 +22,7 @@ add_ideas = {
 	unitary_state2
 }
 
-set_cosmetic_tag = CHP_IMC
+#set_cosmetic_tag = CHP_IMC
 
 set_politics = {	
 	ruling_party = monarchism

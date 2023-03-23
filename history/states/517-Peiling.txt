@@ -8,9 +8,14 @@ state={
 	history={
 		owner = IMC
 		add_core_of = IMC
+		1924.1.1 = {
+			owner = CHQ
+			add_core_of = CHQ
+			remove_core_of = IMC
+		}
 		victory_points = {
 			3050 5
-			}
+		}
 		buildings = {
 			infrastructure = 2
 		}

@@ -7,6 +7,10 @@ state={
 		owner = IMV
 		add_core_of = IMV
 		add_core_of = TAT
+		1924.1.1 = {
+			owner = TAT
+			remove_core_of = IMV
+		}
 		victory_points = { 2615 5 } #山罗
 		victory_points = { 274 1 } #老街
 		victory_points = { 2412 1 } #奠边府/勐唐
