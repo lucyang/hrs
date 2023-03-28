@@ -5,6 +5,12 @@
  HRS_korea_unification_category:0 "东亚革命战争"
  HRS_make_korea_states_core:0 "在[FROM.GetName]重建政权"
  HRS_unification_of_korea:0 "结束朝鲜内战"
+ ## ROK - Republic of Korea 大韩民国临时政府
+ ## PRK - People's Republic of Korea 建国准备委员会
+ ## ANK - Anarchist Korea 韩族总联合会
+ ## KIA - Korean Independet Army 大韩独立军团
+ ## CRK - YMCA 平壤基督教青年会
+ ## KOR - Korean Volunteer Army 大韩义军府
  ###############
  ## KOR-Korea ##
  ###############

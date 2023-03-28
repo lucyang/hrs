@@ -2,22 +2,23 @@ state={
 	id=31
 	name="STATE_31"
 	provinces={
-		4184
+		439 1670 2113 2719
 	}
 	history = {
 		owner = IMC
 		add_core_of = IMC
 		1924.1.1 = {
-			owner = XSM
-			add_core_of = XSM
+			owner = XXC
+			add_core_of = XXC
 			remove_core_of = IMC
 		}
-		
+		victory_points = { 1670 1 } #靖州
+		victory_points = { 439 1 } #會同
 		buildings = {
 			infrastructure = 1
 		}
 	}
-	manpower=6796
-	state_category = wasteland
+	manpower=594020
+	state_category = rural
 	local_supplies = 0.0
 }

@@ -9,7 +9,7 @@ characters = {
 		country_leader = {
 			ideology=neo_liberalism_subtype
 			desc = ANM_bui_quang_chieu_desc
-			traits = { eager_collaborator conservative_grandee }
+			traits = { conservative_grandee }
 			expire = "1945.1.1.1"
 		}
 	}

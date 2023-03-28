@@ -97,7 +97,7 @@ add_ideas = {
 	country_development3
 	country_tech3
 	dirigisme_economy
-	unitary_state3
+	unitary_state2
 }
 
 set_research_slots = 2

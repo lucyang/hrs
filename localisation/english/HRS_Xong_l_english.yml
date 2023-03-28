@@ -56,7 +56,14 @@
  ##################
  ## COSMETIC TAG ##
  ##################
-
+ XON_regional_unifier1_democratic:0 "果雄共和国"
+ XON_regional_unifier1_democratic_desc:0 "果雄共和国"
+ XON_regional_unifier2_democratic:0 "果雄共和国"
+ XON_regional_unifier2_democratic_desc:0 "果雄共和国"
+ XON_regional_unifier_monarchism:0 "苗疆"
+ XON_regional_unifier_monarchism_desc:0 "苗疆"
+ XON_regional_unifier_imperialism:0 "苗疆"
+ XON_regional_unifier_imperialism_desc:0 "苗疆"
  ################
  ## CHARACTERS ##
  ################

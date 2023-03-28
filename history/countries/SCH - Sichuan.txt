@@ -40,12 +40,10 @@ if = {
 		early_ship_hull_cruiser = 1
 		mtg_transport = 1
 		coastal_defense_ships = 1
-		#basic_secondary_battery = 1
 		basic_depth_charges = 1
 		basic_cruiser_armor_scheme = 1
 		cruiser_submarines = 1
 	}
-	#set_naval_oob = "SCH_1923_naval"
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -56,7 +54,6 @@ if = {
 		early_heavy_cruiser = 1
 		transport = 1
 	}
-	#set_naval_oob = "SCH_1923_naval_legacy"
 }
 
 if = {
@@ -102,4 +99,3 @@ set_popularities = {
 	imperialism = 0
 	futurism = 10
 }
-

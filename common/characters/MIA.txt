@@ -1,0 +1,16 @@
+characters={
+	MIA_yacob_yang={
+		name=MIA_yacob_yang
+		portraits={
+			civilian={
+				large="gfx/leaders/MIA/Portrait_Yacob_Yang.png"
+			}
+		}
+		country_leader={
+			ideology=religious_socialism_subtype
+			desc=MIA_yacob_yang_desc
+			traits={ modernist_and_reformer }
+			expire="1940.1.1.1"
+		}
+	}
+}

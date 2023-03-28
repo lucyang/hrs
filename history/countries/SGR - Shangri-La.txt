@@ -1,0 +1,66 @@
+﻿capital = 277 #迪庆/德钦
+
+recruit_character = SGR_nikolas_roerich
+recruit_character = SGR_helena_roerich
+recruit_character = SGR_yakiv_blyumkin
+
+oob = "empty"
+set_country_flag = is_china_nation
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	basic_train = 1
+	gw_artillery = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	fuel_refining = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+add_ideas = {
+	free_trade
+	limited_conscription
+	civilian_economy
+}
+add_ideas = {
+	country_development1
+	country_tech2
+	market_economy2
+	unitary_state
+}
+
+set_research_slots = 2
+set_convoys = 10
+set_stability = 0.45
+
+set_politics = {
+	ruling_party = futurism
+	last_election = "1923.10.30"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	anarchism = 0
+	socialism = 0
+	democratic = 0
+	neutrality = 6
+	monarchism = 16
+	fascism = 7
+	imperialism = 4
+	futurism = 67
+}

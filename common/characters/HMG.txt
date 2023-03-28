@@ -33,12 +33,48 @@ characters={
 			civilian={
 				large="gfx/leaders/HMG/Portrait_Peng_Dehuai.png"
 			}
+			army={
+				large="gfx/leaders/HMG/Portrait_Peng_Dehuai_army.png"
+			}
 		}
 		country_leader={
 			ideology=military_socialism_subtype
 			desc=HMG_peng_dehuai_desc
 			traits={ lusan_sanbagarasu }
 			expire="1974.11.29.1"
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=5
+			attack_skill=5
+			defense_skill=4
+			planning_skill=5
+			logistics_skill=3
+		}
+	}
+	HMG_huang_gonglue={
+		name=HMG_huang_gonglue
+		portraits={
+			civilian={
+				large="gfx/leaders/HMG/Portrait_Huang_Gonglue.png"
+			}
+			army={
+				large="gfx/leaders/HMG/Portrait_Huang_Gonglue.png"
+			}
+		}
+		#country_leader={
+		#	ideology=military_socialism_subtype
+		#	desc=HMG_huang_gonglue_desc
+		#	traits={ lusan_sanbagarasu }
+		#	expire="1974.11.29.1"
+		#}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
 		}
 	}
 	HMG_cheng_qian={
@@ -54,6 +90,14 @@ characters={
 		#	traits={ silent_workhorse modernist_and_reformer }
 		#	expire="1968.4.5.1"
 		#}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=3
+		}
 	}
 	HMG_song_jiaoren={
 		name=HMG_song_jiaoren

@@ -1,6 +1,12 @@
-﻿capital = 323 #Qianxinan/Xingyi
+﻿capital = 323 #黔西南/兴义
 
 oob = "empty"
+
+recruit_character = GNA_ren_kecheng
+recruit_character = GNA_liu_xianshi
+recruit_character = GNA_he_yingqin
+recruit_character = GNA_yuan_zuming
+recruit_character = GNA_wang_wenhua
 
 set_country_flag = is_china_nation
 
@@ -35,7 +41,6 @@ if = {
 		early_ship_hull_cruiser = 1
 		mtg_transport = 1
 		coastal_defense_ships = 1
-		#basic_secondary_battery = 1
 		basic_depth_charges = 1
 		basic_cruiser_armor_scheme = 1
 		cruiser_submarines = 1
@@ -53,7 +58,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1920.1.1"
 	election_frequency = 48
 	elections_allowed = no

@@ -9,11 +9,13 @@ state={
 		add_core_of = IMC
 		add_core_of = KHM
 		1924.1.1 = {
-			owner = DLI
-			add_core_of = DLI
+			owner = SGR
+			add_core_of = SGR
 			remove_core_of = IMC
 		}
-
+		victory_points = { 2748 3 } #中甸/香格里拉
+		victory_points = { 1424 1 } #德钦
+		victory_points = { 3123 1 } #维西
 		buildings = {
 			infrastructure = 3
 		}

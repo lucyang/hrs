@@ -97,9 +97,11 @@ DLI = "countries/Dali.txt"
 MMA = "countries/Mong Mao.txt"
 CHH = "countries/Chiang Hung.txt"
 LAX = "countries/Lan Xang.txt"
+SGR = "countries/Shangri-La.txt"
 # GUIZHOU #
 GZH = "countries/Guizhou.txt"
 GNA = "countries/Guizhou Nationalist Army.txt"
+GPA = "countries/Guizhou Pacification Army.txt"
 MIA = "countries/Miao.txt"
 MIR = "countries/Miao Republic.txt"
 ### TAIWAN ###

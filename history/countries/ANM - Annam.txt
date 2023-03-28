@@ -8,7 +8,7 @@ set_war_support = 0.25
 set_research_slots = 3
 
 recruit_character = ANM_long_jiguang #龙济光
-recruit_character = ANM_bui_quangchieu #裴光昭/Bùi Quang Chiêu
+recruit_character = ANM_bui_quang_chieu #裴光昭/Bùi Quang Chiêu
 
 set_technology = {
 	infantry_weapons = 1

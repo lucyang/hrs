@@ -55,6 +55,7 @@ HRS_setup_prefectures = {
 	538 = { set_variable = { prefecture = 14 } } #金门
 	539 = { set_variable = { prefecture = 14 } } #连江
 	#湖南
+	31 = { set_variable = { prefecture = 15 } } #靖州
 	258 = { set_variable = { prefecture = 15 } } #常德
 	262 = { set_variable = { prefecture = 15 } } #澧州
 	263 = { set_variable = { prefecture = 15 } } #岳阳
@@ -310,7 +311,6 @@ HRS_setup_prefectures = {
 	571 = { set_variable = { prefecture = 33 } } #澜沧
 	638 = { set_variable = { prefecture = 33 } } #澜沧
 	#甘肃
-	31 = { set_variable = { prefecture = 34 } } #嘉峪关
 	55 = { set_variable = { prefecture = 34 } } #酒泉
 	85 = { set_variable = { prefecture = 34 } } #张掖
 	90 = { set_variable = { prefecture = 34 } } #武威

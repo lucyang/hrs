@@ -1,0 +1,113 @@
+characters={
+	GNA_ren_kecheng={
+		name=GNA_ren_kecheng
+		portraits={
+			civilian={
+				large="gfx/leaders/GNA/Portrait_Ren_Kecheng.png"
+			}
+		}
+		country_leader={
+			ideology=national_conservatism_subtype
+			desc=GNA_ren_kecheng_desc
+			traits={ liberal_democratic_paragon }
+			expire="1946.3.16.1"
+		}
+	}
+	GNA_liu_xianshi={
+		name=GNA_liu_xianshi
+		portraits={
+			civilian={
+				large="gfx/leaders/GNA/Portrait_Liu_Xianshi.png"
+			}
+			army={
+				large="gfx/leaders/GNA/Portrait_Liu_Xianshi.png"
+			}
+		}
+		country_leader={
+			ideology=warlordism_subtype
+			desc=GNA_liu_xianshi_desc
+			traits={ }
+			expire="1947.10.4.1"
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	GNA_he_yingqin={
+		name=GNA_he_yingqin
+		portraits={
+			civilian={
+				large="gfx/leaders/GNA/Portrait_He_Yingqin.png"
+			}
+			army={
+				large="gfx/leaders/GNA/Portrait_He_Yingqin.png"
+			}
+		}
+		#country_leader={
+		#	ideology=tridemism_subtype
+		#	desc=GNA_he_yingqin_desc
+		#	traits={ }
+		#	expire="1987.10.20.1"
+		#}
+		corps_commander={
+			traits={ career_officer }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	GNA_yuan_zuming={
+		name=GNA_yuan_zuming
+		portraits={
+			civilian={
+				large="gfx/leaders/GNA/Portrait_Yuan_Zuming.png"
+			}
+			army={
+				large="gfx/leaders/GNA/Portrait_Yuan_Zuming.png"
+			}
+		}
+		#country_leader={
+		#	ideology=warlordism_subtype
+		#	desc=GNA_yuan_zuming_desc
+		#	traits={ }
+		#	expire="1947.1.30.1"
+		#}
+		corps_commander={
+			traits={ career_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	GNA_wang_wenhua={
+		name=GNA_wang_wenhua
+		portraits={
+			civilian={
+				large="gfx/leaders/GNA/Portrait_Wang_Wenhua.png"
+			}
+		}
+		#country_leader={
+		#	ideology=warlordism_subtype
+		#	desc=GNA_yuan_zuming_desc
+		#	traits={ }
+		#	expire="1940.1.30.1"
+		#}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=1
+		}
+	}
+}

@@ -1,0 +1,71 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ GPA_communism:0 "定黔军"
+ GPA_communism_DEF:0 "定黔军"
+ GPA_anarchism:0 "定黔军"
+ GPA_anarchism_DEF:0 "定黔军"
+ GPA_socialism:0 "定黔军"
+ GPA_socialism_DEF:0 "定黔军"
+ GPA_democratic:0 "定黔军"
+ GPA_democratic_DEF:0 "定黔军"
+ GPA_neutrality:0 "定黔军"
+ GPA_neutrality_DEF:0 "定黔军"
+ GPA_monarchism:0 "定黔军"
+ GPA_monarchism_DEF:0 "定黔军"
+ GPA_fascism:0 "定黔军"
+ GPA_fascism_DEF:0 "定黔军"
+ GPA_imperialism:0 "定黔军"
+ GPA_imperialism_DEF:0 "定黔军"
+ GPA_futurism:0 "定黔军"
+ GPA_futurism_DEF:0 "定黔军"
+ GPA_communism_ADJ:0 "定黔军"
+ GPA_anarchism_ADJ:0 "定黔军"
+ GPA_socialism_ADJ:0 "定黔军"
+ GPA_democratic_ADJ:0 "定黔军"
+ GPA_neutrality_ADJ:0 "定黔军"
+ GPA_monarchism_ADJ:0 "定黔军"
+ GPA_fascism_ADJ:0 "定黔军"
+ GPA_imperialism_ADJ:0 "定黔军"
+ GPA_futurism_ADJ:0 "定黔军"
+ GPA:0 "定黔军"
+ GPA_DEF:0 "定黔军"
+ GPA_ADJ:0 "定黔军"
+ #############
+ ## PARTIES ##
+ #############
+ GPA_communism_party:0 "社民农工党"
+ GPA_communism_party_long:0 "中国社会民主农工党"
+ GPA_anarchism_party:0 "无政府共产党"
+ GPA_anarchism_party_long:0 "无政府共产党"
+ GPA_socialism_party:0 "农工民主党"
+ GPA_socialism_party_long:0 "中国农工民主党"
+ GPA_democratic_party:0 "贵州自治党"
+ GPA_democratic_party_long:0 "贵州自治党"
+ GPA_neutrality_party:0 "黔系军阀 - 梓桐系"
+ GPA_neutrality_party_long:0 "黔系军阀 - 梓桐系"
+ GPA_monarchism_party:0 "同善社"
+ GPA_monarchism_party_long:0 "同善社"
+ GPA_fascism_party:0 "中国青年党"
+ GPA_fascism_party_long:0 "中国青年党"
+ GPA_imperialism_party:0 "人民共和党"
+ GPA_imperialism_party_long:0 "人民共和党"
+ GPA_futurism_party:0 "西南制药"
+ GPA_futurism_party_long:0 "西南制药"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ GPA_zhou_xicheng:0 "周西成"
+ GPA_wang_jialie:0 "王家烈"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

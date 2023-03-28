@@ -1,0 +1,16 @@
+characters={
+	MIR_yang_shaobin={
+		name=MIR_yang_shaobin
+		portraits={
+			civilian={
+				large="gfx/leaders/MIR/Portrait_Yang_Shaobin.png"
+			}
+		}
+		country_leader={
+			ideology=reactionary_populism_subtype
+			desc=MIR_yang_shaobin_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+	}
+}

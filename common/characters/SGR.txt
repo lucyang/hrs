@@ -1,0 +1,55 @@
+characters={
+	SGR_nikolas_roerich={
+		name=SGR_nikolas_roerich
+		portraits={
+			civilian={
+				large="gfx/leaders/SGR/Portrait_Nikolas_Roerich.png"
+			}
+		}
+		country_leader={
+			ideology=ethnofuturism_subtype
+			desc=SGR_nikolas_roerich_desc
+			traits={ the_masses_opium }
+			expire="1947.12.13.1"
+		}
+	}
+	SGR_helena_roerich={
+		name=SGR_helena_roerich
+		portraits={
+			civilian={
+				large="gfx/leaders/SGR/Portrait_Helena_Roerich.png"
+			}
+		}
+		country_leader={
+			ideology=fundamentalism_subtype
+			desc=SGR_helena_roerich_desc
+			traits={ the_masses_opium }
+			expire="1955.10.5.1"
+		}
+	}
+	SGR_yakiv_blyumkin={
+		name=SGR_yakiv_blyumkin
+		portraits={
+			civilian={
+				large="gfx/leaders/SGR/Portrait_Yakiv_Blyumkin.png"
+			}
+			army={
+				large="gfx/leaders/SGR/Portrait_Yakiv_Blyumkin.png"
+			}
+		}
+		country_leader={
+			ideology=military_government_subtype
+			desc=SGR_yakiv_blyumkin_desc
+			traits={ incognito }
+			expire="1950.1.1.1"
+		}
+		corps_commander={
+			traits={ militias_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+}

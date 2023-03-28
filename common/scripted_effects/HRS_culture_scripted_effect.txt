@@ -630,6 +630,7 @@ HRS_setup_cultures = {
 	535 = { set_variable = { nationality = 95 } } #上寮
 	# Xong/Eastern Hmongic
 	269 = { set_variable = { nationality = 96 } } #凤凰/湘西
+	654 = { set_variable = { nationality = 96 } } #沅陵
 	655 = { set_variable = { nationality = 96 } } #郴州
 	# Hoa Vietnamese
 	566 = { set_variable = { nationality = 97 } } #西贡
@@ -699,7 +700,7 @@ HRS_setup_cultures = {
 	262 = { set_variable = { nationality = 106 } } #澧州/张家界
 	516 = { set_variable = { nationality = 106 } } #黔江
 	# Dong/Kamese
-	282 = { set_variable = { nationality = 107 } } #怀化
+	31 = { set_variable = { nationality = 107 } } #靖州
 	# Hani/Ho
 	342 = { set_variable = { nationality = 108 } } #普洱
 	344 = { set_variable = { nationality = 108 } } #红河
@@ -803,4 +804,6 @@ HRS_setup_cultures = {
 	384 = { set_variable = { nationality = 144 } } #曼谷
 	# Pak Tai/Southern Tai
 	640 = { set_variable = { nationality = 145 } } #南暹罗
+	# Xiangxi
+	282 = { set_variable = { nationality = 146 } } #洪江
 }

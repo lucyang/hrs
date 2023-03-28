@@ -262,6 +262,10 @@ LAX = {
 	color = rgb { 40 100 148 }
 	color_ui = rgb { 40 100 148 }
 }
+SGR = {
+	color = rgb { 128 0 0 }
+	color_ui = rgb { 128 0 0 }
+}
 ###############
 ### GUANGXI ###
 ###############
@@ -283,6 +287,10 @@ GZH = { # 贵州
 GNA = { # 贵州国民军
 	color = rgb { 127 136 255 }
 	color_ui = rgb { 127 136 255 }
+}
+GPA = { # 黔军第三师
+	color = rgb { 81 48 63 }
+	color_ui = rgb { 81 48 63 }
 }
 MIA = { # 毕节
 	color = rgb { 40 80 168 }

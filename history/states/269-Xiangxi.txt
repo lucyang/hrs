@@ -13,8 +13,8 @@ state={
 			remove_core_of = IMC
 		}
 
-		victory_points = { 2982 3 } #凤凰
-		
+		victory_points = { 2982 3 } #吉首/乾州
+		victory_points = { 2579 5 } #凤凰
 		buildings = {
 			infrastructure = 2
 		}

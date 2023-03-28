@@ -9,10 +9,6 @@ recruit_character = GZH_zhang_bailin
 recruit_character = GZH_yang_jincheng
 recruit_character = GZH_wang_jialie
 recruit_character = GZH_zhou_xicheng
-recruit_character = GZH_yuan_zuming
-recruit_character = GZH_wang_wenhua
-recruit_character = GZH_ren_kecheng
-recruit_character = GZH_liu_xianshi
 recruit_character = GZH_he_yingqin
 
 set_technology = {

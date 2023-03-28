@@ -1,0 +1,52 @@
+characters={
+	GPA_zhou_xicheng={
+		name=GPA_zhou_xicheng
+		portraits={
+			civilian={
+				large="gfx/leaders/GPA/Portrait_Zhou_Xicheng.png"
+			}
+			army={
+				large="gfx/leaders/GPA/Portrait_Zhou_Xicheng.png"
+			}
+		}
+		country_leader={
+			ideology=warlordism_subtype
+			desc=GPA_zhou_xicheng_desc
+			traits={ }
+			expire="1966.8.11.1"
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	GPA_wang_jialie={
+		name=GPA_wang_jialie
+		portraits={
+			civilian={
+				large="gfx/leaders/GPA/Portrait_Wang_Jialie.png"
+			}
+			army={
+				large="gfx/leaders/GPA/Portrait_military_Wang_Jialie.png"
+			}
+		}
+		#country_leader={
+		#	ideology=warlordism_subtype
+		#	desc=GPA_wang_jialie_desc
+		#	traits={ }
+		#	expire="1966.8.11.1"
+		#}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+}
