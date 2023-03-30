@@ -1,0 +1,71 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ TSS_communism:0 "同善社"
+ TSS_communism_DEF:0 "同善社"
+ TSS_anarchism:0 "同善社"
+ TSS_anarchism_DEF:0 "同善社"
+ TSS_socialism:0 "同善社"
+ TSS_socialism_DEF:0 "同善社"
+ TSS_democratic:0 "同善社"
+ TSS_democratic_DEF:0 "同善社"
+ TSS_neutrality:0 "同善社"
+ TSS_neutrality_DEF:0 "同善社"
+ TSS_monarchism:0 "同善社"
+ TSS_monarchism_DEF:0 "同善社"
+ TSS_fascism:0 "同善社"
+ TSS_fascism_DEF:0 "同善社"
+ TSS_imperialism:0 "同善社"
+ TSS_imperialism_DEF:0 "同善社"
+ TSS_futurism:0 "同善社"
+ TSS_futurism_DEF:0 "同善社"
+ TSS_communism_ADJ:0 "同善社"
+ TSS_anarchism_ADJ:0 "同善社"
+ TSS_socialism_ADJ:0 "同善社"
+ TSS_democratic_ADJ:0 "同善社"
+ TSS_neutrality_ADJ:0 "同善社"
+ TSS_monarchism_ADJ:0 "同善社"
+ TSS_fascism_ADJ:0 "同善社"
+ TSS_imperialism_ADJ:0 "同善社"
+ TSS_futurism_ADJ:0 "同善社"
+ TSS:0 "同善社"
+ TSS_DEF:0 "同善社"
+ TSS_ADJ:0 "同善社"
+ #############
+ ## PARTIES ##
+ #############
+ TSS_communism_party:0 "社民农工党"
+ TSS_communism_party_long:0 "中国社会民主农工党"
+ TSS_anarchism_party:0 "无政府共产党"
+ TSS_anarchism_party_long:0 "无政府共产党"
+ TSS_socialism_party:0 "农工民主党"
+ TSS_socialism_party_long:0 "中国农工民主党"
+ TSS_democratic_party:0 "贵州自治党"
+ TSS_democratic_party_long:0 "贵州自治党"
+ TSS_neutrality_party:0 "定国军"
+ TSS_neutrality_party_long:0 "定国军"
+ TSS_monarchism_party:0 "同善社"
+ TSS_monarchism_party_long:0 "同善社"
+ TSS_fascism_party:0 "中国青年党"
+ TSS_fascism_party_long:0 "中国青年党"
+ TSS_imperialism_party:0 "人民共和党"
+ TSS_imperialism_party_long:0 "人民共和党"
+ TSS_futurism_party:0 "创造社"
+ TSS_futurism_party_long:0 "创造社"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ TSS_tongshan_society:0 "同善社"
+ TSS_tongshan_society_desc:0 "§Y同善社§!"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

@@ -102,6 +102,7 @@ SGR = "countries/Shangri-La.txt"
 GZH = "countries/Guizhou.txt"
 GNA = "countries/Guizhou Nationalist Army.txt"
 GPA = "countries/Guizhou Pacification Army.txt"
+TSS = "countries/Tongshan Society.txt"
 MIA = "countries/Miao.txt"
 MIR = "countries/Miao Republic.txt"
 ### TAIWAN ###

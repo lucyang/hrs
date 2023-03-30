@@ -308,12 +308,13 @@ bitmapfonts = {
 	
 	bitmapfont_override = {
 		name = "tahoma_60"
-		fontfiles = {
+		fontfiles = { 
 			"gfx/fonts/hrs_mapfont_0"
 			"gfx/fonts/hrs_mapfont_1"
-			"gfx/fonts/hrs_mapfont_2"	
+			"gfx/fonts/hrs_mapfont_2"
 			"gfx/fonts/hrs_mapfont_3"
 			"gfx/fonts/hrs_mapfont_4"
+			"gfx/fonts/hrs_mapfont_5"
 		}			
 	languages = { "l_english" } 
 	}	

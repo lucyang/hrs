@@ -1,0 +1,16 @@
+characters={
+	TSS_tongshan_society={
+		name=TSS_tongshan_society
+		portraits={
+			civilian={
+				large="gfx/leaders/TSS/Portrait_Tongshan_Society.png"
+			}
+		}
+		country_leader={
+			ideology=fundamentalism_subtype
+			desc=TSS_tongshan_society_desc
+			traits={  }
+			expire="1950.1.1.1"
+		}
+	}
+}
