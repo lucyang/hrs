@@ -1,0 +1,73 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ KPR_communism:0 "朝鲜建国准备委员会"
+ KPR_communism_DEF:0 "朝鲜建国准备委员会"
+ KPR_anarchism:0 "朝鲜建国准备委员会"
+ KPR_anarchism_DEF:0 "朝鲜建国准备委员会"
+ KPR_socialism:0 "朝鲜建国准备委员会" #조선건국준비위원회
+ KPR_socialism_DEF:0 "朝鲜建国准备委员会"
+ KPR_democratic:0 "朝鲜建国准备委员会"
+ KPR_democratic_DEF:0 "朝鲜建国准备委员会"
+ KPR_neutrality:0 "朝鲜建国准备委员会"
+ KPR_neutrality_DEF:0 "朝鲜建国准备委员会"
+ KPR_monarchism:0 "朝鲜建国准备委员会"
+ KPR_monarchism_DEF:0 "朝鲜建国准备委员会"
+ KPR_fascism:0 "朝鲜建国准备委员会"
+ KPR_fascism_DEF:0 "朝鲜建国准备委员会"
+ KPR_imperialism:0 "朝鲜建国准备委员会"
+ KPR_imperialism_DEF:0 "朝鲜建国准备委员会"
+ KPR_futurism:0 "朝鲜建国准备委员会"
+ KPR_futurism_DEF:0 "朝鲜建国准备委员会"
+ KPR_communism_ADJ:0 "建国准备委员会"
+ KPR_anarchism_ADJ:0 "建国准备委员会"
+ KPR_socialism_ADJ:0 "建国准备委员会"
+ KPR_democratic_ADJ:0 "建国准备委员会"
+ KPR_neutrality_ADJ:0 "建国准备委员会"
+ KPR_monarchism_ADJ:0 "建国准备委员会"
+ KPR_fascism_ADJ:0 "建国准备委员会"
+ KPR_imperialism_ADJ:0 "建国准备委员会"
+ KPR_futurism_ADJ:0 "建国准备委员会"
+ KPR:0 "建国准备委员会"
+ KPR_DEF:0 "建国准备委员会"
+ KPR_ADJ:0 "建国准备委员会"
+ #############
+ ## PARTIES ##
+ #############
+ KPR_communism_party:0 "朝鲜共产党"
+ KPR_communism_party_long:0 "朝鲜共产党"
+ KPR_anarchism_party:0 "建国准备委员会 - 极左派"
+ KPR_anarchism_party_long:0 "建国准备委员会 - 极左派"
+ KPR_socialism_party:0 "建国准备委员会 - 左派"
+ KPR_socialism_party_long:0 "建国准备委员会 - 左派"
+ KPR_democratic_party:0 "建国准备委员会 - 中道派"
+ KPR_democratic_party_long:0 "建国准备委员会 - 中道派"
+ KPR_neutrality_party:0 "建国准备委员会 - 右派"
+ KPR_neutrality_party_long:0 "建国准备委员会 - 右派"
+ KPR_monarchism_party:0 "大韩独立义军府"
+ KPR_monarchism_party_long:0 "大韩独立义军府"
+ KPR_fascism_party:0 "朝鲜国民联盟"
+ KPR_fascism_party_long:0 "朝鲜国民联盟"
+ KPR_imperialism_party:0 "朝鲜主体党"
+ KPR_imperialism_party_long:0 "朝鲜主体党"
+ KPR_futurism_party:0 "白白教"
+ KPR_futurism_party_long:0 "白白教"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ KPR_yo_unhyung:0 "呂運亨"
+ KPR_yo_unhyung_desc:0 ""
+ KPR_an_chaihong:0 "安在鴻" #안재홍
+ KPR_an_chaihong_desc:0 ""
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

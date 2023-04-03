@@ -258,13 +258,13 @@ CHH = { # 景陇
 	color = rgb { 114 47 55 }
 	color_ui = rgb { 114 47 55 }
 }
-LAX = {
+LAX = { # 澜沧
 	color = rgb { 40 100 148 }
 	color_ui = rgb { 40 100 148 }
 }
-SGR = {
-	color = rgb { 128 0 0 }
-	color_ui = rgb { 128 0 0 }
+SGR = { # 香格里拉
+	color = rgb { 139 71 38 }
+	color_ui = rgb { 139 71 38 }
 }
 ###############
 ### GUANGXI ###

@@ -1,0 +1,71 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ KDR_communism:0 "朝鲜人民委员会"
+ KDR_communism_DEF:0 "朝鲜人民委员会"
+ KDR_anarchism:0 "朝鲜人民委员会"
+ KDR_anarchism_DEF:0 "朝鲜人民委员会"
+ KDR_socialism:0 "朝鲜人民委员会"
+ KDR_socialism_DEF:0 "朝鲜人民委员会"
+ KDR_democratic:0 "朝鲜人民委员会"
+ KDR_democratic_DEF:0 "朝鲜人民委员会"
+ KDR_neutrality:0 "朝鲜人民委员会"
+ KDR_neutrality_DEF:0 "朝鲜人民委员会"
+ KDR_monarchism:0 "朝鲜人民委员会"
+ KDR_monarchism_DEF:0 "朝鲜人民委员会"
+ KDR_fascism:0 "朝鲜人民委员会"
+ KDR_fascism_DEF:0 "朝鲜人民委员会"
+ KDR_imperialism:0 "朝鲜人民委员会"
+ KDR_imperialism_DEF:0 "朝鲜人民委员会"
+ KDR_futurism:0 "朝鲜人民委员会"
+ KDR_futurism_DEF:0 "朝鲜人民委员会"
+ KDR_communism_ADJ:0 "人民委员会"
+ KDR_anarchism_ADJ:0 "人民委员会"
+ KDR_socialism_ADJ:0 "人民委员会"
+ KDR_democratic_ADJ:0 "人民委员会"
+ KDR_neutrality_ADJ:0 "人民委员会"
+ KDR_monarchism_ADJ:0 "人民委员会"
+ KDR_fascism_ADJ:0 "人民委员会"
+ KDR_imperialism_ADJ:0 "人民委员会"
+ KDR_futurism_ADJ:0 "人民委员会"
+ KDR:0 "人民委员会"
+ KDR_DEF:0 "人民委员会"
+ KDR_ADJ:0 "人民委员会"
+ #############
+ ## PARTIES ##
+ #############
+ KDR_communism_party:0 "朝鲜共产党"
+ KDR_communism_party_long:0 "朝鲜共产党 - 伊尔库茨克派"
+ KDR_anarchism_party:0 "朝鲜共产党"
+ KDR_anarchism_party_long:0 "朝鲜共产党 - 上海派"
+ KDR_socialism_party:0 "朝鲜民主党"
+ KDR_socialism_party_long:0 "朝鲜民主党"
+ KDR_democratic_party:0 "韩国独立党"
+ KDR_democratic_party_long:0 "韩国独立党"
+ KDR_neutrality_party:0 "基督教青年会"
+ KDR_neutrality_party_long:0 "基督教青年会"
+ KDR_monarchism_party:0 "大韩独立义军府"
+ KDR_monarchism_party_long:0 "大韩独立义军府"
+ KDR_fascism_party:0 "朝鲜国民联盟"
+ KDR_fascism_party_long:0 "朝鲜国民联盟"
+ KDR_imperialism_party:0 "大韩主体党"
+ KDR_imperialism_party_long:0 "大韩主体党"
+ KDR_futurism_party:0 "白白教"
+ KDR_futurism_party_long:0 "白白教"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ KDR_cho_mansik:0 "曺晩植"
+ KDR_cho_mansik_desc:0 ""
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

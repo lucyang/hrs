@@ -37,6 +37,7 @@ is_henan_nation = {
 is_shanxi_nation = {
 	OR = {
 		original_tag = SHX #山西军政府
+		original_tag = JIB #晋北自治政府
 	}
 }
 is_liaoning_nation = {
@@ -65,7 +66,7 @@ is_huabei_nation = {
 #########
 is_shaanxi_nation = {
 	OR = {
-		original_tag = SXI
+		original_tag = SXI #秦陇复汉军
 	}
 }
 is_gansu_nation = {
