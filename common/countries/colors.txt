@@ -769,17 +769,45 @@ DAR = { # 达里冈爱牧场
 #############
 ### KOREA ###
 #############
-KOR = { # 京城势力
-	color = rgb { 18 139 142 }
-	color_ui = rgb { 18 139 142 }
+ROK = { # 大韩民国
+	color = rgb { 50 136 189 }
+	color_ui = rgb { 50 136 189 }
 }
-PRK = { # 临时政府
-	color = rgb { 5 17 129 }
-	color_ui = rgb { 5 17 129 }
+EOK = { # 大韩帝国
+	color = rgb { 94 79 162 }
+	color_ui = rgb { 94 79 162 }
 }
-ANK = { # 新民府
+KIA = { # 大韩独立军团
+	color = rgb { 132 132 130 }
+	color_ui = rgb { 132 132 130 }
+}
+PCK = { # 朝鲜人民委员会
+	color = rgb { 237 41 57 }
+	color_ui = rgb { 237 41 57 }
+}
+KPA = { # 韩族总联合会
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+PRK = { # 朝鲜人民共和国
+	color = rgb { 194 30 86 }
+	color_ui = rgb { 194 30 86 }
+}
+CSK = { # 朝鲜劳动联合会
 	color = rgb { 251 60 60 }
 	color_ui = rgb { 251 60 60 }
+}
+KOY = { # 朝鲜国民会
+	color = rgb { 0 159 107 }
+	color_ui = rgb { 0 159 107 }
+}
+GJW = { # 朝鲜建国准备委员会
+	color = rgb { 115 54 53 }
+	color_ui = rgb { 115 54 53 }
+}
+GMH = { # 国民协会
+	color = rgb { 210 105 30 }
+	color_ui = rgb { 210 105 30 }
 }
 ##############
 ### OTHERS ###

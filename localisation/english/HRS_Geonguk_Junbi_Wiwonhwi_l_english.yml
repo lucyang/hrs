@@ -1,0 +1,70 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ GJW_communism:0 "朝鮮建国準備委員会"
+ GJW_communism_DEF:0 "朝鮮建国準備委員会"
+ GJW_anarchism:0 "朝鮮建国準備委員会"
+ GJW_anarchism_DEF:0 "朝鮮建国準備委員会"
+ GJW_democratic:0 "朝鮮建国準備委員会"
+ GJW_democratic_DEF:0 "朝鮮建国準備委員会"
+ GJW_neutrality:0 "朝鮮建国準備委員会"
+ GJW_neutrality_DEF:0 "朝鮮建国準備委員会"
+ GJW_monarchism:0 "朝鮮建国準備委員会"
+ GJW_monarchism_DEF:0 "朝鮮建国準備委員会"
+ GJW_fascism:0 "朝鮮建国準備委員会"
+ GJW_fascism_DEF:0 "朝鮮建国準備委員会"
+ GJW_imperialism:0 "朝鮮建国準備委員会"
+ GJW_imperialism_DEF:0 "朝鮮建国準備委員会"
+ GJW_futurism:0 "朝鮮建国準備委員会"
+ GJW_futurism_DEF:0 "朝鮮建国準備委員会"
+ GJW_communism_ADJ:0 "建国准备委员会"
+ GJW_anarchism_ADJ:0 "建国准备委员会"
+ GJW_democratic_ADJ:0 "建国准备委员会"
+ GJW_neutrality_ADJ:0 "建国准备委员会"
+ GJW_monarchism_ADJ:0 "建国准备委员会"
+ GJW_fascism_ADJ:0 "建国准备委员会"
+ GJW_imperialism_ADJ:0 "建国准备委员会"
+ GJW_futurism_ADJ:0 "建国准备委员会"
+ GJW:0 "朝鲜"
+ GJW_DEF:0 "朝鲜"
+ GJW_ADJ:0 "朝鲜"
+ #############
+ ## PARTIES ##
+ #############
+ GJW_communism_party:0 "朝鲜共产党 - 伊市派"
+ GJW_communism_party_long:0 "朝鲜共产党 - 伊尔库茨克派"
+ GJW_anarchism_party:0 "朝鲜共产党 - 上海派"
+ GJW_anarchism_party_long:0 "朝鲜共产党 - 上海派"
+ GJW_socialism_party:0 "朝鲜人民党"
+ GJW_socialism_party_long:0 "朝鲜人民党"
+ GJW_democratic_party:0 "韩国独立党"
+ GJW_democratic_party_long:0 "韩国独立党"
+ GJW_neutrality_party:0 "朝鲜人民军"
+ GJW_neutrality_party_long:0 "朝鲜人民军"
+ GJW_monarchism_party:0 "大韩独立义军"
+ GJW_monarchism_party_long:0 "大韩独立义军"
+ GJW_fascism_party:0 "国民协会"
+ GJW_fascism_party_long:0 "国民协会"
+ GJW_imperialism_party:0 "朝鲜主体党"
+ GJW_imperialism_party_long:0 "朝鲜主体党"
+ GJW_futurism_party:0 "白白教"
+ GJW_futurism_party_long:0 "白白教"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ GJW_yo_unhyung:0 "呂運亨"
+ GJW_yo_unhyung_desc:0 "§Y出生日期§!：§G1886年4月22日§!\n§Y出生地点§!：§G朝鲜国京畿道杨根郡§!"
+ GJW_ho_hong:0 "許憲"
+ GJW_ho_hong_desc:0 "§Y出生日期§!：§G1885年7月22日§!\n§Y出生地点§!：§G朝鲜国咸镜道明川郡§!"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

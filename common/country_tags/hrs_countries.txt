@@ -135,9 +135,16 @@ AMM = "countries/Amami.txt"
 YYM = "countries/Yaeyama.txt"
 MYK = "countries/Miyako.txt"
 ### KOREA ###
-PRK = "countries/ComKorea.txt"
-ANK = "countries/AncKorea.txt"
-KOR = "countries/Korea.txt"
+ROK = "countries/Republic of Korea.txt"
+EOK = "countries/Empire of Korea.txt"
+KIA = "countries/Korea Independence Army.txt"
+PCK = "countries/People's Committee of Korea.txt"
+KPA = "countries/Korean People's Association.txt"
+PRK = "countries/People's Republic of Korea.txt"
+CSK = "countries/Combined Syndicates of Korea.txt"
+KOY = "countries/Korea YMCA.txt"
+GJW = "countries/Geonguk Junbi Wiwonhwi.txt"
+GMH = "countries/Gukmin Hyeohwi.txt"
 ### VIETNAM/NATIONALIST ###
 VIN = "countries/Vietnam.txt" # Nguyen Dynasty
 VQD = "countries/Vietquoc.txt" # Vietnamese Nationalist Party

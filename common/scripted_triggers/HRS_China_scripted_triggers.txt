@@ -71,24 +71,24 @@ is_shaanxi_nation = {
 }
 is_gansu_nation = {
 	OR = {
-		original_tag = XSM
-		original_tag = GNS
+		original_tag = XSM #西汉金山国
+		original_tag = GNS #甘肃临时议会
 	}
 }
 is_ningxia_nation = {
 	OR = {
-		original_tag = NIX
+		original_tag = NIX #宁夏边防军
 	}
 }
 is_suiyuan_nation = {
 	OR = {
-		original_tag = SYN
+		original_tag = SYN #大汉义军
 	}
 }
 is_qinghai_nation = {
 	OR = {
-		original_tag = QNG
-		original_tag = YSH
+		original_tag = QNG #东干斯坦共和国
+		original_tag = YSH #玉树四十族
 	}
 }
 is_xibei_nation = {
@@ -134,7 +134,7 @@ is_huadong_nation = {
 ############
 is_hubei_nation = {
 	OR = {
-		original_tag = CHI
+		original_tag = CHI #湖北军政府
 	}
 }
 is_hunan_nation = {
