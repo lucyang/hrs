@@ -1,8 +1,12 @@
-capital = 552
+capital = 41 #间岛
 
 oob = "empty"
 
-recruit_character = DAL_alexandra_kim
+recruit_character = KIA_hong_beomdo
+recruit_character = KIA_kim_kyeongcheon
+recruit_character = KIA_ji_cheongcheon
+recruit_character = KIA_lee_beomseok
+recruit_character = KIA_junta
 
 set_country_flag = is_korea_nation
 
@@ -15,6 +19,7 @@ set_technology = {
 	basic_train = 1
 	trench_warfare = 1
 	gw_artillery = 1
+	early_fighter = 1
 	fuel_silos = 1
 	synth_oil_experiments = 1
 	oil_processing = 1
@@ -61,8 +66,8 @@ if = {
 	}
 }
 
-set_stability = 0.55
-set_war_support = 0.75
+set_stability = 0.60
+set_war_support = 0.30
 
 add_ideas = {
 	closed_economy
@@ -70,27 +75,27 @@ add_ideas = {
 	war_economy
 }
 add_ideas = {
-	country_development1
+	country_development2
 	country_tech2
-	state_union
-	planned_economy2
+	dirigisme_economy
+	unitary_state2
 }
 
 set_politics = {	
-	ruling_party = anarchism
-	last_election = "1923.1.1"
+	ruling_party = neutrality
+	last_election = "1923.3.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	communism = 10
-	anarchism = 42
-	socialism = 14
-	democratic = 4
-	neutrality = 17
+	communism = 16
+	anarchism = 8
+	socialism = 0
+	democratic = 14
+	neutrality = 62
 	monarchism = 0
 	fascism = 0
-	imperialism = 13
+	imperialism = 0
 	futurism = 0
 }

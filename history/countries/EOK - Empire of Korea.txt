@@ -1,8 +1,11 @@
-capital = 552
+﻿capital = 465 #全罗南道/光州
 
 oob = "empty"
 
-recruit_character = DAL_alexandra_kim
+recruit_character = EOK_chae_sangdeok
+recruit_character = EOK_kim_seongsu
+recruit_character = EOK_i_eun
+recruit_character = EOK_cheon_deokwon
 
 set_country_flag = is_korea_nation
 
@@ -15,6 +18,7 @@ set_technology = {
 	basic_train = 1
 	trench_warfare = 1
 	gw_artillery = 1
+	early_fighter = 1
 	fuel_silos = 1
 	synth_oil_experiments = 1
 	oil_processing = 1
@@ -61,8 +65,8 @@ if = {
 	}
 }
 
-set_stability = 0.55
-set_war_support = 0.75
+set_stability = 0.60
+set_war_support = 0.30
 
 add_ideas = {
 	closed_economy
@@ -70,27 +74,27 @@ add_ideas = {
 	war_economy
 }
 add_ideas = {
-	country_development1
-	country_tech2
-	state_union
-	planned_economy2
+	country_development2
+	country_tech3
+	dirigisme_economy
+	unitary_state2
 }
 
 set_politics = {	
-	ruling_party = anarchism
-	last_election = "1923.1.1"
+	ruling_party = monarchism
+	last_election = "1923.3.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	communism = 10
-	anarchism = 42
-	socialism = 14
-	democratic = 4
-	neutrality = 17
-	monarchism = 0
+	communism = 0
+	anarchism = 0
+	socialism = 20
+	democratic = 24
+	neutrality = 14
+	monarchism = 42
 	fascism = 0
-	imperialism = 13
+	imperialism = 0
 	futurism = 0
 }

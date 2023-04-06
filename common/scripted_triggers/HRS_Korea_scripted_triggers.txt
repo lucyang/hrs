@@ -1,20 +1,8 @@
 is_korea_nation = {
-	OR = {
-		original_tag = ANK
-		original_tag = PRK
-		original_tag = KOR
-		original_tag = SLA
-		original_tag = IMK
-	}
+	has_country_flag = is_korea_nation
 }
 is_korea_unifier = {
-	OR = {
-		original_tag = ANK
-		original_tag = PRK
-		original_tag = KOR
-		original_tag = SLA
-		original_tag = IMK
-	}
+	is_korea_nation = yes
 }
 is_any_korea_state = {
 	OR = {

@@ -1,23 +1,16 @@
-﻿capital = 52 # Pyongyang
+capital = 637 #新义州
 
 oob = "empty"
 
-recruit_character = PRK_i_donghwi
-recruit_character = PRK_hong_beomdo
-recruit_character = KOR_kim_koo
-recruit_character = KOR_old_kim_koo
-recruit_character = PRK_an_changho
-recruit_character = PRK_i_seungman
-recruit_character = PRK_old_i_seungman
-recruit_character = PRK_ji_cheongcheon
-recruit_character = PRK_sin_chaeho
-recruit_character = PRK_provisional_government
-recruit_character = PRK_lee_beomseok
-recruit_character = PRK_kim_chwajin
-recruit_character = PRK_yo_unhyung
-recruit_character = PRK_junta
-recruit_character = PRK_i_kang
+recruit_character = KPA_i_hwiyeong
+recruit_character = KPA_kim_wonbong
+recruit_character = KPA_sin_chaeho
+recruit_character = KPA_kim_chwajin
+recruit_character = KPA_yu_lim
+recruit_character = KPA_yu_chamyeong
+recruit_character = KPA_anarchist_commune
 
+set_country_flag = is_korea_nation
 
 set_technology = {
 	infantry_weapons = 1
@@ -28,6 +21,7 @@ set_technology = {
 	basic_train = 1
 	trench_warfare = 1
 	gw_artillery = 1
+	early_fighter = 1
 	fuel_silos = 1
 	synth_oil_experiments = 1
 	oil_processing = 1
@@ -49,12 +43,10 @@ if = {
 		early_ship_hull_cruiser = 1
 		mtg_transport = 1
 		coastal_defense_ships = 1
-		#basic_secondary_battery = 1
 		basic_depth_charges = 1
 		basic_cruiser_armor_scheme = 1
 		cruiser_submarines = 1
 	}
-	#set_naval_oob = "PRK_1923_naval"
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -65,11 +57,19 @@ if = {
 		early_heavy_cruiser = 1
 		transport = 1
 	}
-	#set_naval_oob = "PRK_1923_naval_legacy"
 }
 
-set_variable = { KOR_commie_support = 7 }
-set_variable = { KOR_reform_support = 7 }
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+set_stability = 0.60
+set_war_support = 0.30
 
 add_ideas = {
 	closed_economy
@@ -77,29 +77,27 @@ add_ideas = {
 	war_economy
 }
 add_ideas = {
-	country_development2
+	country_development1
 	country_tech3
-	market_economy2
-	unitary_state1
+	collective_economy
+	anarchist_commune
 }
 
-set_stability = 0.55
-set_war_support = 0.65
-
 set_politics = {	
-	ruling_party = neutrality
-	last_election = "1923.3.9"
+	ruling_party = anarchism
+	last_election = "1923.3.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	communism = 14
-	anarchism = 23
-	democratic = 26
-	neutrality = 27
+	communism = 10
+	anarchism = 61
+	socialism = 9
+	democratic = 0
+	neutrality = 20
 	monarchism = 0
 	fascism = 0
-	imperialism = 10
+	imperialism = 0
 	futurism = 0
 }

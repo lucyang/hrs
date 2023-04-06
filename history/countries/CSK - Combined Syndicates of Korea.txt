@@ -1,18 +1,11 @@
-﻿capital = 99 # Seoul
+capital = 458 #元山
 
 oob = "empty"
 
-recruit_character = KOR_pak_honyong
-recruit_character = KOR_yo_unhyung
-recruit_character = KOR_ho_hon
-recruit_character = KOR_pak_fumiko #朴文子/金子文子
-recruit_character = KOR_kim_seongsu
-recruit_character = KOR_anarchist_commune
-recruit_character = KOR_jo_dongyun
-recruit_character = KOR_i_eun
-recruit_character = KOR_choe_namseon
-recruit_character = KOR_pak_chungyang
+recruit_character = PRK_cho_mansik
+recruit_character = PRK_cho_bongam
 
+set_country_flag = is_korea_nation
 
 set_technology = {
 	infantry_weapons = 1
@@ -45,7 +38,6 @@ if = {
 		early_ship_hull_cruiser = 1
 		mtg_transport = 1
 		coastal_defense_ships = 1
-		#basic_secondary_battery = 1
 		basic_depth_charges = 1
 		basic_cruiser_armor_scheme = 1
 		cruiser_submarines = 1
@@ -81,26 +73,26 @@ add_ideas = {
 }
 add_ideas = {
 	country_development2
-	country_tech3
-	market_economy2
-	unitary_state2
+	country_tech2
+	planned_economy
+	anarchist_commune
 }
 
 set_politics = {	
-	ruling_party = neutrality
-	last_election = "1923.1.1"
+	ruling_party = anarchism
+	last_election = "1923.3.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	communism = 10
-	anarchism = 14
-	socialism = 24
-	democratic = 20
-	neutrality = 26
+	communism = 6
+	anarchism = 80
+	socialism = 14
+	democratic = 0
+	neutrality = 0
 	monarchism = 0
 	fascism = 0
-	imperialism = 6
+	imperialism = 0
 	futurism = 0
 }

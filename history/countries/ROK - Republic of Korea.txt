@@ -1,8 +1,12 @@
-capital = 552
+﻿capital = 99 #京城/首尔
 
 oob = "empty"
 
-recruit_character = DAL_alexandra_kim
+recruit_character = ROK_kim_koo
+recruit_character = ROK_an_changho
+recruit_character = ROK_i_seungman
+recruit_character = ROK_i_kang
+recruit_character = ROK_provisional_government
 
 set_country_flag = is_korea_nation
 
@@ -15,6 +19,7 @@ set_technology = {
 	basic_train = 1
 	trench_warfare = 1
 	gw_artillery = 1
+	early_fighter = 1
 	fuel_silos = 1
 	synth_oil_experiments = 1
 	oil_processing = 1
@@ -61,8 +66,8 @@ if = {
 	}
 }
 
-set_stability = 0.55
-set_war_support = 0.75
+set_stability = 0.60
+set_war_support = 0.30
 
 add_ideas = {
 	closed_economy
@@ -70,27 +75,27 @@ add_ideas = {
 	war_economy
 }
 add_ideas = {
-	country_development1
-	country_tech2
-	state_union
-	planned_economy2
+	country_development2
+	country_tech3
+	dirigisme_economy
+	unitary_state
 }
 
 set_politics = {	
-	ruling_party = anarchism
-	last_election = "1923.1.1"
+	ruling_party = demoratic
+	last_election = "1923.3.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
-	communism = 10
-	anarchism = 42
-	socialism = 14
-	democratic = 4
-	neutrality = 17
-	monarchism = 0
-	fascism = 0
-	imperialism = 13
+	communism = 5
+	anarchism = 15
+	socialism = 20
+	democratic = 32
+	neutrality = 18
+	monarchism = 3
+	fascism = 7
+	imperialism = 0
 	futurism = 0
 }
