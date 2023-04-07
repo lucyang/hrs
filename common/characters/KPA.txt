@@ -1,0 +1,103 @@
+characters={
+	KPA_i_hwiyeong={
+		name=KPA_i_hwiyeong
+		portraits={
+			civilian={
+				large="gfx/leaders/KPA/Portrait_I_Hwiyeong.png"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialism_subtype
+			desc=KPA_i_hwiyeong_desc
+			traits={  }
+			expire="1950.1.1.1"
+		}
+	}
+	KPA_sin_chaeho={
+		name=KPA_sin_chaeho
+		portraits={
+			civilian={
+				large="gfx/leaders/KPA/Portrait_Sin_Chaeho.png"
+			}
+		}
+		country_leader={
+			ideology=anarcho_nationalism_subtype
+			desc=KPA_sin_chaeho_desc
+			traits={  }
+			expire="1950.1.1.1"
+		}
+	}
+	KPA_kim_wonbong={
+		name=KPA_kim_wonbong
+		portraits={
+			civilian={
+				large="gfx/leaders/KPA/Portrait_Kim_Wonbong.png"
+			}
+		}
+		country_leader={
+			ideology=leninism_subtype
+			desc=KPA_kim_wonbong_desc
+			traits={ militant_socialist }
+			expire="1958.11.10.1"
+		}
+	}
+	KPA_anarchist_commune={
+		name=KPA_anarchist_commune
+		portraits={
+			civilian={
+				large="gfx/leaders/KPA/Portrait_Shiminbu.png"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialism_subtype
+			desc=KPA_anarchist_commune_desc
+			traits={ our_right_to_survive }
+			expire="1950.1.1.1"
+		}
+	}
+	KPA_kim_chwajin={
+		name=KPA_kim_chwajin
+		portraits={
+			civilian={
+				large="gfx/leaders/KPA/Portrait_Kim_Chwajin.png"
+			}
+			army={
+				large="gfx/leaders/KPA/Portrait_Kim_Chwajin.png"
+			}
+		}
+		country_leader={
+			ideology=anarcho_communism_subtype
+			desc=KPA_kim_chwajin_desc
+			traits={ militant_socialist }
+			expire="1958.11.10.1"
+		}
+	}
+	KPA_yu_lim={
+		name=KPA_yu_lim
+		portraits={
+			civilian={
+				large="gfx/leaders/KPA/Portrait_Yu_Lim.png"
+			}
+		}
+		country_leader={
+			ideology=social_democratic_subtype
+			desc=KPA_yu_lim_desc
+			traits={ }
+			expire="1958.11.10.1"
+		}
+	}
+	KPA_yu_chamyeong={
+		name=KPA_yu_chamyeong
+		portraits={
+			civilian={
+				large="gfx/leaders/KPA/Portrait_Yu_Chamyeong.png"
+			}
+		}
+		country_leader={
+			ideology=anarcho_communism_subtype
+			desc=KPA_yu_chamyeong_desc
+			traits={ }
+			expire="1958.11.10.1"
+		}
+	}
+}

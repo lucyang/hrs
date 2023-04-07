@@ -1,152 +1,30 @@
 characters={
-	KOR_kim_koo={
-		name=KOR_kim_koo
+	PRK_cho_mansik={
+		name=PRK_cho_mansik
 		portraits={
 			civilian={
-				large="gfx/leaders/KOR/Portrait_young_Kim_Koo.dds"
+				large="gfx/leaders/PRK/Portrait_Cho_Mansik.png"
 			}
 		}
 		country_leader={
-			ideology=triequism_subtype
-			desc=KOR_kim_koo_desc
+			ideology=left_nationalism_subtype
+			desc=PRK_cho_mansik_desc
 			traits={  }
-			expire="1959.6.25.1"
+			expire="1950.1.1.1"
 		}
 	}
-	KOR_old_kim_koo={
-		name=KOR_old_kim_koo
+	PRK_cho_bongam={
+		name=PRK_cho_bongam
 		portraits={
 			civilian={
-				large="gfx/leaders/KOR/Portrait_Kim_Koo.dds"
-			}
-		}
-	}
-	PRK_an_changho={
-		name=PRK_an_changho
-		portraits={
-			civilian={
-				large="gfx/leaders/KOR/Portrait_An_Changho.dds"
-			}
-		}
-	}
-	PRK_i_donghwi={
-		name=PRK_i_donghwi
-		portraits={
-			civilian={
-				large="gfx/leaders/KOR/Portrait_I_Donghwi.dds"
+				large="gfx/leaders/PRK/Portrait_Cho_Bongam.png"
 			}
 		}
 		country_leader={
 			ideology=revolutionary_front_subtype
-			desc=PRK_i_donghwi_desc
+			desc=PRK_cho_bongam_desc
 			traits={  }
-			expire="1935.1.30.1"
-		}
-	}
-	PRK_i_seungman={
-		name=PRK_i_seungman
-		portraits={
-			civilian={
-				large="gfx/leaders/KOR/Portrait_I_Seungman.dds"
-			}
-		}
-		#country_leader={
-		#	ideology=conservatism_subtype
-		#	desc=PRK_i_seungman_desc
-		#	traits={  }
-		#	expire="1965.7.15.1"
-		#}
-	}
-	PRK_old_i_seungman={
-		name=PRK_old_i_seungman
-		portraits={
-			civilian={
-				large="gfx/leaders/KOR/Portrait_Old_I_Seungman.dds"
-			}
-		}
-		#country_leader={
-		#	ideology=ilminism_subtype
-		#	desc=PRK_old_i_seungman_desc
-		#	traits={  }
-		#	expire="1965.7.15.1"
-		#}
-	}
-	PRK_provisional_government={
-		name=PRK_provisional_government
-		portraits={
-			civilian={
-				large="gfx/leaders/KOR/Portrait_KOR_Provisional_Government.dds"
-			}
-		}
-		country_leader={
-			ideology=guided_democracy_subtype
-			desc=PRK_provisional_government_desc
-			traits={ }
-			expire="1965.7.15.1"
-		}
-	}
-	PRK_sin_chaeho={
-		name=PRK_sin_chaeho
-		portraits={
-			civilian={
-				large="gfx/leaders/KOR/Portrait_Sin_Chaeho.dds"
-			}
-		}
-	}
-	PRK_junta={
-		name=PRK_junta
-		portraits={
-			civilian={
-				large="gfx/leaders/KOR/Portrait_KOR_junta.dds"
-			}
-		}
-	}
-	PRK_hong_beomdo={
-		name=PRK_hong_beomdo
-		portraits={
-			civilian={
-				large="gfx/leaders/KOR/Portrait_Hong_Beomdo.dds"
-			}
-		}
-	}
-	PRK_ji_cheongcheon={
-		name=PRK_ji_cheongcheon
-		portraits={
-			civilian={
-				large="gfx/leaders/KOR/Portrait_Ji_Cheongcheon.dds"
-			}
-		}
-	}
-	PRK_lee_beomseok={
-		name=PRK_lee_beomseok
-		portraits={
-			civilian={
-				large="gfx/leaders/KOR/Portrait_Lee_Beomseok.dds"
-			}
-		}
-	}
-	PRK_kim_chwajin={
-		name=PRK_kim_chwajin
-		portraits={
-			civilian={
-				large="gfx/leaders/KOR/Portrait_Kim_Chwajin.dds"
-			}
-		}
-	}
-	PRK_yo_unhyung={
-		name=PRK_yo_unhyung
-		portraits={
-			civilian={
-				large="gfx/leaders/KOR/Portrait_Yo_Unhyung.dds"
-			}
-		}
-	}
-	PRK_i_kang={
-		name=PRK_i_kang
-		portraits={
-			civilian={
-				large="gfx/leaders/KOR/Portrait_I_Kang.dds"
-			}
+			expire="1950.1.1.1"
 		}
 	}
 }

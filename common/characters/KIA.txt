@@ -1,0 +1,101 @@
+characters={
+	KIA_hong_beomdo={
+		name=KIA_hong_beomdo
+		portraits={
+			civilian={
+				large="gfx/leaders/KIA/Portrait_Hong_Beomdo.png"
+			}
+			army={
+				large="gfx/leaders/KIA/Portrait_Hong_Beomdo.png"
+			}
+		}
+		country_leader={
+			ideology=partisan_movement_subtype
+			desc=KIA_junta_desc
+			traits={  }
+			expire="1950.1.1.1"
+		}
+	}
+	KIA_kim_kyeongcheon={
+		name=KIA_kim_kyeongcheon
+		portraits={
+			civilian={
+				large="gfx/leaders/KIA/Portrait_Kim_Kyeongcheon.png"
+			}
+			army={
+				large="gfx/leaders/KIA/Portrait_Kim_Kyeongcheon.png"
+			}
+		}
+		country_leader={
+			ideology=military_socialism_subtype
+			desc=KIA_kim_kyeongcheon_desc
+			traits={  }
+			expire="1950.1.1.1"
+		}
+	}
+	KIA_kim_kyusik={
+		name=KIA_kim_kyusik
+		portraits={
+			civilian={
+				large="gfx/leaders/KIA/Portrait_Kim_Kyusik.png"
+			}
+			army={
+				large="gfx/leaders/KIA/Portrait_Kim_Kyusik.png"
+			}
+		}
+		country_leader={
+			ideology=left_nationalism_subtype
+			desc=KIA_kim_kyusik_desc
+			traits={  }
+			expire="1950.1.1.1"
+		}
+	}
+	KIA_ji_cheongcheon={
+		name=KIA_ji_cheongcheon
+		portraits={
+			civilian={
+				large="gfx/leaders/KIA/Portrait_Ji_Cheongcheon.png"
+			}
+			army = {
+				large="gfx/leaders/KIA/Portrait_Ji_Cheongcheon.png"
+			}
+		}
+		country_leader={
+			ideology=liberalism_subtype
+			desc=KIA_ji_cheongcheon_desc
+			traits={  }
+			expire="1950.1.1.1"
+		}
+	}
+	KIA_lee_beomseok={
+		name=KIA_lee_beomseok
+		portraits={
+			civilian={
+				large="gfx/leaders/KIA/Portrait_Lee_Beomseok.png"
+			}
+			army={
+				large="gfx/leaders/KIA/Portrait_Lee_Beomseok.png"
+			}
+		}
+		country_leader={
+			ideology=national_conservatism_subtype
+			desc=KIA_lee_beomseok_desc
+			traits={  }
+			expire="1950.1.1.1"
+		}
+	}
+	KIA_junta={
+		name=KIA_junta
+		portraits={
+			civilian={
+				large="gfx/leaders/KIA/Portrait_KIA_junta.png"
+			}
+		}
+		country_leader={
+			ideology=military_government_subtype
+			desc=KIA_junta_desc
+			traits={  }
+			expire="1950.1.1.1"
+		}
+	}
+}

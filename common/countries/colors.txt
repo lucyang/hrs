@@ -782,8 +782,8 @@ KIA = { # 大韩独立军团
 	color_ui = rgb { 132 132 130 }
 }
 PCK = { # 朝鲜人民委员会
-	color = rgb { 237 41 57 }
-	color_ui = rgb { 237 41 57 }
+	color = rgb { 177 17 22 }
+	color_ui = rgb { 177 17 22 }
 }
 KPA = { # 韩族总联合会
 	color = rgb { 0 0 0 }
@@ -806,8 +806,8 @@ GJW = { # 朝鲜建国准备委员会
 	color_ui = rgb { 115 54 53 }
 }
 GMH = { # 国民协会
-	color = rgb { 210 105 30 }
-	color_ui = rgb { 210 105 30 }
+	color = rgb { 0 51 102 }
+	color_ui = rgb { 0 51 102 }
 }
 ##############
 ### OTHERS ###

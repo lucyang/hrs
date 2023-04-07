@@ -7,11 +7,14 @@ state={
 	history = {
 		owner = IMK
 		add_core_of = IMK
-		
+		1924.1.1 = {
+			owner = EOK
+			add_core_of = EOK
+			remove_core_of = IMK
+		}
 		victory_points = { 4815 10 } #光州
 		victory_points = { 547 5 } #木浦
 		victory_points = { 656 1 } #麗水
-
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2

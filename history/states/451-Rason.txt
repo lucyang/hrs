@@ -7,9 +7,12 @@ state={
 	history = {
 		owner = IMK 
 		add_core_of = IMK
-		
+		1924.1.1 = {
+			owner = PCK
+		 	add_core_of = PCK
+			remove_core_of = IMK
+		}
 		victory_points = { 4785 5 }
-
 		buildings = {
 			infrastructure = 3
 			dockyard = 1

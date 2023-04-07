@@ -6,7 +6,11 @@ state={
 	history={
 		owner = IMK
 		add_core_of = IMK
-
+		1924.1.1 = {
+			owner = GMH
+			add_core_of = GMH
+			remove_core_of = IMK
+		}
 		victory_points = { 4807 5 } #春川
 		victory_points = { 3280 3 } #江陵
 		victory_points = { 4809 1 } #原州

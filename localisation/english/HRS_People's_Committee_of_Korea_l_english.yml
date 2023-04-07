@@ -2,23 +2,23 @@
  ###############
  ## COUNTRIES ##
  ###############
- PCK_communism:0 "朝鲜临时人民委员会"
+ PCK_communism:0 "朝鲜人民委员会"
  PCK_communism_DEF:0 "朝鲜临时人民委员会"
- PCK_anarchism:0 "朝鲜临时人民委员会"
+ PCK_anarchism:0 "朝鲜人民委员会"
  PCK_anarchism_DEF:0 "朝鲜临时人民委员会"
- PCK_socialism:0 "朝鲜临时人民委员会" #조선건국준비위원회
+ PCK_socialism:0 "朝鲜人民委员会" #조선건국준비위원회
  PCK_socialism_DEF:0 "朝鲜临时人民委员会"
- PCK_democratic:0 "朝鲜临时人民委员会"
+ PCK_democratic:0 "朝鲜人民委员会"
  PCK_democratic_DEF:0 "朝鲜临时人民委员会"
- PCK_neutrality:0 "朝鲜临时人民委员会"
+ PCK_neutrality:0 "朝鲜人民委员会"
  PCK_neutrality_DEF:0 "朝鲜临时人民委员会"
- PCK_monarchism:0 "朝鲜临时人民委员会"
+ PCK_monarchism:0 "朝鲜人民委员会"
  PCK_monarchism_DEF:0 "朝鲜临时人民委员会"
- PCK_fascism:0 "朝鲜临时人民委员会"
+ PCK_fascism:0 "朝鲜人民委员会"
  PCK_fascism_DEF:0 "朝鲜临时人民委员会"
- PCK_imperialism:0 "朝鲜临时人民委员会"
+ PCK_imperialism:0 "朝鲜人民委员会"
  PCK_imperialism_DEF:0 "朝鲜临时人民委员会"
- PCK_futurism:0 "朝鲜临时人民委员会"
+ PCK_futurism:0 "朝鲜人民委员会"
  PCK_futurism_DEF:0 "朝鲜临时人民委员会"
  PCK_communism_ADJ:0 "朝鲜人民委员会"
  PCK_anarchism_ADJ:0 "朝鲜人民委员会"

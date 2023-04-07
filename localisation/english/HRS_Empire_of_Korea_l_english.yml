@@ -2,36 +2,36 @@
  ###############
  ## COUNTRIES ##
  ###############
- EOK_communism:0 "大韩义军府"
- EOK_communism_DEF:0 "大韩帝国义军府
- EOK_anarchism:0 "大韩义军府"
- EOK_anarchism_DEF:0 "大韩帝国义军府
- EOK_socialism:0 "大韩义军府"
- EOK_socialism_DEF:0 "大韩帝国义军府
- EOK_democratic:0 "大韩义军府"
- EOK_democratic_DEF:0 "大韩帝国义军府
- EOK_neutrality:0 "大韩义军府
- EOK_neutrality_DEF:0 "大韩帝国义军府
- EOK_monarchism:0 "大韩义军府"
- EOK_monarchism_DEF:0 "大韩帝国义军府" #의군부
- EOK_fascism:0 "大韩义军府"
- EOK_fascism_DEF:0 "大韩帝国义军府"
- EOK_imperialism:0 "大韩义军府"
- EOK_imperialism_DEF:0 "大韩帝国义军府"
- EOK_futurism:0 "大韩义军府"
- EOK_futurism_DEF:0 "大韩帝国义军府"
- EOK_communism_ADJ:0 "义军府"
- EOK_anarchism_ADJ:0 "义军府"
- EOK_socialism_ADJ:0 "义军府"
- EOK_democratic_ADJ:0 "义军府"
- EOK_neutrality_ADJ:0 "义军府"
- EOK_monarchism_ADJ:0 "义军府"
- EOK_fascism_ADJ:0 "义军府"
- EOK_imperialism_ADJ:0 "义军府"
- EOK_futurism_ADJ:0 "义军府"
- EOK:0 "帝韩"
- EOK_DEF:0 "帝韩"
- EOK_ADJ:0 "帝韩"
+ EOK_communism:0 "独立义军"
+ EOK_communism_DEF:0 "大韩独立义军
+ EOK_anarchism:0 "独立义军"
+ EOK_anarchism_DEF:0 "大韩独立义军
+ EOK_socialism:0 "独立义军"
+ EOK_socialism_DEF:0 "大韩独立义军
+ EOK_democratic:0 "独立义军"
+ EOK_democratic_DEF:0 "大韩独立义军
+ EOK_neutrality:0 "独立义军
+ EOK_neutrality_DEF:0 "大韩独立义军
+ EOK_monarchism:0 "独立义军"
+ EOK_monarchism_DEF:0 "大韩独立义军" #의군부
+ EOK_fascism:0 "独立义军"
+ EOK_fascism_DEF:0 "大韩独立义军"
+ EOK_imperialism:0 "独立义军"
+ EOK_imperialism_DEF:0 "大韩独立义军"
+ EOK_futurism:0 "独立义军"
+ EOK_futurism_DEF:0 "大韩独立义军"
+ EOK_communism_ADJ:0 "韩国君主派"
+ EOK_anarchism_ADJ:0 "韩国君主派"
+ EOK_socialism_ADJ:0 "韩国君主派"
+ EOK_democratic_ADJ:0 "韩国君主派"
+ EOK_neutrality_ADJ:0 "韩国君主派"
+ EOK_monarchism_ADJ:0 "韩国君主派"
+ EOK_fascism_ADJ:0 "韩国君主派"
+ EOK_imperialism_ADJ:0 "韩国君主派"
+ EOK_futurism_ADJ:0 "韩国君主派"
+ EOK:0 "韩国"
+ EOK_DEF:0 "韩国"
+ EOK_ADJ:0 "韩国"
  #############
  ## PARTIES ##
  #############

@@ -4,6 +4,7 @@ oob = "empty"
 
 recruit_character = KIA_hong_beomdo
 recruit_character = KIA_kim_kyeongcheon
+recruit_character = KIA_kim_kyusik
 recruit_character = KIA_ji_cheongcheon
 recruit_character = KIA_lee_beomseok
 recruit_character = KIA_junta
@@ -77,8 +78,8 @@ add_ideas = {
 add_ideas = {
 	country_development2
 	country_tech2
-	dirigisme_economy
-	unitary_state2
+	market_economy1
+	unitary_state
 }
 
 set_politics = {	
@@ -89,10 +90,10 @@ set_politics = {
 }
 
 set_popularities = {
-	communism = 16
+	communism = 7
 	anarchism = 8
-	socialism = 0
-	democratic = 14
+	socialism = 11
+	democratic = 12
 	neutrality = 62
 	monarchism = 0
 	fascism = 0

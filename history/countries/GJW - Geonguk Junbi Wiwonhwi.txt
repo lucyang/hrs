@@ -1,4 +1,4 @@
-capital = 462 #忠清北道
+capital = 463 #忠清南道/大田
 
 oob = "empty"
 

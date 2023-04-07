@@ -7,7 +7,11 @@ state={
 	history={
 		owner = IMK
 		add_core_of = IMK
-
+		1924.1.1 = {
+			owner = KOY
+		 	add_core_of = KOY
+			remove_core_of = IMK
+		}
 		victory_points = { 4805 5 } #平壌
 		
 		buildings = {

@@ -8,8 +8,8 @@ state={
 		owner = IMK
 		add_core_of = IMK
 		1924.1.1 = {
-			#owner = KOR
-			#add_core_of = KOR
+			owner = ROK
+		 	add_core_of = ROK
 			remove_core_of = IMK
 		}
 		victory_points = { 5143 1 } #水原

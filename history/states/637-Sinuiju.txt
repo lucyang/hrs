@@ -7,9 +7,12 @@ state={
 	history = {
 		owner = IMK
 		add_core_of = IMK
-
+		1924.1.1 = {
+			owner = KPA
+		 	add_core_of = KPA
+			remove_core_of = IMK
+		}
 		victory_points = { 797 3 } #新义州
-		
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

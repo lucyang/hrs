@@ -7,7 +7,11 @@ state={
 	history = {
 		owner = IMK
 		add_core_of = IMK
-		
+		1924.1.1 = {
+			owner = EOK
+			add_core_of = EOK
+			remove_core_of = IMK
+		}
 		victory_points = { 4814 10 } #全州
 		victory_points = { 1039 3 } #群山
 

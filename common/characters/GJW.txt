@@ -1,0 +1,16 @@
+characters={
+	GJW_yo_unhyung={
+		name=GJW_yo_unhyung
+		portraits={
+			civilian={
+				large="gfx/leaders/GJW/Portrait_Yo_Unhyung.png"
+			}
+		}
+		country_leader={
+			ideology=state_socialism_subtype
+			desc=GJW_yo_unhyung_desc
+			traits={ eager_collaborator defeatist }
+			expire="1950.1.1.1"
+		}
+	}
+}

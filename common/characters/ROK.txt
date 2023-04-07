@@ -1,0 +1,72 @@
+characters={
+	ROK_kim_koo={
+		name=ROK_kim_koo
+		portraits={
+			civilian={
+				large="gfx/leaders/ROK/Portrait_Kim_Koo.png"
+			}
+		}
+		country_leader={
+			ideology=triequism_subtype
+			desc=ROK_kim_koo_desc
+			traits={ connected_citizen anti_communist_crusader }
+			expire="1959.6.25.1"
+		}
+	}
+	ROK_an_changho={
+		name=ROK_an_changho
+		portraits={
+			civilian={
+				large="gfx/leaders/ROK/Portrait_An_Changho.png"
+			}
+		}
+		country_leader={
+			ideology=liberalism_subtype
+			desc=ROK_an_changho_desc
+			traits={ freedom_fighter ideological_crusader }
+			expire="1938.3.10.1"
+		}
+	}
+	ROK_i_seungman={
+		name=ROK_i_seungman
+		portraits={
+			civilian={
+				large="gfx/leaders/ROK/Portrait_I_Seungman.png"
+			}
+		}
+		country_leader={
+			ideology=national_conservatism_subtype
+			desc=ROK_i_seungman_desc
+			traits={ conservative_grandee the_foreign_connection }
+			expire="1965.7.19.1"
+		}
+	}
+	ROK_provisional_government={
+		name=ROK_provisional_government
+		portraits={
+			civilian={
+				large="gfx/leaders/ROK/Portrait_ROK_Provisional_Government.png"
+			}
+		}
+		country_leader={
+			ideology=provisional_government_subtype
+			desc=ROK_provisional_government_desc
+			traits={  }
+			expire="1965.7.15.1"
+		}
+	}
+	ROK_i_kang={
+		name=ROK_i_kang
+		portraits={
+			civilian={
+				large="gfx/leaders/ROK/Portrait_I_Kang.png"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchism_subtype
+			desc=ROK_i_kang_desc
+			traits={ disgraced_monarch }
+			expire="1955.8.15.1"
+		}
+	}
+}
