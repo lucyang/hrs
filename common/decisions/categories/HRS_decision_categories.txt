@@ -127,6 +127,23 @@ HRS_diplomatic_action_category = {
 	priority = 80
 }
 
+HRS_asia_unification_category = {
+
+	icon = generic_political_actions
+
+	picture = GFX_decision_cat_picture_soviet_national_academy_of_sciences
+	
+	allowed = {
+		always = yes
+	}
+
+	visible = {
+		is_vietnam_nation = yes
+	}
+
+	priority = 90
+}
+
 HRS_vietnam_unification_category = {
 
 	icon = generic_political_actions

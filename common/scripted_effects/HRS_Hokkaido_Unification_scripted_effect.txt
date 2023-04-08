@@ -1,0 +1,29 @@
+HOK_select_unified_cosmetic_tag = {
+	hidden_effect = {
+		drop_cosmetic_tag = yes
+	}
+	if = {
+        limit = { 
+            original_tag = EZO
+        }
+        set_cosmetic_tag = EZO_HOKKAIDO
+    }
+    if = {
+        limit = { 
+            original_tag = AIN
+        }
+        set_cosmetic_tag = AIN_HOKKAIDO
+    }
+    if = {
+        limit = { 
+            original_tag = KRF
+        }
+        set_cosmetic_tag = KRF_HOKKAIDO
+    }
+    if = {
+        limit = { 
+            original_tag = SKL
+        }
+        set_cosmetic_tag = SKL_HOKKAIDO
+    }
+}

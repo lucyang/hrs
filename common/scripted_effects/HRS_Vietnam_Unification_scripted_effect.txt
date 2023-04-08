@@ -1,0 +1,71 @@
+VIN_select_unified_cosmetic_tag = {
+	hidden_effect = {
+		drop_cosmetic_tag = yes
+	}
+    if = {
+        limit = { 
+            original_tag = IMV
+        }
+        set_cosmetic_tag = IMV_VIETNAM
+    }
+    if = {
+        limit = { 
+            original_tag = ANM
+        }
+        set_cosmetic_tag = ANM_VIETNAM
+    }
+    if = {
+        limit = { 
+            original_tag = VIN
+        }
+        set_cosmetic_tag = VIN_VIETNAM
+    }
+    if = {
+        limit = { 
+            original_tag = VQD
+        }
+        set_cosmetic_tag = VQD_VIETNAM
+    }
+    if = {
+        limit = { 
+            original_tag = CAD
+        }
+        set_cosmetic_tag = CAD_VIETNAM
+    }
+    if = {
+        limit = { 
+            original_tag = VIC
+        }
+        set_cosmetic_tag = VIC_VIETNAM
+    }
+    if = {
+        limit = { 
+            original_tag = DNA
+        }
+        set_cosmetic_tag = DNA_VIETNAM
+    }
+    if = {
+        limit = { 
+            original_tag = SRV
+        }
+        set_cosmetic_tag = SRV_VIETNAM
+    }
+    if = {
+        limit = { 
+            original_tag = SAI
+        }
+        set_cosmetic_tag = SAI_VIETNAM
+    }
+    if = {
+        limit = { 
+            original_tag = DEG
+        }
+        set_cosmetic_tag = DEG_VIETNAM
+    }
+    if = {
+        limit = { 
+            original_tag = TAT
+        }
+        set_cosmetic_tag = TAT_VIETNAM
+    }
+}

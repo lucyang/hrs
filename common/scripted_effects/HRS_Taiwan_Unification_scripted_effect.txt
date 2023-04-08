@@ -1,0 +1,35 @@
+TAW_select_unified_cosmetic_tag = {
+	hidden_effect = {
+		drop_cosmetic_tag = yes
+	}
+    if = {
+        limit = { 
+            original_tag = FRM
+        }
+        set_cosmetic_tag = FRM_TAIWAN
+    }
+    if = {
+        limit = { 
+            original_tag = TAW
+        }
+        set_cosmetic_tag = TAW_TAIWAN
+    }
+    if = {
+        limit = { 
+            original_tag = ASN
+        }
+        set_cosmetic_tag = ASN_TAIWAN
+    }
+    if = {
+        limit = { 
+            original_tag = TGG
+        }
+        set_cosmetic_tag = TGG_TAIWAN
+    }
+    if = {
+        limit = { 
+            original_tag = MNG
+        }
+        set_cosmetic_tag = MNG_TAIWAN
+    }
+}

@@ -1,4 +1,18 @@
 characters={
+	ROK_i_seungman={
+		name=ROK_i_seungman
+		portraits={
+			civilian={
+				large="gfx/leaders/ROK/Portrait_I_Seungman.png"
+			}
+		}
+		country_leader={
+			ideology=national_conservatism_subtype
+			desc=ROK_i_seungman_desc
+			traits={ conservative_grandee the_foreign_connection }
+			expire="1965.7.19.1"
+		}
+	}
 	ROK_kim_koo={
 		name=ROK_kim_koo
 		portraits={
@@ -27,25 +41,11 @@ characters={
 			expire="1938.3.10.1"
 		}
 	}
-	ROK_i_seungman={
-		name=ROK_i_seungman
-		portraits={
-			civilian={
-				large="gfx/leaders/ROK/Portrait_I_Seungman.png"
-			}
-		}
-		country_leader={
-			ideology=national_conservatism_subtype
-			desc=ROK_i_seungman_desc
-			traits={ conservative_grandee the_foreign_connection }
-			expire="1965.7.19.1"
-		}
-	}
 	ROK_provisional_government={
 		name=ROK_provisional_government
 		portraits={
 			civilian={
-				large="gfx/leaders/ROK/Portrait_ROK_Provisional_Government.png"
+				large="gfx/leaders/ROK/Portrait_Provisional_Government.png"
 			}
 		}
 		country_leader={

@@ -1,0 +1,83 @@
+JAP_select_unified_cosmetic_tag = {
+	hidden_effect = {
+		drop_cosmetic_tag = yes
+	}
+	 if = {
+        limit = { 
+            original_tag = IMJ
+        }
+        set_cosmetic_tag = JAP_JAPAN
+    }
+    if = {
+        limit = { 
+            original_tag = JLF
+        }
+        set_cosmetic_tag = JLF_JAPAN
+    }
+    if = {
+        limit = { 
+            original_tag = JPR
+        }
+        set_cosmetic_tag = JPR_JAPAN
+    }
+    if = {
+        limit = { 
+            original_tag = JAF
+        }
+        set_cosmetic_tag = JAF_JAPAN
+    }
+    if = {
+        limit = { 
+            original_tag = KYU
+        }
+        set_cosmetic_tag = KYU_JAPAN
+    }
+    if = {
+        limit = { 
+            original_tag = NGN
+        }
+        set_cosmetic_tag = NGN_JAPAN
+    }
+    if = {
+        limit = { 
+            original_tag = CGK
+        }
+        set_cosmetic_tag = CGK_JAPAN
+    }
+    if = {
+        limit = { 
+            original_tag = CHB
+        }
+        set_cosmetic_tag = CHB_JAPAN
+    }
+    if = {
+        limit = { 
+            original_tag = KKG
+        }
+        set_cosmetic_tag = KKG_JAPAN
+    }
+    if = {
+        limit = { 
+            original_tag = JPN
+        }
+        set_cosmetic_tag = JPN_JAPAN
+    }
+    if = {
+        limit = { 
+            original_tag = TOK
+        }
+        set_cosmetic_tag = TOK_JAPAN
+    }
+    if = {
+        limit = { 
+            original_tag = THK
+        }
+        set_cosmetic_tag = THK_JAPAN
+    }
+    if = {
+        limit = { 
+            original_tag = OMT
+        }
+        set_cosmetic_tag = OMT_JAPAN
+    }
+}

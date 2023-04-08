@@ -1,0 +1,16 @@
+characters={
+	CSK_kim_gyeongsik={
+		name=CSK_kim_gyeongsik
+		portraits={
+			civilian={
+				large="gfx/leaders/CSK/Portrait_Kim_Gyeongsik.png"
+			}
+		}
+		country_leader={
+			ideology=anarcho_syndicalism_subtype
+			desc=CSK_kim_gyeongsik_desc
+			traits={ our_right_to_survive }
+			expire="1950.1.1.1"
+		}
+	}
+}

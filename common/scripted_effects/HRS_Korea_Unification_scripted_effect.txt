@@ -1,3 +1,74 @@
+KOR_select_unified_cosmetic_tag = {
+	hidden_effect = {
+		drop_cosmetic_tag = yes
+	}
+     if = {
+        limit = { 
+            original_tag = IMK
+        }
+        set_cosmetic_tag = IMK_KOREA
+    }
+    if = {
+        limit = { 
+            original_tag = ROK
+        }
+        set_cosmetic_tag = ROK_KOREA
+    }
+    if = {
+        limit = { 
+            original_tag = EOK
+        }
+        set_cosmetic_tag = EOK_KOREA
+    }
+    if = {
+        limit = { 
+            original_tag = KIA
+        }
+        set_cosmetic_tag = KIA_KOREA
+    }
+    if = {
+        limit = { 
+            original_tag = PCK
+        }
+        set_cosmetic_tag = PCK_KOREA
+    }
+    if = {
+        limit = { 
+            original_tag = KPA
+        }
+        set_cosmetic_tag = KPA_KOREA
+    }
+    if = {
+        limit = { 
+            original_tag = PRK
+        }
+        set_cosmetic_tag = PRK_KOREA
+    }
+    if = {
+        limit = { 
+            original_tag = CSK
+        }
+        set_cosmetic_tag = CSK_KOREA
+    }
+    if = {
+        limit = { 
+            original_tag = KOY
+        }
+        set_cosmetic_tag = KOY_KOREA
+    }
+    if = {
+        limit = { 
+            original_tag = GJW
+        }
+        set_cosmetic_tag = GJW_KOREA
+    }
+    if = {
+        limit = { 
+            original_tag = GMH
+        }
+        set_cosmetic_tag = GMH_KOREA
+    }
+}
 KOR_commie_support_large_decrease = {
 	custom_effect_tooltip = KOR_commie_support_large_decrease_tt
 	add_to_variable = { KOR_commie_support = -3 }

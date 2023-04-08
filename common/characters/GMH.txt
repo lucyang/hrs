@@ -1,0 +1,30 @@
+characters={
+	GMH_pak_chungyang={
+		name=GMH_pak_chungyang
+		portraits={
+			civilian={
+				large="gfx/leaders/GMH/Portrait_Pak_Chungyang.png"
+			}
+		}
+		#country_leader={
+		#	ideology=interim_government_subtype
+		#	desc=GMH_pak_chungyang_desc
+		#	traits={ }
+		#	expire="1950.10.1.1"
+		#}
+	}
+	GMH_min_wonsik={
+		name=GMH_min_wonsik
+		portraits={
+			civilian={
+				large="gfx/leaders/GMH/Portrait_Min_Wonsik.png"
+			}
+		}
+		country_leader={
+			ideology=development_authoritarianism_subtype
+			desc=GMH_min_wonsik_desc
+			traits={ }
+			expire="1950.10.1.1"
+		}
+	}
+}

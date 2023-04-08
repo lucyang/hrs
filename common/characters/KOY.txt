@@ -1,0 +1,58 @@
+characters={
+	KOY_kim_hyeongjik={
+		name=KOY_kim_hyeongjik
+		portraits={
+			civilian={
+				large="gfx/leaders/KOY/Portrait_Kim_Hyeongjik.png"
+			}
+		}
+		country_leader={
+			ideology=national_liberalism_subtype
+			desc=KOY_kim_hyeongjik_desc
+			traits={ }
+			expire="1926.10.1.1"
+		}
+	}
+	KOY_kim_maria={
+		name=KOY_kim_maria
+		portraits={
+			civilian={
+				large="gfx/leaders/KOY/Portrait_Kim_Maria.png"
+			}
+		}
+		country_leader={
+			ideology=interim_government_subtype
+			desc=KOY_kim_maria_desc
+			traits={ }
+			expire="1950.10.1.1"
+		}
+	}
+	KOY_kim_ilsung={
+		name=KOY_kim_ilsung
+		portraits={
+			civilian={
+				large="gfx/leaders/KOY/Portrait_Kim_Ilsung.png"
+			}
+		}
+		country_leader={
+			ideology=christian_republic_subtype
+			desc=KOY_kim_ilsung_desc
+			traits={ }
+			expire="1950.10.1.1"
+		}
+	}
+	KOY_cheon_haelyong={
+		name=KOY_cheon_haelyong
+		portraits={
+			civilian={
+				large="gfx/leaders/KOY/Portrait_Cheon_Haelyong.png"
+			}
+		}
+		country_leader={
+			ideology=ethnofuturism_subtype
+			desc=KOY_cheon_haelyong_desc
+			traits={ }
+			expire="1950.10.1.1"
+		}
+	}
+}

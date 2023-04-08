@@ -1,0 +1,41 @@
+TIB_select_unified_cosmetic_tag = {
+	hidden_effect = {
+		drop_cosmetic_tag = yes
+	}
+	if = {
+		limit = { 
+			original_tag = TIB
+		}
+		set_cosmetic_tag = TIB_TIBET
+	}
+	if = {
+		limit = { 
+			original_tag = SHG
+		}
+		set_cosmetic_tag = SHG_TIBET
+	}
+	if = {
+		limit = { 
+			original_tag = KHM
+		}
+		set_cosmetic_tag = KHM_TIBET
+	}
+	if = {
+		limit = { 
+			original_tag = AMD
+		}
+		set_cosmetic_tag = AMD_TIBET
+	}
+	if = {
+		limit = { 
+			original_tag = LDK
+		}
+		set_cosmetic_tag = LDK_TIBET
+	}
+	if = {
+		limit = { 
+			original_tag = POW
+		}
+		set_cosmetic_tag = POW_TIBET
+	}
+}

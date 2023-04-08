@@ -1,0 +1,30 @@
+characters={
+	EOK_i_eun={
+		name=EOK_i_eun
+		portraits={
+			civilian={
+				large="gfx/leaders/EOK/Portrait_I_Eun.png"
+			}
+		}
+		country_leader={
+			ideology=noble_republic_subtype
+			desc=EOK_i_eun_desc
+			traits={ disgraced_monarch }
+			expire="1955.2.18.1"
+		}
+	}
+	EOK_kim_seongsu={
+		name=EOK_kim_seongsu
+		portraits={
+			civilian={
+				large="gfx/leaders/EOK/Portrait_Kim_Seongsu.png"
+			}
+		}
+		country_leader={
+			ideology=conservatism_subtype
+			desc=EOK_kim_seongsu_desc
+			traits={ }
+			expire="1955.2.18.1"
+		}
+	}
+}

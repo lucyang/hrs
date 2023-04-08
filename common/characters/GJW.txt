@@ -13,4 +13,18 @@ characters={
 			expire="1950.1.1.1"
 		}
 	}
+	GJW_ho_hon={
+		name=GJW_ho_hon
+		portraits={
+			civilian={
+				large="gfx/leaders/GJW/Portrait_Ho_Hon.png"
+			}
+		}
+		country_leader={
+			ideology=national_communism_subtype
+			desc=GJW_ho_hon_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+	}
 }

@@ -48,12 +48,12 @@ characters={
 				large="gfx/leaders/KPA/Portrait_Shiminbu.png"
 			}
 		}
-		country_leader={
-			ideology=democratic_socialism_subtype
-			desc=KPA_anarchist_commune_desc
-			traits={ our_right_to_survive }
-			expire="1950.1.1.1"
-		}
+		#country_leader={
+		#	ideology=democratic_socialism_subtype
+		#	desc=KPA_anarchist_commune_desc
+		#	traits={ our_right_to_survive }
+		#	expire="1950.1.1.1"
+		#}
 	}
 	KPA_kim_chwajin={
 		name=KPA_kim_chwajin
@@ -65,12 +65,12 @@ characters={
 				large="gfx/leaders/KPA/Portrait_Kim_Chwajin.png"
 			}
 		}
-		country_leader={
-			ideology=anarcho_communism_subtype
-			desc=KPA_kim_chwajin_desc
-			traits={ militant_socialist }
-			expire="1958.11.10.1"
-		}
+		#country_leader={
+		#	ideology=anarcho_communism_subtype
+		#	desc=KPA_kim_chwajin_desc
+		#	traits={ militant_socialist }
+		#	expire="1958.11.10.1"
+		#}
 	}
 	KPA_yu_lim={
 		name=KPA_yu_lim
@@ -93,11 +93,11 @@ characters={
 				large="gfx/leaders/KPA/Portrait_Yu_Chamyeong.png"
 			}
 		}
-		country_leader={
-			ideology=anarcho_communism_subtype
-			desc=KPA_yu_chamyeong_desc
-			traits={ }
-			expire="1958.11.10.1"
-		}
+		#country_leader={
+		#	ideology=anarcho_communism_subtype
+		#	desc=KPA_yu_chamyeong_desc
+		#	traits={ }
+		#	expire="1958.11.10.1"
+		#}
 	}
 }

@@ -2,10 +2,8 @@
 
 oob = "empty"
 
-recruit_character = EOK_chae_sangdeok
 recruit_character = EOK_kim_seongsu
 recruit_character = EOK_i_eun
-recruit_character = EOK_cheon_deokwon
 
 set_country_flag = is_korea_nation
 

@@ -1,0 +1,17 @@
+LAO_select_unified_cosmetic_tag = {
+	hidden_effect = {
+		drop_cosmetic_tag = yes
+	}
+    if = {
+        limit = { 
+            original_tag = LAO
+        }
+        set_cosmetic_tag = LAO_LAOS
+    }
+    if = {
+        limit = { 
+            original_tag = CHP
+        }
+        set_cosmetic_tag = CHP_LAOS
+    }
+}

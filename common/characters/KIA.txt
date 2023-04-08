@@ -88,7 +88,7 @@ characters={
 		name=KIA_junta
 		portraits={
 			civilian={
-				large="gfx/leaders/KIA/Portrait_KIA_junta.png"
+				large="gfx/leaders/KIA/Portrait_Korea_Independence_Army.png"
 			}
 		}
 		country_leader={

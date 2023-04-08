@@ -1,0 +1,65 @@
+MON_select_unified_cosmetic_tag = {
+	hidden_effect = {
+		drop_cosmetic_tag = yes
+	}
+    if = {
+        limit = { 
+            original_tag = MON
+        }
+        set_cosmetic_tag = MON_MONGOLIA
+    }
+    if = {
+        limit = { 
+            original_tag = BOG
+        }
+        set_cosmetic_tag = BOG_MONGOLIA
+    }
+    if = {
+        limit = { 
+            original_tag = KVD
+        }
+        set_cosmetic_tag = KVD_MONGOLIA
+    }
+    if = {
+        limit = { 
+            original_tag = ULI
+        }
+        set_cosmetic_tag = ULI_MONGOLIA
+    }
+    if = {
+        limit = { 
+            original_tag = INN
+        }
+        set_cosmetic_tag = INN_MONGOLIA
+    }
+    if = {
+        limit = { 
+            original_tag = MEN
+        }
+        set_cosmetic_tag = MEN_MONGOLIA
+    }
+    if = {
+        limit = { 
+            original_tag = ULQ
+        }
+        set_cosmetic_tag = ULQ_MONGOLIA
+    }
+    if = {
+        limit = { 
+            original_tag = HUL
+        }
+        set_cosmetic_tag = HUL_MONGOLIA
+    }
+    if = {
+        limit = { 
+            original_tag = DAR
+        }
+        set_cosmetic_tag = DAR_MONGOLIA
+    }
+    if = {
+        limit = { 
+            original_tag = IMN
+        }
+        set_cosmetic_tag = IMN_MONGOLIA
+    }
+}

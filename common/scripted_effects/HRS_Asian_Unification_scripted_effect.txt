@@ -1,0 +1,62 @@
+ASIAN_select_unified_cosmetic_tag = {
+	hidden_effect = {
+		drop_cosmetic_tag = yes
+	}
+    if = {
+        limit = { 
+            original_tag = IMC
+        }
+        set_cosmetic_tag = IMC_ASIA
+    }
+    if = {
+        limit = { 
+            original_tag = IMJ
+        }
+        set_cosmetic_tag = IMJ_ASIA
+    }
+    if = {
+        limit = { 
+            original_tag = IMK
+        }
+        set_cosmetic_tag = IMK_ASIA
+    }
+    if = {
+        limit = { 
+            original_tag = IMV
+        }
+        set_cosmetic_tag = IMV_ASIA
+    }
+    if = {
+        limit = { 
+            original_tag = VIN
+        }
+        set_cosmetic_tag = VIN_ASIA
+    }
+    if = {
+        limit = { 
+            original_tag = EOK
+        }
+        set_cosmetic_tag = EOK_ASIA
+    }
+    if = {
+        limit = { 
+            original_tag = MAN
+        }
+        set_cosmetic_tag = MAN_ASIA
+    }
+    if = {
+        limit = { 
+            original_tag = RYU
+        }
+        set_cosmetic_tag = RYU_ASIA
+    }
+    if = {
+        limit = {
+            OR = {
+                has_government = communism
+                has_government = anarchism
+            }     
+        }
+        set_cosmetic_tag = UPR_ASIA
+    }
+}

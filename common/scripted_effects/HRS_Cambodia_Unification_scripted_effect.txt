@@ -1,0 +1,23 @@
+CAM_select_unified_cosmetic_tag = {
+	hidden_effect = {
+		drop_cosmetic_tag = yes
+	}
+    if = {
+        limit = { 
+            original_tag = CAM
+        }
+        set_cosmetic_tag = CAM_CAMBODIA
+    }
+    if = {
+        limit = { 
+            original_tag = KMK
+        }
+        set_cosmetic_tag = KMK_CAMBODIA
+    }
+    if = {
+        limit = { 
+            original_tag = KHR
+        }
+        set_cosmetic_tag = KHR_CAMBODIA
+    }
+}
