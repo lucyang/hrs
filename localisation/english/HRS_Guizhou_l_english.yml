@@ -60,6 +60,14 @@
  GZH_imperial_monarchism_desc:0 "贵州自治省"
  GZH_imperial_neutrality:0 "贵州自治省"
  GZH_imperial_neutrality_desc:0 "贵州自治省"
+
+ GZH_regional_unifier_democratic:0 "大汉联邦西南临时政府"
+ GZH_regional_unifier_democratic_DEF:0 "大汉联邦西南临时政府"
+ GZH_regional_unifier_democratic_ADJ:0 "西南临时政府"
+
+ GZH_CHINA_democratic:0 "大汉联邦民主共和国"
+ GZH_CHINA_unifier_democratic_DEF:0 "大汉联邦民主共和国"
+ GZH_CHINA_unifier_democratic_ADJ:0 "大汉联邦"
  ################
  ## CHARACTERS ##
  ################

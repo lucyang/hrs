@@ -232,14 +232,12 @@ HRS_setup_cultures = {
 	# Leichow
 	382 = { set_variable = { nationality = 26 } } #湛江
 	# Cantonese
-	330 = { set_variable = { nationality = 27 } } #韶关
 	333 = { set_variable = { nationality = 27 } } #清远
 	349 = { set_variable = { nationality = 27 } } #肇庆	
 	355 = { set_variable = { nationality = 27 } } #广州
 	361 = { set_variable = { nationality = 27 } } #佛山		
 	365 = { set_variable = { nationality = 27 } } #云浮
 	367 = { set_variable = { nationality = 27 } } #东莞
-	368 = { set_variable = { nationality = 27 } } #江门
 	370 = { set_variable = { nationality = 27 } } #香山
 	372 = { set_variable = { nationality = 27 } } #茂名
 	373 = { set_variable = { nationality = 27 } } #阳江
@@ -311,6 +309,7 @@ HRS_setup_cultures = {
 	327 = { set_variable = { nationality = 33 } } #保山
 	# Hakka but Modernized
 	325 = { set_variable = { nationality = 34 } } #龙岩
+
 	340 = { set_variable = { nationality = 34 } } #梅州
 	343 = { set_variable = { nationality = 34 } } #河源
 	353 = { set_variable = { nationality = 34 } } #惠州
@@ -721,9 +720,6 @@ HRS_setup_cultures = {
 	655 = { set_variable = { nationality = 113 } } #伊克塞湖	
 	# Tajik
 	4 = { set_variable = { nationality = 114 } } #塔吉克斯坦
-	430 = { set_variable = { nationality = 114 } } #山地巴达赫尚
-	# Pamir?
-	656 = { set_variable = { nationality = 115 } } #穆尔加布
 	# Bamar/Burmese
 	288 = { set_variable = { nationality = 115 } } #仰光
 	# Siamese/Southern Tai
@@ -806,4 +802,13 @@ HRS_setup_cultures = {
 	640 = { set_variable = { nationality = 145 } } #南暹罗
 	# Xiangxi
 	282 = { set_variable = { nationality = 146 } } #洪江
+	# Chinese Wuxi(147) for Xiangxi Unification
+	# Xong Wuxi(147) for Xiangxi Unification
+	# Taishanese/Sze Yup
+	368 = { set_variable = { nationality = 149 } } #江门/新会
+	# Shaoguanese
+	330 = { set_variable = { nationality = 150 } } #韶关
+	# Pamir
+	430 = { set_variable = { nationality = 151 } } #山地巴达赫尚
+	656 = { set_variable = { nationality = 151 } } #穆尔加布
 }

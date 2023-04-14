@@ -518,7 +518,6 @@ spriteTypes = {
 		name = "GFX_culture_126"
 		texturefile = "gfx/interface/culture/culture_dari.png"
 	}
-
 	spriteType = {
 		name = "GFX_culture_127"
 		texturefile = "gfx/interface/culture/culture_mon.png"
@@ -594,5 +593,29 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_culture_145"
 		texturefile = "gfx/interface/culture/culture_paktai.png"
+	}
+	spriteType = {
+		name = "GFX_culture_146"
+		texturefile = "gfx/interface/culture/culture_xiangxi.png"
+	}
+	spriteType = {
+		name = "GFX_culture_147"
+		texturefile = "gfx/interface/culture/culture_chinese_wuxi.png"
+	}
+	spriteType = {
+		name = "GFX_culture_148"
+		texturefile = "gfx/interface/culture/culture_xong_wuxi.png"
+	}
+	spriteType = {
+		name = "GFX_culture_149"
+		texturefile = "gfx/interface/culture/culture_taishanese.png"
+	}
+	spriteType = {
+		name = "GFX_culture_150"
+		texturefile = "gfx/interface/culture/culture_shaoguanese.png"
+	}
+	spriteType = {
+		name = "GFX_culture_151"
+		texturefile = "gfx/interface/culture/culture_pamir.png"
 	}
 }

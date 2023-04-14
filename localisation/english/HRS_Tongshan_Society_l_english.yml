@@ -43,25 +43,31 @@
  TSS_socialism_party_long:0 "中国农工民主党"
  TSS_democratic_party:0 "贵州自治党"
  TSS_democratic_party_long:0 "贵州自治党"
- TSS_neutrality_party:0 "定国军"
- TSS_neutrality_party_long:0 "定国军"
- TSS_monarchism_party:0 "同善社"
- TSS_monarchism_party_long:0 "同善社"
+ TSS_neutrality_party:0 "同善社 - 军队派"
+ TSS_neutrality_party_long:0 "同善社 - 军队派"
+ TSS_monarchism_party:0 "同善社 - 教权派"
+ TSS_monarchism_party_long:0 "同善社 - 教权派"
  TSS_fascism_party:0 "中国青年党"
  TSS_fascism_party_long:0 "中国青年党"
- TSS_imperialism_party:0 "人民共和党"
- TSS_imperialism_party_long:0 "人民共和党"
+ TSS_imperialism_party:0 "同善社 - 极端派"
+ TSS_imperialism_party_long:0 "同善社 - 极端派"
  TSS_futurism_party:0 "创造社"
  TSS_futurism_party_long:0 "创造社"
  ##################
  ## COSMETIC TAG ##
  ##################
+ TSS_regional_unifier_monarchism:0 "同善社"
+ TSS_regional_unifier_monarchism_DEF:0 "同善社"
+ TSS_regional_unifier_monarchism_ADJ:0 "同善社"
 
+ TSS_CHINA_monarchism:0 "莲花王国"
+ TSS_CHINA_unifier_monarchism_DEF:0 "莲花王国"
+ TSS_CHINA_unifier_monarchism_ADJ:0 "莲花王国"
  ################
  ## CHARACTERS ##
  ################
- TSS_tongshan_society:0 "同善社"
- TSS_tongshan_society_desc:0 "§Y同善社§!"
+ TSS_peng_tairong:0 "彭泰荣"
+ TSS_peng_tairong_desc:0 "§Y出生日期§!：§G1873年§!\n§Y出生地点§!：§G大东帝国川东道永川县§!\n\n毫无疑问，笼罩在§Y彭泰荣§!身上的谜团不可胜数，人们甚至不确定他的真名究竟是彭泰荣还是彭汝尊，他的出生地究竟是大足县还是永川县。但有一点是确定的，彭泰荣是一位极有野心的宗教领袖，他成功组建了中国最大的宗教法人组织§O同善社§!，但他绝不会满足于坐拥三百万信徒，而是要成为全中国乃至全天下的统治者。\n\n彭泰荣出身于四川省的一户农民家庭，1909年自称得道并受命于天当为教主，三年后彭泰荣创立礼门，宣称自己活佛转世、礼门第16代宗师。1917年，彭泰荣到南京注册了宗教法人，将礼门更名为§Y同善社§!，自此开始在全国广为传教。此时的中国正因经济危机陷入恐慌情绪之中，疫情更是点燃了民众对神明庇佑的渴望。\n\n同善社强调儒道释§Y三教合一§!，以无生老母和“三期末劫”的思想主题下，将其教义拔高为统摄儒释道三教的正统教义。这种融合宗教很受厌倦了传统宗教的民众欢迎，同善社、大本教、孔教会等一批新兴宗教由此迅速扩张，同善社的信徒又以西南地区最多。同善社建立了严密的组织架构，各省分会之上是统合全国的“合一社”——其上是拥有无限权力的教主彭泰荣。\n\n内战爆发后，同善社开始紧锣密鼓地策划各地的暴动，但最终成功的只有黔东事变中的贵州同善社。“救国救民先行定国军”迎请教主移驾贵州，彭泰荣极为满意。对彭泰荣而言，只有坐上龙庭才是人生的终极目标。为此彭泰荣将建立§O“莲花王国”§!摆在首位，第一个要排除的障碍，自然是嗜血的军阀、遵义的暴君袁祖铭······"
  ###########
  ## IDEAS ##
  ###########

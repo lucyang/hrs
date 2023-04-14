@@ -11,6 +11,17 @@ recruit_character = GZH_wang_jialie
 recruit_character = GZH_zhou_xicheng
 recruit_character = GZH_he_yingqin
 
+1924.1.1 = {
+	add_opinion_modifier = {
+		target = GNA
+		modifier = hostile_status
+	}
+	add_opinion_modifier = {
+		target = YUN
+		modifier = pact_against_us
+	}
+}
+
 set_technology = {
 	infantry_weapons = 1
 	support_weapons = 1

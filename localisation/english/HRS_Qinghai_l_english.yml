@@ -39,18 +39,18 @@
  QNG_communism_party_long:0 "中国社会民主农工党"
  QNG_anarchism_party:0 "西道堂"
  QNG_anarchism_party_long:0 "西道堂"
- QNG_socialism_party:0 "穆兄会 - 改革派"
- QNG_socialism_party_long:0 "穆斯林兄弟会 - 改革派"
- QNG_democratic_party:0 "穆兄会 - 共和派"
- QNG_democratic_party_long:0 "穆斯林兄弟会 - 共和派" # 赛尔敦丁·虎嵩山
+ QNG_socialism_party:0 "伊赫瓦尼派"
+ QNG_socialism_party_long:0 "伊赫瓦尼派"
+ QNG_democratic_party:0 "回教俱进会"
+ QNG_democratic_party_long:0 "中国回教俱进会" # 赛尔敦丁·虎嵩山
  QNG_neutrality_party:0 "青海巡防军"
  QNG_neutrality_party_long:0 "青海巡防军" # 马步芳
- QNG_monarchism_party:0 "穆兄会 - 复古派"
- QNG_monarchism_party_long:0 "穆斯林兄弟会 - 复古派" #马正清
- QNG_fascism_party:0 "中国青年党"
- QNG_fascism_party_long:0 "中国青年党"
- QNG_imperialism_party:0 "穆兄会 - 极端派"
- QNG_imperialism_party_long:0 "穆斯林兄弟会 - 极端派"
+ QNG_monarchism_party:0 "藏族土司"
+ QNG_monarchism_party_long:0 "藏族土司" #马正清
+ QNG_fascism_party:0 "回教联合会"
+ QNG_fascism_party_long:0 "中国回教联合会"
+ QNG_imperialism_party:0 "瓦哈比派"
+ QNG_imperialism_party_long:0 "瓦哈比派"
  QNG_futurism_party:0 "晋商财团"
  QNG_futurism_party_long:0 "晋商财团"
  ##################

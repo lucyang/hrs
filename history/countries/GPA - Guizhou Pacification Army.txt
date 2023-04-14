@@ -2,6 +2,7 @@
 
 oob = "empty"
 
+recruit_character = GPA_yuan_zuming
 recruit_character = GPA_wang_jialie
 recruit_character = GPA_zhou_xicheng
 

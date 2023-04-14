@@ -54,6 +54,8 @@ set_research_slots = 2
 set_convoys = 10
 set_stability = 0.45
 
+give_guarantee = GNA
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1923.10.30"

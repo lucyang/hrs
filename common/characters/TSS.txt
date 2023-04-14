@@ -1,15 +1,15 @@
 characters={
-	TSS_tongshan_society={
-		name=TSS_tongshan_society
+	TSS_peng_tairong={
+		name=TSS_peng_tairong
 		portraits={
 			civilian={
-				large="gfx/leaders/TSS/Portrait_Tongshan_Society.png"
+				large="gfx/leaders/TSS/Portrait_Peng_Tairong.png"
 			}
 		}
 		country_leader={
 			ideology=fundamentalism_subtype
-			desc=TSS_tongshan_society_desc
-			traits={  }
+			desc=TSS_peng_tairong_desc
+			traits={ the_masses_opium }
 			expire="1950.1.1.1"
 		}
 	}

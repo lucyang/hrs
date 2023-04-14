@@ -2,7 +2,7 @@
 
 oob = "empty"
 
-recruit_character = TSS_tongshan_society
+recruit_character = TSS_peng_tairong
 
 set_country_flag = is_china_nation
 
@@ -65,10 +65,10 @@ set_popularities = {
 	anarchism = 0
 	socialism = 0
 	democratic = 0
-	neutrality = 30
+	neutrality = 20
 	monarchism = 64
 	fascism = 0
-	imperialism = 0
+	imperialism = 10
 	futurism = 0
 }
 

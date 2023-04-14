@@ -4,8 +4,7 @@ oob = "empty"
 
 set_research_slots = 2
 
-recruit_character = GNS_xidaotang
-recruit_character = GNS_li_jingqing
+recruit_character = GNS_ma_linyi
 
 set_country_flag = is_china_nation
 
@@ -55,19 +54,19 @@ if = {
 }
 
 set_politics = {
-	ruling_party = anarchism
+	ruling_party = democratic
 	last_election = "1920.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	communism = 5
-	anarchism = 63
-	socialism = 12
-	democratic = 8
-	neutrality = 12
-	monarchism = 0
+	communism = 0
+	anarchism = 10
+	socialism = 6
+	democratic = 31
+	neutrality = 30
+	monarchism = 23
 	fascism = 0
 	imperialism = 0
 	futurism = 0
@@ -81,8 +80,8 @@ add_ideas = {
 add_ideas = {
 	country_development2
 	country_tech2
-	collective_economy
-	anarchist_commune
+	market_economy1
+	unitary_state2
 }
 
 
