@@ -1,6 +1,6 @@
 capital = 637 #新义州
 
-oob = "empty"
+#oob = "empty"
 
 recruit_character = KPA_i_hwiyeong
 recruit_character = KPA_kim_wonbong

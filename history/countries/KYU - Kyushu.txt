@@ -1,6 +1,6 @@
 capital = 187 #福冈
 
-oob = "empty"
+#oob = "empty"
 
 recruit_character = KYU_asahara_kenzo #浅原健三
 recruit_character = KYU_osugi_sakae #大杉荣

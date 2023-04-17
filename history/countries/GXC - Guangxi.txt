@@ -2,7 +2,7 @@
 
 recruit_character = GXC_lu_rongting
 
-oob = "empty"
+#oob = "empty"
 set_country_flag = is_china_nation
 
 set_technology = {

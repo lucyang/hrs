@@ -2,7 +2,7 @@
 
 recruit_character = KKG_onishi_takijiro #大西泷治郎
 
-oob = "empty"
+#oob = "empty"
 
 set_technology = {
 	infantry_weapons = 1

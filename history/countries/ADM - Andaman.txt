@@ -2,7 +2,7 @@
 
 recruit_character = ADM_mutaguchi_renya #牟田口廉也
 
-oob = "empty"
+#oob = "empty"
 
 set_country_flag = is_china_nation
 

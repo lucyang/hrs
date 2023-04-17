@@ -4,7 +4,7 @@ recruit_character = TCH_boris_annenkov #鲍里斯·阿年科夫
 recruit_character = TCH_andrei_bakich #安德烈·巴奇赤
 recruit_character = TCH_alexander_dutov #亚历山大·杜托夫
 
-oob = "empty"
+#oob = "empty"
 
 
 set_technology = {

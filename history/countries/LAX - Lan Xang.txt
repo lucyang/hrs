@@ -2,7 +2,7 @@
 
 recruit_character = LAX_william_marcus_young
 
-oob = "empty"
+#oob = "empty"
 
 
 set_technology = {

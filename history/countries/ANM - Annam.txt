@@ -1,6 +1,6 @@
 ﻿capital = 566 #西贡/嘉定
 
-oob = "empty"
+#oob = "empty"
 
 set_stability = 0.75
 set_war_support = 0.25

@@ -9,7 +9,7 @@ recruit_character = PRC_xuan_xiafu
 recruit_character = PRC_dong_zhentang
 recruit_character = PRC_bian_zhangwu
 
-oob = "empty"
+#oob = "empty"
 set_country_flag = is_china_nation
 
 set_technology = {

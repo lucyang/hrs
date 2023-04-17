@@ -4,7 +4,7 @@ recruit_character = OMT_deguchi_onisaburo
 recruit_character = OMT_left_deguchi_onisaburo
 recruit_character = OMT_right_deguchi_onisaburo
 
-oob = "empty"
+#oob = "empty"
 
 
 set_technology = {

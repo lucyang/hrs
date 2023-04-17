@@ -1,6 +1,6 @@
 capital = 45 # 叶尔羌
 
-oob = "empty"
+#oob = "empty"
 
 set_stability = 0.60
 set_war_support = 0.35

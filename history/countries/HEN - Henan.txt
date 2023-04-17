@@ -2,7 +2,7 @@
 
 recruit_character = HEN_zhang_fang
 
-oob = "empty"
+#oob = "empty"
 set_country_flag = is_china_nation
  
 set_technology = {

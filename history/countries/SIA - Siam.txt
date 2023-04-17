@@ -1,6 +1,6 @@
 capital = 384
 
-oob = "empty"
+#oob = "empty"
 
 recruit_character = SIA_rama_vi
 recruit_character = SIA_phraya_manopakorn_nititada

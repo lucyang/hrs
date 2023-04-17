@@ -3,7 +3,7 @@
 recruit_character = DLI_yan_zizhen
 recruit_character = DLI_qu_huanzhang
 
-oob = "empty"
+#oob = "empty"
 
 set_technology = {
 	infantry_weapons = 1

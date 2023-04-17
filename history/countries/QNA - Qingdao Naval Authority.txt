@@ -2,7 +2,7 @@
 
 recruit_character = QNA_shen_honglie
 
-oob = "empty"
+#oob = "empty"
 set_country_flag = is_china_nation
 
 set_technology = {

@@ -3,7 +3,7 @@
 recruit_character = LYG_liu_zhenhua
 recruit_character = LYG_liu_maoen
 
-oob = "empty"
+#oob = "empty"
 set_country_flag = is_china_nation
  
 set_technology = {

@@ -7,7 +7,7 @@ recruit_character = SCH_xiong_kewu
 recruit_character = SCH_liu_xiang
 recruit_character = SCH_liu_wenhui
 
-oob = "empty"
+#oob = "empty"
 
 set_country_flag = is_china_nation
 

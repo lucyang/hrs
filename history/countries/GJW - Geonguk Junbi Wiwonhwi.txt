@@ -1,6 +1,6 @@
 capital = 463 #忠清南道/大田
 
-oob = "empty"
+#oob = "empty"
 
 recruit_character = GJW_yo_unhyung
 recruit_character = GJW_ho_hong

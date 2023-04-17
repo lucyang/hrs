@@ -1,6 +1,6 @@
 ﻿capital = 445 # Buryatia(Verkhneudinsk)
 
-oob = "empty"
+#oob = "empty"
 
 set_research_slots = 1
 

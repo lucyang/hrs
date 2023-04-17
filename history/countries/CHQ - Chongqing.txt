@@ -5,7 +5,7 @@ recruit_character = CHQ_zou_rong
 recruit_character = CHQ_zhang_ji
 recruit_character = CHQ_dan_maoxin
 set_country_flag = is_china_nation
-oob = "empty"
+#oob = "empty"
 
 set_technology = {
 	infantry_weapons = 1

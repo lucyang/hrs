@@ -1,6 +1,6 @@
 ﻿capital = 550 # Soviet Harbor
 
-oob = "empty"
+#oob = "empty"
 
 recruit_character = DAL_vasily_blucher
 

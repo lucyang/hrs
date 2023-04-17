@@ -1,6 +1,6 @@
 capital = 237 #雅安
 
-oob = "empty"
+#oob = "empty"
 
 recruit_character = CYA_chen_xialing
 set_country_flag = is_china_nation
@@ -39,7 +39,6 @@ if = {
 		basic_cruiser_armor_scheme = 1
 		cruiser_submarines = 1
 	}
-	set_naval_oob = "SCH_1923_naval"
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -50,7 +49,6 @@ if = {
 		early_heavy_cruiser = 1
 		transport = 1
 	}
-	set_naval_oob = "SCH_1923_naval_legacy"
 }
 
 if = {

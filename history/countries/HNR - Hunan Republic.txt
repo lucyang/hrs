@@ -2,7 +2,7 @@
 
 recruit_character = HNR_tan_yankai
 
-oob = "empty"
+#oob = "empty"
 
 set_technology = {
 	infantry_weapons = 1

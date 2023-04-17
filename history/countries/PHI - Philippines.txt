@@ -1,6 +1,6 @@
 ﻿capital = 391 # Manila
 
-oob = "empty"
+#oob = "empty"
 
 
 set_technology = {

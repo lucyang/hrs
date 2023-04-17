@@ -2,7 +2,7 @@
 
 recruit_character = JIN_han_gyuseol
 
-oob = "empty"
+#oob = "empty"
 
 set_country_flag = is_china_nation
  

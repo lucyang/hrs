@@ -4,7 +4,7 @@ recruit_character = WAX_bie_tingfang
 recruit_character = WAX_peng_yuting
 recruit_character = WAX_ning_xigu
 
-oob = "empty"
+#oob = "empty"
 
 set_technology = {
 	infantry_weapons = 1

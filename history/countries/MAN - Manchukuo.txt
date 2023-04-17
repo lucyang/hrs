@@ -1,6 +1,6 @@
 ﻿capital = 36 #Changchun
 
-oob = "empty"
+#oob = "empty"
 
 set_technology = {
 	infantry_weapons = 1

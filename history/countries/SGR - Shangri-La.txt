@@ -4,7 +4,7 @@ recruit_character = SGR_nikolas_roerich
 recruit_character = SGR_helena_roerich
 recruit_character = SGR_yakiv_blyumkin
 
-oob = "empty"
+#oob = "empty"
 set_country_flag = is_china_nation
 
 set_technology = {

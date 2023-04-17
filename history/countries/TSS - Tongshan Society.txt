@@ -1,6 +1,6 @@
 ﻿capital = 305 #黔东南
 
-oob = "empty"
+#oob = "empty"
 
 recruit_character = TSS_peng_tairong
 

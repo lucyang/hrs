@@ -1,6 +1,6 @@
 capital = 41 #间岛
 
-oob = "empty"
+#oob = "empty"
 
 recruit_character = KIA_hong_beomdo
 recruit_character = KIA_kim_kyeongcheon

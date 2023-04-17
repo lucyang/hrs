@@ -3,7 +3,7 @@
 recruit_character = SHX_yan_xishan
 recruit_character = SHX_liu_tianzhang
 
-oob = "empty"
+#oob = "empty"
 set_country_flag = is_china_nation
 
 set_technology = {

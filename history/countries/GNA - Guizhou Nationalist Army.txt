@@ -1,11 +1,10 @@
 ﻿capital = 323 #黔西南/兴义
 
-oob = "empty"
+#oob = "empty"
 
 recruit_character = GNA_ren_kecheng
 recruit_character = GNA_liu_xianshi
 recruit_character = GNA_he_yingqin
-recruit_character = GNA_yuan_zuming
 recruit_character = GNA_wang_wenhua
 
 set_country_flag = is_china_nation

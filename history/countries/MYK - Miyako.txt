@@ -2,7 +2,7 @@
 
 recruit_character = MYK_gushiken_sosei #具志堅宗精
 
-oob = "empty"
+#oob = "empty"
 
 set_technology = {
 	infantry_weapons = 1

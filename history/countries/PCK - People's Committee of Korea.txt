@@ -1,6 +1,6 @@
 capital = 451 #罗先/罗津
 
-oob = "empty"
+#oob = "empty"
 
 recruit_character = PCK_i_donghwi
 recruit_character = PCK_pak_honyong

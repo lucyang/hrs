@@ -1,6 +1,6 @@
 ﻿capital = 553
 
-oob = "empty"
+#oob = "empty"
 
 recruit_character = DAL_pau_tisan
 

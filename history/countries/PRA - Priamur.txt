@@ -1,6 +1,6 @@
 capital = 513
 
-oob = "empty"
+#oob = "empty"
 
 recruit_character = PRA_mihail_diterikhs
 recruit_character = PRA_nicholas_nikolaevich

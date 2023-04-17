@@ -1,6 +1,6 @@
 ﻿capital = 571 #封土
 
-oob = "empty"
+#oob = "empty"
 
 recruit_character = TAT_deo_van_long
 

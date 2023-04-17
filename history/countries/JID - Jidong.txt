@@ -4,7 +4,7 @@ recruit_character = JID_yin_rugeng
 recruit_character = JID_chi_zongmo
 recruit_character = JID_zhang_qingyu
 
-oob = "empty"
+#oob = "empty"
 set_country_flag = is_china_nation
 
 set_technology = {

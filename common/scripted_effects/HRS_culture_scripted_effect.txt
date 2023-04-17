@@ -803,7 +803,7 @@ HRS_setup_cultures = {
 	# Xiangxi
 	282 = { set_variable = { nationality = 146 } } #洪江
 	# Chinese Wuxi(147) for Xiangxi Unification
-	# Xong Wuxi(147) for Xiangxi Unification
+	# Xong Wuxi(148) for Xiangxi Unification
 	# Taishanese/Sze Yup
 	368 = { set_variable = { nationality = 149 } } #江门/新会
 	# Shaoguanese

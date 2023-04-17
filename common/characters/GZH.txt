@@ -21,7 +21,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=provisional_government_subtype
+			ideology=hunan_constitutionalism_subtype
 			desc=GZH_zhang_bailin_desc
 			traits={ liberal_democratic_paragon }
 			expire="1939.2.17.1"

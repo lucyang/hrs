@@ -9,7 +9,7 @@ recruit_character = HMG_peng_dehuai
 recruit_character = HMG_cheng_qian
 recruit_character = HMG_huang_gonglue
 
-oob = "empty"
+#oob = "empty"
 set_country_flag = is_china_nation
 
 set_technology = {

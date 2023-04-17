@@ -3,7 +3,7 @@
 recruit_character = XXI_chen_quzhen
 recruit_character = XXI_shen_congwen
 
-oob = "empty"
+#oob = "empty"
 set_country_flag = is_china_nation
 
 set_technology = {

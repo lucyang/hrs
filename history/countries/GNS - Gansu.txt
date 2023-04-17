@@ -1,6 +1,6 @@
 ﻿capital = 128 #兰州
 
-oob = "empty"
+#oob = "empty"
 
 set_research_slots = 2
 

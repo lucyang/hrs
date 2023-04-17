@@ -1,6 +1,6 @@
 ﻿capital = 465 #光州/全罗南道
 
-oob = "empty"
+#oob = "empty"
 
 recruit_character = EOK_kim_seongsu
 recruit_character = EOK_i_eun

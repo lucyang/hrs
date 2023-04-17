@@ -6,7 +6,7 @@ recruit_character = TGG_lin_xiantang #林献堂
 recruit_character = TGG_cai_peihuo #蔡培火
 recruit_character = TGG_gu_xianrong #辜显荣
 
-oob = "empty"
+#oob = "empty"
 set_country_flag = is_china_nation
 
 set_technology = {

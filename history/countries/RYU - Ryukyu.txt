@@ -7,7 +7,7 @@ recruit_character = RYU_shikiya_koshin #志喜屋孝信
 recruit_character = RYU_ogimi_chotoku #大宜味朝徳
 recruit_character = RYU_nakasone_genwa #仲宗根源和
 
-oob = "empty"
+#oob = "empty"
 
 set_technology = {
 	infantry_weapons = 1

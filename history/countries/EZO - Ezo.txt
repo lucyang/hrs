@@ -13,7 +13,7 @@ recruit_character = EZO_arisue_seizou #有未精三
 set_country_flag = is_japan_nation
 set_country_flag = is_hokkaido_nation
 
-oob = "empty"
+#oob = "empty"
 
 set_technology = {
 	infantry_weapons = 1

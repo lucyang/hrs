@@ -1,6 +1,6 @@
 capital = 458 #元山
 
-oob = "empty"
+#oob = "empty"
 
 recruit_character = CSK_kim_gyeongsik
 

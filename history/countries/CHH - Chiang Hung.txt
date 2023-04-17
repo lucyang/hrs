@@ -2,7 +2,7 @@
 
 recruit_character = CHH_dao_dongliang
 
-oob = "empty"
+#oob = "empty"
 
 set_country_flag = is_dai_nation
 

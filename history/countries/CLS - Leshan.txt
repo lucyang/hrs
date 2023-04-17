@@ -1,6 +1,6 @@
 capital = 261 #乐山
 
-oob = "empty"
+#oob = "empty"
 
 recruit_character = CLS_guo_moruo
 recruit_character = CLS_xian_xinghai
@@ -41,7 +41,6 @@ if = {
 		basic_cruiser_armor_scheme = 1
 		cruiser_submarines = 1
 	}
-	set_naval_oob = "SCH_1923_naval"
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -52,7 +51,6 @@ if = {
 		early_heavy_cruiser = 1
 		transport = 1
 	}
-	set_naval_oob = "SCH_1923_naval_legacy"
 }
 
 if = {

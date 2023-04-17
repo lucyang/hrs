@@ -1,6 +1,6 @@
 ﻿capital = 429 #Oyrot/Gorno-Altaysk
 
-oob = "empty"
+#oob = "empty"
 
 set_research_slots = 1
 

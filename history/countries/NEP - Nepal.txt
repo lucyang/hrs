@@ -2,7 +2,7 @@
 
 recruit_character = NEP_tribhuvan
 
-oob = "empty"
+#oob = "empty"
 
 set_technology = {
 	infantry_weapons = 1

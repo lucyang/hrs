@@ -1,6 +1,6 @@
 capital = 32 # 吉木萨尔
 
-oob = "empty"
+#oob = "empty"
 
 set_stability = 0.35
 set_war_support = 0.45

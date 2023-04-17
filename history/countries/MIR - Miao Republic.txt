@@ -2,7 +2,7 @@
 
 recruit_character = MIR_yang_shaobin
 
-oob = "empty"
+#oob = "empty"
 set_country_flag = is_miao_nation
 
 set_technology = {

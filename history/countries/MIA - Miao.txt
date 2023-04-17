@@ -2,7 +2,7 @@
 
 recruit_character = MIA_yacob_yang
 
-oob = "empty"
+#oob = "empty"
 set_country_flag = is_miao_nation
 
 set_technology = {

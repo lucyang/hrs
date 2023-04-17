@@ -4,7 +4,7 @@ recruit_character = ASN_losing_watan
 
 set_country_flag = is_taiwan_nation
 
-oob = "empty"
+#oob = "empty"
 
 set_technology = {
 	infantry_weapons = 1

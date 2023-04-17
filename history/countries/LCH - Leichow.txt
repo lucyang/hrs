@@ -1,6 +1,6 @@
 ﻿capital = 382 #湛江
 
-oob = "empty"
+#oob = "empty"
 set_country_flag = is_china_nation
 
 recruit_character = LCH_yang_shuzhuang

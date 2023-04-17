@@ -3,7 +3,7 @@
 recruit_character = LNG_feng_yuxiang
 recruit_character = LNG_bekku_hideo
 
-oob = "empty"
+#oob = "empty"
 set_country_flag = is_china_nation
 
 set_technology = {

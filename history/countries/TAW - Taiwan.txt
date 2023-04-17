@@ -4,7 +4,7 @@ recruit_character = TAW_li_wanju
 recruit_character = TAW_qiu_niantai
 recruit_character = TAW_chen_yi
 
-oob = "empty"
+#oob = "empty"
 set_country_flag = is_china_nation
 
 set_technology = {

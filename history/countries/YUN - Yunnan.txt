@@ -12,7 +12,7 @@ recruit_character = YUN_lv_yizhi
 recruit_character = YUN_zhang_bojun
 recruit_character = YUN_yunnan_government
 
-oob = "empty"
+#oob = "empty"
 set_country_flag = is_china_nation
 
 set_technology = {

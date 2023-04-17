@@ -2,7 +2,7 @@
 
 recruit_character = SKL_bronislaw_pilsudski
 
-oob = "empty"
+#oob = "empty"
 
 set_technology = {
 	infantry_weapons = 1

@@ -1,6 +1,6 @@
 ﻿capital = 401 # Sri Lanka(Colony)
 
-oob = "empty"
+#oob = "empty"
 
 set_research_slots = 4
 

@@ -2,7 +2,7 @@
 
 recruit_character = CHR_yu_pinqing
 set_country_flag = is_china_nation
-oob = "empty"
+#oob = "empty"
 
 set_technology = {
 	infantry_weapons = 1

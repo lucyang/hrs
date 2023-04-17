@@ -1,6 +1,6 @@
 ﻿capital = 531 #西原
 
-oob = "empty"
+#oob = "empty"
 
 recruit_character = DEG_fulro
 recruit_character = DEG_red_fulro

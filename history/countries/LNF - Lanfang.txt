@@ -1,6 +1,6 @@
 ﻿capital = 405 #山口洋
 
-oob = "empty"
+#oob = "empty"
 
 set_stability = 0.45
 set_war_support = 0.65

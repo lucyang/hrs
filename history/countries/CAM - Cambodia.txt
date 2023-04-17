@@ -7,7 +7,7 @@ recruit_character = CAM_sisowath_monireth
 recruit_character = CAM_penn_nouth
 recruit_character = IND_indochina_cambodia
 
-oob = "empty"
+#oob = "empty"
 
 set_technology = {
 	infantry_weapons = 1

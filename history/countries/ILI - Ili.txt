@@ -2,7 +2,7 @@
 
 recruit_character = ILI_gheni_batur #艾尼·巴图尔
 
-oob = "empty"
+#oob = "empty"
 
 
 set_technology = {

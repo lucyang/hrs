@@ -4,7 +4,7 @@ recruit_character = QUF_zhang_xun
 recruit_character = QUF_chen_huanzhang
 recruit_character = QUF_kong_decheng
 
-oob = "empty"
+#oob = "empty"
 
 set_country_flag = is_china_nation
  

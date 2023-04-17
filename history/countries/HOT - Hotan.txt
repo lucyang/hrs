@@ -1,6 +1,6 @@
 capital = 87 # Hotan
 
-oob = "empty"
+#oob = "empty"
 
 set_stability = 0.60
 set_war_support = 0.35

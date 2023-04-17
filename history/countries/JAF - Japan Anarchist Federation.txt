@@ -1,6 +1,6 @@
 capital = 613 #静冈
 
-oob = "empty"
+#oob = "empty"
 
 recruit_character = JAF_iwasa_sakutaro #岩佐作太郎
 recruit_character = JAF_ishikawa_sanshiro #石川三四郎

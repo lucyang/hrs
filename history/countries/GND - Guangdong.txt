@@ -1,6 +1,6 @@
 ﻿capital = 355 #广州
 
-oob = "empty"
+#oob = "empty"
 set_country_flag = is_china_nation
 
 recruit_character = GND_kang_youwei

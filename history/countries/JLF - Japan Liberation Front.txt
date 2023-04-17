@@ -9,7 +9,7 @@ recruit_character = JLF_hashimoto_kingoro
 recruit_character = JLF_kodoha
 recruit_character = JLF_better_kodoha
 
-oob = "empty"
+#oob = "empty"
 
 
 set_technology = {

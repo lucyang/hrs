@@ -1,6 +1,6 @@
 ﻿capital = 116 #西宁
 
-oob = "empty"
+#oob = "empty"
 
 set_research_slots = 2
 

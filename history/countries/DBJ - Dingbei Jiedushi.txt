@@ -1,6 +1,6 @@
 ﻿capital = 11 # Ulaanbataar
 
-oob = "empty"
+#oob = "empty"
 
 recruit_character = DBJ_xu_shuzheng
 

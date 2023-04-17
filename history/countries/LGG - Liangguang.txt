@@ -1,6 +1,6 @@
 ﻿capital = 371 #钦州
 
-oob = "empty"
+#oob = "empty"
 
 recruit_character = LGG_ou_jujia
 recruit_character = LGG_feng_ziyou

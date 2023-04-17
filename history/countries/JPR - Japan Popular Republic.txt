@@ -7,7 +7,7 @@ recruit_character = JPR_noro_eitaro #野吕荣太郎
 recruit_character = JPR_fukumoto_kazuo #福本和夫
 recruit_character = JPR_akamatsu_katsumaro #赤松克麿
 
-oob = "empty"
+#oob = "empty"
 
 
 set_technology = {

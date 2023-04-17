@@ -6,7 +6,7 @@ recruit_character = BCH_deng_xiaoping
 recruit_character = BCH_wang_heshun
 recruit_character = BCH_lei_jingtian
 
-oob = "empty"
+#oob = "empty"
 
 set_country_flag = is_china_nation
 

@@ -10,7 +10,7 @@ recruit_character = FRM_xie_xuehong
 
 set_country_flag = is_taiwan_nation
 
-oob = "empty"
+#oob = "empty"
 
 set_technology = {
 	infantry_weapons = 1

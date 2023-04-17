@@ -10,7 +10,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=warlordism_subtype
+			ideology=military_government_subtype
 			desc=GPA_yuan_zuming_desc
 			traits={ }
 			expire="1947.1.30.1"

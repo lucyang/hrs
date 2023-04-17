@@ -8,7 +8,7 @@ recruit_character = CHB_asanuma_inejiro #浅沼稻次郎
 recruit_character = CHB_asohi_sashi #麻生久
 recruit_character = CHB_miwa_jusō #三轮寿壮
 
-oob = "empty"
+#oob = "empty"
 
 set_technology = {
 	infantry_weapons = 1

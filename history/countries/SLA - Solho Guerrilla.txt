@@ -1,6 +1,6 @@
 capital = 552
 
-oob = "empty"
+#oob = "empty"
 
 recruit_character = DAL_alexandra_kim
 

@@ -5,7 +5,7 @@ recruit_character = NSB_lu_han
 recruit_character = NSB_chu_tunan
 recruit_character = NSB_qumu_zangyao
 
-oob = "empty"
+#oob = "empty"
 
 set_country_flag = is_yi_nation
 

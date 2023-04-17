@@ -1,6 +1,6 @@
 ﻿capital = 589 #Turkestan
 
-oob = "empty"
+#oob = "empty"
 
 set_research_slots = 1
 

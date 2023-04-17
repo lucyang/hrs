@@ -1,6 +1,6 @@
 ﻿capital = 226 #上海
 
-oob = "empty"
+#oob = "empty"
 
 set_country_flag = is_china_nation
 
@@ -51,7 +51,6 @@ if = {
 			has_dlc = "No Step Back"
 		}
 	}
-	set_oob = "empty"
 	set_technology = {
 		gwtank = 1
 	}
@@ -60,7 +59,6 @@ if = {
 	limit = {
 		has_dlc = "No Step Back"	
 	}
-	set_oob = "empty"
 	set_technology = {
 		gwtank_chassis = 1
 	}
@@ -81,7 +79,6 @@ if = {
 		early_ship_hull_heavy = 1
 		mtg_transport = 1
 		coastal_defense_ships = 1
-		#basic_secondary_battery = 1
 		basic_depth_charges = 1
 		basic_cruiser_armor_scheme = 1
 		cruiser_submarines = 1

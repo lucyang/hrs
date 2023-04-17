@@ -1,6 +1,6 @@
 capital = 461 #江原道
 
-oob = "empty"
+#oob = "empty"
 
 recruit_character = GMH_pak_chungyang
 recruit_character = GMH_min_wonsik

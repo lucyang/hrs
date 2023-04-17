@@ -1,6 +1,6 @@
 ﻿capital = 452 # Haixenwai
 
-oob = "empty"
+#oob = "empty"
 
 recruit_character = ZDJ_ueda_kenkichi
 recruit_character = ZDJ_toyama_mitsuru

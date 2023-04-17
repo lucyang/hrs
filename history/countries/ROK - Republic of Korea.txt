@@ -1,6 +1,6 @@
 ﻿capital = 632 #京城/首尔
 
-oob = "empty"
+#oob = "empty"
 
 recruit_character = ROK_kim_koo
 recruit_character = ROK_an_changho

@@ -4,7 +4,7 @@ recruit_character = PDS_shi_taixu
 recruit_character = PDS_wu_peifu
 recruit_character = PDS_tang_shengzhi
 
-oob = "empty"
+#oob = "empty"
 
 set_country_flag = is_china_nation
  

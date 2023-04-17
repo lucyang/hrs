@@ -2,7 +2,7 @@
 
 recruit_character = CBS_shi_huaizhen
 
-oob = "empty"
+#oob = "empty"
 
 set_country_flag = is_china_nation
 

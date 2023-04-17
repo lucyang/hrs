@@ -1,6 +1,6 @@
 ﻿capital = 596 #京都
 
-oob = "empty"
+#oob = "empty"
 
 recruit_character = IMJ_i_wanyong
 
@@ -44,7 +44,6 @@ if = {
 			has_dlc = "No Step Back"
 		}
 	}
-	set_oob = "empty"
 	set_technology = {
 		gwtank = 1
 	}
@@ -53,7 +52,6 @@ if = {
 	limit = {
 		has_dlc = "No Step Back"	
 	}
-	set_oob = "empty"
 	set_technology = {
 		gwtank_chassis = 1
 	}

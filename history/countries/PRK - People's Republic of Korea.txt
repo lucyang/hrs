@@ -1,6 +1,6 @@
 capital = 460 #开城
 
-oob = "empty"
+#oob = "empty"
 
 recruit_character = PRK_cho_mansik
 recruit_character = PRK_cho_bongam

@@ -5,7 +5,7 @@ recruit_character = MAO_left_mao_zedong
 recruit_character = MAO_right_mao_zedong
 recruit_character = MAO_liu_shaoqi
 
-oob = "empty"
+#oob = "empty"
 set_country_flag = is_china_nation
 
 set_technology = {

@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=national_conservatism_subtype
+			ideology=conservatism_subtype
 			desc=GNA_ren_kecheng_desc
 			traits={ liberal_democratic_paragon }
 			expire="1946.3.16.1"

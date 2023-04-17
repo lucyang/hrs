@@ -5,7 +5,7 @@ recruit_character = IMN_sayinbayar #赛音巴雅尔/包悦卿
 recruit_character = IMN_baatarchin #巴吐尔罄/李裕智
 recruit_character = IMN_ulanhu #乌兰夫
 
-oob = "empty"
+#oob = "empty"
 set_country_flag = is_china_nation
 set_country_flag = is_mongolia_nation
 

@@ -2,7 +2,7 @@
 
 recruit_character = MMA_fang_kesheng
 
-oob = "empty"
+#oob = "empty"
 set_country_flag = is_dai_nation
 
 set_technology = {

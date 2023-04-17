@@ -1,6 +1,6 @@
 capital = 52 #平壤
 
-oob = "empty"
+#oob = "empty"
 
 recruit_character = KOY_kim_hyeongjik
 recruit_character = KOY_kim_maria

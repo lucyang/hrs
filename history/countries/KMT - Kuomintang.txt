@@ -1,6 +1,6 @@
 ﻿capital = 353 #惠州
 
-oob = "empty"
+#oob = "empty"
 
 recruit_character = KMT_liao_zhongkai
 recruit_character = KMT_zhu_zhixin

@@ -1,6 +1,6 @@
 ﻿capital = 220 #日喀则
 
-oob = "empty"
+#oob = "empty"
 
 
 set_technology = {

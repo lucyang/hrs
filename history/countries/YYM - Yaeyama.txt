@@ -2,7 +2,7 @@
 
 recruit_character = YYM_miyara_chosho #宮良長詳
 
-oob = "empty"
+#oob = "empty"
 
 set_technology = {
 	infantry_weapons = 1

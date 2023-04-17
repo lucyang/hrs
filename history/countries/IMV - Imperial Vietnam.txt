@@ -1,6 +1,6 @@
 ﻿capital = 363 #河内
 
-oob = "empty"
+#oob = "empty"
 
 set_stability = 0.15
 set_war_support = 0.75

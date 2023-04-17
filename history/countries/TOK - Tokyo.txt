@@ -5,7 +5,7 @@ recruit_character = TOK_bak_yeol #朴烈
 recruit_character = TOK_i_bongchang #李奉昌
 recruit_character = TOK_an_junggeun #安重根
 
-oob = "empty"
+#oob = "empty"
 
 
 set_technology = {

@@ -1,6 +1,6 @@
 ﻿capital = 234 # Lhasa
 
-oob = "empty"
+#oob = "empty"
 
 
 set_technology = {
