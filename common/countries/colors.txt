@@ -146,6 +146,10 @@ GNS = {
 	color = rgb { 205 85 85 }
 	color_ui = rgb { 205 85 85 }
 }
+TSH = {
+	color = rgb { 122 179 97 }
+	color_ui = rgb { 122 179 97 }
+}
 NIX = {
 	color = rgb { 192 64 0 }
 	color_ui = rgb { 192 64 0 }

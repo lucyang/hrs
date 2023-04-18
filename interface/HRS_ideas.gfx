@@ -61,6 +61,10 @@ spriteTypes = {
 		name = "GFX_idea_generic_primitive_state"
 		texturefile = "gfx/interface/ideas/laws/primitive_state.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_generic_contract_society"
+		texturefile = "gfx/interface/ideas/laws/contract_society.dds"
+	}
 	### ECONOMIC SYSTEM ###
 	spriteType = {
 		name = "GFX_idea_generic_market_economy"
@@ -101,6 +105,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_generic_collective_economy"
 		texturefile = "gfx/interface/ideas/laws/collective_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_bandit_economy"
+		texturefile = "gfx/interface/ideas/laws/bandit_economy.dds"
 	}
 	### MANPOWER ###
 	spriteType = {

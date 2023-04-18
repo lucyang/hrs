@@ -1,14 +1,12 @@
-﻿capital = 116 #西宁
+﻿capital = 159 #天水
 
 #oob = "empty"
 
 set_research_slots = 2
 
-recruit_character = QNG_ma_bufang
-recruit_character = QNG_ma_wanfu
-recruit_character = QNG_ma_buqing
+recruit_character = TSH_huang_yue
 
-set_country_flag = is_hui_nation
+set_country_flag = is_china_nation
 
 set_technology = {
 	infantry_weapons = 1
@@ -56,7 +54,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = imperialism
+	ruling_party = neutrality
 	last_election = "1920.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -64,13 +62,13 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	anarchism = 25
-	socialism = 0
-	democratic = 17
-	neutrality = 10
-	monarchism = 7
-	fascism = 0
-	imperialism = 41
+	anarchism = 0
+	socialism = 9
+	democratic = 20
+	neutrality = 61
+	monarchism = 0
+	fascism = 10
+	imperialism = 0
 	futurism = 0
 }
 
@@ -80,9 +78,9 @@ add_ideas = {
 	low_economic_mobilisation
 }
 add_ideas = {
-	country_development1
+	country_development2
 	country_tech2
-	corporatist_economy
+	market_economy1
 	unitary_state
 }
 

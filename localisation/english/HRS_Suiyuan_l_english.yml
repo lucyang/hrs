@@ -45,12 +45,12 @@
  SYN_democratic_party_long:0 "中国革命党"
  SYN_neutrality_party:0 "大汉义军 - 变节派"
  SYN_neutrality_party_long:0 "大汉义军 - 变节派" #卢占魁
- SYN_monarchism_party:0 "西北边防军"
- SYN_monarchism_party_long:0 "西北边防军"
- SYN_fascism_party:0 "大汉义军 - 皇汉派"
- SYN_fascism_party_long:0 "大汉义军 - 皇汉派" #孙殿英
- SYN_imperialism_party:0 "大汉义军 - 泛亚派"
- SYN_imperialism_party_long:0 "大汉义军 - 泛亚派" #小日向白朗
+ SYN_monarchism_party:0 "和朝忠诚派"
+ SYN_monarchism_party_long:0 "和朝忠诚派"
+ SYN_fascism_party:0 "中国新民会"
+ SYN_fascism_party_long:0 "中国新民会"
+ SYN_imperialism_party:0 "大汉义军 - 皇汉派"
+ SYN_imperialism_party_long:0 "大汉义军 - 皇汉派" #孙殿英→小日向白朗
  SYN_futurism_party:0 "晋商财团"
  SYN_futurism_party_long:0 "晋商财团"
  ##################
@@ -64,6 +64,7 @@
  SYN_kohinata_hakuro_desc:0 "§Y出生日期§!：§G1900年1月31日§!\n§Y出生地点§!：§G大东帝国东海道新潟县§!\n\n§Y尚旭东§!（和名§Y小日向白朗§!）"
  SYN_lu_zhankui:0 "卢占魁"
  SYN_sun_dianying:0 "孙殿英"
+ SYN_sun_dianying_desc:0 "§Y出生日期§!：§G1889年§!\n§Y出生地点§!：§G大东帝国汝阳道永城县§"
  #############
  # Decisions #
  #############

@@ -32,7 +32,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=religious_socialism_subtype
+			ideology=islamic_socialism_subtype
 			desc=QNG_ma_bufang_desc
 			traits={ respected_haji social_reformer }
 			expire="1934.1.1.1"
@@ -41,9 +41,18 @@ characters={
 	QNG_ma_buqing={
 		name=QNG_ma_buqing
 		portraits={
+			civilian={
+				large="gfx/leaders/QNG/Portrait_Ma_Buqing.png"
+			}
 			army={
 				large="gfx/leaders/QNG/Portrait_Ma_Buqing.png"
 			}
+		}
+		country_leader={
+			ideology=military_government_subtype
+			desc=QNG_ma_buqing_desc
+			traits={ }
+			expire="1975.7.31.1"
 		}
 		corps_commander={
 			traits={ career_officer infantry_officer }

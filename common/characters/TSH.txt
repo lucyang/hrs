@@ -1,0 +1,16 @@
+characters={
+	TSH_huang_yue={
+		name=TSH_huang_yue
+		portraits={
+			civilian={
+				large="gfx/leaders/TSH/Portrait_Huang_Yue.png"
+			}
+		}
+		country_leader={
+			ideology=interim_government_subtype
+			desc=TSH_huang_yue_desc
+			traits={ incognito }
+			expire="1943.11.1.1"
+		}
+	}
+}

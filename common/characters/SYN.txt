@@ -1,4 +1,29 @@
 characters={
+	SYN_sun_dianying={
+		name=SYN_sun_dianying
+		portraits={
+			civilian={
+				large="gfx/leaders/SYN/Portrait_Sun_Dianying.png"
+			}
+			army={
+				large="gfx/leaders/SYN/Portrait_Sun_Dianying.png"
+			}
+		}
+		country_leader={
+			ideology=ultranationalism_subtype
+			desc=SYN_sun_dianying_desc
+			traits={ political_chameleon }
+			expire="1950.1.1.1"
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
 	SYN_kohinata_hakuro={
 		name=SYN_kohinata_hakuro
 		portraits={
@@ -12,7 +37,7 @@ characters={
 		country_leader={
 			ideology=pan_asianism_subtype
 			desc=SYN_kohinata_hakuro_desc
-			traits={ hedonist political_chameleon }
+			traits={ hedonist }
 			expire="1982.1.5.1"
 		}
 		corps_commander={
@@ -37,7 +62,7 @@ characters={
 		country_leader={
 			ideology=warlordism_subtype
 			desc=SYN_lu_zhankui_desc
-			traits={ hedonist political_chameleon }
+			traits={ hedonist }
 			expire="1950.1.1.1"
 		}
 		corps_commander={
@@ -46,31 +71,6 @@ characters={
 			attack_skill=1
 			defense_skill=1
 			planning_skill=1
-			logistics_skill=2
-		}
-	}
-	SYN_sun_dianying={
-		name=SYN_sun_dianying
-		portraits={
-			civilian={
-				large="gfx/leaders/SYN/Portrait_Sun_Dianying.png"
-			}
-			army={
-				large="gfx/leaders/SYN/Portrait_Sun_Dianying.png"
-			}
-		}
-		#country_leader={
-		#	ideology=warlordism_subtype
-		#	desc=SYN_lu_zhankui_desc
-		#	traits={ hedonist political_chameleon }
-		#	expire="1950.1.1.1"
-		#}
-		corps_commander={
-			traits={ career_officer infantry_officer }
-			skill=2
-			attack_skill=1
-			defense_skill=2
-			planning_skill=2
 			logistics_skill=2
 		}
 	}

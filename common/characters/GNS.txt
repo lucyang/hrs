@@ -13,18 +13,18 @@ characters={
 			expire="1950.1.1.1"
 		}
 	}
-	GNS_li_jingqing={
-		name=GNS_li_jingqing
+	GNS_ma_linyi={
+		name=GNS_ma_linyi
 		portraits={
 			civilian={
-				large="gfx/leaders/GNS/Portrait_Li_Jingqing.png"
+				large="gfx/leaders/GNS/Portrait_Ma_Linyi.png"
 			}
 		}
 		country_leader={
-			ideology=national_conservatism_subtype
-			desc=GNS_li_jingqing_desc
-			traits={ }
-			expire="1950.1.1.1"
+			ideology=liberalism_subtype
+			desc=GNS_ma_linyi_desc
+			traits={ education_reformer }
+			expire="1938.9.17.1"
 		}
 	}
 }
