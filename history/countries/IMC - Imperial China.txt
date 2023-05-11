@@ -5,13 +5,12 @@ set_country_flag = is_china_nation
 
 recruit_character = IMC_emperor_taisho
 recruit_character = IMC_sun_zhongshan
-recruit_character = IMC_hu_shi
 recruit_character = IMC_zhang_junmai
-recruit_character = IMC_zhang_dongsun
 recruit_character = IMC_jiang_kanghu
 recruit_character = IMC_zhang_taiyan
 recruit_character = IMC_liang_qichao
 recruit_character = IMC_kang_youwei
+recruit_character = IMC_zheng_xiaoxu
 
 set_technology = {
 	#infantry
@@ -47,7 +46,6 @@ set_technology = {
 	early_bomber = 1
 	
 }
-
 if = {
 	limit = {
 		NOT = {
@@ -352,12 +350,12 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	anarchism = 7
-	socialism = 14
+	anarchism = 0
+	socialism = 18
 	democratic = 20
 	neutrality = 31
 	monarchism = 13
-	fascism = 9
+	fascism = 12
 	imperialism = 6
 	futurism = 0
 }

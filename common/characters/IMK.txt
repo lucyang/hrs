@@ -1,16 +1,30 @@
 characters={
-	IMK_yuan_keding={
-		name=IMK_yuan_keding
+	IMK_liang_shiyi={
+		name=IMK_liang_shiyi
 		portraits={
 			civilian={
-				large="gfx/leaders/IMK/Portrait_Yuan_Keding.png"
+				large="gfx/leaders/IMK/Portrait_Liang_Shiyi.png"
 			}
 		}
 		country_leader={
-			ideology=competitive_authoritarianism_subtype
-			desc=IMK_yuan_keding_desc
-			traits={ playboy elected_monarchist_puppet }
-			expire="1955.2.26.1"
+			ideology=corporacracy_subtype
+			desc=IMK_liang_shiyi_desc
+			traits={ technocrat emergency_powers }
+			expire="1933.4.9.1"
 		}
+	}
+	IMK_cao_rulin={
+		name=IMK_cao_rulin
+		portraits={
+			civilian={
+				large="gfx/leaders/IMK/Portrait_Cao_Rulin.png"
+			}
+		}
+		#country_leader={
+		#	ideology=competitive_authoritarianism_subtype
+		#	desc=IMK_cao_rulin_desc
+		#	traits={ silent_workhorse eager_collaborator }
+		#	expire="1966.8.4.1"
+		#}
 	}
 }

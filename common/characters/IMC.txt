@@ -55,20 +55,6 @@ characters={
 			expire="1927.3.31.1"
 		}
 	}
-	IMC_hu_shi={
-		name=IMC_hu_shi
-		portraits={
-			civilian={
-				large="gfx/leaders/IMC/Portrait_Hu_Shi.dds"
-			}
-		}
-		#country_leader={
-		#	ideology=liberalism_subtype
-		#	desc=IMC_hu_shi_desc
-		#	traits={  }
-		#	expire="1962.2.14.1"
-		#}
-	}
 	IMC_liang_qichao={
 		name=IMC_liang_qichao
 		portraits={
@@ -77,7 +63,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=national_liberalism_subtype
+			ideology=conservatism_subtype
 			desc=IMC_liang_qichao_desc
 			traits={  }
 			expire="1929.1.19.1"
@@ -91,7 +77,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=social_democratic_subtype
+			ideology=state_socialism_subtype
 			desc=IMC_jiang_kanghu_desc
 			traits={  }
 			expire="1954.12.7.1"
@@ -111,24 +97,24 @@ characters={
 		#	expire="1969.2.13.1"
 		#}
 	}
-	IMC_zhang_dongsun={
-		name=IMC_zhang_dongsun
+	IMC_zheng_xiaoxu={
+		name=IMC_zheng_xiaoxu
 		portraits={
 			civilian={
-				large="gfx/leaders/IMC/Portrait_Zhang_Dongsun.dds"
+				large="gfx/leaders/IMC/Portrait_Zheng_Xiaoxu.png"
 			}
 		}
-		#country_leader={
-		#	ideology=guild_socialism_subtype
-		#	desc=IMC_zhang_dongsun_desc
-		#	traits={  }
-		#	expire="1973.6.2.1"
-		#}
+		country_leader={
+			ideology=fascism_subtype
+			desc=IMC_zheng_xiaoxu_desc
+			traits={ SWI_fascist_propagandist  }
+			expire="1938.3.28.1"
+		}
 	}
 	IMC_li_houji={
 		name=IMC_li_houji
 		portraits={
-			civilian={
+			army={
 				large="gfx/leaders/IMC/Portrait_Li_Houji.png"
 			}
 		}

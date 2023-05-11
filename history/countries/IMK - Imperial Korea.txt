@@ -6,7 +6,8 @@
 
 #oob = "empty"
 
-recruit_character = IMK_yuan_keding
+recruit_character = IMK_liang_shiyi
+recruit_character = IMK_cao_rulin
 
 set_global_flag = Tsushima_Tunnel_West_Unfinished
 
