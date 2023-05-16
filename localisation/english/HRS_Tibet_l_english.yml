@@ -41,18 +41,18 @@
  TIB_anarchism_party_long:0 "西藏共产党"
  TIB_socialism_party:0 "西藏改革党"
  TIB_socialism_party_long:0 "西藏改革党" # 邦达饶噶
- TIB_democratic_party:0 "噶厦 - 激进派"
- TIB_democratic_party_long:0 "噶厦 - 激进派" # 龙夏·多吉次杰/擦绒·达桑占堆/强俄巴·仁增多吉
- TIB_neutrality_party:0 "噶厦 - 改革派"
- TIB_neutrality_party_long:0 "噶厦 - 改革派" # 达赖喇嘛
- TIB_monarchism_party:0 "噶厦 - 守旧派"
- TIB_monarchism_party_long:0 "噶厦 - 守旧派" # 班禅喇嘛
- TIB_fascism_party:0 "中国领事馆"
- TIB_fascism_party_long:0 "中国领事馆" # 张荫棠
+ TIB_democratic_party:0 "噶厦 - 改革派"
+ TIB_democratic_party_long:0 "噶厦 - 改革派" # 龙夏·多吉次杰/擦绒·达桑占堆/强俄巴·仁增多吉
+ TIB_neutrality_party:0 "噶厦 - 保守派"
+ TIB_neutrality_party_long:0 "噶厦 - 保守派" # 达赖喇嘛
+ TIB_monarchism_party:0 "噶厦 - 传统派"
+ TIB_monarchism_party_long:0 "噶厦 - 传统派"
+ TIB_fascism_party:0 "噶厦 - 亲华派"
+ TIB_fascism_party_long:0 "噶厦 - 亲华派"
  TIB_imperialism_party:0 "卫教志愿军"
  TIB_imperialism_party_long:0 "卫教志愿军"
- TIB_futurism_party:0 "人民意志党"
- TIB_futurism_party_long:0 "人民意志党" # Nicholas Roerich
+ TIB_futurism_party:0 "噶厦 - 亲俄派"
+ TIB_futurism_party_long:0 "噶厦 - 亲俄派"
 
  TIB_reform_party:0 "吉却贡吞"
  TIB_reform_party_long:0 "吉却贡吞" # 龙夏·多吉次杰

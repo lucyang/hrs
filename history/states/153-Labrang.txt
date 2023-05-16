@@ -8,9 +8,10 @@ state={
 		owner = IMC
 		add_core_of = IMC
 		1924.1.1 = {
-			owner = SXI
-			add_core_of = SXI
+			owner = LBR
+			add_core_of = LBR
 			remove_core_of = IMC
+			add_claim_by = QNG
 		}
 		victory_points = { 2586 1 } #拉卜楞/夏河
 		buildings = {

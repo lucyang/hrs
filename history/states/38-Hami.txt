@@ -8,14 +8,12 @@ state={
 		owner = DZU
 		add_core_of = DZU
 		1924.1.1 = {
-			owner = SIK
-			add_core_of = SIK
+			owner = HAM
+			add_core_of = HAM
 			remove_core_of = DZU
 		}
-
 		victory_points = { 1973 3 } #哈密
 		victory_points = { 2995 1 } #星星峡
-
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

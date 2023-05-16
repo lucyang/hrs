@@ -8,8 +8,8 @@ state={
 		owner = IMC
 		add_core_of = IMC
 		1924.1.1 = {
-			owner = NIX
-			add_core_of = NIX
+			owner = TSH
+			add_core_of = TSH
 			remove_core_of = IMC
 		}
 		victory_points = { 160 1 } #固原

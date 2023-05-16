@@ -1,4 +1,4 @@
-capital = 38 # 哈密
+capital = 629 #奇台
 
 #oob = "empty"
 set_country_flag = is_china_nation

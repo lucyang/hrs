@@ -8,8 +8,8 @@ state={
 		add_core_of = IMC
 		add_core_of = AMD
 		1924.1.1 = {
-			owner = GNS
-			add_core_of = GNS
+			owner = CHN
+			add_core_of = CHN
 			remove_core_of = IMC
 		}
 		victory_points = { 2567 1 } #卓尼

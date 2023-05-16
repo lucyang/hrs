@@ -1,6 +1,7 @@
 ﻿capital = 151 #果洛
 
 #oob = "empty"
+set_country_flag = is_tibet_nation
 
 set_technology = {
 	infantry_weapons = 1

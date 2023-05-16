@@ -41,18 +41,18 @@
  SHG_anarchism_party_long:0 "西藏共产党"
  SHG_socialism_party:0 "西藏改革党"
  SHG_socialism_party_long:0 "西藏改革党" # 邦达饶噶
- SHG_democratic_party:0 "改革派"
- SHG_democratic_party_long:0 "改革派" # 邦达多吉
- SHG_neutrality_party:0 "守旧派"
- SHG_neutrality_party_long:0 "守旧派"
- SHG_monarchism_party:0 "活佛派"
- SHG_monarchism_party_long:0 "活佛派"
- SHG_fascism_party:0 "中国领事馆"
- SHG_fascism_party_long:0 "中国领事馆"
+ SHG_democratic_party:0 "囊马岗 - 改革派"
+ SHG_democratic_party_long:0 "囊马岗 - 改革派" # 邦达多吉
+ SHG_neutrality_party:0 "囊马岗 - 保守派"
+ SHG_neutrality_party_long:0 "囊马岗 - 保守派"
+ SHG_monarchism_party:0 "囊马岗 - 传统派"
+ SHG_monarchism_party_long:0 "囊马岗 - 传统派"
+ SHG_fascism_party:0 "囊马岗 - 亲华派"
+ SHG_fascism_party_long:0 "囊马岗 - 亲华派"
  SHG_imperialism_party:0 "卫教志愿军"
  SHG_imperialism_party_long:0 "卫教志愿军"
- SHG_futurism_party:0 "人民意志党"
- SHG_futurism_party_long:0 "人民意志党"
+ SHG_futurism_party:0 "囊马岗 - 亲俄派"
+ SHG_futurism_party_long:0 "囊马岗 - 亲俄派"
  ##################
  ## COSMETIC TAG ##
  ##################

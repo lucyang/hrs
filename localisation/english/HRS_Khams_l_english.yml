@@ -45,14 +45,14 @@
  KHM_democratic_party_long:0 "邦达昌家族" # 邦达多吉
  KHM_neutrality_party:0 "擦绒家族"
  KHM_neutrality_party_long:0 "擦绒家族"
- KHM_monarchism_party:0 "帕巴拉活佛派"
- KHM_monarchism_party_long:0 "帕巴拉活佛派" # 帕巴拉·洛桑土登米旁次成加村
- KHM_fascism_party:0 "中国领事馆"
- KHM_fascism_party_long:0 "中国领事馆"
+ KHM_monarchism_party:0 "康巴土司 - 传统派"
+ KHM_monarchism_party_long:0 "康巴土司 - 传统派" # 帕巴拉·洛桑土登米旁次成加村
+ KHM_fascism_party:0 "康巴土司 - 亲华派"
+ KHM_fascism_party_long:0 "康巴土司 - 亲华派"
  KHM_imperialism_party:0 "卫教志愿军"
  KHM_imperialism_party_long:0 "卫教志愿军"
- KHM_futurism_party:0 "人民意志党"
- KHM_futurism_party_long:0 "人民意志党"
+ KHM_futurism_party:0 "康巴土司 - 亲俄派"
+ KHM_futurism_party_long:0 "康巴土司 - 亲俄派"
  ##################
  ## COSMETIC TAG ##
  ##################

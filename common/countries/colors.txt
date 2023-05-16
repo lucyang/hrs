@@ -182,6 +182,10 @@ LBR = {
 	color = rgb { 130 165 120 }
 	color_ui = rgb { 130 165 120 }
 }
+ORD = {
+	color = rgb { 172 122 188 }
+	color_ui = rgb { 172 122 188 }
+}
 ###############
 ### SICHUAN ###
 ###############

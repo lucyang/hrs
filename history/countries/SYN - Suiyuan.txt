@@ -4,7 +4,6 @@
 set_country_flag = is_china_nation
 
 recruit_character = SYN_kohinata_hakuro
-recruit_character = SYN_lu_zhankui
 recruit_character = SYN_sun_dianying
 
 set_technology = {

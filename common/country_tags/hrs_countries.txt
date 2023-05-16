@@ -87,6 +87,7 @@ YSH = "countries/Yulshul.txt"
 GLK = "countries/Golok.txt"
 CHN = "countries/Chone.txt"
 LBR = "countries/Labrang.txt"
+ORD = "countries/Ordos.txt"
 ### CHINA/SOUTHWEST ###
 # SICHUAN #
 SCH = "countries/Sichuan.txt"
