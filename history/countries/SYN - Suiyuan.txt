@@ -29,8 +29,8 @@ set_popularities = {
 	socialism = 0
 	democratic = 0
 	neutrality = 11
-	monarchism = 6
-	fascism = 10
+	monarchism = 0
+	fascism = 16
 	imperialism = 73
 	futurism = 0
 }

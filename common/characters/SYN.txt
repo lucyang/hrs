@@ -10,9 +10,9 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=ultranationalism_subtype
+			ideology=daijitaoism_subtype
 			desc=SYN_sun_dianying_desc
-			traits={ political_chameleon }
+			traits={ fascist_militia_leader }
 			expire="1950.1.1.1"
 		}
 		corps_commander={

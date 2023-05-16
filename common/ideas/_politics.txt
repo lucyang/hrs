@@ -404,7 +404,7 @@ ideas = {
 				political_power_gain = -1.0
 				mobilization_laws_cost_factor = 0.75
 				economy_cost_factor = 0.75
-				#trade_laws_cost_factor = 0.75
+				trade_laws_cost_factor = 0.75
 			}
 		}
 	}

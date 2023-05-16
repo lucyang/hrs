@@ -1,7 +1,7 @@
 is_dzungar_nation = {
 	OR = {
 		original_tag = ETK
-		original_tag = HAM
+		original_tag = YAK
 		original_tag = SIK
 		original_tag = HOT
 		original_tag = ASH

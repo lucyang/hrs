@@ -2,7 +2,6 @@
 
 #oob = "empty"
 
-
 set_technology = {
 	infantry_weapons = 1
 }
@@ -66,6 +65,12 @@ set_autonomy = {
 	target = AMD
 	autonomous_state = autonomy_integrated_puppet
 }
+1924.1.1 = {
+	set_autonomy = {
+		target = YSH
+		autonomous_state = autonomy_integrated_puppet
+	}
+}
 
 SKM = {
 	set_politics = {
@@ -124,6 +129,28 @@ LDK = {
 		fascism = 0
 		imperialism = 0
 		futurism = 0
+	}
+}
+
+1924.1.1 = {
+	YSH = {
+		set_politics = {
+			ruling_party = monarchism
+			last_election = "1923.1.1"
+			election_frequency = 48
+			elections_allowed = no
+		}
+		set_popularities = {
+			communism = 0
+			anarchism = 0
+			socialism = 6
+			democratic = 0
+			neutrality = 8
+			monarchism = 92
+			fascism = 0
+			imperialism = 0
+			futurism = 0
+		}
 	}
 }
 

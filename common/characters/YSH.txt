@@ -1,18 +1,4 @@
 characters={
-	YSH_ma_qi={
-		name=YSH_ma_qi
-		portraits={
-			civilian={
-				large="gfx/leaders/YSH/Portrait_Ma_Qi.png"
-			}
-		}
-		country_leader={
-			ideology=military_government_subtype
-			desc=YSH_ma_qi_desc
-			traits={  }
-			expire="1950.1.1.1"
-		}
-	}
 	YSH_yulshu_tribes={
 		name=YSH_yulshu_tribes
 		portraits={

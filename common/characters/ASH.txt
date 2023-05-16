@@ -1,0 +1,35 @@
+characters = {
+	ASH_usman_batur = {
+		name = ASH_usman_batur
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ETK/Portrait_Usman_Batur.png"
+			}
+		}
+	}
+	ASH_dalelkhan_sugirbayev = {
+		name = ASH_dalelkhan_sugirbayev
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ETK/Portrait_Dalelkhan_Sugirbayev.png"
+			}
+			army={
+				large="gfx/leaders/KVD/Portrait_Dalelkhan_Sugirbayev_military.png"
+			}
+		}
+		country_leader = {
+			ideology = left_nationalism_subtype
+			desc = ASH_dalelkhan_sugirbayev_desc
+			traits = {  }
+			expire = "1954.1.1.1"
+		}
+		corps_commander={
+			traits={ cavalry_officer }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+}

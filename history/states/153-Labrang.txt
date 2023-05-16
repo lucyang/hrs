@@ -1,0 +1,24 @@
+state={
+	id=153
+	name="STATE_153"
+	provinces={
+		390 652 2586 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = SXI
+			add_core_of = SXI
+			remove_core_of = IMC
+		}
+		victory_points = { 2586 1 } #拉卜楞/夏河
+		buildings = {
+			infrastructure = 2
+		}
+		
+	}
+	manpower=97785
+	state_category = town
+	local_supplies = 0.0
+}

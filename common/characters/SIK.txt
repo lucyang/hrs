@@ -1,0 +1,30 @@
+characters = {
+	SIK_sheng_shicai = {
+		name = SIK_sheng_shicai
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIK/Portrait_Sheng_Shicai.png"
+			} 
+		}
+		country_leader = {
+			ideology = left_militarism_subtype
+			desc = SIK_sheng_shicai_desc
+			traits = { political_chameleon emergency_powers }
+			expire = "1970.7.13.1"
+		}
+	}
+	SIK_jin_shuren = {
+		name = SIK_jin_shuren
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SIK/Portrait_Jin_Shuren.png"
+			}
+		}
+		country_leader = {
+			ideology = development_authoritarianism_subtype
+			desc = SIK_jin_shuren_desc
+			traits = { technocrat genial_anti_revolutionary }
+			expire = "1941.9.12.1"
+		}
+	}
+}

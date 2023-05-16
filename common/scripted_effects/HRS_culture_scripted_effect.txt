@@ -108,7 +108,6 @@ HRS_setup_cultures = {
 	131 = { set_variable = { nationality = 11 } } #固原
 
 	146 = { set_variable = { nationality = 11 } } #渭南
-	153 = { set_variable = { nationality = 11 } } #铜川
 	155 = { set_variable = { nationality = 11 } } #咸阳
 	160 = { set_variable = { nationality = 11 } } #宝鸡
 	168 = { set_variable = { nationality = 11 } } #长安
@@ -338,6 +337,7 @@ HRS_setup_cultures = {
 	135 = { set_variable = { nationality = 38 } } #玉树
 	138 = { set_variable = { nationality = 38 } } #黄南
 	151 = { set_variable = { nationality = 38 } } #果洛
+	153 = { set_variable = { nationality = 38 } } #铜川
 	154 = { set_variable = { nationality = 38 } } #甘南
 	# Khams
 	181 = { set_variable = { nationality = 39 } } #阿坝
@@ -811,4 +811,6 @@ HRS_setup_cultures = {
 	# Pamir
 	430 = { set_variable = { nationality = 151 } } #山地巴达赫尚
 	656 = { set_variable = { nationality = 151 } } #穆尔加布
+	# Golok/Ngolok
+	# 151 = { set_variable = { nationality = 152 } } #果洛
 }

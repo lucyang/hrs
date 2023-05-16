@@ -2,7 +2,6 @@
 
 #oob = "empty"
 set_country_flag = is_china_nation
-
 set_research_slots = 3
 
 recruit_character = SXI_yu_youren

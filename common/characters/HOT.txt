@@ -1,0 +1,16 @@
+characters = {
+	HOT_muhammad_amin = {
+		name = HOT_muhammad_amin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ETK/Portrait_Muhammad_Amin.png"
+			}
+		}
+		country_leader = {
+			ideology = guided_democracy_subtype
+			desc = HOT_muhammad_amin_desc
+			traits = {  }
+			expire = "1954.1.1.1"
+		}
+	}
+}

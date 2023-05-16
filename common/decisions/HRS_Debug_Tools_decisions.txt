@@ -1163,7 +1163,7 @@ HRS_debug_tool_category = {
 				transfer_state = 70 # Kizilsu
 				transfer_state = 81 # Kashgar
 			}
-			HAM = {
+			YAK = {
 				transfer_state = 45 # Yarkand
 			}
 			HOT = {

@@ -1,0 +1,77 @@
+characters={
+	NSX_yang_hucheng={
+		name=NSX_yang_hucheng
+		portraits={
+			civilian={
+				large="gfx/leaders/NSX/Portrait_Yang_Hucheng.png"
+			}
+			army={
+				large="gfx/leaders/NSX/Portrait_Yang_Hucheng_military.png"
+			}
+		}
+		country_leader={
+			ideology=military_socialism_subtype
+			desc=NSX_yang_hucheng_desc
+			traits={ revolutionary_general }
+			expire="1950.1.1.1"
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	NSX_wei_yechou={
+		name=NSX_wei_yechou
+		portraits={
+			civilian={
+				large="gfx/leaders/NSX/Portrait_Wei_Yechou.png"
+			}
+			army={
+				large="gfx/leaders/NSX/Portrait_Wei_Yechou.png"
+			}
+		}
+		country_leader={
+			ideology=national_communism_subtype
+			desc=NSX_wei_yechou_desc
+			traits={ devoted_marxist }
+			expire="1950.1.1.1"
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	NSX_hu_jingyi={
+		name=NSX_hu_jingyi
+		portraits={
+			civilian={
+				large="gfx/leaders/NSX/Portrait_Hu_Jingyi.png"
+			}
+			army={
+				large="gfx/leaders/NSX/Portrait_Hu_Jingyi.png"
+			}
+		}
+		country_leader={
+			ideology=neo_tridemism_subtype
+			desc=NSX_hu_jingyi_desc
+			traits={ connected_citizen }
+			expire="1950.1.1.1"
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+}

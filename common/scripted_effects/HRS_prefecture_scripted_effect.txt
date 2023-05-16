@@ -260,7 +260,6 @@ HRS_setup_prefectures = {
 	88 = { set_variable = { prefecture = 30 } } #榆林
 	115 = { set_variable = { prefecture = 30 } } #延安
 	146 = { set_variable = { prefecture = 30 } } #渭南
-	153 = { set_variable = { prefecture = 30 } } #铜川
 	155 = { set_variable = { prefecture = 30 } } #咸阳
 	160 = { set_variable = { prefecture = 30 } } #宝鸡
 	173 = { set_variable = { prefecture = 30 } } #商洛
@@ -318,9 +317,11 @@ HRS_setup_prefectures = {
 	113 = { set_variable = { prefecture = 34 } } #白银
 	121 = { set_variable = { prefecture = 34 } } #庆阳
 	128 = { set_variable = { prefecture = 34 } } #兰州
+	131 = { set_variable = { prefecture = 34 } } #固原
 	139 = { set_variable = { prefecture = 34 } } #临夏
 	140 = { set_variable = { prefecture = 34 } } #定西
 	148 = { set_variable = { prefecture = 34 } } #平凉
+	153 = { set_variable = { prefecture = 34 } } #拉卜楞
 	154 = { set_variable = { prefecture = 34 } } #甘南
 	159 = { set_variable = { prefecture = 34 } } #天水
 	172 = { set_variable = { prefecture = 34 } } #陇南
@@ -329,7 +330,6 @@ HRS_setup_prefectures = {
 	96 = { set_variable = { prefecture = 35 } } #银川
 	106 = { set_variable = { prefecture = 35 } } #吴忠
 	111 = { set_variable = { prefecture = 35 } } #中卫
-	131 = { set_variable = { prefecture = 35 } } #固原
 	#绥远
 	49 = { set_variable = { prefecture = 36 } } #乌兰察布
 	57 = { set_variable = { prefecture = 36 } } #包头

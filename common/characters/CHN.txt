@@ -1,0 +1,16 @@
+characters={
+	CHN_yang_jiqing={
+		name=CHN_yang_jiqing
+		portraits={
+			civilian={
+				large="gfx/leaders/CHN/Portrait_Yang_Jiqing.png"
+			}
+		}
+		country_leader={
+			ideology=feudalism_subtype
+			desc=CHN_yang_jiqing_desc
+			traits={ moderate_reformist }
+			expire="1950.1.1.1"
+		}
+	}
+}

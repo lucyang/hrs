@@ -8,8 +8,8 @@ state={
 		owner = IMC
 		add_core_of = IMC
 		1924.1.1 = {
-			owner = SXI
-			add_core_of = SXI
+			owner = NSX
+			add_core_of = NSX
 			remove_core_of = IMC
 		}
 		victory_points = { 680 1 } #延安

@@ -1,0 +1,44 @@
+characters = {
+	HAM_yulbars_khan = {
+		name = HAM_yulbars_khan
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HAM/Portrait_Yulbars_Khan.png"
+			}
+		}
+		country_leader = {
+			ideology = legionism_subtype
+			desc = HAM_yulbars_khan_desc
+			traits = { irredentist_academic }
+			expire = "1971.1.1.1"
+		}
+	}
+	HAM_chen_tianhua = {
+		name = HAM_chen_tianhua
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HAM/Portrait_Chen_Tianhua.png"
+			}
+		}
+		country_leader = {
+			ideology = irredentism_subtype
+			desc = HAM_chen_tianhua_desc
+			traits = { irredentist_academic }
+			expire = "1950.1.1.1"
+		}
+	}
+	HAM_burhan_shahidi = {
+		name = HAM_burhan_shahidi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HAM/Portrait_Burhan_Shahidi.png"
+			}
+		}
+		country_leader = {
+			ideology = ethnofuturism_subtype
+			desc = HAM_burhan_shahidi_desc
+			traits = { irredentist_academic }
+			expire = "1954.1.1.1"
+		}
+	}
+}

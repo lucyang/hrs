@@ -1,0 +1,73 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ NSX_communism:0 "国民革命军"
+ NSX_communism_DEF:0 "陕西国民革命军"
+ NSX_anarchism:0 "国民革命军"
+ NSX_anarchism_DEF:0 "陕西国民革命军"
+ NSX_socialism:0 "国民革命军"
+ NSX_socialism_DEF:0 "陕西国民革命军"
+ NSX_democratic:0 "国民革命军"
+ NSX_democratic_DEF:0 "陕西国民革命军"
+ NSX_neutrality:0 "国民革命军"
+ NSX_neutrality_DEF:0 "陕西国民革命军"
+ NSX_monarchism:0 "国民革命军"
+ NSX_monarchism_DEF:0 "陕西国民革命军"
+ NSX_fascism:0 "国民革命军"
+ NSX_fascism_DEF:0 "陕西国民革命军"
+ NSX_imperialism:0 "国民革命军"
+ NSX_imperialism_DEF:0 "陕西国民革命军"
+ NSX_futurism:0 "国民革命军"
+ NSX_futurism_DEF:0 "陕西国民革命军"
+ NSX_communism_ADJ:0 "陕北"
+ NSX_anarchism_ADJ:0 "陕北"
+ NSX_socialism_ADJ:0 "陕北"
+ NSX_democratic_ADJ:0 "陕北"
+ NSX_neutrality_ADJ:0 "陕北"
+ NSX_monarchism_ADJ:0 "陕北"
+ NSX_fascism_ADJ:0 "陕北"
+ NSX_imperialism_ADJ:0 "陕北"
+ NSX_futurism_ADJ:0 "陕北"
+ NSX:0 "陕北"
+ NSX_DEF:0 "陕北"
+ NSX_ADJ:0 "陕北"
+ #############
+ ## PARTIES ##
+ #############
+ NSX_communism_party:0 "杨虎城派"
+ NSX_communism_party_long:0 "国民革命军 - 杨虎城派"
+ NSX_anarchism_party:0 "魏野畴派"
+ NSX_anarchism_party_long:0 "国民革命军 - 魏野畴派"
+ NSX_socialism_party:0 "胡景翼派"
+ NSX_socialism_party_long:0 "国民革命军 - 胡景翼派"
+ NSX_democratic_party:0 "中国革命党"
+ NSX_democratic_party_long:0 "中国革命党"
+ NSX_neutrality_party:0 "国民革命军"
+ NSX_neutrality_party_long:0 "国民革命军"
+ NSX_monarchism_party:0 "孔教会"
+ NSX_monarchism_party_long:0 "孔教会"
+ NSX_fascism_party:0 "中国新民会"
+ NSX_fascism_party_long:0 "中国新民会"
+ NSX_imperialism_party:0 "人民共和党"
+ NSX_imperialism_party_long:0 "人民共和党"
+ NSX_futurism_party:0 "晋商财团"
+ NSX_futurism_party_long:0 "晋商财团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ NSX_yang_hucheng:0 "杨虎城"
+ NSX_yang_hucheng_desc:0 "§Y出生日期§!：§G1893年11月26日§!\n§Y出生地点§!：§G大东帝国关中道蒲城县§!"
+ NSX_hu_jingyi:0 "胡景翼"
+ NSX_hu_jingyi_desc:0 "§Y出生日期§!：§G1892年§!\n§Y出生地点§!：§G大东帝国关中道富平县§!"
+ #############
+ # Decisions #
+ #############
+
+ #################
+ # POWER BALANCE #
+ #################

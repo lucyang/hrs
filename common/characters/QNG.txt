@@ -1,4 +1,18 @@
 characters={
+	QNG_ma_qi={
+		name=QNG_ma_qi
+		portraits={
+			civilian={
+				large="gfx/leaders/QNG/Portrait_Ma_Qi.png"
+			}
+		}
+		country_leader={
+			ideology=military_government_subtype
+			desc=QNG_ma_qi_desc
+			traits={  }
+			expire="1931.8.25.1"
+		}
+	}
 	QNG_ma_bufang={
 		name=QNG_ma_bufang
 		portraits={
@@ -48,12 +62,12 @@ characters={
 				large="gfx/leaders/QNG/Portrait_Ma_Buqing.png"
 			}
 		}
-		country_leader={
-			ideology=military_government_subtype
-			desc=QNG_ma_buqing_desc
-			traits={ }
-			expire="1975.7.31.1"
-		}
+		#country_leader={
+		#	ideology=military_government_subtype
+		#	desc=QNG_ma_buqing_desc
+		#	traits={ }
+		#	expire="1975.7.31.1"
+		#}
 		corps_commander={
 			traits={ career_officer infantry_officer }
 			skill=2

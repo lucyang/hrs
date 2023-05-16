@@ -1,0 +1,16 @@
+characters={
+	GLK_golok_tribes={
+		name=GLK_golok_tribes
+		portraits={
+			civilian={
+				large="gfx/leaders/generic/Portrait_Golok_Tribe.png"
+			}
+		}
+		country_leader={
+			ideology=feudalism_subtype
+			desc=GLK_golok_tribes_desc
+			traits={ our_right_to_survive }
+			expire="1950.1.1.1"
+		}
+	}
+}

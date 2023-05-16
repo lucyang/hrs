@@ -8,8 +8,8 @@ state={
 		owner = IMC
 		add_core_of = IMC
 		1924.1.1 = {
-			owner = GNS
-			add_core_of = GNS
+			owner = TSH
+			add_core_of = TSH
 			remove_core_of = IMC
 		}
 		victory_points = { 1775 1 } #陇南

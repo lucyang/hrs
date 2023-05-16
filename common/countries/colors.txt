@@ -142,6 +142,10 @@ SXI = {
 	color = rgb { 255 244 190 }
 	color_ui = rgb { 255 244 190 }
 }
+NSX = {
+	color = rgb { 30 63 108 }
+	color_ui = rgb { 30 63 108 }
+}
 GNS = {
 	color = rgb { 205 85 85 }
 	color_ui = rgb { 205 85 85 }
@@ -163,6 +167,18 @@ SYN = {
 	color_ui = rgb { 102 0 0 }
 }
 YSH = {
+	color = rgb { 130 165 120 }
+	color_ui = rgb { 130 165 120 }
+}
+GLK = {
+	color = rgb { 61 100 45 }
+	color_ui = rgb { 61 100 45 }
+}
+CHN = {
+	color = rgb { 211 110 112 }
+	color_ui = rgb { 211 110 112 }
+}
+LBR = {
 	color = rgb { 130 165 120 }
 	color_ui = rgb { 130 165 120 }
 }
@@ -600,7 +616,7 @@ AKS = { # 阿蒂沙尔汗国
 	color = rgb { 0 204 0 }
 	color_ui = rgb { 0 204 0 }
 }
-HAM = { # 图兰伊斯兰共和国
+YAR = { # 图兰伊斯兰共和国
 	color = rgb { 139 139 122 }
 	color_ui = rgb { 139 139 122 }
 }
@@ -613,6 +629,10 @@ TCH = { # 东突厥斯坦总督府
 	color_ui = rgb { 104 48 104 }
 }
 ILI = { # 伊犁解放组织
+	color = rgb { 184 134 11 }
+	color_ui = rgb { 184 134 11 }
+}
+HAM = { # 安西都护府
 	color = rgb { 184 134 11 }
 	color_ui = rgb { 184 134 11 }
 }

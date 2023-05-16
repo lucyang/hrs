@@ -970,7 +970,7 @@ defined_text = {
     text = {
         trigger = {
             event_target:losing_country = {
-                original_tag = HAM
+                original_tag = YAK
         	}
 		}
         localization_key = HRS_PEACE_POPUP_FLAVOR_HAM

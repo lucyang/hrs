@@ -1,0 +1,30 @@
+characters = {
+	AKS_timur_beg = {
+		name = AKS_timur_beg
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AKS/Portrait_Timur_Beg.png"
+			}
+		}
+		country_leader = {
+			ideology = irredentism_subtype
+			desc = AKS_timur_beg_desc
+			traits = {  }
+			expire = "1951.1.1.1"
+		}
+	}
+	AKS_timur_shah = {
+		name = AKS_timur_shah
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/AKS/Portrait_Timur_Beg.png"
+			}
+		}
+		country_leader = {
+			ideology = islamic_state_subtype
+			desc = AKS_timur_shah_desc
+			traits = {  }
+			expire = "1951.1.1.1"
+		}
+	}
+}

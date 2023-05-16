@@ -4,6 +4,7 @@
 
 set_research_slots = 2
 
+recruit_character = QNG_ma_qi
 recruit_character = QNG_ma_bufang
 recruit_character = QNG_ma_wanfu
 recruit_character = QNG_ma_buqing
@@ -56,7 +57,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = imperialism
+	ruling_party = neutrality
 	last_election = "1920.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -64,13 +65,13 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	anarchism = 25
-	socialism = 0
-	democratic = 17
-	neutrality = 10
+	anarchism = 0
+	socialism = 25
+	democratic = 11
+	neutrality = 37
 	monarchism = 7
 	fascism = 0
-	imperialism = 41
+	imperialism = 20
 	futurism = 0
 }
 
