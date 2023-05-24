@@ -1,0 +1,70 @@
+﻿l_english:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ SIY_communism:0 "四邑共和国"
+ SIY_communism_DEF:0 "四邑共和国"
+ SIY_anarchism:0 "四邑共和国"
+ SIY_anarchism_DEF:0 "四邑共和国"
+ SIY_socialism:0 "四邑共和国"
+ SIY_socialism_DEF:0 "四邑共和国"
+ SIY_democratic:0 "四邑共和国"
+ SIY_democratic_DEF:0 "四邑共和国"
+ SIY_neutrality:0 "四邑共和国"
+ SIY_neutrality_DEF:0 "四邑共和国"
+ SIY_monarchism:0 "四邑共和国"
+ SIY_monarchism_DEF:0 "四邑共和国"
+ SIY_fascism:0 "四邑共和国"
+ SIY_fascism_DEF:0 "四邑共和国"
+ SIY_imperialism:0 "四邑共和国"
+ SIY_imperialism_DEF:0 "四邑共和国"
+ SIY_futurism:0 "四邑共和国"
+ SIY_futurism_DEF:0 "四邑共和国"
+ SIY_communism_ADJ:0 "四邑"
+ SIY_anarchism_ADJ:0 "四邑"
+ SIY_socialism_ADJ:0 "四邑"
+ SIY_democratic_ADJ:0 "四邑"
+ SIY_neutrality_ADJ:0 "四邑"
+ SIY_monarchism_ADJ:0 "四邑"
+ SIY_fascism_ADJ:0 "四邑"
+ SIY_imperialism_ADJ:0 "四邑"
+ SIY_futurism_ADJ:0 "四邑"
+ SIY:0 "四邑"
+ SIY_DEF:0 "四邑"
+ SIY_ADJ:0 "四邑"
+ #############
+ ## PARTIES ##
+ #############
+ SIY_communism_party:0 "社民农工党"
+ SIY_communism_party_long:0 "中国社会民主农工党"
+ SIY_anarchism_party:0 "无治共产主义同志社"
+ SIY_anarchism_party_long:0 "无治共产主义同志社"
+ SIY_socialism_party:0 "广东工会联合会"
+ SIY_socialism_party_long:0 "广东工会联合会"
+ SIY_democratic_party:0 "洪门致公党"
+ SIY_democratic_party_long:0 "洪门致公党"
+ SIY_neutrality_party:0 "四邑工商总局"
+ SIY_neutrality_party_long:0 "四邑工商总局"
+ SIY_monarchism_party:0 "洪门三合会"
+ SIY_monarchism_party_long:0 "洪门三合会"
+ SIY_fascism_party:0 "广东独立协会"
+ SIY_fascism_party_long:0 "广东独立协会"
+ SIY_imperialism_party:0 "客家大同会"
+ SIY_imperialism_party_long:0 "客家大同会"
+ SIY_futurism_party:0 "南洋开发集团"
+ SIY_futurism_party_long:0 "南洋开发集团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ SIY_situ_meitang:0 "司徒美堂"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

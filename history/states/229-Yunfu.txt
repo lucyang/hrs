@@ -1,0 +1,24 @@
+state={
+	id=229
+	name="STATE_229"
+	provinces={
+		2974 4162 4165 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = GND
+			add_core_of = GND
+			remove_core_of = IMC
+		}
+		victory_points = { 4162 1 }
+		
+		buildings = {
+			infrastructure = 2 
+		}
+	}
+	manpower=205185
+	state_category = city
+	local_supplies = 0.0
+}

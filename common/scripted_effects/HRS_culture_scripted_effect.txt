@@ -231,7 +231,6 @@ HRS_setup_cultures = {
 	# Leichow
 	382 = { set_variable = { nationality = 26 } } #湛江
 	# Cantonese
-	333 = { set_variable = { nationality = 27 } } #清远
 	349 = { set_variable = { nationality = 27 } } #肇庆	
 	355 = { set_variable = { nationality = 27 } } #广州
 	361 = { set_variable = { nationality = 27 } } #佛山		
@@ -240,9 +239,9 @@ HRS_setup_cultures = {
 	370 = { set_variable = { nationality = 27 } } #香山
 	372 = { set_variable = { nationality = 27 } } #茂名
 	373 = { set_variable = { nationality = 27 } } #阳江
-	377 = { set_variable = { nationality = 27 } } #珠海
+	377 = { set_variable = { nationality = 27 } } #龙门
+	379 = { set_variable = { nationality = 27 } } #佛冈
 
-	379 = { set_variable = { nationality = 27 } } #澳门
 	375 = { set_variable = { nationality = 27 } } #香港
 
 	371 = { set_variable = { nationality = 27 } } #钦州
@@ -309,6 +308,7 @@ HRS_setup_cultures = {
 	# Hakka but Modernized
 	325 = { set_variable = { nationality = 34 } } #龙岩
 
+	333 = { set_variable = { nationality = 34 } } #连州
 	340 = { set_variable = { nationality = 34 } } #梅州
 	343 = { set_variable = { nationality = 34 } } #河源
 	353 = { set_variable = { nationality = 34 } } #惠州

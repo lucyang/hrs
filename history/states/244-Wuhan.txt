@@ -2,7 +2,7 @@ state={
 	id=244
 	name="STATE_244"
 	provinces={
-		2141 3023 3846
+		2141 3023 3736 3846
 	}
 	resources = {
 		steel = 120
@@ -18,6 +18,7 @@ state={
 		victory_points = { 3846 20 } #武昌
 		victory_points = { 2141 10 } #汉口
 		victory_points = { 3023 5 } #汉阳
+		victory_points = { 3736 3 } #鄂州
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 3

@@ -2,7 +2,7 @@ state={
 	id=370
 	name="STATE_370"
 	provinces={
-		1612 4180 
+		1612 4180 2724 2746 4188 4193
 	}
 	history = {
 		owner = IMC
@@ -12,17 +12,20 @@ state={
 			add_core_of = GND
 			remove_core_of = IMC
 		}
-
 		victory_points = { 4180 10 }
-		
+		victory_points = { 4193 5 }
+		victory_points = { 2724 1 }
 		buildings = {
 			infrastructure = 4
 			4180 = {
 				naval_base = 3
 			}
+			4193 = {
+				naval_base = 4
+			}
 		}
 	}
-	manpower=776351
+	manpower=1151097
 	state_category = large_city
 	local_supplies = 0.0
 }

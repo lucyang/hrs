@@ -2,15 +2,14 @@ state={
 	id=228
 	name="STATE_228"
 	provinces={
-		700 1826 2408 
+		700 1826 2408 3836
 	}
 	history = {
 		owner = IMC
 		add_core_of = IMC
 
-		victory_points = {
-			2408 3
-		}
+		victory_points = { 2408 3 }
+		victory_points = { 3836 1 }
 		
 		buildings = {
 			infrastructure = 3
@@ -20,7 +19,7 @@ state={
 		}
 		
 	}
-	manpower=242143
+	manpower=447328
 	state_category = city
 	local_supplies = 0.0
 }

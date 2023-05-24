@@ -1,0 +1,26 @@
+state={
+	id=333
+	name="STATE_333"
+	provinces={
+		1844 2028 2645 2808 2838 2960 3081 3144 3249 4060 4064 4081 4087 4114 3242 4082
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = SGN
+			add_core_of = SGN
+			remove_core_of = IMC
+		}
+
+		victory_points = { 3249 1 }
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+	}
+	manpower=2269797
+	state_category = town
+	local_supplies = 0.0
+}
