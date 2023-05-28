@@ -1,0 +1,210 @@
+﻿l_simp_chinese:
+ ###################
+ ## COSMETIC TAG  ##
+ ###################
+ CGK_JAPAN_neutrality:0 "日本绥靖区"
+ CGK_JAPAN_neutrality_DEF:0 "日本绥靖区"
+ CGK_JAPAN_neutrality_ADJ:0 "日本"
+
+ AMM_JAPAN_neutrality:0 "日本军管区"
+ AMM_JAPAN_neutrality_DEF:0 "日本军管区"
+ AMM_JAPAN_neutrality_ADJ:0 "日本"
+
+ JLF_JAPAN_neutrality:0 "日本国"
+ JLF_JAPAN_neutrality_DEF:0 "日本国"
+ JLF_JAPAN_fascism:0 "日本民族共和国"
+ JLF_JAPAN_fascism_DEF:0 "日本民族共和国"
+ JLF_JAPAN_imperialism:0 "日本民族国"
+ JLF_JAPAN_imperialism_DEF:0 "日本民族国"
+ JLF_JAPAN_neutrality_ADJ:0 "日本"
+ JLF_JAPAN_fascism_ADJ:0 "日本"
+ JLF_JAPAN_imperialism_ADJ:0 "日本"
+
+ JPN_JAPAN_neutrality:0 "大和国"
+ JPN_JAPAN_neutrality_DEF:0 "大和国"
+ JPN_JAPAN_fascism:0 "大和民族共和国"
+ JPN_JAPAN_fascism_DEF:0 "大和民族共和国"
+ JPN_JAPAN_imperialism:0 "大和民族国"
+ JPN_JAPAN_imperialism_DEF:0 "大和民族国"
+ JPN_JAPAN_futurism:0 "大和人民国"
+ JPN_JAPAN_futurism_DEF:0 "大和人民国"
+ JPN_JAPAN_neutrality_ADJ:0 "大和"
+ JPN_JAPAN_fascism_ADJ:0 "大和"
+ JPN_JAPAN_imperialism_ADJ:0 "大和"
+ JPN_JAPAN_futurism_ADJ:0 "大和"
+
+ JPR_JAPAN_communism:0 "日本人民共和国"
+ JPR_JAPAN_communism_DEF:0 "日本人民共和国"
+ JPR_JAPAN_anarchism:0 "日本人民共和国"
+ JPR_JAPAN_anarchism_DEF:0 "日本人民共和国"
+ JPR_JAPAN_fascism:0 "日本人民共和国"
+ JPR_JAPAN_fascism_DEF:0 "日本人民共和国"
+ JPR_JAPAN_communism_ADJ:0 "日本"
+ JPR_JAPAN_anarchism_ADJ:0 "日本"
+ JPR_JAPAN_fascism_ADJ:0 "日本"
+
+ JAF_JAPAN_anarchism:0 "日本公社联邦"
+ JAF_JAPAN_anarchism_DEF:0 "日本公社联邦"
+ JAF_JAPAN_anarchism_ADJ:0 "日本"
+
+ OMT_JAPAN_anarchism:0 "世界联邦之本"
+ OMT_JAPAN_anarchism_DEF:0 "世界联邦之本"
+ OMT_JAPAN_neutrality:0 "日本圣国"
+ OMT_JAPAN_neutrality_DEF:0 "日本圣国"
+ OMT_JAPAN_monarchism:0 "神国"
+ OMT_JAPAN_monarchism_DEF:0 "神国"
+ OMT_JAPAN_anarchism_ADJ:0 "世界联邦"
+ OMT_JAPAN_neutrality_ADJ:0 "日本"
+ OMT_JAPAN_monarchism_ADJ:0 "神国"
+
+ KYU_JAPAN_anarchism:0 "日本联合工团"
+ KYU_JAPAN_anarchism_DEF:0 "日本联合工团"
+ KYU_JAPAN_anarchism_ADJ:0 "日本"
+
+ CHB_JAPAN_anarchism:0 "日本民主共和国"
+ CHB_JAPAN_anarchism_DEF:0 "日本民主共和国"
+ CHB_JAPAN_socialism:0 "日本社会主义共和国"
+ CHB_JAPAN_socialism_DEF:0 "日本社会主义共和国"
+ CHB_JAPAN_democratic:0 "日本共和国"
+ CHB_JAPAN_democratic_DEF:0 "日本共和国"
+ CHB_JAPAN_neutrality:0 "日本国"
+ CHB_JAPAN_neutrality_DEF:0 "日本国"
+ CHB_JAPAN_fascism:0 "日本社会共和国"
+ CHB_JAPAN_fascism_DEF:0 "日本社会共和国"
+ CHB_JAPAN_imperialism:0 "日本社会主义民族国"
+ CHB_JAPAN_imperialism_DEF:0 "日本社会主义民族国"
+ CHB_JAPAN_anarchism_ADJ:0 "日本"
+ CHB_JAPAN_socialism_ADJ:0 "日本"
+ CHB_JAPAN_democratic_ADJ:0 "日本"
+ CHB_JAPAN_neutrality_ADJ:0 "日本"
+ CHB_JAPAN_fascism_ADJ:0 "日本"
+ CHB_JAPAN_imperialism_ADJ:0 "日本"
+
+ KKG_JAPAN_neutrality:0 "日本重建政府"
+ KKG_JAPAN_neutrality_DEF:0 "日本重建政府"
+ KKG_JAPAN_ADJ:0 "日本"
+
+ NGN_JAPAN_anarchism:0 "日本公社"
+ NGN_JAPAN_anarchism_DEF:0 "日本公社"
+ NGN_JAPAN_socialism:0 "日本劳农联合体"
+ NGN_JAPAN_socialism_DEF:0 "日本劳农联合体"
+ NGN_JAPAN_democratic:0 "日本农民共和国"
+ NGN_JAPAN_democratic_DEF:0 "日本农民共和国"
+ NGN_JAPAN_monarchism:0 "无何有之乡"
+ NGN_JAPAN_monarchism_DEF:0 "无何有之乡"
+ NGN_JAPAN_anarchism_ADJ:0 "日本"
+ NGN_JAPAN_socialism_ADJ:0 "日本"
+ NGN_JAPAN_democratic_ADJ:0 "日本"
+ NGN_JAPAN_monarchism_ADJ:0 "日本"
+
+ TOK_JAPAN_anarchism:0 "日本自由地区"
+ TOK_JAPAN_anarchism_DEF:0 "日本自由地区"
+ TOK_JAPAN_anarchism_ADJ:0 "日本"
+ TOK_JAPAN_neutrality:0 "日本国"
+ TOK_JAPAN_neutrality_DEF:0 "日本国"
+ TOK_JAPAN_neutrality_ADJ:0 "日本"
+
+ THK_JAPAN_neutrality:0 "日本联邦"
+ THK_JAPAN_neutrality_DEF:0 "日本联邦"
+ THK_JAPAN_monarchism:0 "日本幕府"
+ THK_JAPAN_monarchism_DEF:0 "日本幕府"
+ THK_JAPAN_futurism:0 "日本统制国"
+ THK_JAPAN_futurism_DEF:0 "日本统制国"
+ THK_JAPAN_neutrality_ADJ:0 "日本"
+ THK_JAPAN_monarchism_ADJ:0 "日本"
+ THK_JAPAN_futurism_ADJ:0 "日本"
+
+ EZO_JAPAN_anarchism:0 "三山社会主义联邦"
+ EZO_JAPAN_anarchism_DEF:0 "三山社会主义联邦"
+ EZO_JAPAN_socialism:0 "三山人民联邦"
+ EZO_JAPAN_socialism_DEF:0 "三山人民联邦"
+ EZO_JAPAN_democratic:0 "三山联邦"
+ EZO_JAPAN_democratic_DEF:0 "三山联邦"
+ EZO_JAPAN_neutrality:0 "三山国"
+ EZO_JAPAN_neutrality_DEF:0 "三山国"
+
+ AIN_JAPAN_anarchism:0 "日本社会主义联邦"
+ AIN_JAPAN_anarchism_DEF:0 "日本社会主义联邦"
+ AIN_JAPAN_democratic:0 "日本联邦共和国"
+ AIN_JAPAN_democratic_DEF:0 "日本联邦共和国"
+ AIN_JAPAN_neutrality:0 "日本国"
+ AIN_JAPAN_neutrality_DEF:0 "日本国"
+ AIN_JAPAN_anarchism_ADJ:0 "日本"
+ AIN_JAPAN_democratic_ADJ:0 "日本"
+ AIN_JAPAN_neutrality_ADJ:0 "日本"
+
+ RYUKYU_JAPAN_anarchism:0 "三山社会主义联邦"
+ RYUKYU_JAPAN_anarchism_DEF:0 "三山社会主义联邦"
+ RYUKYU_JAPAN_socialism:0 "三山人民联邦"
+ RYUKYU_JAPAN_socialism_DEF:0 "三山人民联邦"
+ RYUKYU_JAPAN_democratic:0 "三山联邦"
+ RYUKYU_JAPAN_democratic_DEF:0 "三山联邦"
+ RYUKYU_JAPAN_neutrality:0 "三山国"
+ RYUKYU_JAPAN_neutrality_DEF:0 "三山国"
+ RYUKYU_JAPAN_monarchism:0 "三山帝国"
+ RYUKYU_JAPAN_monarchism_DEF:0 "三山帝国"
+ ############
+ ## EVENTS ##
+ ############
+ jap.1.t:0 "第四师团失踪"
+ jap.1.desc:0 "在关东大地震发生后，我们已派出数支驻军前去横须贺、横滨等地维持秩序，避免极端分子趁乱制造破坏。但是震中地区的通讯状况十分糟糕，各种谣言从灾区不断传来，既有朝鲜民族主义组织计划暴动、袭警、下毒的传言，也有诸如“帝国军受到恶人指使，借口驻防关东地区，实质上是要清洗国内的朝鲜裔居民”的恶毒诽谤。然而负责关东地方救灾的政府机构迟迟没有发布准确信息，这让我们军队中的朝鲜士兵深感不安。不过大阪军区司令并未在意此事，他要求第四师团从神户港出发，乘坐运输船前往横滨市。就在第四师团快要到达神户时，无线电通讯中断了。"
+ jap.1.a:0 "命令宪兵前去查看情况"
+
+ jap.2.t:0 "以下克上"
+ jap.2.desc:0 "神户地方驻军的宪兵队即刻出发，很快抵达了上一次通讯时第四师团所在的位置。整支部队并无异常之处，一名中级军官报告说，他们在行军过程中遭到了自然灾害，丢失了一部分辎重装备，恐怕无法按时到达神户港。他解释道，师团长与参谋已经带着小队去找东西了，目前不在营地。“为什么不是辎重兵负责这件事？你们的师团长什么时候能回来？”宪兵申神情凝重地质询道。“为什么你不去帮一下他们呢？”大阪军区再次失去了第四师团的下落，直到全身是血的宪兵回到大阪市，他报告了第四师团的遭遇：这支部队因天气原因耽误了行军计划，少数叛乱分子借助士兵的不安情绪，擅自处决了师团长与参谋长。最后他总结道：“这是一场兵变！第四师团已经占领了神户市的政府大楼和广播电台，他们向邻近的姬路市也发起了攻击，准备公开叛乱！”"
+ jap.2.a:0 "这次居然来真的了？"
+
+ jap.3.t:0 "风暴前兆"
+ jap.3.desc:0 "就在今日上午，大东帝国境内的广播都传来了陌生的声音，似乎是一个年轻人正在宣读激进的政治纲领——“帝国的国民苦不堪言，你们的家人也一样吧。在满洲前线的士兵，他们的姐妹要靠卖身来换饭吃。老农种出来的米，自己也吃不到。百姓没有工作，他们忍饥挨饿，疲惫不堪。”随后传来的是略带哭泣和喜悦的声音，“没错，小仓和福冈的人民已经走上街头了，你们可曾听到人民的声音？长崎的驻军和水兵也要起来，打倒财阀和贵族。”\n\n紧接着是如咆哮般的控诉，“财阀勾结官僚，隐瞒国民的苦况，隐瞒真实的国情，制造盛世的假象！”随后是一首晦涩难懂的军歌——“权贵只晓傲门第，忧国此中真乏人；豪阀但知夸积富，社稷彼心何尝思！贤者见国衰微征，愚氓犹自舞世间。治乱兴亡恍如梦，世事真若一局棋！”在演讲结束后，那个声优顿了一会，宣布日本解放阵线准备向帝国的心脏地带发起进攻······"
+ jap.3.a:0 "这将是革命的天王山之战吗？"
+
+ jap.4.t:0 "叛乱云起"
+ jap.4.desc:0 "在第四师团兵变数日后，九州工业区的福冈、小仓和长崎发生了大规模的罢工，工人组建了工人评议会，驱逐了城市中的警察部队，“日本工人评议会共和国”宣布成立。工人委员会成为这一政权的行动机构，由可随时替换的民选代表组成。他们组织了工人民兵，由退伍军人和参过军的工人充任指挥官，城市中的妇女和儿童也动员起来，加入了城市防卫部队。\n\n第四师团叛乱成为了压死骆驼的最后一根稻草，日本各处都爆发了或大或小的暴乱、游行示威、总罢工，先前因渡边银行危机而陷入破产的长野农民，效仿几十年前的困民党以及数千年来农民一以贯之的传统——用竹枪、镰刀、镐头表达自己的不满——在群马发起了一场声势浩大的“一揆”。农民起义军夺取了大量武器装备，席卷长野山区。\n\n在第四师团“榜样”的激励下，几乎每个师团都出现了青年军官主导的兵变。原本计划自西向东夹击神户叛军的第五师团，内部出现了分裂，师团长佐佐木到一死亡，参谋长任援道失踪。牛岛满和大西泷治郎成了叛乱风波唯二的幸存者，他们不得不在孤立无援的境地继续作战，没有人知道他们还能坚持多久。"
+ jap.4.a:0 "我们已经无路可退了"
+
+ jap.5.t:0 "以下克上"
+ jap.5.desc:0 "在东日本地区，无政府主义者夺取了神奈川与千叶两座工业城市，但是无法将自己的影响力延伸到乡村地带。海军叛乱分子占领了茨城及周边地区，橘孝三郎领导的法西斯主义者在此建立了稳固的统治。大西泷治郎设法逃离了叛军之手，以麾下的独立航空队建立了接管了第九师团。大西泷治郎在北陆地区站稳了脚跟，但是只能勉强自保。\n\n抓住机会的日本无产政党派出代表，在名古屋召开了一次立宪会议，宣布日本将成为一个社会主义与改良主义的共和国。颇有威望的安部矶雄成为日本共和国的领袖，他得到了驻守此地的第三师团的支持，并以此为基础组建了日本人民军。这意味着帝国失去了在中日本的重要工业基地，幸好社会主义者决心孤军奋战，他们厌恶“极左翼”的共匪、国家主义者和安那其暴徒。"
+ jap.5.a:0 "大正之乱，战国之始"
+
+ jap.16.t:0 "关东大乱"
+ jap.6.desc:0 "在东日本地区，无政府主义者夺取了神奈川与千叶两座工业城市，但是无法将自己的影响力延伸到乡村地带。海军叛乱分子占领了茨城及周边地区，橘孝三郎领导的法西斯主义者在此建立了稳固的统治。大西泷治郎设法逃离了叛军之手，以麾下的独立航空队建立了接管了第九师团。大西泷治郎在北陆地区站稳了脚跟，但是只能勉强自保。\n\n在此情景下，奥羽地方的贵族决意邀请居留日本的雍仁皇太子为其领袖，意图宣布东北自治、闭关自守。北海省各地在失去本土的支援后，几乎只能与当地驻军通力协作，勉力维持统治秩序。在失去驻军之后，江户的朝鲜劳工在朴春琴的领导下建立了自治城市，希望能在内战中活下来。而帝国在日本的统治中心京都也出现了变故，昔日遭到帝国打压的新兴宗教大本教趁机发难，他们以龟山城总部为中心，拥戴出口王仁三郎为领袖，宣布建立天恩乡以图“自保”。\n\n如今日本四分五裂，各路势力割据一方，尚待一位雄心壮志者平定天下······"
+ jap.10.a:0 "大正之乱，战国之始"
+
+ jap_unification.1.t:0 "日本新都"
+ jap_unification.1.desc:0 "在统一日本列岛后，有人提议我们应当将首都迁移到更适合的地方——京都自然是首选，这里是日本的千年古都。但是充满革命精神的青年人对京都这种死气沉沉的都市表示反感，他们更希望将首都迁到日本工人革命的心脏——福冈县，或者是关东平原的人工新城东京都。当然，有不少人认为我们的首都已经很好了，没有必要迁都。[ROOT.GetLeader]会采纳何种方案？"
+ jap_unification.1.a:0 "福冈"
+ jap_unification.1.b:0 "京都"
+ jap_unification.1.c:0 "东京都"
+ jap_unification.1.d:0 "我们原本的首都就不错"
+ ##################
+ ## SUPER EVENTS ##
+ ##################
+ ### JAF ###
+ # 岩佐作太郎 #
+ jaf_news.1.t:0 "日本统一"
+ jaf_news.1.desc:0 "如果有国家，就必然有统治，因而也就有奴役；没有公开的或隐蔽的奴役的国家，是不可想象的。这就是我们要与国家为敌的原因。\n——米哈伊尔·巴枯宁"
+ jaf_news.1.a:0 ""
+ # 石川三四郎 #
+ jaf_news.2.t:0 "日本统一"
+ jaf_news.2.desc:0 "“照亮这个世界的首要办法，就是让农民醒过来，回到他们真正的自我，即土地中的人民。我们必须将农业、工业与产品交换掌握在自己手中，如蜂群亦如蚁群。”\n——石川三四郎"
+ jaf_news.2.a:0 "你可曾听到人民的声音？"
+ # 世界は今や生存競争主義の都会文化、商業精神に依つて暗黒になつて居る。自然から善いものを恵まれやう、世の為に善き物を生産しやう、自分の技術の為に全生命を打ち込まう、といふ様な精神は今の商業時代には存在し得ない。宗教も、教育も、産業も、芸術も、悉く一種の商売と化して世の中は陰欝暗憺たる修羅の街となつた。そして此暗い世の中を明るくし得るの第一の方法は、先づ吾等農民が自ら眼覚めて真に土の民衆たる本来の自己に立ち還へることである。自ら土の民衆となつて、世界の農作と工業と生産と交換とを自分自身の掌中に回復することである。蜜蜂の如く、蟻群の如く。 #
+ ### CHB ###
+ # 铃木茂三郎 #
+ chb_news.1.t:0 "日本再统一"
+ chb_news.1.desc:0 "“青年们啊，不要举起枪。妇女们啊，不要把丈夫和孩子送上战场。”\n——铃木茂三郎"
+ chb_news.1.a:0 "圣人南面而听天下，向明而治"
+ # 浅沼稻次郎 #
+ chb_news.2.t:0 "日本再统一"
+ chb_news.2.desc:0 "“日本基于东亚独自的历史与民族性，改革国内的资本主义机构，实现经济全面的计划化，使生产力的高度化分配合理化，确立国民生活的保障，必须达成既非共产主义、也非资本主义的，适应于日本历史与民族性的新文明的建设。”\n——社会大众党纲领（1938年）"
+ chb_news.2.a:0 "大亨以正，天之道也"
+ # 麻生久 #
+ chb_news.3.t:0 "日本再统一"
+ chb_news.3.desc:0 "“我们政治的理想，是以崭新的理念引导世界各国，是保护世界免遭共产国际的威胁，破除共产国际想要平分世界的野心。我们理想并非和平主义也非法西斯主义的强权，而是举国一致，不依赖于剥削与压迫的民族和谐关系。”\n——社会大众党纲领（1938年）"
+ chb_news.3.a:0 "百姓昭明，万邦协和"
+ # 安部矶雄 #
+ chb_news.4.t:0 "日本再统一"
+ chb_news.4.desc:0 "“信的人在一处，凡物公用；并且卖了田产家业，照各人所需的分给各人。”\n——《使徒行传》第2章第44节"
+ chb_news.4.a:0 ""
+ # 
+ ### JPR ###

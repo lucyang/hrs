@@ -1,0 +1,117 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ TIB_communism:0 "博巴伊德瓦"
+ TIB_communism_DEF:0 "西藏人民政府"
+ TIB_anarchism:0 "博巴伊德瓦"
+ TIB_anarchism_DEF:0 "西藏人民政府"
+ TIB_socialism:0 "博巴伊德瓦"
+ TIB_socialism_DEF:0 "西藏人民政府"
+ TIB_democratic:0 "卫藏"
+ TIB_democratic_DEF:0 "卫藏"
+ TIB_neutrality:0 "卫藏"
+ TIB_neutrality_DEF:0 "卫藏"
+ TIB_monarchism:0 "卫藏"
+ TIB_monarchism_DEF:0 "卫藏"
+ TIB_fascism:0 "卫藏"
+ TIB_fascism_DEF:0 "卫藏"
+ TIB_imperialism:0 "卫藏"
+ TIB_imperialism_DEF:0 "卫藏"
+ TIB_futurism:0 "卫藏"
+ TIB_futurism_DEF:0 "卫藏"
+ TIB_communism_ADJ:0 "卫藏"
+ TIB_anarchism_ADJ:0 "卫藏"
+ TIB_socialism_ADJ:0 "卫藏"
+ TIB_democratic_ADJ:0 "卫藏"
+ TIB_neutrality_ADJ:0 "卫藏"
+ TIB_monarchism_ADJ:0 "卫藏"
+ TIB_fascism_ADJ:0 "卫藏"
+ TIB_imperialism_ADJ:0 "卫藏"
+ TIB_futurism_ADJ:0 "卫藏"
+ TIB:0 "卫藏"
+ TIB_DEF:0 "卫藏"
+ TIB_ADJ:0 "卫藏"
+ #############
+ ## PARTIES ##
+ #############
+ TIB_communism_party:0 "西藏共产党"
+ TIB_communism_party_long:0 "西藏共产党"
+ TIB_anarchism_party:0 "西藏共产党"
+ TIB_anarchism_party_long:0 "西藏共产党"
+ TIB_socialism_party:0 "西藏改革党"
+ TIB_socialism_party_long:0 "西藏改革党" # 邦达饶噶
+ TIB_democratic_party:0 "噶厦 - 改革派"
+ TIB_democratic_party_long:0 "噶厦 - 改革派" # 龙夏·多吉次杰/擦绒·达桑占堆/强俄巴·仁增多吉
+ TIB_neutrality_party:0 "噶厦 - 保守派"
+ TIB_neutrality_party_long:0 "噶厦 - 保守派" # 达赖喇嘛
+ TIB_monarchism_party:0 "噶厦 - 传统派"
+ TIB_monarchism_party_long:0 "噶厦 - 传统派"
+ TIB_fascism_party:0 "噶厦 - 亲华派"
+ TIB_fascism_party_long:0 "噶厦 - 亲华派"
+ TIB_imperialism_party:0 "卫教志愿军"
+ TIB_imperialism_party_long:0 "卫教志愿军"
+ TIB_futurism_party:0 "噶厦 - 亲俄派"
+ TIB_futurism_party_long:0 "噶厦 - 亲俄派"
+
+ TIB_reform_party:0 "吉却贡吞"
+ TIB_reform_party_long:0 "吉却贡吞" # 龙夏·多吉次杰
+ TIB_army_party:0 "藏军"
+ TIB_army_party_long:0 "藏军" # 擦绒·达桑占堆
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ TIB_DZU_neutrality:0 "图伯特"
+ TIB_DZU_neutrality_DEF:0 "图伯特"
+ TIB_DZU_neutrality_ADJ:0 "图伯特"
+ TIB_DZU_monarchism:0 "图伯特"
+ TIB_DZU_monarchism_DEF:0 "图伯特"
+ TIB_DZU_monarchism_ADJ:0 "图伯特"
+ ################
+ ## CHARACTERS ##
+ ################
+ TIB_thubten_gyatso:0 "第十三世达赖喇嘛"
+ TIB_thubten_gyatso_desc:0 "第十三世达赖喇嘛本名§Y土登嘉措§!，他的大半生都处在中国与俄罗斯争夺内亚霸权的§Y大博弈§!时代，而当时受准噶尔保护的西藏正处于二者争夺的地区之中。他周旋于中国、俄罗斯，同时与准噶尔汗庭之间保持距离，使西藏得以保持半独立的自治地位，威望也因此得以提高。在访问中国期间，中原地区的现代化科技和高雅的文化令他大开眼界，使他确立了改革西藏的决心。\n\n作为西藏地区事实上政教合一的最高领袖，土登嘉措着手推行西藏的现代化进程。他取消了阿里和霍尔地区的土司特权，聘请外国教官、整顿藏军，任命§Y擦绒·达桑占堆§!将军为藏军总司令，建立了西藏历史上第一支正规军。十三世达赖喇嘛力排众议，勘探西藏各地的矿产，发掘了§Y罗布莎铬铁矿§!；他还投资建设了西藏最早的军工厂、发电站和造币厂，遣送多批留学生前去中国学习现代科学知识。\n\n十三世达赖喇嘛的改革政策侵犯了许多僧侣和贵族的利益，但是达赖喇嘛的麻烦不止于此。西藏的现代化奇迹是§R魔鬼的交易§!，大东帝国提供必要的资金，而西藏必要以独立与自由偿还。藏地有一则古老的预言：“当铁鸟在空中飞翔，铁马在地上奔驰，西藏人将如蝼蚁般星散各地，而佛法将传向红人的领域。”随着准噶尔帝国行将就木，西藏即将迎来生死之战。土登嘉措发誓要保卫西藏的独立与自由，要让雪域之国永保安宁。"
+ TIB_tsipon_lungshar:0 "龙夏·多吉次杰"
+ TIB_tsipon_lungshar_desc:0 "§Y龙厦·多吉次杰§!出生在后藏苏龙的一个贵族之家，是古代西藏红教活佛的后裔.1914年，龙夏·多吉次杰奉十三世达赖之命作为领队，率四名藏族贵族青年赴中国留学，他负责督促四位留学生学习，使他们分别成为勘探矿物、电机、报务、军事等方面的人才。回到西藏后，龙夏又先后游历欧洲各国，坚定了其改革西藏社会的决心。\n\n1917年回到西藏后，龙夏受到十三世达赖重用，改革征粮和税收制度，通过没收贵族和寺庙非法占有的土地并增加僧俗领主的租税，从而扩大了西藏噶厦的财源，获得达赖喇嘛器重，但因此§R遭贵族领主仇恨§!。1923年，龙夏升任藏军司令部顾问兼孜本，其权力达到顶峰。龙夏仿照中国军制改革了藏军，将其扩充为12个团。\n\n龙厦从欧洲回到西藏之后，组织了§Y吉却贡吞§!（意为“求幸福者同盟”）。该组织积极进行秘密活动，试图将西方民主引入西藏，提出废除噶伦终身制，主张政府决策应由全体官员组成的会议通过。他们还主张贤能在位、赏罚分明，禁止卖官鬻爵。这些改革措施引起了守旧派的极度不满，他们指责龙夏意图毁灭宗教、破坏雪域的祥和安宁。"
+ TIB_thubten_kunphela:0 "坚塞·土登贡培"
+ TIB_changgnopa_ringang:0 "强俄巴·仁增多吉"
+ TIB_tsarong_dasang_dramdul:0 "擦绒·达桑占堆"
+ TIB_zhang_yintang:0 "张荫棠"
+ #############
+ # Decisions #
+ #############
+ TIB_balance_of_power_category:0 "布达拉宫密谋"
+ TIB_legalize_giche_guntun:0 "承认吉却贡吞"
+ TIB_raise_feudal_tax:0 "征用领主土地"
+ TIB_promote_modernist:0 "提拔改革派官员"
+ TIB_protect_kham_traders:0 "保护康巴商会"
+ TIB_train_regular_army:0 "训练藏军"
+ TIB_ban_giche_guntun:0 "取缔吉却贡吞"
+ TIB_protect_buddhist_temple:0 "保护寺院特权"
+ TIB_promote_traditionalist:0 "提拔守旧派官员"
+ TIB_exploit_kham_traders:0 "敲诈康巴商会"
+ TIB_train_irregular_army:0 "征募僧兵" #Dob-dob
+
+ TIB_coup_of_traditionalists:0 "守旧派政变"
+ #################
+ # POWER BALANCE #
+ #################
+ TIB_power_balance:0 "权力平衡"
+ TIB_balance_range:0 "政治倾向"
+ TIB_reformist_side:0 "改革派"
+ TIB_reformist_total_control_range:0 "改革派控制政权"
+ TIB_reformist_dominant_range:0 "改革派主导政权"
+ TIB_reformist_power_range:0 "改革派掌权"
+ TIB_reformist_influence_range:0 "改革派影响政权"
+ TIB_traditionalist_side:0 "守旧派"
+ TIB_traditionalist_total_control_range:0 "守旧派控制政权"
+ TIB_traditionalist_dominant_range:0 "守旧派主导政权"
+ TIB_traditionalist_power_range:0 "守旧派掌权"
+ TIB_traditionalist_influence_range:0 "守旧派影响政权"
+
+ TIB_bop_is_neutral_influence_tt:0 "改革派与守旧派处于相对均势状态"
+ TIB_bop_is_reformist_influence_or_higher_tt:0 "改革派影响力:\n 至少达到§Y$TIB_reformist_influence_range$§!"
+ TIB_bop_is_reformist_power_or_higher_tt:0 "改革派影响力:\n 至少达到§Y$TIB_reformist_power_range$§!"
+ TIB_bop_is_traditionalist_influence_or_higher_tt:0 "守旧派影响力:\n 至少达到§Y$TIB_traditionalist_influence_range$§!"
+ TIB_bop_is_traditionalist_power_or_higher_tt:0 "守旧派影响力:\n 至少达到§Y$TIB_traditionalist_power_range$§!"

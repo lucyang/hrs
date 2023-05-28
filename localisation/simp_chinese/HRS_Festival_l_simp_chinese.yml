@@ -1,0 +1,16 @@
+﻿l_simp_chinese:
+ fes_news.1.t:0 "1923年天长节" #1923.8.31;in 39d
+ fes_news.1.desc:0 ""
+ fes_news.1.a:0 "皇帝陛下万岁！"
+
+ fes_news.2.t:0 "1924年中秋节" #1923.9.25;in 55d
+ fes_news.2.desc:0 ""
+ fes_news.2.a:0 ""
+
+ fes_news.3.t:0 "1924年元旦" #1924.1.1;in 153d
+ fes_news.3.desc:0 ""
+ fes_news.3.a:0 ""
+
+ fes_news.4.t:0 "1924年春节" #1924.1.1;in 187d
+ fes_news.4.desc:0 ""
+ fes_news.4.a:0 ""

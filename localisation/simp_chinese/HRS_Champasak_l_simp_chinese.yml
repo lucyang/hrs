@@ -1,0 +1,74 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ CHP_communism:0 "占巴塞社会主义共和国"
+ CHP_communism_DEF:0 "占巴塞社会主义共和国"
+ CHP_anarchism:0 "占巴塞人民共和国"
+ CHP_anarchism_DEF:0 "占巴塞人民共和国"
+ CHP_socialism:0 "占巴塞人民共和国"
+ CHP_socialism_DEF:0 "占巴塞人民共和国"
+ CHP_democratic:0 "占巴塞王国"
+ CHP_democratic_DEF:0 "占巴塞王国"
+ CHP_neutrality:0 "占巴塞王国"
+ CHP_neutrality_DEF:0 "占巴塞王国"
+ CHP_monarchism:0 "占巴塞王国"
+ CHP_monarchism_DEF:0 "占巴塞王国"
+ CHP_fascism:0 "占巴塞王国"
+ CHP_fascism_DEF:0 "占巴塞王国"
+ CHP_imperialism:0 "占巴塞王国"
+ CHP_imperialism_DEF:0 "占巴塞王国"
+ CHP_futurism:0 "占巴塞王国"
+ CHP_futurism_DEF:0 "占巴塞王国"
+ CHP_communism_ADJ:0 "占巴塞"
+ CHP_anarchism_ADJ:0 "占巴塞"
+ CHP_democratic_ADJ:0 "占巴塞"
+ CHP_neutrality_ADJ:0 "占巴塞"
+ CHP_monarchism_ADJ:0 "占巴塞"
+ CHP_fascism_ADJ:0 "占巴塞"
+ CHP_imperialism_ADJ:0 "占巴塞"
+ CHP_futurism_ADJ:0 "占巴塞"
+ CHP:0 "占巴塞"
+ CHP_DEF:0 "占巴塞"
+ CHP_ADJ:0 "占巴塞"
+ #############
+ ## PARTIES ##
+ #############
+ CHP_communism_party:0 "巴特寮"
+ CHP_communism_party_long:0 "老挝自由民族统一战线和老挝爱国战线"
+ CHP_anarchism_party:0 "巴特寮"
+ CHP_anarchism_party_long:0 "老挝自由民族统一战线和老挝爱国战线"
+ CHP_socialism_party:0 "国家联盟党"
+ CHP_socialism_party_long:0 "老挝国家联盟党" # Lao National Union Party
+ CHP_democratic_party:0 "国家进步党"
+ CHP_democratic_party_long:0 "国家进步党" # National Progressive Party
+ CHP_neutrality_party:0 "琅勃拉邦王朝"
+ CHP_neutrality_party_long:0 "琅勃拉邦王朝"
+ CHP_monarchism_party:0 "占巴塞王朝"
+ CHP_monarchism_party_long:0 "占巴塞王朝"
+ CHP_fascism_party:0 "自由老挝"
+ CHP_fascism_party_long:0 "自由老挝"
+ CHP_imperialism_party:0 "泛泰主义者"
+ CHP_imperialism_party_long:0 "泛泰主义者"
+ CHP_futurism_party:0 "技术官僚"
+ CHP_futurism_party_long:0 "技术官僚运动"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ CHP_sisavang_vong:0 "西萨旺·冯亲王"
+ CHP_boun_oum:0 "文翁亲王"
+ CHP_phetsarath_ratanavongsa:0 "佩差拉·拉达纳冯亲王"
+ CHP_souvanna_phouma:0 "梭发那·富马亲王"
+ CHP_souphanouvong:0 "苏发努冯亲王"
+ IND_indochina_CHPs:0 "占巴塞民族解放委员会"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

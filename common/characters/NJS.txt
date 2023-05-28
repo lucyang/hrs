@@ -1,0 +1,16 @@
+characters={
+	NJS_hao_peng={
+		name=NJS_hao_peng
+		portraits={
+			civilian={
+				large="gfx/leaders/NJS/Portrait_Hao_Peng.png"
+			}
+		}
+		country_leader={
+			ideology=interim_government_subtype
+			desc=NJS_hao_peng_desc
+			traits={  }
+			expire="1946.1.1.1"
+		}
+	}
+}

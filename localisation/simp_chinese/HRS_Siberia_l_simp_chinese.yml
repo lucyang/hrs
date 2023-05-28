@@ -1,0 +1,81 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ SIB_communism:0 "西伯利亚苏维埃"
+ SIB_communism_DEF:0 "西伯利亚苏维埃社会主义共和国"
+ SIB_anarchism:0 "西伯利亚苏维埃"
+ SIB_anarchism_DEF:0 "西伯利亚苏维埃社会主义共和国"
+ SIB_socialism:0 "临时全俄罗斯政府"
+ SIB_socialism_DEF:0 "临时全俄罗斯政府"
+ SIB_democratic:0 "临时全俄罗斯政府"
+ SIB_democratic_DEF:0 "临时全俄罗斯政府"
+ SIB_neutrality:0 "临时全俄罗斯政府"
+ SIB_neutrality_DEF:0 "临时全俄罗斯政府"
+ SIB_monarchism:0 "临时全俄罗斯政府"
+ SIB_monarchism_DEF:0 "临时全俄罗斯政府"
+ SIB_fascism:0 "临时全俄罗斯政府"
+ SIB_fascism_DEF:0 "临时全俄罗斯政府"
+ SIB_imperialism:0 "临时全俄罗斯政府"
+ SIB_imperialism_DEF:0 "临时全俄罗斯政府"
+ SIB_futurism:0 "临时全俄罗斯政府"
+ SIB_futurism_DEF:0 "临时全俄罗斯政府"
+ SIB_communism_ADJ:0 "西伯利亚"
+ SIB_anarchism_ADJ:0 "西伯利亚"
+ SIB_socialism_ADJ:0 "西伯利亚"
+ SIB_democratic_ADJ:0 "西伯利亚"
+ SIB_neutrality_ADJ:0 "西伯利亚"
+ SIB_monarchism_ADJ:0 "西伯利亚"
+ SIB_fascism_ADJ:0 "西伯利亚"
+ SIB_imperialism_ADJ:0 "西伯利亚"
+ SIB_futurism_ADJ:0 "西伯利亚"
+ SIB:0 "西伯利亚"
+ SIB_DEF:0 "西伯利亚"
+ SIB_ADJ:0 "西伯利亚"
+ #############
+ ## PARTIES ##
+ #############
+ SIB_communism_party:0 "俄罗斯共产党"
+ SIB_communism_party_long:0 "俄罗斯共产党"
+ SIB_anarchism_party:0 "社会民主党"
+ SIB_anarchism_party_long:0 "俄国社会民主工党"
+ SIB_socialism_party:0 "社会革命党"
+ SIB_socialism_party_long:0 "社会革命党"
+ SIB_democratic_party:0 "立宪民主党"
+ SIB_democratic_party_long:0 "立宪民主党"
+ SIB_neutrality_party:0 "高尔察克派"
+ SIB_neutrality_party_long:0 "高尔察克派"
+ SIB_monarchism_party:0 "白卫军运动"
+ SIB_monarchism_party_long:0 "白卫军运动" # Russian Imperial Union-Order
+ SIB_fascism_party:0 "民族劳动联盟"
+ SIB_fascism_party_long:0 "俄罗斯团结主义者民族劳动联盟" # Народно-трудовой союз российских солидаристов
+ SIB_imperialism_party:0 "俄罗斯全军联盟"
+ SIB_imperialism_party_long:0 "俄罗斯全军联盟"
+ SIB_futurism_party:0 "人民意志党"
+ SIB_futurism_party_long:0 "人民意志党"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ SIB_alexander_kolchak:0 "亚历山大·高尔察克"
+ SIB_alexander_kolchak_desc:0 ""
+ SIB_viktor_pepelyayev:0 "维克多·佩佩利亚耶夫"
+ SIB_viktor_baydalakov:0 "维克多·贝达拉科夫"
+ ###########
+ ## IDEAS ##
+ ###########
+
+ #################
+ ### DECISIONS ###
+ ################# 
+
+ ################
+ ## FOCUS TREE ##
+ ################
+ 
+ #############
+ ### EVENT ###
+ #############

@@ -1,0 +1,79 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ HNN_communism:0 "琼崖工农兵政府"
+ HNN_communism_DEF:0 "琼崖工农兵政府"
+ HNN_anarchism:0 "琼崖工农兵政府"
+ HNN_anarchism_DEF:0 "琼崖工农兵政府"
+ HNN_socialism:0 "琼崖临时政府"
+ HNN_socialism_DEF:0 "琼崖临时政府"
+ HNN_democratic:0 "琼崖临时政府"
+ HNN_democratic_DEF:0 "琼崖临时政府"
+ HNN_neutrality:0 "琼崖临时政府"
+ HNN_neutrality_DEF:0 "琼崖临时政府"
+ HNN_monarchism:0 "海南自由贸易区"
+ HNN_monarchism_DEF:0 "海南自由贸易区"
+ HNN_fascism:0 "海南自由贸易区"
+ HNN_fascism_DEF:0 "海南自由贸易区"
+ HNN_imperialism:0 "海南自由贸易区"
+ HNN_imperialism_DEF:0 "海南自由贸易区"
+ HNN_futurism:0 "海南自由贸易区"
+ HNN_futurism_DEF:0 "海南自由贸易区"
+ HNN_communism_ADJ:0 "琼崖"
+ HNN_anarchism_ADJ:0 "琼崖"
+ HNN_socialism_ADJ:0 "琼崖"
+ HNN_democratic_ADJ:0 "琼崖"
+ HNN_neutrality_ADJ:0 "琼崖"
+ HNN_monarchism_ADJ:0 "海南"
+ HNN_fascism_ADJ:0 "海南"
+ HNN_imperialism_ADJ:0 "海南"
+ HNN_futurism_ADJ:0 "海南"
+ HNN:0 "海南"
+ HNN_DEF:0 "海南"
+ HNN_ADJ:0 "海南"
+ #############
+ ## PARTIES ##
+ #############
+ HNN_communism_party:0 "琼崖游击队"
+ HNN_communism_party_long:0 "琼崖游击队"
+ HNN_anarchism_party:0 "琼崖游击队"
+ HNN_anarchism_party_long:0 "琼崖游击队"
+ HNN_socialism_party:0 "农工民主党"
+ HNN_socialism_party_long:0 "中国农工民主党"
+ HNN_democratic_party:0 "伍朝枢派"
+ HNN_democratic_party_long:0 "伍朝枢派"
+ HNN_neutrality_party:0 "陈绍宽派"
+ HNN_neutrality_party_long:0 "陈绍宽派"
+ HNN_monarchism_party:0 "中华帝国宪政会"
+ HNN_monarchism_party_long:0 "中华帝国宪政会"
+ HNN_fascism_party:0 "中国青年党"
+ HNN_fascism_party_long:0 "中国青年党"
+ HNN_imperialism_party:0 "战国策派"
+ HNN_imperialism_party_long:0 "战国策派"
+ HNN_futurism_party:0 "南洋开发"
+ HNN_futurism_party_long:0 "南洋开发集团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ HNN_song_ziwen:0 "宋子文"
+ HNN_song_ziwen_desc:0 "§Y出生日期§!：§G1894年12月4日§!\n§Y出生地点§!：§G大东帝国琼崖道文昌县§!\n\n年轻的§Y宋子文§!是一位天生奇才：16岁考入帝国大学，21岁获得经济学博士学位，22岁出任联华商业银行总经理。此后宋子文创办了大洲实业公司与神州信托公司，从事金融商业活动。在商业领域突飞猛进之时，作为海南省议员的宋子文草拟了一份《海南岛发展计划》。在得到国会批准后，宋子文授权在海南省积极推进现代化工程。\n\n到达海南几个月后，宋子文将麾下的企业合并为§Y南洋开发集团§!，又用行政手段巧取豪夺了许多本地企业，最终在经济上彻底控制了海南岛。在帝国内战爆发后，宋子文接管了本地政府，他用房地产巧妙地榨取臣民的血汗钱，将他们变成了南洋开发集团的契约奴工。一艘又一艘货船满载着各地军阀急需的资源往来于琼州海峡，宋子文的钱包随之鼓了起来。\n\n海南的确发展了起来：一方面，在内地饱受战乱冲突时，海南的度假村和沙滩却是一派游客云集的和平景象。另一方面，新修建的公路、铁路向着海南岛的腹地不断进发，昔日的蛮荒之地变成了种植园和矿场。一些不甘现状的人组建了§R琼崖游击队§!，但宋子文毫不在意这些宵小之辈：在贪婪的野兽吃尽血肉之前，他绝不会停下自己的暴行······"
+ HNN_chen_shaokuan:0 "陈绍宽"
+ HNN_chen_shaokuan_desc:0 "§Y出生日期§!：§G1889年§!\n§Y出生地点§!：§G大东帝国闽海道闽县§!"
+ HNN_wu_chaoshu:0 "伍朝枢"
+ HNN_wu_chaoshu_desc:0 "§Y出生日期§!：§G1887年5月23日§!\n§Y出生地点§!：§G大东帝国天津特别市§!"
+ HNN_wang_wenming:0 "王文明"
+ HNN_wang_wenming_desc:0 "§Y出生日期§!：§G1894年§!\n§Y出生地点§!：§G大东帝国琼崖道乐会县§!\n\n§Y王文明§!原本只是海南乐会县的一个普通人，与千千万万贫困家庭的孩子一样，王文明小学毕业后，由于家庭经济欠佳而辍学，在家乡附近的集市经营布匹小店。几年后王文明攒够了学费，考进§Y琼崖中学§!。中学毕业后，王文明创办了一所私立学校，为贫困家庭的孩子提供廉价的职业教育。\n\n1922年，§Y宋子文§!和§Y南洋开发集团§!来到了海南岛，准备在此大展拳脚，建设现代化的新海南。和许多海南人一样，王文明十分赞赏宋子文回报家乡的善举。然而在海南这辆大车上，宋子文是司机，普通民众只能当发动机里的燃料。\n\n王文明的噩运很快到来：他的学校被没收了，理由是打击混乱无度的私立学校乱局。接着王文明被关进了“劳动感化所” ，他才知晓学校里有几名教师竟是§R“赤匪”§!。王文明不得不白天在矿山干活，夜里割橡胶，以还清“恩人”宋子文“养活”他的费用。\n\n在251天的囚禁后，几个穿着奇怪制服的士兵闯进了“感化所”，他们自称为§R“琼崖游击队”§!。王文明经过慎重思考后选择加入他们，最终成为了这支游击队的总指挥。当宋子文割据海南一方，自以为高枕无忧之时，王文明正在策划一次袭击，目标直指南洋开发集团的大厦······"
+ HNN_feng_baiju:0 "冯白驹"
+ HNN_feng_baiju_desc:0 "§Y出生日期§!：§G1903年6月7日§!\n§Y出生地点§!：§G大东帝国琼崖道琼山县§!"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

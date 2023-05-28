@@ -1,0 +1,232 @@
+﻿l_simp_chinese:
+ ###############
+ ## DECISIONS ##
+ ###############
+ HRS_korea_unification_category:0 "东亚革命战争"
+ HRS_make_korea_states_core:0 "在[FROM.GetName]重建政权"
+ HRS_unification_of_korea:0 "结束朝鲜内战"
+ ## ROK - Republic of Korea 大韩民国临时政府
+ ## PRK - People's Republic of Korea 建国准备委员会
+ ## ANK - Anarchist Korea 韩族总联合会
+ ## KIA - Korean Independet Army 大韩独立军团
+ ## CRK - YMCA 平壤基督教青年会
+ ## KOR - Korean Volunteer Army 大韩义军府
+ ###############
+ ## KOR-Korea ##
+ ###############
+ KOR_liberal_unification_democratic:0 "大韩民国"
+ KOR_liberal_unification_democratic_DEF:0 "大韩民国"
+ KOR_liberal_unification_neutrality:0 "大韩民国"
+ KOR_liberal_unification_neutrality_DEF:0 "大韩民国"
+
+ KOR_unification_communism:0 "朝鲜社会主义人民共和国"
+ KOR_unification_communism_DEF:0 "朝鲜社会主义人民共和国" 
+ KOR_unification_anarchism:0 "朝鲜公社联邦"
+ KOR_unification_anarchism_DEF:0 "朝鲜公社联邦"  
+ KOR_unification_democratic:0 "大韩帝国"
+ KOR_unification_democratic_DEF:0 "大韩帝国"
+ KOR_unification_monarchism:0 "大韩帝国"
+ KOR_unification_monarchism_DEF:0 "大韩帝国"
+ KOR_unification_imperialism:0 "大韩帝国"
+ KOR_unification_imperialism_DEF:0 "大韩帝国"
+
+ KOR_jin_unification_neutrality:0 "东辰帝国"
+ KOR_jin_unification_neutrality_DEF:0 "东辰帝国"
+ KOR_jin_unification_monarchism:0 "东辰帝国"
+ KOR_jin_unification_monarchism_DEF:0 "东辰帝国"
+ KOR_jin_unification_imperialism:0 "东辰帝国"
+ KOR_jin_unification_imperialism_DEF:0 "东辰帝国"
+
+ KOR_china_unification_neutrality:0 "大华帝国"
+ KOR_china_unification_neutrality_DEF:0 "大华帝国"
+ KOR_china_unification_monarchism:0 "大华帝国"
+ KOR_china_unification_monarchism_DEF:0 "大华帝国"
+ KOR_china_unification_imperialism:0 "大华帝国"
+ KOR_china_unification_imperialism_DEF:0 "大华帝国"
+
+ KOR_unification_neutrality:0 "韩日合众国"
+ KOR_unification_neutrality_DEF:0 "韩日合众国"
+ KOR_unification_neutrality_ADJ:0 "韩日"
+ KOR_goguryeo_unification_neutrality:0 "大朝鲜合众国"
+ KOR_goguryeo_unification_neutrality_DEF:0 "大朝鲜合众国"
+ KOR_goguryeo_unification_neutrality_ADJ:0 "大朝鲜合众国"
+ ##################
+ ## PRK-ComKorea ##
+ ##################
+ PRK_commune_unification_communism:0 "朝鲜工农共和国"
+ PRK_commune_unification_communism_DEF:0 "朝鲜工农共和国"
+ PRK_commune_unification_anarchism:0 "朝鲜自由地区"
+ PRK_commune_unification_anarchism_DEF:0 "朝鲜自由地区"
+
+ PRK_communist_unification_communism:0 "朝鲜社会主义共和国"
+ PRK_communist_unification_communism_DEF:0 "朝鲜社会主义共和国"
+ PRK_communist_unification_anarchism:0 "朝鲜社会主义共和国"
+ PRK_communist_unification_anarchism_DEF:0 "朝鲜社会主义共和国"
+
+ PRK_socialist_unification_anarchism:0 "朝鲜人民共和国"
+ PRK_socialist_unification_anarchism_DEF:0 "朝鲜人民共和国"
+ PRK_socialist_unification_democratic:0 "朝鲜人民共和国"
+ PRK_socialist_unification_democratic_DEF:0 "朝鲜人民共和国"
+
+ PRK_military_unification_anarchism:0 "朝鲜临时人民委员会"
+ PRK_military_unification_anarchism_DEF:0 "朝鲜临时人民委员会"
+ PRK_military_unification_democratic:0 "朝鲜共和国重建政权"
+ PRK_military_unification_democratic_DEF:0 "朝鲜共和国重建政权"
+ PRK_military_unification_neutrality:0 "大韩民国军政府"
+ PRK_military_unification_neutrality_DEF:0 "大韩民国军政府"
+ 
+ PRK_unification_democratic:0 "大韩民国"
+ PRK_unification_democratic_DEF:0 "大韩民国"
+ PRK_unification_neutrality:0 "大韩民国"
+ PRK_unification_neutrality_DEF:0 "大韩民国"
+ PRK_unification_monarchism:0 "大朝鲜国"
+ PRK_unification_monarchism_DEF:0 "大朝鲜国"
+ PRK_unification_imperialism:0 "倍达民族国"
+ PRK_unification_imperialism_DEF:0 "倍达民族国"
+ ##################
+ ## ANK-AncKorea ##
+ ##################
+ ANK_unification_communism:0 "高丽民主联邦共和国"
+ ANK_unification_communism_DEF:0 "高丽民主联邦共和国"
+ ANK_unification_anarchism:0 "朝鲜自由地区"
+ ANK_unification_anarchism_DEF:0 "朝鲜自由地区"
+ ANK_unification_neutrality:0 "朝鲜自由地区"
+ ANK_unification_neutrality_DEF:0 "朝鲜自由地区"
+ ############
+ ## EVENTS ##
+ ############
+ kor_unification.1.t:0 "朝鲜新都"
+ kor_unification.1.desc:0 "在解放了朝鲜半岛后，是时候为新生的朝鲜民族国家寻找一处适合的首都了，摆在我们面前的有三个现成的答案：平壤、开城和京城。朝鲜半岛的各个政权大多选择这三座城市作为都城，而它们的经济发展状况也要好于朝鲜其它地区。也有人认为，我们现在的首都就很不错，不需要格外迁都，[ROOT.GetName]将会选择哪座城市作为我们的新首都？"
+ kor_unification.1.a:0 "平壤"
+ kor_unification.1.b:0 "开城"
+ kor_unification.1.c:0 "京城"
+ kor_unification.1.d:0 "也许有其它选择？"
+
+ kor_unification.2.t:0 "新都雅名"
+ kor_unification.2.desc:0 "在迁都开城后，有人希望恢复开城的古名开京，以彰显开城的首都身份，但是反对者认为这一名称不符合朝鲜的主流意识形态，[ROOT.GetName]将选择哪个名字作为新首都的名字？"
+ kor_unification.2.a:0 "开京"
+ kor_unification.2.b:0 "无需改动"
+
+ kor_unification.3.t:0 "新都雅名"
+ kor_unification.3.desc:0 "在迁都京城后，民众普遍希望废除象征殖民统治的京城，恢复朝鲜首都的古名。我们目前有三种选择：首尔、汉城与慰礼城。首尔本意为首都，是古代新罗王朝的首都名；慰礼城意为我们的城市，是古代百济的首都称呼；汉城来自汉江，是朝鲜王国的都城名字，也是大多数人熟知的名字。这三个名字都有可取之处，[ROOT.GetName]将选择哪个名字作为新首都的名字？"
+ kor_unification.3.a:0 "首尔"
+ kor_unification.3.b:0 "汉城"
+ kor_unification.3.c:0 "慰礼城"
+ ##################
+ ## SUPER EVENTS ##
+ ##################
+ #### 新民府 ####
+ ### 金擎天 ###
+ ank_news.1.t:0 "朝鲜光复"
+ ank_news.1.desc:0 "我崇拜创造的精神，崇拜力，崇拜血，崇拜心脏；\n我崇拜炸弹，崇拜悲哀，崇拜破坏；\n我崇拜偶像破坏者，崇拜我！\n——郭沫若"
+ ank_news.1.a:0 "白马所及之处，皆是正义"
+ ### 金佐镇 ###
+ ank_news.2.t:0 "朝鲜光复"
+ ank_news.2.desc:0 "见义勇为是我们独立军的精神，临阵不退是我们独立军的气魄。让我们奋发正义，无论成败，共同拯救沦亡的民族和祖国。\n——金佐镇"
+ ank_news.2.a:0 "白头山石磨刀尽，豆万江水饮马无"
+ ### 金元凤(安)、柳子明、白贞基 ###
+ ank_news.3.t:0 "朝鲜光复"
+ ank_news.3.desc:0 "民众是我们革命的大本营，暴力是我们革命的唯一武器。我们到民众中间和民众联合，要建立一个没有压迫也没有剥削的理想社会。\n——《朝鲜革命宣言》"
+ ank_news.3.a:0 "为了朝鲜民族，也为了全人类"
+ ### 柳林 ###
+ ank_news.4.t:0 "朝鲜光复"
+ ank_news.4.desc:0 "无政府主义是这样一种哲学，基于不受人为法律约束的自由而建立的社会新秩序；是这样一种理论，所有形式的政府都依赖暴力，因而是错误的、有害的，且非必要的。\n——爱玛·戈德曼"
+ ank_news.4.a:0 "有自由的精神，才能建起自由的国家"
+ ### 金元凤(康) ###
+ ank_news.5.t:0 "朝鲜光复"
+ ank_news.5.desc:0 "革命是战争，暴动是艺术。只有依靠朝鲜民族的血汗、炸弹与枪炮等武器，特别是民众的总暴动，才能实现朝鲜民族的完全解放。\n——金元凤"
+ ank_news.5.a:0 "向着解放前进"
+ ### 洪范图 ###
+ ank_news.6.t:0 "朝鲜光复"
+ ank_news.6.desc:0 "你们高举着红旗前进，拿着它大胆向前迈进！你们要无情的消灭敌人，要告诉全世界——社会主义的革命，她是永远不可征服的！\n——阿列克谢·卡普勒"
+ ank_news.6.a:0 "革命是历史前进的火车头"
+ ### 申采浩(安) ###
+ ank_news.7.t:0 "朝鲜光复"
+ ank_news.7.desc:0 "革命之路从破坏开始。可这不是为破坏的破坏，而是为建设的破坏，若不懂得建设就不懂得破坏，不懂得破坏就不懂得建设。\n——申采浩"
+ ank_news.7.a:0 "朝霞洒遍三千里江山"
+ ### 韩族总联合会(安) ###
+ ank_news.8.t:0 "朝鲜光复"
+ ank_news.8.desc:0 "我们必须赢——不是如同过去那样将我们都命运交由一个新的主子，而是将它掌握在自己手中，按照我们的真理观念与我们的意志去引导我们的生活。\n——内斯托尔·马赫诺"
+ ank_news.8.a:0 "没有神明，也没有主人！"
+ ### 韩族总联合会(军政府) ###
+ ank_news.9.t:0 "朝鲜光复"
+ ank_news.9.desc:0 "\n——"
+ ank_news.9.a:0 "自由已死，自由之地尚存"
+ #### 京城势力 ####
+ ### 朴宪永 ###
+ kor_news.1.t:0 "朝鲜光复"
+ kor_news.1.desc:0 "为了取得胜利，我们必须毫不犹豫地做出任何牺牲，从现在开始，我们必须谋划一场长期的战争。\n——朴宪永"
+ kor_news.1.a:0 "打败帝国主义野心狼"
+ ### 어느 나라에서든 인민은 그들의 주권과 독립을 위해서 유혈전쟁을 수행하지 않으면 안 된다. 따라서 우리는 승리를 얻기 위해 어떠한 희생도 주저해서는 안 되고 지금부터라도 장기전을 계획하지 않으면 안 된다. ###
+ ### 工团 ###
+ kor_news.2.t:0 "朝鲜光复"
+ kor_news.2.desc:0 "我尤其希望这种大众社会的现实能够被自由地打破。社会将不再是一团散沙，人们也不再是一片片碎面包屑。\n——全泰壹"
+ kor_news.2.a:0 "全世界无产者，团结起来！"
+ ### 金子文子 ###
+ kor_news.3.t:0 "朝鲜光复"
+ kor_news.3.desc:0 "当社会发生变革，那时人们会得到什么呢？领袖将会掌握权力。有了这种力量，他们将建立起新的世界秩序，人民不得不再次成为权力的奴隶。\n——金子文子"
+ ###《何が私をこうさせたか——獄中手記》：「民衆のために」と言って社会主義は動乱を起すであろう。民衆は自分達のために起ってくれた人々と共に起って生死を共にするだろう。そして社会に一つの変革が来きたったとき、ああその時民衆は果して何を得るであろうか。指導者は権力を握るであろう。その権力によって新しい世界の秩序を建てるであろう。そして民衆は再びその権力の奴隷とならなければならないのだ。 ###
+ kor_news.3.a:0 "虚无之胜利"
+ ### 朴重阳 ###
+ kor_news.4.t:0 "朝鲜光复"
+ kor_news.4.desc:0 "无需效忠一个无法捍卫其人民权利的国家。\n——朴重阳"
+ kor_news.4.a:0 "生于不义者，必将死于耻辱"
+ ### 大韩帝国 ###
+ kor_news.5.t:0 "朝鲜光复"
+ kor_news.5.desc:0 "由于朝鲜的地缘政治地位，通过武力实现独立十分困难。朝鲜与亚洲大陆相连，共产主义更容易渗透进来，但我相信朝鲜不会容忍共产党的存在。\n——李垠"
+ kor_news.5.a:0 "旧秩序归来"
+ #### 临时政府 ####
+ ### 李东辉(康) ###
+ prk_news.1.t:0 "朝鲜光复"
+ prk_news.1.desc:0 "打败帝国主义，光靠几个人和一部分独立运动者是不可能达成的，要将最多数的无产者组织起来，建立一个坚强的政党，团结多数才有力量。\n——李东辉"
+ prk_news.1.a:0 "飘扬新旗帜下，三千万人同进发"
+ ### 李东辉(社) ###
+ prk_news.2.t:0 "朝鲜光复"
+ prk_news.2.desc:0 "民族主义抨击同化、统一、集权、专制、霸道的国家组织和结构，社会主义打击资本主义政权、私有财产和以工资为代表的现代形式的奴隶制。\n——安德烈斯·宁"
+ prk_news.2.a:0 "自由朝鲜，人民的共和国"
+ ### 金九(左翼) ###
+ prk_news.3.t:0 "朝鲜光复"
+ prk_news.3.desc:0 "用一个人的思想、一种学说的原理来统治人民，一时也许可以见到迅速的功效，但毕竟会出现问题，将引起辩证法的暴力革命。\n——金九"
+ prk_news.3.a:0 "大韩人民走大韩路"
+ ### 金九(右翼) ###
+ prk_news.4.t:0 "朝鲜光复"
+ prk_news.4.desc:0 "独裁中最可怖的形态是以某种主义，即以哲学为基础的阶级独裁。共产主义者提倡的民主是诸种独裁中最恶劣的，它将独裁的各种特质发挥到了极点。\n——金九"
+ prk_news.4.a:0 "守土惟以大韩心"
+ ### 吕运亨 ###
+ prk_news.5.t:0 "朝鲜光复"
+ prk_news.5.desc:0 "朝鲜独立运动是世界上最伟大的事业，是上帝的意愿，是人民的觉醒。我们要建设人民当家作主、民享民治的民主共和国。\n——吕运亨"
+ prk_news.5.a:0 "自由之春，朝鲜的春晓"
+ ### 金佐镇 ###
+ prk_news.6.t:0 "朝鲜光复"
+ prk_news.6.desc:0 "\n——"
+ prk_news.6.a:0 ""
+ ### 安昌浩 ###
+ prk_news.7.t:0 "朝鲜光复"
+ prk_news.7.desc:0 "我不怕死，但同胞们所遭受的苦痛让我心痛不已。帝国终将因为自己发动的战争而灭亡。所以，不管多么辛苦请坚持住，共同努力。\n——安昌浩"
+ prk_news.7.a:0 "直到东海干枯，白头山朽烂"
+ ### 李承晚 ###
+ prk_news.8.t:0 "朝鲜光复"
+ prk_news.8.desc:0 "我国人民应当明白，重新获得国家独立是多么困苦艰难。我们要以不幸的历史为鉴，不再让任何人背上奴隶的枷锁，这是我寄予我国人民的意愿。\n——李承晚"
+ prk_news.8.a:0 "至少比别人好······"
+ ### 洪范图 ###
+ prk_news.9.t:0 "朝鲜光复"
+ prk_news.9.desc:0 "强台风过后的月夜，你们跳起白衣民族的舞蹈。东海亿兆波浪苍茫，鼓和钟 悠扬地响彻东海\n——高银"
+ prk_news.9.a:0 "光自暗来"
+ ### 池青天 ###
+ prk_news.10.t:0 "朝鲜光复"
+ prk_news.10.desc:0 "让我们为祖国而战，当战斗疲敝之时，满洲广袤的原野就是我们的铺盖。\n——池青天"
+ prk_news.10.a:0 "直到独立门上自由之钟敲响"
+ ### 李范奭 ###
+ prk_news.11.t:0 "李朝鲜光复"
+ prk_news.11.desc:0 "祖国是司空见惯的词汇，是人们不假思索就会使用的词汇。但是在我看来，没有哪个词能像‘祖国’一样，对全人类和各个民族产生如此重大的影响。\n——李范奭"
+ prk_news.11.a:0 "为保护祖国，不惜一切"
+ ### 조국! 너무나 흔하게 쓰이는 말이고, 또 생각 없이 불리며 일컬어지는 단어다. 그러나 조국이라는 이 두 글자처럼 온 인류, 각 민족에게 제 각기 강력한 작용과 위대한 영향을 끼친 것은 다시 없으리라 본다. 아니 그렇게 믿는다. 믿는 것이 옳은 내 견해이고, 내 체험의 소산이다. ###
+ ### 大朝鲜国 ###
+ prk_news.12.t:0 "朝鲜光复"
+ prk_news.12.desc:0 "自永历丧亡以至庚子，二百三十有九年，诸夏之常主，自非朝鲜，抑孰有具位者乎？\n——章太炎"
+ prk_news.12.a:0 "旧秩序归来"
+ ### 申采浩(极民) ###
+ prk_news.13.t:0 "朝鲜光复"
+ prk_news.13.desc:0 "一个民族只要有独立自由的精神，就算不存在国土和主权，其心目中的国家就是完整的，其心中的国家就会雄飞，其国民的头上自有国家的天空。\n——申采浩"
+ prk_news.13.a:0 "五千年历史的倍达民族，永远繁荣"
+ 

@@ -1,0 +1,57 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ SRV_communism:0 "义静工农代表政府"
+ SRV_communism_DEF:0 "义静工农代表政府"
+ SRV_anarchism:0 "义静工农代表政府"
+ SRV_anarchism_DEF:0 "义静工农代表政府"
+ SRV_democratic:0 "义静工农代表政府"
+ SRV_democratic_DEF:0 "义静工农代表政府"
+ SRV_neutrality:0 "义静工农代表政府"
+ SRV_neutrality_DEF:0 "义静工农代表政府"
+ SRV_monarchism:0 "义静工农代表政府"
+ SRV_monarchism_DEF:0 "义静工农代表政府"
+ SRV_fascism:0 "义静工农代表政府"
+ SRV_fascism_DEF:0 "义静工农代表政府"
+ SRV_imperialism:0 "义静工农代表政府"
+ SRV_imperialism_DEF:0 "义静工农代表政府"
+ SRV_futurism:0 "义静工农代表政府"
+ SRV_futurism_DEF:0 "义静工农代表政府"
+ SRV_communism_ADJ:0 "义静"
+ SRV_anarchism_ADJ:0 "义静"
+ SRV_democratic_ADJ:0 "义静"
+ SRV_neutrality_ADJ:0 "义静"
+ SRV_monarchism_ADJ:0 "义静"
+ SRV_fascism_ADJ:0 "义静"
+ SRV_imperialism_ADJ:0 "义静"
+ SRV_futurism_ADJ:0 "义静"
+ #############
+ ## PARTIES ##
+ #############
+ SRV_communism_party:0 "越共"
+ SRV_communism_party_long:0 "越南共产党"
+ SRV_anarchism_party:0 "农民协会"
+ SRV_anarchism_party_long:0 "义静农民协会"
+ SRV_socialism_party:0 "新越党"
+ SRV_socialism_party_long:0 "新越革命党"
+ SRV_democratic_party:0 "越国党"
+ SRV_democratic_party_long:0 "越南国民党"
+ SRV_neutrality_party:0 "赤卫队"
+ SRV_neutrality_party_long:0 "义静赤卫队"
+ SRV_monarchism_party:0 "勤王运动"
+ SRV_monarchism_party_long:0 "勤王运动"
+ SRV_fascism_party:0 "复国会"
+ SRV_fascism_party_long:0 "越南复国会"
+ SRV_imperialism_party:0 "复国会"
+ SRV_imperialism_party_long:0 "越南复国会"
+ SRV_futurism_party:0 "技术官僚"
+ SRV_futurism_party_long:0 "技术官僚"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ SRV_tran_phu:0 "陈富"

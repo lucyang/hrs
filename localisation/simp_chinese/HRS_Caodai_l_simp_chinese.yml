@@ -1,0 +1,60 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ CAD_communism:0 "西宁圣座"
+ CAD_communism_DEF:0 "西宁圣座"
+ CAD_anarchism:0 "西宁圣座"
+ CAD_anarchism_DEF:0 "西宁圣座"
+ CAD_socialism:0 "西宁圣座"
+ CAD_socialism_DEF:0 "西宁圣座"
+ CAD_democratic:0 "西宁圣座"
+ CAD_democratic_DEF:0 "西宁圣座"
+ CAD_neutrality:0 "西宁圣座"
+ CAD_neutrality_DEF:0 "西宁圣座"
+ CAD_monarchism:0 "西宁圣座"
+ CAD_monarchism_DEF:0 "西宁圣座"
+ CAD_fascism:0 "西宁圣座"
+ CAD_fascism_DEF:0 "西宁圣座"
+ CAD_imperialism:0 "西宁圣座"
+ CAD_imperialism_DEF:0 "西宁圣座"
+ CAD_futurism:0 "西宁圣座"
+ CAD_futurism_DEF:0 "西宁圣座"
+ CAD_communism_ADJ:0 "圣座"
+ CAD_anarchism_ADJ:0 "圣座"
+ CAD_democratic_ADJ:0 "圣座"
+ CAD_neutrality_ADJ:0 "圣座"
+ CAD_monarchism_ADJ:0 "圣座"
+ CAD_fascism_ADJ:0 "圣座"
+ CAD_imperialism_ADJ:0 "圣座"
+ CAD_futurism_ADJ:0 "圣座"
+ #############
+ ## PARTIES ##
+ #############
+ CAD_communism_party:0 "越共南方局"
+ CAD_communism_party_long:0 "越南共产党(南方局)"
+ CAD_anarchism_party:0 "高台救国会"
+ CAD_anarchism_party_long:0 "高台救国会"
+ CAD_socialism_party:0 "越南国民党"
+ CAD_socialism_party_long:0 "越南国民党"
+ CAD_democratic_party:0 "越南光复会"
+ CAD_democratic_party_long:0 "越南光复会"
+ CAD_neutrality_party:0 "高台教廷"
+ CAD_neutrality_party_long:0 "高台教廷"
+ CAD_monarchism_party:0 "高台教廷"
+ CAD_monarchism_party_long:0 "高台教廷"
+ CAD_fascism_party:0 "越南光复会"
+ CAD_fascism_party_long:0 "越南光复会"
+ CAD_imperialism_party:0 "平川部队"
+ CAD_imperialism_party_long:0 "平川部队"
+ CAD_futurism_party:0 "技术官僚"
+ CAD_futurism_party_long:0 "技术官僚"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ CAD_nguyen_van_ngoi:0 "阮文谊"
+ CAD_le_van_trung:0 "黎文忠"

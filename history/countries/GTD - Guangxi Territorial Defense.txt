@@ -1,0 +1,64 @@
+﻿capital = 348 #梧州
+
+recruit_character = GTD_shen_hongying
+
+#oob = "empty"
+set_country_flag = is_china_nation
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	basic_train = 1
+	gw_artillery = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	fuel_refining = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+set_research_slots = 1
+set_convoys = 10
+set_stability = 0.50
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1923.10.30"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+	closed_economy
+	limited_conscription
+	war_economy
+}
+add_ideas = {
+	country_development2
+	country_tech2
+	unitary_state2
+	dirigisme_economy
+}
+
+set_popularities = {
+	communism = 0
+	anarchism = 0
+	socialism = 0
+	democratic = 10
+	neutrality = 70
+	monarchism = 6
+	fascism = 14
+	imperialism = 0
+	futurism = 0
+}

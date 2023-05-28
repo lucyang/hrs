@@ -1,0 +1,16 @@
+characters = {
+	CTN_ou_jujia = {
+		name = CTN_ou_jujia
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LGG/Portrait_Ou_Jujia.png"
+			}
+		}
+		country_leader = {
+			ideology=corporatism_subtype
+			desc = CTN_ou_jujia_desc
+			traits = { the_bloody_professor }
+			expire = "1950.1.1.1"
+		}
+	}
+}

@@ -1,0 +1,77 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ TSM_communism:0 "对马国"
+ TSM_communism_DEF:0 "对马国"
+ TSM_anarchism:0 "对马国"
+ TSM_anarchism_DEF:0 "对马国"
+ TSM_socialism:0 "对马国"
+ TSM_socialism_DEF:0 "对马国"
+ TSM_democratic:0 "对马国"
+ TSM_democratic_DEF:0 "对马国"
+ TSM_neutrality:0 "对马国"
+ TSM_neutrality_DEF:0 "对马国"
+ TSM_monarchism:0 "对马国"
+ TSM_monarchism_DEF:0 "对马国"
+ TSM_fascism:0 "对马国"
+ TSM_fascism_DEF:0 "对马国"
+ TSM_imperialism:0 "对马国"
+ TSM_imperialism_DEF:0 "对马国"
+ TSM_futurism:0 "对马国"
+ TSM_futurism_DEF:0 "对马国"
+ TSM_communism_ADJ:0 "对马"
+ TSM_anarchism_ADJ:0 "对马"
+ TSM_socialism_ADJ:0 "对马"
+ TSM_democratic_ADJ:0 "对马"
+ TSM_neutrality_ADJ:0 "对马"
+ TSM_monarchism_ADJ:0 "对马"
+ TSM_fascism_ADJ:0 "对马"
+ TSM_imperialism_ADJ:0 "对马"
+ TSM_futurism_ADJ:0 "对马"
+ TSM:0 "对马"
+ TSM_DEF:0 "对马"
+ TSM_ADJ:0 "对马"
+ #############
+ ## PARTIES ##
+ #############
+ TSM_communism_party:0 "日本共产党"
+ TSM_communism_party_long:0 "日本共产党"
+ TSM_anarchism_party:0 "民工"
+ TSM_anarchism_party_long:0 "民工"
+ TSM_socialism_party:0 "无产政党"
+ TSM_socialism_party_long:0 "无产政党"
+ TSM_democratic_party:0 "农本社会党"
+ TSM_democratic_party_long:0 "农本社会党"
+ TSM_neutrality_party:0 "农民决死队"
+ TSM_neutrality_party_long:0 "农民决死队"
+ TSM_monarchism_party:0 "宗家"
+ TSM_monarchism_party_long:0 "宗家"
+ TSM_fascism_party:0 "爱乡会"
+ TSM_fascism_party_long:0 "爱乡会"
+ TSM_imperialism_party:0 "血盟团"
+ TSM_imperialism_party_long:0 "血盟团"
+ TSM_futurism_party:0 "犹存社"
+ TSM_futurism_party_long:0 "犹存社"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ TSM_tachibana_kozaburo:0 "橘孝三郎"
+ TSM_tachibana_kozaburo_desc:0 "§Y出生日期§!：§G1893年3月18日§!\n§Y出生地点§!：§G大东帝国东海道茨城县§!"
+ ############
+ ## TRAITS ##
+ ############
+ 
+ ###########
+ ## IDEAS ##
+ ###########
+ TSM_ketsumeidan:0 "决死队"
+ TSM_kesshitai:0 "血盟团"
+ TSM_young_turks:0 "海军少壮派"
+ ############
+ ## EVENTS ##
+ ############

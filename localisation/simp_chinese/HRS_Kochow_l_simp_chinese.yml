@@ -1,0 +1,70 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ KCH_communism:0 "高州临时政府"
+ KCH_communism_DEF:0 "高州临时政府"
+ KCH_anarchism:0 "高州临时政府"
+ KCH_anarchism_DEF:0 "高州临时政府"
+ KCH_socialism:0 "高州临时政府"
+ KCH_socialism_DEF:0 "高州临时政府"
+ KCH_democratic:0 "高州临时政府"
+ KCH_democratic_DEF:0 "高州临时政府"
+ KCH_neutrality:0 "高州临时政府"
+ KCH_neutrality_DEF:0 "高州临时政府"
+ KCH_monarchism:0 "高州临时政府"
+ KCH_monarchism_DEF:0 "高州临时政府"
+ KCH_fascism:0 "高州临时政府"
+ KCH_fascism_DEF:0 "高州临时政府"
+ KCH_imperialism:0 "高州临时政府"
+ KCH_imperialism_DEF:0 "高州临时政府"
+ KCH_futurism:0 "高州临时政府"
+ KCH_futurism_DEF:0 "高州临时政府"
+ KCH_communism_ADJ:0 "高州"
+ KCH_anarchism_ADJ:0 "高州"
+ KCH_socialism_ADJ:0 "高州"
+ KCH_democratic_ADJ:0 "高州"
+ KCH_neutrality_ADJ:0 "高州"
+ KCH_monarchism_ADJ:0 "高州"
+ KCH_fascism_ADJ:0 "高州"
+ KCH_imperialism_ADJ:0 "高州"
+ KCH_futurism_ADJ:0 "高州"
+ KCH:0 "高州"
+ KCH_DEF:0 "高州"
+ KCH_ADJ:0 "高州"
+ #############
+ ## PARTIES ##
+ #############
+ KCH_communism_party:0 "社民农工党"
+ KCH_communism_party_long:0 "中国社会民主农工党"
+ KCH_anarchism_party:0 "无治共产主义同志社"
+ KCH_anarchism_party_long:0 "无治共产主义同志社"
+ KCH_socialism_party:0 "广东工会联合会"
+ KCH_socialism_party_long:0 "广东工会联合会"
+ KCH_democratic_party:0 "中国革命党"
+ KCH_democratic_party_long:0 "中国革命党"
+ KCH_neutrality_party:0 "高州临时政府"
+ KCH_neutrality_party_long:0 "高州临时政府"
+ KCH_monarchism_party:0 "广东自治会"
+ KCH_monarchism_party_long:0 "广东自治会"
+ KCH_fascism_party:0 "广东独立协会"
+ KCH_fascism_party_long:0 "广东独立协会"
+ KCH_imperialism_party:0 "客家大同会"
+ KCH_imperialism_party_long:0 "客家大同会"
+ KCH_futurism_party:0 "南洋开发集团"
+ KCH_futurism_party_long:0 "南洋开发集团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ KCH_lin_yunhai:0 "林云陔"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

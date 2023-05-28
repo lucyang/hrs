@@ -1,0 +1,74 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ NAG_communism:0 "那加兰人民共和国"
+ NAG_communism_DEF:0 "那加兰人民共和国"
+ NAG_anarchism:0 "那加兰社会主义共和国"
+ NAG_anarchism_DEF:0 "那加兰社会主义共和国"
+ NAG_democratic:0 "那加兰共和国"
+ NAG_democratic_DEF:0 "那加兰共和国"
+ NAG_neutrality:0 "那加兰邦"
+ NAG_neutrality_DEF:0 "那加兰邦"
+ NAG_monarchism:0 "那加兰王国"
+ NAG_monarchism_DEF:0 "那加兰王国"
+ NAG_fascism:0 "那加兰民族共和国"
+ NAG_fascism_DEF:0 "那加兰民族共和国"
+ NAG_imperialism:0 "那加兰国"
+ NAG_imperialism_DEF:0 "那加兰国"
+ NAG_futurism:0 "那加兰人民国"
+ NAG_futurism_DEF:0 "那加兰人民国"
+ NAG_communism_ADJ:0 "那加"
+ NAG_anarchism_ADJ:0 "那加"
+ NAG_democratic_ADJ:0 "那加"
+ NAG_neutrality_ADJ:0 "那加"
+ NAG_monarchism_ADJ:0 "那加"
+ NAG_fascism_ADJ:0 "那加"
+ NAG_imperialism_ADJ:0 "那加"
+ NAG_futurism_ADJ:0 "那加"
+ NAG:0 "那加兰"
+ NAG_DEF:0 "那加兰"
+ NAG_ADJ:0 "那加"
+ #############
+ ## PARTIES ##
+ #############
+ NAG_communism_party:0 "民族委员会(极左翼)"
+ NAG_communism_party_long:0 "那加兰民族委员会(极左翼)"
+ NAG_anarchism_party:0 "民族委员会(左翼)"
+ NAG_anarchism_party_long:0 "那加兰民族委员会(左翼)"
+ NAG_democratic_party:0 "民族委员会(右翼)"
+ NAG_democratic_party_long:0 "那加兰民族委员会(右翼)" # Naga National Council
+ NAG_neutrality_party:0 "山民部落会议"
+ NAG_neutrality_party_long:0 "那加兰山民部落会议" # Naga Hills District Tribal Council
+ NAG_monarchism_party:0 "赫拉卡教团"
+ NAG_monarchism_party_long:0 "赫拉卡教团" # Heraka Movement
+ NAG_fascism_party:0 "大缅甸党"
+ NAG_fascism_party_long:0 "大缅甸党"
+ NAG_imperialism_party:0 "大缅甸党"
+ NAG_imperialism_party_long:0 "大缅甸党"
+ NAG_futurism_party:0 "西南制药"
+ NAG_futurism_party_long:0 "西南制药"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ NAG_tribes:0 "自治土邦"
+ NAG_haipou_jadonang:0 "海颇·杰多南"
+ NAG_rani_gaidinliu:0 "盖丁柳女王"
+ ## IDEAS ##
+ ###########
+
+ #################
+ ### DECISIONS ###
+ ################# 
+
+ ################
+ ## FOCUS TREE ##
+ ################
+ 
+ #############
+ ### EVENT ###
+ #############

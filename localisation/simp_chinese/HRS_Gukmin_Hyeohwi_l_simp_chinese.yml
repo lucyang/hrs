@@ -1,0 +1,73 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ GMH_communism:0 "朝鲜自治邦"
+ GMH_communism_DEF:0 "朝鲜自治邦"
+ GMH_anarchism:0 "朝鲜自治邦"
+ GMH_anarchism_DEF:0 "朝鲜自治邦"
+ GMH_socialism:0 "朝鲜自治邦"
+ GMH_socialism_DEF:0 "朝鲜自治邦"
+ GMH_democratic:0 "朝鲜自治邦"
+ GMH_democratic_DEF:0 "朝鲜自治邦"
+ GMH_neutrality:0 "朝鲜自治邦"
+ GMH_neutrality_DEF:0 "朝鲜自治邦"
+ GMH_monarchism:0 "朝鲜自治邦"
+ GMH_monarchism_DEF:0 "朝鲜自治邦"
+ GMH_fascism:0 "朝鲜自治邦"
+ GMH_fascism_DEF:0 "朝鲜自治邦"
+ GMH_imperialism:0 "朝鲜自治邦"
+ GMH_imperialism_DEF:0 "朝鲜自治邦"
+ GMH_futurism:0 "朝鲜自治邦"
+ GMH_futurism_DEF:0 "朝鲜自治邦"
+ GMH_communism_ADJ:0 "朝鲜自治邦"
+ GMH_anarchism_ADJ:0 "朝鲜自治邦"
+ GMH_socialism_ADJ:0 "朝鲜自治邦"
+ GMH_democratic_ADJ:0 "朝鲜自治邦"
+ GMH_neutrality_ADJ:0 "朝鲜自治邦"
+ GMH_monarchism_ADJ:0 "朝鲜自治邦"
+ GMH_fascism_ADJ:0 "朝鲜自治邦"
+ GMH_imperialism_ADJ:0 "朝鲜自治邦"
+ GMH_futurism_ADJ:0 "朝鲜自治邦"
+ GMH:0 "朝鲜"
+ GMH_DEF:0 "朝鲜"
+ GMH_ADJ:0 "朝鲜"
+ #############
+ ## PARTIES ##
+ #############
+ GMH_communism_party:0 ""朝鲜共产党"
+ GMH_communism_party_long:0 "朝鲜共产党"
+ GMH_anarchism_party:0 "朝鲜农民联盟"
+ GMH_anarchism_party_long:0 "朝鲜农民联盟"
+ GMH_socialism_party:0 "朝鲜人民党"
+ GMH_socialism_party_long:0 "朝鲜人民党"
+ GMH_democratic_party:0 "国民协会 - 自治派"
+ GMH_democratic_party_long:0 "国民协会 - 自治派"
+ GMH_neutrality_party:0 "国民协会 - 稳健派"
+ GMH_neutrality_party_long:0 "国民协会 - 稳健派"
+ GMH_monarchism_party:0 "国民协会 - 保守派"
+ GMH_monarchism_party_long:0 "国民协会 - 保守派"
+ GMH_fascism_party:0 "国民协会 - 革新派"
+ GMH_fascism_party_long:0 "国民协会 - 革新派" #국민협회
+ GMH_imperialism_party:0 "国民协会 - 泛亚派"
+ GMH_imperialism_party_long:0 "国民协会 - 泛亚派"
+ GMH_futurism_party:0 "白白教"
+ GMH_futurism_party_long:0 "白白教"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ GMH_pak_chungyang:0 "朴重阳"
+ GMH_pak_chungyang_desc:0 "§Y出生日期§!：§G1872年5月3日§!\n§Y出生地点§!：§G朝鲜国京畿道杨州郡§!"
+ GMH_min_wonsik:0 "閔元植" #민원식
+ GMH_min_wonsik_desc:0 "§Y出生日期§!：§G1886年7月12日§!\n§Y出生地点§!：§G朝鲜国京畿道阳平郡§!"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

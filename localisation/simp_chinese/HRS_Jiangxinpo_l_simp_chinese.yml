@@ -1,0 +1,68 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ JXP_communism:0 "西南青年劳动营"
+ JXP_communism_DEF:0 "西南青年劳动营"
+ JXP_anarchism:0 "西南青年劳动营"
+ JXP_anarchism_DEF:0 "西南青年劳动营"
+ JXP_democratic:0 "西南青年劳动营"
+ JXP_democratic_DEF:0 "西南青年劳动营"
+ JXP_neutrality:0 "西南青年劳动营"
+ JXP_neutrality_DEF:0 "西南青年劳动营"
+ JXP_monarchism:0 "西南青年劳动营"
+ JXP_monarchism_DEF:0 "西南青年劳动营"
+ JXP_fascism:0 "西南青年劳动营"
+ JXP_fascism_DEF:0 "西南青年劳动营"
+ JXP_imperialism:0 "西南青年劳动营"
+ JXP_imperialism_DEF:0 "西南青年劳动营"
+ JXP_futurism:0 "西南青年劳动营"
+ JXP_futurism_DEF:0 "西南青年劳动营"
+ JXP_communism_ADJ:0 "江心坡"
+ JXP_anarchism_ADJ:0 "江心坡"
+ JXP_democratic_ADJ:0 "江心坡"
+ JXP_neutrality_ADJ:0 "江心坡"
+ JXP_monarchism_ADJ:0 "江心坡"
+ JXP_fascism_ADJ:0 "江心坡"
+ JXP_imperialism_ADJ:0 "江心坡"
+ JXP_futurism_ADJ:0 "江心坡"
+ JXP:0 "江心坡"
+ JXP_DEF:0 "江心坡"
+ JXP_ADJ:0 "江心坡"
+ #############
+ ## PARTIES ##
+ #############
+ JXP_communism_party:0 "云南革新社"
+ JXP_communism_party_long:0 "云南革新社"
+ JXP_anarchism_party:0 "劳动组合书记部"
+ JXP_anarchism_party_long:0 "中国劳动组合书记部"
+ JXP_socialism_party:0 "农工民主党"
+ JXP_socialism_party_long:0 "中国农工民主党"
+ JXP_democratic_party:0 "变节官僚"
+ JXP_democratic_party_long:0 "变节官僚"
+ JXP_neutrality_party:0 "宪兵队本部"
+ JXP_neutrality_party_long:0 "宪兵队本部"
+ JXP_monarchism_party:0 "特殊高等警察"
+ JXP_monarchism_party_long:0 "特殊高等警察"
+ JXP_fascism_party:0 "中国青年党"
+ JXP_fascism_party_long:0 "中国青年党"
+ JXP_imperialism_party:0 "战国策派"
+ JXP_imperialism_party_long:0 "战国策派"
+ JXP_futurism_party:0 "喜洲商会"
+ JXP_futurism_party_long:0 "永昌祥集团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ JXP_amakasu_masahiko:0 "甘粕正彦"
+ JXP_amakasu_masahiko_desc:0 "§Y出生日期§!：§G1891年1月26日§!\n§Y出生地点§!：§G大东帝国九州道宫城县§!\n\n§Y甘粕正彦§!是一名米泽藩前武士的长子，他就读于三重县和名古屋的军事寄宿学校，于1912年就读于§Y保定陆军士官学校§!。毕业后他先担任步兵，后来在日本和朝鲜半岛以宪兵的身份担任各种职位。\n\n1921年，甘粕正彦作为随从武官来到巴黎，在参观了凡尔赛宫和卢浮宫后，他产生了对美术和音乐的浓厚兴趣。回国后的甘粕正彦忘记了宪兵队的本职工作，终日流连于电影院与画廊，因不守军纪而被“流放”到§Y江心坡§!做劳改营看守。在劳改营中，甘粕正彦结识了很多政治犯，还帮助过许多人免受狱卒的毒打，逐渐有了声望。\n\n甘粕正彦绝非善类，他通过私人关系网倒卖香烟和茶叶，试图用鸦片控制劳改犯。更有可怕的传言说，甘粕正彦勾搭上了联合制药的老板§Y刘文彩§!，允许他们用得了性病的妓女感染囚犯，以获得人体实验数据。这一切都偏离了帝国设置§Y“青年劳动营”§!的初衷——政治激进主义是一种心理疾病，只有通过道德与劳动才能治愈。显然，甘粕正彦已经偏离了§R正道§!。\n\n当逮捕令到达江心坡时，帝国秩序已然土崩瓦解。甘粕正彦从暗中走出，成为了劳改营实质上的统治者。甘粕正彦的统治地位并不牢固，一小批劳改犯仍在暗地里对抗他的统治，一些变节狱卒也参与了他们的行动。甘粕正彦不打算采取暴力解决反抗者，因为他找到了更加有效的办法，可以从精神上§R彻底控制§!这些社会渣滓······"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

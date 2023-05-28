@@ -1,0 +1,71 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ GLK_communism:0 "果洛部族"
+ GLK_communism_DEF:0 "果洛部族"
+ GLK_anarchism:0 "果洛部族"
+ GLK_anarchism_DEF:0 "果洛部族"
+ GLK_socialism:0 "果洛部族"
+ GLK_socialism_DEF:0 "果洛部族"
+ GLK_democratic:0 "果洛部族"
+ GLK_democratic_DEF:0 "果洛部族"
+ GLK_neutrality:0 "果洛部族"
+ GLK_neutrality_DEF:0 "果洛部族"
+ GLK_monarchism:0 "果洛部族"
+ GLK_monarchism_DEF:0 "果洛部族"
+ GLK_fascism:0 "果洛部族"
+ GLK_fascism_DEF:0 "果洛部族"
+ GLK_imperialism:0 "果洛部族"
+ GLK_imperialism_DEF:0 "果洛部族"
+ GLK_futurism:0 "果洛部族"
+ GLK_futurism_DEF:0 "果洛部族"
+ GLK_communism_ADJ:0 "果洛"
+ GLK_anarchism_ADJ:0 "果洛"
+ GLK_socialism_ADJ:0 "果洛"
+ GLK_democratic_ADJ:0 "果洛"
+ GLK_neutrality_ADJ:0 "果洛"
+ GLK_monarchism_ADJ:0 "果洛"
+ GLK_fascism_ADJ:0 "果洛"
+ GLK_imperialism_ADJ:0 "果洛"
+ GLK_futurism_ADJ:0 "果洛"
+ GLK:0 "果洛"
+ GLK_DEF:0 "果洛"
+ GLK_ADJ:0 "果洛"
+ #############
+ ## PARTIES ##
+ #############
+ GLK_communism_party:0 "西藏共产党"
+ GLK_communism_party_long:0 "西藏共产党"
+ GLK_anarchism_party:0 "西藏共产党"
+ GLK_anarchism_party_long:0 "西藏共产党"
+ GLK_socialism_party:0 "西藏改革党"
+ GLK_socialism_party_long:0 "西藏改革党"
+ GLK_democratic_party:0 "回教俱进会"
+ GLK_democratic_party_long:0 "中国回教俱进会"
+ GLK_neutrality_party:0 "部族头人 - 噶厦派"
+ GLK_neutrality_party_long:0 "部族头人 - 噶厦派"
+ GLK_monarchism_party:0 "部族头人 - 传统派"
+ GLK_monarchism_party_long:0 "部族头人 - 传统派"
+ GLK_fascism_party:0 "回教联合会"
+ GLK_fascism_party_long:0 "中国回教联合会"
+ GLK_imperialism_party:0 "卫教志愿军"
+ GLK_imperialism_party_long:0 "卫教志愿军"
+ GLK_futurism_party:0 "晋商财团"
+ GLK_futurism_party_long:0 "晋商财团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ GLK_golok_tribes:0 "果洛部族"
+ GLK_golok_tribes_desc:0 ""
+ #############
+ # Decisions #
+ #############
+
+ #################
+ # GLKER BALANCE #
+ #################

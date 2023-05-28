@@ -1,0 +1,74 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ NJS_communism:0 "苏淮特别行政区"
+ NJS_communism_DEF:0 "苏淮特别行政区"
+ NJS_anarchism:0 "苏淮特别行政区"
+ NJS_anarchism_DEF:0 "苏淮特别行政区"
+ NJS_socialism:0 "苏淮特别行政区"
+ NJS_socialism_DEF:0 "苏淮特别行政区"
+ NJS_democratic:0 "苏淮特别行政区"
+ NJS_democratic_DEF:0 "苏淮特别行政区"
+ NJS_neutrality:0 "苏淮特别行政区"
+ NJS_neutrality_DEF:0 "苏淮特别行政区"
+ NJS_monarchism:0 "苏淮特别行政区"
+ NJS_monarchism_DEF:0 "苏淮特别行政区"
+ NJS_fascism:0 "苏淮特别行政区"
+ NJS_fascism_DEF:0 "苏淮特别行政区"
+ NJS_imperialism:0 "苏淮特别行政区"
+ NJS_imperialism_DEF:0 "苏淮特别行政区"
+ NJS_futurism:0 "苏淮特别行政区"
+ NJS_futurism_DEF:0 "苏淮特别行政区"
+ NJS_communism_ADJ:0 "苏淮特区"
+ NJS_anarchism_ADJ:0 "苏淮特区"
+ NJS_democratic_ADJ:0 "苏淮特区"
+ NJS_neutrality_ADJ:0 "苏淮特区"
+ NJS_monarchism_ADJ:0 "苏淮特区"
+ NJS_fascism_ADJ:0 "苏淮特区"
+ NJS_imperialism_ADJ:0 "苏淮特区"
+ NJS_futurism_ADJ:0 "苏淮特区"
+ NJS:0 "苏淮特区"
+ NJS_DEF:0 "苏淮特区"
+ NJS_ADJ:0 "苏淮特区"
+ #############
+ ## PARTIES ##
+ #############
+ NJS_communism_party:0 "社民农工党"
+ NJS_communism_party_long:0 "中国社会民主农工党"
+ NJS_anarchism_party:0 "中国新村社"
+ NJS_anarchism_party_long:0 "中国新村社"
+ NJS_socialism_party:0 "中国民主政团同盟"
+ NJS_socialism_party_long:0 "中国民主政团同盟"
+ NJS_democratic_party:0 "中华革命党"
+ NJS_democratic_party_long:0 "中华革命党"
+ NJS_neutrality_party:0 "苏淮特区政府"
+ NJS_neutrality_party_long:0 "苏淮特别区行政长官公署"
+ NJS_monarchism_party:0 "黄道会"
+ NJS_monarchism_party_long:0 "黄道会"
+ NJS_fascism_party:0 "中国新民会"
+ NJS_fascism_party_long:0 "中国新民会"
+ NJS_imperialism_party:0 "战国策派"
+ NJS_imperialism_party_long:0 "战国策派"
+ NJS_futurism_party:0 "技术官僚"
+ NJS_futurism_party_long:0 "技术官僚"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ NJS_hao_peng:0 "郝鹏"
+ NJS_hao_peng_desc:0 "§Y出生日期§!：§G1869年§!\n§Y出生地点§!：§G大东帝国南宁道南宁府§!"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############
+ 
+ ##############
+ ## TOOLTIPS ##
+ ##############

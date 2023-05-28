@@ -1,0 +1,14 @@
+﻿l_simp_chinese:
+ MAPMODE_HRS_CULTURE_MAP_MODE:0 "§H文化§!地图模式"
+ MAPMODE_HRS_CULTURE_MAP_MODE_NAME:0 "文化"
+ MAPMODE_HRS_CULTURE_MAP_MODE_DESCRIPTION:0 "展示全世界的§Y文化§!分布。"
+
+ hrs_culture_map_mode_tooltip:0 "[FROM.GetNationality]"
+ hrs_culture_map_mode_tooltip_delayed:0 "§Y[FROM.Controller.GetNameWithFlag]§!: [FROM.GetName]的主流文化为[FROM.GetNationality]。"
+
+ MAPMODE_HRS_PREFECTURE_MAP_MODE:0 "§H行政区划§!地图模式"
+ MAPMODE_HRS_PREFECTURE_MAP_MODE_NAME:0 "行政区划"
+ MAPMODE_HRS_PREFECTURE_MAP_MODE_DESCRIPTION:0 "展示大东帝国的§Y行政区划§!。"
+
+ hrs_prefecture_map_mode_tooltip:0 "[FROM.GetPrefecture]"
+ hrs_prefecture_map_mode_tooltip_delayed:0 "§Y[FROM.Controller.GetNameWithFlag]§!: §Y[FROM.GetName]§!隶属于[FROM.GetPrefecture]§!。"

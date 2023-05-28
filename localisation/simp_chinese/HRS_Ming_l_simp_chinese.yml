@@ -1,0 +1,84 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ MNG_communism:0 "大明慈悲国"
+ MNG_communism_DEF:0 "大明慈悲国"
+ MNG_anarchism:0 "大明慈悲国"
+ MNG_anarchism_DEF:0 "大明慈悲国"
+ MNG_socialism:0 "大明慈悲国"
+ MNG_socialism_DEF:0 "大明慈悲国"
+ MNG_democratic:0 "大明慈悲国"
+ MNG_democratic_DEF:0 "大明慈悲国"
+ MNG_neutrality:0 "大明慈悲国"
+ MNG_neutrality_DEF:0 "大明慈悲国"
+ MNG_monarchism:0 "大明慈悲国"
+ MNG_monarchism_DEF:0 "大明慈悲国"
+ MNG_fascism:0 "大明慈悲国"
+ MNG_fascism_DEF:0 "大明慈悲国"
+ MNG_imperialism:0 "大明慈悲国"
+ MNG_imperialism_DEF:0 "大明慈悲国"
+ MNG_futurism:0 "大明慈悲国"
+ MNG_futurism_DEF:0 "大明慈悲国"
+ MNG_communism_ADJ:0 "大明"
+ MNG_anarchism_ADJ:0 "大明"
+ MNG_socialism_ADJ:0 "大明"
+ MNG_democratic_ADJ:0 "大明"
+ MNG_neutrality_ADJ:0 "大明"
+ MNG_monarchism_ADJ:0 "大明"
+ MNG_fascism_ADJ:0 "大明"
+ MNG_imperialism_ADJ:0 "大明"
+ MNG_futurism_ADJ:0 "大明"
+ MNG:0 "大明"
+ MNG_DEF:0 "大明"
+ MNG_ADJ:0 "大明"
+ #############
+ ## PARTIES ##
+ #############
+ MNG_communism_party:0 "台湾共产党"
+ MNG_communism_party_long:0 "台湾共产党"
+ MNG_anarchism_party:0 "余清芳义军 - 革命派"
+ MNG_anarchism_party_long:0 "余清芳义军 - 革命派"
+ MNG_socialism_party:0 "台湾民众党 - 左翼"
+ MNG_socialism_party_long:0 "台湾民众党 - 左翼"
+ MNG_democratic_party:0 "台湾地方自治联盟"
+ MNG_democratic_party_long:0 "台湾地方自治联盟"
+ MNG_neutrality_party:0 "余清芳义军 - 忠诚派"
+ MNG_neutrality_party_long:0 "余清芳义军 - 忠诚派"
+ MNG_monarchism_party:0 "余清芳义军 - 激进派"
+ MNG_monarchism_party_long:0 "余清芳义军 - 激进派"
+ MNG_fascism_party:0 "台湾民众党 - 右翼"
+ MNG_fascism_party_long:0 "台湾民众党 - 右翼"
+ MNG_imperialism_party:0 "兴亚会"
+ MNG_imperialism_party_long:0 "兴亚会"
+ MNG_futurism_party:0 "台湾拓殖"
+ MNG_futurism_party_long:0 "台湾拓殖"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ MNG_yu_qingfang:0 "余清芳"
+ MNG_yu_qingfang_desc:0 "§Y出生日期§!：§G1879年§!\n§Y出生地点§!：§G大东帝国台湾州台南县§!\n\n在外人眼里，§Y余清芳§!是个不务正业、沉迷算卦请神的怪人。他出生在台湾州屏东县，当过台南警员，在税务部门打杂，还当过巡警，没有哪一样能干长久。折腾来折腾去，余清芳为找工作换了七八个名字，拜过的神仙和庙宇也有七八所，买的米果足够家人吃半年。然而某一日，西来庵的王爷公果真大发慈悲，让余清芳用符水治好了台南的瘟疫，从此一发不可收拾。\n\n余清芳借着机会加入了秘密会社§Y二十八宿社§!，在继承了教主秘传的心法后，余清芳在台南大量发展信徒，鼓动他们武装反抗帝国的统治。由于余清芳当过警察，十分熟悉帝国公安系统，他指挥的每一次破坏行动都无影无踪，搞得台南政府焦头烂额。余清芳还说，自己手里有一把神剑，只要念咒就可飞剑杀人，又能卷起飞沙走石，一人即可抵挡千军万马。\n\n当帝国本土内战的消息传到台湾时，余清芳率众起义，自称§Y“大明慈悲国天下兵马大元帅”§!。在宗教狂热的加持下，农民武装用梭镖和锄头拿下了警察局，进而攻陷了台南城。就连山里的番族也加入了余清芳的义军，双方合力将帝国军逐出台南地区。然而台湾岛此时已分裂成多股势力，只有余清芳能带领“大明慈悲国”走向尚未可知的胜利。"
+ MNG_real_yu_qingfang_desc:0 "§Y出生日期§!：§G1879年§!\n§Y出生地点§!：§G大东帝国台湾州台南县§!\n\n在许多外人看来，§Y余清芳§!就是个装神弄鬼的骗子，依靠玩弄巫术煽动无知的农民，掀起一场又一场徒劳的暴动。随着余清芳的起义军攻陷一座又一座城市，这种怀疑的情绪不见踪影，取而代之的是观察家好奇的目光——这位教主如何治理他的国家？余清芳给出了答案：以宗教和民俗团结农民，以§G互助与合作社§!解决土地问题，以农民暴动和人民军队打击富人和剥削阶级。\n\n余清芳的义军席卷台湾岛，宝岛获得了久违的自由与安宁。这位深受农民拥戴的“大元帅”终于显露其真实身份：余清芳，一位本土化的§G无政府主义§!革命家。原来，余清芳曾在日本打工时结识了几名无政府主义者，因而逐渐认同并学习了许多无政府主义思想。回到台湾后，余清芳认为一般的台湾农民尚无法理解“无政府主义”的内涵，因此必须将民间信仰融入到无政府主义，把自己变成§G“无政府主义皇帝”§!。\n\n当世人用讶异的目光望着余清芳的无政府主义“大明国”时，余清芳却已将目光投向整个东亚，他在寻求革命同志，以便结成§R东亚无政府主义革命阵线§!。如有必要，他将把整个台湾组织成一支革命大军，这支军队将席卷中国、日本、朝鲜······直到大海吞没一切，或是革命的烈火燃遍全亚洲。"
+ ############
+ ## TRAITS ##
+ ############
+ MNG_great_marshall:0 "大明慈悲国奉旨平台征伐天下大元帅"
+ MNG_the_emperor:0 "“大明皇帝”"
+ MNG_the_emperor1:0 "明始帝"
+ MNG_the_emperor2:0 "明始帝"
+ MNG_the_emperor3:0 "明始帝"
+ ###########
+ ## IDEAS ##
+ ###########
+
+ ###############
+ ## DECISIONS ##
+ ###############
+ 
+ ############
+ ## EVENTS ##
+ ############

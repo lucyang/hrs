@@ -1,0 +1,71 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ GNS_communism:0 "甘肃省临时议会"
+ GNS_communism_DEF:0 "甘肃省临时议会"
+ GNS_anarchism:0 "甘肃省临时议会"
+ GNS_anarchism_DEF:0 "甘肃省临时议会"
+ GNS_socialism:0 "甘肃省临时议会"
+ GNS_socialism_DEF:0 "甘肃省临时议会"
+ GNS_democratic:0 "甘肃省临时议会"
+ GNS_democratic_DEF:0 "甘肃省临时议会"
+ GNS_neutrality:0 "甘肃省临时议会"
+ GNS_neutrality_DEF:0 "甘肃省临时议会"
+ GNS_monarchism:0 "甘肃省临时议会"
+ GNS_monarchism_DEF:0 "甘肃省临时议会"
+ GNS_fascism:0 "甘肃省临时议会"
+ GNS_fascism_DEF:0 "甘肃省临时议会"
+ GNS_imperialism:0 "甘肃省临时议会"
+ GNS_imperialism_DEF:0 "甘肃省临时议会"
+ GNS_futurism:0 "甘肃省临时议会"
+ GNS_futurism_DEF:0 "甘肃省临时议会"
+ GNS_communism_ADJ:0 "甘肃"
+ GNS_anarchism_ADJ:0 "甘肃"
+ GNS_socialism_ADJ:0 "甘肃"
+ GNS_democratic_ADJ:0 "甘肃"
+ GNS_neutrality_ADJ:0 "甘肃"
+ GNS_monarchism_ADJ:0 "甘肃"
+ GNS_fascism_ADJ:0 "甘肃"
+ GNS_imperialism_ADJ:0 "甘肃"
+ GNS_futurism_ADJ:0 "甘肃"
+ GNS:0 "甘肃"
+ GNS_DEF:0 "甘肃"
+ GNS_ADJ:0 "甘肃"
+ #############
+ ## PARTIES ##
+ #############
+ GNS_communism_party:0 "社民农工党"
+ GNS_communism_party_long:0 "中国社会民主农工党"
+ GNS_anarchism_party:0 "西道堂"
+ GNS_anarchism_party_long:0 "西道堂"
+ GNS_socialism_party:0 "伊赫瓦尼派"
+ GNS_socialism_party_long:0 "伊赫瓦尼派"
+ GNS_democratic_party:0 "回教俱进会"
+ GNS_democratic_party_long:0 "中国回教俱进会"
+ GNS_neutrality_party:0 "甘肃省临时议会"
+ GNS_neutrality_party_long:0 "甘肃省临时议会"
+ GNS_monarchism_party:0 "和朝保皇派"
+ GNS_monarchism_party_long:0 "和朝保皇派"
+ GNS_fascism_party:0 "回教联合会"
+ GNS_fascism_party_long:0 "中国回教联合会"
+ GNS_imperialism_party:0 "瓦哈比派"
+ GNS_imperialism_party_long:0 "瓦哈比派"
+ GNS_futurism_party:0 "晋商财团"
+ GNS_futurism_party_long:0 "晋商财团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ GNS_ma_linyi:0 "马邻翼"
+ GNS_ma_linyi_desc:0 "§Y出生日期§!：§G1864年§!\n§Y出生地点§!：§G大东帝国湘江道宝庆县§!"
+ #############
+ # Decisions #
+ #############
+
+ #################
+ # POWER BALANCE #
+ #################

@@ -1,0 +1,71 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ CHR_communism:0 "察南自治政府"
+ CHR_communism_DEF:0 "察南自治政府"
+ CHR_anarchism:0 "察南自治政府"
+ CHR_anarchism_DEF:0 "察南自治政府"
+ CHR_socialism:0 "察南自治政府"
+ CHR_socialism_DEF:0 "察南自治政府"
+ CHR_democratic:0 "察南自治政府"
+ CHR_democratic_DEF:0 "察南自治政府"
+ CHR_neutrality:0 "察南自治政府"
+ CHR_neutrality_DEF:0 "察南自治政府"
+ CHR_monarchism:0 "察南自治政府"
+ CHR_monarchism_DEF:0 "察南自治政府"
+ CHR_fascism:0 "察南自治政府"
+ CHR_fascism_DEF:0 "察南自治政府"
+ CHR_imperialism:0 "察南自治政府"
+ CHR_imperialism_DEF:0 "察南自治政府"
+ CHR_futurism:0 "察南自治政府"
+ CHR_futurism_DEF:0 "察南自治政府"
+ CHR_communism_ADJ:0 "张家口"
+ CHR_anarchism_ADJ:0 "张家口"
+ CHR_socialism_ADJ:0 "张家口"
+ CHR_democratic_ADJ:0 "张家口"
+ CHR_neutrality_ADJ:0 "张家口"
+ CHR_monarchism_ADJ:0 "张家口"
+ CHR_fascism_ADJ:0 "张家口"
+ CHR_imperialism_ADJ:0 "张家口"
+ CHR_futurism_ADJ:0 "张家口"
+ CHR:0 "张家口"
+ CHR_DEF:0 "张家口"
+ CHR_ADJ:0 "张家口"
+ #############
+ ## PARTIES ##
+ #############
+ CHR_communism_party:0 "社民农工党"
+ CHR_communism_party_long:0 "中国社会民主农工党"
+ CHR_anarchism_party:0 "内蒙古人民革命党"
+ CHR_anarchism_party_long:0 "内蒙古人民革命党"
+ CHR_socialism_party:0 "内蒙古青年革命党"
+ CHR_socialism_party_long:0 "内蒙古青年革命党"
+ CHR_democratic_party:0 "中华革命党"
+ CHR_democratic_party_long:0 "中华革命党"
+ CHR_neutrality_party:0 "察哈尔治安维持会"
+ CHR_neutrality_party_long:0 "察哈尔治安维持会"
+ CHR_monarchism_party:0 "孔教会"
+ CHR_monarchism_party_long:0 "孔教会"
+ CHR_fascism_party:0 "中国新民会"
+ CHR_fascism_party_long:0 "中国新民会"
+ CHR_imperialism_party:0 "战国策派"
+ CHR_imperialism_party_long:0 "战国策派"
+ CHR_futurism_party:0 "技术官僚"
+ CHR_futurism_party_long:0 "技术官僚"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ CHR_yu_pinqing:0 "于品卿"
+ CHR_yu_pinqing_desc:0 "§Y出生日期§!：§G1882年11月6日§!\n§Y出生地点§!：§G大东帝国大名道南宫县§!\n\n§Y于品卿§!是张家口的实业家，曾出任张家口商会执行委员。当帝国内战爆发后，蒙古人也掀起了1921年之后第二次民族起义浪潮。内蒙古亦陷入混战之中，蒙古人报复屠杀汉人的情况数见不鲜。为了保卫蒙古的汉人殖民者，于品卿找到了自己的老朋友与生意伙伴——池宗墨、夏恭等。在一番讨价还价后，§Y华北自治政府§!成立了。这是一个极其松散的政治联盟，由冀东自治政府、察南自治政府、晋北自治政府等政权组成，目的是“防共自卫”、保护蒙古边疆的汉人免受§R红色蒙人§!的威胁。一些人称赞于品卿的举动拯救了许多人的性命，但是更多的人指责他不过是满足了自己的权力野心。就在自治政府还在为下一步吵吵嚷嚷时，蒙古人的起义军正向着明处走来······"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

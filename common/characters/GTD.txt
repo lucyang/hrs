@@ -1,0 +1,27 @@
+characters = {
+	GTD_shen_hongying = {
+		name = GTD_shen_hongying
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GXC/Portrait_Shen_Hongying.png"
+			}
+			army = {
+				large="gfx/leaders/GXC/Portrait_Shen_Hongying.png"
+			}
+		}
+		country_leader = {
+			ideology=warlordism_subtype
+			desc = GTD_shen_hongying_desc
+			traits = { backroom_backstabber }
+			expire = "1935.1.28.1"
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+}

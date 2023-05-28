@@ -8,8 +8,8 @@ state={
 		owner = IMC
 		add_core_of = IMC
 		1924.1.1 = {
-			owner = ANH
-			add_core_of = ANH
+			owner = YSS
+			add_core_of = YSS
 			remove_core_of = IMC
 		}
 		buildings = {

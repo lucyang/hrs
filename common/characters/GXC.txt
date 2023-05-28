@@ -1,16 +1,27 @@
 characters = {
-	GXC_lu_rongting = {
-		name = GXC_lu_rongting
+	GXC_huang_shaohong = {
+		name = GXC_huang_shaohong
 		portraits = {
 			civilian = {
-				large="gfx/leaders/GXC/Portrait_Lu_Rongting.png"
+				large="gfx/leaders/GXC/Portrait_Huang_Shaohong.png"
+			}
+			army = {
+				large="gfx/leaders/GXC/Portrait_Huang_Shaohong.png"
 			}
 		}
 		country_leader = {
-			ideology=military_government_subtype
-			desc = GXC_lu_rongting_desc
+			ideology=development_authoritarianism_subtype
+			desc = GXC_huang_shaohong_desc
 			traits = { hardened_officer }
-			expire = "1928.11.6.1"
+			expire = "1966.8.31.1"
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
 		}
 	}
 }

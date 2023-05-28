@@ -1,0 +1,16 @@
+characters = {
+	HAK_feng_ziyou = {
+		name = HAK_feng_ziyou
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/LGG/Portrait_Feng_Ziyou.png"
+			}
+		}
+		country_leader = {
+			ideology=ultranationalism_subtype
+			desc = HAK_feng_ziyou_desc
+			traits = { irredentist_academic }
+			expire = "1973.6.2.1"
+		}
+	}
+}

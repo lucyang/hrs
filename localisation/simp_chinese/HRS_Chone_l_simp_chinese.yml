@@ -1,0 +1,71 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ CHN_communism:0 "卓尼王国"
+ CHN_communism_DEF:0 "卓尼王国"
+ CHN_anarchism:0 "卓尼王国"
+ CHN_anarchism_DEF:0 "卓尼王国"
+ CHN_socialism:0 "卓尼王国"
+ CHN_socialism_DEF:0 "卓尼王国"
+ CHN_democratic:0 "卓尼王国"
+ CHN_democratic_DEF:0 "卓尼王国"
+ CHN_neutrality:0 "卓尼王国"
+ CHN_neutrality_DEF:0 "卓尼王国"
+ CHN_monarchism:0 "卓尼王国"
+ CHN_monarchism_DEF:0 "卓尼王国"
+ CHN_fascism:0 "卓尼王国"
+ CHN_fascism_DEF:0 "卓尼王国"
+ CHN_imperialism:0 "卓尼王国"
+ CHN_imperialism_DEF:0 "卓尼王国"
+ CHN_futurism:0 "卓尼王国"
+ CHN_futurism_DEF:0 "卓尼王国"
+ CHN_communism_ADJ:0 "卓尼"
+ CHN_anarchism_ADJ:0 "卓尼"
+ CHN_socialism_ADJ:0 "卓尼"
+ CHN_democratic_ADJ:0 "卓尼"
+ CHN_neutrality_ADJ:0 "卓尼"
+ CHN_monarchism_ADJ:0 "卓尼"
+ CHN_fascism_ADJ:0 "卓尼"
+ CHN_imperialism_ADJ:0 "卓尼"
+ CHN_futurism_ADJ:0 "卓尼"
+ CHN:0 "卓尼"
+ CHN_DEF:0 "卓尼"
+ CHN_ADJ:0 "卓尼"
+ #############
+ ## PARTIES ##
+ #############
+ CHN_communism_party:0 "西藏共产党"
+ CHN_communism_party_long:0 "西藏共产党"
+ CHN_anarchism_party:0 "西藏共产党"
+ CHN_anarchism_party_long:0 "西藏共产党"
+ CHN_socialism_party:0 "西藏改革党"
+ CHN_socialism_party_long:0 "西藏改革党"
+ CHN_democratic_party:0 "中国革命党"
+ CHN_democratic_party_long:0 "中国革命党"
+ CHN_neutrality_party:0 "第165师团司令部"
+ CHN_neutrality_party_long:0 "第165师团司令部"
+ CHN_monarchism_party:0 "土王衙门 - 守旧派"
+ CHN_monarchism_party_long:0 "土王衙门 - 守旧派"
+ CHN_fascism_party:0 "回教联合会"
+ CHN_fascism_party_long:0 "中国回教联合会"
+ CHN_imperialism_party:0 "卫教志愿军"
+ CHN_imperialism_party_long:0 "卫教志愿军"
+ CHN_futurism_party:0 "晋商财团"
+ CHN_futurism_party_long:0 "晋商财团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ CHN_yang_jiqing:0 "罗桑丹增·南杰道吉" #杨积庆
+ CHN_yang_jiqing_desc:0 "§Y出生日期§!：§G1889年§!\n§Y出生地点§!：§G大东帝国兰山道卓尼县§!"
+ #############
+ # Decisions #
+ #############
+
+ #################
+ # CHNER BALANCE #
+ #################

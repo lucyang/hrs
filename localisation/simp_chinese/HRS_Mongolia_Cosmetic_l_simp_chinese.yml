@@ -1,0 +1,53 @@
+﻿l_simp_chinese:
+ #############
+ # DECISIONS #
+ #############
+ HRS_reunify_mongolia:0 "结束蒙古内战"
+ can_form_mongolia_tt:0 "控制§Y蒙古§!地区\n"
+ ##################
+ ## MON-Mongolia ##
+ ##################
+ MON_MONGOLIA_communism:0 "蒙古苏维埃共和国"
+ MON_MONGOLIA_communism_DEF:0 "蒙古苏维埃共和国"
+ MON_MONGOLIA_anarchism:0 "蒙古人民共和国"
+ MON_MONGOLIA_anarchism_DEF:0 "蒙古人民共和国"
+ MON_MONGOLIA_socialism:0 "蒙古人民共和国"
+ MON_MONGOLIA_socialism_DEF:0 "蒙古人民共和国"
+ MON_MONGOLIA_democratic:0 "蒙古人民共和国"
+ MON_MONGOLIA_democratic_DEF:0 "蒙古人民共和国"
+ #################
+ ## KVD-Khovd ##
+ #################
+ KVD_MONGOLIA_anarchism_party:0 "蒙古人民革命政府"
+ KVD_MONGOLIA_anarchism_party_long:0 "蒙古人民革命政府"
+ KVD_MONGOLIA_socialism_party:0 "蒙古人民革命政府"
+ KVD_MONGOLIA_socialism_party_long:0 "蒙古人民革命政府"
+ KVD_MONGOLIA_neutrality_party:0 "蒙古人民革命政府"
+ KVD_MONGOLIA_neutrality_party_long:0 "蒙古人民革命政府"
+ ######################
+ ## BOG-Bogd Khanate ##
+ ######################
+ BOG_MONGOLIA_neutrality:0 "大蒙古国"
+ BOG_MONGOLIA_neutrality_DEF:0 "大蒙古国"
+ BOG_MONGOLIA_monarchism:0 "大蒙古国"
+ BOG_MONGOLIA_monarchism_DEF:0 "大蒙古国"
+ ##################
+ ## ULI-Uliastai ##
+ ##################
+ ULI_MONGOLIA_imperialism:0 "大蒙古汗国"
+ ULI_MONGOLIA_imperialism_DEF:0 "大蒙古汗国"
+ ###################
+ ## MEN-Mengkukuo ##
+ ###################
+ MEN_MONGOLIA_neutrality:0 "大蒙古联邦"
+ MEN_MONGOLIA_neutrality_DEF:0 "大蒙古联邦"
+ ###################
+ ## HUL-Hulunbuir ##
+ ###################
+ HUL_MONGOLIA_anarchism:0 "蒙古人民联邦"
+ HUL_MONGOLIA_anarchism_DEF:0 "蒙古人民联邦"
+ #################
+ ## ULQ-Ulanqab ##
+ #################
+ ULQ_MONGOLIA_socialism:0 "蒙古人民民主国"
+ ULQ_MONGOLIA_socialism_DEF:0 "蒙古人民民主国"

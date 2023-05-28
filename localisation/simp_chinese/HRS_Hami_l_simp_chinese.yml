@@ -1,0 +1,65 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ HAM_communism:0 "安西都护府"
+ HAM_communism_DEF:0 "安西都护府"
+ HAM_anarchism:0 "安西都护府"
+ HAM_anarchism_DEF:0 "安西都护府"
+ HAM_democratic:0 "安西都护府"
+ HAM_democratic_DEF:0 "安西都护府"
+ HAM_neutrality:0 "安西都护府"
+ HAM_neutrality_DEF:0 "安西都护府"
+ HAM_monarchism:0 "安西都护府"
+ HAM_monarchism_DEF:0 "安西都护府"
+ HAM_fascism:0 "安西都护府"
+ HAM_fascism_DEF:0 "安西都护府"
+ HAM_imperialism:0 "安西都护府"
+ HAM_imperialism_DEF:0 "安西都护府"
+ HAM_futurism:0 "安西都护府"
+ HAM_futurism_DEF:0 "安西都护府"
+ HAM_communism_ADJ:0 "安西都护府"
+ HAM_anarchism_ADJ:0 "安西都护府"
+ HAM_democratic_ADJ:0 "安西都护府"
+ HAM_neutrality_ADJ:0 "安西都护府"
+ HAM_monarchism_ADJ:0 "安西都护府"
+ HAM_fascism_ADJ:0 "安西都护府"
+ HAM_imperialism_ADJ:0 "安西都护府"
+ HAM_futurism_ADJ:0 "安西都护府"
+ HAM:0 "安西都护府"
+ HAM_DEF:0 "安西都护府"
+ HAM_ADJ:0 "安西都护府"
+ #############
+ ## PARTIES ##
+ #############
+ HAM_communism_party:0 "突厥斯坦共产党"
+ HAM_communism_party_long:0 "突厥斯坦共产党"
+ HAM_anarchism_party:0 "图兰民主革命党"
+ HAM_anarchism_party_long:0 "图兰民主革命党"
+ HAM_socialism_party:0 "图兰人民革命党"
+ HAM_socialism_party_long:0 "图兰人民革命党"
+ HAM_democratic_party:0 "华兴会 - 变节派"
+ HAM_democratic_party_long:0 "华兴会 - 变节派"
+ HAM_neutrality_party:0 "华兴会 - 军队派"
+ HAM_neutrality_party_long:0 "华兴会 - 军队派"
+ HAM_monarchism_party:0 "华兴会 - 保皇派"
+ HAM_monarchism_party_long:0 "华兴会 - 保皇派"
+ HAM_fascism_party:0 "华兴会 - 改良派"
+ HAM_fascism_party_long:0 "华兴会 - 改良派"
+ HAM_imperialism_party:0 "华兴会 - 革命派"
+ HAM_imperialism_party_long:0 "华兴会 - 革命派"
+ HAM_futurism_party:0 "华兴会 - 亲俄派"
+ HAM_futurism_party_long:0 "华兴会 - 亲俄派"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ HAM_chen_tianhua:0 "陈天华"
+ HAM_chen_tianhua_desc:0 "§Y出生日期§!：§G1875年3月6日§!\n§Y出生地点§!：§G大东帝国湘江道新化县§!"
+ HAM_yulbars_khan:0 "黄景福" #尧乐博士
+ HAM_yulbars_khan_desc:0 "§Y出生日期§!：§G1889年8月13日§!\n§Y出生地点§!：§G准噶尔汗国叶尔羌省巴楚州§!"
+ HAM_burhan_shahidi:0 "包尔汉" #包尔汉·沙希迪
+ HAM_burhan_shahidi_desc:0 "§Y出生日期§!：§G1894年10月3日§!\n§Y出生地点§!：§G大俄罗斯共和国喀山省特铁什县§!"

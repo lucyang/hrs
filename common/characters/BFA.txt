@@ -1,0 +1,27 @@
+characters = {
+	BFA_wang_heshun = {
+		name = BFA_wang_heshun
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BFA/Portrait_Wang_Heshun.png"
+			}
+			army = {
+				large = "gfx/leaders/BFA/Portrait_Wang_Heshun.png"
+			}
+		}
+		country_leader = {
+			ideology=partisan_movement_subtype
+			desc = BFA_wang_heshun_desc
+			traits = { great_war_hero }
+			expire = "1934.1.1.1"
+		}
+		corps_commander={
+			traits={ infantry_officer trickster adaptable }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=2
+		}
+	}
+}

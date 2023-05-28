@@ -1,0 +1,43 @@
+﻿l_simp_chinese:
+ ###############
+ ## DECISIONS ##
+ ###############
+ HRS_asia_unification_category:0 "宣称天下人"
+ HRS_make_asia_states_core:0 "在[FROM.GetName]重建政权"
+ HRS_unification_of_asia:0 "宣称天下人"
+ #################
+ ## VIN-Vietnam ##
+ #################
+ VIN_ASIA_monarchism:0 "大炎帝国"
+ VIN_ASIA_monarchism_DEF:0 "大炎帝国"
+ VIN_ASIA_monarchism_ADJ:0 "大炎"
+ ###############
+ ## EOK-Korea ##
+ ###############
+ EOK_ASIA_monarchism:0 "大华帝国"
+ EOK_ASIA_monarchism_DEF:0 "大华帝国"
+ EOK_ASIA_monarchism_ADJ:0 "大华"
+ ################
+ ## RYU-Ryukyu ##
+ ################
+ RYU_ASIA_monarchism:0 "大东帝国"
+ RYU_ASIA_monarchism_DEF:0 "大东帝国"
+ RYU_ASIA_monarchism_ADJ:0 "大东"
+ ###################
+ ## MAN-Manchuria ##
+ ###################
+ MAN_ASIA_monarchism:0 "大清帝国"
+ MAN_ASIA_monarchism_DEF:0 "大清帝国"
+ MAN_ASIA_monarchism_ADJ:0 "大清"
+ ##########
+ ## UPR! ##
+ ##########
+ UPR_ASIA_communism:0 "人民共和国联盟"
+ UPR_ASIA_communism_DEF:0 "人民共和国联盟"
+ UPR_ASIA_communism_ADJ:0 "人共联"
+ UPR_ASIA_anarchism:0 "人民共和国联盟"
+ UPR_ASIA_anarchism_DEF:0 "人民共和国联盟"
+ UPR_ASIA_anarchism_ADJ:0 "人共联"
+ ############
+ ## EVENTS ##
+ ############

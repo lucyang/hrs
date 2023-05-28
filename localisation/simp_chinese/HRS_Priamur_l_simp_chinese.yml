@@ -1,0 +1,67 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ PRA_communism:0 "阿穆尔自治区"
+ PRA_communism_DEF:0 "阿穆尔自治区" # Приамурский земский край
+ PRA_anarchism:0 "阿穆尔自治区"
+ PRA_anarchism_DEF:0 "阿穆尔自治区"
+ PRA_socialism:0 "阿穆尔自治区"
+ PRA_socialism_DEF:0 "阿穆尔自治区"
+ PRA_democratic:0 "阿穆尔自治区"
+ PRA_democratic_DEF:0 "阿穆尔自治区"
+ PRA_neutrality:0 "阿穆尔自治区"
+ PRA_neutrality_DEF:0 "阿穆尔自治区"
+ PRA_monarchism:0 "阿穆尔自治区"
+ PRA_monarchism_DEF:0 "阿穆尔自治区"
+ PRA_fascism:0 "阿穆尔自治区"
+ PRA_fascism_DEF:0 "阿穆尔自治区"
+ PRA_imperialism:0 "阿穆尔自治区"
+ PRA_imperialism_DEF:0 "阿穆尔自治区"
+ PRA_futurism:0 "阿穆尔自治区"
+ PRA_futurism_DEF:0 "阿穆尔自治区"
+ PRA_communism_ADJ:0 "阿穆尔"
+ PRA_anarchism_ADJ:0 "阿穆尔"
+ PRA_socialism_ADJ:0 "阿穆尔"
+ PRA_democratic_ADJ:0 "阿穆尔"
+ PRA_neutrality_ADJ:0 "阿穆尔"
+ PRA_monarchism_ADJ:0 "阿穆尔"
+ PRA_fascism_ADJ:0 "阿穆尔"
+ PRA_imperialism_ADJ:0 "阿穆尔"
+ PRA_futurism_ADJ:0 "阿穆尔"
+ PRA:0 "阿穆尔"
+ PRA_DEF:0 "阿穆尔"
+ PRA_ADJ:0 "阿穆尔"
+ #############
+ ## PARTIES ##
+ #############
+ PRA_communism_party:0 "俄罗斯共产党"
+ PRA_communism_party_long:0 "俄罗斯共产党"
+ PRA_anarchism_party:0 "社会民主党"
+ PRA_anarchism_party_long:0 "社会民主工党"
+ PRA_socialism_party:0 "社会革命党"
+ PRA_socialism_party_long:0 "社会革命党"
+ PRA_democratic_party:0 "立宪民主党"
+ PRA_democratic_party_long:0 "立宪民主党"
+ PRA_neutrality_party:0 "阿穆尔民团"
+ PRA_neutrality_party_long:0 "阿穆尔民团" # Zemskaya Rat
+ PRA_monarchism_party:0 "土地会议" # Zemsky Sobor
+ PRA_monarchism_party_long:0 "阿穆尔土地会议" # Приамурский земский собор
+ PRA_fascism_party:0 "民族劳动联盟"
+ PRA_fascism_party_long:0 "俄罗斯团结主义者民族劳动联盟"
+ PRA_imperialism_party:0 "俄罗斯全军联盟"
+ PRA_imperialism_party_long:0 "俄罗斯全军联盟"
+ PRA_futurism_party:0 "人民意志党"
+ PRA_futurism_party_long:0 "人民意志党"
+ ################
+ ## CHARACTERS ##
+ ################
+ PRA_mihail_diterikhs:0 "米哈伊尔·季捷里赫斯"
+ PRA_mihail_diterikhs_desc:0 "“俄罗斯不属于无产阶级、工人、农民、资本家抑或是贵族，俄罗斯只能是基督的俄罗斯。”\n\n米哈伊尔·康斯坦丁诺维奇·季捷里赫斯，大俄罗斯共和国陆军上将，在俄国内战期间于西伯利亚的白军中扮演重要角色，并以保皇派与反犹太主义的主张闻名。迪捷里赫斯被认为是一位笃信宗教者，他在私人列车车厢中安置著大量圣像，并深信他正在参与一场对抗布尔什维克“异教徒”的圣战。\n\n俄国二月革命后，季捷里赫斯被召回国内，他逃过了人民意志党的追捕与刺杀，帮助高尔察克击败了人民国跨越乌拉尔山的攻势。但是二者出现了严重的分歧，季捷里赫斯只身前往俄国远东地区，接管了滨海边区临时政府的军政大权。大东帝国向他抛出了橄榄枝，双方建立了稳固的合作关系季捷里赫斯重整了军政体系，打造了一支对抗“敌基督”的“十字军”，这支军队的首要任务便是协助大东帝国军剿灭无处不在的红色游击队。\n\n1922年7月，季捷里赫斯召开了“缙绅会议”，这是一种模仿中国的咨议局建立的议事机构，由“缙绅”——贵族、地主、企业家、社会贤达——社会中的成功人士组成议事机构。会议选举立尼古拉·尼古拉耶维奇大公为俄国最高统治者，颁布了季捷里赫斯的政治纲领，即确立东正教为中心、由教区为单位实行地方自治、以神圣化的绝对君主实施统治的新体制。许多人猜测季捷里赫斯受到了大东帝国制度的启发，只有时间证明他的理想是否符合现实······"
+ PRA_priamur_provisional_government:0 "阿穆尔临时政府"
+ PRA_priamur_provisional_government_desc:0 "自那茂密的针叶林而来\n阿穆尔河浩浩汤汤\n如不屈的从云一般静默\n西伯利亚人奋战沙场"
+ PRA_nicholas_nikolaevich:0 "尼古拉·尼古拉耶维奇大公"
+ PRA_meletius_metaxakis:0 "梅莱蒂乌斯四世"
+ ############
+ ## EVENTS ##
+ ############

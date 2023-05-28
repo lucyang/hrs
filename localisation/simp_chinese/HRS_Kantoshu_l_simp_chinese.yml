@@ -1,0 +1,71 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ KTS_communism:0 "关东州工兵代表政府"
+ KTS_communism_DEF:0 "关东州工兵代表政府"
+ KTS_anarchism:0 "关东州工兵代表政府"
+ KTS_anarchism_DEF:0 "关东州工兵代表政府"
+ KTS_socialism:0 "关东州工兵代表政府"
+ KTS_socialism_DEF:0 "关东州工兵代表政府"
+ KTS_democratic:0 "关东州工兵代表政府"
+ KTS_democratic_DEF:0 "关东州工兵代表政府"
+ KTS_neutrality:0 "关东州工兵代表政府"
+ KTS_neutrality_DEF:0 "关东州工兵代表政府"
+ KTS_monarchism:0 "关东州工兵代表政府"
+ KTS_monarchism_DEF:0 "关东州工兵代表政府"
+ KTS_fascism:0 "关东州工兵代表政府"
+ KTS_fascism_DEF:0 "关东州工兵代表政府"
+ KTS_imperialism:0 "关东州工兵代表政府"
+ KTS_imperialism_DEF:0 "关东州工兵代表政府"
+ KTS_futurism:0 "关东州工兵代表政府"
+ KTS_futurism_DEF:0 "关东州工兵代表政府"
+ KTS_communism_ADJ:0 "大连"
+ KTS_anarchism_ADJ:0 "大连"
+ KTS_socialism_ADJ:0 "大连"
+ KTS_democratic_ADJ:0 "大连"
+ KTS_neutrality_ADJ:0 "大连"
+ KTS_monarchism_ADJ:0 "大连"
+ KTS_fascism_ADJ:0 "大连"
+ KTS_imperialism_ADJ:0 "大连"
+ KTS_futurism_ADJ:0 "大连"
+ KTS:0 "大连"
+ KTS_DEF:0 "大连"
+ KTS_ADJ:0 "大连"
+ #############
+ ## PARTIES ##
+ #############
+ KTS_communism_party:0 "社民农工党"
+ KTS_communism_party_long:0 "中国社会民主农工党"
+ KTS_anarchism_party:0 "大连中华工学会"
+ KTS_anarchism_party_long:0 "大连中华工学会"
+ KTS_socialism_party:0 "中国民主政团同盟"
+ KTS_socialism_party_long:0 "中国民主政团同盟"
+ KTS_democratic_party:0 "中华革命党"
+ KTS_democratic_party_long:0 "中华革命党"
+ KTS_neutrality_party:0 "大连地方自卫委员会"
+ KTS_neutrality_party_long:0 "大连地方自卫委员会"
+ KTS_monarchism_party:0 "孔教会"
+ KTS_monarchism_party_long:0 "孔教会"
+ KTS_fascism_party:0 "中国新民会"
+ KTS_fascism_party_long:0 "中国新民会"
+ KTS_imperialism_party:0 "战国策派"
+ KTS_imperialism_party_long:0 "战国策派"
+ KTS_futurism_party:0 "南满洲铁道"
+ KTS_futurism_party_long:0 "南满洲铁道"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ KTS_fu_liyu:0 "傅立鱼"
+ KTS_fu_liyu_desc:0 "§Y出生日期§!：§G1882年§!\n§Y出生地点§!：§G大东帝国安庆道英山县§!\n\n§Y傅立鱼§!"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

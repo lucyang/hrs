@@ -1,4 +1,18 @@
 characters = {
+	GND_guangdong_rebels = {
+		name = GND_guangdong_rebels
+		portraits = {
+			civilian = {
+				large="gfx/leaders/GND/Portrait_Guangdong_Rebels.png"
+			}
+		}
+		country_leader = {
+			ideology=anarcho_communism_subtype
+			desc = GND_guangdong_rebels_desc
+			traits = { }
+			expire = "1950.1.1.1"
+		}
+	}
 	GND_zhang_dongsun = {
 		name = GND_zhang_dongsun
 		portraits = {

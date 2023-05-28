@@ -1,0 +1,70 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ GLN_communism:0 "桂林自治政府"
+ GLN_communism_DEF:0 "桂林自治政府"
+ GLN_anarchism:0 "桂林自治政府"
+ GLN_anarchism_DEF:0 "桂林自治政府"
+ GLN_socialism:0 "桂林自治政府"
+ GLN_socialism_DEF:0 "桂林自治政府"
+ GLN_democratic:0 "桂林自治政府"
+ GLN_democratic_DEF:0 "桂林自治政府"
+ GLN_neutrality:0 "桂林自治政府"
+ GLN_neutrality_DEF:0 "桂林自治政府"
+ GLN_monarchism:0 "桂林自治政府"
+ GLN_monarchism_DEF:0 "桂林自治政府"
+ GLN_fascism:0 "桂林自治政府"
+ GLN_fascism_DEF:0 "桂林自治政府"
+ GLN_imperialism:0 "桂林自治政府"
+ GLN_imperialism_DEF:0 "桂林自治政府"
+ GLN_futurism:0 "桂林自治政府"
+ GLN_futurism_DEF:0 "桂林自治政府"
+ GLN_communism_ADJ:0 "桂林"
+ GLN_anarchism_ADJ:0 "桂林"
+ GLN_democratic_ADJ:0 "桂林"
+ GLN_neutrality_ADJ:0 "桂林"
+ GLN_monarchism_ADJ:0 "桂林"
+ GLN_fascism_ADJ:0 "桂林"
+ GLN_imperialism_ADJ:0 "桂林"
+ GLN_futurism_ADJ:0 "桂林"
+ GLN:0 "桂林"
+ GLN_DEF:0 "桂林"
+ GLN_ADJ:0 "桂林"
+ #############
+ ## PARTIES ##
+ #############
+ GLN_communism_party:0 "社民农工党"
+ GLN_communism_party_long:0 "中国社会民主农工党"
+ GLN_anarchism_party:0 "布僚人民党"
+ GLN_anarchism_party_long:0 "布僚人民党"
+ GLN_socialism_party:0 "中国革命党 - 左派"
+ GLN_socialism_party_long:0 "中国革命党 - 左派"
+ GLN_democratic_party:0 "中国革命党 - 中间派"
+ GLN_democratic_party_long:0 "中国革命党 - 中间派"
+ GLN_neutrality_party:0 "广西革命军"
+ GLN_neutrality_party_long:0 "广西革命军"
+ GLN_monarchism_party:0 "中国革命党 - 保皇派"
+ GLN_monarchism_party_long:0 "中国革命党 - 保皇派"
+ GLN_fascism_party:0 "中国革命党 - 民族派"
+ GLN_fascism_party_long:0 "中国革命党 - 民族派"
+ GLN_imperialism_party:0 "中国革命党 - 泛亚派"
+ GLN_imperialism_party_long:0 "中国革命党 - 泛亚派"
+ GLN_futurism_party:0 "广州商团"
+ GLN_futurism_party_long:0 "广州商团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ GLN_ma_junwu:0 "马君武"
+ GLN_ma_junwu_desc:0 "§Y出生日期§!：§G1881年7月17日§!\n§Y出生地点§!：§G大东帝国桂林道桂林府§!"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

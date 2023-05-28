@@ -82,10 +82,17 @@ SHH = {
 	color = rgb { 237 40 57 }
 	color_ui = rgb { 237 40 57 }
 }
+###############
+### JIANGSU ###
+###############
+NJS = {
+	color = rgb { 139 0 139 }
+	color_ui = rgb { 139 0 139 }
+}
 #############
 ### ANHUI ###
 #############
-ANH = {
+YSS = { # 黄道会
 	color = rgb { 47 79 79 }
 	color_ui = rgb { 47 79 79 }
 }
@@ -240,13 +247,29 @@ LCH = { # 雷州海军政府
 	color = rgb { 68 76 56 }
 	color_ui = rgb { 68 76 56 }
 }
-LGG = { # 两广共和国
+BFA = { # 新黑旗军
 	color = rgb { 9 171 190 }
 	color_ui = rgb { 9 171 190 }
 }
 FED = { # 闽南护法区
 	color = rgb { 158 185 212 }
 	color_ui = rgb { 158 185 212 }
+}
+KCH = { # 高州临时政府
+	color = rgb { 139 134 78 }
+	color_ui = rgb { 139 134 78 }
+}
+SEY = {
+	color = rgb { 47 79 79 }
+	color_ui = rgb { 47 79 79 }
+}
+CTN = {
+	color = rgb { 105 105 105 }
+	color_ui = rgb { 105 105 105 }
+}
+HAK = {
+	color = rgb { 58 95 205 }
+	color_ui = rgb { 58 95 205 }
 }
 ##############
 ### HAINAN ###
@@ -287,19 +310,27 @@ LAX = { # 澜沧
 	color_ui = rgb { 40 100 148 }
 }
 SGR = { # 香格里拉
-	color = rgb { 139 71 38 }
-	color_ui = rgb { 139 71 38 }
+	color = rgb { 5 71 42 }
+	color_ui = rgb { 5 71 42 }
 }
 ###############
 ### GUANGXI ###
 ###############
-GXC = { # 广西军阀
+GXC = { # 广西讨逆军
 	color = rgb { 255 136 10 }
 	color_ui = rgb { 255 136 10 }
+}
+GTD = { # 广西边防军
+	color = rgb { 17 122 88 }
+	color_ui = rgb { 17 122 88 }
 }
 BCH = { # 布僚人民解放军
 	color = rgb { 255 8 0 }
 	color_ui = rgb { 255 8 0 }
+}
+GLN = { # 广西紧急政府
+	color = rgb { 25 80 0 }
+	color_ui = rgb { 25 80 0 }
 }
 ###############
 ### GUIZHOU ###

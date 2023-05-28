@@ -1,0 +1,71 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ SIK_communism:0 "新疆专员辖区"
+ SIK_communism_DEF:0 "大东帝国新疆专员辖区"
+ SIK_anarchism:0 "新疆专员辖区"
+ SIK_anarchism_DEF:0 "大东帝国新疆专员辖区"
+ SIK_democratic:0 "新疆专员辖区"
+ SIK_democratic_DEF:0 "大东帝国新疆专员辖区"
+ SIK_socialism:0 "新疆专员辖区"
+ SIK_socialism_DEF:0 "大东帝国新疆专员辖区"
+ SIK_neutrality:0 "新疆专员辖区"
+ SIK_neutrality_DEF:0 "大东帝国新疆专员辖区"
+ SIK_monarchism:0 "新疆专员辖区"
+ SIK_monarchism_DEF:0 "大东帝国新疆专员辖区"
+ SIK_fascism:0 "新疆专员辖区"
+ SIK_fascism_DEF:0 "大东帝国新疆专员辖区"
+ SIK_imperialism:0 "新疆专员辖区"
+ SIK_imperialism_DEF:0 "大东帝国新疆专员辖区"
+ SIK_futurism:0 "新疆专员辖区"
+ SIK_futurism_DEF:0 "大东帝国新疆专员辖区"
+ SIK_communism_ADJ:0 "新疆"
+ SIK_anarchism_ADJ:0 "新疆"
+ SIK_socialism_ADJ:0 "新疆"
+ SIK_democratic_ADJ:0 "新疆"
+ SIK_neutrality_ADJ:0 "新疆"
+ SIK_monarchism_ADJ:0 "新疆"
+ SIK_fascism_ADJ:0 "新疆"
+ SIK_imperialism_ADJ:0 "新疆"
+ SIK_futurism_ADJ:0 "新疆"
+ SIK:0 "新疆"
+ SIK_DEF:0 "新疆"
+ SIK_ADJ:0 "新疆"
+ #############
+ ## PARTIES ##
+ #############
+ SIK_communism_party:0 "社民农工党"
+ SIK_communism_party_long:0 "中国社会民主农工党"
+ SIK_anarchism_party:0 "西道堂"
+ SIK_anarchism_party_long:0 "西道堂"
+ SIK_socialism_party:0 "中国社会党"
+ SIK_socialism_party_long:0 "中国社会党"
+ SIK_democratic_party:0 "中国统一党"
+ SIK_democratic_party_long:0 "中国统一党"
+ SIK_neutrality_party:0 "蒙藏委员会"
+ SIK_neutrality_party_long:0 "蒙藏委员会"
+ SIK_monarchism_party:0 "帝国宪政会"
+ SIK_monarchism_party_long:0 "中华帝国宪政会"
+ SIK_fascism_party:0 "内务省官僚"
+ SIK_fascism_party_long:0 "内务省官僚"
+ SIK_imperialism_party:0 "拓殖省官僚"
+ SIK_imperialism_party_long:0 "拓殖省官僚"
+ SIK_futurism_party:0 "革新右翼"
+ SIK_futurism_party_long:0 "革新右翼"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ SIK_sheng_shicai:0 "盛世才"
+ SIK_jin_shuren:0 "金树仁"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

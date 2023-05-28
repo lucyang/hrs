@@ -1,0 +1,71 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ CTN_communism:0 "南粤边区共和国"
+ CTN_communism_DEF:0 "南粤边区共和国"
+ CTN_anarchism:0 "南粤边区共和国"
+ CTN_anarchism_DEF:0 "南粤边区共和国"
+ CTN_socialism:0 "南粤边区共和国"
+ CTN_socialism_DEF:0 "南粤边区共和国"
+ CTN_democratic:0 "南粤边区共和国"
+ CTN_democratic_DEF:0 "南粤边区共和国"
+ CTN_neutrality:0 "南粤边区共和国"
+ CTN_neutrality_DEF:0 "南粤边区共和国"
+ CTN_monarchism:0 "南粤边区共和国"
+ CTN_monarchism_DEF:0 "南粤边区共和国"
+ CTN_fascism:0 "南粤边区共和国"
+ CTN_fascism_DEF:0 "南粤边区共和国"
+ CTN_imperialism:0 "南粤边区共和国"
+ CTN_imperialism_DEF:0 "南粤边区共和国"
+ CTN_futurism:0 "南粤边区共和国"
+ CTN_futurism_DEF:0 "南粤边区共和国"
+ CTN_communism_ADJ:0 "南粤边区"
+ CTN_anarchism_ADJ:0 "南粤边区"
+ CTN_socialism_ADJ:0 "南粤边区"
+ CTN_democratic_ADJ:0 "南粤边区"
+ CTN_neutrality_ADJ:0 "南粤边区"
+ CTN_monarchism_ADJ:0 "南粤边区"
+ CTN_fascism_ADJ:0 "南粤边区"
+ CTN_imperialism_ADJ:0 "南粤边区"
+ CTN_futurism_ADJ:0 "南粤边区"
+ CTN:0 "南粤边区"
+ CTN_DEF:0 "南粤边区"
+ CTN_ADJ:0 "南粤边区"
+ #############
+ ## PARTIES ##
+ #############
+ CTN_communism_party:0 "社民农工党"
+ CTN_communism_party_long:0 "中国社会民主农工党"
+ CTN_anarchism_party:0 "无治主义共产主义同志社"
+ CTN_anarchism_party_long:0 "无治共产主义同志社"
+ CTN_socialism_party:0 "广东工会联合会"
+ CTN_socialism_party_long:0 "广东工会联合会"
+ CTN_democratic_party:0 "中国革命党"
+ CTN_democratic_party_long:0 "中国革命党"
+ CTN_neutrality_party:0 "广东自治会 - 改革派"
+ CTN_neutrality_party_long:0 "广东自治会 - 改革派"
+ CTN_monarchism_party:0 "广东自治会 - 效忠派"
+ CTN_monarchism_party_long:0 "广东自治会 - 效忠派"
+ CTN_fascism_party:0 "广东独立协会 - 粤独派"
+ CTN_fascism_party_long:0 "广东独立协会 - 粤独派"
+ CTN_imperialism_party:0 "广东独立协会 - 华独派"
+ CTN_imperialism_party_long:0 "广东独立协会 - 华独派"
+ CTN_futurism_party:0 "南洋开发集团"
+ CTN_futurism_party_long:0 "南洋开发集团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ CTN_ou_jujia:0 "欧榘甲"
+ CTN_ou_jujia_desc:0 ""
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

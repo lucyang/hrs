@@ -1,0 +1,85 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ ANG_communism:0 "法英社会主义联邦"
+ ANG_communism_DEF:0 "法兰西与不列颠社会主义联邦"
+ ANG_anarchism:0 "法英公社联邦"
+ ANG_anarchism_DEF:0 "法兰西与不列颠公社联邦"
+ ANG_socialism:0 "法英公社联邦"
+ ANG_socialism_DEF:0 "法兰西与不列颠公社联邦"
+ ANG_democratic:0 "法英联合王国"
+ ANG_democratic_DEF:0 "法兰西与不列颠联合王国"
+ ANG_neutrality:0 "法英联合王国"
+ ANG_neutrality_DEF:0 "法兰西与不列颠联合王国"
+ ANG_monarchism:0 "法英联合王国"
+ ANG_monarchism_DEF:0 "法兰西与不列颠联合王国"
+ ANG_fascism:0 "法英联合王国"
+ ANG_fascism_DEF:0 "法兰西与不列颠联合王国"
+ ANG_imperialism:0 "法英联合王国"
+ ANG_imperialism_DEF:0 "法兰西与不列颠联合王国"
+ ANG_futurism:0 "法英联合王国"
+ ANG_futurism_DEF:0 "法兰西与不列颠联合王国"
+ ANG_communism_ADJ:0 "法英"
+ ANG_anarchism_ADJ:0 "法英"
+ ANG_socialism_ADJ:0 "法英"
+ ANG_democratic_ADJ:0 "法英"
+ ANG_neutrality_ADJ:0 "法英"
+ ANG_monarchism_ADJ:0 "法英"
+ ANG_fascism_ADJ:0 "法英"
+ ANG_imperialism_ADJ:0 "法英"
+ ANG_futurism_ADJ:0 "法英"
+ ANG:0 "法英"
+ ANG_DEF:0 "法英联合"
+ ANG_ADJ:0 "法英"
+ #############
+ ## PARTIES ##
+ #############
+ ANG_communism_party:0 "法英共产党"
+ ANG_communism_party_long:0 "法兰西-不列颠共产党"
+ ANG_anarchism_party:0 "工会总同盟"
+ ANG_anarchism_party_long:0 "工会总同盟"
+ ANG_socialism_party:0 "社会党"
+ ANG_socialism_party_long:0 "法英社会党"
+ ANG_democratic_party:0 "激进党"
+ ANG_democratic_party_long:0 "激进党"
+ ANG_neutrality_party:0 "皇家军队"
+ ANG_neutrality_party_long:0 "法英皇家军队"
+ ANG_monarchism_party:0 "正统主义党"
+ ANG_monarchism_party_long:0 "正统主义党" # Parti légitimiste
+ ANG_fascism_party:0 "秩序党"
+ ANG_fascism_party_long:0 "秩序党" # Parti d'Ordre
+ ANG_imperialism_party:0 "法英社会党"
+ ANG_imperialism_party_long:0 "法兰西与不列颠社会党"
+ ANG_futurism_party:0 "自由意志党"
+ ANG_futurism_party_long:0 "自由意志党"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ ANG_alfonso_xiii:0 "阿方斯一世" # 阿方索十三世
+ ANG_infante_alfonso_carlos:0 "查理十五世" # 阿方索·卡洛斯一世
+ ANG_xavier_of_bourbon_parma:0 "弗朗索瓦·哈维尔一世" # 哈维尔·德·波旁-帕尔马（帕尔马及皮亚琴察公爵萨维尔）
+ ANG_pierre_laval:0 "皮埃尔·拉伐尔"
+ ANG_philippe_petain:0 "菲利浦·贝当"
+ ANG_georges_clemenceau:0 "乔治·克列孟梭"
+ ANG_francois_de_la_rocque:0 "弗朗索瓦·德·拉·罗克"
+ ANG_jean_of_orleans:0 "让·德·奥尔良" # 让·德·奥尔良（巴黎伯爵）
+ ANG_infante_jaime:0 "亨利十四世" # 亨利六世（塞戈维亚及安茹公爵海梅）
+ ## IDEAS ##
+ ###########
+
+ #################
+ ### DECISIONS ###
+ ################# 
+
+ ################
+ ## FOCUS TREE ##
+ ################
+ 
+ #############
+ ### EVENT ###
+ #############

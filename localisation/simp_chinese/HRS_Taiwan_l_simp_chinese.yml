@@ -1,0 +1,177 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ TAW_communism:0 "台湾军政府"
+ TAW_communism_DEF:0 "台湾军政府"
+ TAW_anarchism:0 "台湾军政府"
+ TAW_anarchism_DEF:0 "台湾军政府"
+ TAW_socialism:0 "台湾军政府"
+ TAW_socialism_DEF:0 "台湾军政府"
+ TAW_democratic:0 "台湾军政府"
+ TAW_democratic_DEF:0 "台湾军政府"
+ TAW_neutrality:0 "台湾军政府"
+ TAW_neutrality_DEF:0 "台湾军政府"
+ TAW_monarchism:0 "台湾军政府"
+ TAW_monarchism_DEF:0 "台湾军政府"
+ TAW_fascism:0 "台湾军政府"
+ TAW_fascism_DEF:0 "台湾军政府"
+ TAW_imperialism:0 "台湾军政府"
+ TAW_imperialism_DEF:0 "台湾军政府"
+ TAW_futurism:0 "台湾军政府"
+ TAW_futurism_DEF:0 "台湾军政府"
+ TAW_communism_ADJ:0 "台湾"
+ TAW_anarchism_ADJ:0 "台湾"
+ TAW_socialism_ADJ:0 "台湾"
+ TAW_democratic_ADJ:0 "台湾"
+ TAW_neutrality_ADJ:0 "台湾"
+ TAW_monarchism_ADJ:0 "台湾"
+ TAW_fascism_ADJ:0 "台湾"
+ TAW_imperialism_ADJ:0 "台湾"
+ TAW_futurism_ADJ:0 "台湾"
+ TAW:0 "台湾"
+ TAW_DEF:0 "台湾"
+ TAW_ADJ:0 "台湾"
+ #############
+ ## PARTIES ##
+ #############
+ TAW_communism_party:0 "民众党 - 极左翼"
+ TAW_communism_party_long:0 "台湾民众党 - 极左翼"
+ TAW_anarchism_party:0 "台农"
+ TAW_anarchism_party_long:0 "台湾农民组合"
+ TAW_socialism_party:0 "民众党 - 左翼"
+ TAW_socialism_party_long:0 "台湾民众党 - 左翼"
+ TAW_democratic_party:0 "台湾革命同盟"
+ TAW_democratic_party_long:0 "台湾革命同盟"
+ TAW_neutrality_party:0 "台湾军政府"
+ TAW_neutrality_party_long:0 "台湾军政府"
+ TAW_monarchism_party:0 "和朝保皇派"
+ TAW_monarchism_party_long:0 "和朝保皇派"
+ TAW_fascism_party:0 "青年党"
+ TAW_fascism_party_long:0 "中国青年党"
+ TAW_imperialism_party:0 "台湾民主党"
+ TAW_imperialism_party_long:0 "台湾民主党"
+ TAW_futurism_party:0 "广州商团"
+ TAW_futurism_party_long:0 "广州商团"
+
+ TAW_minzhong_party:0 "台湾民众党"
+ TAW_minzhong_party_long:0 "台湾民众党"
+ TAW_seperatist_party:0 "台独势力"
+ TAW_seperatist_party_long:0 "台独势力"
+ TAW_commie_party:0 "共匪势力"
+ TAW_commie_party_long:0 "共匪势力"
+ TAW_independence_party:0 "台盟"
+ TAW_independence_party_long:0 "台湾民主自治同盟"
+ TAW_peasant_party:0 "台湾农民组合"
+ TAW_peasant_party_long:0 "台湾农民组合"
+ TAW_worker_party:0 "台湾共产党"
+ TAW_worker_party_long:0 "台湾共产党"
+ TAW_native_party:0 "高砂族自治会"
+ TAW_native_party_long:0 "高砂族自治会"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ TAW_li_wanju:0 "李万居"
+ TAW_qiu_niantai:0 "丘念台"
+ TAW_chen_yi:0 "陈仪"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############
+ taw.1.t:0 "台湾的未来"
+ taw.1.desc:0 "看来台湾解放的消息传到了广州，而我们的革命赞助人——广州政府也向[FRM.GetLeader]发来了态度诚恳的电报，他们希望派出陈仪为首的行政专员，前去接收台湾。既然台湾只是中国的一个省，那么这种要求也没什么特别的。不过少数台湾人对此颇有微词，他们更希望建立政治与经济相对独立的台湾“特别行政区”。"
+ taw.1.a:0 "热烈欢迎国府接收台湾！"
+ taw.1.b:0 "拒绝国府的接收请求"
+ 
+ taw.2.t:0 "陈仪前往台湾"
+ taw.2.desc:0 "在简单的谈判之后，新的台湾政权欣然接受了国府的提议。陈仪将军旋即作为国府代表抵达台北，并在台北公会堂与台湾代表举行了接收仪式。仪式结束后，陈仪在公会堂前的广场发表了短暂的演说，宣布台湾已完全驱逐了大东帝国的反动势力，并即将与大陆人民一起建设一个全新的中华民国。回应演说的则是数万自愿前来的台北市民热烈而经久不息的掌声。"
+ taw.2.a:0 "六百万民同快乐，壶浆箪食表欢迎！”"
+
+ taw.3.t:0 "台海战争"
+ taw.3.desc:0 "谁也没有想到，[FRM.GetLeader]竟然拒绝了广州政府接管台湾政权的请求，广州政府无视了台方代表的意见，派出陈仪前去台北与[FRM.GetLeader]进行谈判。然而，会谈很快演变成了武斗，陈仪本人也被软禁起来。许多台湾人认为这是背信弃义的行为，他们自发武装起来，对抗[FRM.GetLeader]领导的非法政权。广州政府则派出了一支军队，在革命党人的支持下，他们已在基隆、高雄等地登陆。"
+ taw.3.a:0 "扮演台湾政权"
+ taw.3.b:0 "扮演国府接收政权"
+
+ taw.4.t:0 "海峡两岸（1）"
+ taw.4.desc:0 "台湾接收政府和台湾革命政府展开的第一项谈判就是关于军队的问题，国府更倾向建立一支受大陆节制的军队，这样的话国府可以更好掌握台湾，而台方则认为自己身居海外，对军队应该有更高的自主权，何况其民兵部队是其革命的核心力量呢？关于这个问题，谈判的结果是······"
+ taw.4.a:0 "组建台湾自治军"
+ taw.4.b:0 "允许保留民兵部队"
+ taw.4.c:0 "我们有能力保护他们"
+
+ taw.5.t:0 "海峡两岸（2）"
+ taw.5.desc:0 "谈判的第二项就是关于台湾的土地政策，这仍以农业为基础产业的台湾是至关重要的，不仅是在谈判桌上，在各自阵营内部，关于这个问题都存在十分激烈的争论，并最终形成了左中右三个方案······"
+ taw.5.a:0 "实行温和的土地改革"
+ taw.5.b:0 "中国人不应该害中国人"
+ taw.5.c:0 "支持土地革命"
+
+ taw.6.t:0 "海峡两岸（3）"
+ taw.6.desc:0 "决定了土地政策的方针后，关于台湾的工业管理问题又陷入了僵局，国府坚决要求给予台湾同胞“无私”的帮助——资金与人才，而台方态度却十分暧昧，其中暗含着工人与资本家的明争暗斗。"
+ taw.6.a:0 "资助本土实业发展"
+ taw.6.b:0 "企业应交给专家来管理"
+ taw.6.c:0 "承认工会管理企业的权利"
+
+ taw.7.t:0 "海峡两岸（4）"
+ taw.7.desc:0 "一个特别行政区还是一个省？前者意味着某种程度上的自治，而后者意味着对大陆文化与政治的双重认可。"
+ taw.7.a:0 "台湾特别行政区"
+ taw.7.b:0 "台湾省"
+
+ taw.8.t:0 "海峡两岸（5）"
+ taw.8.desc:0 "谈判最后的议题是关于台湾原住民的利益问题，看似无伤大雅，实则是在原住民、客家人、闽南人、日本人四个鸡蛋上跳舞，触动任何一方都有可能激化本就火药味十足的民族矛盾。"
+ taw.8.a:0 "平权不是要特权"
+ taw.8.b:0 "颁布原住民保护法"
+ taw.8.c:0 "划定原住民自治区"
+
+ taw.9.t:0 "谈判结果"
+ taw.9.desc:0 "漫长的谈判结束了，尽管部分细枝末节还有待商榷，但两岸关于将来政军民工农的问题都已经交换了意见，接下来要做的就是等待，或者是战争。"
+ taw.9.a:0 "台方拒绝签字"
+ taw.9.b:0 "广州政府拒绝签字"
+ taw.9.c:0 "谈判彻底失败"
+ taw.9.d:0 "双方取得重大共识"
+
+ taw.10.t:0 "台湾回归"
+ taw.10.desc:0 "台湾接收政府和台湾革命政府今日发表联合声明，宣布在统一大业上达成一致，台湾正式回归。虽然未来仍不明朗，但至少两岸都给了彼此一个机会，大规模的流血冲突暂时被避免了，也许这就是革命最好的归宿。"
+ taw.10.a:0 "此事平淡无奇"
+
+ taw.11.t:0 "千钧一发"
+ taw.11.desc:0 "国府的和平协议充满刁难与欺诈，妄图让我们再次被奴役，岛内人民绝不会同意我们在协议上签字。"
+ taw.11.a:0 "我们同意这份协议"
+ taw.11.b:0 "我们不能背叛台湾人民"
+
+ taw.12.t:0 "千钧一发"
+ taw.12.desc:0 "台当局的条件是对革命的背叛，是十足的地方主义和分离主义，党国不会允许这种虚假的和平，如果妥协我们将会面对空前的压力与职责。"
+ taw.12.a:0 "我们同意这份协议"
+ taw.12.b:0 "我们不能接受此种条件"
+
+ taw.13.t:0 "全台暴动"
+ taw.13.desc:0 "长的谈判最终还是破裂了，台湾各地民兵再次被动员起来捍卫他们的自由，国府方面业已经宣布戒严，武装部队也被调动出击，暗无天日的战争从台北蔓延到台南，台湾正在燃烧。"
+ taw.13.a:0 "准备围剿台独分子！"
+
+ taw.99.t:0 "原住民起义"
+ taw.99.desc:0 "随着全台暴动，原住民发现这正是渔翁得利的时候，他们迅速武装起来，誓要夺回他们祖先的遗产。"
+ taw.99.a:0 "“杀闽灭客，赶倭人下海”"
+ taw.99.b:0 "镇压这群嗜血的蛮族！"
+
+ taw.228.t:0 "第二次台湾革命"
+ taw.228.desc:0 "1923年的革命以来，全台湾依旧动荡不安，如今和平希望的彻底破灭使得席卷全岛的革命再度重来，这一次将是各方的彻底摊牌，胜出者的奖励就是台湾的过去、现在、将来，"
+ taw.228.a:0 "扮演台湾革命政府"
+ taw.228.b:0 "扮演台湾军政府"
+ ############
+ # TOOLTIPS #
+ ############
+ HRS_China_has_lost_taiwan:0 "§t中国将永远失去台湾§!"
+
+ TAW_taiwan_support_large_increase_tt:0 "台方代表§G十分满意§!"
+ TAW_taiwan_support_small_increase_tt:0 "台方代表§G较为满意§!"
+ TAW_taiwan_support_large_decrease_tt:0 "台方代表§t极为不满§!"
+ TAW_taiwan_support_small_decrease_tt:0 "台方代表§t稍有不满§!"
+ TAW_china_support_large_increase_tt:0 "广州政府§G十分满意§!"
+ TAW_china_support_small_increase_tt:0 "广州政府§G较为满意§!"
+ TAW_china_support_large_decrease_tt:0 "广州政府§t极为不满§!"
+ TAW_china_support_small_decrease_tt:0 "广州政府§t稍有不满§!"

@@ -1,0 +1,47 @@
+﻿l_simp_chinese:
+ #################
+ # CORING STATES #
+ #################
+ HRS_make_states_core:0 "获得[FROM.GetName]核心"
+ remove_PREV_core_and_add_OWNER_core:0 "在[FROM.GetName]重建政权"
+ #####################
+ # PACIFYING REGIONS #
+ #####################
+ HRS_great_asian_war_category:0 "东亚革命战争"
+
+ HRS_reunify_china:0 "平定帝国内乱"
+ HRS_deunify_china:0 "打碎帝国枷锁"
+ HRS_form_huabei:0 "平定华北"
+ HRS_form_huadong:0 "平定华东"
+ HRS_form_huazhong:0 "平定华中"
+ HRS_form_huanan:0 "平定华南"
+ HRS_form_xibei:0 "平定西北"
+ HRS_form_xinan:0 "平定西南"
+ can_form_huabei_tt:0 "控制§Y华北§!地区\n"
+ can_form_huadong_tt:0 "控制§Y华东§!地区\n"
+ can_form_huanan_tt:0 "控制§Y华南§!地区\n"
+ can_form_huazhong_tt:0 "控制§Y华中§!地区\n"
+ can_form_xibei_tt:0 "控制§Y西北§!地区\n"
+ can_form_xinan_tt:0 "控制§Y西南§!地区\n"
+
+ HRS_reunify_japan:0 "结束日本内战"
+ HRS_deunify_japan:0 "打碎日本枷锁"
+ HRS_form_saigoku:0 "平定西国"
+ HRS_form_kinki:0 "平定近畿"
+ HRS_form_togoku:0 "平定東国"
+ can_form_saigoku_tt:0 "控制§Y西国§!地区\n"
+ can_form_kinki_tt:0 "控制§Y近畿§!地区\n"
+ can_form_togoku_tt:0 "控制§Y東国§!地区\n"
+
+ HRS_reunify_korea:0 "结束朝鲜内战"
+ can_form_korea_tt:0 "控制§Y朝鮮§!半岛\n"
+ HRS_reunify_vietnam:0 "结束越南内战"
+ can_form_vietnam_tt:0 "控制§Y越南§!地区\n"
+ HRS_reunify_taiwan:0 "结束台湾内战"
+ can_form_taiwan_tt:0 "控制§Y台湾§!地区\n"
+ can_form_hokkaido_tt:0 "控制§Y北海道§!地区\n"
+ 
+ 
+ 
+ 
+ 

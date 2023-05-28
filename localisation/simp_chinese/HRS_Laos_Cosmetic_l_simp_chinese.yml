@@ -1,0 +1,40 @@
+﻿l_simp_chinese:
+ ###############
+ ## DECISIONS ##
+ ###############
+ HRS_laos_unification_category:0 "老挝统一"
+ HRS_make_laos_states_core:0 "在[FROM.GetName]重建政权"
+ HRS_unification_of_laos:0 "宣布老挝重归统一"
+ ##############
+ ## LAO-Laos ##
+ ##############
+ LAO_unification_communism:0 "老挝人民民主共和国"
+ LAO_unification_communism_DEF:0 "老挝人民民主共和国"
+ LAO_unification_anarchism:0 "老挝人民民主共和国"
+ LAO_unification_anarchism_DEF:0 "老挝人民民主共和国"
+ LAO_unification_democratic:0 "老挝王国"
+ LAO_unification_democratic_DEF:0 "老挝王国"
+ LAO_unification_neutrality:0 "老挝王国"
+ LAO_unification_neutrality_DEF:0 "老挝王国"
+ LAO_unification_monarchism:0 "老挝王国"
+ LAO_unification_monarchism_DEF:0 "老挝王国"
+ LAO_unification_communism_ADJ:0 "老挝"
+ LAO_unification_anarchism_ADJ:0 "老挝"
+ LAO_unification_democratic_ADJ:0 "老挝"
+ LAO_unification_neutrality_ADJ:0 "老挝"
+ LAO_unification_monarchism_ADJ:0 "老挝"
+ ###################
+ ## CHP-Champasak ##
+ ###################
+ CHP_unification_monarchism:0 "老挝王国"
+ CHP_unification_monarchism_DEF:0 "老挝王国"
+ CHP_unification_monarchism_ADJ:0 "老挝"
+ ############
+ ## EVENTS ##
+ ############
+ laos_unification.1.t:0 "老挝的新首都"
+ laos_unification.1.desc:0 ""
+ laos_unification.1.a:0 "万象"
+ laos_unification.1.b:0 "老挝"
+ laos_unification.1.c:0 "占巴塞"
+ laos_unification.1.d:0 "我们现在的首都就不错"

@@ -7,7 +7,9 @@ state={
 	history = {
 		owner = IMC
 		add_core_of = IMC
-
+		1924.1.1 = {
+			set_demilitarized_zone = yes
+		}
 		victory_points = { 3797 1 } #滁州
 		
 		buildings = {

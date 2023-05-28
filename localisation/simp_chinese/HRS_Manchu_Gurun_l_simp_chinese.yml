@@ -1,0 +1,91 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ MAN_communism:0 "满洲人民民主共和国"
+ MAN_communism_DEF:0 "满洲人民民主共和国"
+ MAN_anarchism:0 "满洲人民共和国"
+ MAN_anarchism_DEF:0 "满洲人民共和国"
+ MAN_socialism:0 "满洲帝国"
+ MAN_socialism_DEF:0 "满洲帝国"
+ MAN_democratic:0 "满洲帝国"
+ MAN_democratic_DEF:0 "满洲帝国"
+ MAN_neutrality:0 "满洲帝国"
+ MAN_neutrality_DEF:0 "满洲帝国"
+ MAN_monarchism:0 "满洲帝国"
+ MAN_monarchism_DEF:0 "满洲帝国"
+ MAN_fascism:0 "大金帝国"
+ MAN_fascism_DEF:0 "大金帝国"
+ MAN_imperialism:0 "大满洲帝国"
+ MAN_imperialism_DEF:0 "大满洲帝国"
+ MAN_futurism:0 "南满洲铁道辖区"
+ MAN_futurism_DEF:0 "南满洲铁道辖区"
+ MAN_communism_ADJ:0 "满洲"
+ MAN_anarchism_ADJ:0 "满洲"
+ MAN_socialism_ADJ:0 "满洲"
+ MAN_democratic_ADJ:0 "满洲"
+ MAN_neutrality_ADJ:0 "满洲"
+ MAN_monarchism_ADJ:0 "满洲"
+ MAN_fascism_ADJ:0 "满洲"
+ MAN_imperialism_ADJ:0 "大满洲"
+ MAN_futurism_ADJ:0 "满铁"
+ MAN:0 "满洲"
+ MAN_DEF:0 "满洲"
+ MAN_ADJ:0 "满洲"
+ #############
+ ## PARTIES ##
+ #############
+ MAN_communism_party:0 "满共 - 国际派"
+ MAN_communism_party_long:0 "满洲共产党 - 国际派"
+ MAN_anarchism_party:0 "满共 - 游击队派"
+ MAN_anarchism_party_long:0 "满洲共产党 - 游击队派"
+ MAN_socialism_party:0 "满洲进步党"
+ MAN_socialism_party_long:0 "满洲进步党"
+ MAN_democratic_party:0 "大满洲党"
+ MAN_democratic_party_long:0 "大满洲党"
+ MAN_neutrality_party:0 "宗社党 - 溥伟派"
+ MAN_neutrality_party_long:0 "君主立宪维持会 - 溥伟派"
+ MAN_monarchism_party:0 "议政处"
+ MAN_monarchism_party_long:0 "议政王大臣会议"
+ MAN_fascism_party:0 "协和会"
+ MAN_fascism_party_long:0 "满洲协和会"
+ MAN_imperialism_party:0 "宗社党 - 熙洽派"
+ MAN_imperialism_party_long:0 "君主立宪维持会 - 熙洽派"
+ MAN_futurism_party:0 "南满洲铁道"
+ MAN_futurism_party_long:0 "南满洲铁道"
+
+ MAN_derg_party:0 "社会主义军政府"
+ MAN_derg_party_long:0 "社会主义满洲临时军政府"
+ MAN_leftist_party:0 "满革阵"
+ MAN_leftist_party_long:0 "满洲人民革命民主阵线"
+ MAN_republican_party:0 "满洲人民党"
+ MAN_republican_party_long:0 "满洲人民党"
+ MAN_worker_party:0 "满洲工人党"
+ MAN_worker_party_long:0 "满洲工人党"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ IMC_aisin_gioro_zaitao:0 "宪治皇帝" # 爱新觉罗·载涛
+ IMC_aisin_gioro_puyi:0 "爱新觉罗·溥仪"
+ IMC_aisin_gioro_puwei:0 "爱新觉罗·溥伟"
+ IMC_aisin_gioro_xiqia:0 "爱新觉罗·熙洽"
+ IMC_aisin_gioro_xiandong:0 "爱新觉罗·宪东"
+ ###########
+ ## IDEAS ##
+ ###########
+
+ #################
+ ### DECISIONS ###
+ ################# 
+
+ ################
+ ## FOCUS TREE ##
+ ################
+ 
+ #############
+ ### EVENT ###
+ #############

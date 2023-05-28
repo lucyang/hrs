@@ -1,0 +1,75 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ QNA_communism:0 "青岛镇守府"
+ QNA_communism_DEF:0 "青岛镇守府"
+ QNA_anarchism:0 "青岛镇守府"
+ QNA_anarchism_DEF:0 "青岛镇守府"
+ QNA_socialism:0 "青岛镇守府"
+ QNA_socialism_DEF:0 "青岛镇守府"
+ QNA_democratic:0 "青岛镇守府"
+ QNA_democratic_DEF:0 "青岛镇守府"
+ QNA_neutrality:0 "青岛镇守府"
+ QNA_neutrality_DEF:0 "青岛镇守府"
+ QNA_monarchism:0 "青岛镇守府"
+ QNA_monarchism_DEF:0 "青岛镇守府"
+ QNA_fascism:0 "青岛镇守府"
+ QNA_fascism_DEF:0 "青岛镇守府"
+ QNA_imperialism:0 "青岛镇守府"
+ QNA_imperialism_DEF:0 "青岛镇守府"
+ QNA_futurism:0 "青岛镇守府"
+ QNA_futurism_DEF:0 "青岛镇守府"
+ QNA_communism_ADJ:0 "青岛"
+ QNA_anarchism_ADJ:0 "青岛"
+ QNA_socialism_ADJ:0 "青岛"
+ QNA_democratic_ADJ:0 "青岛"
+ QNA_neutrality_ADJ:0 "青岛"
+ QNA_monarchism_ADJ:0 "青岛"
+ QNA_fascism_ADJ:0 "青岛"
+ QNA_imperialism_ADJ:0 "青岛"
+ QNA_futurism_ADJ:0 "青岛"
+ QNA:0 "青岛"
+ QNA_DEF:0 "青岛"
+ QNA_ADJ:0 "青岛"
+ #############
+ ## PARTIES ##
+ #############
+ QNA_communism_party:0 "社民农工党"
+ QNA_communism_party_long:0 "中国社会民主农工党"
+ QNA_anarchism_party:0 "中国新村社"
+ QNA_anarchism_party_long:0 "中国新村社"
+ QNA_socialism_party:0 "中国民主政团同盟"
+ QNA_socialism_party_long:0 "中国民主政团同盟"
+ QNA_democratic_party:0 "山东自治联合会"
+ QNA_democratic_party_long:0 "山东自治联合会"
+ QNA_neutrality_party:0 "镇守府司令部"
+ QNA_neutrality_party_long:0 "镇守府司令部"
+ QNA_monarchism_party:0 "孔教会"
+ QNA_monarchism_party_long:0 "孔教会"
+ QNA_fascism_party:0 "中国新民会"
+ QNA_fascism_party_long:0 "中国新民会"
+ QNA_imperialism_party:0 "战国策派"
+ QNA_imperialism_party_long:0 "战国策派"
+ QNA_futurism_party:0 "技术官僚"
+ QNA_futurism_party_long:0 "技术官僚"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ QNA_shen_honglie:0 "沈鸿烈"
+ QNA_shen_honglie_desc:0 "§Y出生日期§!：§G1882年10月27日§!\n§Y出生地点§!：§G大东帝国襄阳道天门县§!\n\n§Y沈鸿烈§!的前半生与帝国海军军人并无不同——考入海军学校，从舰长一路爬升到镇守府司令长官······至少在革命爆发前，沈鸿烈已是§Y青岛要港部§!的指挥官，镇守帝国北方最重要的军用港口。沈鸿烈也是中国同盟会的成员，但是他非常厌恶同盟会中的左翼分子，甚至放言说§Y“宁匪化，勿赤化；宁亡与倭，勿亡与共；倭可以不灭，共不可不打”§!。\n\n在革命爆发后，帝国海军司令§Y萨镇冰§!号召全体海军保持中立，而沈鸿烈亦遵循此军令，直到§Y福建事变§!爆发。看到昔日的老上司与共匪沆瀣一气，失望的沈鸿烈在青岛建立了军政府，挫败了徐镜心收复胶东半岛的阴谋。如今的青岛犹如一只刺猬，必将埋葬一切来犯之敌。而沈鸿烈绝不打算只有尖刺保护自己，有朝一日，他要率领部队向一切共匪势力发起进攻。"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############
+ 
+ ##############
+ ## TOOLTIPS ##
+ ##############

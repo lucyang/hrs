@@ -1,0 +1,74 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ YSS_communism:0 "黄沙会"
+ YSS_communism_DEF:0 "黄沙会"
+ YSS_anarchism:0 "黄沙会"
+ YSS_anarchism_DEF:0 "黄沙会"
+ YSS_socialism:0 "黄沙会"
+ YSS_socialism_DEF:0 "黄沙会"
+ YSS_democratic:0 "黄沙会"
+ YSS_democratic_DEF:0 "黄沙会"
+ YSS_neutrality:0 "黄沙会"
+ YSS_neutrality_DEF:0 "黄沙会"
+ YSS_monarchism:0 "黄沙会"
+ YSS_monarchism_DEF:0 "黄沙会"
+ YSS_fascism:0 "黄沙会"
+ YSS_fascism_DEF:0 "黄沙会"
+ YSS_imperialism:0 "黄沙会"
+ YSS_imperialism_DEF:0 "黄沙会"
+ YSS_futurism:0 "黄沙会"
+ YSS_futurism_DEF:0 "黄沙会"
+ YSS_communism_ADJ:0 "黄沙会"
+ YSS_anarchism_ADJ:0 "黄沙会"
+ YSS_democratic_ADJ:0 "黄沙会"
+ YSS_neutrality_ADJ:0 "黄沙会"
+ YSS_monarchism_ADJ:0 "黄沙会"
+ YSS_fascism_ADJ:0 "黄沙会"
+ YSS_imperialism_ADJ:0 "黄沙会"
+ YSS_futurism_ADJ:0 "黄沙会"
+ YSS:0 "黄沙会"
+ YSS_DEF:0 "黄沙会"
+ YSS_ADJ:0 "黄沙会"
+ #############
+ ## PARTIES ##
+ #############
+ YSS_communism_party:0 "社民农工党"
+ YSS_communism_party_long:0 "中国社会民主农工党"
+ YSS_anarchism_party:0 "中国新村社"
+ YSS_anarchism_party_long:0 "中国新村社"
+ YSS_socialism_party:0 "中国民主政团同盟"
+ YSS_socialism_party_long:0 "中国民主政团同盟"
+ YSS_democratic_party:0 "中华革命党"
+ YSS_democratic_party_long:0 "中华革命党"
+ YSS_neutrality_party:0 "黄沙会"
+ YSS_neutrality_party_long:0 "黄沙会"
+ YSS_monarchism_party:0 "黄沙会"
+ YSS_monarchism_party_long:0 "黄沙会"
+ YSS_fascism_party:0 "中国新民会"
+ YSS_fascism_party_long:0 "中国新民会"
+ YSS_imperialism_party:0 "战国策派"
+ YSS_imperialism_party_long:0 "战国策派"
+ YSS_futurism_party:0 "技术官僚"
+ YSS_futurism_party_long:0 "技术官僚"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ YSS_yellow_sand_society:0 "黄沙会总堂"
+ YSS_yellow_sand_society_desc:0 ""
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############
+ 
+ ##############
+ ## TOOLTIPS ##
+ ##############

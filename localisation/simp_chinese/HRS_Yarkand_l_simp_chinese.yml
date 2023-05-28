@@ -1,0 +1,60 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ YAR_communism:0 "图兰伊斯兰共和国"
+ YAR_communism_DEF:0 "图兰伊斯兰共和国"
+ YAR_anarchism:0 "图兰伊斯兰共和国"
+ YAR_anarchism_DEF:0 "图兰伊斯兰共和国"
+ YAR_democratic:0 "图兰伊斯兰共和国"
+ YAR_democratic_DEF:0 "图兰伊斯兰共和国"
+ YAR_neutrality:0 "图兰伊斯兰共和国"
+ YAR_neutrality_DEF:0 "图兰伊斯兰共和国"
+ YAR_monarchism:0 "图兰伊斯兰共和国"
+ YAR_monarchism_DEF:0 "图兰伊斯兰共和国"
+ YAR_fascism:0 "图兰伊斯兰共和国"
+ YAR_fascism_DEF:0 "图兰伊斯兰共和国"
+ YAR_imperialism:0 "图兰伊斯兰共和国"
+ YAR_imperialism_DEF:0 "图兰伊斯兰共和国"
+ YAR_futurism:0 "图兰伊斯兰共和国"
+ YAR_futurism_DEF:0 "图兰伊斯兰共和国"
+ YAR_communism_ADJ:0 "叶尔羌"
+ YAR_anarchism_ADJ:0 "叶尔羌"
+ YAR_democratic_ADJ:0 "叶尔羌"
+ YAR_neutrality_ADJ:0 "叶尔羌"
+ YAR_monarchism_ADJ:0 "叶尔羌"
+ YAR_fascism_ADJ:0 "叶尔羌"
+ YAR_imperialism_ADJ:0 "叶尔羌"
+ YAR_futurism_ADJ:0 "叶尔羌"
+ YAR:0 "叶尔羌"
+ YAR_DEF:0 "叶尔羌"
+ YAR_ADJ:0 "叶尔羌"
+ #############
+ ## PARTIES ##
+ #############
+ YAR_communism_party:0 "突厥斯坦共产党"
+ YAR_communism_party_long:0 "突厥斯坦共产党"
+ YAR_anarchism_party:0 "民主革命党"
+ YAR_anarchism_party_long:0 "图兰民主革命党"
+ YAR_socialism_party:0 "人民革命党 - 扎吉德派"
+ YAR_socialism_party_long:0 "图兰人民革命党 - 扎吉德派"
+ YAR_democratic_party:0 "人民革命党 - 卡迪木派"
+ YAR_democratic_party_long:0 "图兰人民革命党 - 卡迪木派"
+ YAR_neutrality_party:0 "民族革命委员会" 
+ YAR_neutrality_party_long:0 "民族革命委员会"
+ YAR_monarchism_party:0 "大突厥主义伊斯兰党"
+ YAR_monarchism_party_long:0 "大突厥主义伊斯兰党"
+ YAR_fascism_party:0 "图兰民族党"
+ YAR_fascism_party_long:0 "图兰民族党"
+ YAR_imperialism_party:0 "青年喀什噶尔党"
+ YAR_imperialism_party_long:0 "青年喀什噶尔党"
+ YAR_futurism_party:0 "技术官僚"
+ YAR_futurism_party_long:0 "技术官僚"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ YAR_sabit_damolla:0 "沙比提大毛拉·阿不都尔巴克"

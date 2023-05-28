@@ -1,0 +1,74 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ QND_communism:0 "山东军政府"
+ QND_communism_DEF:0 "山东军政府"
+ QND_anarchism:0 "山东军政府"
+ QND_anarchism_DEF:0 "山东军政府"
+ QND_socialism:0 "山东军政府"
+ QND_socialism_DEF:0 "山东军政府"
+ QND_democratic:0 "山东军政府"
+ QND_democratic_DEF:0 "山东军政府"
+ QND_neutrality:0 "山东军政府"
+ QND_neutrality_DEF:0 "山东军政府"
+ QND_monarchism:0 "山东军政府"
+ QND_monarchism_DEF:0 "山东军政府"
+ QND_fascism:0 "山东军政府"
+ QND_fascism_DEF:0 "山东军政府"
+ QND_imperialism:0 "山东军政府"
+ QND_imperialism_DEF:0 "山东军政府"
+ QND_futurism:0 "山东军政府"
+ QND_futurism_DEF:0 "山东军政府"
+ QND_communism_ADJ:0 "胶东"
+ QND_anarchism_ADJ:0 "胶东"
+ QND_democratic_ADJ:0 "胶东"
+ QND_neutrality_ADJ:0 "胶东"
+ QND_monarchism_ADJ:0 "胶东"
+ QND_fascism_ADJ:0 "胶东"
+ QND_imperialism_ADJ:0 "胶东"
+ QND_futurism_ADJ:0 "胶东"
+ QND:0 "胶东"
+ QND_DEF:0 "胶东"
+ QND_ADJ:0 "胶东"
+ #############
+ ## PARTIES ##
+ #############
+ QND_communism_party:0 "社民农工党"
+ QND_communism_party_long:0 "中国社会民主农工党"
+ QND_anarchism_party:0 "中国新村社"
+ QND_anarchism_party_long:0 "中国新村社"
+ QND_socialism_party:0 "中国民主政团同盟"
+ QND_socialism_party_long:0 "中国民主政团同盟"
+ QND_democratic_party:0 "山东自治联合会"
+ QND_democratic_party_long:0 "山东自治联合会"
+ QND_neutrality_party:0 "山东保全会"
+ QND_neutrality_party_long:0 "山东保全会"
+ QND_monarchism_party:0 "孔教会"
+ QND_monarchism_party_long:0 "孔教会"
+ QND_fascism_party:0 "中国新民会"
+ QND_fascism_party_long:0 "中国新民会"
+ QND_imperialism_party:0 "战国策派"
+ QND_imperialism_party_long:0 "战国策派"
+ QND_futurism_party:0 "胶澳商团"
+ QND_futurism_party_long:0 "胶澳商团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ QND_xu_jingxin:0 "徐镜心"
+ QND_xu_jingxin_desc:0 "§Y出生日期§!：§G1888年12月10日§!\n§Y出生地点§!：§G大东帝国胶东道黄县§!\n\n§Y徐镜心§!出生于山东省的一户富庶地主家庭，父亲徐德声创办有一家名为“东福兴顺”的商号。1902年，徐镜心考入山东大学法学专业，1905年徐镜心与§Y孙中山§!相识，并加入§Y中国同盟会§!，被委任为同盟会北方支部长兼山东主盟人。毕业之后，徐镜心回到家乡创办了一所私立学校，暗地里向学院传播共和革命的思想，成为了胶东半岛乃至山东的革命中心。\n\n此后徐镜心往来于山东、天津、辽东等地宣传革命理念，不料孙中山背叛革命、中国同盟会大分裂，革命势力在山东遭受严重挫折。当帝国陷入革命与动乱之中时，徐镜心试图煽动帝国士兵发动革命，却险些被山东都督§Y孙宝琦§!逮捕。好在海军中的进步派向徐镜心伸出了援手，他从大连出兵，一夜之间渡过渤海海峡袭取登州，并于次日成立山东军政府。\n\n此后徐镜心派兵西征黄县、莱州等地，光复胶东半岛大部分地区，但是革命军在沈鸿烈坚守的要塞城市青岛前败下阵来。此时，徐镜心的政权内部却出现了麻烦：徐镜心与§Y刘冠三§!发生内讧，后者希望徐镜心与山东军阀妥协，共同对抗帝国政府。徐镜心很清楚，妥协意味着出卖革命，但是山东又为何非要为中国而战呢？一个大胆的想法逐渐产生······"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############
+ 
+ ##############
+ ## TOOLTIPS ##
+ ##############

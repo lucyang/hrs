@@ -1,0 +1,71 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ HAK_communism:0 "客家大同国"
+ HAK_communism_DEF:0 "客家大同国"
+ HAK_anarchism:0 "客家大同国"
+ HAK_anarchism_DEF:0 "客家大同国"
+ HAK_socialism:0 "客家大同国"
+ HAK_socialism_DEF:0 "客家大同国"
+ HAK_democratic:0 "客家大同国"
+ HAK_democratic_DEF:0 "客家大同国"
+ HAK_neutrality:0 "客家大同国"
+ HAK_neutrality_DEF:0 "客家大同国"
+ HAK_monarchism:0 "客家大同国"
+ HAK_monarchism_DEF:0 "客家大同国"
+ HAK_fascism:0 "客家大同国"
+ HAK_fascism_DEF:0 "客家大同国"
+ HAK_imperialism:0 "客家大同国"
+ HAK_imperialism_DEF:0 "客家大同国"
+ HAK_futurism:0 "客家大同国"
+ HAK_futurism_DEF:0 "客家大同国"
+ HAK_communism_ADJ:0 "客家"
+ HAK_anarchism_ADJ:0 "客家"
+ HAK_socialism_ADJ:0 "客家"
+ HAK_democratic_ADJ:0 "客家"
+ HAK_neutrality_ADJ:0 "客家"
+ HAK_monarchism_ADJ:0 "客家"
+ HAK_fascism_ADJ:0 "客家"
+ HAK_imperialism_ADJ:0 "客家"
+ HAK_futurism_ADJ:0 "客家"
+ HAK:0 "客家"
+ HAK_DEF:0 "客家"
+ HAK_ADJ:0 "客家"
+ #############
+ ## PARTIES ##
+ #############
+ HAK_communism_party:0 "社民农工党"
+ HAK_communism_party_long:0 "中国社会民主农工党"
+ HAK_anarchism_party:0 "无治共产主义同志社"
+ HAK_anarchism_party_long:0 "无治共产主义同志社"
+ HAK_socialism_party:0 "广东工会联合会"
+ HAK_socialism_party_long:0 "广东工会联合会"
+ HAK_democratic_party:0 "客家党"
+ HAK_democratic_party_long:0 "客家党"
+ HAK_neutrality_party:0 "客家民族军"
+ HAK_neutrality_party_long:0 "客家民族军"
+ HAK_monarchism_party:0 "和朝保皇派"
+ HAK_monarchism_party_long:0 "和朝保皇派"
+ HAK_fascism_party:0 "广东独立协会"
+ HAK_fascism_party_long:0 "广东独立协会"
+ HAK_imperialism_party:0 "客家大同会"
+ HAK_imperialism_party_long:0 "客家大同会"
+ HAK_futurism_party:0 "南洋开发集团"
+ HAK_futurism_party_long:0 "南洋开发集团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ HAK_feng_ziyou:0 "冯自由"
+ HAK_feng_ziyou_desc:0 ""
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

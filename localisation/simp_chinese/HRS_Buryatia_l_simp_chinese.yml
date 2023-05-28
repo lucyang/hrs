@@ -1,0 +1,76 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ BYA_communism:0 "布里亚特-蒙古苏维埃"
+ BYA_communism_DEF:0 "布里亚特-蒙古苏维埃社会主义自治共和国"
+ BYA_anarchism:0 "布里亚特-蒙古苏维埃"
+ BYA_anarchism_DEF:0 "布里亚特-蒙古苏维埃社会主义自治共和国"
+ BYA_democratic:0 "布里亚特-蒙古国"
+ BYA_democratic_DEF:0 "布里亚特-蒙古国"
+ BYA_neutrality:0 "布里亚特-蒙古国"
+ BYA_neutrality_DEF:0 "布里亚特-蒙古国"
+ BYA_monarchism:0 "布里亚特-蒙古国"
+ BYA_monarchism_DEF:0 "布里亚特-蒙古国"
+ BYA_fascism:0 "布里亚特-蒙古国"
+ BYA_fascism_DEF:0 "布里亚特-蒙古国"
+ BYA_imperialism:0 "布里亚特-蒙古国"
+ BYA_imperialism_DEF:0 "布里亚特-蒙古国"
+ BYA_futurism:0 "布里亚特-蒙古国"
+ BYA_futurism_DEF:0 "布里亚特-蒙古国"
+ BYA_communism_ADJ:0 "布里亚特"
+ BYA_anarchism_ADJ:0 "布里亚特"
+ BYA_democratic_ADJ:0 "布里亚特"
+ BYA_neutrality_ADJ:0 "布里亚特"
+ BYA_monarchism_ADJ:0 "布里亚特"
+ BYA_fascism_ADJ:0 "布里亚特"
+ BYA_imperialism_ADJ:0 "布里亚特"
+ BYA_futurism_ADJ:0 "布里亚特"
+ BYA:0 "布里亚特"
+ BYA_DEF:0 "布里亚特"
+ BYA_ADJ:0 "布里亚特"
+ #############
+ ## PARTIES ##
+ #############
+ BYA_communism_party:0 "俄罗斯共产党"
+ BYA_communism_party_long:0 "俄罗斯共产党"
+ BYA_anarchism_party:0 "蒙古人民党"
+ BYA_anarchism_party_long:0 "蒙古人民党"
+ BYA_socialism_party:0 "民族委员会 - 左翼"
+ BYA_socialism_party_long:0 "布里亚特-蒙古中央民族委员会(左翼)"
+ BYA_democratic_party:0 "民族委员会 - 右翼" # Бурнацком
+ BYA_democratic_party_long:0 "布里亚特-蒙古中央民族委员会(右翼)" # Центральный национальный комитет бурят-монголов Восточной Сибири
+ BYA_neutrality_party:0 "外贝加尔军团"
+ BYA_neutrality_party_long:0 "外贝加尔军团"
+ BYA_monarchism_party:0 "白卫军运动"
+ BYA_monarchism_party_long:0 "白卫军运动"
+ BYA_fascism_party:0 "民族劳动联盟"
+ BYA_fascism_party_long:0 "俄罗斯团结主义者民族劳动联盟"
+ BYA_imperialism_party:0 "俄罗斯全军联盟"
+ BYA_imperialism_party_long:0 "俄罗斯全军联盟"
+ BYA_futurism_party:0 "人民意志党"
+ BYA_futurism_party_long:0 "人民意志党"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ BYA_boris_shumyatsky:0 "鲍里斯·舒米亚茨基"
+ BYA_boris_shumyatsky_desc:0 "§Y出生日期§!：§G1886年11月16日§!\n§Y出生地点§!：§G大俄罗斯共和国外贝加尔州上乌金斯克§!\n\n§Y鲍里斯·舒米亚茨基§!生于布里亚特的一个穷苦人家，没有受过任何教育的他自学了俄文和布里亚特语，在§W克拉斯诺亚尔斯克§!的铁路车辆厂找了份糊口的工作。不过舒米亚茨基确实是天生的革命家，19岁时他就组织了克拉斯诺亚尔斯克的工人武装起义，并因此遭到俄国政府通缉。\n\n东躲西藏的过程中，他主编了数份报纸，还娶了一位坎斯克的富商之女为妻。1906年，舒米亚茨基潜入俄国势力在满洲的中心地带——哈尔滨，秘密成立了§R俄国职工联合会§!。两年后，他联合汉满俄各民族工人，成功发起数千人规模的五一大罢工。不久后哈尔滨展开全城大搜捕，在满洲民众的帮助下，舒米亚茨基逃离哈尔滨。\n\n在海外流亡几年后，舒米亚茨基于1913年回到罗西亚并正式加入俄国社会民主工党§R布尔什维克派§!，成为该党在西伯利亚的组织的活跃的革命家。1917年10月，他在伊尔库茨克成功发动了革命，这是十月革命后布尔什维克在罗西亚取得的最大胜利，从车里雅宾斯克到符拉迪沃斯托克均落入布尔什维克之手。\n\n§R庙街惨案§!使舒米亚茨基先前的努力全部付之一炬，§Y特里亚皮岑§!窃据远东共和国总统之位。虽然博格丹诺夫发动政变，成功驱逐了暴君，但是舒米亚茨基与他就布里亚特人的自治问题产生了严重分歧：前者支持俄罗斯少数民族自治或自决，后者要求少数民族并入远东的苏维埃共和国——最终双方决裂。\n\n在此期间，他积极推动中国、蒙古、朝鲜等地的共产党组织的创建与发展，革命的曙光总算已经出现。然而当下更加紧迫的问题即将出现——赤塔的刽子手、草原的屠夫§Y谢苗诺夫§!正在蠢蠢欲动，他的第一个目标显然是布里亚特这一股肱之患，舒米亚茨基必须利用一切资源来确保自己能生存下去......"
+ ###########
+ ## IDEAS ##
+ ###########
+
+ #################
+ ### DECISIONS ###
+ ################# 
+
+ ################
+ ## FOCUS TREE ##
+ ################
+ 
+ #############
+ ### EVENT ###
+ #############

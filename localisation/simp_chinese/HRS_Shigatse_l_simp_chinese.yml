@@ -1,0 +1,70 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ SHG_communism:0 "后藏"
+ SHG_communism_DEF:0 "后藏"
+ SHG_anarchism:0 "后藏"
+ SHG_anarchism_DEF:0 "后藏"
+ SHG_socialism:0 "后藏"
+ SHG_socialism_DEF:0 "后藏"
+ SHG_democratic:0 "后藏"
+ SHG_democratic_DEF:0 "后藏"
+ SHG_neutrality:0 "后藏"
+ SHG_neutrality_DEF:0 "后藏"
+ SHG_monarchism:0 "后藏"
+ SHG_monarchism_DEF:0 "后藏"
+ SHG_fascism:0 "后藏"
+ SHG_fascism_DEF:0 "后藏"
+ SHG_imperialism:0 "后藏"
+ SHG_imperialism_DEF:0 "后藏"
+ SHG_futurism:0 "后藏"
+ SHG_futurism_DEF:0 "后藏"
+ SHG_communism_ADJ:0 "后藏"
+ SHG_anarchism_ADJ:0 "后藏"
+ SHG_socialism_ADJ:0 "后藏"
+ SHG_democratic_ADJ:0 "后藏"
+ SHG_neutrality_ADJ:0 "后藏"
+ SHG_monarchism_ADJ:0 "后藏"
+ SHG_fascism_ADJ:0 "后藏"
+ SHG_imperialism_ADJ:0 "后藏"
+ SHG_futurism_ADJ:0 "后藏"
+ SHG:0 "后藏"
+ SHG_DEF:0 "后藏"
+ SHG_ADJ:0 "后藏"
+ #############
+ ## PARTIES ##
+ #############
+ SHG_communism_party:0 "西藏共产党"
+ SHG_communism_party_long:0 "西藏共产党"
+ SHG_anarchism_party:0 "西藏共产党"
+ SHG_anarchism_party_long:0 "西藏共产党"
+ SHG_socialism_party:0 "西藏改革党"
+ SHG_socialism_party_long:0 "西藏改革党" # 邦达饶噶
+ SHG_democratic_party:0 "囊马岗 - 改革派"
+ SHG_democratic_party_long:0 "囊马岗 - 改革派" # 邦达多吉
+ SHG_neutrality_party:0 "囊马岗 - 保守派"
+ SHG_neutrality_party_long:0 "囊马岗 - 保守派"
+ SHG_monarchism_party:0 "囊马岗 - 传统派"
+ SHG_monarchism_party_long:0 "囊马岗 - 传统派"
+ SHG_fascism_party:0 "囊马岗 - 亲华派"
+ SHG_fascism_party_long:0 "囊马岗 - 亲华派"
+ SHG_imperialism_party:0 "卫教志愿军"
+ SHG_imperialism_party_long:0 "卫教志愿军"
+ SHG_futurism_party:0 "囊马岗 - 亲俄派"
+ SHG_futurism_party_long:0 "囊马岗 - 亲俄派"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ TIB_thubten_choekyi_nyima:0 "第九世班禅额尔德尼"
+ #############
+ # Decisions #
+ #############
+
+ #################
+ # POWER BALANCE #
+ #################

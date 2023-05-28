@@ -1,0 +1,77 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ FEM_communism:0 "潮汕女子自卫军"
+ FEM_communism_DEF:0 "潮汕女子自卫军"
+ FEM_anarchism:0 "潮汕女子自卫军"
+ FEM_anarchism_DEF:0 "潮汕女子自卫军"
+ FEM_socialism:0 "潮汕女子自卫军"
+ FEM_socialism_DEF:0 "潮汕女子自卫军"
+ FEM_democratic:0 "潮汕女子自卫军"
+ FEM_democratic_DEF:0 "潮汕女子自卫军"
+ FEM_neutrality:0 "潮汕女子自卫军"
+ FEM_neutrality_DEF:0 "潮汕女子自卫军"
+ FEM_monarchism:0 "潮汕女子自卫军"
+ FEM_monarchism_DEF:0 "潮汕女子自卫军"
+ FEM_fascism:0 "潮汕女子自卫军"
+ FEM_fascism_DEF:0 "潮汕女子自卫军"
+ FEM_imperialism:0 "潮汕女子自卫军"
+ FEM_imperialism_DEF:0 "潮汕女子自卫军"
+ FEM_futurism:0 "潮汕女子自卫军"
+ FEM_futurism_DEF:0 "潮汕女子自卫军"
+ FEM_communism_ADJ:0 "潮汕女工"
+ FEM_anarchism_ADJ:0 "潮汕女工"
+ FEM_socialism_ADJ:0 "潮汕女工"
+ FEM_democratic_ADJ:0 "潮汕女工"
+ FEM_neutrality_ADJ:0 "潮汕女工"
+ FEM_monarchism_ADJ:0 "潮汕女工"
+ FEM_fascism_ADJ:0 "潮汕女工"
+ FEM_imperialism_ADJ:0 "潮汕女工"
+ FEM_futurism_ADJ:0 "潮汕女工"
+ FEM:0 "潮汕女工"
+ FEM_DEF:0 "潮汕女工"
+ FEM_ADJ:0 "潮汕女工"
+ #############
+ ## PARTIES ##
+ #############
+ FEM_communism_party:0 "社民农工党"
+ FEM_communism_party_long:0 "中国社会民主农工党"
+ FEM_anarchism_party:0 "潮汕女工联合会"
+ FEM_anarchism_party_long:0 "潮汕女工联合会"
+ FEM_socialism_party:0 "女子参政同盟会"
+ FEM_socialism_party_long:0 "女子参政同盟会"
+ FEM_democratic_party:0 "中华革命党 - 民权派"
+ FEM_democratic_party_long:0 "中华革命党 - 民权派"
+ FEM_neutrality_party:0 "潮汕女子自卫军"
+ FEM_neutrality_party_long:0 "潮汕女子自卫军"
+ FEM_monarchism_party:0 "皇汉会"
+ FEM_monarchism_party_long:0 "皇汉会"
+ FEM_fascism_party:0 "中华革命党 - 民族派"
+ FEM_fascism_party_long:0 "中华革命党 - 民族派"
+ FEM_imperialism_party:0 "中华革命党 - 泛亚派"
+ FEM_imperialism_party_long:0 "中华革命党 - 泛亚派"
+ FEM_futurism_party:0 "广州商团"
+ FEM_futurism_party_long:0 "广州商团"
+ ############
+ ## TRAITS ##
+ ############
+ FEM_heroine:0 "鉴湖女侠"
+ ################
+ ## CHARACTERS ##
+ ################
+ FEM_shen_peizhen:0 "沈佩贞"
+ FEM_shen_peizhen_desc:0 "§Y出生日期§!：§G不详§!\n§Y出生地点§!：§G大东帝国会稽道绍兴县§!\n\n"
+ FEM_tang_qunying:0 "唐群英"
+ FEM_tang_qunying_desc:0 "§Y出生日期§!：§G1871年12月8日§!\n§Y出生地点§!：§G大东帝国衡阳道衡山县§!\n\n"
+ FEM_qiu_jin:0 "秋瑾"
+ FEM_qiu_jin_desc:0 "§Y出生日期§!：§G1875年11月8日§!\n§Y出生地点§!：§G大东帝国厦门道同安县§!\n\n"
+ FEM_yu_zhezhen:0 "余哲贞"
+ FEM_yu_zhezhen_desc:0 "§Y出生日期§!：§G1907年§!\n§Y出生地点§!：§G大东帝国潮循道澄海县§!\n\n"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

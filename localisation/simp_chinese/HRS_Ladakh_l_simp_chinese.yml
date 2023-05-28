@@ -1,0 +1,56 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ LDK_communism:0 "拉达克人民共和国"
+ LDK_communism_DEF:0 "拉达克人民共和国"
+ LDK_anarchism:0 "拉达克人民共和国"
+ LDK_anarchism_DEF:0 "拉达克人民共和国"
+ LDK_socialism:0 "拉达克民主共和国"
+ LDK_socialism_DEF:0 "拉达克民主共和国"
+ LDK_democratic:0 "拉达克王国"
+ LDK_democratic_DEF:0 "拉达克王国"
+ LDK_neutrality:0 "拉达克王国"
+ LDK_neutrality_DEF:0 "拉达克王国"
+ LDK_monarchism:0 "拉达克王国"
+ LDK_monarchism_DEF:0 "拉达克王国"
+ LDK_fascism:0 "拉达克王国"
+ LDK_fascism_DEF:0 "拉达克王国"
+ LDK_imperialism:0 "拉达克王国"
+ LDK_imperialism_DEF:0 "拉达克王国"
+ LDK_futurism:0 "拉达克王国"
+ LDK_futurism_DEF:0 "拉达克王国"
+ LDK_communism_ADJ:0 "拉达克"
+ LDK_anarchism_ADJ:0 "拉达克"
+ LDK_socialism_ADJ:0 "拉达克"
+ LDK_democratic_ADJ:0 "拉达克"
+ LDK_neutrality_ADJ:0 "拉达克"
+ LDK_monarchism_ADJ:0 "拉达克"
+ LDK_fascism_ADJ:0 "拉达克"
+ LDK_imperialism_ADJ:0 "拉达克"
+ LDK_futurism_ADJ:0 "拉达克"
+ LDK:0 "拉达克"
+ LDK_DEF:0 "拉达克"
+ LDK_ADJ:0 "拉达克"
+ #############
+ ## PARTIES ##
+ #############
+ LDK_neutrality_party:0 "行商家族"
+ LDK_neutrality_party_long:0 "行商家族" # Khwajagon
+ LDK_monarchism_party:0 "南嘉王朝"
+ LDK_monarchism_party_long:0 "南嘉王朝" # Jigmet Dadul Namgyal 
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ LDK_jigmet_dadul_namgyal:0 "吉格梅·德杜·南嘉"
+ #############
+ # Decisions #
+ #############
+
+ #################
+ # POWER BALANCE #
+ #################

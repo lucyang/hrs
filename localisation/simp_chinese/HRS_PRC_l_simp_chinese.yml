@@ -1,0 +1,133 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ PRC_communism:0 "革命军事委员会"
+ PRC_communism_DEF:0 "中华民国革命军事委员会"
+ PRC_anarchism:0 "革命军事委员会"
+ PRC_anarchism_DEF:0 "中华民国革命军事委员会"
+ PRC_socialism:0 "革命军事委员会"
+ PRC_socialism_DEF:0 "中华民国革命军事委员会"
+ PRC_democratic:0 "革命军事委员会"
+ PRC_democratic_DEF:0 "中华民国革命军事委员会"
+ PRC_neutrality:0 "革命军事委员会"
+ PRC_neutrality_DEF:0 "中华民国革命军事委员会"
+ PRC_monarchism:0 "革命军事委员会"
+ PRC_monarchism_DEF:0 "中华民国革命军事委员会"
+ PRC_fascism:0 "革命军事委员会"
+ PRC_fascism_DEF:0 "中华民国革命军事委员会"
+ PRC_imperialism:0 "革命军事委员会"
+ PRC_imperialism_DEF:0 "中华民国革命军事委员会"
+ PRC_futurism:0 "革命军事委员会"
+ PRC_futurism_DEF:0 "中华民国革命军事委员会"
+ PRC_communism_ADJ:0 "冀南"
+ PRC_anarchism_ADJ:0 "冀南"
+ PRC_socialism_ADJ:0 "冀南"
+ PRC_democratic_ADJ:0 "冀南"
+ PRC_neutrality_ADJ:0 "冀南"
+ PRC_monarchism_ADJ:0 "冀南"
+ PRC_fascism_ADJ:0 "冀南"
+ PRC_imperialism_ADJ:0 "冀南"
+ PRC_futurism_ADJ:0 "冀南"
+ PRC:0 "冀南
+ PRC_DEF:0 "冀南"
+ PRC_ADJ:0 "冀南"
+ #############
+ ## PARTIES ##
+ #############
+ PRC_communism_party:0 "革命同盟军"
+ PRC_communism_party_long:0 "革命同盟军"
+ PRC_anarchism_party:0 "革命同盟军"
+ PRC_anarchism_party_long:0 "革命同盟军"
+ PRC_socialism_party:0 "革命同盟军"
+ PRC_socialism_party_long:0 "革命同盟军"
+ PRC_democratic_party:0 "中华革命党"
+ PRC_democratic_party_long:0 "中华革命党"
+ PRC_neutrality_party:0 "武学研究会"
+ PRC_neutrality_party_long:0 "武学研究会"
+ PRC_monarchism_party:0 "孔教会"
+ PRC_monarchism_party_long:0 "孔教会"
+ PRC_fascism_party:0 "中华民国新民会"
+ PRC_fascism_party_long:0 "中华民国新民会"
+ PRC_imperialism_party:0 "战国策派"
+ PRC_imperialism_party_long:0 "战国策派"
+ PRC_futurism_party:0 "技术官僚"
+ PRC_futurism_party_long:0 "技术官僚"
+
+ PRC_pla_party:0 "工农革命军"
+ PRC_pla_party_long:0 "工农革命军"
+ PRC_nra_party:0 "国民革命军"
+ PRC_nra_party_long:0 "国民革命军"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ PRC_li_dazhao:0 "李大钊"
+ PRC_chen_duxiu:0 "陈独秀"
+ PRC_ji_hongchang:0 "吉鸿昌"
+ PRC_ji_hongchang_desc:0 "§Y出生日期§!：§G1895年10月18日§!\n§Y出生地点§!：§G大东帝国开封道扶沟县§!\n\n§Y吉鸿昌§!出生贫寒家庭，父亲在镇上开茶馆维持生计，母亲早逝。吉鸿昌拾柴火、卖烟丝、做学徒以维持生计，受尽人世间苦难。1913年，为了军队免费发放的肉罐头和白米饭，吉鸿昌毅然从军，从此开始了他的戎马生涯。吉鸿昌身高1米96，仪表堂堂、虎背熊腰，吃苦耐劳，作战勇敢，为人正直。§Y冯玉祥§!看中了吉鸿昌的潜力，将他调入近卫步兵联队，吉鸿昌服役两年后转入保定军校进修。\n\n在军校期间，吉鸿昌了解到帝国军内部皖系军人和直系军人的矛盾，还结识了不少青年军官，他们不满于帝国现状，希望能够荡涤社会风气，实现帝国的二次维新。这些军官大致分为两派：一派计划着推翻文官政府，成立由军人主导的“维新政权”以改造国家；另一派主张由革命军人发动工农革命，建立民有、民享、民治的共和国。从学校毕业后，吉鸿昌的心中逐渐有了明确的答案。\n\n1923年11月底，京汉铁路工人发起总罢工，红色浪潮席卷豫北地区。吉鸿昌打算以“剿匪”的名义率部南下，支援革命起义。没想到帝国政府竟然真的要求韩复榘率部镇压，于是吉鸿昌如猛虎入山般“听令”南下。部队到达邢台后不久，吉鸿昌即宣布起义，成立§Y中华民国革命军事委员会§!。至此河北大乱，而帝国内战愈发走向不确定的未来······"
+ PRC_fang_zhenwu:0 "方振武"
+ PRC_zhang_kexia:0 "张克侠"
+ PRC_xuan_xiafu:0 "宣侠父"
+ PRC_dong_zhentang:0 "董振堂"
+ PRC_bian_zhangwu:0 "边章五"
+ ###########
+ ## IDEAS ##
+ ###########
+
+ ####################
+ # Balance of Power #
+ ####################
+ PRC_power_balance:0 "权力平衡"
+ PRC_balance_range:0 "政治倾向"
+ PRC_communist_side:0 "社民农工党"
+ PRC_communist_total_control_range:0 "社民农工党控制政权"
+ PRC_communist_dominant_range:0 "社民农工党主导政权"
+ PRC_communist_power_range:0 "社民农工党掌权"
+ PRC_communist_influence_range:0 "社民农工党影响政权"
+ PRC_socialist_side:0 "革命同盟军"
+ PRC_socialist_total_control_range:0 "革命同盟军控制政权"
+ PRC_socialist_dominant_range:0 "革命同盟军主导政权"
+ PRC_socialist_power_range:0 "革命同盟军掌权"
+ PRC_socialist_influence_range:0 "革命同盟军影响政权"
+ #############
+ # DECISIONS #
+ #############
+ PRC_balance_of_power_category:0 "革命与改革"
+ PRC_establish_political_commissars:0 "设立政治委员"
+ PRC_moibilize_people:0 "动员城乡人口"
+ PRC_establish_civilian_government:0 "委任军政总监"
+ PRC_integrate_local_militia:0 "整合地方民团"
+ ############
+ ## EVENTS ##
+ ############
+ prc_rev.1.t:0 "滦州兵谏"
+ prc_rev.1.desc:0 ""
+ prc_rev.1.a:0 "迅速镇压这群叛军！"
+
+ prc_rev.2.t:0 "叛军溃散"
+ prc_rev.2.desc:0 ""
+ prc_rev.2.a:0 "事态令人担忧"
+
+ prc_rev.3.t:0 "事态失控"
+ prc_rev.3.desc:0 "武汉驻军叛变之后，我们被迫清洗军队内部的革命党人，这造成了帝国军队普遍的混乱与恐慌。驻防秦皇岛的部队擅自离开驻防地，向湖北地区转移。河南地方长官觉察到可疑之处，设法阻止他们的军列通过郑州，这支部队随即开火，发动武装叛乱。在河南驻军的奋力抵抗下，这支叛军未能成功占领郑州，他们选择退回河北负隅顽抗。"
+ prc_rev.3.a:0 "命令河北驻军围剿叛变部队"
+
+ prc_rev.4.t:0 "河北沦亡"
+ prc_rev.4.desc:0 ""
+ prc_rev.4.a:0 "扮演北方革命军"
+ prc_rev.4.b:0 "扮演华北绥靖军"
+ prc_rev.4.c:0 "扮演大东帝国"
+
+ prc_rev.5.t:0 "革命军事委员会成立"
+ prc_rev.5.desc:0 "" 
+ prc_rev.5.a:0 "扮演吉鸿昌部"
+ prc_rev.5.b:0 "这就由不得他们了"
+
+ prc_rev.6.t:0 "共产党人的地位？"
+ prc_rev.6.desc:0 ""
+ prc_rev.6.a:0 "允许他们在军队中展开政治活动"
+ prc_rev.6.b:0 "至少他们能带来很多新兵！"

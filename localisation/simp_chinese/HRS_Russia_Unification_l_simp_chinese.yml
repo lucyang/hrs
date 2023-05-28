@@ -1,0 +1,240 @@
+﻿l_simp_chinese:
+ ### POTENTIAL UNIFIER OF RUSSIA ###
+ #### Communism ####
+ ZZZ_chabayev_party:0 "人民革命军"
+ ZZZ_chabayev_party_long:0 "俄罗斯人民革命军"
+ ZZZ_leftist_party:0 "左翼社会革命党"
+ ZZZ_leftist_party_long:0 "左翼社会革命党"
+
+ ZZZ_red_army_party:0 "工农红军"
+ ZZZ_red_army_party_long:0 "工农红军"
+ #### Anarchism ####
+ ZZZ_socialist_party:0 "社会民主党-区联派"
+ ZZZ_socialist_party_long:0 "社会民主工党(国际主义者)"
+ ZZZ_anarchist_party:0 "无政府主义联盟"
+ ZZZ_anarchist_party_long:0 "西伯利亚无政府主义联盟"
+ ZZZ_ancom_party:0 "黑军"
+ ZZZ_ancom_party_long:0 "乌克兰革命起义军"
+ #### Social Democrats ####
+ ZZZ_menshevik_party:0 "社会民主党-孟什维克"
+ ZZZ_menshevik_party_long:0 "社会民主工党(孟什维克)"
+ #### Democrats ####
+ ZZZ_octoberist_party:0 "十月党"
+ ZZZ_octoberist_party_long:0 "十月十七日联盟"
+ ZZZ_komuch_party:0 "立宪委员会"
+ ZZZ_komuch_party_long:0 "宪法制定议会议员委员会"
+ ZZZ_eurasianist_party:0 "欧亚党"
+ ZZZ_eurasianist_party_long:0 "欧亚主义党"
+ #### Despotic ####
+ ZZZ_royalist_party:0 "白军"
+ ZZZ_royalist_party_long:0 "白卫军运动"
+ ZZZ_tsarist_party:0 "俄罗斯全军联盟"
+ ZZZ_tsarist_party_long:0 "俄罗斯全军联盟"
+ ZZZ_kolchak_party:0 "全俄临时政府"
+ ZZZ_kolchak_party_long:0 "全俄临时政府"
+ ZZZ_kornilov_party:0 "科尔尼洛夫派"
+ ZZZ_kornilov_party_long:0 "志愿军(科尔尼洛夫派)"
+ ZZZ_wrangel_party:0 "弗兰格尔派"
+ ZZZ_wrangel_party_long:0 "志愿军(弗兰格尔派)"
+ ZZZ_semyonov_party:0 "外贝加尔临时政府"
+ ZZZ_semyonov_party_long:0 "外贝加尔临时政府"
+ ZZZ_siberia_party:0 "西伯利亚临时政府"
+ ZZZ_siberia_party_long:0 "西伯利亚临时政府"
+ ZZZ_royalist_party:0 "白军"
+ ZZZ_royalist_party_long:0 "白卫军运动"
+ #### Monarch ####
+ ZZZ_sejm_party:0 "联邦瑟姆"
+ ZZZ_sejm_party_long:0 "波兰-立陶宛-鲁塞尼亚联邦瑟姆"
+ ZZZ_sobor_party:0 "土地会议"
+ ZZZ_sobor_party_long:0 "全俄罗斯缙绅会议"
+ #### Fascist ####
+
+ ################
+ ## RUS-SOVIET ##
+ ################
+ ### LEADERS ###
+ ### PARTIES ###
+ ### NAMES ###
+ ZZZ_soviet_communism:0 "苏维埃自治共和国联盟"
+ ZZZ_soviet_communism_DEF:0 "苏维埃自治共和国联盟"
+ ZZZ_soviet_anarchism:0 "苏维埃自治共和国联盟"
+ ZZZ_soviet_anarchism_DEF:0 "苏维埃自治共和国联盟"
+ ZZZ_soviet_neutrality:0 "苏维埃自治共和国联盟"
+ ZZZ_soviet_neutrality_DEF:0 "苏维埃自治共和国联盟"
+ ZZZ_soviet_communism_ADJ:0 "苏联"
+ ZZZ_soviet_anarchism_ADJ:0 "苏联"
+ ZZZ_soviet_neutrality_ADJ:0 "苏联"
+
+ #######################
+ ## RUS-SOVIET RUSSIA ##
+ #######################
+ ### LEADERS ###
+ ZZZ_nikolai_bukharin:0 "尼古拉·布哈林"
+ ZZZ_lev_kamenev:0 "列夫·加米涅夫"
+ ZZZ_alexei_rykov:0 "阿列克谢·李可夫"
+ ### PARTIES ###
+ ### NAMES ###
+ ZZZ_soviet_russia_communism:0 "俄罗斯苏维埃联邦社会主义联邦"
+ ZZZ_soviet_russia_communism_DEF:0 "俄罗斯苏维埃联邦社会主义联邦"
+ ZZZ_soviet_russia_anarchism:0 "俄罗斯苏维埃联邦社会主义联邦"
+ ZZZ_soviet_russia_anarchism_DEF:0 "俄罗斯苏维埃联邦社会主义联邦"
+ ZZZ_soviet_russia_neutrality:0 "俄罗斯苏维埃联邦社会主义联邦"
+ ZZZ_soviet_russia_neutrality_DEF:0 "俄罗斯苏维埃联邦社会主义联邦"
+ ZZZ_soviet_russia_communism_ADJ:0 "苏俄"
+ ZZZ_soviet_russia_anarchism_ADJ:0 "苏俄"
+ ZZZ_soviet_russia_neutrality_ADJ:0 "苏俄"
+
+ ##############
+ ## UKR-Rada ##
+ ##############
+ ### LEADERS ###
+ ZZZ_nikita_khrushchev:0 "尼基塔·赫魯暁夫"
+ ### PARTIES ###
+ ZZZ_krushev_party:0 "全联盟共产党"
+ ZZZ_krushev_party_long:0 "全联盟共产党"
+ ### NAMES ###
+ ZZZ_rada_communism:0 "拉达社会主义共和国联盟"
+ ZZZ_rada_communism_DEF:0 "拉达社会主义共和国联盟"
+ ZZZ_rada_anarchism:0 "拉达社会主义共和国联盟"
+ ZZZ_rada_anarchism_DEF:0 "拉达社会主义共和国联盟"
+ ZZZ_rada_neutrality:0 "拉达社会主义共和国联盟"
+ ZZZ_rada_neutrality_DEF:0 "拉达社会主义共和国联盟"
+ ZZZ_rada_communism_ADJ:0 "拉联"
+ ZZZ_rada_anarchism_ADJ:0 "拉联"
+ ZZZ_rada_neutrality_ADJ:0 "拉联"
+
+ ### POL-SEJM(Red) ###
+ ZZZ_sejm_communism:0 "议会共和国联盟" #Commonwealth of Council Republics
+ ZZZ_sejm_communism_DEF:0 "议会共和国联盟"
+ ZZZ_sejm_anarchism:0 "议会共和国联盟"
+ ZZZ_sejm_anarchism_DEF:0 "议会共和国联盟"
+ ZZZ_sejm_neutrality:0 "议会共和国联盟"
+ ZZZ_sejm_neutrality_DEF:0 "议会共和国联盟"
+ ZZZ_sejm_communism_ADJ:0 "议联"
+ ZZZ_sejm_anarchism_ADJ:0 "议联"
+ ZZZ_sejm_neutrality_ADJ:0 "议联"
+
+ ### Free Territory(Red) ###
+ ### LEADERS ###
+ ZZZ_nestor_makhno:0 "涅斯托·马赫诺"
+ ZZZ_siberian_soviet:0 "西伯利亚苏维埃"
+ ### NAMES ###
+ ZZZ_ancom_anarchism:0 "自由地区"
+ ZZZ_ancom_anarchism_DEF:0 "自由地区"
+ ZZZ_ancom_neutrality:0 "自由地区"
+ ZZZ_ancom_neutrality_DEF:0 "自由地区"
+ ZZZ_ancom_anarchism_ADJ:0 "自由地区"
+ ZZZ_ancom_neutrality_ADJ:0 "自由地区"
+
+ ### Workers' Commune(Red) ###
+ ZZZ_ansyn_anarchism:0 "工人共和国联盟"
+ ZZZ_ansyn_anarchism_DEF:0 "工人共和国联盟"
+ ZZZ_ansyn_neutrality:0 "工人共和国联盟"
+ ZZZ_ansyn_neutrality_DEF:0 "工人共和国联盟"
+ ZZZ_ansyn_anarchism_ADJ:0 "工联"
+ ZZZ_ansyn_neutrality_ADJ:0 "工联"
+
+ ### RUS-People's Republic(Purple) ###
+ ZZZ_people_republic_anarchism:0 "俄罗斯人民共和国"
+ ZZZ_people_republic_anarchism_DEF:0 "俄罗斯人民共和国"
+ ZZZ_people_republic_democratic:0 "俄罗斯人民共和国"
+ ZZZ_people_republic_democratic_DEF:0 "俄罗斯人民共和国"
+
+ ### RUS-Socialist Republic(Purple) ###
+ ZZZ_socialist_republic_anarchism:0 "俄罗斯社会主义共和国"
+ ZZZ_socialist_republic_anarchism_DEF:0 "俄罗斯社会主义共和国"
+ ZZZ_socialist_republic_democratic:0 "俄罗斯社会主义共和国"
+ ZZZ_socialist_republic_democratic_DEF:0 "俄罗斯社会主义共和国"
+
+ ### RUS-Federation(Blue) ###
+ ZZZ_federation_democratic:0 "俄罗斯联邦"
+ ZZZ_federation_democratic_DEF:0 "俄罗斯联邦"
+ ZZZ_federation_neutrality:0 "俄罗斯联邦"
+ ZZZ_federation_neutrality_DEF:0 "俄罗斯联邦"
+ ZZZ_federation_monarchism:0 "俄罗斯联邦"
+ ZZZ_federation_monarchism_DEF:0 "俄罗斯联邦"
+
+ ### RUS-Republic(Blue) ###
+ ZZZ_federation_democratic:0 "大罗斯共和国"
+ ZZZ_federation_democratic_DEF:0 "大罗斯共和国"
+ ZZZ_federation_neutrality:0 "大罗斯共和国"
+ ZZZ_federation_neutrality_DEF:0 "大罗斯共和国"
+ ZZZ_federation_monarchism:0 "大罗斯共和国"
+ ZZZ_federation_monarchism_DEF:0 "大罗斯共和国"
+
+ ### RUS-Empire ###
+ ZZZ_empire_democratic:0 "罗斯可汗国"
+ ZZZ_empire_democratic_DEF:0 "罗斯可汗国"
+ ZZZ_empire_neutrality:0 "罗斯可汗国"
+ ZZZ_empire_neutrality_DEF:0 "罗斯可汗国"
+ ZZZ_empire_monarchism:0 "罗斯可汗国"
+ ZZZ_empire_monarchism_DEF:0 "罗斯可汗国"
+ ZZZ_empire_fascism:0 "罗斯可汗国"
+ ZZZ_empire_fascism_DEF:0 "罗斯可汗国"
+ ZZZ_empire_imperialism:0 "罗斯可汗国"
+ ZZZ_empire_imperialism_DEF:0 "罗斯可汗国"
+
+ ##############
+ # RUS-NatBol #
+ ##############
+ ### LEADERS ###
+ ZZZ_alexander_kazembek:0 "亚历山大·卡津贝克"
+ ZZZ_nikolay_ustryalov:0 "瓦西里耶维奇·乌斯特拉洛夫"
+ ### PARTIES ###
+ ZZZ_mladorossi_party:0 "青年俄罗斯联盟"
+ ZZZ_mladorossi_party_long:0 "青年俄罗斯联盟" #Mladorossi
+ ZZZ_nazbol_party:0 "路标转换派"
+ ZZZ_nazbol_party_long:0 "路标转换派" #Smenovekhovtsy
+ ZZZ_solidarist_party:0 "团结主义者全国联盟"
+ ZZZ_solidarist_party_long:0 "俄罗斯团结主义者全国联盟" #National Alliance of Russian Solidarists
+ ### NAME ###
+ ZZZ_natbol_neutrality:0 "大罗斯共和国"
+ ZZZ_natbol_neutrality_DEF:0 "大罗斯共和国"
+ ZZZ_natbol_fascism:0 "俄罗斯民族苏维埃共和国"
+ ZZZ_natbol_fascism_DEF:0 "俄罗斯民族苏维埃共和国"
+
+ ### POL-Empire ###
+ ZZZ_commonwealth_democratic:0 "波兰-立陶宛-鲁塞尼亚联邦"
+ ZZZ_commonwealth_democratic_DEF:0 "波兰-立陶宛-鲁塞尼亚联邦"
+ ZZZ_commonwealth_neutrality:0 "波兰-立陶宛-鲁塞尼亚联邦"
+ ZZZ_commonwealth_neutrality_DEF:0 "波兰-立陶宛-鲁塞尼亚联邦"
+ ZZZ_commonwealth_monarchism:0 "波兰-立陶宛-鲁塞尼亚联邦"
+ ZZZ_commonwealth_monarchism_DEF:0 "波兰-立陶宛-鲁塞尼亚联邦"
+ ZZZ_commonwealth_fascism:0 "波兰-立陶宛-鲁塞尼亚联邦"
+ ZZZ_commonwealth_fascism_DEF:0 "波兰-立陶宛-鲁塞尼亚联邦"
+ ZZZ_commonwealth_imperialism:0 "萨尔马提亚"
+ ZZZ_commonwealth_imperialism_DEF:0 "萨尔马提亚"
+
+ ################
+ # UKR-Ruthenia #
+ ################
+ ### LEADERS ###
+ ### PARTIES ###
+ ZZZ_petliura_party:0 "社会民主党"
+ ZZZ_petliura_party_long:0 "鲁塞尼亚社会民主工党(左翼)"
+ ZZZ_oun_party:0 ""
+ ZZZ_oun_party_long:0 "鲁塞尼亚民族主义者组织"
+ ### NAME ###
+ ZZZ_ruthenia_democratic:0 "鲁塞尼亚联邦"
+ ZZZ_ruthenia_democratic_DEF:0 "鲁塞尼亚联邦"
+ ZZZ_ruthenia_neutrality:0 "鲁塞尼亚国"
+ ZZZ_ruthenia_neutrality_DEF:0 "鲁塞尼亚国"
+ ZZZ_ruthenia_fascism:0 "鲁塞尼亚国"
+ ZZZ_ruthenia_fascism_DEF:0 "鲁塞尼亚国"
+ ZZZ_ruthenia_imperialism:0 "鲁塞尼亚国"
+ ZZZ_ruthenia_imperialism_DEF:0 "鲁塞尼亚国"
+ ################
+ ## CHARACTERS ##
+ ################
+ ZZZ_warlord:0 "军阀"
+ ZZZ_warlord_desc:0 "俄罗斯内战已经结束，但是远东地区的混乱秩序仍未得到恢复。法律在这里只能起到极为有限的作用，人们所能依靠的只有智慧、武器以及统治者的善心。但是贸然进犯这些区域并不明智，安顿这些战争难民所付出的成本远大于所能得到的。"
+ ############
+ ## EVENTS ##
+ ############
+ zzz_news.1.t:0 "红色新秩序"
+ zzz_news.1.desc:0 "一则令人震惊的消息从遥远的西伯利亚传来，自波兰“大洪水”事件后，尼基塔·赫鲁晓夫成功终结了波兰的混乱与无序状态，建立了囊括前波兰-立陶宛联邦领土的拉达社会主义共和国联盟。随后，他领导的工农红军入侵了俄罗斯人民国，借助刺刀将他的“先锋社会主义”思想传播到了西伯利亚与中亚地区。借助军事镇压、政治清洗与高压统治，拉达联盟消灭了鲁塞尼亚——前“俄罗斯”——地区的小农经济，成功实现了农业集体化。但是30年代严重的自然灾害使鲁塞尼亚地区粮食歉收，数百万俄罗斯农民因联盟夺走了他们的口粮而饥饿致死。国际社会谴责拉达联盟的反人道主义行为，但是尼基塔·赫鲁晓夫却声称这是联盟发展“必要的牺牲与苦难”。如今，拉达联盟已是世界上面积最为广袤的国家之一，拉达联盟的工业化进程令人吃惊，这个新兴的国家注定将会成为新兴的世界强权。"
+ zzz_news.1.a:0 "“历史与我们同在，我们将会埋葬你们。”"
+
+ zzz_news.2.t:0 "鲁塞尼亚崛起"
+ zzz_news.2.desc:0 "一则令人震惊的消息从遥远的西伯利亚传来，自波兰“大洪水”事件后，西蒙·彼得留拉成功终结了波兰的混乱与无序状态，建立了以基辅为中心、覆盖前基辅罗斯领土的“鲁塞尼亚国”。彼得留拉是激进的鲁塞尼亚民族主义者，他相信基辅罗斯的历史已经证实，俄罗斯与白罗斯都是鲁塞尼亚不可分割的一部分。鲁塞尼亚国最终击垮了俄罗斯人民国，并吞了乌拉尔山以东的前俄罗斯领土。彼得留拉政权奉行“鲁塞尼亚主义”思想，表面上承认“罗斯”诸民族的平等地位，但是鲁塞尼亚事实上推行的是极为残酷的民族同化与压迫政策。该国对前俄罗斯地区进行了残酷镇压，东正教信仰遭到打压，俄语被禁止公开使用，“俄罗斯”这一称呼也被禁止，取而代之的是“小鲁塞尼亚”或“乌克兰尼亚”——鲁塞尼亚语“边疆”之意。许多“乌克兰尼亚”人拿起武器，加入名为“俄罗斯反抗军”的准军事组织，决心奋起反抗鲁塞尼亚的暴力统治。但是他们的抗争在强大的鲁塞尼亚面前只是螳臂当车，国际观察家仍在观望这一极端统治能持续多久。"
+ zzz_news.2.a:0 "“蓝黄白三色旗下，伟大民族团结起”"

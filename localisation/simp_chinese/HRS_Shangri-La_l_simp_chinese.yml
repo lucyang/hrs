@@ -1,0 +1,74 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ SGR_communism:0 "香格里拉"
+ SGR_communism_DEF:0 "香格里拉至圣国"
+ SGR_anarchism:0 "香格里拉"
+ SGR_anarchism_DEF:0 "香格里拉至圣国"
+ SGR_socialism:0 "香格里拉"
+ SGR_socialism_DEF:0 "香格里拉至圣国"
+ SGR_democratic:0 "香格里拉"
+ SGR_democratic_DEF:0 "香格里拉至圣国"
+ SGR_neutrality:0 "香格里拉"
+ SGR_neutrality_DEF:0 "香格里拉至圣国"
+ SGR_monarchism:0 "香格里拉"
+ SGR_monarchism_DEF:0 "香格里拉至圣国"
+ SGR_fascism:0 "香格里拉"
+ SGR_fascism_DEF:0 "香格里拉至圣国"
+ SGR_imperialism:0 "香格里拉"
+ SGR_imperialism_DEF:0 "香格里拉至圣国"
+ SGR_futurism:0 "香格里拉"
+ SGR_futurism_DEF:0 "香格里拉至圣国"
+ SGR_communism_ADJ:0 "香格里拉"
+ SGR_anarchism_ADJ:0 "香格里拉"
+ SGR_democratic_ADJ:0 "香格里拉"
+ SGR_neutrality_ADJ:0 "香格里拉"
+ SGR_monarchism_ADJ:0 "香格里拉"
+ SGR_fascism_ADJ:0 "香格里拉"
+ SGR_imperialism_ADJ:0 "香格里拉"
+ SGR_futurism_ADJ:0 "香格里拉"
+ SGR:0 "香格里拉"
+ SGR_DEF:0 "香格里拉"
+ SGR_ADJ:0 "香格里拉"
+ #############
+ ## PARTIES ##
+ #############
+ SGR_communism_party:0 "云南革新社"
+ SGR_communism_party_long:0 "云南革新社"
+ SGR_anarchism_party:0 "劳动组合书记部"
+ SGR_anarchism_party_long:0 "中国劳动组合书记部"
+ SGR_socialism_party:0 "中国农工民主党"
+ SGR_socialism_party_long:0 "中国农工民主党"
+ SGR_democratic_party:0 "云南实业党"
+ SGR_democratic_party_long:0 "云南实业党"
+ SGR_neutrality_party:0 "木氏土司"
+ SGR_neutrality_party_long:0 "木氏土司"
+ SGR_monarchism_party:0 "阿耆尼-瑜伽社"
+ SGR_monarchism_party_long:0 "阿耆尼-瑜伽社"
+ SGR_fascism_party:0 "东方神圣联盟"
+ SGR_fascism_party_long:0 "东方神圣联盟"
+ SGR_imperialism_party:0 "东方神圣联盟"
+ SGR_imperialism_party_long:0 "东方神圣联盟"
+ SGR_futurism_party:0 "东方神圣联盟"
+ SGR_futurism_party_long:0 "东方神圣联盟"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ SGR_nikolas_roerich:0 "尼古拉斯·洛里奇"
+ SGR_nikolas_roerich_desc:0 "§Y出生日期§!：§G1874年10月9日§!\n§Y出生地点§!：§G大俄罗斯共和国英格里亚省涅瓦斯克市§!\n\n无论在俄国、欧洲还是中国，§Y尼古拉斯·洛里奇§!都是知名的公众人物。他广泛涉猎艺术、哲学、宗教、神秘学，致力于在战争中保护艺术品与博物馆。在俄国内战后，这位波罗的海德意志人与俄国人的混血儿逃到了新大陆，随后率领一支探险队走遍整个亚洲内陆地区。\n\n洛里奇的亚洲探险队吸引了全世界的目光，大东帝国向洛里奇的队伍伸出了援手。当探险队穿越藏地和蒙古草原时，帝国政府积极协助他进行后勤工作，使得洛里奇提前数年完成了他的探险工作。洛里奇的最后一站是寻找§G香格里拉§!，最终他将香格里拉定位在云南省德钦县中甸市。\n\n洛里奇在此地创立了§Y阿耆尼-瑜伽社§!，无数善男信女前往“香格里拉”寻求这位仁波切的指导，而他们也不过是洛里奇在全球数百万信徒的一小部分。但是洛里奇的计划不止于此，他希望将藏区与内亚的佛教徒联合起来，建立一个高度精神合作的联邦，其名为§O东方神圣联盟§!。\n\n当帝国内战爆发后，云南出现了大理与昆明两个政府并列的局面。眼见战争即将爆发，洛里奇动用自己的影响力宣布§Y德钦县§!独立，建立了一方桃花源。香格里拉势单力薄、孤立无援，洛里奇首先要解决辖区内信徒的生活，其次便是扩大自己的实力，若能用和平手段实现再好不过······"
+ SGR_helena_roerich:0 "海伦娜·洛里奇"
+ SGR_helena_roerich_desc:0 "§Y出生日期§!：§G1879年2月12日§!\n§Y出生地点§!：§G大俄罗斯共和国英格里亚省涅瓦斯克市§!"
+ SGR_yakiv_blyumkin:0 "雅基夫·布柳姆金" #Яків Григорович Блюмкін
+ SGR_yakiv_blyumkin_desc:0 "§Y出生日期§!：§G1900年5月12日§!\n§Y出生地点§!：§G波兰-立陶宛联邦鲁塞尼亚大公国敖德萨省§!"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

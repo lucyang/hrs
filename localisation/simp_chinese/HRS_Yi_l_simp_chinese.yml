@@ -1,0 +1,79 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ NSB_communism:0 "彝共和国"
+ NSB_communism_DEF:0 "彝共和国"
+ NSB_anarchism:0 "彝共和国"
+ NSB_anarchism_DEF:0 "彝共和国"
+ NSB_democratic:0 "彝共和国"
+ NSB_democratic_DEF:0 "彝共和国"
+ NSB_neutrality:0 "彝共和国"
+ NSB_neutrality_DEF:0 "彝共和国"
+ NSB_monarchism:0 "彝共和国"
+ NSB_monarchism_DEF:0 "彝共和国"
+ NSB_fascism:0 "彝共和国"
+ NSB_fascism_DEF:0 "彝共和国"
+ NSB_imperialism:0 "彝共和国"
+ NSB_imperialism_DEF:0 "彝共和国"
+ NSB_futurism:0 "彝共和国"
+ NSB_futurism_DEF:0 "彝共和国"
+ NSB_communism_ADJ:0 "彝族"
+ NSB_anarchism_ADJ:0 "彝族"
+ NSB_democratic_ADJ:0 "彝族"
+ NSB_neutrality_ADJ:0 "彝族"
+ NSB_monarchism_ADJ:0 "彝族"
+ NSB_fascism_ADJ:0 "彝族"
+ NSB_imperialism_ADJ:0 "彝族"
+ NSB_futurism_ADJ:0 "彝族"
+ NSB:0 "彝族"
+ NSB_DEF:0 "彝族"
+ NSB_ADJ:0 "彝族"
+ #############
+ ## PARTIES ##
+ #############
+ NSB_communism_party:0 "社民农工党"
+ NSB_communism_party_long:0 "中国社会民主农工党"
+ NSB_anarchism_party:0 "拉库起义军"
+ NSB_anarchism_party_long:0 "拉库起义军"
+ NSB_socialism_party:0 "夷族独立委员会"
+ NSB_socialism_party_long:0 "川康滇夷族独立委员会"
+ NSB_democratic_party:0 "夷族独立委员会"
+ NSB_democratic_party_long:0 "川康滇夷族独立委员会"
+ NSB_neutrality_party:0 "竹王会"
+ NSB_neutrality_party_long:0 "竹王会"
+ NSB_monarchism_party:0 "土司集团"
+ NSB_monarchism_party_long:0 "土司集团"
+ NSB_fascism_party:0 "中国青年党"
+ NSB_fascism_party_long:0 "中国青年党"
+ NSB_imperialism_party:0 "夷族独立委员会"
+ NSB_imperialism_party_long:0 "川康滇夷族独立委员会"
+ NSB_futurism_party:0 "富滇银行"
+ NSB_futurism_party_long:0 "富滇银行"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ NSB_long_yun:0 "龙云"
+ NSB_long_yun_desc:0 "§Y出生日期§!：§G1884年11月19日§!\n§Y出生地点§!：§G大东帝国滇中道昭通县§!\n\n§Y龙云§!是一个“亦彝亦汉”的复杂人物，尽管他出生在彝族家庭，有一个彝族名字，从小会说彝族语言，娶了彝族妻子，却常穿汉服长裤，头戴洋毡帽，在编纂的家谱中将龙家姓氏追溯至上古，以洗脱“蛮夷”的嫌疑。龙云的身份认同代表了大东帝国少数民族的一种潮流，他们宁愿将自身纳入汉文化主流，拒绝以“夷族”自许。\n\n龙云早年家庭贫苦，读完小学后从事木材批发生意。1911年，龙云进入§Y云南陆军学院§!学习，毕业后在中国西南地区服役。这一时期，龙云开始有意识地利用出身于彝家的族群背景，攫取各种政治利益。最终成果便是§Y“竹王会”§!，其名称来自于彝族“夜郎竹王传说”。这是一个由昭通同乡组成、完全效忠于龙云个人的小团体，在西南各界都有一定的影响力。\n\n当帝国内战爆发后，龙云趁乱占领了昭通县城，建立了§Y彝共和国§!。大批§G彝族知识分子§!纷至沓来，事实却无情地摧残了他们的梦想——龙云不愿意也无法变革彝族可悲的现状：他的军队大肆倒卖毒品和人口，他的小团体攫取了共和国的最高权力。无论汉族还是彝族，都知道龙云不过是又一个残暴的军阀。他们唯有盼望奇迹发生，又或者用§R自己的行动§!改变这一切······"
+ NSB_lu_han:0 "卢汉"
+ NSB_qumu_zangyao:0 "曲木藏尧"
+ NSB_chu_tunan:0 "楚图南"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## TRAITS ##
+ ############
+ opium_trader:0 "鸦片贩子"
+ ############
+ ## EVENTS ##
+ ############
+ yi_rev.1.t:0 "彝族自治运动"
+ yi_rev.1.desc:0 "在西南乱成一锅粥的时候，一则奇怪的新闻从云南昭通传来：一名叫龙云的彝族军人趁乱占领了昭通县城，宣布建立“彝共和国”。没人知道这个小小的国家内部状况如何，但是他们组织了一支民兵部队，越境进入四川凉山地区，成功“接管”了这一地区。但是他们的控制能力极度可疑，最重要的是，这个国家到底是什么来头？他们的目的究竟是什么？他们要独立还是要自治，还是其他什么的？一切都在深深的迷雾中。"
+ yi_rev.1.a:0 "让我们去拜访下这位总理"
+ yi_rev.1.b:0 "我们先处理好西南的叛党吧！"

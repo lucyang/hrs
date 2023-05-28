@@ -1,0 +1,61 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ SAI_communism:0 "南圻自治共和国"
+ SAI_communism_DEF:0 "南圻自治共和国"
+ SAI_anarchism:0 "南圻自治共和国"
+ SAI_anarchism_DEF:0 "南圻自治共和国"
+ SAI_socialism:0 "南圻自治共和国"
+ SAI_socialism_DEF:0 "南圻自治共和国"
+ SAI_democratic:0 "南圻自治共和国"
+ SAI_democratic_DEF:0 "南圻自治共和国"
+ SAI_neutrality:0 "南圻自治共和国"
+ SAI_neutrality_DEF:0 "南圻自治共和国"
+ SAI_monarchism:0 "南圻自治共和国"
+ SAI_monarchism_DEF:0 "南圻自治共和国"
+ SAI_fascism:0 "南圻自治共和国"
+ SAI_fascism_DEF:0 "南圻自治共和国"
+ SAI_imperialism:0 "南圻自治共和国"
+ SAI_imperialism_DEF:0 "南圻自治共和国"
+ SAI_futurism:0 "南圻自治共和国"
+ SAI_futurism_DEF:0 "南圻自治共和国"
+ SAI_communism_ADJ:0 "南圻"
+ SAI_anarchism_ADJ:0 "南圻"
+ SAI_socialism_ADJ:0 "南圻"
+ SAI_democratic_ADJ:0 "南圻"
+ SAI_neutrality_ADJ:0 "南圻"
+ SAI_monarchism_ADJ:0 "南圻"
+ SAI_fascism_ADJ:0 "南圻"
+ SAI_imperialism_ADJ:0 "南圻"
+ SAI_futurism_ADJ:0 "南圻"
+ #############
+ ## PARTIES ##
+ #############
+ SAI_communism_party:0 "独立党"
+ SAI_communism_party_long:0 "越南独立党"
+ SAI_anarchism_party:0 "青年高望党"
+ SAI_anarchism_party_long:0 "青年高望党"
+ SAI_socialism_party:0 "新越党"
+ SAI_socialism_party_long:0 "新越革命党"
+ SAI_democratic_party:0 "光复会"
+ SAI_democratic_party_long:0 "越南光复会"
+ SAI_neutrality_party:0 "平川部队"
+ SAI_neutrality_party_long:0 "平川部队"
+ SAI_monarchism_party:0 "复国会"
+ SAI_monarchism_party_long:0 "越南复国会"
+ SAI_fascism_party:0 "平川部队"
+ SAI_fascism_party_long:0 "平川部队"
+ SAI_imperialism_party:0 "平川部队"
+ SAI_imperialism_party_long:0 "平川部队"
+ SAI_futurism_party:0 "技术官僚"
+ SAI_futurism_party_long:0 "技术官僚"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ SAI_ta_thu_thau:0 "谢秋收"
+ SAI_nguyen_an_ninh:0 "阮安宁"
+ SAI_le_van_vien:0 "黎文远" #Lê Văn Viễn
+ ################
+ ## CHARACTERS ##
+ ################

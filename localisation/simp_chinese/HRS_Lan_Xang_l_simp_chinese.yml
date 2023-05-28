@@ -1,0 +1,71 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ LAX_communism:0 "澜沧基督教区"
+ LAX_communism_DEF:0 "澜沧基督教区"
+ LAX_anarchism:0 "澜沧基督教区"
+ LAX_anarchism_DEF:0 "澜沧基督教区"
+ LAX_socialism:0 "澜沧基督教区"
+ LAX_socialism_DEF:0 "澜沧基督教区"
+ LAX_democratic:0 "澜沧基督教区"
+ LAX_democratic_DEF:0 "澜沧基督教区"
+ LAX_neutrality:0 "澜沧基督教区"
+ LAX_neutrality_DEF:0 "澜沧基督教区"
+ LAX_monarchism:0 "澜沧基督教区"
+ LAX_monarchism_DEF:0 "澜沧基督教区"
+ LAX_fascism:0 "澜沧基督教区"
+ LAX_fascism_DEF:0 "澜沧基督教区"
+ LAX_imperialism:0 "澜沧基督教区"
+ LAX_imperialism_DEF:0 "澜沧基督教区"
+ LAX_futurism:0 "澜沧基督教区"
+ LAX_futurism_DEF:0 "澜沧基督教区"
+ LAX_communism_ADJ:0 "澜沧"
+ LAX_anarchism_ADJ:0 "澜沧"
+ LAX_democratic_ADJ:0 "澜沧"
+ LAX_neutrality_ADJ:0 "澜沧"
+ LAX_monarchism_ADJ:0 "澜沧"
+ LAX_fascism_ADJ:0 "澜沧"
+ LAX_imperialism_ADJ:0 "澜沧"
+ LAX_futurism_ADJ:0 "澜沧"
+ LAX:0 "澜沧"
+ LAX_DEF:0 "澜沧"
+ LAX_ADJ:0 "澜沧"
+ #############
+ ## PARTIES ##
+ #############
+ LAX_communism_party:0 "云南革新社"
+ LAX_communism_party_long:0 "云南革新社"
+ LAX_anarchism_party:0 "劳动组合书记部"
+ LAX_anarchism_party_long:0 "中国劳动组合书记部"
+ LAX_socialism_party:0 "中国农工民主党"
+ LAX_socialism_party_long:0 "中国农工民主党"
+ LAX_democratic_party:0 "川康滇夷族独立委员会"
+ LAX_democratic_party_long:0 "川康滇夷族独立委员会"
+ LAX_neutrality_party:0 "浸信会糯福总堂"
+ LAX_neutrality_party_long:0 "浸信会糯福总堂"
+ LAX_monarchism_party:0 "浸信会糯福总堂"
+ LAX_monarchism_party_long:0 "浸信会糯福总堂"
+ LAX_fascism_party:0 "中国青年党"
+ LAX_fascism_party_long:0 "中国青年党"
+ LAX_imperialism_party:0 "战国策派"
+ LAX_imperialism_party_long:0 "战国策派"
+ LAX_futurism_party:0 "喜洲商会"
+ LAX_futurism_party_long:0 "喜洲商会"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ LAX_william_marcus_young:0 "永伟里"
+ LAX_william_marcus_young_desc:0 "§Y出生日期§!：§G1864年§!\n§Y出生地点§!：§G哥伦比亚自由邦伊利诺伊州§!\n\n§Y永伟里§!本名§Y威廉·马可·扬§!，是哥伦比亚的§Y浸信会§!传教士。1902年，永伟里因一个偶然的机会，遇见了两个因起义失败而逃到景栋的拉祜族§Y撒拉§!——拉祜语 “教师”之意——后成为拉祜族、佤族基督教牧师和传道员的称呼。从此揭开了浸信会在滇南的拉祜族、佤族社会大规模传教历史的序幕。永伟里起初尝试前往大东帝国治下的缅甸传教，但是那里的环境太过恶劣，打了退堂鼓的永伟里不得不来到边境城市景栋，试着传播基督福音。\n\n一天，永伟里照常来到景栋集市上传教，他骑着一匹白马，手持《圣经》。两个从云南双江来景栋赶集的拉祜青年看到了他，他们顿时激动不已，消息如同野火一般传遍了集市和山区：“§Y铜金和尚§!派来的骑着白马、带着书前来拯救拉祜族的白人降临了！”永伟里几乎不敢相信自己的好运，短短几年时间成千的山民受洗，皈依了基督。永伟里甚至不用试图说服他们——山民见到他就像见到了神一样，主动跪拜请求他的指导，他被尊称为§Y“人神”§!。\n\n1921年，永伟里在拉祜族聚居的糯福建堂，正式挂出§Y浸信会糯福总堂§!的牌子，建立了以糯福为中心，控制上述地区和缅甸一侧拉祜族、佤族社会的传教势力范围。永伟里和他的两个儿子永亨乐 、永文生在拉祜族和佤族中共建立教堂二百多座，发展信徒六万余人，使这两个民族成为信仰基督教的主要民族。\n\n在帝国军队进入内地“剿匪”后，云南边境盗贼四起，流民盛行。永伟里组织起信徒重建基层政府，在滇南的教徒聚居村寨，宗教组织与基层政权相结合、互为表里，教堂成为指挥地，撒拉就是领导者，形成了§Y政教合一§!的体制。对于永伟里来说，他没有什么征服中原的野心，他唯一的愿望便是让福音尽可能地拯救更多人，以及永保云南边地的安宁。"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############
+ 

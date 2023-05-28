@@ -1,6 +1,8 @@
 ﻿capital = 355 #广州
 
 #oob = "empty"
+set_stability = 0.05
+set_war_support = 0.05
 set_country_flag = is_china_nation
 
 recruit_character = GND_kang_youwei
@@ -66,13 +68,13 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	anarchism = 5
-	socialism = 12
-	democratic = 32
-	neutrality = 26
-	monarchism = 13
-	fascism = 4
-	imperialism = 8
+	anarchism = 20
+	socialism = 20
+	democratic = 0
+	neutrality = 20
+	monarchism = 0
+	fascism = 20
+	imperialism = 20
 	futurism = 0
 }
 

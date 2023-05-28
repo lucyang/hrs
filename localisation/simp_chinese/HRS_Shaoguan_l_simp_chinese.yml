@@ -1,0 +1,71 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ SGN_communism:0 "岭南解放军"
+ SGN_communism_DEF:0 "岭南解放军"
+ SGN_anarchism:0 "岭南解放军"
+ SGN_anarchism_DEF:0 "岭南解放军"
+ SGN_socialism:0 "岭南解放军"
+ SGN_socialism_DEF:0 "岭南解放军"
+ SGN_democratic:0 "岭南解放军"
+ SGN_democratic_DEF:0 "岭南解放军"
+ SGN_neutrality:0 "岭南解放军"
+ SGN_neutrality_DEF:0 "岭南解放军"
+ SGN_monarchism:0 "岭南解放军"
+ SGN_monarchism_DEF:0 "岭南解放军"
+ SGN_fascism:0 "岭南解放军"
+ SGN_fascism_DEF:0 "岭南解放军"
+ SGN_imperialism:0 "岭南解放军"
+ SGN_imperialism_DEF:0 "岭南解放军"
+ SGN_futurism:0 "岭南解放军"
+ SGN_futurism_DEF:0 "岭南解放军"
+ SGN_communism_ADJ:0 "粤北"
+ SGN_anarchism_ADJ:0 "粤北"
+ SGN_socialism_ADJ:0 "粤北"
+ SGN_democratic_ADJ:0 "粤北"
+ SGN_neutrality_ADJ:0 "粤北"
+ SGN_monarchism_ADJ:0 "粤北"
+ SGN_fascism_ADJ:0 "粤北"
+ SGN_imperialism_ADJ:0 "粤北"
+ SGN_futurism_ADJ:0 "粤北"
+ SGN:0 "粤北"
+ SGN_DEF:0 "粤北"
+ SGN_ADJ:0 "粤北"
+ #############
+ ## PARTIES ##
+ #############
+ SGN_communism_party:0 "社民农工党"
+ SGN_communism_party_long:0 "中国社会民主农工党"
+ SGN_anarchism_party:0 "广东省农民协会"
+ SGN_anarchism_party_long:0 "广东省农民协会"
+ SGN_socialism_party:0 "岭南革命组织"
+ SGN_socialism_party_long:0 "岭南革命组织"
+ SGN_democratic_party:0 "中国革命党"
+ SGN_democratic_party_long:0 "中国革命党"
+ SGN_neutrality_party:0 "岭南解放军"
+ SGN_neutrality_party_long:0 "岭南解放军"
+ SGN_monarchism_party:0 "广东自治会"
+ SGN_monarchism_party_long:0 "广东自治会"
+ SGN_fascism_party:0 "广东独立协会"
+ SGN_fascism_party_long:0 "广东独立协会"
+ SGN_imperialism_party:0 "客家大同会"
+ SGN_imperialism_party_long:0 "客家大同会"
+ SGN_futurism_party:0 "广州商团"
+ SGN_futurism_party_long:0 "广州商团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ SGN_zhang_fakui:0 "张发奎"
+ SGN_zhang_fakui_desc:0 ""
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

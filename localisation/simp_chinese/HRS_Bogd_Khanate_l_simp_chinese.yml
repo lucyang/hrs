@@ -1,0 +1,77 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ BOG_communism:0 "博克多汗国"
+ BOG_communism_DEF:0 "博克多汗国"
+ BOG_anarchism:0 "博克多汗国"
+ BOG_anarchism_DEF:0 "博克多汗国"
+ BOG_democratic:0 "博克多汗国"
+ BOG_democratic_DEF:0 "博克多汗国"
+ BOG_socialism:0 "博克多汗国"
+ BOG_socialism_DEF:0 "博克多汗国"
+ BOG_neutrality:0 "博克多汗国"
+ BOG_neutrality_DEF:0 "博克多汗国"
+ BOG_monarchism:0 "博克多汗国"
+ BOG_monarchism_DEF:0 "博克多汗国"
+ BOG_fascism:0 "博克多汗国"
+ BOG_fascism_DEF:0 "博克多汗国"
+ BOG_imperialism:0 "博克多汗国"
+ BOG_imperialism_DEF:0 "博克多汗国"
+ BOG_futurism:0 "博克多汗国"
+ BOG_futurism_DEF:0 "博克多汗国"
+ BOG_communism_ADJ:0 "蒙古"
+ BOG_anarchism_ADJ:0 "蒙古"
+ BOG_socialism_ADJ:0 "蒙古"
+ BOG_democratic_ADJ:0 "蒙古"
+ BOG_neutrality_ADJ:0 "蒙古"
+ BOG_monarchism_ADJ:0 "蒙古"
+ BOG_fascism_ADJ:0 "蒙古"
+ BOG_imperialism_ADJ:0 "蒙古"
+ BOG_futurism_ADJ:0 "蒙古"
+ BOG:0 "蒙古"
+ BOG_DEF:0 "蒙古"
+ BOG_ADJ:0 "蒙古"
+ #############
+ ## PARTIES ##
+ #############
+ BOG_communism_party:0 "蒙古人民党"
+ BOG_communism_party_long:0 "蒙古人民党 - 仁钦诺派" # 额勒贝格道尔吉·仁钦诺
+ BOG_anarchism_party:0 "蒙古人民党"
+ BOG_anarchism_party_long:0 "蒙古人民党 - 根登派" # 博勒吉德·根登
+ BOG_socialism_party:0 "蒙古人民党"
+ BOG_socialism_party_long:0 "蒙古人民党 - 鲍道派" # 道格索姆·鲍道
+ BOG_democratic_party:0 "蒙古人民党"
+ BOG_democratic_party_long:0 "蒙古人民党 - 丹增派"
+ BOG_neutrality_party:0 "贵族派"
+ BOG_neutrality_party_long:0 "贵族派"
+ BOG_monarchism_party:0 "博克多汗派"
+ BOG_monarchism_party_long:0 "博克多汗派"
+ BOG_fascism_party:0 "蒙藏委员会"
+ BOG_fascism_party_long:0 "蒙藏委员会"
+ BOG_imperialism_party:0 "黑喇嘛效忠者"
+ BOG_imperialism_party_long:0 "黑喇嘛效忠者" # Шажинбадрахын；丹毕坚赞
+ BOG_futurism_party:0 "晋商财阀"
+ BOG_futurism_party_long:0 "晋商财阀"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ BOG_bogd_khan_lama:0 "博克多格根额真汗"
+ BOG_manlaibaatar_damdinsuren:0 "芒来巴特尔·达木丁苏隆"
+ BOG_mijiddorjiin_khanddorj:0 "杭达多尔济"
+ BOG_togs_ochiryn_namnansuren:0 "那木囊苏伦"
+ ################
+ ## CHARACTERS ##
+ ################
+
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

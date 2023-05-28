@@ -11,6 +11,7 @@ state={
 			owner = GND
 			add_core_of = GND
 			remove_core_of = IMC
+			set_demilitarized_zone = yes
 		}
 
 		victory_points = { 394 30 }

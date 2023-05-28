@@ -1,0 +1,104 @@
+﻿l_simp_chinese:
+ ###############
+ ## DECISIONS ##
+ ###############
+ HRS_vietnam_VIETNAM_category:0 "越南统一"
+ HRS_make_vietnam_states_core:0 "在[FROM.GetName]重建政权"
+ HRS_VIETNAM_of_vietnam:0 "宣布越南重归统一"
+ ##################
+ ## VIC-Vietcong ##
+ ##################
+ VIC_VIETNAM_communism:0 "越南社会主义共和国"
+ VIC_VIETNAM_communism_DEF:0 "越南社会主义共和国"
+ VIC_VIETNAM_anarchism:0 "越南社会主义共和国"
+ VIC_VIETNAM_anarchism_DEF:0 "越南社会主义共和国"
+ VIC_VIETNAM_communism_ADJ:0 "越南"
+ VIC_VIETNAM_anarchism_ADJ:0 "越南"
+ ##################
+ ## VQD-Vietquoc ##
+ ##################
+ VQD_VIETNAM_anarchism:0 "大越民国"
+ VQD_VIETNAM_anarchism_DEF:0 "大越民国"
+ VQD_VIETNAM_democratic:0 "大越民国"
+ VQD_VIETNAM_democratic_DEF:0 "大越民国"
+ VQD_VIETNAM_anarchism_ADJ:0 "大越"
+ VQD_VIETNAM_democratic_ADJ:0 "大越"
+ ################
+ ## DNA-Danang ##
+ ################
+ DNA_VIETNAM_communism:0 "越南人民共和国"
+ DNA_VIETNAM_communism_DEF:0 "越南人民共和国"
+ DNA_VIETNAM_anarchism:0 "越南人民共和国"
+ DNA_VIETNAM_anarchism_DEF:0 "越南人民共和国"
+ DNA_VIETNAM_democratic:0 "越南民主共和国"
+ DNA_VIETNAM_democratic_DEF:0 "越南民主共和国"
+ DNA_VIETNAM_communism_ADJ:0 "越南"
+ DNA_VIETNAM_anarchism_ADJ:0 "越南"
+ DNA_VIETNAM_democratic_ADJ:0 "越南"
+ #################
+ ## SRV-ComViet ##
+ #################
+ SRV_VIETNAM_communism:0 "越南工农共和国"
+ SRV_VIETNAM_communism_DEF:0 "越南工农共和国"
+ SRV_VIETNAM_anarchism:0 "越南工农共和国"
+ SRV_VIETNAM_anarchism_DEF:0 "越南工农共和国"
+ SRV_VIETNAM_communism_ADJ:0 "越南"
+ SRV_VIETNAM_anarchism_ADJ:0 "越南"
+ #################
+ ## VIN-Vietnam ##
+ #################
+ VIN_republic_VIETNAM_democratic:0 "越南民国"
+ VIN_republic_VIETNAM_democratic_DEF:0 "越南民国"
+ VIN_republic_VIETNAM_neutrality:0 "越南临时中央政府"
+ VIN_republic_VIETNAM_neutrality_DEF:0 "越南临时中央政府"
+
+ VIN_VIETNAM_democratic:0 "越南帝国"
+ VIN_VIETNAM_democratic_DEF:0 "越南帝国"
+ VIN_VIETNAM_neutrality:0 "越南帝国"
+ VIN_VIETNAM_neutrality_DEF:0 "越南帝国"
+ VIN_VIETNAM_monarchism:0 "越南帝国"
+ VIN_VIETNAM_monarchism_DEF:0 "越南帝国"
+ VIN_VIETNAM_fascism:0 "越南帝国"
+ VIN_VIETNAM_fascism_DEF:0 "越南帝国"
+
+ VIN_ngo_VIETNAM_democratic:0 "越南人民国"
+ VIN_ngo_VIETNAM_democratic_DEF:0 "越南人民国"
+ VIN_ngo_VIETNAM_neutrality:0 "越南共和国"
+ VIN_ngo_VIETNAM_neutrality_DEF:0 "越南共和国"
+ VIN_ngo_VIETNAM_monarchism:0 "神圣越南帝国"
+ VIN_ngo_VIETNAM_monarchism_DEF:0 "神圣越南帝国"
+ VIN_ngo_VIETNAM_fascism:0 "越南民族国"
+ VIN_ngo_VIETNAM_fascism_DEF:0 "越南民族国"
+ ################
+ ## CAO-Caodai ##
+ ################
+ CAO_VIETNAM_anarchism:0 "越南普渡国"
+ CAO_VIETNAM_anarchism_DEF:0 "越南普渡国"
+ CAO_VIETNAM_neutrality:0 "越南普渡国"
+ CAO_VIETNAM_neutrality_DEF:0 "越南普渡国"
+ CAO_VIETNAM_anarchism_ADJ:0 "越南"
+ CAO_VIETNAM_neutrality_ADJ:0 "越南"
+ ################
+ ## SAI-Saigon ##
+ ################
+ SAI_VIETNAM_communism:0 "越南革命共和国"
+ SAI_VIETNAM_communism_DEF:0 "越南革命共和国"
+ SAI_VIETNAM_anarchism:0 "越南自由共和国"
+ SAI_VIETNAM_anarchism_DEF:0 "越南自由共和国"
+ SAI_VIETNAM_neutrality:0 "越南统制国"
+ SAI_VIETNAM_neutrality_DEF:0 "越南统制国"
+ SAI_VIETNAM_imperialism:0 "越南统制国"
+ SAI_VIETNAM_imperialism_DEF:0 "越南统制国"
+ SAI_VIETNAM_communism_ADJ:0 "越南"
+ SAI_VIETNAM_anarchism_ADJ:0 "越南"
+ SAI_VIETNAM_neutrality_ADJ:0 "越南"
+ SAI_VIETNAM_imperialism_ADJ:0 "越南"
+ ############
+ ## EVENTS ##
+ ############
+ viet_VIETNAM.1.t:0 "越南的新首都"
+ viet_VIETNAM.1.desc:0 ""
+ viet_VIETNAM.1.a:0 "顺化"
+ viet_VIETNAM.1.b:0 "河内"
+ viet_VIETNAM.1.c:0 "西贡"
+ viet_VIETNAM.1.d:0 "我们现在的首都就不错"

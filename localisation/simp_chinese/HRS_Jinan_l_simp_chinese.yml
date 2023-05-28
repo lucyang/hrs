@@ -1,0 +1,74 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ JIN_communism:0 "山东自治政府"
+ JIN_communism_DEF:0 "山东自治政府"
+ JIN_anarchism:0 "山东自治政府"
+ JIN_anarchism_DEF:0 "山东自治政府"
+ JIN_socialism:0 "山东自治政府"
+ JIN_socialism_DEF:0 "山东自治政府"
+ JIN_democratic:0 "山东自治政府"
+ JIN_democratic_DEF:0 "山东自治政府"
+ JIN_neutrality:0 "山东自治政府"
+ JIN_neutrality_DEF:0 "山东自治政府"
+ JIN_monarchism:0 "山东自治政府"
+ JIN_monarchism_DEF:0 "山东自治政府"
+ JIN_fascism:0 "山东自治政府"
+ JIN_fascism_DEF:0 "山东自治政府"
+ JIN_imperialism:0 "山东自治政府"
+ JIN_imperialism_DEF:0 "山东自治政府"
+ JIN_futurism:0 "山东自治政府"
+ JIN_futurism_DEF:0 "山东自治政府"
+ JIN_communism_ADJ:0 "济南"
+ JIN_anarchism_ADJ:0 "济南"
+ JIN_democratic_ADJ:0 "济南"
+ JIN_neutrality_ADJ:0 "济南"
+ JIN_monarchism_ADJ:0 "济南"
+ JIN_fascism_ADJ:0 "济南"
+ JIN_imperialism_ADJ:0 "济南"
+ JIN_futurism_ADJ:0 "济南"
+ JIN:0 "济南"
+ JIN_DEF:0 "济南"
+ JIN_ADJ:0 "济南"
+ #############
+ ## PARTIES ##
+ #############
+ JIN_communism_party:0 "社民农工党"
+ JIN_communism_party_long:0 "中政府社会民主农工党"
+ JIN_anarchism_party:0 "中政府新村社"
+ JIN_anarchism_party_long:0 "中政府新村社"
+ JIN_socialism_party:0 "中政府民主政团同盟"
+ JIN_socialism_party_long:0 "中政府民主政团同盟"
+ JIN_democratic_party:0 "山东咨政局"
+ JIN_democratic_party_long:0 "山东咨政局"
+ JIN_neutrality_party:0 "山东公安委员会"
+ JIN_neutrality_party_long:0 "山东公安委员会"
+ JIN_monarchism_party:0 "山东宪兵队司令部"
+ JIN_monarchism_party_long:0 "山东宪兵队司令部"
+ JIN_fascism_party:0 "中政府新民会"
+ JIN_fascism_party_long:0 "中政府新民会"
+ JIN_imperialism_party:0 "第47师团司令部"
+ JIN_imperialism_party_long:0 "第47师团司令部"
+ JIN_futurism_party:0 "技术官僚"
+ JIN_futurism_party_long:0 "技术官僚"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ JIN_han_gyuseol:0 "韓圭卨" #한규설
+ JIN_han_gyuseol_desc:0 "§Y出生日期§!：§G1856年2月29日§!\n§Y出生地点§!：§G朝鲜王政府京畿道汉城府§!\n\n在朝鲜王政府灭亡之前，§Y韩圭卨§!是朝鲜宫廷的宠儿、袁世凯在朝鲜宫廷的传话人，虽站在朝鲜旧贵族一边，却保护了数名开化党人，责成他们著书立说，宣传文明进步的开化思想。在当时的§Y朝鲜开化党§!看来，朝鲜的两班贵族腐败堕落、无药可救，唯有来自中原帝政府的铁拳能将他们从这个世界上抹去，进而解放被束缚了几百年的朝鲜半岛。\n\n幸或是不幸的是，中朝合并终于实现了。朝鲜王室仅保留贵族头衔，庶民与贵族的身份被打破，所有朝鲜人都成为了中华帝政府平等的一份子。但是每一个朝鲜人很快发现，“平等”意味着他们无一例外都是大东皇帝的§R奴隶§!，失望的不只是开化党人，还有一直以来对帝政府抱有憧憬的韩圭卨本人。此后的韩圭卨逃避政治，拒绝了帝政府授予的爵位。\n\n临城火车劫案发生后，亟需一位经验老道的人来主持此项案件。作为帝政府警察系统的老将，韩圭卨重出江湖。在匪首孙美瑶落网后，韩圭卨得到了一项新的工作——§Y山东警视厅长§!。在内战爆发后，韩圭卨勉强控制住了济南及周边的一些城市，他邀请咨政局议员建立了一个临时政府，以稳定局势。韩圭卨本人尚未确定山东的未来走向何方，如今他只能为了这一小片领土殚精竭虑。"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############
+ 
+ ##############
+ ## TOOLTIPS ##
+ ##############

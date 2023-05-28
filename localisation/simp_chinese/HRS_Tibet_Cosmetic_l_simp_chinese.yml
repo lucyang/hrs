@@ -1,0 +1,27 @@
+﻿l_simp_chinese:
+ TIB_unifier_communism:0 "西藏人民共和国"
+ TIB_unifier_communism_DEF:0 "西藏人民共和国"
+ TIB_unifier_anarchism:0 "博巴人民共和国"
+ TIB_unifier_anarchism_DEF:0 "博巴人民共和国"
+ TIB_unifier_socialism:0 "西藏民国"
+ TIB_unifier_socialism_DEF:0 "西藏民国"
+ TIB_unifier_democratic:0 "图博国"
+ TIB_unifier_democratic_DEF:0 "图博国"
+ TIB_unifier_neutrality:0 "图博国"
+ TIB_unifier_neutrality_DEF:0 "图博国"
+ TIB_unifier_monarchism:0 "图博特"
+ TIB_unifier_monarchism_DEF:0 "图博特"
+ TIB_unifier_communism_ADJ:0 "博巴"
+ TIB_unifier_anarchism_ADJ:0 "博巴"
+ TIB_unifier_socialism_ADJ:0 "西藏"
+ TIB_unifier_democratic_ADJ:0 "图博"
+ TIB_unifier_neutrality_ADJ:0 "图博"
+ TIB_unifier_monarchism_ADJ:0 "图博"
+ ############
+ ## EVENTS ##
+ ############
+ tib_unification.1.t:0 "雪域新都"
+ tib_unification.1.desc:0 ""
+ tib_unification.1.a:0 "拉萨"
+ tib_unification.1.b:0 "日喀则"
+ tib_unification.1.c:0 "我们现在的首都就不错"

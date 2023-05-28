@@ -10,7 +10,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=dengism_subtype
+			ideology=left_nationalism_subtype
 			desc=SGN_zhang_fakui_desc
 			traits={ eager_commander devoted_marxist }
 			expire="1980.3.10.1"

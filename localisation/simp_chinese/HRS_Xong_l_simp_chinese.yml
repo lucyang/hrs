@@ -1,0 +1,89 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ XON_communism:0 "苗民光复军"
+ XON_communism_DEF:0 "苗民光复军"
+ XON_anarchism:0 "苗民光复军"
+ XON_anarchism_DEF:0 "苗民光复军"
+ XON_socialism:0 "苗民光复军"
+ XON_socialism_DEF:0 "苗民光复军"
+ XON_democratic:0 "苗民光复军"
+ XON_democratic_DEF:0 "苗民光复军"
+ XON_neutrality:0 "苗民光复军"
+ XON_neutrality_DEF:0 "苗民光复军"
+ XON_monarchism:0 "苗民光复军"
+ XON_monarchism_DEF:0 "苗民光复军"
+ XON_fascism:0 "苗民光复军"
+ XON_fascism_DEF:0 "苗民光复军"
+ XON_imperialism:0 "苗民光复军"
+ XON_imperialism_DEF:0 "苗民光复军"
+ XON_futurism:0 "苗民光复军"
+ XON_futurism_DEF:0 "苗民光复军"
+ XON_communism_ADJ:0 "果雄"
+ XON_anarchism_ADJ:0 "果雄"
+ XON_socialism_ADJ:0 "果雄"
+ XON_democratic_ADJ:0 "果雄"
+ XON_neutrality_ADJ:0 "果雄"
+ XON_monarchism_ADJ:0 "果雄"
+ XON_fascism_ADJ:0 "果雄"
+ XON_imperialism_ADJ:0 "果雄"
+ XON_futurism_ADJ:0 "果雄"
+ XON:0 "果雄
+ XON_DEF:0 "果雄"
+ XON_ADJ:0 "果雄"
+ #############
+ ## PARTIES ##
+ #############
+ XON_communism_party:0 "湘西总工会"
+ XON_communism_party_long:0 "湘西总工会"
+ XON_anarchism_party:0 "湘西总工会"
+ XON_anarchism_party_long:0 "湘西总工会"
+ XON_socialism_party:0 "湖南独立促进会"
+ XON_socialism_party_long:0 "湖南独立促进会"
+ XON_democratic_party:0 "苗民光复军 - 文官派"
+ XON_democratic_party_long:0 "苗民光复军 - 文官派"
+ XON_neutrality_party:0 "苗民光复军 - 军队派"
+ XON_neutrality_party_long:0 "苗民光复军 - 军队派"
+ XON_monarchism_party:0 "苗民光复军 - 土司派"
+ XON_monarchism_party_long:0 "苗民光复军 - 土司派"
+ XON_fascism_party:0 "中国青年党"
+ XON_fascism_party_long:0 "中国青年党"
+ XON_imperialism_party:0 "苗民光复军 - 极端派"
+ XON_imperialism_party_long:0 "苗民光复军 - 极端派"
+ XON_futurism_party:0 "洪江商会"
+ XON_futurism_party_long:0 "洪江商会"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ XON_regional_unifier1_democratic:0 "果雄共和国"
+ XON_regional_unifier1_democratic_desc:0 "果雄共和国"
+ XON_regional_unifier2_democratic:0 "果雄共和国"
+ XON_regional_unifier2_democratic_desc:0 "果雄共和国"
+ XON_regional_unifier_monarchism:0 "苗疆"
+ XON_regional_unifier_monarchism_desc:0 "苗疆"
+ XON_regional_unifier_imperialism:0 "苗疆"
+ XON_regional_unifier_imperialism_desc:0 "苗疆"
+ ################
+ ## CHARACTERS ##
+ ################
+ XON_long_yunfei:0 "龙云飞"
+ XON_long_yunfei_desc:0 "§Y出生日期§!：§G1886年§!\n§Y出生地点§!：§G大东帝国辰沅道凤凰县§!\n\n“我不管你们什么犯、什么党，我只晓得你是苗人，到我这里来就是一家人，谁敢动你们一根毫毛，你就笑一笑我龙云飞。”\n\n§Y“青帕苗王”§!，或者说§Y龙云飞§!，是一个很有争议的人物。有人称他为莽夫甚至是土匪，有人说他是利用苗民的阴谋家，有人则视其为苗民复兴的真正希望，有人又把他当作反抗剥削的革屯英雄、民粹主义战士。无论如何，他在苗民心目中有很高的地位是毋庸置疑的。\n\n龙云飞出身于苗民守备之家，从小习武，身手不凡而又志向高远，读过几年小学，也算初通文墨，因行侠仗义、豪情好客而为苗民拥戴。在§Y陈渠珍§!来到上湘西后，拜服陈渠珍出藏经历的龙云飞主动投到陈渠珍麾下，是为陈的得力干将。然而，随着陈渠珍不断推进革新计划，并且逐渐加强屯田政策以榨取更多粮食充作湘西革新的资金来源，但后果便是越来越多的苗民失去了土地，而这使得作为苗民领袖的龙云飞开始跟陈渠珍渐行渐远。\n\n虽然他们的个人交情持久不衰，但政见的差异使陈渠珍决心驱逐龙云飞，龙云飞被迫离开凤凰闲居沅陵。龙云飞知道，陈渠珍不愿意杀他，但也不愿意让他继续参与政事。重义气的龙云飞仍然服从于陈渠珍的指挥，也不干预陈渠珍的计划，只是在沅陵废除屯田，还田于苗，因此吸引来不少苗民，在§G红白黑三王旗§!下，苗王也许正在思考着日后的打算。但无论如何，至少现在，他忠于陈渠珍。"
+ XON_shi_qigui:0 "石启贵"
+ XON_shi_qigui_desc:0 "§Y出生日期§!：§G1896年§!\n§Y出生地点§!：§G大东帝国辰沅道乾城县§!"
+ ###########
+ ## IDEAS ##
+ ###########
+
+ ##########
+ # TRAITS #
+ ##########
+ XON_chaofa:0 "青帕苗王"
+ #############
+ # DECISIONS #
+ #############
+ 
+ ############
+ ## EVENTS ##
+ ############
+ 

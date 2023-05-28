@@ -1,0 +1,71 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ TSH_communism:0 "甘肃军政府"
+ TSH_communism_DEF:0 "甘肃军政府"
+ TSH_anarchism:0 "甘肃军政府"
+ TSH_anarchism_DEF:0 "甘肃军政府"
+ TSH_socialism:0 "甘肃军政府"
+ TSH_socialism_DEF:0 "甘肃军政府"
+ TSH_democratic:0 "甘肃军政府"
+ TSH_democratic_DEF:0 "甘肃军政府"
+ TSH_neutrality:0 "甘肃军政府"
+ TSH_neutrality_DEF:0 "甘肃军政府"
+ TSH_monarchism:0 "甘肃军政府"
+ TSH_monarchism_DEF:0 "甘肃军政府"
+ TSH_fascism:0 "甘肃军政府"
+ TSH_fascism_DEF:0 "甘肃军政府"
+ TSH_imperialism:0 "甘肃军政府"
+ TSH_imperialism_DEF:0 "甘肃军政府"
+ TSH_futurism:0 "甘肃军政府"
+ TSH_futurism_DEF:0 "甘肃军政府"
+ TSH_communism_ADJ:0 "天水"
+ TSH_anarchism_ADJ:0 "天水"
+ TSH_socialism_ADJ:0 "天水"
+ TSH_democratic_ADJ:0 "天水"
+ TSH_neutrality_ADJ:0 "天水"
+ TSH_monarchism_ADJ:0 "天水"
+ TSH_fascism_ADJ:0 "天水"
+ TSH_imperialism_ADJ:0 "天水"
+ TSH_futurism_ADJ:0 "天水"
+ TSH:0 "甘肃军政府"
+ TSH_DEF:0 "甘肃军政府"
+ TSH_ADJ:0 "天水"
+ #############
+ ## PARTIES ##
+ #############
+ TSH_communism_party:0 "社民农工党"
+ TSH_communism_party_long:0 "中国社会民主农工党"
+ TSH_anarchism_party:0 "伊赫瓦尼派"
+ TSH_anarchism_party_long:0 "伊赫瓦尼派"
+ TSH_socialism_party:0 "中华民国工党"
+ TSH_socialism_party_long:0 "中华民国工党"
+ TSH_democratic_party:0 "西北革命同盟会"
+ TSH_democratic_party_long:0 "西北革命同盟会"
+ TSH_neutrality_party:0 "甘肃军政府"
+ TSH_neutrality_party_long:0 "甘肃军政府"
+ TSH_monarchism_party:0 "和朝保皇派"
+ TSH_monarchism_party_long:0 "和朝保皇派"
+ TSH_fascism_party:0 "中国新民会"
+ TSH_fascism_party_long:0 "中国新民会"
+ TSH_imperialism_party:0 "战国策派"
+ TSH_imperialism_party_long:0 "战国策派"
+ TSH_futurism_party:0 "晋商财团"
+ TSH_futurism_party_long:0 "晋商财团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ TSH_huang_yue:0 "黄钺"
+ TSH_huang_yue_desc:0 "§Y出生日期§!：§G1869年§!\n§Y出生地点§!：§G大东帝国湘江道宁乡县§!"
+ #############
+ # Decisions #
+ #############
+
+ #################
+ # POWER BALANCE #
+ #################

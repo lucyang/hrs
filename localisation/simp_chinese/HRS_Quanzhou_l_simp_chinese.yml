@@ -1,0 +1,70 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ QZH_communism:0 "闽南护法区"
+ QZH_communism_DEF:0 "闽南护法区"
+ QZH_anarchism:0 "闽南护法区"
+ QZH_anarchism_DEF:0 "闽南护法区"
+ QZH_socialism:0 "闽南护法区"
+ QZH_socialism_DEF:0 "闽南护法区"
+ QZH_democratic:0 "闽南护法区"
+ QZH_democratic_DEF:0 "闽南护法区"
+ QZH_neutrality:0 "闽南护法区"
+ QZH_neutrality_DEF:0 "闽南护法区"
+ QZH_monarchism:0 "闽南护法区"
+ QZH_monarchism_DEF:0 "闽南护法区"
+ QZH_fascism:0 "闽南护法区"
+ QZH_fascism_DEF:0 "闽南护法区"
+ QZH_imperialism:0 "闽南护法区"
+ QZH_imperialism_DEF:0 "闽南护法区"
+ QZH_futurism:0 "闽南护法区"
+ QZH_futurism_DEF:0 "闽南护法区"
+ QZH_communism_ADJ:0 "闽南"
+ QZH_anarchism_ADJ:0 "闽南"
+ QZH_democratic_ADJ:0 "闽南"
+ QZH_neutrality_ADJ:0 "闽南"
+ QZH_monarchism_ADJ:0 "闽南"
+ QZH_fascism_ADJ:0 "闽南"
+ QZH_imperialism_ADJ:0 "闽南"
+ QZH_futurism_ADJ:0 "闽南"
+ QZH:0 "闽南"
+ QZH_DEF:0 "闽南"
+ QZH_ADJ:0 "闽南"
+ #############
+ ## PARTIES ##
+ #############
+ QZH_communism_party:0 "社民农工党"
+ QZH_communism_party_long:0 "中国社会民主农工党"
+ QZH_anarchism_party:0 "泉州黎明中学"
+ QZH_anarchism_party_long:0 "泉州黎明中学"
+ QZH_socialism_party:0 "中华革命党"
+ QZH_socialism_party_long:0 "中华革命党"
+ QZH_democratic_party:0 "福建自治促进会"
+ QZH_democratic_party_long:0 "福建自治促进会"
+ QZH_neutrality_party:0 "闽南护法区"
+ QZH_neutrality_party_long:0 "闽南护法区"
+ QZH_monarchism_party:0 "孔教会"
+ QZH_monarchism_party_long:0 "孔教会"
+ QZH_fascism_party:0 "汉族独立会"
+ QZH_fascism_party_long:0 "汉族独立会"
+ QZH_imperialism_party:0 "兴汉会"
+ QZH_imperialism_party_long:0 "兴汉会"
+ QZH_futurism_party:0 "广州商团"
+ QZH_futurism_party_long:0 "广州商团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ QZH_xu_zhuoran:0 "许卓然"
+ QZH_qin_wangshan:0 "秦望山"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

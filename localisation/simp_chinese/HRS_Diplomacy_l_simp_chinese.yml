@@ -1,0 +1,64 @@
+﻿l_simp_chinese:
+ ############
+ # POLICIES #
+ ############
+
+ #############
+ # DECISIONS #
+ #############
+ HRS_diplomatic_action_category:0 "外交行动"
+ HRS_negotiate_neighbors:0 "与[FROM.GetName]谈判"
+ HRS_attack_neighbors:0 "直接进攻[FROM.GetName]"
+ #############
+ # MODIFIERS #
+ #############
+ HRS_trade_deal:0 "贸易协定"
+ ###############
+ # NEGOTIATION #
+ ###############
+ hrs_dip_root.1.t:0 "开始谈判" 
+ hrs_dip_root.1.desc:0 "经过多方努力周旋，我们终于启动了和[dip_event_target_receiver.GetName]方面的会谈，地点是在边境的某处安全屋内，以确保双方人员的安全以及谈判本身的可靠性。"
+ hrs_dip_root.1.a:0 "开始进行外交接触"
+
+ hrs_dip_from.1.t:0 "谈判请求"
+ hrs_dip_from.1.desc:0 "[dip_event_target_inviter.GetName]领导人邀请我国前往某处秘密地点进行外交谈判，我们"
+ hrs_dip_from.1.a:0 "建立外交互信"
+ hrs_dip_from.1.b:0 "签订经贸协议"
+ hrs_dip_from.1.c:0 "开展军事合作"
+ hrs_dip_from.1.d:0 "我们没什么可谈的！"
+
+ hrs_dip_root.2.t:0 "外交互信"
+ hrs_dip_root.2.desc:0 "[dip_event_target_inviter.GetName]的谈判人员向我方提出了外交互信的方案，这有助于结束目前双方的不信任状态。"
+ hrs_dip_root.2.a:0 "接纳他们的建议"
+ hrs_dip_root.2.b:0 "我们没什么可谈的！"
+
+ hrs_dip_root.3.t:0 "军事合作"
+ hrs_dip_root.3.desc:0 "在达成了初步的外交互信后，[dip_event_target_inviter.GetName]的谈判人员向我方提出了在军事上达成某种合作的可能，包括协同防御、合作军演等，这将进一步发展双方的共同安全建设。"
+ hrs_dip_root.3.a:0 "接纳他们的建议"
+ hrs_dip_root.3.b:0 "我们没什么可谈的！"
+
+ hrs_dip_root.4.t:0 "经贸往来"
+ hrs_dip_root.4.desc:0 "[dip_event_target_inviter.GetName]的谈判人员草拟了一份经济贸易协定，如果我们同意这将加强双方的经济合作，加快两国之间的贸易来往，使得我们在经济上达成统一。"
+ hrs_dip_root.4.a:0 "接纳他们的建议"
+ hrs_dip_root.4.b:0 "我们没什么可谈的！"
+
+ hrs_dip_root.5.t:0 "谈判僵局"
+ hrs_dip_root.5.desc:0 "尽管我们开具了足够的条件，向[dip_event_target_receiver.GetName]做出了让步，但是对方显然不愿意继续深入合作，我们应该解决这场外交危机？"
+ hrs_dip_root.5.a:0 "不然能怎么办呢？"
+ hrs_dip_root.5.b:0 "谴责他们"
+ hrs_dip_root.5.c:0 "准备特别军事行动"
+ 
+ hrs_dip_root.6.t:0 "行政整合"
+ hrs_dip_root.6.desc:0 "[FROM.GetName]提出在保证人身安全的情况下，双方的行政机构及其职员可以被整合到一个联合政府中，这会使和谈向前迈进一大步。行政整合完成后，我们将携手步入强大。"
+ hrs_dip_root.6.a:0 "接纳他们的建议"
+ hrs_dip_root.6.b:0 "我们没什么可谈的！"
+ #######
+ # WAR #
+ #######
+ hrs_war.1.t:0 "军事威胁"
+ hrs_war.1.desc:0 "来自情报人员的信息显示，[ROOT.GetName]的军队正在边境线展开大规模行动，很可能在数日内对我方发起军事入侵。显然他们准备不宣而战，我们必须整备边防、强化军队，提前做好防备。"
+ hrs_war.1.a:0 "随时警惕！"
+ 
+ hrs_war.2.t:0 "谈判失败"
+ hrs_war.2.desc:0 "[ROOT.GetName]与[FROM.GetName]的一切外交努力宣告失败，[ROOT.GetName]的军队正在边境线展开大规模行动，很可能在数日内对我方发起军事入侵，我们必须整备边防、强化军队，提前做好防备。"
+ hrs_war.2.a:0 "随时警惕！"

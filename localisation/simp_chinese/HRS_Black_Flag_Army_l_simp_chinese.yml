@@ -1,0 +1,71 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ BFA_communism:0 "新黑旗军"
+ BFA_communism_DEF:0 "新黑旗军"
+ BFA_anarchism:0 "新黑旗军"
+ BFA_anarchism_DEF:0 "新黑旗军"
+ BFA_socialism:0 "新黑旗军"
+ BFA_socialism_DEF:0 "新黑旗军"
+ BFA_democratic:0 "新黑旗军"
+ BFA_democratic_DEF:0 "新黑旗军"
+ BFA_neutrality:0 "新黑旗军"
+ BFA_neutrality_DEF:0 "新黑旗军"
+ BFA_monarchism:0 "新黑旗军"
+ BFA_monarchism_DEF:0 "新黑旗军"
+ BFA_fascism:0 "新黑旗军"
+ BFA_fascism_DEF:0 "新黑旗军"
+ BFA_imperialism:0 "新黑旗军"
+ BFA_imperialism_DEF:0 "新黑旗军"
+ BFA_futurism:0 "新黑旗军"
+ BFA_futurism_DEF:0 "新黑旗军"
+ BFA_communism_ADJ:0 "新黑旗军"
+ BFA_anarchism_ADJ:0 "新黑旗军"
+ BFA_socialism_ADJ:0 "新黑旗军"
+ BFA_democratic_ADJ:0 "新黑旗军"
+ BFA_neutrality_ADJ:0 "新黑旗军"
+ BFA_monarchism_ADJ:0 "新黑旗军"
+ BFA_fascism_ADJ:0 "新黑旗军"
+ BFA_imperialism_ADJ:0 "新黑旗军"
+ BFA_futurism_ADJ:0 "新黑旗军"
+ BFA:0 "新黑旗军"
+ BFA_DEF:0 "新黑旗军"
+ BFA_ADJ:0 "新黑旗军"
+ #############
+ ## PARTIES ##
+ #############
+ BFA_communism_party:0 "社民农工党"
+ BFA_communism_party_long:0 "中国社会民主农工党"
+ BFA_anarchism_party:0 "越南共产党"
+ BFA_anarchism_party_long:0 "越南共产党"
+ BFA_socialism_party:0 "新黑旗军 - 进步派"
+ BFA_socialism_party_long:0 "新黑旗军 - 进步派"
+ BFA_democratic_party:0 "新黑旗军 - 革命派"
+ BFA_democratic_party_long:0 "新黑旗军 - 革命派"
+ BFA_neutrality_party:0 "新黑旗军 - 军队派"
+ BFA_neutrality_party_long:0 "新黑旗军 - 军队派"
+ BFA_monarchism_party:0 "阮家效忠派"
+ BFA_monarchism_party_long:0 "阮家效忠派"
+ BFA_fascism_party:0 "广东独立协会"
+ BFA_fascism_party_long:0 "广东独立协会"
+ BFA_imperialism_party:0 "越南复国会"
+ BFA_imperialism_party_long:0 "越南复国会"
+ BFA_futurism_party:0 "南洋开发集团"
+ BFA_futurism_party_long:0 "南洋开发集团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ BFA_wang_heshun:0 "王和顺"
+ BFA_wang_heshun_desc:0 "§Y出生日期§!：§G1869年§!\n§Y出生地点§!：§G大东帝国南宁道邕宁县§!"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

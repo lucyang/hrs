@@ -1,0 +1,71 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ CBS_communism:0 "湖南普渡国"
+ CBS_communism_DEF:0 "湖南普渡国"
+ CBS_anarchism:0 "湖南普渡国"
+ CBS_anarchism_DEF:0 "湖南普渡国"
+ CBS_socialism:0 "湖南普渡国"
+ CBS_socialism_DEF:0 "湖南普渡国"
+ CBS_democratic:0 "湖南普渡国"
+ CBS_democratic_DEF:0 "湖南普渡国"
+ CBS_neutrality:0 "湖南普渡国"
+ CBS_neutrality_DEF:0 "湖南普渡国"
+ CBS_monarchism:0 "湖南普渡国"
+ CBS_monarchism_DEF:0 "湖南普渡国"
+ CBS_fascism:0 "湖南普渡国"
+ CBS_fascism_DEF:0 "湖南普渡国"
+ CBS_imperialism:0 "湖南普渡国"
+ CBS_imperialism_DEF:0 "湖南普渡国"
+ CBS_futurism:0 "湖南普渡国"
+ CBS_futurism_DEF:0 "湖南普渡国"
+ CBS_communism_ADJ:0 "三期普渡"
+ CBS_anarchism_ADJ:0 "三期普渡"
+ CBS_socialism_ADJ:0 "三期普渡"
+ CBS_democratic_ADJ:0 "三期普渡"
+ CBS_neutrality_ADJ:0 "三期普渡"
+ CBS_monarchism_ADJ:0 "三期普渡"
+ CBS_fascism_ADJ:0 "三期普渡"
+ CBS_imperialism_ADJ:0 "三期普渡"
+ CBS_futurism_ADJ:0 "三期普渡"
+ CBS:0 "三期普渡"
+ CBS_DEF:0 "三期普渡"
+ CBS_ADJ:0 "三期普渡"
+ #############
+ ## PARTIES ##
+ #############
+ CBS_communism_party:0 "社民农工党"
+ CBS_communism_party_long:0 "社会民主农工党"
+ CBS_anarchism_party:0 "新民学会"
+ CBS_anarchism_party_long:0 "新民学会"
+ CBS_socialism_party:0 "湖南改造促进会"
+ CBS_socialism_party_long:0 "湖南改造促进会"
+ CBS_democratic_party:0 "湖南宪政党"
+ CBS_democratic_party_long:0 "湖南宪政党"
+ CBS_neutrality_party:0 "佛国护国军"
+ CBS_neutrality_party_long:0 "佛国护国军"
+ CBS_monarchism_party:0 "普渡积善堂"
+ CBS_monarchism_party_long:0 "普渡积善堂"
+ CBS_fascism_party:0 "中国青年党"
+ CBS_fascism_party_long:0 "中国青年党"
+ CBS_imperialism_party:0 "战国策派"
+ CBS_imperialism_party_long:0 "战国策派"
+ CBS_futurism_party:0 "普渡积善堂"
+ CBS_futurism_party_long:0 "普渡积善堂"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ CBS_shi_huaizhen:0 "石怀珍"
+ CBS_shi_huaizhen_desc:0 "§Y出生日期§!：§G1884年7月24日§!\n§Y出生地点§!：§G大东帝国湖南省湘乡道湘潭县§!\n\n在19世纪动乱的最后十年，一位湘潭的小地主§Y石振顺§!声称自己就是赤帝转世——他缝制了一套古怪的衣服，包括大小口袋各两个、五颗扣子的上衣。石振顺声称这就是§Y上古帝王的正式着装§!，并非古人描述的“宽袍大袖”“飘飘欲仙”。他的儿子§Y石怀珍§!从小就在旁人充满着好奇与不安的眼光中度过，自然是因为他有个神神叨叨的父亲。\n\n长大后的石怀珍继承了父亲的衣钵，在旁人看来，§Y普渡积善堂§!只是茫茫宗教社团中不起眼的一员，至少无法匹敌孔教会或是大本教团。但是在信徒看来，石振顺和与石怀珍都是“赤帝”的化身。传说§Y赤帝§!是中华民族与汉族的血亲祖先，连和朝皇帝也不例外，他们宣称自己是吴泰伯的子孙，后者正是周太王长子。\n\n围绕在赤帝身上的传说有许多——赤帝本人出生在湖南，他的妻子和臣子们也多有湖南出身的，显然这给了两父子许多可供信徒想象与操作的空间。在湘省军政府崩溃后，普渡积善堂在湘潭举办了一次盛大的宗教活动，石怀珍戴着八角帽站在高台上，穿着古怪的教团服装，与信徒一同举着红色的本子，向着疯狂的信徒挥手致礼。\n\n§Y佛国护国军§!冲进了湘潭县城，以极为残忍的方式了处决了许多人，鲜血染红了街道；幸存者被戴上高帽游街，上面写满了古怪难懂的古代文字。石怀珍声称中国已经被物质主义和享乐文化腐蚀，堕落为了资本家与剥削的乐园。只有消灭三千万人才能让赤帝归来，他一定能将中国带回§R乌托邦§!般的黄金时代······\n\n§Y（自然，屠杀并不是他的本意，都是下面的信徒执行坏了。）§!"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

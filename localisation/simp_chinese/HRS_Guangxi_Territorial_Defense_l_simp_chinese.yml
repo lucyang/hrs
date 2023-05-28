@@ -1,0 +1,70 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ GTD_communism:0 "广西边防军"
+ GTD_communism_DEF:0 "广西边防军"
+ GTD_anarchism:0 "广西边防军"
+ GTD_anarchism_DEF:0 "广西边防军"
+ GTD_socialism:0 "广西边防军"
+ GTD_socialism_DEF:0 "广西边防军"
+ GTD_democratic:0 "广西边防军"
+ GTD_democratic_DEF:0 "广西边防军"
+ GTD_neutrality:0 "广西边防军"
+ GTD_neutrality_DEF:0 "广西边防军"
+ GTD_monarchism:0 "广西边防军"
+ GTD_monarchism_DEF:0 "广西边防军"
+ GTD_fascism:0 "广西边防军"
+ GTD_fascism_DEF:0 "广西边防军"
+ GTD_imperialism:0 "广西边防军"
+ GTD_imperialism_DEF:0 "广西边防军"
+ GTD_futurism:0 "广西边防军"
+ GTD_futurism_DEF:0 "广西边防军"
+ GTD_communism_ADJ:0 "广西边防军"
+ GTD_anarchism_ADJ:0 "广西边防军"
+ GTD_democratic_ADJ:0 "广西边防军"
+ GTD_neutrality_ADJ:0 "广西边防军"
+ GTD_monarchism_ADJ:0 "广西边防军"
+ GTD_fascism_ADJ:0 "广西边防军"
+ GTD_imperialism_ADJ:0 "广西边防军"
+ GTD_futurism_ADJ:0 "广西边防军"
+ GTD:0 "广西边防军"
+ GTD_DEF:0 "广西边防军"
+ GTD_ADJ:0 "广西边防军"
+ #############
+ ## PARTIES ##
+ #############
+ GTD_communism_party:0 "社民农工党"
+ GTD_communism_party_long:0 "中国社会民主农工党"
+ GTD_anarchism_party:0 "布僚人民党"
+ GTD_anarchism_party_long:0 "布僚人民党"
+ GTD_socialism_party:0 "广东工会联合会"
+ GTD_socialism_party_long:0 "广东工会联合会"
+ GTD_democratic_party:0 "中国革命党"
+ GTD_democratic_party_long:0 "中国革命党"
+ GTD_neutrality_party:0 "第17师团司令部"
+ GTD_neutrality_party_long:0 "第17师团司令部 - 变节派"
+ GTD_monarchism_party:0 "第17师团司令部"
+ GTD_monarchism_party_long:0 "第17师团司令部 - 效忠派"
+ GTD_fascism_party:0 "广东独立协会"
+ GTD_fascism_party_long:0 "广东独立协会"
+ GTD_imperialism_party:0 "人民共和党"
+ GTD_imperialism_party_long:0 "人民共和党"
+ GTD_futurism_party:0 "广州商团"
+ GTD_futurism_party_long:0 "广州商团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ GTD_shen_hongying:0 "沈鸿英"
+ GTD_shen_hongying_desc:0 "§Y出生日期§!：§G1871年§!\n§Y出生地点§!：§G大东帝国柳江道雒容县§!"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

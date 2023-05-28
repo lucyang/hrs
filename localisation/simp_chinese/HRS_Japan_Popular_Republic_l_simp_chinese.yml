@@ -1,0 +1,81 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ JPR_communism:0 "日本人民共和国"
+ JPR_communism_DEF:0 "日本人民共和国"
+ JPR_anarchism:0 "日本人民共和国"
+ JPR_anarchism_DEF:0 "日本人民共和国"
+ JPR_democratic:0 "日本人民共和国"
+ JPR_democratic_DEF:0 "日本人民共和国"
+ JPR_neutrality:0 "日本人民共和国"
+ JPR_neutrality_DEF:0 "日本人民共和国"
+ JPR_monarchism:0 "日本人民共和国"
+ JPR_monarchism_DEF:0 "日本人民共和国"
+ JPR_fascism:0 "日本人民共和国"
+ JPR_fascism_DEF:0 "日本人民共和国"
+ JPR_imperialism:0 "日本人民共和国"
+ JPR_imperialism_DEF:0 "日本人民共和国"
+ JPR_futurism:0 "日本人民共和国"
+ JPR_futurism_DEF:0 "日本人民共和国"
+ JPR_communism_ADJ:0 "红色日本"
+ JPR_anarchism_ADJ:0 "红色日本"
+ JPR_democratic_ADJ:0 "红色日本"
+ JPR_neutrality_ADJ:0 "红色日本"
+ JPR_monarchism_ADJ:0 "红色日本"
+ JPR_fascism_ADJ:0 "红色日本"
+ JPR_imperialism_ADJ:0 "红色日本"
+ JPR_futurism_ADJ:0 "红色日本"
+ JPR:0 "红色日本"
+ JPR_DEF:0 "红色日本"
+ JPR_ADJ:0 "红色日本"
+ #############
+ ## PARTIES ##
+ #############
+ JPR_communism_party:0 "日共 - 劳农派"
+ JPR_communism_party_long:0 "日本共产党 - 劳农派"
+ JPR_anarchism_party:0 "日共 - 福本派"
+ JPR_anarchism_party_long:0 "日本共产党 - 福本派"
+ JPR_socialism_party:0 "日共 - 解党派"
+ JPR_socialism_party_long:0 "日本共产党 - 解党派"
+ JPR_democratic_party:0 "无产政党"
+ JPR_democratic_party_long:0 "无产政党"
+ JPR_neutrality_party:0 "日本工农红军"
+ JPR_neutrality_party_long:0 "日本工农红军"
+ JPR_monarchism_party:0 "和朝效忠派"
+ JPR_monarchism_party_long:0 "和朝效忠派"
+ JPR_fascism_party:0 "日共 - 转向派"
+ JPR_fascism_party_long:0 "日本共产党 - 转向派"
+ JPR_imperialism_party:0 "东方会"
+ JPR_imperialism_party_long:0 "东方会"
+ JPR_futurism_party:0 "犹存社"
+ JPR_futurism_party_long:0 "犹存社"
+ 
+ JPR_commie_party:0 "国家社会党"
+ JPR_commie_party_long:0 "日本国家社会党" 
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ JPR_sakai_toshihiko:0 "堺利彦"
+ JPR_sakai_toshihiko_desc:0 "§Y出生日期§!：§G1871年1月15日§!\n§Y出生地点§!：§G大东帝国九州道福冈县§!\n\n§Y堺利彦§!于1871年出生在一个没落的士族家庭，是家中的第三子。从学校毕业后，堺利彦以记者的身份活跃在舆论舞台，主张社会改良和日文改革，同时创作小说，在文坛取得了一定的地位。不久之后，堺利彦与§Y幸德秋水§!组建了§R平民社§!，二人一起翻译了《共产党宣言》，于1904年出版。该文根据盎法版的译文重译，是《共产党宣言》最早的日语译本。\n\n1906年，东亚第一个合法的社会主义政党§R日本社会党§!成立，§Y堺利彦§!担任社会党评议员，指导日本的社会主义运动。1908年因§R赤旗事件§!被投入监狱囚禁两年。在押期间发生著名的§R幸德大逆事件§!，幸德秋水等社会主义者被处死，但堺利彦免于连坐出狱了。1922年，§R日本共产党§!成立，堺利彦与山川均、荒畑寒村一起加入日本共产党。\n\n此时的堺利彦担任日共总书记，党内的派系纷争令他感到难以处理，不仅有劳农派、讲座派、解党派等诸多派系活跃，一小批翼赞军人政权、主张“超国家主义”的§O“转向派”§!也设法混入日共，让日本左翼运动变得复杂多变。更加讽刺的是，日共能在四国岛成功建立政权，仰赖的也是转向派与旧军队的联系，日本革命的未来令人担忧······"
+ JPR_arahata_kanso:0 "荒畑寒村"
+ JPR_fukumoto_kazuo:0 "福本和夫"
+ JPR_noro_eitaro:0 "野吕荣太郎"
+ JPR_yamakawa_hitoshi:0 "山川均"
+ JPR_akamatsu_katsumaro:0 "赤松克麿"
+ ###########
+ ## IDEAS ##
+ ###########
+ JPR_the_dissidents:0 "“转向派”"
+ JPR_the_dissidents_desc:0 "在山川主义的理论指导下，日本共产党实现了与无政府主义者的联盟。但是在实践的过程中，两拨“转向派”分子开始宣传与党的当前路线不同的联合方式：一种主张解散共产党，通过加入中日本共和国，实现无产政党的大联合；另一种主张全面与山下奉文的军队合作，通过“打入改造”旧军队增强党的实力，从而强化对革命的主导地位。主张三条不同路线的党员彼此争论不休，甚至单方面将论敌“除籍”，使党中央的权威遭到巨大损害。"
+ JPR_isolated_vanguard:0 "孤立的“先锋”"
+ JPR_isolated_vanguard_desc:0 "尽管山川主义强调与其他左翼政党联合斗争，但是长期以来，日共都以应当领导日本的革命斗争的“先锋队”自居。这种目标的后果便是在各种场合下，总会有一些日共党员以近乎偏执的态度反对其他左翼政党提出的策略。他们常常引经据典地批判对方，自己却拿不出一个符合实际的方案。这种被讽刺为“背诵马杜赫古兰经”的行为引起了民众的反感，日共的支持度与影响力也逐渐下滑。"
+ JPR_army_beyong_control:0 "枪指挥党？"
+ JPR_army_beyong_control_desc:0 "实际上，日共在地方并没有一个稳固的基本盘。他们能够在德岛成功巩固自己的政权，仅仅是因为他们得到了山下奉文及其领导的旧军队的支持。这种政治形势使军队在政府里有不小的话语权。而日共的实力弱小，尚不足以压制军队，更不敢对军队的行动有过多的干涉。总的来说，现在的德岛政权似乎是“枪指挥党”了。"
+ ############
+ ## EVENTS ##
+ ############

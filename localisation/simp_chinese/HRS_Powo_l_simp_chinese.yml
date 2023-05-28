@@ -1,0 +1,71 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ POW_communism:0 "波密王国"
+ POW_communism_DEF:0 "波密王国"
+ POW_anarchism:0 "波密王国"
+ POW_anarchism_DEF:0 "波密王国"
+ POW_socialism:0 "波密王国"
+ POW_socialism_DEF:0 "波密王国"
+ POW_democratic:0 "波密王国"
+ POW_democratic_DEF:0 "波密王国"
+ POW_neutrality:0 "波密王国"
+ POW_neutrality_DEF:0 "波密王国"
+ POW_monarchism:0 "波密王国"
+ POW_monarchism_DEF:0 "波密王国"
+ POW_fascism:0 "波密王国"
+ POW_fascism_DEF:0 "波密王国"
+ POW_imperialism:0 "波密王国"
+ POW_imperialism_DEF:0 "波密王国"
+ POW_futurism:0 "波密王国"
+ POW_futurism_DEF:0 "波密王国"
+ POW_communism_ADJ:0 "波密"
+ POW_anarchism_ADJ:0 "波密"
+ POW_socialism_ADJ:0 "波密"
+ POW_democratic_ADJ:0 "波密"
+ POW_neutrality_ADJ:0 "波密"
+ POW_monarchism_ADJ:0 "波密"
+ POW_fascism_ADJ:0 "波密"
+ POW_imperialism_ADJ:0 "波密"
+ POW_futurism_ADJ:0 "波密"
+ POW:0 "波密"
+ POW_DEF:0 "波密"
+ POW_ADJ:0 "波密"
+ #############
+ ## PARTIES ##
+ #############
+ POW_communism_party:0 "西藏共产党"
+ POW_communism_party_long:0 "西藏共产党"
+ POW_anarchism_party:0 "西藏共产党"
+ POW_anarchism_party_long:0 "西藏共产党"
+ POW_socialism_party:0 "西藏改革党"
+ POW_socialism_party_long:0 "西藏改革党"
+ POW_democratic_party:0 "噶朗第巴 - 改革派"
+ POW_democratic_party_long:0 "噶朗第巴 - 改革派"
+ POW_neutrality_party:0 "噶朗第巴 - 变节派"
+ POW_neutrality_party_long:0 "噶朗第巴 - 变节派"
+ POW_monarchism_party:0 "噶朗第巴 - 忠诚派"
+ POW_monarchism_party_long:0 "噶朗第巴 - 忠诚派" # 旺钦顿堆/索南旺杰
+ POW_fascism_party:0 "中国领事馆"
+ POW_fascism_party_long:0 "中国领事馆"
+ POW_imperialism_party:0 "卫教志愿军"
+ POW_imperialism_party_long:0 "卫教志愿军"
+ POW_futurism_party:0 "人民意志党"
+ POW_futurism_party_long:0 "人民意志党"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ POW_wangchen_dudun:0 "旺钦顿堆"
+ POW_wangchen_dudun_desc:0 "根据藏族传说，波密王国家族出自§Y吐蕃赞普§!。吐蕃止贡赞普被杀后，其子恰墀逃到博窝。十几年后，悉补野族人从博窝迎立恰墀（补代公杰）为赞普，波密则由止贡赞普的后裔统治。波密地区维持着§G半独立状态§!，仅在名义上臣属于西藏政权。历代王国并非都是父子相传，如今的波密王国§Y旺钦顿堆§!为上一代王国白马策旺之赘婿。\n\n在旺钦顿堆之妻病故后，西藏噶伦§Y擦绒§!将女儿次仁卓玛嫁给旺钦顿堆，写信邀请旺钦顿堆夫妇赴拉萨“省亲”。在去拉萨途中，旺钦顿堆察觉情形有变，返回波密，次仁卓玛则携大量财物逃奔拉萨。此后，波密与拉萨矛盾日深。于西藏而言，波密王国不过是案上鱼肉，唯一能拯救这个古老王国的，只有东方的中华帝国。\n\n§R为此，噶朗第巴必须付出一切，一切。§!"
+ #############
+ # Decisions #
+ #############
+
+ #################
+ # POWER BALANCE #
+ #################

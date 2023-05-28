@@ -18,7 +18,9 @@ BSM = "countries/Bangsa Moro.txt"
 # SHANGHAI #
 SHH = "countries/Shanghai.txt"
 # ANHUI #
-ANH = "countries/Anhui.txt"
+YSS = "countries/Yellow Sand Society.txt"
+# JIANGSU #
+NJS = "countries/North Jiangsu.txt"
 ### CHINA/NORTH ###
 # SHANXI #
 SHX = "countries/Shanxi.txt"
@@ -66,12 +68,18 @@ HLF = "countries/Hailufeng.txt"
 SZH = "countries/Shenzhen.txt"
 GND = "countries/Guangdong.txt"
 SGN = "countries/Shaoguan.txt"
-LGG = "countries/Liangguang.txt"
+BFA = "countries/Black Flag Army.txt"
 LCH = "countries/Leichow.txt"
 FED = "countries/Federalists.txt"
+KCH = "countries/Kochow.txt"
+SEY = "countries/Seiyap.txt"
+CTN = "countries/Cantonia.txt"
+HAK = "countries/Hakka.txt"
 # GUANGXI #
 GXC = "countries/Guangxi.txt"
+GTD = "countries/Guangxi Territorial Defense.txt"
 BCH = "countries/Zhuang.txt"
+GLN = "countries/Guilin.txt"
 # HAINAN #
 HNN = "countries/Hainan.txt"
 ### CHINA/NORTHWEST ###

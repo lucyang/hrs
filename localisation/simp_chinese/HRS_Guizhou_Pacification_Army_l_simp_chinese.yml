@@ -1,0 +1,82 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ GPA_communism:0 "定黔军"
+ GPA_communism_DEF:0 "定黔军"
+ GPA_anarchism:0 "定黔军"
+ GPA_anarchism_DEF:0 "定黔军"
+ GPA_socialism:0 "定黔军"
+ GPA_socialism_DEF:0 "定黔军"
+ GPA_democratic:0 "定黔军"
+ GPA_democratic_DEF:0 "定黔军"
+ GPA_neutrality:0 "定黔军"
+ GPA_neutrality_DEF:0 "定黔军"
+ GPA_monarchism:0 "定黔军"
+ GPA_monarchism_DEF:0 "定黔军"
+ GPA_fascism:0 "定黔军"
+ GPA_fascism_DEF:0 "定黔军"
+ GPA_imperialism:0 "定黔军"
+ GPA_imperialism_DEF:0 "定黔军"
+ GPA_futurism:0 "定黔军"
+ GPA_futurism_DEF:0 "定黔军"
+ GPA_communism_ADJ:0 "定黔军"
+ GPA_anarchism_ADJ:0 "定黔军"
+ GPA_socialism_ADJ:0 "定黔军"
+ GPA_democratic_ADJ:0 "定黔军"
+ GPA_neutrality_ADJ:0 "定黔军"
+ GPA_monarchism_ADJ:0 "定黔军"
+ GPA_fascism_ADJ:0 "定黔军"
+ GPA_imperialism_ADJ:0 "定黔军"
+ GPA_futurism_ADJ:0 "定黔军"
+ GPA:0 "定黔军"
+ GPA_DEF:0 "定黔军"
+ GPA_ADJ:0 "定黔军"
+ #############
+ ## PARTIES ##
+ #############
+ GPA_communism_party:0 "社民农工党"
+ GPA_communism_party_long:0 "中国社会民主农工党"
+ GPA_anarchism_party:0 "无政府共产党"
+ GPA_anarchism_party_long:0 "无政府共产党"
+ GPA_socialism_party:0 "农工民主党"
+ GPA_socialism_party_long:0 "中国农工民主党"
+ GPA_democratic_party:0 "贵州自治党"
+ GPA_democratic_party_long:0 "贵州自治党"
+ GPA_neutrality_party:0 "定黔军司令部"
+ GPA_neutrality_party_long:0 "定黔军司令部"
+ GPA_monarchism_party:0 "同善社"
+ GPA_monarchism_party_long:0 "同善社"
+ GPA_fascism_party:0 "中国青年党"
+ GPA_fascism_party_long:0 "中国青年党"
+ GPA_imperialism_party:0 "人民共和党"
+ GPA_imperialism_party_long:0 "人民共和党"
+ GPA_futurism_party:0 "西南制药"
+ GPA_futurism_party_long:0 "西南制药"
+
+ GPA_tongzi_party:0 "黔军 - 桐梓系"
+ GPA_tongzi_party_long:0 "黔军 - 桐梓系"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ GPA_regional_unifier_neutrality:0 "西南军政府"
+ GPA_regional_unifier_neutrality_DEF:0 "西南军政府"
+ GPA_regional_unifier_neutrality_ADJ:0 "西南军政府"
+
+ GPA_CHINA_neutrality:0 "中华国军政府"
+ GPA_CHINA_neutrality_DEF:0 "中华国军政府"
+ GPA_CHINA_neutrality_ADJ:0 "中国"
+ ################
+ ## CHARACTERS ##
+ ################
+ GPA_yuan_zuming:0 "袁祖铭"
+ GPA_yuan_zuming_desc:0 "§Y出生日期§!：§G1889年6月9日§!\n§Y出生地点§!：§G大东帝国黔西道兴义县§!\n\n年轻时的§Y袁祖铭§!曾有志于学问，在陆军学校毕业后，他留在兴义县成了一名体育教师。1911年，袁祖铭投笔从戎，毅然加入§Y刘显世§!的靖边巡防营。由于军校的学习经历，袁祖铭从上等兵一路跃升为步兵联队长。1923年革命后，袁祖铭投身革命派，成为§Y王文华§!的心腹将领。但是作战勇猛的袁祖铭引发了王文华的猜忌，二者日益走向对立面。\n\n在贵州军政府的革命派与守旧派剑拔弩张之时，王文华坚定地站在张百麟一边。当刘显世引滇军试图发动政变时，王文华将其驱逐出贵阳市，大肆处决保守派和旧军队成员。这一举动引发舆论哗然，早有贰心的袁祖铭派出刺客杀死了王文华。贵州省内大乱，张百麟仅能勉强维持贵阳及其周边地区，保守派自称为贵州国民军，在滇军的帮助下控制了黔西地区。\n\n此时的袁祖铭占据黔东地区，组建§Y定黔军§!维持势力范围。袁祖铭野心勃勃，意图夺取贵州霸权。他扩大征兵、广开财源，又任命心腹§Y王天培§!在黔东南扩军备战，图谋湘西地区。然而王天培的横征暴敛引发了§O同善社§!领导的§O黔东事变§!，以农民和地主信众为主的“救国救民先行定国军”将王天培逐出该地区，建立了独立政权§O莲花王国§!。\n\n野心受挫的袁祖铭并未放弃入主贵阳的梦想，但是他的行动掣肘于§Y王天培§!、§Y周西成§!为代表的桐梓县军事集团。无论袁祖铭如何谋划下一步的行动，他都需要与本地人——确切说是§Y桐梓系§!合作，显然袁祖铭被架空只是时间问题，除非他能证明自己的权威无可动摇，那么第一个受害者就显而易见了，那便是让袁祖铭的计划折戟沉沙的同善社邪教徒······"
+ GPA_zhou_xicheng:0 "周西成"
+ GPA_wang_jialie:0 "王家烈"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

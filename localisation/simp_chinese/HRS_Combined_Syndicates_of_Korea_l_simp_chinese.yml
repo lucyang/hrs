@@ -1,0 +1,71 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ CSK_communism:0 "元山总工会"
+ CSK_communism_DEF:0 "元山总工会"
+ CSK_anarchism:0 "元山总工会"
+ CSK_anarchism_DEF:0 "元山总工会"
+ CSK_socialism:0 "元山总工会"
+ CSK_socialism_DEF:0 "元山总工会"
+ CSK_democratic:0 "元山总工会"
+ CSK_democratic_DEF:0 "元山总工会"
+ CSK_neutrality:0 "元山总工会"
+ CSK_neutrality_DEF:0 "元山总工会"
+ CSK_monarchism:0 "元山总工会"
+ CSK_monarchism_DEF:0 "元山总工会"
+ CSK_fascism:0 "元山总工会"
+ CSK_fascism_DEF:0 "元山总工会"
+ CSK_imperialism:0 "元山总工会"
+ CSK_imperialism_DEF:0 "元山总工会"
+ CSK_futurism:0 "元山总工会"
+ CSK_futurism_DEF:0 "元山总工会"
+ CSK_communism_ADJ:0 "朝鲜工团主义"
+ CSK_anarchism_ADJ:0 "朝鲜工团主义"
+ CSK_socialism_ADJ:0 "朝鲜工团主义"
+ CSK_democratic_ADJ:0 "朝鲜工团主义"
+ CSK_neutrality_ADJ:0 "朝鲜工团主义"
+ CSK_monarchism_ADJ:0 "朝鲜工团主义"
+ CSK_fascism_ADJ:0 "朝鲜工团主义"
+ CSK_imperialism_ADJ:0 "朝鲜工团主义"
+ CSK_futurism_ADJ:0 "朝鲜工团主义"
+ CSK:0 "朝鲜"
+ CSK_DEF:0 "朝鲜"
+ CSK_ADJ:0 "朝鲜工团主义"
+ #############
+ ## PARTIES ##
+ #############
+ CSK_communism_party:0 "朝鲜共产党"
+ CSK_communism_party_long:0 "朝鲜共产党"
+ CSK_anarchism_party:0 "元山总工会"
+ CSK_anarchism_party_long:0 "元山总工会"
+ CSK_socialism_party:0 "朝鲜民主党"
+ CSK_socialism_party_long:0 "朝鲜民主党"
+ CSK_democratic_party:0 "韩国独立党"
+ CSK_democratic_party_long:0 "韩国独立党"
+ CSK_neutrality_party:0 "元山商会"
+ CSK_neutrality_party_long:0 "元山商会"
+ CSK_monarchism_party:0 "大韩独立义军"
+ CSK_monarchism_party_long:0 "大韩独立义军"
+ CSK_fascism_party:0 "国民协会"
+ CSK_fascism_party_long:0 "国民协会"
+ CSK_imperialism_party:0 "朝鲜主体党"
+ CSK_imperialism_party_long:0 "朝鲜主体党"
+ CSK_futurism_party:0 "白白教"
+ CSK_futurism_party_long:0 "白白教"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ CSK_kim_gyeongsik:0 "金瓊植" #김경식
+ CSK_kim_gyeongsik_desc:0 "§Y出生日期§!：§G1901年§!\n§Y出生地点§!：§G朝鲜国京畿道水原郡§!"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

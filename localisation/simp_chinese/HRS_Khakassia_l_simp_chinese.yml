@@ -1,0 +1,78 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ KHA_communism:0 "苏维埃哈卡斯"
+ KHA_communism_DEF:0 "哈卡斯苏维埃社会主义共和国"
+ KHA_anarchism:0 "苏维埃哈卡斯"
+ KHA_anarchism_DEF:0 "哈卡斯苏维埃社会主义共和国"
+ KHA_socialism:0 "哈卡斯共和国"
+ KHA_socialism_DEF:0 "哈卡斯共和国"
+ KHA_democratic:0 "哈卡斯共和国"
+ KHA_democratic_DEF:0 "哈卡斯共和国" 
+ KHA_neutrality:0 "哈卡斯共和国"
+ KHA_neutrality_DEF:0 "哈卡斯共和国"
+ KHA_monarchism:0 "黠戛斯汗国"
+ KHA_monarchism_DEF:0 "黠戛斯汗国"
+ KHA_fascism:0 "哈卡斯民族共和国"
+ KHA_fascism_DEF:0 "哈卡斯民族共和国"
+ KHA_imperialism:0 "哈卡斯民族国"
+ KHA_imperialism_DEF:0 "哈卡斯民族国"
+ KHA_futurism:0 "哈卡斯人民国"
+ KHA_futurism_DEF:0 "哈卡斯人民国"
+ KHA_communism_ADJ:0 "哈卡斯"
+ KHA_anarchism_ADJ:0 "哈卡斯"
+ KHA_socialism_ADJ:0 "哈卡斯"
+ KHA_democratic_ADJ:0 "哈卡斯"
+ KHA_neutrality_ADJ:0 "哈卡斯"
+ KHA_monarchism_ADJ:0 "哈卡斯"
+ KHA_fascism_ADJ:0 "哈卡斯"
+ KHA_imperialism_ADJ:0 "哈卡斯"
+ KHA_futurism_ADJ:0 "哈卡斯"
+ KHA:0 "哈卡斯"
+ KHA_DEF:0 "哈卡斯"
+ KHA_ADJ:0 "哈卡斯"
+ #############
+ ## PARTIES ##
+ #############
+ KHA_communism_party:0 "俄罗斯共产党"
+ KHA_communism_party_long:0 "俄罗斯共产党"
+ KHA_anarchism_party:0 "社会民主党"
+ KHA_anarchism_party_long:0 "俄国社会民主工党"
+ KHA_socialism_party:0 "社会革命党"
+ KHA_socialism_party_long:0 "社会革命党"
+ KHA_democratic_party:0 "梅纳加舍夫派"
+ KHA_democratic_party_long:0 "梅纳加舍夫派"
+ KHA_neutrality_party:0 "高尔察克派"
+ KHA_neutrality_party_long:0 "高尔察克派"
+ KHA_monarchism_party:0 "白卫军运动"
+ KHA_monarchism_party_long:0 "白卫军运动"
+ KHA_fascism_party:0 "民族劳动联盟"
+ KHA_fascism_party_long:0 "俄罗斯团结主义者民族劳动联盟"
+ KHA_imperialism_party:0 "俄罗斯全军联盟"
+ KHA_imperialism_party_long:0 "俄罗斯全军联盟"
+ KHA_futurism_party:0 "人民意志党"
+ KHA_futurism_party_long:0 "人民意志党"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ KHA_stepan_maynagashev:0 "斯捷潘·梅纳加舍夫" # Степа́н Дми́триевич Майнага́шев
+ ###########
+ ## IDEAS ##
+ ###########
+
+ #################
+ ### DECISIONS ###
+ ################# 
+
+ ################
+ ## FOCUS TREE ##
+ ################
+ 
+ #############
+ ### EVENT ###
+ #############

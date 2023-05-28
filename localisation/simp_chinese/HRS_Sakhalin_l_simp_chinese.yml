@@ -1,0 +1,71 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ SKL_communism:0 "萨哈林抵抗军"
+ SKL_communism_DEF:0 "萨哈林抵抗军"
+ SKL_anarchism:0 "萨哈林抵抗军"
+ SKL_anarchism_DEF:0 "萨哈林抵抗军"
+ SKL_socialism:0 "萨哈林抵抗军"
+ SKL_socialism_DEF:0 "萨哈林抵抗军"
+ SKL_democratic:0 "萨哈林抵抗军"
+ SKL_democratic_DEF:0 "萨哈林抵抗军"
+ SKL_neutrality:0 "萨哈林抵抗军"
+ SKL_neutrality_DEF:0 "萨哈林抵抗军"
+ SKL_monarchism:0 "萨哈林抵抗军"
+ SKL_monarchism_DEF:0 "萨哈林抵抗军"
+ SKL_fascism:0 "萨哈林抵抗军"
+ SKL_fascism_DEF:0 "萨哈林抵抗军"
+ SKL_imperialism:0 "萨哈林抵抗军"
+ SKL_imperialism_DEF:0 "萨哈林抵抗军"
+ SKL_futurism:0 "萨哈林抵抗军"
+ SKL_futurism_DEF:0 "萨哈林抵抗军"
+ SKL_communism_ADJ:0 "萨哈林"
+ SKL_anarchism_ADJ:0 "萨哈林"
+ SKL_socialism_ADJ:0 "萨哈林"
+ SKL_democratic_ADJ:0 "萨哈林"
+ SKL_neutrality_ADJ:0 "萨哈林"
+ SKL_monarchism_ADJ:0 "萨哈林"
+ SKL_fascism_ADJ:0 "萨哈林"
+ SKL_imperialism_ADJ:0 "萨哈林"
+ SKL_futurism_ADJ:0 "萨哈林"
+ SKL:0 "萨哈林"
+ SKL_DEF:0 "萨哈林"
+ SKL_ADJ:0 "萨哈林"
+ #############
+ ## PARTIES ##
+ #############
+ SKL_communism_party:0 "俄共残党"
+ SKL_communism_party_long:0 "俄共残党"
+ SKL_anarchism_party:0 "朝鲜劳工"
+ SKL_anarchism_party_long:0 "朝鲜劳工"
+ SKL_socialism_party:0 "新纪元社"
+ SKL_socialism_party_long:0 "新纪元社"
+ SKL_democratic_party:0 "帝国异见者"
+ SKL_democratic_party_long:0 "帝国异见者"
+ SKL_neutrality_party:0 "抵抗军中央司令部"
+ SKL_neutrality_party_long:0 "抵抗军中央司令部"
+ SKL_monarchism_party:0 "抵抗军变节派"
+ SKL_monarchism_party_long:0 "抵抗军变节派"
+ SKL_fascism_party:0 "白卫军残部"
+ SKL_fascism_party_long:0 "白卫军残部"
+ SKL_imperialism_party:0 "白卫军残部"
+ SKL_imperialism_party_long:0 "白卫军残部"
+ SKL_futurism_party:0 "技术官僚"
+ SKL_futurism_party_long:0 "技术官僚"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ SKL_bronislaw_pilsudski:0 "布罗尼斯瓦夫·毕苏斯基"
+ SKL_bronislaw_pilsudski_desc:0 "§Y出生日期§!：§G1866年11月2日§!\n§Y出生地点§!：§G波兰-立陶宛联邦维尔诺§!\n\n§Y布罗尼斯瓦夫·毕苏斯基§!是波兰政要§Y约瑟夫·毕苏斯基§!的哥哥，二者却因政治理想不同最终走向了迥然不同的道路。还在读大学的毕苏斯基兄弟秘密潜入俄国，协助俄国民粹党人刺杀政府要人，约瑟夫成功逃脱，布罗尼斯瓦夫却被判处流放萨哈林岛15年。彼时的中俄瓜分了§Y萨哈林岛§!，萨哈林岛北部是俄国殖民地，主要用于流放罪犯。布罗尼斯瓦夫在这里成了一名木匠，勉强维持着生计。\n\n1891年，毕苏斯基在岛上遇见了同被流放的文化人类学者列夫·斯滕伯格，后者鼓励他办一份报纸。随后他办起了§Y《萨哈林报》§!，记录了许多19世纪末库页岛的风土人情。在萨哈林岛的原住民当中，布罗尼斯瓦夫对阿伊努人特别感兴趣，他居住在阿伊努村庄里，为孩子们办起了一所学校，教授外语和数学，还编写了第一本阿伊努语字典。1903年，他还娶了一位阿依努妻子，生有一对儿女。\n\n随着中俄战争爆发，中国军队轻而易举地攻破了萨哈林岛的俄军防线，这片土地从此更名为§Y桦太岛§!。中国政府聘请布罗尼斯瓦夫为社科院院士，还希望他协助阿伊努人的迁徙工作，帮助他们迁徙到桦太岛新土。布罗尼斯瓦夫很快发现，这只是大东帝国腾笼换鸟的殖民计划的一部分，一方面迁出阿伊努人为北海道殖民腾出空间，一方面流放阿伊努人到桦太岛以填补人口空缺。\n\n久违的革命热情在布罗尼斯瓦夫心中升腾，此前他曾与无政府主义者§Y石川三四郎§!、基督教社会主义团体§R新纪元社§!有过密切来往。如今帝国已然陷入崩溃，布罗尼斯瓦夫决心率领这片土地上的人民——被拐骗来的朝鲜劳工、被侮辱和歧视的阿伊努人、被压迫和驱逐的俄国人——揭竿而起，彻底驱逐一切外来的压迫者，建立一片自由的远东乐土。"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

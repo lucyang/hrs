@@ -1,0 +1,49 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ BHU_communism:0 "不丹公社"
+ BHU_communism_DEF:0 "不丹公社"
+ BHU_anarchism:0 "不丹公社"
+ BHU_anarchism_DEF:0 "不丹公社"
+ BHU_socialism:0 "不丹王国"
+ BHU_socialism_DEF:0 "不丹王国"
+ BHU_democratic:0 "不丹王国"
+ BHU_democratic_DEF:0 "不丹王国"
+ BHU_neutrality:0 "不丹王国"
+ BHU_neutrality_DEF:0 "不丹王国"
+ BHU_monarchism:0 "不丹王国"
+ BHU_monarchism_DEF:0 "不丹王国"
+ BHU_fascism:0 "不丹王国"
+ BHU_fascism_DEF:0 "不丹王国"
+ BHU_imperialism:0 "不丹王国"
+ BHU_imperialism_DEF:0 "不丹王国"
+ BHU_futurism:0 "雷龙之国"
+ BHU_futurism_DEF:0 "雷龙之国"
+ BHU_communism_ADJ:0 "不丹"
+ BHU_anarchism_ADJ:0 "不丹"
+ BHU_democratic_ADJ:0 "不丹"
+ BHU_neutrality_ADJ:0 "不丹"
+ BHU_monarchism_ADJ:0 "不丹"
+ BHU_fascism_ADJ:0 "不丹"
+ BHU_imperialism_ADJ:0 "不丹"
+ BHU_futurism_ADJ:0 "不丹"
+ BHU:0 "不丹"
+ BHU_DEF:0 "不丹"
+ BHU_ADJ:0 "不丹"
+ #############
+ ## PARTIES ##
+ #############
+ BHU_neutrality_party:0 "多吉家族"
+ BHU_neutrality_party_long:0 "多吉家族"
+ BHU_monarchism_party:0 "旺楚克王朝"
+ BHU_monarchism_party_long:0 "旺楚克王朝"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ BHU_ugyen_wangchuck:0 "乌颜·旺楚克"
+ BHU_jigme_wangchuck:0 "吉格梅·旺楚克"
+ BHU_sonam_topgay_dorji:0 "索南·托杰·多吉"
+ ################
+ ## CHARACTERS ##
+ ################

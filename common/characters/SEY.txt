@@ -1,0 +1,16 @@
+characters = {
+	SEY_situ_meitang = {
+		name = SEY_situ_meitang
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SEY/Portrait_Situ_Meitang.png"
+			}
+		}
+		country_leader = {
+			ideology=liberalism_subtype
+			desc = SEY_situ_meitang_desc
+			traits = { emigre_connections popular_figurehead }
+			expire = "1950.1.1.1"
+		}
+	}
+}

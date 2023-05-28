@@ -1,0 +1,77 @@
+﻿l_simp_chinese:
+ ################
+ ## COUNTRIES  ##
+ ################
+ AIN_communism:0 "阿伊努民主共和国"
+ AIN_communism_DEF:0 "阿伊努民主共和国"
+ AIN_anarchism:0 "阿伊努民主共和国"
+ AIN_anarchism_DEF:0 "阿伊努民主共和国"
+ AIN_socialism:0 "阿伊努民主共和国"
+ AIN_socialism_DEF:0 "阿伊努民主共和国"
+ AIN_democratic:0 "阿伊努共和国"
+ AIN_democratic_DEF:0 "阿伊努共和国"
+ AIN_neutrality:0 "阿伊努共和国"
+ AIN_neutrality_DEF:0 "阿伊努共和国"
+ AIN_monarchism:0 "阿伊努国"
+ AIN_monarchism_DEF:0 "阿伊努国"
+ AIN_fascism:0 "阿伊努民族共和国"
+ AIN_fascism_DEF:0 "阿伊努民族共和国"
+ AIN_imperialism:0 "阿伊努民族国"
+ AIN_imperialism_DEF:0 "阿伊努民族国"
+ AIN_futurism:0 "阿伊努人民国"
+ AIN_futurism_DEF:0 "阿伊努人民国"
+ AIN_communism_ADJ:0 "阿伊努"
+ AIN_anarchism_ADJ:0 "阿伊努"
+ AIN_socialism_ADJ:0 "阿伊努"
+ AIN_democratic_ADJ:0 "阿伊努"
+ AIN_neutrality_ADJ:0 "阿伊努"
+ AIN_monarchism_ADJ:0 "阿伊努"
+ AIN_fascism_ADJ:0 "阿伊努"
+ AIN_imperialism_ADJ:0 "阿伊努"
+ AIN_futurism_ADJ:0 "阿伊努"
+ AIN:0 "阿伊努"
+ AIN_DEF:0 "阿伊努"
+ AIN_ADJ:0 "阿伊努"
+ ##############
+ ## PARTIES  ##
+ ##############
+ AIN_communism_party:0 "日本共产党"
+ AIN_communism_party_long:0 "日本共产党"
+ AIN_anarchism_party:0 "阿伊努民族党 - 极左派"
+ AIN_anarchism_party_long:0 "阿伊努民族党 - 极左派"
+ AIN_socialism_party:0 "阿伊努民族党 - 民生派"
+ AIN_socialism_party_long:0 "阿伊努民族党 - 民生派"
+ AIN_democratic_party:0 "阿伊努民族党 - 民主派"
+ AIN_democratic_party_long:0 "阿伊努民族党 - 民主派"
+ AIN_neutrality_party:0 "民族解放军"
+ AIN_neutrality_party_long:0 "民族解放军"
+ AIN_monarchism_party:0 "和朝效忠派"
+ AIN_monarchism_party_long:0 "和朝效忠派"
+ AIN_fascism_party:0 "阿伊努民族党 - 民族派"
+ AIN_fascism_party_long:0 "阿伊努民族党 - 民族派"
+ AIN_imperialism_party:0 "阿伊努民族党 - 极右派"
+ AIN_imperialism_party_long:0 "阿伊努民族党 - 极右派"
+ AIN_futurism_party:0 "阿伊努民族党 - 亲俄派"
+ AIN_futurism_party_long:0 "阿伊努民族党 - 亲俄派"
+ ###################
+ ## COSMETIC TAG  ##
+ ###################
+
+ ###########
+ ## IDEAS ##
+ ###########
+ AIN_liberation_of_ainu_mosir:0 "解放“宁静之地”"
+ AIN_liberation_of_ainu_mosir_desc:0 "一百年来，阿伊努人的家园遭到了殖民者的残忍剥削与压榨。殖民者们用欺骗、贿赂、抢夺、屠杀，将我们的土地蚕食鲸吞，将我们的同胞无情杀害。阿伊努人已经不能再默默忍受下去，我们必须用鲜血赢得“宁静之地”（Ainu Mosir）的自由！"
+ #############
+ ## LEADERS ##
+ #############
+ AIN_kawamura_kaneto:0 "川村兼人"
+ AIN_kawamura_kaneto_desc:0 "§Y出生日期§!：§G1893年5月§!\n§Y出生地点§!：§G大东帝国北海道旭川县§!\n\n§Y川村兼人§!出生在北海道的一个阿伊努人家庭，他的父亲§Y川村イタキシロマ§!是阿伊努酋长的后裔，如今勉强运营着一家小小的“阿伊努博物馆”。川村兼人从小就对铁路感兴趣，在小学毕业后考入札幌铁道学院，成为了一名技术精湛的铁路测量工。川村兼人身手敏捷、体力旺盛，为响应东日本大开发的号召，他带领测量队走遍东海道与北海道的高山深谷，完成了一个又一个不可能的任务。\n\n在铁路建设期间，川村兼人听到了工人和同行的窃窃私语：“下贱的阿伊努人怎么敢指挥我们？”他对此并不在意，坚信人与人之间总是平等的——无论是阿伊努人还是囚犯——但是事情很快打破了他的美好幻想：某一天，日本工人将他扔进了工地的大坑里，向里面倾注砂石和混凝土，险些要了川村兼人的命。勉强逃脱的兼人隐瞒身份来到施工现场，发现铁路公司将阿伊努人当作耗材使用，肆意驱使他们从事极其危险的劳动，还大言不惭地声称不过是§R发展中必要的牺牲§!而已。\n\n愤怒的川村兼人回到了老家，拜访了他父亲经营的那家破落的博物馆。在博物馆，兼人学到了和人与阿伊努人过去几百年来发生的一切——征夷将军、阿弖流为、国后目梨之战、人类动物园······川村兼人决心接过父亲的旗手，将阿伊努文化运动改造为§G阿伊努民族党§!，一个争取阿伊努民族尊严的政党。当帝国内战爆发后，川村兼人认为阿伊努民族解放的时刻终于到来，他拜访了函馆政权的学者与文人，却得到了令人失望的回复。\n\n川村兼人明白，阿伊努人的力量还很弱，他们只占北海道三分之一的人口，其中许多人拥挤在城市的贫民窟，光是活下去都很困难。来自北方大地的信使给他带来了给一个机会，第三方正在考虑是否介入北海道局势。选择外援意味着额外的风险，拒绝援助等同于慢性自杀。川村兼人必须做出抉择：§Y玉碎或是瓦全§!。阿伊努人要么悄无声息地灭亡，要么在沉默中爆发。"
+ AIN_yaeko_batchelor:0 "向井八重子" #バチェラー八重子
+ ###############
+ ## DECISIONS ##
+ ###############
+
+ #############
+ ### EVENT ###
+ #############

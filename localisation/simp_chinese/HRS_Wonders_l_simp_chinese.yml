@@ -1,0 +1,20 @@
+﻿l_simp_chinese:
+ #########
+ # JAPAN #
+ #########
+ JAP_miike_colliery:0 "三池煤矿"
+ JAP_miike_colliery_desc:0 "数百年来，三池煤矿作为北九州工业区的心脏，源源不断地供应着用于炼钢与发电的煤炭。通过控制三池煤矿，当地经验丰富的矿工与先进的设备能有效促进我们的资源开采效率，保障我们的能源供应。"
+ JAP_kure_naval_arsenal:0 "吴海军工厂"
+ JAP_kure_naval_arsenal_desc:0 "作为帝国海军各式舰炮的重要供应商，吴海军工厂以精湛的火炮制造工艺闻名。这里的舰炮生产线经过改装也可以用于制造野战炮。"
+ JAP_kyoto_imperial_university:0 "京都大学"
+ JAP_kyoto_imperial_university_desc:0 "京都大学相对自由的学术氛围吸引了日本最聪明的学者，日本的最高学府。但同时也有一群激进的学生。与京大合作能够助力我们的技术研究，但是这些学生可能也会对我们的政权不利。"
+ JAP_nagoya_toyota:0 "丰田工厂"
+ JAP_nagoya_toyota_desc:0 "名古屋，丰田的发祥地，这里的汽车产业链相当完备。又因为同时丰田又接受了为帝国研制轰炸机的任务，所以他们的飞机知识也可以为我们所用。"
+ JAP_edo_wasteland:0 "江户废土区"
+ JAP_edo_wasteland_desc:0 "骇人的关东大地震与随后发生的严重火灾与海啸将江户几乎夷为平地。我们不得不花费大量的精力与资源去处理江户重建与难民安置事宜。这势必会对我们的其他建设规划造成影响。"
+ JAP_nanbu_industry:0 "南部工业区"
+ JAP_nanbu_industry_desc:0 "南部麒次郎所建立的南部工业区是东北地区军工产业的心脏。控制这里庞大的军械生产线可以为我们迅速提供大量的军火。"
+ #########
+ # CHINA #
+ #########
+ CHI_tangshan_coal_mine:0 "唐山工业区"

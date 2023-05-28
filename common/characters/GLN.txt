@@ -1,0 +1,16 @@
+characters = {
+	GLN_ma_junwu = {
+		name = GLN_ma_junwu
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/GLN/Portrait_Ma_Junwu.png"
+			}
+		}
+		country_leader = {
+			ideology=liberalism_subtype
+			desc = GLN_ma_junwu_desc
+			traits = { liberal_professor }
+			expire = "1940.8.1.1"
+		}
+	}
+}

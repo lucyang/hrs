@@ -8,7 +8,7 @@ set_technology = {
 
 set_country_flag = is_tibet_nation
 
-recruit_character = GLK_golok_tribes
+recruit_character = CHN_yang_jiqing
 
 add_ideas = {
 	civilian_economy

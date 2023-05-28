@@ -1,0 +1,75 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ DEG_communism:0 "高原自治运动"
+ DEG_communism_DEF:0 "高原自治运动"
+ DEG_anarchism:0 "高原自治运动"
+ DEG_anarchism_DEF:0 "高原自治运动"
+ DEG_democratic:0 "高原解放阵线"
+ DEG_democratic_DEF:0 "高原解放阵线"
+ DEG_socialism:0 "高原解放阵线"
+ DEG_socialism_DEF:0 "高原解放阵线"
+ DEG_neutrality:0 "高原解放阵线"
+ DEG_neutrality_DEF:0 "高原解放阵线"
+ DEG_monarchism:0 "高原解放阵线"
+ DEG_monarchism_DEF:0 "高原解放阵线"
+ DEG_fascism:0 "高原解放阵线"
+ DEG_fascism_DEF:0 "高原解放阵线"
+ DEG_imperialism:0 "高原解放阵线"
+ DEG_imperialism_DEF:0 "高原解放阵线"
+ DEG_futurism:0 "高原解放阵线"
+ DEG_futurism_DEF:0 "高原解放阵线"
+ DEG_communism_ADJ:0 "高地族"
+ DEG_anarchism_ADJ:0 "高地族"
+ DEG_democratic_ADJ:0 "高地族"
+ DEG_neutrality_ADJ:0 "高地族"
+ DEG_monarchism_ADJ:0 "高地族"
+ DEG_fascism_ADJ:0 "高地族"
+ DEG_imperialism_ADJ:0 "高地族"
+ DEG_futurism_ADJ:0 "高地族"
+ DEG:0 "高原解放阵线"
+ DEG_DEF:0 "高原解放阵线"
+ DEG_ADJ:0 "高地族"
+ #############
+ ## PARTIES ##
+ #############
+ DEG_communism_party:0 "越南共产党"
+ DEG_communism_party_long:0 "越南共产党"
+ DEG_anarchism_party:0 "高原自治运动"
+ DEG_anarchism_party_long:0 "高原自治运动" #Mouvement pour l'Autonomie des Hauts Plateaux
+ DEG_socialism_party:0 "高原解放阵线"
+ DEG_socialism_party_long:0 "高原解放阵线"
+ DEG_democratic_party:0 "高原解放阵线"
+ DEG_democratic_party_long:0 "高原解放阵线" #Front de Liberation des Hauts Plateaux(FLHP)
+ DEG_neutrality_party:0 "高原解放阵线"
+ DEG_neutrality_party_long:0 "高原解放阵线"
+ DEG_monarchism_party:0 "阮家"
+ DEG_monarchism_party_long:0 "阮家"
+ DEG_fascism_party:0 "越南复国会"
+ DEG_fascism_party_long:0 "越南复国会"
+ DEG_imperialism_party:0 "越南复国会"
+ DEG_imperialism_party_long:0 "越南复国会"
+ DEG_futurism_party:0 "技术官僚"
+ DEG_futurism_party_long:0 "技术官僚"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ DEG_VIN_democratic:0 "皇朝疆土"
+ DEG_VIN_democratic_desc:0 "皇朝疆土"
+ DEG_VIN_neutrality:0 "皇朝疆土"
+ DEG_VIN_neutrality_desc:0 "皇朝疆土"
+ DEG_VIN_monarchism:0 "皇朝疆土"
+ DEG_VIN_monarchism_desc:0 "皇朝疆土"
+ ################
+ ## CHARACTERS ##
+ ################
+ DEG_fulro:0 "高原解放阵线"
+ DEG_red_fulro:0 "高原自治运动"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############
