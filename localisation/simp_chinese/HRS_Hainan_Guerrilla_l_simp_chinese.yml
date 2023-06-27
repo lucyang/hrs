@@ -1,0 +1,71 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ HNG_communism:0 "琼崖游击队"
+ HNG_communism_DEF:0 "琼崖游击队独立纵队"
+ HNG_anarchism:0 "琼崖游击队"
+ HNG_anarchism_DEF:0 "琼崖游击队独立纵队"
+ HNG_socialism:0 "琼崖游击队"
+ HNG_socialism_DEF:0 "琼崖游击队独立纵队"
+ HNG_democratic:0 "琼崖游击队"
+ HNG_democratic_DEF:0 "琼崖游击队独立纵队"
+ HNG_neutrality:0 "琼崖游击队"
+ HNG_neutrality_DEF:0 "琼崖游击队独立纵队"
+ HNG_monarchism:0 "琼崖游击队"
+ HNG_monarchism_DEF:0 "琼崖游击队独立纵队"
+ HNG_fascism:0 "琼崖游击队"
+ HNG_fascism_DEF:0 "琼崖游击队独立纵队"
+ HNG_imperialism:0 "琼崖游击队"
+ HNG_imperialism_DEF:0 "琼崖游击队独立纵队"
+ HNG_futurism:0 "琼崖游击队"
+ HNG_futurism_DEF:0 "琼崖游击队独立纵队"
+ HNG_communism_ADJ:0 "琼崖游击队"
+ HNG_anarchism_ADJ:0 "琼崖游击队"
+ HNG_socialism_ADJ:0 "琼崖游击队"
+ HNG_democratic_ADJ:0 "琼崖游击队"
+ HNG_neutrality_ADJ:0 "琼崖游击队"
+ HNG_monarchism_ADJ:0 "琼崖游击队"
+ HNG_fascism_ADJ:0 "琼崖游击队"
+ HNG_imperialism_ADJ:0 "琼崖游击队"
+ HNG_futurism_ADJ:0 "琼崖游击队"
+ HNG:0 "琼崖"
+ HNG_DEF:0 "琼崖游击队"
+ HNG_ADJ:0 "琼崖"
+ #############
+ ## PARTIES ##
+ #############
+ HNG_communism_party:0 "琼崖游击队"
+ HNG_communism_party_long:0 "琼崖游击队"
+ HNG_anarchism_party:0 "琼崖游击队"
+ HNG_anarchism_party_long:0 "琼崖游击队"
+ HNG_socialism_party:0 "琼崖游击队"
+ HNG_socialism_party_long:0 "琼崖游击队"
+ HNG_democratic_party:0 "中国革命党"
+ HNG_democratic_party_long:0 "中国革命党"
+ HNG_neutrality_party:0 "帝国政府残部"
+ HNG_neutrality_party_long:0 "帝国政府残部"
+ HNG_monarchism_party:0 "黎族土官"
+ HNG_monarchism_party_long:0 "黎族土官"
+ HNG_fascism_party:0 "中国青年党"
+ HNG_fascism_party_long:0 "中国青年党"
+ HNG_imperialism_party:0 "战国策派"
+ HNG_imperialism_party_long:0 "战国策派"
+ HNG_futurism_party:0 "南洋开发"
+ HNG_futurism_party_long:0 "南洋开发集团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ # HNG_wang_wenming #
+ # HNG_feng_baiju #
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############
