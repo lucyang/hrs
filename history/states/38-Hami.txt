@@ -8,8 +8,8 @@ state={
 		owner = DZU
 		add_core_of = DZU
 		1924.1.1 = {
-			owner = HAM
-			add_core_of = HAM
+			owner = SIK
+			add_core_of = SIK
 			remove_core_of = DZU
 		}
 		victory_points = { 1973 3 } #哈密

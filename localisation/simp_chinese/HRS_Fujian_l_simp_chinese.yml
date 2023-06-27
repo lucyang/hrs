@@ -1,0 +1,72 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ FJN_communism:0 "福建临时政府"
+ FJN_communism_DEF:0 "福建临时政府"
+ FJN_anarchism:0 "福建临时政府"
+ FJN_anarchism_DEF:0 "福建临时政府"
+ FJN_socialism:0 "福建临时政府"
+ FJN_socialism_DEF:0 "福建临时政府"
+ FJN_democratic:0 "福建临时政府"
+ FJN_democratic_DEF:0 "福建临时政府"
+ FJN_neutrality:0 "福建临时政府"
+ FJN_neutrality_DEF:0 "福建临时政府"
+ FJN_monarchism:0 "福建临时政府"
+ FJN_monarchism_DEF:0 "福建临时政府"
+ FJN_fascism:0 "福建临时政府"
+ FJN_fascism_DEF:0 "福建临时政府"
+ FJN_imperialism:0 "福建临时政府"
+ FJN_imperialism_DEF:0 "福建临时政府"
+ FJN_futurism:0 "福建临时政府"
+ FJN_futurism_DEF:0 "福建临时政府"
+ FJN_communism_ADJ:0 "福建临时政府"
+ FJN_anarchism_ADJ:0 "福建临时政府"
+ FJN_democratic_ADJ:0 "福建临时政府"
+ FJN_neutrality_ADJ:0 "福建临时政府"
+ FJN_monarchism_ADJ:0 "福建临时政府"
+ FJN_fascism_ADJ:0 "福建临时政府"
+ FJN_imperialism_ADJ:0 "福建临时政府"
+ FJN_futurism_ADJ:0 "福建临时政府"
+ FJN:0 "福建临时政府"
+ FJN_DEF:0 "福建临时政府"
+ FJN_ADJ:0 "福建临时政府"
+ #############
+ ## PARTIES ##
+ #############
+ FJN_communism_party:0 "社民农工党"
+ FJN_communism_party_long:0 "中国社会民主农工党"
+ FJN_anarchism_party:0 "无治共产主义同志社"
+ FJN_anarchism_party_long:0 "无治共产主义同志社"
+ FJN_socialism_party:0 "中国社会党"
+ FJN_socialism_party_long:0 "中国社会党"
+ FJN_democratic_party:0 "中国国民党"
+ FJN_democratic_party_long:0 "中国国民党"
+ FJN_neutrality_party:0 "福建临时政府"
+ FJN_neutrality_party_long:0 "福建临时政府"
+ FJN_monarchism_party:0 "中华帝国宪政会"
+ FJN_monarchism_party_long:0 "中华帝国宪政会"
+ FJN_fascism_party:0 "中国青年党"
+ FJN_fascism_party_long:0 "中国青年党"
+ FJN_imperialism_party:0 "战国策派"
+ FJN_imperialism_party_long:0 "战国策派"
+ FJN_futurism_party:0 "广州商团"
+ FJN_futurism_party_long:0 "广州商团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ FJN_li_houji:0 "李厚基"
+ FJN_li_houji_desc:0 "§Y出生日期§!：§G1869年§!\n§Y出生地点§!：§G大东帝国淮海道丰县§!"
+ FJN_zheng_xiaoxu:0 "郑孝胥"
+ FJN_zheng_xiaoxu_desc:0 "§Y出生日期§!：§G1860年5月2日§!\n§Y出生地点§!：§G大东帝国闽海道福州府§!"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

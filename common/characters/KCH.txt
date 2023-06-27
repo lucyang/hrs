@@ -1,6 +1,20 @@
 characters = {
-	KCH_lin_yunhai = {
-		name = KCH_lin_yunhai
+	KCH_yang_yongtai = {
+		name = KCH_yang_yongtai
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/KCH/Portrait_Yang_Yongtai.png"
+			}
+		}
+		country_leader = {
+			ideology=guided_democracy_subtype
+			desc = KCH_yang_yongtai_desc
+			traits = { genial_anti_revolutionary }
+			expire = "1936.10.5.1"
+		}
+	}
+	KCH_lin_yungai = {
+		name = KCH_lin_yungai
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/KCH/Portrait_Lin_Yungai.png"
@@ -8,9 +22,25 @@ characters = {
 		}
 		country_leader = {
 			ideology=tridemism_subtype
-			desc = KCH_lin_yunhai_desc
+			desc = KCH_lin_yungai_desc
 			traits = { silent_workhorse }
 			expire = "1950.1.1.1"
+		}
+	}
+	KCH_deng_longguang = {
+		name = KCH_deng_longguang
+		portraits = {
+			army = {
+				large = "gfx/leaders/KCH/Portrait_Deng_Longguang.png"
+			}
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer politically_connected }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
 		}
 	}
 }

@@ -125,7 +125,7 @@ defined_text = {
 	}
 	text = {
 		trigger = { has_country_leader_ideology = jesuism_subtype }
-		localization_key = jesuism_subtypehhh
+		localization_key = jesuism_subtype
 	}
 	text = {
 		trigger = { has_country_leader_ideology = humanistic_buddhism_subtype }
@@ -181,6 +181,10 @@ defined_text = {
 	text = {
 		trigger = { has_country_leader_ideology = katheder_socialism_subtype }
 		localization_key = katheder_socialism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = gongdaoism_subtype }
+		localization_key = gongdaoism_subtype
 	}
 	text = {
 		localization_key = socialism_subtype

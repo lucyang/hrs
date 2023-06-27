@@ -1,0 +1,66 @@
+characters={
+	HNG_wang_wenming={
+		name=HNG_wang_wenming
+		portraits={
+			civilian={
+				large="gfx/leaders/HNG/Portrait_Wang_Wenming.png"
+			}
+		}
+		country_leader={
+			ideology=revolutionary_front_subtype
+			desc=HNG_wang_wenming_desc
+			traits={ voice_of_restraint }
+			expire="1950.1.17.1"
+		}
+	}
+	HNG_feng_baiju={
+		name=HNG_feng_baiju
+		portraits={
+			civilian={
+				large="gfx/leaders/HNG/Portrait_Feng_Baiju.png"
+			}
+			army={
+				large="gfx/leaders/HNG/Portrait_Feng_Baiju.png"
+			}
+		}
+		#country_leader={
+		#	ideology=revolutionary_front_subtype
+		#	desc=HNG_feng_baiju_desc
+		#	traits={ guerilla_warfare_expert }
+		#	expire="1950.1.1.1"
+		#}
+		corps_commander={
+			traits={ ambusher guerilla_fighter ranger }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=4
+		}
+	}
+	HNG_zhou_shidi={
+		name=HNG_zhou_shidi
+		portraits={
+			civilian={
+				large="gfx/leaders/HNG/Portrait_Zhou_Shidi.png"
+			}
+			army={
+				large="gfx/leaders/HNG/Portrait_Zhou_Shidi.png"
+			}
+		}
+		#country_leader={
+		#	ideology=leninism_subtype
+		#	desc=HNG_zhou_shidi_desc
+		#	traits={ revolutionary_general }
+		#	expire="1979.6.30.1"
+		#}
+		corps_commander={
+			traits={ career_officer infantry_officer skirmisher }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+}

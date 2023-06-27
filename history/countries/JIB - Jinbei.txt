@@ -1,6 +1,7 @@
 ﻿capital = 77 #大同
 
 recruit_character = JIB_xia_gong
+recruit_character = JIB_feng_sizhi
 
 #oob = "empty"
 set_country_flag = is_china_nation
@@ -95,29 +96,29 @@ add_ideas = {
 add_ideas = {
 	country_development2
 	country_tech3
-	dirigisme_economy
-	unitary_state2
+	corporatist_economy
+	unitary_state
 }
 
 set_research_slots = 2
 set_convoys = 20
-set_stability = 0.75
+set_stability = 0.40
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1923.10.10"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	communism = 17
-	anarchism = 20
-	socialism = 8
-	democratic = 9
-	neutrality = 40
+	communism = 0
+	anarchism = 10
+	socialism = 0
+	democratic = 11
+	neutrality = 28
 	monarchism = 0
-	fascism = 6
-	imperialism = 0
+	fascism = 42
+	imperialism = 9
 	futurism = 0
 }

@@ -97,34 +97,4 @@ characters={
 		#	expire="1969.2.13.1"
 		#}
 	}
-	IMC_zheng_xiaoxu={
-		name=IMC_zheng_xiaoxu
-		portraits={
-			civilian={
-				large="gfx/leaders/IMC/Portrait_Zheng_Xiaoxu.png"
-			}
-		}
-		country_leader={
-			ideology=fascism_subtype
-			desc=IMC_zheng_xiaoxu_desc
-			traits={ SWI_fascist_propagandist  }
-			expire="1938.3.28.1"
-		}
-	}
-	IMC_li_houji={
-		name=IMC_li_houji
-		portraits={
-			army={
-				large="gfx/leaders/IMC/Portrait_Li_Houji.png"
-			}
-		}
-		corps_commander={
-			traits={ infantry_officer career_officer old_guard }
-			skill=2
-			attack_skill=2
-			defense_skill=2
-			planning_skill=2
-			logistics_skill=2
-		}
-	}
 }

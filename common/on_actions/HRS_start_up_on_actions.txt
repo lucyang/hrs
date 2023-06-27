@@ -5,6 +5,7 @@ on_actions = {
 				country_event = imc.1
 			}
 			every_country = {
+				add_ideas = HRS_days_are_numbered
 				set_variable = { war_weariness = 0 }
 				#定义初始厌战度
 				set_variable = {

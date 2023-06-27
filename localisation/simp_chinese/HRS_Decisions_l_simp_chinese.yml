@@ -36,6 +36,8 @@
  HRS_war_weariness_large_decrease_tt:0 "民众的反战情绪§G大幅降低§!\n"
  HRS_war_weariness_small_decrease_tt:0 "民众的反战情绪§7降低§!\n"
 
+ HRS_days_are_numbered:0 "时日曷丧"
+
  HRS_total_war:0 "战争狂热"
  HRS_total_war_desc:0 "我们的人民对战争爆发感到十分兴奋，受到爱国主义和民族主义感召的民众，纷纷涌入征兵处以及军工厂。在席卷一切的国家主义狂热中，政治异见者都闭上了嘴，开始为当局摇旗呐喊，普通平民更是热切地想要参与到这场“史无前例”的总体战当中去。"
  HRS_possible_war:0 "胜利主义"

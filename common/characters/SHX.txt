@@ -3,42 +3,42 @@ characters={
 		name=SHX_yan_xishan
 		portraits={
 			civilian={
-				large="gfx/leaders/SHX/Portrait_Yan_Xishan.dds"
+				large="gfx/leaders/SHX/Portrait_Yan_Xishan.png"
 			}
 		}
 		country_leader={
-			ideology=development_authoritarianism_subtype
+			ideology=gongdaoism_subtype
 			desc=SHX_yan_xishan_desc
 			traits={ }
 			expire="1960.5.23.1"
 		}
 	}
-	SHX_liu_tianzhang={
-		name=SHX_liu_tianzhang
+	SHX_wang_yongbin={
+		name=SHX_wang_yongbin
 		portraits={
 			civilian={
-				large="gfx/leaders/SHX/Portrait_Liu_Tianzhang.dds"
+				large="gfx/leaders/SHX/Portrait_Wang_Yongbin.png"
 			}
 		}
 		country_leader={
-			ideology=marxism_subtype
-			desc=SHX_liu_tianzhang_desc
+			ideology=national_conservatism_subtype
+			desc=SHX_wang_yongbin_desc
 			traits={ }
-			expire="1961.11.13.1"
+			expire="1944.4.7.1"
 		}
 	}
-	SHX_kong_xiangxi={
-		name=SHX_kong_xiangxi
+	SHX_liang_shanji={
+		name=SHX_liang_shanji
 		portraits={
 			civilian={
-				large="gfx/leaders/SHX/Portrait_Kong_Xiangxi.dds"
+				large="gfx/leaders/SHX/Portrait_Liang_Shanji.png"
 			}
 		}
 		country_leader={
-			ideology=technocracy_subtype
-			desc=SHX_kong_xiangxi_desc
+			ideology=guided_democracy_subtype
+			desc=SHX_liang_shanji_desc
 			traits={ }
-			expire="1961.11.13.1"
+			expire="1941.1.1.1"
 		}
 	}
 }

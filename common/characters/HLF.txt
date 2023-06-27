@@ -10,7 +10,7 @@ characters={
 		country_leader={
 			ideology=leninism_subtype
 			desc=HLF_peng_pai_desc
-			traits={ militant_socialist leader_of_the_agrarian_union }
+			traits={ militant_socialist }
 			expire="1950.1.1.1"
 		}
 	}
@@ -38,7 +38,7 @@ characters={
 		country_leader={
 			ideology=agrarian_socialism_subtype
 			desc=HLF_yang_qishan_desc
-			traits={ voice_of_restraint hero_of_the_peasantry }
+			traits={ hero_of_the_peasantry }
 			expire="1950.1.1.1"
 		}
 	}
@@ -52,7 +52,7 @@ characters={
 		country_leader={
 			ideology=new_tridemism_subtype
 			desc=HLF_peng_hanyuan_desc
-			traits={ social_reformer peoples_commissar_of_finance }
+			traits={ social_reformer }
 			expire="1950.1.1.1"
 		}
 	}

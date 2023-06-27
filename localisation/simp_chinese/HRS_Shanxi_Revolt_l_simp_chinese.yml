@@ -1,0 +1,74 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ SHR_communism:0 "工人武装自卫旅"
+ SHR_communism_DEF:0 "工人武装自卫旅"
+ SHR_anarchism:0 "工人武装自卫旅"
+ SHR_anarchism_DEF:0 "工人武装自卫旅"
+ SHR_socialism:0 "工人武装自卫旅"
+ SHR_socialism_DEF:0 "工人武装自卫旅"
+ SHR_democratic:0 "工人武装自卫旅"
+ SHR_democratic_DEF:0 "工人武装自卫旅"
+ SHR_neutrality:0 "工人武装自卫旅"
+ SHR_neutrality_DEF:0 "工人武装自卫旅"
+ SHR_monarchism:0 "工人武装自卫旅"
+ SHR_monarchism_DEF:0 "工人武装自卫旅"
+ SHR_fascism:0 "工人武装自卫旅"
+ SHR_fascism_DEF:0 "工人武装自卫旅"
+ SHR_imperialism:0 "工人武装自卫旅"
+ SHR_imperialism_DEF:0 "工人武装自卫旅"
+ SHR_futurism:0 "工人武装自卫旅"
+ SHR_futurism_DEF:0 "工人武装自卫旅"
+ SHR_communism_ADJ:0 "山西工人旅"
+ SHR_anarchism_ADJ:0 "山西工人旅"
+ SHR_democratic_ADJ:0 "山西工人旅"
+ SHR_neutrality_ADJ:0 "山西工人旅"
+ SHR_monarchism_ADJ:0 "山西工人旅"
+ SHR_fascism_ADJ:0 "山西工人旅"
+ SHR_imperialism_ADJ:0 "山西工人旅"
+ SHR_futurism_ADJ:0 "山西工人旅"
+ SHR:0 "山西工人旅"
+ SHR_DEF:0 "山西工人旅"
+ SHR_ADJ:0 "山西工人旅"
+ #############
+ ## PARTIES ##
+ #############
+ SHR_communism_party:0 "社民农工党"
+ SHR_communism_party_long:0 "中国社会民主农工党"
+ SHR_anarchism_party:0 "山西工人联合会"
+ SHR_anarchism_party_long:0 "山西工人联合会"
+ SHR_socialism_party:0 "工人武装自卫旅"
+ SHR_socialism_party_long:0 "工人武装自卫旅"
+ SHR_democratic_party:0 "中国革命党"
+ SHR_democratic_party_long:0 "中国革命党"
+ SHR_neutrality_party:0 "宪法研究会"
+ SHR_neutrality_party_long:0 "宪法研究会"
+ SHR_monarchism_party:0 "普济佛教会"
+ SHR_monarchism_party_long:0 "普济佛教会"
+ SHR_fascism_party:0 "中国新民会"
+ SHR_fascism_party_long:0 "中国新民会"
+ SHR_imperialism_party:0 "战国策派"
+ SHR_imperialism_party_long:0 "战国策派"
+ SHR_futurism_party:0 "狂飙社"
+ SHR_futurism_party_long:0 "狂飙社"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ SHR_deng_zhongxia:0 "邓中夏"
+ SHR_deng_zhongxia_desc:0 "§Y出生日期§!：§G1894年10月5日§!\n§Y出生地点§!：§G大东帝国衡阳道宜章县§!\n\n在年轻的社民农工党中，§Y邓中夏§!是一位极有才干的工人运动领袖。在山西陆军宣布起义后，邓中夏被组织委派到山西省的矿区，试图寻找工人运动与革命的契机。机会仿佛从天而降，山西总督§Y阎锡山§!宣布工会合法，山西工人欣喜若狂。此外，阎锡山组建了§O山西省总工会§!，看起来这位开明的独裁者值得合作······吗？\n\n邓中夏心里打了个大大的问号。很快阎锡山暴露了其反动的真面目，他的政府禁止组建独立工会，以保卫革命的名义镇压兵工厂的工人罢工，还要求每个人学习§O阎锡山思想§!的读本和小册子。1924年初冬的罢工席卷晋南煤矿，罢工演变为革命，缺少武器和战斗经验的工人不得不直面阎锡山的§R社会主义铁拳§!。\n\n就在关键时刻，一位年轻的军官——徐向前——与工人们站在了一边，革命政府幸存了下来。邓中夏组建了§G工人武装自卫旅§!，但是新政府对于这支军队的未来始终摇摆不定：职业化的红色军队，还是工农为主的民兵武装？星星之火已然燎原，工人旅誓要摧毁一切反动派，直到这片大地再无压迫与剥削。"
+ SHR_xu_xiangqian:0 "徐向前"
+ SHR_xu_xiangqian_desc:0 "§Y出生日期§!：§G1901年11月8日§!\n§Y出生地点§!：§G大东帝国雁门道五台县§!"
+ SHR_jing_meijiu:0 "景梅九"
+ SHR_jing_meijiu_desc:0 "§Y出生日期§!：§G1882年§!\n§Y出生地点§!：§G大东帝国河东道安邑县§!"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

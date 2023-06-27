@@ -34,11 +34,11 @@
  #############
  DZU_communism_party:0 "突厥斯坦共产党"
  DZU_communism_party_long:0 "突厥斯坦共产党"
- DZU_anarchism_party:0 "民主革命党"
+ DZU_anarchism_party:0 "图兰民主革命党"
  DZU_anarchism_party_long:0 "图兰民主革命党"
- DZU_socialism_party:0 "人民革命党 - 扎吉德派"
+ DZU_socialism_party:0 "图兰人民革命党 - 扎吉德派"
  DZU_socialism_party_long:0 "图兰人民革命党 - 扎吉德派"
- DZU_democratic_party:0 "人民革命党 - 卡里木派"
+ DZU_democratic_party:0 "图兰人民革命党 - 卡里木派"
  DZU_democratic_party_long:0 "图兰人民革命党 - 卡迪木派"
  DZU_neutrality_party:0 "准噶尔军队"
  DZU_neutrality_party_long:0 "准噶尔军队"
@@ -59,7 +59,3 @@
  ################
  DZU_choros_tangguse:0 "唐古色汗"
  DZU_regent_council:0 "忽里勒台"
- SIK_sheng_shicai:0 "盛世才"
- HAM_yulbars_khan:0 "尧乐博斯·汗"
- HAM_khoja_niyaz:0 "和加·尼牙孜"
- TUP_timur_beg:0 "铁木尔·伯克"

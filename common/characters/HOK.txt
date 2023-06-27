@@ -1,0 +1,66 @@
+characters={
+	HOK_zhang_zhen={
+		name=HOK_zhang_zhen
+		portraits={
+			civilian={
+				large="gfx/leaders/HOK/Portrait_Zhang_Zhen.png"
+			}
+			army={
+				large="gfx/leaders/HOK/Portrait_Zhang_Zhen.png"
+			}
+		}
+		country_leader={
+			ideology=provisional_government_subtype
+			desc=HOK_zhang_zhen_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	HOK_xu_zhuoran={
+		name=HOK_xu_zhuoran
+		portraits={
+			civilian={
+				large="gfx/leaders/HOK/Portrait_Xu_Zhuoran.png"
+			}
+		}
+		country_leader={
+			ideology=hunan_constitutionalism_subtype
+			desc=HOK_xu_zhuoran_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+	}
+	HOK_qin_wangshan={
+		name=HOK_qin_wangshan
+		portraits={
+			civilian={
+				large="gfx/leaders/HOK/Portrait_Qin_Wangshan.png"
+			}
+			army={
+				large="gfx/leaders/HOK/Portrait_Qin_Wangshan.png"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialism_subtype
+			desc=HOK_qin_wangshan_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+		corps_commander={
+			traits={ irregulars_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+}

@@ -21,7 +21,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = irredentism_subtype
+			ideology = ultranationalism_subtype
 			desc = HAM_chen_tianhua_desc
 			traits = { irredentist_academic }
 			expire = "1950.1.1.1"

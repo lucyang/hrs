@@ -1,0 +1,75 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ DGL_communism:0 "蒙汉防共自治军"
+ DGL_communism_DEF:0 "西北蒙汉防共自治军"
+ DGL_anarchism:0 "蒙汉防共自治军"
+ DGL_anarchism_DEF:0 "西北蒙汉防共自治军"
+ DGL_socialism:0 "蒙汉防共自治军"
+ DGL_socialism_DEF:0 "西北蒙汉防共自治军"
+ DGL_democratic:0 "蒙汉防共自治军"
+ DGL_democratic_DEF:0 "西北蒙汉防共自治军"
+ DGL_neutrality:0 "蒙汉防共自治军"
+ DGL_neutrality_DEF:0 "西北蒙汉防共自治军"
+ DGL_monarchism:0 "蒙汉防共自治军"
+ DGL_monarchism_DEF:0 "西北蒙汉防共自治军"
+ DGL_fascism:0 "蒙汉防共自治军"
+ DGL_fascism_DEF:0 "西北蒙汉防共自治军"
+ DGL_imperialism:0 "蒙汉防共自治军"
+ DGL_imperialism_DEF:0 "西北蒙汉防共自治军"
+ DGL_futurism:0 "蒙汉防共自治军"
+ DGL_futurism_DEF:0 "西北蒙汉防共自治军"
+ DGL_communism_ADJ:0 "伊克昭盟"
+ DGL_anarchism_ADJ:0 "伊克昭盟"
+ DGL_socialism_ADJ:0 "伊克昭盟"
+ DGL_democratic_ADJ:0 "伊克昭盟"
+ DGL_neutrality_ADJ:0 "伊克昭盟"
+ DGL_monarchism_ADJ:0 "伊克昭盟"
+ DGL_fascism_ADJ:0 "伊克昭盟"
+ DGL_imperialism_ADJ:0 "伊克昭盟"
+ DGL_futurism_ADJ:0 "伊克昭盟"
+ DGL:0 "蒙汉防共自治军"
+ DGL_DEF:0 "西北蒙汉防共自治军"
+ DGL_ADJ:0 "伊克昭盟"
+ #############
+ ## PARTIES ##
+ #############
+ DGL_communism_party:0 "内蒙古人民革命党"
+ DGL_communism_party_long:0 "内蒙古人民革命党"
+ DGL_anarchism_party:0 "内蒙古人民革命党"
+ DGL_anarchism_party_long:0 "内蒙古人民革命党"
+ DGL_socialism_party:0 "内蒙古青年革命党"
+ DGL_socialism_party_long:0 "内蒙古青年革命党"
+ DGL_democratic_party:0 "中国革命党"
+ DGL_democratic_party_long:0 "中国革命党"
+ DGL_neutrality_party:0 "内蒙古人民革命军"
+ DGL_neutrality_party_long:0 "内蒙古人民革命军"
+ DGL_monarchism_party:0 "札萨克蒙古王公"
+ DGL_monarchism_party_long:0 "札萨克蒙古王公"
+ DGL_fascism_party:0 "中国新民会"
+ DGL_fascism_party_long:0 "中国新民会"
+ DGL_imperialism_party:0 "卢占魁效忠者"
+ DGL_imperialism_party_long:0 "卢占魁效忠者"
+ DGL_futurism_party:0 "晋商财团"
+ DGL_futurism_party_long:0 "晋商财团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ DGL_xinlam:0 "锡尼喇嘛"
+ DGL_xinlam_desc:0 "1866年 大东帝国伊克昭盟乌审旗"
+ DGL_vaandan_nima:0 "旺丹尼玛"
+ DGL_vaandan_nima:0 "1872年 大东帝国伊克昭盟札萨克旗"
+ DGL_lu_zhankui:0 "卢占魁"
+ DGL_lu_zhankui_desc:0 "§Y出生日期§!：§G1887年§!\n§Y出生地点§!：§G大东帝国绥远道丰镇县§!"
+ #############
+ # Decisions #
+ #############
+
+ #################
+ # POWER BALANCE #
+ #################

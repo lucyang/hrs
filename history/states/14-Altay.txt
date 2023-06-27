@@ -13,7 +13,7 @@ state={
 			add_core_of = ASH
 			remove_core_of = DZU
 		}
-		victory_points = { 542 1 } #阿尔泰
+		victory_points = { 279 1 } #阿尔泰
 		buildings = {
 			infrastructure = 2
 		}

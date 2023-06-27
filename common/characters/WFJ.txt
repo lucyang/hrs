@@ -1,0 +1,27 @@
+characters={
+	WFJ_deng_zihui={
+		name=WFJ_deng_zihui
+		portraits={
+			civilian={
+				large="gfx/leaders/WFJ/Portrait_Deng_Zihui.png"
+			}
+			army={
+				large="gfx/leaders/WFJ/Portrait_Deng_Zihui.png"
+			}
+		}
+		country_leader={
+			ideology=marxism_subtype
+			desc=WFJ_deng_zihui_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+		corps_commander={
+			traits={ irregulars_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+}

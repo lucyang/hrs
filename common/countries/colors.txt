@@ -239,7 +239,7 @@ GND = { # 广东特区
 	color = rgb { 140 112 81 }
 	color_ui = rgb { 140 112 81 }
 }
-SGN = { # 粤北边区
+SGN = { # 岭南解放军
 	color = rgb { 239 48 84 }
 	color_ui = rgb { 239 48 84 }
 }
@@ -251,32 +251,67 @@ BFA = { # 新黑旗军
 	color = rgb { 9 171 190 }
 	color_ui = rgb { 9 171 190 }
 }
-FED = { # 闽南护法区
-	color = rgb { 158 185 212 }
-	color_ui = rgb { 158 185 212 }
-}
 KCH = { # 高州临时政府
 	color = rgb { 139 134 78 }
 	color_ui = rgb { 139 134 78 }
 }
-SEY = {
+SEY = { # 四邑民主国
 	color = rgb { 47 79 79 }
 	color_ui = rgb { 47 79 79 }
 }
-CTN = {
+CTN = { # 南粤边区
 	color = rgb { 105 105 105 }
 	color_ui = rgb { 105 105 105 }
 }
-HAK = {
+HAK = { # 客家大同国
+	color = rgb { 58 95 205 }
+	color_ui = rgb { 58 95 205 }
+}
+CTC = { # 广州公社
 	color = rgb { 58 95 205 }
 	color_ui = rgb { 58 95 205 }
 }
 ##############
+### FUJIAN ###
+##############
+FED = { # 闽南护法区
+	color = rgb { 158 185 212 }
+	color_ui = rgb { 158 185 212 }
+}
+QZH = { # 泉州自由市
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+HOK = { # 福建自治军
+	color = rgb { 40 175 62 }
+	color_ui = rgb { 40 175 62 }
+}
+FJN = { # 福建第十师团
+	color = rgb { 255 179 0}
+	color_ui = rgb { 255 179 0}
+}
+WFJ = { # 闽西苏维埃
+	color = rgb { 232 58 58 }
+	color_ui = rgb { 232 58 58 }
+}
+FCH = { # 闽东教区
+	color = rgb { 169 30 140 }
+	color_ui = rgb { 169 30 140 }
+}
+AMY = { # 福建军政府
+	color = rgb { 38 93 205 }
+	color_ui = rgb { 38 93 205 }
+}
+##############
 ### HAINAN ###
 ##############
-HNN = { # 海南
+HNN = { # 海南自由贸易区
 	color = rgb { 139 69 19 }
 	color_ui = rgb { 139 69 19 }
+}
+HNG = { # 琼崖游击队
+	color = rgb { 255 51 51 }
+	color_ui = rgb { 255 51 51 }
 }
 ##############
 ### YUNNAN ###
@@ -328,14 +363,14 @@ BCH = { # 布僚人民解放军
 	color = rgb { 255 8 0 }
 	color_ui = rgb { 255 8 0 }
 }
-GLN = { # 广西紧急政府
+GLN = { # 桂林自治政府
 	color = rgb { 25 80 0 }
 	color_ui = rgb { 25 80 0 }
 }
 ###############
 ### GUIZHOU ###
 ###############
-GZH = { # 贵州
+GZH = { # 贵州国
 	color = rgb { 255 246 127 }
 	color_ui = rgb { 255 246 127 }
 }
@@ -351,11 +386,11 @@ TSS = { # 同善社
 	color = rgb { 76 153 10 }
 	color_ui = rgb { 76 153 10 }
 }
-MIA = { # 毕节
+MIA = { # 石门坎教区
 	color = rgb { 40 80 168 }
 	color_ui = rgb { 40 80 168 }
 }
-MIR = { # 黔西南
+MIR = { # 兴义农民共和国
 	color = rgb { 37 135 40 }
 	color_ui = rgb { 37 135 40 }
 }
@@ -366,9 +401,17 @@ SHX = { # 山西
 	color = rgb { 9 171 190 }
 	color_ui = rgb { 9 171 190 }
 } 
+SHR = { # 山西工人起义
+	color = rgb { 70 130 180 }
+	color_ui = rgb { 70 130 180 }
+}
+KBS = { # 狂飙社
+	color = rgb { 178 30 50 }
+	color_ui = rgb { 178 30 50 }
+}
 JIB = { # 晋北
-	color = rgb { 100 24 0 }
-	color_ui = rgb { 100 24 0 }
+	color = rgb { 34 139 34 }
+	color_ui = rgb { 34 139 34 }
 } 
 #############
 ### HEBEI ###
@@ -412,13 +455,13 @@ QNA = { # 青岛海军政府
 	color = rgb { 28 28 128 }
 	color_ui = rgb { 28 28 128 }
 }
-LNY = { # 山东建国自治军
-	color = rgb { 85 107 47 }
-	color_ui = rgb { 85 107 47 }
+LNY = { # 刘桂棠旅团
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
 }
-JIN = { # 山东自治共和国
-	color = rgb { 181 148 163 }
-	color_ui = rgb { 181 148 163 }
+YGD = { # 一贯道
+	color = rgb { 106 13 173 }
+	color_ui = rgb { 106 13 173 }
 }
 ##############
 ### TAIWAN ###

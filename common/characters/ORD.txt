@@ -10,7 +10,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=ultranationalism_subtype
+			ideology=ultramilitarism_subtype
 			desc=ORD_lu_zhankui_desc
 			traits={ hedonist }
 			expire="1950.1.1.1"

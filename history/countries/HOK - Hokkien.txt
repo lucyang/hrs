@@ -1,0 +1,95 @@
+﻿capital = 291 #南平
+
+#oob = "empty"
+
+set_country_flag = is_china_nation
+
+recruit_character = HOK_zhang_zhen
+recruit_character = HOK_xu_zhuoran
+recruit_character = HOK_qin_wangshan
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	basic_train = 1
+	trench_warfare = 1
+	gw_artillery = 1
+	early_fighter = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	fuel_refining = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		improved_ship_torpedo_launcher = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		mtg_transport = 1
+		coastal_defense_ships = 1
+		basic_depth_charges = 1
+		basic_cruiser_armor_scheme = 1
+		cruiser_submarines = 1
+	}
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		transport = 1
+	}
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1920.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	anarchism = 13
+	socialism = 0
+	democratic = 17
+	neutrality = 70
+	monarchism = 0
+	fascism = 0
+	imperialism = 0
+	futurism = 0
+}
+
+add_ideas = {
+	limited_exports
+	limited_conscription
+	civilian_economy
+}
+add_ideas = {
+	country_development2
+	country_tech3
+	market_economy2
+	unitary_state1
+}
+
+
+
+
+
+
+
+

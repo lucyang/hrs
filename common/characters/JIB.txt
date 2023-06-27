@@ -7,9 +7,23 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=provisional_government_subtype
+			ideology=corporacracy_subtype
 			desc=JIB_xia_gong_desc
-			traits={ }
+			traits={ captain_of_industry }
+			expire="1950.1.1.1"
+		}
+	}
+	JIB_feng_sizhi={
+		name=JIB_feng_sizhi
+		portraits={
+			civilian={
+				large="gfx/leaders/JIB/Portrait_Feng_Sizhi.png"
+			}
+		}
+		country_leader={
+			ideology=corporatism_subtype
+			desc=JIB_feng_sizhi_desc
+			traits={ traditionalist_theorist }
 			expire="1950.1.1.1"
 		}
 	}

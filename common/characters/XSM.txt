@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=ultranationalism_subtype
+			ideology=irredentism_subtype
 			desc=XSM_hu_songshan_desc
 			traits={ backroom_backstabber political_chameleon }
 			expire="1955.1.1.1"

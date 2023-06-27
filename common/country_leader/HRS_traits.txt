@@ -301,4 +301,18 @@ leader_traits = {
 			factor = 1
 		}
 	}
+
+	maitreya_the_master = {
+		random = no
+		required_garrison_factor = -0.2
+		resistance_garrison_penetration_chance = -0.25
+		stability_factor = 0.05
+	}
+
+	jigong_the_master = {
+		random = no
+		required_garrison_factor = -0.2
+		resistance_garrison_penetration_chance = -0.25
+		stability_factor = 0.05
+	}
 }

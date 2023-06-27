@@ -1,0 +1,76 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ JIX_communism:0 "江西省临时议会"
+ JIX_communism_DEF:0 "江西省临时议会"
+ JIX_anarchism:0 "江西省临时议会"
+ JIX_anarchism_DEF:0 "江西省临时议会"
+ JIX_socialism:0 "江西省临时议会"
+ JIX_socialism_DEF:0 "江西省临时议会"
+ JIX_democratic:0 "江西省临时议会"
+ JIX_democratic_DEF:0 "江西省临时议会"
+ JIX_neutrality:0 "江西省临时议会"
+ JIX_neutrality_DEF:0 "江西省临时议会"
+ JIX_monarchism:0 "江西省临时议会"
+ JIX_monarchism_DEF:0 "江西省临时议会"
+ JIX_fascism:0 "江西省临时议会"
+ JIX_fascism_DEF:0 "江西省临时议会"
+ JIX_imperialism:0 "江西省临时议会"
+ JIX_imperialism_DEF:0 "江西省临时议会"
+ JIX_futurism:0 "江西省临时议会"
+ JIX_futurism_DEF:0 "江西省临时议会"
+ JIX_communism_ADJ:0 "江西省议会"
+ JIX_anarchism_ADJ:0 "江西省议会"
+ JIX_democratic_ADJ:0 "江西省议会"
+ JIX_neutrality_ADJ:0 "江西省议会"
+ JIX_monarchism_ADJ:0 "江西省议会"
+ JIX_fascism_ADJ:0 "江西省议会"
+ JIX_imperialism_ADJ:0 "江西省议会"
+ JIX_futurism_ADJ:0 "江西省议会"
+ JIX:0 "江西省临时议会"
+ JIX_DEF:0 "江西省临时议会"
+ JIX_ADJ:0 "江西省议会"
+ #############
+ ## PARTIES ##
+ #############
+ JIX_communism_party:0 "江西改造社"
+ JIX_communism_party_long:0 "江西改造社"
+ JIX_anarchism_party:0 "江西工团联合会"
+ JIX_anarchism_party_long:0 "江西工团联合会"
+ JIX_socialism_party:0 "江西社会党"
+ JIX_socialism_party_long:0 "江西社会党"
+ JIX_democratic_party:0 "合群社"
+ JIX_democratic_party_long:0 "合群社"
+ JIX_neutrality_party:0 "谠言社"
+ JIX_neutrality_party_long:0 "谠言社"
+ JIX_monarchism_party:0 "和朝效忠派"
+ JIX_monarchism_party_long:0 "和朝效忠派"
+ JIX_fascism_party:0 "中国青年党"
+ JIX_fascism_party_long:0 "中国青年党"
+ JIX_imperialism_party:0 "战国策派"
+ JIX_imperialism_party_long:0 "战国策派"
+ JIX_futurism_party:0 "广州商团"
+ JIX_futurism_party_long:0 "广州商团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ JIX_long_qinhai:0 "龙钦海"
+ JIX_long_qinhai_desc:0 "§Y出生日期§!：§G不详§!\n§Y出生地点§!：§G大东帝国庐陵道宁冈县§!"
+
+ JIX_fang_zhimin:0 "方志敏"
+ JIX_fang_zhimin_desc:0 "§Y出生日期§!：§G1899年8月21日§!\n§Y出生地点§!：§G大东帝国豫章道弋阳县§!"
+
+ JIX_zhang_enpu:0 "张恩溥"
+ JIX_zhang_enpu_desc:0 "§Y出生日期§!：§G1904年10月3日§!\n§Y出生地点§!：§G大东帝国豫章道贵溪县§!"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

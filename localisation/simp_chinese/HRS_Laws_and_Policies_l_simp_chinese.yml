@@ -1,4 +1,44 @@
 ﻿l_simp_chinese:
+ ##############
+ ## ELECTION ##
+ ##############
+ election_no_election:0 "无选举"
+ election_by_events:0 "事件选举"
+ election_by_date:0 "定期选举"
+ ################
+ ## GOVERNMENT ##
+ ################
+ polity:0 "政体"
+ polity_desc:0 "我国现行的政府组织结构和管理体制"
+ ## Primitive State ##
+ stateless:0 "无政府状态"
+ tusi:0 "土司"
+ chiefdom:0 "酋邦"
+ ## Autocracy ##
+ autocracy:0 "独裁制"
+ personal_despotic:0 "个人独裁"
+ military_dictatorship:0 "军事独裁"
+ ## Oligarchy ##
+ oligarchy:0 "寡头政治"
+ aristocracy:0 "贵族政治"
+ timocracy:0 "门阀政治"
+ military_junta:0 "军政府"
+ stratocracy:0 "军阀政治"
+ plutocracy:0 "财阀政治"
+ anocracy:0 "无支配政治"
+ ## Authoratirianism ##
+ colonial_government:0 "殖民政府"
+ military_occupation:0 "军事占领"
+ provisional_government:0 "临时政府"
+ interim_government:0 "看守政府"
+ semi_constitutional_monarchy:0 "二元君主立宪制"
+ resistance_movement:0 "抵抗运动"
+ ## Democracy ##
+ direct_democracy:0 "直接民主制"
+ liberal_democracy:0 "自由民主制"
+ council_democracy:0 "委员会民主制"
+ nonpartisan_democracy:0 "无党派民主制"
+ anarchy:0 "地区自治"
  ##################
  ## CONSCRIPTION ##
  ##################
@@ -8,7 +48,7 @@
  ## INDUSTRY ##
  ##############
  development:0 "发展水平"
- development_desc:0 "我们国家目前的总体发展水平"
+ development_desc:0 "我国目前的总体发展水平"
  country_development:0 "前工业化国家"
  country_development_desc:0 "前工业化国家是指那些长期遭受发展障碍的低收入国家，特别是人力资源开发水平低和有严重结构性缺陷的国家。前工业化国家没有成规模的制造业，农业也极其落后，居民往往只能勉强糊口，若遭遇灾年，极有可能发生饥荒。"
  country_development1:0 "发展中国家"
@@ -23,7 +63,7 @@
  ## TECHNOLOGY ##
  ################
  manufacture:0 "生产水平"
- manufacture_desc:0 "我们国家目前的总体工业水平"
+ manufacture_desc:0 "我国目前的总体工业水平"
  country_tech:0 "家庭作坊"
  country_tech_desc:0 "由武器生产者及其学徒组成的传统生产场所，生产费时费力，良品率和产量极低，但是有一种野性的美，深受富人和收藏家青睐。"
  country_tech1:0 "手工工场"
@@ -38,7 +78,7 @@
  ## ECONOMY ##
  #############
  market:0 "经济制度"
- market_desc:0 "我们国家现行的经济体制"
+ market_desc:0 "我国现行的经济体制"
  market_economy:0 "自由放任" #Laissez-faire
  market_economy_desc:0 "市场经济的特色是私人拥有资本财产，且投资活动是由承担风险和损失的个人决策左右。投资的决定由私人进行，生产和销售主要由公司和工商业控制并互相竞争。市场看似向每个人敞开财富的大门，但是时代的弄潮儿永远只是极少数，却足以诱骗人们前赴后继地跳进火坑。"
  market_economy1:0 "国家干预" #State Intervention
@@ -63,11 +103,13 @@
  collective_economy_desc:0 "社会化经济泛指无政府主义在经济活动方面的理论与实践，有别于公有制或私有制经济，核心主张是土地和劳动工具的社会所有制，以及民主组织的劳动者社团团结在同一联盟中。但是个中细节千差万别，很难一概而论，要依据具体的学说流派而论。"
  bandit_economy:0 "匪盗经济"
  bandit_economy_desc:0 "匪盗经济与盗贼统治紧密相连，指统治者或统治集团滥用国家权力，侵占全体人民的财产与权利，增加自身的财产及权力。有时还会出现外来资本渗透的情况，跨国企业控制了该国的经济自主权，导致部分人民实质上被外国统治者控制。无论如何，匪盗经济是最糟糕的一种经济制度，它带来的唯有贫困与腐败。"
- ##############
- ## POLITICS ##
- ##############
- party:0 "政治制度"
- party_desc:0 "我们国家现行的政治制度"
+ ##################
+ ## PARTY SYSTEM ##
+ ##################
+ party:0 "政党制度"
+ party_desc:0 "我们国家现行的政党制度"
+ no_party:0 "无党制"
+ no_party_desc:0 "无党制可能是法律上的，这意味着政党要么被完全取缔，要么被法律禁止参加特定级别的政府选举。如果一个国家没有此种法律但没有政党，就属于事实上的无党制。"
  one_party:0 "一党专制"
  one_party_desc:0 "在一党专制的模式下，一个国家内只允许一个合法政党存在并为执政党，禁止其他政党存在，议会徒具形式，党魁垄断国家政权，有部分政权通过暴力和恐怖方式维持统治。"
  one_party1:0 "多党合作制"

@@ -35,16 +35,16 @@
  #############
  ## PARTIES ##
  #############
- HNG_communism_party:0 "琼崖游击队"
- HNG_communism_party_long:0 "琼崖游击队"
+ HNG_communism_party:0 "新琼崖评论社"
+ HNG_communism_party_long:0 "新琼崖评论社"
  HNG_anarchism_party:0 "琼崖游击队"
  HNG_anarchism_party_long:0 "琼崖游击队"
- HNG_socialism_party:0 "琼崖游击队"
- HNG_socialism_party_long:0 "琼崖游击队"
+ HNG_socialism_party:0 "农工民主党"
+ HNG_socialism_party_long:0 "中国农工民主党"
  HNG_democratic_party:0 "中国革命党"
  HNG_democratic_party_long:0 "中国革命党"
- HNG_neutrality_party:0 "帝国政府残部"
- HNG_neutrality_party_long:0 "帝国政府残部"
+ HNG_neutrality_party:0 "帝国海军残部"
+ HNG_neutrality_party_long:0 "帝国海军残部"
  HNG_monarchism_party:0 "黎族土官"
  HNG_monarchism_party_long:0 "黎族土官"
  HNG_fascism_party:0 "中国青年党"
@@ -60,8 +60,12 @@
  ################
  ## CHARACTERS ##
  ################
- # HNG_wang_wenming #
- # HNG_feng_baiju #
+ HNG_wang_wenming:0 "王文明"
+ HNG_wang_wenming_desc:0 "§Y出生日期§!：§G1894年§!\n§Y出生地点§!：§G大东帝国琼崖道乐会县§!\n\n§Y王文明§!原本只是海南乐会县的一个普通人，与千千万万贫困家庭的孩子一样，王文明小学毕业后，由于家庭经济欠佳而辍学，在家乡附近的集市经营布匹小店。几年后王文明攒够了学费，考进§Y琼崖中学§!。中学毕业后，王文明创办了一所私立学校，为贫困家庭的孩子提供廉价的职业教育。\n\n1922年，§Y宋子文§!和§Y南洋开发集团§!来到了海南岛，准备在此大展拳脚，建设现代化的新海南。和许多海南人一样，王文明十分赞赏宋子文回报家乡的善举。然而在海南这辆大车上，宋子文是司机，普通民众只能当发动机里的燃料。\n\n王文明的噩运很快到来：他的学校被没收了，理由是打击混乱无度的私立学校乱局。接着王文明被关进了“劳动感化所” ，他才知晓学校里有几名教师竟是§R“赤匪”§!。王文明不得不白天在矿山干活，夜里割橡胶，以还清“恩人”宋子文“养活”他的费用。\n\n在251天的囚禁后，几个穿着奇怪制服的士兵闯进了“感化所”，他们自称为§R“琼崖游击队”§!。王文明经过慎重思考后选择加入他们，最终成为了这支游击队的总指挥。当宋子文割据海南一方，自以为高枕无忧之时，王文明正在策划一次袭击，目标直指南洋开发集团的大厦······"
+ HNG_feng_baiju:0 "冯白驹"
+ HNG_feng_baiju_desc:0 "§Y出生日期§!：§G1903年6月7日§!\n§Y出生地点§!：§G大东帝国琼崖道琼山县§!"
+ HNG_zhou_shidi:0 "周士第"
+ HNG_zhou_shidi_desc:0 "§Y出生日期§!：§G1900年9月9日§!\n§Y出生地点§!：§G大东帝国琼崖道乐会县§!"
  ###########
  ## IDEAS ##
  ###########

@@ -5,9 +5,7 @@ set_country_flag = is_china_nation
 
 recruit_character = HNN_song_ziwen
 recruit_character = HNN_chen_shaokuan
-recruit_character = HNN_fan_yunti
-recruit_character = HNN_wang_wenming
-recruit_character = HNN_feng_baiju
+recruit_character = HNG_zhou_shidi
 
 set_technology = {
 	infantry_weapons = 1

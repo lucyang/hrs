@@ -420,6 +420,43 @@ ideas = {
 			}
 		}
 
+		bandit_economy = {
+
+			name = bandit_economy
+
+			visible = {
+				has_anarchist_government = no
+			}
+
+			allowed_to_remove = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			level = 1
+
+			picture = generic_bandit_economy
+
+			on_remove = {
+				add_political_power = -100
+				add_stability = -0.20
+			}
+
+			ai_will_do = {
+				factor = 0
+		 	}
+
+			modifier = {
+				production_factory_start_efficiency_factor = -0.15
+				production_factory_max_efficiency_factor = -0.15
+				production_factory_efficiency_gain_factor = -0.10
+				line_change_production_efficiency_factor = -0.20
+				army_morale_factor = 0.20
+				army_attack_factor = 0.10
+				army_defence_factor = 0.10
+			}
+		}
+
 		natural_economy = {
 
 			name = natural_economy

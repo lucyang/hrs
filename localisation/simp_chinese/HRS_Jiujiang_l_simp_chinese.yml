@@ -1,0 +1,70 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ JIJ_communism:0 "赣省军政府"
+ JIJ_communism_DEF:0 "赣省军政府"
+ JIJ_anarchism:0 "赣省军政府"
+ JIJ_anarchism_DEF:0 "赣省军政府"
+ JIJ_socialism:0 "赣省军政府"
+ JIJ_socialism_DEF:0 "赣省军政府"
+ JIJ_democratic:0 "赣省军政府"
+ JIJ_democratic_DEF:0 "赣省军政府"
+ JIJ_neutrality:0 "赣省军政府"
+ JIJ_neutrality_DEF:0 "赣省军政府"
+ JIJ_monarchism:0 "赣省军政府"
+ JIJ_monarchism_DEF:0 "赣省军政府"
+ JIJ_fascism:0 "赣省军政府"
+ JIJ_fascism_DEF:0 "赣省军政府"
+ JIJ_imperialism:0 "赣省军政府"
+ JIJ_imperialism_DEF:0 "赣省军政府"
+ JIJ_futurism:0 "赣省军政府"
+ JIJ_futurism_DEF:0 "赣省军政府"
+ JIJ_communism_ADJ:0 "赣省军政府"
+ JIJ_anarchism_ADJ:0 "赣省军政府"
+ JIJ_democratic_ADJ:0 "赣省军政府"
+ JIJ_neutrality_ADJ:0 "赣省军政府"
+ JIJ_monarchism_ADJ:0 "赣省军政府"
+ JIJ_fascism_ADJ:0 "赣省军政府"
+ JIJ_imperialism_ADJ:0 "赣省军政府"
+ JIJ_futurism_ADJ:0 "赣省军政府"
+ JIJ:0 "江西"
+ JIJ_DEF:0 "赣省军政府"
+ JIJ_ADJ:0 "江西"
+ #############
+ ## PARTIES ##
+ #############
+ JIJ_communism_party:0 "中国社会民主农工党"
+ JIJ_communism_party_long:0 "中国社会民主农工党"
+ JIJ_anarchism_party:0 "江西工团联合会"
+ JIJ_anarchism_party_long:0 "江西工团联合会"
+ JIJ_socialism_party:0 "中国国家社会党"
+ JIJ_socialism_party_long:0 "中国国家社会党"
+ JIJ_democratic_party:0 "中国革命党"
+ JIJ_democratic_party_long:0 "中国革命党"
+ JIJ_neutrality_party:0 "九江新军"
+ JIJ_neutrality_party_long:0 "九江新军"
+ JIJ_monarchism_party:0 "和朝效忠派"
+ JIJ_monarchism_party_long:0 "和朝效忠派"
+ JIJ_fascism_party:0 "中国青年党"
+ JIJ_fascism_party_long:0 "中国青年党"
+ JIJ_imperialism_party:0 "战国策派"
+ JIJ_imperialism_party_long:0 "战国策派"
+ JIJ_futurism_party:0 "广州商团"
+ JIJ_futurism_party_long:0 "广州商团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ JIJ_li_liejun:0 "李烈钧"
+ JIJ_li_liejun_desc:0 "§Y出生日期§!：§G1882年§!\n§Y出生地点§!：§G大东帝国浔阳道九江县§!"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

@@ -1,7 +1,8 @@
 ﻿capital = 103 #太原
 
 recruit_character = SHX_yan_xishan
-recruit_character = SHX_liu_tianzhang
+recruit_character = SHX_wang_yongbin
+recruit_character = SHX_liang_shanji
 
 #oob = "empty"
 set_country_flag = is_china_nation
@@ -61,12 +62,10 @@ if = {
 		early_ship_hull_heavy = 1
 		mtg_transport = 1
 		coastal_defense_ships = 1
-		#basic_secondary_battery = 1
 		basic_depth_charges = 1
 		basic_cruiser_armor_scheme = 1
 		cruiser_submarines = 1
 	}
-	#set_naval_oob = "IMC_1923_naval"
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -79,7 +78,6 @@ if = {
 		early_battlecruiser = 1
 		transport = 1
 	}
-	#set_naval_oob = "IMC_1923_naval_legacy"
 }
 
 if = {
@@ -100,7 +98,7 @@ add_ideas = {
 	country_development3
 	country_tech3
 	dirigisme_economy
-	unitary_state2
+	unitary_state1
 }
 
 set_research_slots = 2
@@ -108,7 +106,7 @@ set_convoys = 20
 set_stability = 0.75
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = socialism
 	last_election = "1923.10.10"
 	election_frequency = 48
 	elections_allowed = no
@@ -117,11 +115,11 @@ set_politics = {
 set_popularities = {
 	communism = 7
 	anarchism = 10
-	socialism = 14
+	socialism = 36
 	democratic = 20
-	neutrality = 36
-	monarchism = 13
-	fascism = 0
+	neutrality = 14
+	monarchism = 0
+	fascism = 13
 	imperialism = 0
 	futurism = 0
 }

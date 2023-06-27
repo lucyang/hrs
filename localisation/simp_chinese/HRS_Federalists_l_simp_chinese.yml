@@ -39,18 +39,18 @@
  FED_communism_party_long:0 "中国社会民主农工党"
  FED_anarchism_party:0 "无治共产主义同志社"
  FED_anarchism_party_long:0 "无治共产主义同志社"
- FED_socialism_party:0 "广东工会联合会"
- FED_socialism_party_long:0 "广东工会联合会"
- FED_democratic_party:0 "中国致公党"
- FED_democratic_party_long:0 "中国致公党"
- FED_neutrality_party:0 "闽南护法军"
- FED_neutrality_party_long:0 "闽南护法军"
- FED_monarchism_party:0 "洪门"
- FED_monarchism_party_long:0 "洪门"
- FED_fascism_party:0 "中国革命党"
- FED_fascism_party_long:0 "中国革命党"
- FED_imperialism_party:0 "人民共和党"
- FED_imperialism_party_long:0 "人民共和党"
+ FED_socialism_party:0 "生产人民党"
+ FED_socialism_party_long:0 "生产人民党"
+ FED_democratic_party:0 "福建自治促进会"
+ FED_democratic_party_long:0 "福建自治促进会"
+ FED_neutrality_party:0 "粤军第一师"
+ FED_neutrality_party_long:0 "建国粤军第一师"
+ FED_monarchism_party:0 "中华基督教文社"
+ FED_monarchism_party_long:0 "中华基督教文社"
+ FED_fascism_party:0 "中国青年党"
+ FED_fascism_party_long:0 "中国青年党"
+ FED_imperialism_party:0 "战国策派"
+ FED_imperialism_party_long:0 "战国策派"
  FED_futurism_party:0 "广州商团"
  FED_futurism_party_long:0 "广州商团"
  ##################
@@ -60,9 +60,14 @@
  ################
  ## CHARACTERS ##
  ################
- FED_chen_jiongming:0 "张发奎"
- FED_ou_shengbai:0 "区声白"
- FED_ou_shengbai_desc:0 "§Y出生日期§!：§G1892年§!\n§Y出生地点§!：§G大东帝国粤海道佛山县§!\n\n§Y区声白§!是一位无人不知、无人不晓的大人物，并非是因为区声白做出了什么理论贡献，也绝非是区声白领导了一场声势浩大的革命，而是区声白与社民农工党总书记§Y陈独秀§!的“安-康之争”。这次辩论并未比出个高下，双方都声称自己占领了理论高地，但是区声白本人确乎是一炮而红了。\n\n在躲避帝国警察追捕的岁月里，区声白坚持在两广地区领导破坏小组和罢工斗争，广东著名的革命党人§Y陈炯明§!更是自认区声白为他的无政府主义思想导师。于是当陈炯明率部起义时，区声白立刻加入了陈炯明的政府，然后随着陈炯明战败向潮汕地区转移。\n\n陈炯明最终在闽粤交界处站稳了脚跟，建立了一个无政府主义试验区——§Y闽南护法区§!。然而区声白愈发意识到，陈炯明推行的政治革新依靠的是他的个人权威、好恶和政治诉求，他手下的将军也经常镇压学生罢课和示威游行。\n\n闽南护法区的无政府主义火苗岌岌可危，区声白也在暗中积蓄着力量，准备在陈炯明背叛革命时给予他必要的惩罚——前提是区声白能在§R纸牌屋§!中笑到最后。"
+ FED_huang_qixiang:0 "黄琪翔"
+ FED_huang_qixiang_desc:0 "§Y出生日期§!：§G1898年9月2日§!\n§Y出生地点§!：§G大东帝国潮循道梅县§!"
+ FED_deng_yanda:0 "邓演达"
+ FED_deng_yanda_desc:0 "§Y出生日期§!：§G1895年8月1日§!\n§Y出生地点§!：§G大东帝国潮循道归善县§!"
+ FED_jiang_guangnai:0 "蒋光鼐"
+ FED_jiang_guangnai_desc:0 "§Y出生日期§!：§G1888年12月17日§!\n§Y出生地点§!：§G大东帝国粤海道东莞县§!"
+ FED_chen_jiongming:0 "陈炯明"
+ FED_chen_jiongming_desc:0 "§Y出生日期§!：§G1878年1月13日§!\n§Y出生地点§!：§G大东帝国潮循道海丰县§!"
  ###########
  ## IDEAS ##
  ###########

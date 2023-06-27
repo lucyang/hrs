@@ -1,13 +1,41 @@
 characters = {
+	CTN_chen_lianbo = {
+		name = CTN_chen_lianbo
+		portraits = {
+			civilian = {
+				large="gfx/leaders/CTN/Portrait_Chen_Lianbo.png"
+			}
+		}
+		country_leader = {
+			ideology=corporacracy_subtype
+			desc = CTN_chen_lianbo_desc
+			traits = { captain_of_industry }
+			expire = "1944.12.24.1"
+		}
+	}
+	CTN_ngo_dinh_diem = {
+		name = CTN_ngo_dinh_diem
+		portraits = {
+			civilian = {
+				large="gfx/leaders/CTN/Portrait_Ngo_Dinh_Diem.png"
+			}
+		}
+		country_leader = {
+			ideology=personalism_subtype
+			desc = CTN_ngo_dinh_diem_desc
+			traits = { anti_communist_crusader }
+			expire = "1950.1.1.1"
+		}
+	}
 	CTN_ou_jujia = {
 		name = CTN_ou_jujia
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/LGG/Portrait_Ou_Jujia.png"
+				large = "gfx/leaders/CTN/Portrait_Ou_Jujia.png"
 			}
 		}
 		country_leader = {
-			ideology=corporatism_subtype
+			ideology=ultranationalism_subtype
 			desc = CTN_ou_jujia_desc
 			traits = { the_bloody_professor }
 			expire = "1950.1.1.1"

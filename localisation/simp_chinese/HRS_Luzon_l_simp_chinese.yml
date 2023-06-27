@@ -31,13 +31,13 @@
  ##############
  ## PARTIES  ##
  ##############
- PHI_communism_party:0 "虎克军"
- PHI_communism_party_long:0 "抗华人民军"
+ PHI_communism_party:0 "吕宋人民军"
+ PHI_communism_party_long:0 "吕宋人民军"
  PHI_anarchism_party:0 "劳工民主评议会"
  PHI_anarchism_party_long:0 "劳工民主评议会"
- PHI_socialism_party:0 "国民党"
+ PHI_socialism_party:0 "吕宋国民党"
  PHI_socialism_party_long:0 "吕宋国民党"
- PHI_democratic_party:0 "国民党"
+ PHI_democratic_party:0 "吕宋国民党"
  PHI_democratic_party_long:0 "吕宋国民党"
  PHI_neutrality_party:0 "吕宋总督府"
  PHI_neutrality_party_long:0 "吕宋总督府"
@@ -45,7 +45,7 @@
  PHI_monarchism_party_long:0 "中华帝国宪政会"
  PHI_fascism_party:0 "国民协会"
  PHI_fascism_party_long:0 "国民协会"
- PHI_imperialism_party:0 "联邦党"
+ PHI_imperialism_party:0 "帝国联邦党"
  PHI_imperialism_party_long:0 "帝国联邦党"
  PHI_futurism_party:0 "南洋开发"
  PHI_futurism_party_long:0 "南洋开发"

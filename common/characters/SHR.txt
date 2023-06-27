@@ -1,0 +1,66 @@
+characters={
+	SHR_deng_zhongxia={
+		name=SHR_deng_zhongxia
+		portraits={
+			civilian={
+				large="gfx/leaders/SHR/Portrait_Deng_Zhongxia.png"
+			}
+		}
+		country_leader={
+			ideology=mariateguism_subtype
+			desc=SHR_deng_zhongxia_desc
+			traits={ }
+			expire="1960.5.23.1"
+		}
+	}
+	SHR_jing_meijiu={
+		name=SHR_jing_meijiu
+		portraits={
+			civilian={
+				large="gfx/leaders/SHR/Portrait_Liang_Shanji.png"
+			}
+			army={
+				large="gfx/leaders/SHR/Portrait_Liang_Shanji.png"
+			}
+		}
+		country_leader={
+			ideology=left_nationalism_subtype
+			desc=SHR_jing_meijiu_desc
+			traits={ }
+			expire="1961.1.1.1"
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+	SHR_xu_xiangqian={
+		name=SHR_xu_xiangqian
+		portraits={
+			civilian={
+				large="gfx/leaders/SHR/Portrait_Liang_Shanji.png"
+			}
+			army={
+				large="gfx/leaders/SHR/Portrait_Liang_Shanji.png"
+			}
+		}
+		country_leader={
+			ideology=partisan_movement_subtype
+			desc=SHR_xu_xiangqian_desc
+			traits={ }
+			expire="1941.1.1.1"
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer ambusher }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=4
+		}
+	}
+}

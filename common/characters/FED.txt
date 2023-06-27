@@ -24,18 +24,79 @@ characters={
 			logistics_skill=2
 		}
 	}
-	FED_ou_shengbai={
-		name=FED_ou_shengbai
+	FED_huang_qixiang={
+		name=FED_huang_qixiang
 		portraits={
 			civilian={
-				large="gfx/leaders/FED/Portrait_Ou_Shengbai.png"
+				large="gfx/leaders/FED/Portrait_Huang_Qixiang.png"
+			}
+			army={
+				large="gfx/leaders/FED/Portrait_Huang_Qixiang.png"
 			}
 		}
 		country_leader={
-			ideology=anarcho_communism_subtype
-			desc=FED_ou_shengbai_desc
-			traits={ ideological_groupie }
+			ideology=tridemism_subtype
+			desc=FED_huang_qixiang_desc
+			traits={ revolutionary_general }
 			expire="1950.1.1.1"
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+	FED_jiang_guangnai={
+		name=FED_jiang_guangnai
+		portraits={
+			civilian={
+				large="gfx/leaders/FED/Portrait_Jiang_Guangnai.png"
+			}
+			army={
+				large="gfx/leaders/FED/Portrait_Jiang_Guangnai.png"
+			}
+		}
+		country_leader={
+			ideology=new_tridemism_subtype
+			desc=FED_jiang_guangnai_desc
+			traits={ revolutionary_general }
+			expire="1950.1.1.1"
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	FED_deng_yanda={
+		name=FED_deng_yanda
+		portraits={
+			civilian={
+				large="gfx/leaders/FED/Portrait_Deng_Yanda.png"
+			}
+			army={
+				large="gfx/leaders/FED/Portrait_Deng_Yanda.png"
+			}
+		}
+		country_leader={
+			ideology=dengism_subtype
+			desc=FED_deng_yanda_desc
+			traits={ revolutionary_general }
+			expire="1950.1.1.1"
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
 		}
 	}
 }

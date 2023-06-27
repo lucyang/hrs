@@ -1,0 +1,70 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ WFJ_communism:0 "闽西革命政府"
+ WFJ_communism_DEF:0 "闽西革命政府"
+ WFJ_anarchism:0 "闽西革命政府"
+ WFJ_anarchism_DEF:0 "闽西革命政府"
+ WFJ_socialism:0 "闽西革命政府"
+ WFJ_socialism_DEF:0 "闽西革命政府"
+ WFJ_democratic:0 "闽西革命政府"
+ WFJ_democratic_DEF:0 "闽西革命政府"
+ WFJ_neutrality:0 "闽西革命政府"
+ WFJ_neutrality_DEF:0 "闽西革命政府"
+ WFJ_monarchism:0 "闽西革命政府"
+ WFJ_monarchism_DEF:0 "闽西革命政府"
+ WFJ_fascism:0 "闽西革命政府"
+ WFJ_fascism_DEF:0 "闽西革命政府"
+ WFJ_imperialism:0 "闽西革命政府"
+ WFJ_imperialism_DEF:0 "闽西革命政府"
+ WFJ_futurism:0 "闽西革命政府"
+ WFJ_futurism_DEF:0 "闽西革命政府"
+ WFJ_communism_ADJ:0 "闽西"
+ WFJ_anarchism_ADJ:0 "闽西"
+ WFJ_democratic_ADJ:0 "闽西"
+ WFJ_neutrality_ADJ:0 "闽西"
+ WFJ_monarchism_ADJ:0 "闽西"
+ WFJ_fascism_ADJ:0 "闽西"
+ WFJ_imperialism_ADJ:0 "闽西"
+ WFJ_futurism_ADJ:0 "闽西"
+ WFJ:0 "闽西革命政府"
+ WFJ_DEF:0 "闽西革命政府"
+ WFJ_ADJ:0 "闽西"
+ #############
+ ## PARTIES ##
+ #############
+ WFJ_communism_party:0 "社民农工党"
+ WFJ_communism_party_long:0 "中国社会民主农工党"
+ WFJ_anarchism_party:0 "无治共产主义同志社"
+ WFJ_anarchism_party_long:0 "无治共产主义同志社"
+ WFJ_socialism_party:0 "生产革命党"
+ WFJ_socialism_party_long:0 "生产革命党"
+ WFJ_democratic_party:0 "中国革命党"
+ WFJ_democratic_party_long:0 "中国革命党"
+ WFJ_neutrality_party:0 "闽西工农红军"
+ WFJ_neutrality_party_long:0 "闽西工农红军"
+ WFJ_monarchism_party:0 "中华基督教文社"
+ WFJ_monarchism_party_long:0 "中华基督教文社"
+ WFJ_fascism_party:0 "中国青年党"
+ WFJ_fascism_party_long:0 "中国青年党"
+ WFJ_imperialism_party:0 "客家大同会"
+ WFJ_imperialism_party_long:0 "客家大同会"
+ WFJ_futurism_party:0 "广州商团"
+ WFJ_futurism_party_long:0 "广州商团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ WFJ_deng_zihui:0 "邓子恢"
+ WFJ_deng_zihui_desc:0 "§Y出生日期§!：§G1896年8月16日§!\n§Y出生地点§!：§G大东帝国汀漳道龙岩县§!"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

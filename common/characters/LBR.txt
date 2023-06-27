@@ -3,11 +3,11 @@ characters={
 		name=LBR_huang_zhengguang
 		portraits={
 			civilian={
-				large="gfx/leaders/LBR/Portrait_Huang_Zhengguang.png"
+				large="gfx/leaders/LBR/Portrait_Labrang_Monastery.png"
 			}
 		}
 		country_leader={
-			ideology=feudalism_subtype
+			ideology=buddist_state_subtype
 			desc=LBR_huang_zhengguang_desc
 			traits={ no_designated_regency }
 			expire="1947.4.14.1"

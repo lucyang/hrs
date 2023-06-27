@@ -1,0 +1,72 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ KBS_communism:0 "狂飙社"
+ KBS_communism_DEF:0 "狂飙社"
+ KBS_anarchism:0 "狂飙社"
+ KBS_anarchism_DEF:0 "狂飙社"
+ KBS_socialism:0 "狂飙社"
+ KBS_socialism_DEF:0 "狂飙社"
+ KBS_democratic:0 "狂飙社"
+ KBS_democratic_DEF:0 "狂飙社"
+ KBS_neutrality:0 "狂飙社"
+ KBS_neutrality_DEF:0 "狂飙社"
+ KBS_monarchism:0 "狂飙社"
+ KBS_monarchism_DEF:0 "狂飙社"
+ KBS_fascism:0 "狂飙社"
+ KBS_fascism_DEF:0 "狂飙社"
+ KBS_imperialism:0 "狂飙社"
+ KBS_imperialism_DEF:0 "狂飙社"
+ KBS_futurism:0 "狂飙社"
+ KBS_futurism_DEF:0 "狂飙社"
+ KBS_communism_ADJ:0 "狂飙社"
+ KBS_anarchism_ADJ:0 "狂飙社"
+ KBS_democratic_ADJ:0 "狂飙社"
+ KBS_neutrality_ADJ:0 "狂飙社"
+ KBS_monarchism_ADJ:0 "狂飙社"
+ KBS_fascism_ADJ:0 "狂飙社"
+ KBS_imperialism_ADJ:0 "狂飙社"
+ KBS_futurism_ADJ:0 "狂飙社"
+ KBS:0 "狂飙社"
+ KBS_DEF:0 "狂飙社"
+ KBS_ADJ:0 "狂飙社"
+ #############
+ ## PARTIES ##
+ #############
+ KBS_communism_party:0 "社民农工党"
+ KBS_communism_party_long:0 "中国社会民主农工党"
+ KBS_anarchism_party:0 "山西工人联合会"
+ KBS_anarchism_party_long:0 "山西工人联合会"
+ KBS_socialism_party:0 "寻求公道团"
+ KBS_socialism_party_long:0 "寻求公道团"
+ KBS_democratic_party:0 "中国革命党"
+ KBS_democratic_party_long:0 "中国革命党"
+ KBS_neutrality_party:0 "阎锡山派"
+ KBS_neutrality_party_long:0 "阎锡山派"
+ KBS_monarchism_party:0 "普济佛教会"
+ KBS_monarchism_party_long:0 "普济佛教会"
+ KBS_fascism_party:0 "中国新民会"
+ KBS_fascism_party_long:0 "中国新民会"
+ KBS_imperialism_party:0 "战国策派"
+ KBS_imperialism_party_long:0 "战国策派"
+ KBS_futurism_party:0 "狂飙社"
+ KBS_futurism_party_long:0 "狂飙社"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ KBS_gao_changhong:0 "高长虹"
+ KBS_gao_changhong_desc:0 "§Y出生日期§!：§G1898年§!\n§Y出生地点§!：§G大东帝国冀宁道盂县§!\n\n高长虹曾因政治观念和校方冲突而退学自修，随后和同乡组建了§G平民艺术团§!，并出版§Y《狂飙》§!杂志，从此开展了§Y“狂飙运动”§!。在东亚革命爆发后，高长虹欣喜地发现中国各处迸发出的巨大革命能量，他大胆地预言：中国革命将会震撼整个世界，为全球带来一场狂飙突进的新时代。高长虹写道：\n\n“中国已是狂飙的中国，世界也将是狂飙的世界。”\n\n高长虹很快行动起来，组建了名为§G狂飙社§!的文学社团，吸收了许多革命者与进步作家。对狂飙社而言，文学只是一种手段，其理想是建设一个崭新的中国。当革命席卷山西省时，高长虹与邓中夏与他联手对抗阎锡山政权。在§Y景梅九§!将军的支持下，狂飙社控制住了晋中地区。\n\n高长虹把自己及同道视作对现实社会负有§G“持灯者”§!使命的人，希望能够唤醒人们改造社会。但是如何改造，以及未来的中国应当是什么样子，其成员莫衷一是：高长虹倾向于无治主义，张申府等人则宣扬进步主义。这场狂飙能持续到何时，全看其成员是否团结一心，“生存还是毁灭”，这是一个值得考虑的问题。"
+ KBS_zhang_shenfu:0 "张申府"
+ KBS_zhang_shenfu_desc:0 "§Y出生日期§!：§G1893年§!\n§Y出生地点§!：§G大东帝国津海道献县§!"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

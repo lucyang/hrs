@@ -124,6 +124,12 @@ spriteTypes = {
 		name = "GFX_kominterun_research"
 		texturefile = "gfx/interface/technology_sharing/kominterun_icon.dds"
 	}
+	### Generic ###
+	spriteType = {
+		name = "GFX_idea_days_are_numbered"
+		texturefile = "gfx/interface/generic/idea_days_are_numbered.dds"
+	}
+	
 	### IMC ###
 	spriteType = {
 		name = "GFX_idea_IMC_Emperor_Taisho"

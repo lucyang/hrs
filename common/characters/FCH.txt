@@ -1,0 +1,44 @@
+characters={
+	FCH_ni_tuosheng={
+		name=FCH_ni_tuosheng
+		portraits={
+			civilian={
+				large="gfx/leaders/FCH/Portrait_Ni_Tuosheng.png"
+			}
+		}
+		country_leader={
+			ideology=liberalism_subtype
+			desc=FCH_ni_tuosheng_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+	}
+	FCH_wang_zhixin={
+		name=FCH_wang_zhixin
+		portraits={
+			civilian={
+				large="gfx/leaders/FCH/Portrait_Wang_Zhixin.png"
+			}
+		}
+		country_leader={
+			ideology=jesuism_subtype
+			desc=FCH_wang_zhixin_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+	}
+	FCH_wu_yaozong={
+		name=FCH_wu_yaozong
+		portraits={
+			civilian={
+				large="gfx/leaders/FCH/Portrait_Wu_Yaozong.png"
+			}
+		}
+		country_leader={
+			ideology=legionism_subtype
+			desc=FCH_wu_yaozong_desc
+			traits={ }
+			expire="1979.9.17.1"
+		}
+	}
+}

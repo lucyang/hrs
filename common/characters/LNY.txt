@@ -1,26 +1,26 @@
 characters={
-	LNY_sun_meiyao={
-		name=LNY_sun_meiyao
+	LNY_liu_guitang={
+		name=LNY_liu_guitang
 		portraits={
 			civilian={
-				large="gfx/leaders/LNY/Portrait_Sun_Meiyao.png"
+				large="gfx/leaders/LNY/Portrait_Liu_Guitang.png"
 			}
 			army={
-				large="gfx/leaders/LNY/Portrait_Sun_Meiyao.png"
+				large="gfx/leaders/LNY/Portrait_Liu_Guitang.png"
 			}
 		}
 		country_leader={
-			ideology=warlordism_subtype
-			desc=LNY_sun_meiyao_desc
-			traits={  }
-			expire="1955.11.18.1"
+			ideology=ultramilitarism_subtype
+			desc=LNY_liu_guitang_desc
+			traits={ jefe }
+			expire="1950.1.1.1"
 		}
 		corps_commander={
-			traits={ infantry_officer }
+			traits={ infantry_officer irregulars_officer }
 			skill=2
-			attack_skill=2
+			attack_skill=3
 			defense_skill=2
-			planning_skill=2
+			planning_skill=3
 			logistics_skill=2
 		}
 	}

@@ -1,0 +1,80 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ YGD_communism:0 "一贯道总坛"
+ YGD_communism_DEF:0 "一贯道总坛"
+ YGD_anarchism:0 "一贯道总坛"
+ YGD_anarchism_DEF:0 "一贯道总坛"
+ YGD_socialism:0 "一贯道总坛"
+ YGD_socialism_DEF:0 "一贯道总坛"
+ YGD_democratic:0 "一贯道总坛"
+ YGD_democratic_DEF:0 "一贯道总坛"
+ YGD_neutrality:0 "一贯道总坛"
+ YGD_neutrality_DEF:0 "一贯道总坛"
+ YGD_monarchism:0 "一贯道总坛"
+ YGD_monarchism_DEF:0 "一贯道总坛"
+ YGD_fascism:0 "一贯道总坛"
+ YGD_fascism_DEF:0 "一贯道总坛"
+ YGD_imperialism:0 "一贯道总坛"
+ YGD_imperialism_DEF:0 "一贯道总坛"
+ YGD_futurism:0 "一贯道总坛"
+ YGD_futurism_DEF:0 "一贯道总坛"
+ YGD_communism_ADJ:0 "一贯道"
+ YGD_anarchism_ADJ:0 "一贯道"
+ YGD_democratic_ADJ:0 "一贯道"
+ YGD_neutrality_ADJ:0 "一贯道"
+ YGD_monarchism_ADJ:0 "一贯道"
+ YGD_fascism_ADJ:0 "一贯道"
+ YGD_imperialism_ADJ:0 "一贯道"
+ YGD_futurism_ADJ:0 "一贯道"
+ YGD:0 "一贯道"
+ YGD_DEF:0 "一贯道"
+ YGD_ADJ:0 "一贯道"
+ #############
+ ## PARTIES ##
+ #############
+ YGD_communism_party:0 "社民农工党"
+ YGD_communism_party_long:0 "中国社会民主农工党"
+ YGD_anarchism_party:0 "中国新村社"
+ YGD_anarchism_party_long:0 "中国新村社"
+ YGD_socialism_party:0 "中国乡村建设协会"
+ YGD_socialism_party_long:0 "中国乡村建设协会"
+ YGD_democratic_party:0 "山东自治联合会"
+ YGD_democratic_party_long:0 "山东自治联合会"
+ YGD_neutrality_party:0 "一贯道总坛"
+ YGD_neutrality_party_long:0 "一贯道总坛"
+ YGD_monarchism_party:0 "一贯道总坛"
+ YGD_monarchism_party_long:0 "一贯道总坛"
+ YGD_fascism_party:0 "中国新民会"
+ YGD_fascism_party_long:0 "中国新民会"
+ YGD_imperialism_party:0 "第47师团司令部"
+ YGD_imperialism_party_long:0 "第47师团司令部"
+ YGD_futurism_party:0 "技术官僚"
+ YGD_futurism_party_long:0 "技术官僚"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ #JIN_han_gyuseol:0 "韓圭卨" #한규설
+ #JIN_han_gyuseol_desc:0 "§Y出生日期§!：§G1856年2月29日§!\n§Y出生地点§!：§G朝鲜王国京畿道汉城府§!\n\n在朝鲜王国灭亡之前，§Y韩圭卨§!是朝鲜宫廷的宠儿、袁世凯在朝鲜宫廷的传话人，虽站在朝鲜旧贵族一边，却保护了数名开化党人，责成他们著书立说，宣传文明进步的开化思想。在当时的§Y朝鲜开化党§!看来，朝鲜的两班贵族腐败堕落、无药可救，唯有来自中原帝国的铁拳能将他们从这个世界上抹去，进而解放被束缚了几百年的朝鲜半岛。\n\n幸或是不幸的是，中朝合并终于实现了。朝鲜王室仅保留贵族头衔，庶民与贵族的身份被打破，所有朝鲜人都成为了中华帝国平等的一份子。但是每一个朝鲜人很快发现，“平等”意味着他们无一例外都是中国皇帝的§R奴隶§!——失望的不只是开化党人，还有一直以来对帝国抱有憧憬的韩圭卨本人。此后的韩圭卨逃避政治，拒绝了帝国授予的爵位。\n\n临城火车劫案发生后，亟需一位经验老道的人来主持此项案件。作为帝国警察系统的老将，韩圭卨重出江湖。在匪首孙美瑶落网后，韩圭卨得到了一项新的工作——§Y山东警视厅长§!。在内战爆发后，韩圭卨勉强控制住了一贯道及周边的一些城市，他邀请咨政局议员建立了一个临时政府，以稳定局势。韩圭卨本人尚未确定山东的未来走向何方，如今他只能为了这一小片领土殚精竭虑。"
+ YGD_lu_zhongyi:0 "路中一"
+ YGD_lu_zhongyi_desc:0 "§Y出生日期§!：§G1849年5月16日§!\n§Y出生地点§!：§G大东帝国济宁道济宁府§!"
+ YGD_zhang_tianran:0 "张天然"
+ YGD_zhang_tianran_desc:0 "§Y出生日期§!：§G1889年8月15日§!\n§Y出生地点§!：§G大东帝国济宁道济宁府§!\n\n在一贯道第十七代祖师§Y路中一§!因年老引退后，一贯道举行了一次隆重的扶乩仪式。无生老母选中了路中一最年轻的弟子§Y张天然§!为其继承者，张天然顺利成为一贯道第十八代祖师。但不知为何，路中一的其余七名弟子均不承认张天然继位的合法性，他们最终离开了一贯道，徒留张天然执掌一贯道大权。\n\n作为中国规模最大的宗教组织之一，一贯道相信世间所有宗教均归于“道”，无极老母将派遣弥勒佛拯救凡间。20世纪初的一贯道面临着世纪未有之变局，孔教会、大本教、同善社等一批新兴宗教纷纷崛起，一贯道却无力招架，信徒大量流失。张天然以济南总坛为根据地，在华北地区积极传教，还在§G白朗起义§!时大力救济难民，使得一贯道重新站稳了脚跟。\n\n当帝国内战爆发后，许多难民沿着铁路南下到达济南，一贯道的慈善机构向他们伸出了援手。一贯道因而迅速扩张，借此东风控制了济南及其周边地区。他的心腹潜伏在山东的乡村，暗中策划着颠覆那些反对教团的军阀和统治者。总有一天，张天然将证明自己便是无极老母的使者，§R弥勒化身§!已然降临，只待祂的信徒扫荡一切牛鬼蛇神。"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############
+ 
+ ############
+ ## TRAITS ##
+ ############
+ maitreya_the_master:0 "弥勒化身"
+ jigong_the_master:0 "济公化身"

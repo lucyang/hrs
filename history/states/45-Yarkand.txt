@@ -8,8 +8,8 @@ state={
 		owner = DZU
 		add_core_of = DZU
 		1924.1.1 = {
-			owner = YAK
-			add_core_of = YAK
+			owner = YAR
+			add_core_of = YAR
 			remove_core_of = DZU
 		}
 		victory_points = { 1810 10 } #叶尔羌

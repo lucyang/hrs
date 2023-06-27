@@ -82,8 +82,8 @@ add_ideas = {
 add_ideas = {
 	country_development3
 	country_tech3
-	market_economy
-	unitary_state1
+	market_economy2
+	unitary_state
 }
 
 

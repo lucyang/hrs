@@ -8,11 +8,10 @@ state={
 		owner = IMC
 		add_core_of = IMC
 		1924.1.1 = {
-			owner = JIN
-			add_core_of = JIN
+			owner = QND
+			add_core_of = QND
 			remove_core_of = IMC
 		}
-
 		victory_points = { 3687 3 } #潍坊
 		victory_points = { 1377 1 } #青州
 		

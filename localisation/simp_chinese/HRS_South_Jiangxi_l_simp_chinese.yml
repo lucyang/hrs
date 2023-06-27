@@ -1,0 +1,72 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ SJX_communism:0 "赣南农民自卫军"
+ SJX_communism_DEF:0 "赣南农民自卫军"
+ SJX_anarchism:0 "赣南农民自卫军"
+ SJX_anarchism_DEF:0 "赣南农民自卫军"
+ SJX_socialism:0 "赣南农民自卫军"
+ SJX_socialism_DEF:0 "赣南农民自卫军"
+ SJX_democratic:0 "赣南农民自卫军"
+ SJX_democratic_DEF:0 "赣南农民自卫军"
+ SJX_neutrality:0 "赣南农民自卫军"
+ SJX_neutrality_DEF:0 "赣南农民自卫军"
+ SJX_monarchism:0 "赣南农民自卫军"
+ SJX_monarchism_DEF:0 "赣南农民自卫军"
+ SJX_fascism:0 "赣南农民自卫军"
+ SJX_fascism_DEF:0 "赣南农民自卫军"
+ SJX_imperialism:0 "赣南农民自卫军"
+ SJX_imperialism_DEF:0 "赣南农民自卫军"
+ SJX_futurism:0 "赣南农民自卫军"
+ SJX_futurism_DEF:0 "赣南农民自卫军"
+ SJX_communism_ADJ:0 "赣南"
+ SJX_anarchism_ADJ:0 "赣南"
+ SJX_democratic_ADJ:0 "赣南"
+ SJX_neutrality_ADJ:0 "赣南"
+ SJX_monarchism_ADJ:0 "赣南"
+ SJX_fascism_ADJ:0 "赣南"
+ SJX_imperialism_ADJ:0 "赣南"
+ SJX_futurism_ADJ:0 "赣南"
+ SJX:0 "赣南"
+ SJX_DEF:0 "赣南农民自卫军"
+ SJX_ADJ:0 "赣南"
+ #############
+ ## PARTIES ##
+ #############
+ SJX_communism_party:0 "江西改造社"
+ SJX_communism_party_long:0 "江西改造社"
+ SJX_anarchism_party:0 "江西工团联合会"
+ SJX_anarchism_party_long:0 "江西工团联合会"
+ SJX_socialism_party:0 "江西社会党"
+ SJX_socialism_party_long:0 "江西社会党"
+ SJX_democratic_party:0 "合群社"
+ SJX_democratic_party_long:0 "合群社"
+ SJX_neutrality_party:0 "谠言社"
+ SJX_neutrality_party_long:0 "谠言社"
+ SJX_monarchism_party:0 "一贯道"
+ SJX_monarchism_party_long:0 "一贯道"
+ SJX_fascism_party:0 "中国青年党"
+ SJX_fascism_party_long:0 "中国青年党"
+ SJX_imperialism_party:0 "客家大同会"
+ SJX_imperialism_party_long:0 "客家大同会"
+ SJX_futurism_party:0 "广州商团"
+ SJX_futurism_party_long:0 "广州商团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ SJX_yuan_wencai:0 "袁文才"
+ SJX_yuan_wencai_desc:0 "§Y出生日期§!：§G1898年10月§!\n§Y出生地点§!：§G大东帝国庐陵道吉安县§!"
+ SJX_wang_zuo:0 "王佐"
+ SJX_wang_zuo_desc:0 "§Y出生日期§!：§G1898年§!\n§Y出生地点§!：§G大东帝国庐陵道吉安县§!"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

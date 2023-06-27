@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=state_socialism_subtype
+			ideology=social_democratic_subtype
 			desc=GJW_yo_unhyung_desc
 			traits={ eager_collaborator defeatist }
 			expire="1950.1.1.1"

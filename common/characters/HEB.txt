@@ -10,13 +10,13 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=provisional_government_subtype
+			ideology=liberalism_subtype
 			desc=HEB_han_fuju_desc
-			traits={  }
+			traits={ popular_figurehead2 }
 			expire="1950.1.1.1"
 		}
 		corps_commander={
-			traits={ career_officer infantry_officer politically_connected }
+			traits={ infantry_officer politically_connected }
 			skill=2
 			attack_skill=2
 			defense_skill=2

@@ -1,6 +1,6 @@
-﻿capital = 156 #枣庄
+﻿capital = 137 #临沂
 
-recruit_character = LNY_sun_meiyao
+recruit_character = LNY_liu_guitang
 
 #oob = "empty"
 set_country_flag = is_china_nation
@@ -93,10 +93,10 @@ add_ideas = {
 	civilian_economy
 }
 add_ideas = {
-	country_development3
+	country_development2
 	country_tech3
-	market_economy1
-	unitary_state1
+	bandit_economy
+	unitary_state
 }
 
 set_research_slots = 2
@@ -104,7 +104,7 @@ set_convoys = 20
 set_stability = 0.75
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = imperialism
 	last_election = "1923.10.10"
 	election_frequency = 48
 	elections_allowed = no
@@ -112,12 +112,12 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	anarchism = 21
+	anarchism = 0
 	socialism = 0
 	democratic = 0
-	neutrality = 70
-	monarchism = 9
-	fascism = 0
-	imperialism = 0
+	neutrality = 21
+	monarchism = 0
+	fascism = 9
+	imperialism = 70
 	futurism = 0
 }

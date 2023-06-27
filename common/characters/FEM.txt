@@ -55,12 +55,23 @@ characters={
 			civilian={
 				large="gfx/leaders/FEM/Portrait_Qiu_Jin.png"
 			}
+			army={
+				large="gfx/leaders/FEM/Portrait_Qiu_Jin.png"
+			}
 		}
 		country_leader={
 			ideology=national_liberalism_subtype
 			desc=FEM_qiu_jin_desc
 			traits={ FEM_heroine feminist_ultranationalist }
 			expire="1930.6.3.1"
+		}
+		corps_commander={
+			traits={ irregulars_officer }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 		}
 	}
 	FEM_yu_zhezhen={

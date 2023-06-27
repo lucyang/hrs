@@ -3,7 +3,9 @@
 #oob = "empty"
 set_country_flag = is_china_nation
 
-recruit_character = KCH_lin_yunhai
+recruit_character = KCH_lin_yungai
+recruit_character = KCH_yang_yongtai
+recruit_character = KCH_deng_longguang
 
 set_technology = {
 	infantry_weapons = 1
@@ -53,7 +55,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1920.11.12"
 	election_frequency = 48
 	elections_allowed = no
@@ -63,8 +65,8 @@ set_popularities = {
 	communism = 0
 	anarchism = 0
 	socialism = 7
-	democratic = 73
-	neutrality = 11
+	democratic = 24
+	neutrality = 60
 	monarchism = 0
 	fascism = 9
 	imperialism = 0
@@ -79,8 +81,8 @@ add_ideas = {
 add_ideas = {
 	country_development3
 	country_tech3
-	market_economy
-	unitary_state2
+	market_economy1
+	unitary_state1
 }
 
 

@@ -41,12 +41,12 @@
  HAK_anarchism_party_long:0 "无治共产主义同志社"
  HAK_socialism_party:0 "广东工会联合会"
  HAK_socialism_party_long:0 "广东工会联合会"
- HAK_democratic_party:0 "客家党"
- HAK_democratic_party_long:0 "客家党"
- HAK_neutrality_party:0 "客家民族军"
- HAK_neutrality_party_long:0 "客家民族军"
- HAK_monarchism_party:0 "和朝保皇派"
- HAK_monarchism_party_long:0 "和朝保皇派"
+ HAK_democratic_party:0 "中国革命党 - 民权派"
+ HAK_democratic_party_long:0 "中国革命党 - 民权派"
+ HAK_neutrality_party:0 "中国革命党 - 民族派"
+ HAK_neutrality_party_long:0 "中国革命党 - 民族派"
+ HAK_monarchism_party:0 "广东自治会"
+ HAK_monarchism_party_long:0 "广东自治会"
  HAK_fascism_party:0 "广东独立协会"
  HAK_fascism_party_long:0 "广东独立协会"
  HAK_imperialism_party:0 "客家大同会"
@@ -61,7 +61,13 @@
  ## CHARACTERS ##
  ################
  HAK_feng_ziyou:0 "冯自由"
- HAK_feng_ziyou_desc:0 ""
+ HAK_feng_ziyou_desc:0 "§Y出生日期§!：§G1882年12月23日§!\n§Y出生地点§!：§G大东帝国东海道神奈川县§!"
+ HAK_luo_xianglin:0 "罗香林"
+ HAK_luo_xianglin_desc:0 "§Y出生日期§!：§G1896年10月19日§!\n§Y出生地点§!：§G大东帝国潮循道兴宁县§!"
+ HAK_ye_jianying:0 "叶剑英"
+ HAK_ye_jianying_desc:0 "§Y出生日期§!：§G1896年10月19日§!\n§Y出生地点§!：§G大东帝国潮循道兴宁县§!"
+ HAK_ye_ting:0 "叶挺"
+ HAK_ye_ting_desc:0 "§Y出生日期§!：§G1896年10月19日§!\n§Y出生地点§!：§G大东帝国潮循道兴宁县§!"
  ###########
  ## IDEAS ##
  ###########

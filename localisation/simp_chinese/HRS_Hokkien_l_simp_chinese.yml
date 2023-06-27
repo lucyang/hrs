@@ -1,0 +1,72 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ HOK_communism:0 "福建自治军"
+ HOK_communism_DEF:0 "福建自治军"
+ HOK_anarchism:0 "福建自治军"
+ HOK_anarchism_DEF:0 "福建自治军"
+ HOK_socialism:0 "福建自治军"
+ HOK_socialism_DEF:0 "福建自治军"
+ HOK_democratic:0 "福建自治军"
+ HOK_democratic_DEF:0 "福建自治军"
+ HOK_neutrality:0 "福建自治军"
+ HOK_neutrality_DEF:0 "福建自治军"
+ HOK_monarchism:0 "福建自治军"
+ HOK_monarchism_DEF:0 "福建自治军"
+ HOK_fascism:0 "福建自治军"
+ HOK_fascism_DEF:0 "福建自治军"
+ HOK_imperialism:0 "福建自治军"
+ HOK_imperialism_DEF:0 "福建自治军"
+ HOK_futurism:0 "福建自治军"
+ HOK_futurism_DEF:0 "福建自治军"
+ HOK_communism_ADJ:0 "福建自治军"
+ HOK_anarchism_ADJ:0 "福建自治军"
+ HOK_democratic_ADJ:0 "福建自治军"
+ HOK_neutrality_ADJ:0 "福建自治军"
+ HOK_monarchism_ADJ:0 "福建自治军"
+ HOK_fascism_ADJ:0 "福建自治军"
+ HOK_imperialism_ADJ:0 "福建自治军"
+ HOK_futurism_ADJ:0 "福建自治军"
+ HOK:0 "福建自治军"
+ HOK_DEF:0 "福建自治军"
+ HOK_ADJ:0 "福建自治军"
+ #############
+ ## PARTIES ##
+ #############
+ HOK_communism_party:0 "社民农工党"
+ HOK_communism_party_long:0 "中国社会民主农工党"
+ HOK_anarchism_party:0 "无治共产主义同志社"
+ HOK_anarchism_party_long:0 "无治共产主义同志社"
+ HOK_socialism_party:0 "生产人民党"
+ HOK_socialism_party_long:0 "生产人民党"
+ HOK_democratic_party:0 "福建自治促进会"
+ HOK_democratic_party_long:0 "福建自治促进会"
+ HOK_neutrality_party:0 "福建自治军"
+ HOK_neutrality_party_long:0 "福建自治军"
+ HOK_monarchism_party:0 "中华基督教文社"
+ HOK_monarchism_party_long:0 "中华基督教文社"
+ HOK_fascism_party:0 "中国青年党"
+ HOK_fascism_party_long:0 "中国青年党"
+ HOK_imperialism_party:0 "战国策派"
+ HOK_imperialism_party_long:0 "战国策派"
+ HOK_futurism_party:0 "广州商团"
+ HOK_futurism_party_long:0 "广州商团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ HOK_zhang_zhen:0 "张贞"
+ HOK_zhang_zhen_desc:0 "§Y出生日期§!：§G1884年1月12日§!\n§Y出生地点§!：§G大东帝国汀漳道诏安县§!"
+ HOK_xu_zhuoran:0 "许卓然"
+ HOK_xu_zhuoran_desc:0 "§Y出生日期§!：§G1885年§!\n§Y出生地点§!：§G大东帝国泉州道晋江县§!"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

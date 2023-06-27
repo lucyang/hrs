@@ -3,14 +3,28 @@ characters = {
 		name = HAK_feng_ziyou
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/LGG/Portrait_Feng_Ziyou.png"
+				large = "gfx/leaders/HAK/Portrait_Feng_Ziyou.png"
+			}
+		}
+		country_leader = {
+			ideology=interim_government_subtype
+			desc = HAK_feng_ziyou_desc
+			traits = { conservative_grandee }
+			expire = "1958.5.6.1"
+		}
+	}
+	HAK_luo_xianglin = {
+		name = HAK_luo_xianglin
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/HAK/Portrait_Luo_Xianglin.png"
 			}
 		}
 		country_leader = {
 			ideology=ultranationalism_subtype
-			desc = HAK_feng_ziyou_desc
+			desc = HAK_luo_xianglin_desc
 			traits = { irredentist_academic }
-			expire = "1973.6.2.1"
+			expire = "1978.4.20.1"
 		}
 	}
 }

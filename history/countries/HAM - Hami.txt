@@ -1,10 +1,14 @@
-capital = 38 # 哈密
+capital = 629 #奇台
 
 #oob = "empty"
 set_country_flag = is_china_nation
 
-set_stability = 0.10
-set_war_support = 0.30
+recruit_character = HAM_chen_tianhua
+recruit_character = HAM_yulbars_khan
+recruit_character = HAM_burhan_shahidi
+
+set_stability = 0.30
+set_war_support = 0.60
 set_research_slots = 2
 set_convoys = 10
 
@@ -44,12 +48,10 @@ if = {
 		early_ship_hull_cruiser = 1
 		mtg_transport = 1
 		coastal_defense_ships = 1
-		#basic_secondary_battery = 1
 		basic_depth_charges = 1
 		basic_cruiser_armor_scheme = 1
 		cruiser_submarines = 1
 	}
-	#set_naval_oob = "AIN_1923_naval"
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -60,7 +62,6 @@ if = {
 		early_heavy_cruiser = 1
 		transport = 1
 	}
-	#set_naval_oob = "AIN_1923_naval_legacy"
 }
 
 if = {
@@ -73,25 +74,22 @@ if = {
 }
 
 set_politics = {	
-	ruling_party = socialism
+	ruling_party = imperialism
 	last_election = "1920.11.26"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-recruit_character = SIK_sheng_shicai
-recruit_character = SIK_jin_shuren
-
 set_popularities = {
 	communism = 0
-	anarchism = 0
-	socialism = 62
+	anarchism = 12
+	socialism = 0
 	democratic = 0
-    neutrality = 3
-	monarchism = 7
-	fascism = 18
-	imperialism = 10
-	futurism = 0
+    neutrality = 18
+	monarchism = 0
+	fascism = 0
+	imperialism = 62
+	futurism = 6
 }
 
 add_ideas = {

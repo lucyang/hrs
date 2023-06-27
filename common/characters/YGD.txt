@@ -1,0 +1,30 @@
+characters = {
+	YGD_lu_zhongyi = {
+		name = YGD_lu_zhongyi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YGD/Portrait_Lu_Zhongyi.png"
+			}
+		}
+		#country_leader = {
+		#	ideology=fundamentalism_subtype
+		#	desc = YGD_lu_zhongyi_desc
+		#	traits = { compassionate_gentleman }
+		#	expire = "1925.2.26.1"
+		#}
+	}
+	YGD_zhang_tianran = {
+		name = YGD_zhang_tianran
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/YGD/Portrait_Zhang_Tianran.png"
+			}
+		}
+		country_leader = {
+			ideology=fundamentalism_subtype
+			desc = YGD_zhang_tianran_desc
+			traits = { the_masses_opium }
+			expire = "1947.9.29.1"
+		}
+	}
+}

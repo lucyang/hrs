@@ -1,0 +1,83 @@
+characters={
+	AMY_xu_chongzhi={
+		name=AMY_xu_chongzhi
+		portraits={
+			civilian={
+				large="gfx/leaders/AMY/Portrait_Xu_Chongzhi.png"
+			}
+		}
+		country_leader={
+			ideology=national_conservatism_subtype
+			desc=AMY_xu_chongzhi_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+	}
+	AMY_sa_zhenbing={
+		name=AMY_sa_zhenbing
+		portraits={
+			civilian={
+				large="gfx/leaders/AMY/Portrait_Sa_Zhenbing.png"
+			}
+			army={
+				large="gfx/leaders/AMY/Portrait_Sa_Zhenbing.png"
+			}
+		}
+		country_leader={
+			ideology=military_government_subtype
+			desc=AMY_sa_zhenbing_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	AMY_zheng_zuyin={
+		name=AMY_zheng_zuyin
+		portraits={
+			civilian={
+				large="gfx/leaders/AMY/Portrait_Zheng_Zuyin.png"
+			}
+			army={
+				large="gfx/leaders/AMY/Portrait_Zheng_Zuyin.png"
+			}
+		}
+		#country_leader={
+		#	ideology=national_liberalism_subtype
+		#	desc=AMY_zheng_zuyin_desc
+		#	traits={ }
+		#	expire="1950.1.1.1"
+		#}
+	}
+	AMY_sun_daoren={
+		name=AMY_sun_daoren
+		portraits={
+			civilian={
+				large="gfx/leaders/AMY/Portrait_Sun_Daoren.png"
+			}
+			army={
+				large="gfx/leaders/AMY/Portrait_Sun_Daoren.png"
+			}
+		}
+		#country_leader={
+		#	ideology=military_government_subtype
+		#	desc=AMY_sun_daoren_desc
+		#	traits={ }
+		#	expire="1950.1.1.1"
+		#}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+}

@@ -2,116 +2,100 @@
  ###############
  ## DECISIONS ##
  ###############
- HRS_korea_unification_category:0 "东亚革命战争"
+ HRS_korea_KOREA_category:0 "东亚革命战争"
  HRS_make_korea_states_core:0 "在[FROM.GetName]重建政权"
- HRS_unification_of_korea:0 "结束朝鲜内战"
- ## ROK - Republic of Korea 大韩民国临时政府
- ## PRK - People's Republic of Korea 建国准备委员会
- ## ANK - Anarchist Korea 韩族总联合会
- ## KIA - Korean Independet Army 大韩独立军团
- ## CRK - YMCA 平壤基督教青年会
- ## KOR - Korean Volunteer Army 大韩义军府
- ###############
- ## KOR-Korea ##
- ###############
- KOR_liberal_unification_democratic:0 "大韩民国"
- KOR_liberal_unification_democratic_DEF:0 "大韩民国"
- KOR_liberal_unification_neutrality:0 "大韩民国"
- KOR_liberal_unification_neutrality_DEF:0 "大韩民国"
-
- KOR_unification_communism:0 "朝鲜社会主义人民共和国"
- KOR_unification_communism_DEF:0 "朝鲜社会主义人民共和国" 
- KOR_unification_anarchism:0 "朝鲜公社联邦"
- KOR_unification_anarchism_DEF:0 "朝鲜公社联邦"  
- KOR_unification_democratic:0 "大韩帝国"
- KOR_unification_democratic_DEF:0 "大韩帝国"
- KOR_unification_monarchism:0 "大韩帝国"
- KOR_unification_monarchism_DEF:0 "大韩帝国"
- KOR_unification_imperialism:0 "大韩帝国"
- KOR_unification_imperialism_DEF:0 "大韩帝国"
-
- KOR_jin_unification_neutrality:0 "东辰帝国"
- KOR_jin_unification_neutrality_DEF:0 "东辰帝国"
- KOR_jin_unification_monarchism:0 "东辰帝国"
- KOR_jin_unification_monarchism_DEF:0 "东辰帝国"
- KOR_jin_unification_imperialism:0 "东辰帝国"
- KOR_jin_unification_imperialism_DEF:0 "东辰帝国"
-
- KOR_china_unification_neutrality:0 "大华帝国"
- KOR_china_unification_neutrality_DEF:0 "大华帝国"
- KOR_china_unification_monarchism:0 "大华帝国"
- KOR_china_unification_monarchism_DEF:0 "大华帝国"
- KOR_china_unification_imperialism:0 "大华帝国"
- KOR_china_unification_imperialism_DEF:0 "大华帝国"
-
- KOR_unification_neutrality:0 "韩日合众国"
- KOR_unification_neutrality_DEF:0 "韩日合众国"
- KOR_unification_neutrality_ADJ:0 "韩日"
- KOR_goguryeo_unification_neutrality:0 "大朝鲜合众国"
- KOR_goguryeo_unification_neutrality_DEF:0 "大朝鲜合众国"
- KOR_goguryeo_unification_neutrality_ADJ:0 "大朝鲜合众国"
- ##################
- ## PRK-ComKorea ##
- ##################
- PRK_commune_unification_communism:0 "朝鲜工农共和国"
- PRK_commune_unification_communism_DEF:0 "朝鲜工农共和国"
- PRK_commune_unification_anarchism:0 "朝鲜自由地区"
- PRK_commune_unification_anarchism_DEF:0 "朝鲜自由地区"
-
- PRK_communist_unification_communism:0 "朝鲜社会主义共和国"
- PRK_communist_unification_communism_DEF:0 "朝鲜社会主义共和国"
- PRK_communist_unification_anarchism:0 "朝鲜社会主义共和国"
- PRK_communist_unification_anarchism_DEF:0 "朝鲜社会主义共和国"
-
- PRK_socialist_unification_anarchism:0 "朝鲜人民共和国"
- PRK_socialist_unification_anarchism_DEF:0 "朝鲜人民共和国"
- PRK_socialist_unification_democratic:0 "朝鲜人民共和国"
- PRK_socialist_unification_democratic_DEF:0 "朝鲜人民共和国"
-
- PRK_military_unification_anarchism:0 "朝鲜临时人民委员会"
- PRK_military_unification_anarchism_DEF:0 "朝鲜临时人民委员会"
- PRK_military_unification_democratic:0 "朝鲜共和国重建政权"
- PRK_military_unification_democratic_DEF:0 "朝鲜共和国重建政权"
- PRK_military_unification_neutrality:0 "大韩民国军政府"
- PRK_military_unification_neutrality_DEF:0 "大韩民国军政府"
- 
- PRK_unification_democratic:0 "大韩民国"
- PRK_unification_democratic_DEF:0 "大韩民国"
- PRK_unification_neutrality:0 "大韩民国"
- PRK_unification_neutrality_DEF:0 "大韩民国"
- PRK_unification_monarchism:0 "大朝鲜国"
- PRK_unification_monarchism_DEF:0 "大朝鲜国"
- PRK_unification_imperialism:0 "倍达民族国"
- PRK_unification_imperialism_DEF:0 "倍达民族国"
- ##################
- ## ANK-AncKorea ##
- ##################
- ANK_unification_communism:0 "高丽民主联邦共和国"
- ANK_unification_communism_DEF:0 "高丽民主联邦共和国"
- ANK_unification_anarchism:0 "朝鲜自由地区"
- ANK_unification_anarchism_DEF:0 "朝鲜自由地区"
- ANK_unification_neutrality:0 "朝鲜自由地区"
- ANK_unification_neutrality_DEF:0 "朝鲜自由地区"
+ HRS_KOREA_of_korea:0 "结束朝鲜内战"
+ ## ROK-大韩民国临时政府 ##
+ ROK_KOREA_democratic:0 "大韩民国"
+ ROK_KOREA_democratic_DEF:0 "大韩民国"
+ ROK_KOREA_democratic_ADJ:0 "韩国"
+ ROK_KOREA_neutrality:0 "大韩民国"
+ ROK_KOREA_neutrality_DEF:0 "大韩民国"
+ ROK_KOREA_neutrality_ADJ:0 "韩国"
+ ROK_KOREA_monarchism:0 "大韩帝国"
+ ROK_KOREA_monarchism_DEF:0 "大韩帝国"
+ ROK_KOREA_monarchism_ADJ:0 "韩国"
+ ROK_KOREA_fascism:0 "大韩民国"
+ ROK_KOREA_fascism_DEF:0 "大韩民国"
+ ROK_KOREA_fascism_ADJ:0 "韩国"
+ ## PCK-朝鲜共和国临时政府 ##
+ PCK_KOREA_communism:0 "朝鲜委员会共和国"
+ PCK_KOREA_communism_DEF:0 "朝鲜委员会共和国"
+ PCK_KOREA_communism_ADJ:0 "朝鲜"
+ PCK_KOREA_anarchism:0 "朝鲜社会主义共和国"
+ PCK_KOREA_anarchism_DEF:0 "朝鲜社会主义共和国"
+ PCK_KOREA_anarchism_ADJ:0 "朝鲜"
+ ## KPA-韩族总联合会 ##
+ #金元凤
+ KPA_communist_KOREA_communism:0 "朝鲜革命共和国"
+ KPA_communist_KOREA_communism_DEF:0 "朝鲜革命共和国"
+ KPA_communist_KOREA_anarchism:0 "朝鲜工农共和国"
+ KPA_communist_KOREA_anarchism_DEF:0 "朝鲜工农共和国"
+ #申采浩
+ KPA_nationalist_KOREA_anarchism:0 "朝鲜自由民"
+ KPA_nationalist_KOREA_anarchism_DEF:0 "朝鲜自由民"
+ KPA_nationalist_KOREA_imperialism:0 "倍达民族国"
+ KPA_nationalist_KOREA_imperialism_DEF:0 "倍达民族国"
+ #柳子明
+ KPA_anarchist_KOREA_anarchism:0 "朝鲜自由地区"
+ KPA_anarchist_KOREA_anarchism_DEF:0 "朝鲜自由地区"
+ #金佐镇
+ KPA_military_KOREA_anarchism:0 "朝鲜自由共和国"
+ KPA_military_KOREA_anarchism_DEF:0 "朝鲜自由共和国"
+ #柳林
+ KPA_socialist_KOREA_anarchism:0 "朝鲜工农联合体"
+ KPA_socialist_KOREA_anarchism_DEF:0 "朝鲜工农联合体"
+ ## PRK-朝鲜人民共和国 ##
+ PRK_KOREA_anarchism:0 "朝鲜人民共和国"
+ PRK_KOREA_anarchism_DEF:0 "朝鲜人民共和国"
+ PRK_KOREA_socialism:0 "朝鲜人民共和国"
+ PRK_KOREA_socialism_DEF:0 "朝鲜人民共和国"
+ ## KIA-间岛国民会 ##
+ KIA_KOREA_communism:0 "高丽民主联邦共和国"
+ KIA_KOREA_communism_DEF:0 "高丽民主联邦共和国" 
+ KIA_KOREA_anarchism:0 "朝鲜人民委员会"
+ KIA_KOREA_anarchism_DEF:0 "朝鲜人民委员会" 
+ KIA_KOREA_socialism:0 "高丽人民共和国"
+ KIA_KOREA_socialism_DEF:0 "高丽人民共和国"  
+ KIA_KOREA_democratic:0 "大韩民国军政府"
+ KIA_KOREA_democratic_DEF:0 "大韩民国军政府"
+ KIA_KOREA_neutrality:0 "大韩民国军政府"
+ KIA_KOREA_neutrality_DEF:0 "大韩民国军政府"
+ ## GMH-朝鲜自治邦 ##
+ GMH_KOREA_neutrality:0 "朝鲜自治邦"
+ GMH_KOREA_neutrality_DEF:0 "朝鲜自治邦"
+ GMH_JAPAN_neutrality:0 "韩日合邦国"
+ GMH_JAPAN_KOREA_neutrality_DEF:0 "韩日合邦国"
+ GMH_KOGURYO_neutrality:0 "大朝鲜合众国"
+ GMH_KOGURYO_neutrality_DEF:0 "大朝鲜合众国"
+ ## GJW-朝鲜建国准备委员会 ##
+ GJW_KOREA_anarchism:0 "朝鲜民主共和国"
+ GJW_KOREA_anarchism_DEF:0 "朝鲜民主共和国" 
+ GJW_KOREA_socialism:0 "朝鲜人民共和国"
+ GJW_KOREA_socialism_DEF:0 "朝鲜人民共和国" 
+ ## CSK-元山总工会 ##
+ GJW_KOREA_anarchism:0 "朝鲜公社联邦"
+ GJW_KOREA_anarchism_DEF:0 "朝鲜公社联邦"
  ############
  ## EVENTS ##
  ############
- kor_unification.1.t:0 "朝鲜新都"
- kor_unification.1.desc:0 "在解放了朝鲜半岛后，是时候为新生的朝鲜民族国家寻找一处适合的首都了，摆在我们面前的有三个现成的答案：平壤、开城和京城。朝鲜半岛的各个政权大多选择这三座城市作为都城，而它们的经济发展状况也要好于朝鲜其它地区。也有人认为，我们现在的首都就很不错，不需要格外迁都，[ROOT.GetName]将会选择哪座城市作为我们的新首都？"
- kor_unification.1.a:0 "平壤"
- kor_unification.1.b:0 "开城"
- kor_unification.1.c:0 "京城"
- kor_unification.1.d:0 "也许有其它选择？"
+ kor_KOREA.1.t:0 "朝鲜新都"
+ kor_KOREA.1.desc:0 "在解放了朝鲜半岛后，是时候为新生的朝鲜民族国家寻找一处适合的首都了，摆在我们面前的有三个现成的答案：平壤、开城和京城。朝鲜半岛的各个政权大多选择这三座城市作为都城，而它们的经济发展状况也要好于朝鲜其它地区。也有人认为，我们现在的首都就很不错，不需要格外迁都，[ROOT.GetName]将会选择哪座城市作为我们的新首都？"
+ kor_KOREA.1.a:0 "平壤"
+ kor_KOREA.1.b:0 "开城"
+ kor_KOREA.1.c:0 "京城"
+ kor_KOREA.1.d:0 "也许有其它选择？"
 
- kor_unification.2.t:0 "新都雅名"
- kor_unification.2.desc:0 "在迁都开城后，有人希望恢复开城的古名开京，以彰显开城的首都身份，但是反对者认为这一名称不符合朝鲜的主流意识形态，[ROOT.GetName]将选择哪个名字作为新首都的名字？"
- kor_unification.2.a:0 "开京"
- kor_unification.2.b:0 "无需改动"
+ kor_KOREA.2.t:0 "新都雅名"
+ kor_KOREA.2.desc:0 "在迁都开城后，有人希望恢复开城的古名开京，以彰显开城的首都身份，但是反对者认为这一名称不符合朝鲜的主流意识形态，[ROOT.GetName]将选择哪个名字作为新首都的名字？"
+ kor_KOREA.2.a:0 "开京"
+ kor_KOREA.2.b:0 "无需改动"
 
- kor_unification.3.t:0 "新都雅名"
- kor_unification.3.desc:0 "在迁都京城后，民众普遍希望废除象征殖民统治的京城，恢复朝鲜首都的古名。我们目前有三种选择：首尔、汉城与慰礼城。首尔本意为首都，是古代新罗王朝的首都名；慰礼城意为我们的城市，是古代百济的首都称呼；汉城来自汉江，是朝鲜王国的都城名字，也是大多数人熟知的名字。这三个名字都有可取之处，[ROOT.GetName]将选择哪个名字作为新首都的名字？"
- kor_unification.3.a:0 "首尔"
- kor_unification.3.b:0 "汉城"
- kor_unification.3.c:0 "慰礼城"
+ kor_KOREA.3.t:0 "新都雅名"
+ kor_KOREA.3.desc:0 "在迁都京城后，民众普遍希望废除象征殖民统治的京城，恢复朝鲜首都的古名。我们目前有三种选择：首尔、汉城与慰礼城。首尔本意为首都，是古代新罗王朝的首都名；慰礼城意为我们的城市，是古代百济的首都称呼；汉城来自汉江，是朝鲜王国的都城名字，也是大多数人熟知的名字。这三个名字都有可取之处，[ROOT.GetName]将选择哪个名字作为新首都的名字？"
+ kor_KOREA.3.a:0 "首尔"
+ kor_KOREA.3.b:0 "汉城"
+ kor_KOREA.3.c:0 "慰礼城"
  ##################
  ## SUPER EVENTS ##
  ##################

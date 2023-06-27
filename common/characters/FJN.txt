@@ -1,0 +1,38 @@
+characters={
+	FJN_zheng_xiaoxu={
+		name=FJN_zheng_xiaoxu
+		portraits={
+			civilian={
+				large="gfx/leaders/IMC/Portrait_Zheng_Xiaoxu.png"
+			}
+		}
+		country_leader={
+			ideology=fascism_subtype
+			desc=FJN_zheng_xiaoxu_desc
+			traits={ SWI_fascist_propagandist  }
+			expire="1938.3.28.1"
+		}
+	}
+	FJN_li_houji={
+		name=FJN_li_houji
+		portraits={
+			civilian={
+				large="gfx/leaders/IMC/Portrait_Li_Houji.png"
+			}
+		}
+		country_leader={
+			ideology=military_government_subtype
+			desc=FJN_li_houji_desc
+			traits={ }
+			expire="1935.1.1.1"
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+}

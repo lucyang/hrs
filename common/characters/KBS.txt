@@ -1,0 +1,30 @@
+characters={
+	KBS_zhang_shenfu={
+		name=KBS_zhang_shenfu
+		portraits={
+			civilian={
+				large="gfx/leaders/KBS/Portrait_Zhang_Shenfu.png"
+			}
+		}
+		country_leader={
+			ideology=leninism_subtype
+			desc=KBS_zhang_shenfu_desc
+			traits={  }
+			expire="1950.1.1.1"
+		}
+	}
+	KBS_gao_changhong={
+		name=KBS_gao_changhong
+		portraits={
+			civilian={
+				large="gfx/leaders/KBS/Portrait_Gao_Changhong.png"
+			}
+		}
+		country_leader={
+			ideology=accelerationism_subtype
+			desc=KBS_gao_changhong_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+	}
+}

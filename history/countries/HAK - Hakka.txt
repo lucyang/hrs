@@ -4,6 +4,7 @@
 set_country_flag = is_china_nation
 
 recruit_character = HAK_feng_ziyou
+recruit_character = HAK_luo_xianglin
 
 set_technology = {
 	infantry_weapons = 1
@@ -53,21 +54,21 @@ if = {
 }
 
 set_politics = {
-	ruling_party = imperialism
+	ruling_party = neutrality
 	last_election = "1920.11.12"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
 	communism = 0
 	anarchism = 0
 	socialism = 0
-	democratic = 7
-	neutrality = 3
+	democratic = 0
+	neutrality = 10
 	monarchism = 0
-	fascism = 29
-	imperialism = 61
+	fascism = 18
+	imperialism = 72
 	futurism = 0
 }
 
@@ -79,8 +80,8 @@ add_ideas = {
 add_ideas = {
 	country_development3
 	country_tech3
-	corporatist_economy
-	unitary_state
+	dirigisme_economy
+	unitary_state1
 }
 
 

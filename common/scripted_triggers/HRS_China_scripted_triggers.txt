@@ -10,10 +10,11 @@ is_china_unifier = {
 is_shandong_nation = {
 	OR = {
 		original_tag = SHD #乡村建设研究院
-		original_tag = QUF #定武军政府
+		original_tag = QUF #人民天朝
 		original_tag = QND #山东军政府
 		original_tag = QNA #青岛镇守府
-		original_tag = JIN #山东自治国
+		original_tag = YGD #一贯道
+		original_tag = LNY #刘桂棠匪帮
 	}
 }
 is_hebei_nation = {
@@ -37,6 +38,8 @@ is_henan_nation = {
 is_shanxi_nation = {
 	OR = {
 		original_tag = SHX #山西军政府
+		original_tag = SHR #工人自卫旅
+		original_tag = KBS #狂飙社
 		original_tag = JIB #晋北自治政府
 	}
 }
@@ -67,12 +70,15 @@ is_huabei_nation = {
 is_shaanxi_nation = {
 	OR = {
 		original_tag = SXI #秦陇复汉军
+		original_tag = NSX #国民革命军
 	}
 }
 is_gansu_nation = {
 	OR = {
 		original_tag = XSM #西汉金山国
 		original_tag = GNS #甘肃临时议会
+		original_tag = TSH #甘肃军政府
+		original_tag = CHN #卓尼土王
 	}
 }
 is_ningxia_nation = {
@@ -83,12 +89,15 @@ is_ningxia_nation = {
 is_suiyuan_nation = {
 	OR = {
 		original_tag = SYN #大汉义军
+		original_tag = ORD #蒙汉自治军
 	}
 }
 is_qinghai_nation = {
 	OR = {
-		original_tag = QNG #东干斯坦共和国
+		original_tag = QNG #青海巡防军
 		original_tag = YSH #玉树四十族
+		original_tag = GLK #果洛王国
+		original_tag = LBR #拉卜楞寺
 	}
 }
 is_xibei_nation = {
@@ -106,6 +115,7 @@ is_xibei_nation = {
 is_jiangsu_nation = {
 	OR = {
 		original_tag = IMC
+		original_tag = NJS #淮海自治省
 	}
 }
 is_zhejiang_nation = {
@@ -113,12 +123,12 @@ is_zhejiang_nation = {
 }
 is_shanghai_nation = {
 	OR = {
-		original_tag = SHH
+		original_tag = SHH #上海人民公社
 	}
 }
 is_anhui_nation = {
 	OR = {
-		original_tag = ANH
+		original_tag = YSS #黄沙会
 	}
 }
 is_huadong_nation = {
@@ -139,18 +149,18 @@ is_hubei_nation = {
 }
 is_hunan_nation = {
 	OR = {
-		original_tag = MAO
-		original_tag = CBS
-		original_tag = HNA
-		original_tag = HNR
-		original_tag = HMG
+		original_tag = MAO #湘赣人民共和国
+		original_tag = CBS #中华佛国
+		original_tag = HNA #湖南公社
+		original_tag = HNR #湖南共和国
+		original_tag = HMG #湖南军政府
 	}
 }
 is_xiangxi_nation = {
 	OR = {
-		original_tag = XXI
-		original_tag = XXC
-		original_tag = XON
+		original_tag = XXI #湘西十县自治区
+		original_tag = XXC #湘西公社
+		original_tag = XON #苗民光复军
 	}
 }
 is_jiangxi_nation = {
@@ -169,30 +179,43 @@ is_huazhong_nation = {
 ##########
 is_guangdong_nation = {
 	OR = {
-		original_tag = GND
-		original_tag = HLF
-		original_tag = FEM
-		original_tag = LCH
-		original_tag = SGN
-		original_tag = KMT
-		original_tag = SZH
+		original_tag = KMT #国民革命政府
+		original_tag = FEM #朝鲜女子自卫军
+		original_tag = HLF #革命海陆丰
+		original_tag = SZH #粤海公社
+		original_tag = GND #广东特区
+		original_tag = SGN #岭南解放军
+		original_tag = BFA #新黑旗军
+		original_tag = LCH #雷州镇守府
+		original_tag = KCH #粤西自治省
+		original_tag = SEY #四邑民主国
+		original_tag = CTN #大粤民国
+		original_tag = HAK #客家大同国
 	}
 }
 is_guangxi_nation = {
 	OR = {
-		original_tag = GXC
-		original_tag = LGG
-		original_tag = BCH
+		original_tag = GXC #两广讨逆军
+		original_tag = GTD #广西边防军
+		original_tag = GLN #桂林自治政府
+		original_tag = BCH #布僚人民解放军
 	}
 }
 is_fujian_nation = {
 	OR = {
-		original_tag = FED
+		original_tag = FED #闽南护法区
+		original_tag = QZH #泉州人民自治军
+		original_tag = FJN #福建第十师团
+		original_tag = HOK #福建自治军
+		original_tag = FCH #闽东教区
+		original_tag = AMY #福建军政府
+		original_tag = WFJ #闽西苏维埃
 	}
 }
 is_hainan_nation = {
 	OR = {
-		original_tag = HNN
+		original_tag = HNN #海南自贸区
+		original_tag = HNG #琼崖纵队
 	}
 }
 is_huanan_nation = {
@@ -213,12 +236,15 @@ is_yunnan_nation = {
 		original_tag = MMA
 		original_tag = CHH
 		original_tag = DLI
+		original_tag = SGR #香格里拉
 	}
 }
 is_guizhou_nation = {
 	OR = {
-		original_tag = GZH
-		original_tag = GNA
+		original_tag = GZH #贵州国
+		original_tag = GNA #贵州国民军
+		original_tag = GPA #定黔军
+		original_tag = TSS #同善社
 		original_tag = MIA
 		original_tag = MIR
 	}
@@ -242,32 +268,33 @@ is_xinan_nation = {
 }
 is_guangdong_state = {
 	OR = {
-		state = 330 #韶关
-		state = 333 #清远
-		state = 340 #梅州
-		state = 343 #河源
-		state = 349 #肇庆
-		state = 351 #潮州
-		state = 353 #惠州
-		state = 355 #广州
-		state = 357 #揭阳
-		state = 358 #汕头
-		state = 361 #佛山
-		state = 362 #汕尾
-		state = 365 #云浮
-		state = 367 #东莞
-		state = 368 #江门
-		state = 369 #宝安
-		state = 370 #香山
-		state = 372 #茂名
-		state = 373 #阳江
-		state = 375 #香港
-		state = 377 #珠海
-		state = 379 #澳门
-		state = 382 #湛江
+		state = 229 #云浮 
+		state = 252 #四会
+		state = 330 #韶关 
+		state = 333 #连州/清远
+		state = 340 #梅州 
+		state = 343 #河源 
+		state = 349 #肇庆 
+		state = 351 #潮州 
+		state = 353 #惠州 
+		state = 355 #广州 
+		state = 357 #揭阳 
+		state = 358 #汕头 
+		state = 361 #佛山 
+		state = 362 #汕尾 
+		state = 365 #罗定 
+		state = 367 #东莞 
+		state = 368 #新会/江门
+		state = 369 #深圳 
+		state = 370 #香山 
 		state = 371 #钦州
-		state = 378 #防城港
+		state = 372 #高州/茂名
+		state = 373 #阳江 
+		state = 377 #龙门
+		state = 378 #防城港 
+		state = 379 #佛冈 
 		state = 381 #北海
+		state = 382 #雷州/湛江
 	}
 }
 
@@ -410,7 +437,6 @@ is_hubei_state = {
 		state = 245 #潜江
 		state = 248 #仙桃
 		state = 249 #天门
-		state = 252 #鄂州
 		state = 255 #黄石
 		state = 257 #咸宁
 	}
@@ -698,6 +724,16 @@ is_liaoning_state = {
 		state = 83 #复州
 		state = 635 #宽甸
 		state = 591 #关东州
+	}
+}
+
+is_jiaozhi_state = {
+	OR = {
+		state = 507 #广宁
+		state = 528 #宣光
+		state = 562 #谅山
+		state = 563 #广源
+		state = 564 #太原
 	}
 }
 

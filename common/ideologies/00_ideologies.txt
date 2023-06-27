@@ -106,6 +106,7 @@ ideologies = {
 			state_socialism_subtype = { can_be_randomly_selected = no }
 			guild_socialism_subtype = { can_be_randomly_selected = no }
 			katheder_socialism_subtype = { can_be_randomly_selected = no }
+			gongdaoism_subtype = { can_be_randomly_selected = no }
 
 			agrarianism_subtype = { can_be_randomly_selected = no }
 			new_tridemism_subtype = { can_be_randomly_selected = no }
@@ -406,7 +407,7 @@ ideologies = {
 		
 		dynamic_faction_names = { }
 		
-		color = { 0 0 0 }
+		color = { 20 20 20 }
 		
 		rules = {
 			can_create_collaboration_government = no

@@ -25,7 +25,7 @@ is_vietnam_unifier = {
 }
 
 is_vietnam_state = {
-	AND = {
+	OR = {
 		state = 363 #河内
 		state = 527 #兴化
 		state = 529 #清化

@@ -36,8 +36,13 @@ is_xiang_nation = {
 }
 is_yue_nation = {
 	OR = {
-		original_tag = FED
-		original_tag = LGG
+		original_tag = SZH #粤海公社
+		original_tag = SGN #岭南解放军
+		original_tag = BFA #新黑旗军
+		original_tag = KCH #粤西自治省
+		original_tag = SEY #四邑民主国
+		original_tag = CTN #大粤民国
+		original_tag = HAK #客家大同国
 	}
 }
 is_dian_nation = {
