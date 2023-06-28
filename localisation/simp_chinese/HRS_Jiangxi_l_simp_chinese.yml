@@ -34,8 +34,8 @@
  #############
  ## PARTIES ##
  #############
- JIX_communism_party:0 "江西改造社"
- JIX_communism_party_long:0 "江西改造社"
+ JIX_communism_party:0 "改造社"
+ JIX_communism_party_long:0 "改造社"
  JIX_anarchism_party:0 "江西工团联合会"
  JIX_anarchism_party_long:0 "江西工团联合会"
  JIX_socialism_party:0 "江西社会党"
@@ -64,9 +64,6 @@
 
  JIX_fang_zhimin:0 "方志敏"
  JIX_fang_zhimin_desc:0 "§Y出生日期§!：§G1899年8月21日§!\n§Y出生地点§!：§G大东帝国豫章道弋阳县§!"
-
- JIX_zhang_enpu:0 "张恩溥"
- JIX_zhang_enpu_desc:0 "§Y出生日期§!：§G1904年10月3日§!\n§Y出生地点§!：§G大东帝国豫章道贵溪县§!"
  ###########
  ## IDEAS ##
  ###########

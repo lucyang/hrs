@@ -1,0 +1,72 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ DAO_communism:0 "江西大道政府"
+ DAO_communism_DEF:0 "江西大道政府"
+ DAO_anarchism:0 "江西大道政府"
+ DAO_anarchism_DEF:0 "江西大道政府"
+ DAO_socialism:0 "江西大道政府"
+ DAO_socialism_DEF:0 "江西大道政府"
+ DAO_democratic:0 "江西大道政府"
+ DAO_democratic_DEF:0 "江西大道政府"
+ DAO_neutrality:0 "江西大道政府"
+ DAO_neutrality_DEF:0 "江西大道政府"
+ DAO_monarchism:0 "江西大道政府"
+ DAO_monarchism_DEF:0 "江西大道政府"
+ DAO_fascism:0 "江西大道政府"
+ DAO_fascism_DEF:0 "江西大道政府"
+ DAO_imperialism:0 "江西大道政府"
+ DAO_imperialism_DEF:0 "江西大道政府"
+ DAO_futurism:0 "江西大道政府"
+ DAO_futurism_DEF:0 "江西大道政府"
+ DAO_communism_ADJ:0 "大道政府"
+ DAO_anarchism_ADJ:0 "大道政府"
+ DAO_democratic_ADJ:0 "大道政府"
+ DAO_neutrality_ADJ:0 "大道政府"
+ DAO_monarchism_ADJ:0 "大道政府"
+ DAO_fascism_ADJ:0 "大道政府"
+ DAO_imperialism_ADJ:0 "大道政府"
+ DAO_futurism_ADJ:0 "大道政府"
+ DAO:0 "江西"
+ DAO_DEF:0 "江西大道政府"
+ DAO_ADJ:0 "江西"
+ #############
+ ## PARTIES ##
+ #############
+ DAO_communism_party:0 "青年军人联合会"
+ DAO_communism_party_long:0 "中国青年军人联合会"
+ DAO_anarchism_party:0 "江西改造社"
+ DAO_anarchism_party_long:0 "江西改造社"
+ DAO_socialism_party:0 "江西社会党"
+ DAO_socialism_party_long:0 "江西社会党"
+ DAO_democratic_party:0 "合群社"
+ DAO_democratic_party_long:0 "合群社"
+ DAO_neutrality_party:0 "谠言社"
+ DAO_neutrality_party_long:0 "谠言社"
+ DAO_monarchism_party:0 "江西天师府"
+ DAO_monarchism_party_long:0 "江西天师府"
+ DAO_fascism_party:0 "中国新民会"
+ DAO_fascism_party_long:0 "中国新民会"
+ DAO_imperialism_party:0 "东亚联盟"
+ DAO_imperialism_party_long:0 "东亚联盟"
+ DAO_futurism_party:0 "广州商团"
+ DAO_futurism_party_long:0 "广州商团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ DAO_miu_bin:0 "缪斌"
+ DAO_miu_bin_desc:0 "§Y出生日期§!：§G1899年§!\n§Y出生地点§!：§G大东帝国庐陵道吉安县§!"
+ DAO_zhang_enpu:0 "张恩溥"
+ DAO_zhang_enpu_desc:0 "§Y出生日期§!：§G1904年10月3日§!\n§Y出生地点§!：§G大东帝国豫章道贵溪县§!"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############
