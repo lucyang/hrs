@@ -1,0 +1,55 @@
+characters = {
+	TUR_mehmut_muhiti={
+		name=TUR_mehmut_muhiti
+		portraits = {
+			civilian={
+				large="gfx/leaders/TUR/Portrait_Mehmut_Muhiti.png"
+			} 
+			army={
+				large="gfx/leaders/TUR/Portrait_Mehmut_Muhiti.png"
+			}
+		}
+		country_leader={
+			ideology=partisan_movement_subtype
+			desc=TUR_mehmut_muhiti_desc
+			traits={ celebrity_junta_leader }
+			expire="1944.1.1.1"
+		}
+		corps_commander={
+			traits={ infantry_officer irregulars_connected }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	TUR_mexsut_muhiti={
+		name=TUR_mexsut_muhiti
+		portraits = {
+			civilian={
+				large="gfx/leaders/TUR/Portrait_Mexsut_Muhiti.png"
+			}
+		}
+		country_leader={
+			ideology=national_communism_subtype
+			desc=TUR_mexsut_muhiti_desc
+			traits={ popular_figurehead }
+			expire="1950.1.1.1"
+		}
+	}
+	TUR_abduxaliq_uyghur={
+		name=TUR_abduxaliq_uyghur
+		portraits = {
+			civilian={
+				large="gfx/leaders/TUR/Portrait_Abduxaliq_Uyghur.png"
+			}
+		}
+		country_leader={
+			ideology=new_tridemism_subtype
+			desc=TUR_abduxaliq_uyghur_desc
+			traits={ nationalist_symbol }
+			expire="1950.1.1.1"
+		}
+	}
+}

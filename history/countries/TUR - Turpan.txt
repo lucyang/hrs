@@ -1,0 +1,106 @@
+capital = 46 #吐鲁番
+
+#oob = "empty"
+set_country_flag = is_uyghur_nation
+
+set_stability = 0.25
+set_war_support = 0.3075
+set_research_slots = 1
+set_convoys = 10
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_signal_company = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_mountaineers = 1
+	basic_train = 1
+	trench_warfare = 1
+	gw_artillery = 1
+	early_fighter = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	fuel_refining = 1
+}
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		improved_ship_torpedo_launcher = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		mtg_transport = 1
+		coastal_defense_ships = 1
+		basic_depth_charges = 1
+		basic_cruiser_armor_scheme = 1
+		cruiser_submarines = 1
+	}
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		transport = 1
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+set_politics = {	
+	ruling_party = socialism
+	last_election = "1920.11.26"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+recruit_character = TUR_mehmut_muhiti
+recruit_character = TUR_mexsut_muhiti
+recruit_character = TUR_abduxaliq_uyghur
+
+set_popularities = {
+	communism = 0
+	anarchism = 17
+	socialism = 60
+	democratic = 3
+    neutrality = 8
+	monarchism = 0
+	fascism = 0
+	imperialism = 12
+	futurism = 0
+}
+
+add_ideas = {
+	free_trade
+	limited_conscription
+	war_economy
+}
+
+add_ideas = {
+	country_development
+	country_tech2
+	market_economy1
+	unitary_state1
+}

@@ -35,22 +35,22 @@
  #############
  ## PARTIES ##
  #############
- QNG_communism_party:0 "社民农工党"
+ QNG_communism_party:0 "社会民主农工党"
  QNG_communism_party_long:0 "中国社会民主农工党"
- QNG_anarchism_party:0 "西道堂"
- QNG_anarchism_party_long:0 "西道堂"
- QNG_socialism_party:0 "回教人民党"
- QNG_socialism_party_long:0 "回教人民党"
+ QNG_anarchism_party:0 "伊赫瓦尼派"
+ QNG_anarchism_party_long:0 "伊赫瓦尼派"
+ QNG_socialism_party:0 "西道堂"
+ QNG_socialism_party_long:0 "西道堂"
  QNG_democratic_party:0 "回教俱进会"
  QNG_democratic_party_long:0 "中国回教俱进会"
- QNG_neutrality_party:0 "回教联合会"
- QNG_neutrality_party_long:0 "中国回教联合会"
+ QNG_neutrality_party:0 "宁海军残部"
+ QNG_neutrality_party_long:0 "宁海军残部"
  QNG_monarchism_party:0 "藏族土司"
  QNG_monarchism_party_long:0 "藏族土司"
- QNG_fascism_party:0 "回教青年党"
- QNG_fascism_party_long:0 "回教青年党"
- QNG_imperialism_party:0 "河州圣战者"
- QNG_imperialism_party_long:0 "河州圣战者" # 马步芳
+ QNG_fascism_party:0 "回教总联合会"
+ QNG_fascism_party_long:0 "中国回教总联合会"
+ QNG_imperialism_party:0 "防共回教徒同盟"
+ QNG_imperialism_party_long:0 "防共回教徒同盟"
  QNG_futurism_party:0 "晋商财团"
  QNG_futurism_party_long:0 "晋商财团"
  ##################

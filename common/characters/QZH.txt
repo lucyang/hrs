@@ -1,6 +1,6 @@
 characters={
-		FED_ou_shengbai={
-		name=FED_ou_shengbai
+	QZH_ou_shengbai={
+		name=QZH_ou_shengbai
 		portraits={
 			civilian={
 				large="gfx/leaders/QZH/Portrait_Ou_Shengbai.png"
@@ -8,7 +8,7 @@ characters={
 		}
 		country_leader={
 			ideology=anarcho_communism_subtype
-			desc=FED_ou_shengbai_desc
+			desc=QZH_ou_shengbai_desc
 			traits={ ideological_groupie }
 			expire="1950.1.1.1"
 		}

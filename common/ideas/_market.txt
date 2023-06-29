@@ -425,7 +425,17 @@ ideas = {
 			name = bandit_economy
 
 			visible = {
-				has_anarchist_government = no
+				NOT = {
+					has_government = communism
+					has_government = anarchism
+				}
+			}
+
+			allowed = {
+				NOT = {
+					has_government = communism
+					has_government = anarchism
+				}
 			}
 
 			allowed_to_remove = {

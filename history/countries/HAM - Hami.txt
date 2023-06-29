@@ -5,7 +5,6 @@ set_country_flag = is_china_nation
 
 recruit_character = HAM_chen_tianhua
 recruit_character = HAM_yulbars_khan
-recruit_character = HAM_burhan_shahidi
 
 set_stability = 0.30
 set_war_support = 0.60
@@ -82,14 +81,14 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	anarchism = 12
+	anarchism = 14
 	socialism = 0
 	democratic = 0
     neutrality = 18
 	monarchism = 0
-	fascism = 0
+	fascism = 6
 	imperialism = 62
-	futurism = 6
+	futurism = 0
 }
 
 add_ideas = {

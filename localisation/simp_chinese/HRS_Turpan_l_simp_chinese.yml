@@ -1,0 +1,75 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ TUR_communism:0 "吐鲁番起义军"
+ TUR_communism_DEF:0 "吐鲁番起义军"
+ TUR_anarchism:0 "吐鲁番起义军"
+ TUR_anarchism_DEF:0 "吐鲁番起义军"
+ TUR_democratic:0 "吐鲁番起义军"
+ TUR_democratic_DEF:0 "吐鲁番起义军"
+ TUR_socialism:2 "吐鲁番起义军"
+ TUR_socialism_DEF:2 "吐鲁番起义军"
+ TUR_neutrality:0 "吐鲁番起义军"
+ TUR_neutrality_DEF:0 "吐鲁番起义军"
+ TUR_monarchism:0 "吐鲁番起义军"
+ TUR_monarchism_DEF:0 "吐鲁番起义军"
+ TUR_fascism:0 "吐鲁番起义军"
+ TUR_fascism_DEF:0 "吐鲁番起义军"
+ TUR_imperialism:0 "吐鲁番起义军"
+ TUR_imperialism_DEF:0 "吐鲁番起义军"
+ TUR_futurism:0 "吐鲁番起义军"
+ TUR_futurism_DEF:0 "吐鲁番起义军"
+ TUR_communism_ADJ:0 "吐鲁番"
+ TUR_anarchism_ADJ:0 "吐鲁番"
+ TUR_socialism_ADJ:0 "吐鲁番"
+ TUR_democratic_ADJ:0 "吐鲁番"
+ TUR_neutrality_ADJ:0 "吐鲁番"
+ TUR_monarchism_ADJ:0 "吐鲁番"
+ TUR_fascism_ADJ:0 "吐鲁番"
+ TUR_imperialism_ADJ:0 "吐鲁番"
+ TUR_futurism_ADJ:0 "吐鲁番"
+ TUR:0 "吐鲁番"
+ TUR_DEF:0 "吐鲁番"
+ TUR_ADJ:0 "吐鲁番"
+ #############
+ ## PARTIES ##
+ #############
+ TUR_communism_party:0 "突厥斯坦共产党"
+ TUR_communism_party_long:0 "突厥斯坦共产党"
+ TUR_anarchism_party:0 "“坎兰木吐拉奇”"
+ TUR_anarchism_party_long:0 "“坎兰木吐拉奇”" #马合苏提·穆依提
+ TUR_socialism_party:0 "吐鲁番农民革命军"
+ TUR_socialism_party_long:0 "吐鲁番农民革命军" #阿布都哈力克·维吾尔
+ TUR_democratic_party:0 "图兰人民革命党"
+ TUR_democratic_party_long:0 "图兰人民革命党"
+ TUR_neutrality_party:0 "图兰民族独立委员会"
+ TUR_neutrality_party_long:0 "图兰民族独立委员会" #马木提·穆依提
+ TUR_monarchism_party:0 "大突厥主义伊斯兰党"
+ TUR_monarchism_party_long:0 "大突厥主义伊斯兰党"
+ TUR_fascism_party:0 "图兰民族党"
+ TUR_fascism_party_long:0 "图兰民族党"
+ TUR_imperialism_party:0 "青年喀什噶尔党"
+ TUR_imperialism_party_long:0 "青年喀什噶尔党"
+ TUR_futurism_party:0 "技术官僚"
+ TUR_futurism_party_long:0 "技术官僚"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ TUR_mehmut_muhiti:0 "马木提·穆依提"
+ TUR_mehmut_muhiti_desc:0 "§Y出生日期§!：§G1887年§!\n§Y出生地点§!：§G准噶尔汗国吐鲁番州阿斯塔纳县§!"
+ TUR_mexsut_muhiti:0 "马合苏提·穆依提"
+ TUR_mexsut_muhiti_desc:0 "§Y出生日期§!：§G1898年10月§!\n§Y出生地点§!：§G准噶尔汗国吐鲁番州阿斯塔纳县§!"
+ TUR_abduxaliq_uyghur:0 "阿布都哈力克·维吾尔"
+ TUR_abduxaliq_uyghur_desc:0 "§Y出生日期§!：§G1901年2月9日§!\n§Y出生地点§!：§G准噶尔汗国吐鲁番州巴格拉县§!"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

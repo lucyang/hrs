@@ -2,24 +2,24 @@
  ###############
  ## COUNTRIES ##
  ###############
- SIK_communism:0 "新疆建设计划委员会"
- SIK_communism_DEF:0 "国民政府新疆建设计划委员会"
- SIK_anarchism:0 "新疆建设计划委员会"
- SIK_anarchism_DEF:0 "国民政府新疆建设计划委员会"
- SIK_democratic:0 "新疆建设计划委员会"
- SIK_democratic_DEF:0 "国民政府新疆建设计划委员会"
- SIK_socialism:0 "新疆建设计划委员会"
- SIK_socialism_DEF:0 "国民政府新疆建设计划委员会"
- SIK_neutrality:0 "新疆建设计划委员会"
- SIK_neutrality_DEF:0 "国民政府新疆建设计划委员会"
- SIK_monarchism:0 "新疆建设计划委员会"
- SIK_monarchism_DEF:0 "国民政府新疆建设计划委员会"
- SIK_fascism:0 "新疆建设计划委员会"
- SIK_fascism_DEF:0 "国民政府新疆建设计划委员会"
- SIK_imperialism:0 "新疆建设计划委员会"
- SIK_imperialism_DEF:0 "国民政府新疆建设计划委员会"
- SIK_futurism:0 "新疆建设计划委员会"
- SIK_futurism_DEF:0 "国民政府新疆建设计划委员会"
+ SIK_communism:0 "新疆人民共和国"
+ SIK_communism_DEF:0 "新疆人民共和国"
+ SIK_anarchism:0 "新疆人民共和国"
+ SIK_anarchism_DEF:0 "新疆人民共和国"
+ SIK_democratic:0 "新疆人民共和国"
+ SIK_democratic_DEF:0 "新疆人民共和国"
+ SIK_socialism:0 "新疆人民共和国"
+ SIK_socialism_DEF:0 "新疆人民共和国"
+ SIK_neutrality:0 "新疆人民共和国"
+ SIK_neutrality_DEF:0 "新疆人民共和国"
+ SIK_monarchism:0 "新疆人民共和国"
+ SIK_monarchism_DEF:0 "新疆人民共和国"
+ SIK_fascism:0 "新疆人民共和国"
+ SIK_fascism_DEF:0 "新疆人民共和国"
+ SIK_imperialism:0 "新疆人民共和国"
+ SIK_imperialism_DEF:0 "新疆人民共和国"
+ SIK_futurism:0 "新疆人民共和国"
+ SIK_futurism_DEF:0 "新疆人民共和国"
  SIK_communism_ADJ:0 "新疆"
  SIK_anarchism_ADJ:0 "新疆"
  SIK_socialism_ADJ:0 "新疆"
@@ -38,21 +38,21 @@
  SIK_communism_party:0 "新疆民众反帝联合会"
  SIK_communism_party_long:0 "新疆民众反帝联合会 - 国际派" #包尔汉
  SIK_anarchism_party:0 "“坎兰木吐拉奇”"
- SIK_anarchism_party_long:0 "“坎兰木吐拉奇”" #马合苏提·穆依提
- SIK_socialism_party:0 "新疆民众反帝联合会"
- SIK_socialism_party_long:0 "新疆民众反帝联合会 - 进步派"
+ SIK_anarchism_party_long:0 "“坎兰木吐拉奇”"
+ SIK_socialism_party:0 "图兰人民革命党"
+ SIK_socialism_party_long:0 "图兰人民革命党"
  SIK_democratic_party:0 "吐鲁番革命小组"
- SIK_democratic_party_long:0 "吐鲁番革命小组" #阿布都哈力克·维吾尔
- SIK_neutrality_party:0 "新疆边防督办公署"
- SIK_neutrality_party_long:0 "新疆边防督办公署"
- SIK_monarchism_party:0 "新疆民众反帝联合会"
- SIK_monarchism_party_long:0 "新疆民众反帝联合会 - 效忠派"
- SIK_fascism_party:0 "新疆民众反帝联合会"
- SIK_fascism_party_long:0 "新疆民众反帝联合会 - 统制派"
- SIK_imperialism_party:0 "图兰民族独立委员会"
- SIK_imperialism_party_long:0 "图兰民族独立委员会" #马木提·穆依提
- SIK_futurism_party:0 "新疆民众反帝联合会"
- SIK_futurism_party_long:0 "新疆民众反帝联合会 - 亲俄派"
+ SIK_democratic_party_long:0 "吐鲁番革命小组"
+ SIK_neutrality_party:0 "新疆人民革命军"
+ SIK_neutrality_party_long:0 "新疆人民革命军"
+ SIK_monarchism_party:0 "中国军官团"
+ SIK_monarchism_party_long:0 "中国军官团"
+ SIK_fascism_party:0 "图兰民族党"
+ SIK_fascism_party_long:0 "图兰民族党"
+ SIK_imperialism_party:0 "青年喀什噶尔党"
+ SIK_imperialism_party_long:0 "青年喀什噶尔党"
+ SIK_futurism_party:0 "民意党支持者"
+ SIK_futurism_party_long:0 "人民意志党支持者"
  ##################
  ## COSMETIC TAG ##
  ##################
@@ -60,17 +60,9 @@
  ################
  ## CHARACTERS ##
  ################
- SIK_sheng_shicai:0 "盛世才"
- SIK_sheng_shicai_desc:0 "§Y出生日期§!：§G1897年1月8日§!\n§Y出生地点§!：§G国民政府辽阳道开原县§!"
  SIK_khoja_niyaz:0 "和加·尼牙孜"
  SIK_khoja_niyaz_desc:0 "§Y出生日期§!：§G1889年§!\n§Y出生地点§!：§G准噶尔汗国哈密州哈密县§!"
- SIK_mehmut_muhiti:0 "马木提·穆依提"
- SIK_mehmut_muhiti_desc:0 "§Y出生日期§!：§G1887年§!\n§Y出生地点§!：§G准噶尔汗国吐鲁番州阿斯塔纳县§!"
- SIK_mexsut_muhiti:0 "马合苏提·穆依提"
- SIK_mexsut_muhiti_desc:0 "§Y出生日期§!：§G1898年10月§!\n§Y出生地点§!：§G准噶尔汗国吐鲁番州阿斯塔纳县§!"
- SIK_abduxaliq_uyghur:0 "阿布都哈力克·维吾尔"
- SIK_abduxaliq_uyghur_desc:0 "§Y出生日期§!：§G1901年2月9日§!\n§Y出生地点§!：§G准噶尔汗国吐鲁番州巴格拉县§!"
- SIK_burhan_shahidi:0 "包尔汉·沙希迪" #包尔汉·沙希迪
+ SIK_burhan_shahidi:0 "包尔汉·沙希迪"
  SIK_burhan_shahidi_desc:0 "§Y出生日期§!：§G1894年10月3日§!\n§Y出生地点§!：§G大俄罗斯共和国喀山省特铁什县§!"
  ###########
  ## IDEAS ##

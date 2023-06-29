@@ -1,8 +1,8 @@
 on_actions = {
 	on_startup = {
 		effect = {
-			IMC = {
-				country_event = imc.1
+			MAO = {
+				country_event = mao.1
 			}
 			every_country = {
 				add_ideas = HRS_days_are_numbered

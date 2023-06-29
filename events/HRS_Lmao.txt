@@ -51,25 +51,25 @@ country_event = {
 			}	
 		}
 	}
-	#option = {
-	#	name = mao.2.b
-	#	hidden_effect = {
-	#		MAO = {
-	#			set_politics = { ruling_party = anarchism }
-	#			set_popularities = {
-	#				communism = 33
-	#				anarchism = 37
-	#				socialism = 20
-	#				democratic = 10
-	#				neutrality = 0
-	#				monarchism = 0
-	#				fascism = 0
-	#				imperialism = 0
-	#				futurism = 0
-	#			}
-	#		}
-	#	}
-	#}
+	option = {
+		name = mao.2.b
+		hidden_effect = {
+			MAO = {
+				set_politics = { ruling_party = anarchism }
+				set_popularities = {
+					communism = 33
+					anarchism = 37
+					socialism = 20
+					democratic = 10
+					neutrality = 0
+					monarchism = 0
+					fascism = 0
+					imperialism = 0
+					futurism = 0
+				}
+			}
+		}
+	}
 	option = {
 		name = mao.2.c
 		hidden_effect = {
@@ -88,6 +88,36 @@ country_event = {
 				}
 			}
 		}
+	}
+}
+country_event = {
+	id = mao.3
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event mao.3"
+	}
+	title = mao.3.t
+	desc = mao.3.desc
+	picture = GFX_report_event_ger_civil_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = mao.3.a
+	}
+}
+country_event = {
+	id = mao.4
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event mao.3"
+	}
+	title = mao.4.t
+	desc = mao.4.desc
+	picture = GFX_report_event_ger_civil_war
+
+	is_triggered_only = yes
+
+	option = {
+		name = mao.4.a
 	}
 }
 country_event = {

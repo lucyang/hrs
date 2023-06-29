@@ -228,6 +228,7 @@ SIK = "countries/Sinkiang.txt"
 TCH = "countries/Tacheng.txt"
 ILI = "countries/Ili.txt"
 HAM = "countries/Hami.txt"
+TUR = "countries/Turpan.txt"
 ### CENTRAL ASIA ###
 KAZ = "countries/Kazakhstan.txt"
 TUK = "countries/Turkestan.txt"
