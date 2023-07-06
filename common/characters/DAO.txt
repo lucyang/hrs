@@ -1,0 +1,30 @@
+characters={
+	DAO_miu_bin={
+		name=DAO_miu_bin
+		portraits={
+			civilian={
+				large="gfx/leaders/DAO/Portrait_Miu_Bin.png"
+			}
+		}
+		country_leader={
+			ideology=xinminism_subtype
+			desc=DAO_miu_bin_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+	}
+	DAO_zhang_enpu={
+		name=DAO_zhang_enpu
+		portraits={
+			civilian={
+				large="gfx/leaders/DAO/Portrait_Zhang_Enpu.png"
+			}
+		}
+		country_leader={
+			ideology=theocratic_state_subtype
+			desc=DAO_zhang_enpu_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+	}
+}

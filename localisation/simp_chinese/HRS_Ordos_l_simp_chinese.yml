@@ -43,14 +43,14 @@
  ORD_socialism_party_long:0 "内蒙古青年革命党"
  ORD_democratic_party:0 "中国革命党"
  ORD_democratic_party_long:0 "中国革命党"
- ORD_neutrality_party:0 "防共自治军 - 变节派"
- ORD_neutrality_party_long:0 "西北蒙汉防共自治军 - 变节派"
- ORD_monarchism_party:0 "和朝忠诚派"
- ORD_monarchism_party_long:0 "和朝忠诚派"
+ ORD_neutrality_party:0 "大汉义军残部"
+ ORD_neutrality_party_long:0 "大汉义军残部"
+ ORD_monarchism_party:0 "札萨克蒙古王公"
+ ORD_monarchism_party_long:0 "札萨克蒙古王公"
  ORD_fascism_party:0 "中国新民会"
  ORD_fascism_party_long:0 "中国新民会"
- ORD_imperialism_party:0 "防共自治军 - 忠诚派"
- ORD_imperialism_party_long:0 "西北蒙汉防共自治军 - 忠诚派" #卢占魁
+ ORD_imperialism_party:0 "蒙汉防共自治军"
+ ORD_imperialism_party_long:0 "西北蒙汉防共自治军" #卢占魁
  ORD_futurism_party:0 "晋商财团"
  ORD_futurism_party_long:0 "晋商财团"
  ##################

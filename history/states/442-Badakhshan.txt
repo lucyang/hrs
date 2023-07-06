@@ -3,7 +3,7 @@ state={
 	id=442
 	name="STATE_442"
 	provinces={
-		934 1032 1798 2196 4764 4765 
+		1032 1798 2196 4764 4765 
 	}
 	history = {
 		owner = HIN

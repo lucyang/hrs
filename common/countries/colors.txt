@@ -139,6 +139,29 @@ CBS = { # 湖南普渡国
 	color_ui = rgb { 255 121 0 }
 }
 ###############
+### JIANGXI ###
+###############
+JIX = { # 江西省议会
+	color = rgb { 189 183 107 }
+	color_ui = rgb { 189 183 107 }
+}
+DAO = { # 江西大道政府
+	color = rgb { 105 105 105 }
+	color_ui = rgb { 105 105 105 }
+}
+JIJ = { # 九江军政府
+	color = rgb { 0 123 167 }
+	color_ui = rgb { 0 123 167 }
+}
+EJX = { # 赣东评议会共和国
+	color = rgb { 255 36 0 }
+	color_ui = rgb { 255 36 0 }
+}
+SJX = { # 赣南民族共和国
+	color = rgb { 107 142 35 }
+	color_ui = rgb { 107 142 35 }
+}
+###############
 ### SHAANXI ###
 ###############
 QNG = {
@@ -641,8 +664,8 @@ TAT = { # 西双泰处/泰联邦
 ### LAOS ##
 ###########
 LAO = { # 琅勃拉邦
-	color = rgb { 7 61 219 }
-	color_ui = rgb { 7 61 219 }
+	color = rgb { 79 121 66 }
+	color_ui = rgb { 79 121 66 }
 }
 CHP = { # 占巴塞
 	color = rgb { 51 0 204 }
@@ -702,9 +725,13 @@ HOT = { # 和田伊斯兰政府
 	color = rgb { 253 231 182 }
 	color_ui = rgb { 253 231 182 }
 }
-TCH = { # 东突厥斯坦总督府
+TCH = { # 塔城临时政府
 	color = rgb { 104 48 104 }
 	color_ui = rgb { 104 48 104 }
+}
+APD = { # 阿年科夫游击队
+	color = rgb { 30 49 36 }
+	color_ui = rgb { 30 49 36 }
 }
 ILI = { # 伊犁解放组织
 	color = rgb { 184 134 11 }

@@ -5,7 +5,6 @@
 recruit_character = DEG_fulro
 recruit_character = DEG_red_fulro
 
-
 set_technology = {
 	infantry_weapons = 1
 }
@@ -22,11 +21,13 @@ add_ideas = {
 	primitive_state
 }
 
+set_cosmetic_tag = DEG_VIN
+
 set_war_support = 0.45
 set_stability = 0.35
 
 set_politics = {	
-	ruling_party = neutrality
+	ruling_party = monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -34,12 +35,12 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	anarchism = 10
-	socialism = 20
-	democratic = 28
-	neutrality = 42
-	monarchism = 0
-    fascism = 0
+	anarchism = 0
+	socialism = 0
+	democratic = 5
+	neutrality = 30
+	monarchism = 33
+    fascism = 32
 	imperialism = 0
 	futurism = 0
 }

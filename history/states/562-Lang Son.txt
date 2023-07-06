@@ -4,9 +4,13 @@ state={
 	name="STATE_562"
 
 	history={
-		owner = IMV
-		add_core_of = IMV
-
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = VIC
+			add_core_of = VIC
+			remove_core_of = IMC
+		}
 		victory_points = { 1378 1 }
 
 		buildings = {

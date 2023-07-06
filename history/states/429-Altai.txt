@@ -2,14 +2,16 @@ state={
 	id=429
 	name="STATE_429"
 	provinces={
-		254 550 573 794 944 2264 2750 3438 4751
+		63 617 254 312 550 573 794 944 1323 1622 2264 2642 2739 2750 3438 4751 
 	}
 	history = {
-		owner = ALT
+		owner = DBJ
 		add_core_of = ALT
-		add_claim_by = DZU
-
-		victory_points = { 2750 10 } #卫拉�?图拉/戈尔�?阿尔泰斯�?
+		1924.1.1 = {
+			owner = ALT
+			add_core_of = ASH
+		}
+		victory_points = { 2750 10 } #卫拉特-图拉/戈尔诺阿尔泰斯克
 
 		buildings = {
 			infrastructure = 3

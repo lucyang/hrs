@@ -1,65 +1,16 @@
 characters = {
-	TCH_boris_annenkov = {
-		name = TCH_boris_annenkov
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/TCH/Portrait_Boris_Annenkov.png"
-			}
-			army={
-				large="gfx/leaders/TCH/Portrait_Boris_Annenkov.png"
+	TCH_baspay_sholakul_bapin={
+		name=TCH_baspay_sholakul_bapin
+		portraits={
+			civilian={
+				large="gfx/leaders/TCH/Portrait_Baspay_Sholakul_Bapin.png"
 			}
 		}
 		country_leader = {
-			ideology = warlordism_subtype
-			desc = TCH_boris_annenkov_desc
-			traits = { LAT_military_dictator the_foreign_connection }
-			expire = "1950.1.1.1"
-		}
-		corps_commander={
-			traits={ career_officer infantry_officer }
-			skill=2
-			attack_skill=2
-			defense_skill=1
-			planning_skill=2
-			logistics_skill=1
-		}
-	}
-	TCH_andrei_bakich = {
-		name = TCH_andrei_bakich
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/TCH/Portrait_Andrei_Bakich.png"
-			}
-			army={
-				large="gfx/leaders/TCH/Portrait_Andrei_Bakich.png"
-			}
-		}
-		corps_commander={
-			traits={ career_officer infantry_officer }
-			skill=2
-			attack_skill=2
-			defense_skill=2
-			planning_skill=1
-			logistics_skill=2
-		}
-	}
-	TCH_alexander_dutov = {
-		name = TCH_alexander_dutov
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/TCH/Portrait_Alexander_Dutov.png"
-			}
-			army={
-				large="gfx/leaders/TCH/Portrait_Alexander_Dutov.png"
-			}
-		}
-		corps_commander={
-			traits={ career_officer cavalry_officer war_hero }
-			skill=2
-			attack_skill=2
-			defense_skill=1
-			planning_skill=2
-			logistics_skill=2
+			ideology=provisional_government_subtype
+			desc=TCH_baspay_sholakul_bapin_desc
+			traits={ }
+			expire="1950.1.1.1"
 		}
 	}
 }

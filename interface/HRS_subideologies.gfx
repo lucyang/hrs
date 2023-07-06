@@ -412,6 +412,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/monarchism_group/fundamentalism_subtype.dds"
 	}
 
+	spriteType = {
+		name = "GFX_ideology_millenarianism_subtype"
+		texturefile = "gfx/interface/ideologies/monarchism_group/millenarianism_subtype.dds"
+	}
+
 	### Nazi Group ###
 	spriteType = {
 		name = "GFX_ideology_fascism_group"
@@ -471,6 +476,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_ultrastatism_subtype"
 		texturefile = "gfx/interface/ideologies/fascism_group/ultrastatism_subtype.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_xinminism_subtype"
+		texturefile = "gfx/interface/ideologies/fascism_group/xinminism_subtype.dds"
 	}
 
 	### Imperialist Group ###

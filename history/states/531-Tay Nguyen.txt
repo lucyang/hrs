@@ -5,7 +5,7 @@ state={
 		489 1456 2652 3133 5069 5070 5071 5072 5073 5074
 	}
 	history = {
-		owner = VIN
+		owner = DEG
 		add_core_of = DEG
 
 		victory_points = { 2652 3 } #波来古

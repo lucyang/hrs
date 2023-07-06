@@ -1,0 +1,30 @@
+characters={
+	SJX_yuan_wencai={
+		name=SJX_yuan_wencai
+		portraits={
+			civilian={
+				large="gfx/leaders/SJX/Portrait_Yuan_Wencai.png"
+			}
+		}
+		country_leader={
+			ideology=rexism_subtype
+			desc=SJX_yuan_wencai_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+	}
+	SJX_wang_zuo={
+		name=SJX_wang_zuo
+		portraits={
+			civilian={
+				large="gfx/leaders/SJX/Portrait_Wang_Zuo.png"
+			}
+		}
+		country_leader={
+			ideology=ultranationalism_subtype
+			desc=SJX_wang_zuo_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+	}
+}

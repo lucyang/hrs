@@ -37,21 +37,22 @@
  KAZ_communism_party:0 "突厥斯坦共产党"
  KAZ_communism_party_long:0 "突厥斯坦共产党"
  KAZ_anarchism_party:0 "青年哈萨克"
- KAZ_anarchism_party_long:0 "青年哈萨克" # Jas Qazaq (Young Kazakh)
+ KAZ_anarchism_party_long:0 "青年哈萨克" #Jas Qazaq (Young Kazakh)
  KAZ_socialism_party:0 "三玉兹党"
  KAZ_anarchism_party_long:0 "哈萨克社会党"
  KAZ_democratic_party:0 "阿拉什党 - 民主派"
  KAZ_democratic_party_long:0 "阿拉什党 - 民主派"
  KAZ_neutrality_party:0 "阿拉什奥尔达"
  KAZ_neutrality_party_long:0 "临时人民委员会-阿拉什奥尔达"
- KAZ_monarchism_party:0 "传统势力"
- KAZ_monarchism_party_long:0 "传统势力"
+ KAZ_monarchism_party:0 "部族头人"
+ KAZ_monarchism_party_long:0 "部族头人"
  KAZ_fascism_party:0 "阿拉什党 - 民族派"
  KAZ_fascism_party_long:0 "阿拉什党 - 民族派"
- KAZ_imperialism_party:0 "阿拉什党 - 突厥派"
- KAZ_imperialism_party_long:0 "阿拉什党 - 突厥派"
+ KAZ_imperialism_party:0 "阿拉什党 - 泛突厥派"
+ KAZ_imperialism_party_long:0 "阿拉什党 - 泛突厥派"
  KAZ_futurism_party:0 "人民意志党"
  KAZ_futurism_party_long:0 "人民意志党"
+ #Алашская милиция/Alash Militia 阿拉什民兵
  ##################
  ## COSMETIC TAG ##
  ##################

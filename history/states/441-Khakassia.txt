@@ -2,7 +2,7 @@ state={
 	id=441
 	name="STATE_441"
 	provinces={
-		63 617 1012 2739 3403 3412 4762 4763
+		1012 3403 3412 4762 4763
 	}
 	history = {
 		owner = SIB

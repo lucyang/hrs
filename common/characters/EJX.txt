@@ -1,0 +1,30 @@
+characters={
+	EJX_fang_zhimin={
+		name=EJX_fang_zhimin
+		portraits={
+			civilian={
+				large="gfx/leaders/EJX/Portrait_Fang_Zhimin.png"
+			}
+		}
+		country_leader={
+			ideology=agrarian_socialism_subtype
+			desc=EJX_fang_zhimin_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+	}
+	EJX_li_jingquan={
+		name=EJX_li_jingquan
+		portraits={
+			civilian={
+				large="gfx/leaders/EJX/Portrait_Li_Jingquan.png"
+			}
+		}
+		country_leader={
+			ideology=leninism_subtype
+			desc=EJX_li_jingquan_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+	}
+}

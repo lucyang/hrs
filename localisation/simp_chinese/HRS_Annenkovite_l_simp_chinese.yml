@@ -1,0 +1,66 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ APD_communism:0 "突厥斯坦总督区"
+ APD_communism_DEF:0 "突厥斯坦总督区"
+ APD_anarchism:0 "突厥斯坦总督区"
+ APD_anarchism_DEF:0 "突厥斯坦总督区"
+ APD_socialism:0 "突厥斯坦总督区"
+ APD_socialism_DEF:0 "突厥斯坦总督区"
+ APD_democratic:0 "突厥斯坦总督区"
+ APD_democratic_DEF:0 "突厥斯坦总督区"
+ APD_neutrality:0 "突厥斯坦总督区"
+ APD_neutrality_DEF:0 "突厥斯坦总督区"
+ APD_monarchism:0 "突厥斯坦总督区"
+ APD_monarchism_DEF:0 "突厥斯坦总督区"
+ APD_fascism:0 "突厥斯坦总督区"
+ APD_fascism_DEF:0 "突厥斯坦总督区"
+ APD_imperialism:0 "突厥斯坦总督区"
+ APD_imperialism_DEF:0 "突厥斯坦总督区"
+ APD_futurism:0 "突厥斯坦总督区"
+ APD_futurism_DEF:0 "突厥斯坦总督区"
+ APD_communism_ADJ:0 "突厥斯坦总督区"
+ APD_anarchism_ADJ:0 "突厥斯坦总督区"
+ APD_socialism_ADJ:0 "突厥斯坦总督区"
+ APD_democratic_ADJ:0 "突厥斯坦总督区"
+ APD_neutrality_ADJ:0 "突厥斯坦总督区"
+ APD_monarchism_ADJ:0 "突厥斯坦总督区"
+ APD_fascism_ADJ:0 "突厥斯坦总督区"
+ APD_imperialism_ADJ:0 "突厥斯坦总督区"
+ APD_futurism_ADJ:0 "突厥斯坦总督区"
+ APD:0 "突厥斯坦总督区"
+ APD_DEF:0 "突厥斯坦总督区"
+ APD_ADJ:0 "突厥斯坦总督区"
+ #############
+ ## PARTIES ##
+ #############
+ APD_communism_party:0 "突厥斯坦共产党"
+ APD_communism_party_long:0 "突厥斯坦共产党"
+ APD_anarchism_party:0 "青年哈萨克"
+ APD_anarchism_party_long:0 "青年哈萨克"
+ APD_socialism_party:0 "三玉兹党"
+ APD_socialism_party_long:0 "哈萨克社会党"
+ APD_democratic_party:0 "阿拉什党"
+ APD_democratic_party_long:0 "阿拉什党"
+ APD_neutrality_party:0 "阿年科夫游击支队"
+ APD_neutrality_party_long:0 "阿年科夫游击支队" #Партизанскую атамана Анненкова дивизию
+ APD_monarchism_party:0 "第5西伯利亚步枪师"
+ APD_monarchism_party_long:0 "第5西伯利亚步枪师" #亚历山大·杜托夫
+ APD_fascism_party:0 "民族劳动联盟"
+ APD_fascism_party_long:0 "俄罗斯团结主义者民族劳动联盟"
+ APD_imperialism_party:0 "俄罗斯全军联盟"
+ APD_imperialism_party_long:0 "俄罗斯全军联盟"
+ APD_futurism_party:0 "人民意志党"
+ APD_futurism_party_long:0 "人民意志党"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ 
+ ################
+ ## CHARACTERS ##
+ ################
+ APD_boris_annenkov:0 "鲍里斯·阿年科夫"
+ APD_boris_annenkov_desc:0 "§Y出生日期§!：§G1889年2月9日§!\n§Y出生地点§!：§G大俄罗斯共和国下诺夫哥罗德省下诺夫哥罗德市§!"
+ APD_andrei_bakich:0 "安德烈·巴奇赤"
+ APD_alexander_dutov:0 "亚历山大·杜托夫"

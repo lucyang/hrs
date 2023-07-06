@@ -4,8 +4,8 @@ state={
 	name="STATE_529"
 
 	history={
-		owner = IMV
-		add_core_of = IMV
+		owner = VIN
+		add_core_of = VIN
 		victory_points = { 1458 1 } #清化
 		victory_points = { 2295 1 } #和平
 		buildings = {

@@ -20,7 +20,7 @@ set_politics = {
 	elections_allowed = no
 }
 
-recruit_character = YAK_sabit_damolla #沙比提·大毛拉
+recruit_character = YAR_sabit_damolla #沙比提·大毛拉
 
 set_popularities = {
 	communism = 0

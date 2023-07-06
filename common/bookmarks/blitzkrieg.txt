@@ -1,20 +1,20 @@
 bookmarks = {
 	bookmark = {
-		name = "BLITZKRIEG_NAME"
-		desc = "BLITZKRIEG_DESC"
-		date = 1924.2.26.12
-		picture = "GFX_select_date_1924"
-		default_country = "XXI"
-		default = yes
+		name = "HRS_1923_NAME"
+		desc = "HRS_1923_DESC"
+		date = 1923.10.10.12
+		picture = "GFX_select_date_1923"
+		default_country = "IMC"
+		default = no
 		
-		"XXC"={
-			history = "OTHER_BLITZKRIEG_DESC"
+		"IMC"={
+			history = "IMC_HRS_DESC"
 		}
-		"XXI"={
-			history = "OTHER_BLITZKRIEG_DESC"
+		"IMJ"={
+			history = "IMJ_HRS_DESC"
 		}
-		"XON"={
-			history = "OTHER_BLITZKRIEG_DESC"
+		"IMK"={
+			history = "IMK_HRS_DESC"
 		}
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !

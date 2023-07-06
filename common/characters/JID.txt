@@ -10,7 +10,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=corporatism_subtype
+			ideology=xinminism_subtype
 			desc=JID_yin_rugeng_desc
 			traits={ political_chameleon technocrat }
 			expire="1950.1.1.1"

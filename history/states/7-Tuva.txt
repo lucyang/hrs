@@ -5,10 +5,11 @@ state={
 		128 255 319 843 901 1008 1096 1368 1369 1595 1702 2017 2018 2083 2641 3246 3414 3433 
 	}
 	history = {
-		owner = TAN
+		owner = DBJ
 		add_core_of = TAN
-		add_claim_by = DZU
-
+		1924.1.1 = {
+			owner = TAN
+		}
 		victory_points = { 319 20 } #克孜勒/肯木毕齐尔
 		victory_points = { 255 5 } #恰丹
 		victory_points = { 3246 1 } #沙戈纳尔

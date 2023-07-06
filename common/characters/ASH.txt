@@ -1,27 +1,36 @@
 characters = {
-	ASH_usman_batur = {
-		name = ASH_usman_batur
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/ETK/Portrait_Usman_Batur.png"
-			}
-		}
-	}
-	ASH_dalelkhan_sugirbayev = {
-		name = ASH_dalelkhan_sugirbayev
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/ETK/Portrait_Dalelkhan_Sugirbayev.png"
+	ASH_usman_batur={
+		name=ASH_usman_batur
+		portraits={
+			civilian={
+				large="gfx/leaders/ASH/Portrait_Usman_Batur.png"
 			}
 			army={
-				large="gfx/leaders/KVD/Portrait_Dalelkhan_Sugirbayev_military.png"
+				large="gfx/leaders/ASH/Portrait_Usman_Batur.png"
+			}
+		}
+		country_leader={
+			ideology=military_government_subtype
+			desc=ASH_usman_batur_desc
+			traits={ the_batyr }
+			expire="1950.1.1.1"
+		}
+	}
+	ASH_dalelkhan_sugirbayev={
+		name=ASH_dalelkhan_sugirbayev
+		portraits = {
+			civilian = {
+				large="gfx/leaders/ASH/Portrait_Dalelkhan_Sugirbayev.png"
+			}
+			army={
+				large="gfx/leaders/ASH/Portrait_Dalelkhan_Sugirbayev_military.png"
 			}
 		}
 		country_leader = {
-			ideology = left_nationalism_subtype
-			desc = ASH_dalelkhan_sugirbayev_desc
-			traits = {  }
-			expire = "1954.1.1.1"
+			ideology=left_nationalism_subtype
+			desc=ASH_dalelkhan_sugirbayev_desc
+			traits={  }
+			expire="1954.1.1.1"
 		}
 		corps_commander={
 			traits={ cavalry_officer }

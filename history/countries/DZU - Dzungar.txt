@@ -21,10 +21,21 @@ set_politics = {
 	last_election = "1920.11.26"
 	election_frequency = 48
 	elections_allowed = no
-} 
+}
+
+set_popularities = {
+	communism = 18
+	anarchism = 12
+	socialism = 0
+	democratic = 0
+	neutrality = 36
+	monarchism = 24
+	fascism = 10
+	imperialism = 0
+	futurism = 0
+}
 
 recruit_character = DZU_choros_tangguse
-recruit_character = DZU_regent_council
 
 add_ideas = {
 	limited_exports

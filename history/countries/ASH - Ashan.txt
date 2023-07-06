@@ -17,7 +17,7 @@ set_technology = {
 }
 
 set_politics = {	
-	ruling_party = socialism
+	ruling_party = neutrality
 	last_election = "1920.11.26"
 	election_frequency = 48
 	elections_allowed = no
@@ -29,10 +29,10 @@ recruit_character = ASH_dalelkhan_sugirbayev
 set_popularities = {
 	communism = 0
 	anarchism = 8
-	socialism = 40
-	democratic = 14
-    neutrality = 38
-	monarchism = 0
+	socialism = 38
+	democratic = 10
+    neutrality = 40
+	monarchism = 4
 	fascism = 0
 	imperialism = 0
 	futurism = 0

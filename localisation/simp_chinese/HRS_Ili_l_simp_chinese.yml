@@ -32,22 +32,22 @@
  #############
  ## PARTIES ##
  #############
- ILI_communism_party:0 "伊犁解放组织 - 国际派"
- ILI_communism_party_long:0 "伊犁解放组织 - 国际派"
- ILI_anarchism_party:0 "伊犁解放组织 - 革命派"
- ILI_anarchism_party_long:0 "伊犁解放组织 - 革命派"
+ ILI_communism_party:0 "突厥斯坦共产党"
+ ILI_communism_party_long:0 "突厥斯坦共产党"
+ ILI_anarchism_party:0 "图兰民主革命党"
+ ILI_anarchism_party_long:0 "图兰民主革命党"
  ILI_socialism_party:0 "伊犁解放组织 - 扎吉德派"
  ILI_socialism_party_long:0 "伊犁解放组织 - 扎吉德派"
  ILI_democratic_party:0 "伊犁解放组织 - 卡迪木派"
  ILI_democratic_party_long:0 "伊犁解放组织 - 卡迪木派"
- ILI_neutrality_party:0 "伊犁解放组织 - 中间派"
- ILI_neutrality_party_long:0 "伊犁解放组织 - 中间派"
- ILI_monarchism_party:0 "伊犁解放组织 - 汗王派"
- ILI_monarchism_party_long:0 "伊犁解放组织 - 汗王派"
- ILI_fascism_party:0 "伊犁解放组织 - 民族派"
- ILI_fascism_party_long:0 "伊犁解放组织 - 民族派"
- ILI_imperialism_party:0 "伊犁解放组织 - 泛突厥派"
- ILI_imperialism_party_long:0 "伊犁解放组织 - 泛突厥派"
+ ILI_neutrality_party:0 "伊犁解放组织 - 军队派"
+ ILI_neutrality_party_long:0 "伊犁解放组织 - 军队派"
+ ILI_monarchism_party:0 "伊犁解放组织 - 教权派"
+ ILI_monarchism_party_long:0 "伊犁解放组织 - 教权派"
+ ILI_fascism_party:0 "民族革命委员会"
+ ILI_fascism_party_long:0 "民族革命委员会"
+ ILI_imperialism_party:0 "青年喀什噶尔党"
+ ILI_imperialism_party_long:0 "青年喀什噶尔党"
  ILI_futurism_party:0 "伊犁解放组织 - 亲俄派"
  ILI_futurism_party_long:0 "伊犁解放组织 - 亲俄派"
  ##################
@@ -57,7 +57,8 @@
  ################
  ## CHARACTERS ##
  ################
- ILI_gheni_batur:0 "艾尼·巴图尔"
+ ILI_gheni_batur:0 "艾尼·阿不都拉"
+ ILI_gheni_batur_desc:0 "§Y出生日期§!：§G1886年§!\n§Y出生地点§!：§G准噶尔汗国阿克苏州库车县§!"
  ###########
  ## IDEAS ##
  ###########

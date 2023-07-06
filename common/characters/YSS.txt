@@ -1,14 +1,14 @@
 characters={
-	YSS_yellow_sand_society={
-		name=YSS_yellow_sand_society
+	YSS_zhu_rui={
+		name=YSS_zhu_rui
 		portraits={
 			civilian={
-				large="gfx/leaders/YSS/Portrait_Yellow_Sand_Society.png"
+				large="gfx/leaders/YSS/Portrait_Zhu_Rui.png"
 			}
 		}
 		country_leader={
-			ideology=reactionary_populism_subtype
-			desc=YSS_yellow_sand_society_desc
+			ideology=millenarianism_subtype
+			desc=YSS_zhu_rui_desc
 			traits={ voice_of_restraint }
 			expire="1950.1.1.1"
 		}

@@ -35,7 +35,7 @@
  #############
  ## PARTIES ##
  #############
- HAK_communism_party:0 "社民农工党"
+ HAK_communism_party:0 "社会民主农工党"
  HAK_communism_party_long:0 "中国社会民主农工党"
  HAK_anarchism_party:0 "无治共产主义同志社"
  HAK_anarchism_party_long:0 "无治共产主义同志社"
@@ -47,10 +47,10 @@
  HAK_neutrality_party_long:0 "中国革命党 - 民族派"
  HAK_monarchism_party:0 "广东自治会"
  HAK_monarchism_party_long:0 "广东自治会"
- HAK_fascism_party:0 "广东独立协会"
- HAK_fascism_party_long:0 "广东独立协会"
- HAK_imperialism_party:0 "客家大同会"
- HAK_imperialism_party_long:0 "客家大同会"
+ HAK_fascism_party:0 "客家大同会 - 温和派"
+ HAK_fascism_party_long:0 "客家大同会 - 温和派"
+ HAK_imperialism_party:0 "客家大同会 - 激进派"
+ HAK_imperialism_party_long:0 "客家大同会 - 激进派"
  HAK_futurism_party:0 "南洋开发集团"
  HAK_futurism_party_long:0 "南洋开发集团"
  ##################

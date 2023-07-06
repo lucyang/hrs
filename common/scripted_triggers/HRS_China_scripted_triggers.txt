@@ -29,7 +29,7 @@ is_henan_nation = {
 	OR = {
 		original_tag = ZZH #工人委员会联邦
 		original_tag = PDS #佛教弘誓会
-		original_tag = AYG #黄忠民族保卫军
+		original_tag = AYG #黄种民族保卫军
 		original_tag = LYG #镇嵩军
 		original_tag = HEN #河南紧急政府
 		original_tag = WAX #宛西自治区
@@ -79,6 +79,8 @@ is_gansu_nation = {
 		original_tag = GNS #甘肃临时议会
 		original_tag = TSH #甘肃军政府
 		original_tag = CHN #卓尼土王
+		original_tag = SIK #新疆人民共和国
+		original_tag = HAM #安西都护府
 	}
 }
 is_ningxia_nation = {
@@ -164,7 +166,12 @@ is_xiangxi_nation = {
 	}
 }
 is_jiangxi_nation = {
-	#
+	OR = {
+		original_tag = JIX #江西省议会
+		original_tag = JIJ #九江军政府
+		original_tag = EJX #赣东评议会共和国
+		original_tag = SJX #赣南民族共和国
+	}
 }
 is_huazhong_nation = {
 	OR = {
@@ -231,11 +238,11 @@ is_huanan_nation = {
 #########
 is_yunnan_nation = {
 	OR = {
-		original_tag = YUN
-		original_tag = JXP
-		original_tag = MMA
-		original_tag = CHH
-		original_tag = DLI
+		original_tag = YUN #云南军政府
+		original_tag = JXP #江心坡集中营
+		original_tag = MMA #滇西自治区
+		original_tag = CHH #西双版纳
+		original_tag = DLI #大理共和国
 		original_tag = SGR #香格里拉
 	}
 }

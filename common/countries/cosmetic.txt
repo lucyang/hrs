@@ -90,6 +90,10 @@ YUN_IMC = {
 	color = rgb { 181 105 23 }
 	color_ui = rgb { 181 105 23 }
 }
+DEG_VIN = {
+	color = rgb { 181 105 23 }
+	color_ui = rgb { 181 105 23 }
+}
 CHQ_FR = {
 	color = rgb { 80 0 0 }
 	color_ui = rgb { 80 0 0 }

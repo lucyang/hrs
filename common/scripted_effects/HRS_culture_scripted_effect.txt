@@ -749,6 +749,7 @@ HRS_setup_cultures = {
 	# Naga
 	494 = { set_variable = { nationality = 125 } } #那加兰
 	# Dari/Afghan Tajik
+	126 = { set_variable = { nationality = 126 } } #瓦罕走廊
 	442 = { set_variable = { nationality = 126 } } #巴达赫尚
 	# Mon
 	506 = { set_variable = { nationality = 127 } } #孟邦

@@ -40,12 +40,12 @@
  DZU_socialism_party_long:0 "图兰人民革命党 - 扎吉德派"
  DZU_democratic_party:0 "图兰人民革命党 - 卡里木派"
  DZU_democratic_party_long:0 "图兰人民革命党 - 卡迪木派"
- DZU_neutrality_party:0 "准噶尔军队"
- DZU_neutrality_party_long:0 "准噶尔军队"
+ DZU_neutrality_party:0 "中国领事馆"
+ DZU_neutrality_party_long:0 "中国领事馆"
  DZU_monarchism_party:0 "汗王效忠者"
  DZU_monarchism_party_long:0 "汗王效忠者"
- DZU_fascism_party:0 "中国领事馆"
- DZU_fascism_party_long:0 "中国领事馆"
+ DZU_fascism_party:0 "图兰民族党"
+ DZU_fascism_party_long:0 "图兰民族党"
  DZU_imperialism_party:0 "青年喀什噶尔党"
  DZU_imperialism_party_long:0 "青年喀什噶尔党"
  DZU_futurism_party:0 "山西财阀"
@@ -58,4 +58,5 @@
  ## CHARACTERS ##
  ################
  DZU_choros_tangguse:0 "唐古色汗"
+ DZU_choros_tangguse_desc:0 "§Y出生日期§!：§G1906年§!\n§Y出生地点§!：§G准噶尔汗国吉木萨尔州吉木萨尔县§!"
  DZU_regent_council:0 "忽里勒台"

@@ -4,12 +4,12 @@ state={
 	name="STATE_527"
 
 	history={
-		owner = IMV
-		add_core_of = IMV
+		owner = IMC
+		add_core_of = IMC
 		add_core_of = TAT
 		1924.1.1 = {
 			owner = TAT
-			remove_core_of = IMV
+			remove_core_of = IMC
 		}
 		victory_points = { 2615 5 } #山罗
 		victory_points = { 274 1 } #老街

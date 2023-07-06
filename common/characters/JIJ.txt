@@ -1,0 +1,16 @@
+characters={
+	JIJ_li_liejun={
+		name=JIJ_li_liejun
+		portraits={
+			civilian={
+				large="gfx/leaders/JIJ/Portrait_Li_Liejun.png"
+			}
+		}
+		country_leader={
+			ideology=conservatism_subtype
+			desc=JIJ_li_liejun_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+	}
+}

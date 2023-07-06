@@ -43,16 +43,16 @@
  ULI_socialism_party_long:0 "蒙古人民党 - 鲍道派" # 道格索姆·鲍道
  ULI_democratic_party:0 "蒙古人民党 - 丹增派"
  ULI_democratic_party_long:0 "蒙古人民党 - 丹增派" # 索林·丹增
- ULI_neutrality_party:0 "黑喇嘛效忠者"
- ULI_neutrality_party_long:0 "黑喇嘛效忠者"
+ ULI_neutrality_party:0 "喀尔喀战士旅"
+ ULI_neutrality_party_long:0 "喀尔喀战士旅"
  ULI_monarchism_party:0 "博克多汗效忠者"
  ULI_monarchism_party_long:0 "博克多汗效忠者"
  ULI_fascism_party:0 "蒙藏委员会"
  ULI_fascism_party_long:0 "蒙藏委员会"
- ULI_imperialism_party:0 "黑喇嘛效忠者"
- ULI_imperialism_party_long:0 "黑喇嘛效忠者"
- ULI_futurism_party:0 "黑喇嘛效忠者"
- ULI_futurism_party_long:0 "黑喇嘛效忠者"
+ ULI_imperialism_party:0 "黑喇嘛教团 - 效忠派"
+ ULI_imperialism_party_long:0 "黑喇嘛教团 - 效忠派"
+ ULI_futurism_party:0 "黑喇嘛教团 - 亲俄派"
+ ULI_futurism_party_long:0 "黑喇嘛教团 - 亲俄派"
  ##################
  ## COSMETIC TAG ##
  ##################
@@ -61,6 +61,7 @@
  ## CHARACTERS ##
  ################
  ULI_ja_lama:0 "丹毕坚赞"
+ ULI_ja_lama_desc:0 "§Y出生日期§!：§G1886年§!\n§Y出生地点§!：§G准噶尔汗国阿斯特拉罕省阿斯特拉罕§!"
  ############
  ## TRAITS ##
  ############

@@ -65,10 +65,10 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	anarchism = 0
+	anarchism = 6
 	socialism = 25
 	democratic = 11
-	neutrality = 37
+	neutrality = 31
 	monarchism = 7
 	fascism = 0
 	imperialism = 20
@@ -83,7 +83,7 @@ add_ideas = {
 add_ideas = {
 	country_development1
 	country_tech2
-	corporatist_economy
+	dirigisme_economy
 	unitary_state
 }
 

@@ -1,0 +1,30 @@
+characters={
+	JIX_ma_yubao={
+		name=JIX_ma_yubao
+		portraits={
+			civilian={
+				large="gfx/leaders/JIX/Portrait_Ma_Yubao.png"
+			}
+		}
+		country_leader={
+			ideology=guided_democracy_subtype
+			desc=JIX_ma_yubao_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+	}
+	JIX_long_qinhai={
+		name=JIX_long_qinhai
+		portraits={
+			civilian={
+				large="gfx/leaders/JIX/Portrait_Ma_Yubao.png"
+			}
+		}
+		country_leader={
+			ideology=hunan_constitutionalism_subtype
+			desc=JIX_long_qinhai_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+	}
+}

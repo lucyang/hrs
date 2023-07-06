@@ -9,7 +9,7 @@ characters = {
 		country_leader = {
 			ideology = irredentism_subtype
 			desc = AKS_timur_beg_desc
-			traits = {  }
+			traits = { the_beg }
 			expire = "1951.1.1.1"
 		}
 	}
@@ -22,8 +22,8 @@ characters = {
 		}
 		country_leader = {
 			ideology = islamic_state_subtype
-			desc = AKS_timur_shah_desc
-			traits = {  }
+			desc = AKS_timur_beg_desc
+			traits = { the_shah }
 			expire = "1951.1.1.1"
 		}
 	}

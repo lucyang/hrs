@@ -21,7 +21,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=corporatism_subtype
+			ideology=xinminism_subtype
 			desc=JIB_feng_sizhi_desc
 			traits={ traditionalist_theorist }
 			expire="1950.1.1.1"

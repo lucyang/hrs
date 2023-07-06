@@ -53,6 +53,12 @@ KTS = "countries/Kantoshu.txt"
 ### CHINA/CENTRAL ###
 # HUBEI #
 CHI = "countries/China.txt"
+# JIANGXI #
+JIX = "countries/Jiangxi.txt"
+JIJ = "countries/Jiujiang.txt"
+EJX = "countries/East Jiangxi.txt"
+SJX = "countries/South Jiangxi.txt"
+DAO = "countries/Daoists.txt"
 # HUNAN #
 MAO = "countries/Lmao.txt"
 HNA = "countries/Hunan.txt"
@@ -226,6 +232,7 @@ YAR = "countries/Yarkand.txt"
 AKS = "countries/Aksu.txt"
 SIK = "countries/Sinkiang.txt"
 TCH = "countries/Tacheng.txt"
+APD = "countries/Annenkov Partisan Division.txt"
 ILI = "countries/Ili.txt"
 HAM = "countries/Hami.txt"
 TUR = "countries/Turpan.txt"

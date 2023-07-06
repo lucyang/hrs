@@ -7,11 +7,7 @@ state={
 	history = {
 		owner = DZU
 		add_core_of = DZU
-		1924.1.1 = {
-			owner = ILI
-			add_core_of = ILI
-			remove_core_of = DZU
-		}
+		
 		victory_points = { 421 1 } #博尔塔拉
 		victory_points = { 530 10 } #固勒扎
 		victory_points = { 1536 1 } #霍尔果斯

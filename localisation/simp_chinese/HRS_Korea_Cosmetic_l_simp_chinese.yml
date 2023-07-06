@@ -32,10 +32,12 @@
  KPA_communist_KOREA_anarchism:0 "朝鲜工农共和国"
  KPA_communist_KOREA_anarchism_DEF:0 "朝鲜工农共和国"
  #申采浩
- KPA_nationalist_KOREA_anarchism:0 "朝鲜自由民"
- KPA_nationalist_KOREA_anarchism_DEF:0 "朝鲜自由民"
+ KPA_nationalist_KOREA_anarchism:0 "倍达自由民"
+ KPA_nationalist_KOREA_anarchism_DEF:0 "倍达自由民"
+ KPA_nationalist_KOREA_anarchism_ADJ:0 "倍达"
  KPA_nationalist_KOREA_imperialism:0 "倍达民族国"
  KPA_nationalist_KOREA_imperialism_DEF:0 "倍达民族国"
+ KPA_nationalist_KOREA_imperialism_ADJ:0 "倍达"
  #柳子明
  KPA_anarchist_KOREA_anarchism:0 "朝鲜自由地区"
  KPA_anarchist_KOREA_anarchism_DEF:0 "朝鲜自由地区"
@@ -74,13 +76,17 @@
  GJW_KOREA_socialism:0 "朝鲜人民共和国"
  GJW_KOREA_socialism_DEF:0 "朝鲜人民共和国" 
  ## CSK-元山总工会 ##
- GJW_KOREA_anarchism:0 "朝鲜公社联邦"
- GJW_KOREA_anarchism_DEF:0 "朝鲜公社联邦"
+ GSK_KOREA_anarchism:0 "朝鲜公社联邦"
+ GSK_KOREA_anarchism_DEF:0 "朝鲜公社联邦"
+
+ SE_KOR_GSK_anarchism_unification:0 "朝鲜光复"
+ SE_KOR_GSK_anarchism_unification_TEXT:0 "我尤其希望这种大众社会的现实能够被自由地打破。社会将不再是一团散沙，人们也不再是一片片碎面包屑。\n——全泰壹"
+ SE_KOR_GSK_anarchism_unification_QUOTE:0 "全世界无产者，团结起来！"
  ############
  ## EVENTS ##
  ############
  kor_KOREA.1.t:0 "朝鲜新都"
- kor_KOREA.1.desc:0 "在解放了朝鲜半岛后，是时候为新生的朝鲜民族国家寻找一处适合的首都了，摆在我们面前的有三个现成的答案：平壤、开城和京城。朝鲜半岛的各个政权大多选择这三座城市作为都城，而它们的经济发展状况也要好于朝鲜其它地区。也有人认为，我们现在的首都就很不错，不需要格外迁都，[ROOT.GetName]将会选择哪座城市作为我们的新首都？"
+ kor_KOREA.1.desc:0 "在解放了朝鲜半岛后，是时候为新生的朝鲜民族国家寻找一处适合的首都了，摆在我们面前的有三个现成的答案：平壤、开城和京城。朝鲜半岛的统一政权大多选择这三座城市作为都城，而它们的经济发展状况也要好于朝鲜其它地区。也有人认为，我们现在的首都就很不错，不需要格外迁都，[ROOT.GetName]将会选择哪座城市作为我们的新首都？"
  kor_KOREA.1.a:0 "平壤"
  kor_KOREA.1.b:0 "开城"
  kor_KOREA.1.c:0 "京城"
@@ -107,7 +113,7 @@
  ### 金佐镇 ###
  ank_news.2.t:0 "朝鲜光复"
  ank_news.2.desc:0 "见义勇为是我们独立军的精神，临阵不退是我们独立军的气魄。让我们奋发正义，无论成败，共同拯救沦亡的民族和祖国。\n——金佐镇"
- ank_news.2.a:0 "白头山石磨刀尽，豆万江水饮马无"
+ ank_news.2.a:0 "登上白头山巅，唯见朝鲜一叶！"
  ### 金元凤(安)、柳子明、白贞基 ###
  ank_news.3.t:0 "朝鲜光复"
  ank_news.3.desc:0 "民众是我们革命的大本营，暴力是我们革命的唯一武器。我们到民众中间和民众联合，要建立一个没有压迫也没有剥削的理想社会。\n——《朝鲜革命宣言》"
@@ -134,7 +140,7 @@
  ank_news.8.a:0 "没有神明，也没有主人！"
  ### 韩族总联合会(军政府) ###
  ank_news.9.t:0 "朝鲜光复"
- ank_news.9.desc:0 "\n——"
+ ank_news.9.desc:0 "在死之前，只要独立之日能够来临，我将与那夜晚的乌鸦一起，用头撞响钟路的古钟。​\n——沈熏"
  ank_news.9.a:0 "自由已死，自由之地尚存"
  #### 京城势力 ####
  ### 朴宪永 ###
@@ -142,10 +148,7 @@
  kor_news.1.desc:0 "为了取得胜利，我们必须毫不犹豫地做出任何牺牲，从现在开始，我们必须谋划一场长期的战争。\n——朴宪永"
  kor_news.1.a:0 "打败帝国主义野心狼"
  ### 어느 나라에서든 인민은 그들의 주권과 독립을 위해서 유혈전쟁을 수행하지 않으면 안 된다. 따라서 우리는 승리를 얻기 위해 어떠한 희생도 주저해서는 안 되고 지금부터라도 장기전을 계획하지 않으면 안 된다. ###
- ### 工团 ###
- kor_news.2.t:0 "朝鲜光复"
- kor_news.2.desc:0 "我尤其希望这种大众社会的现实能够被自由地打破。社会将不再是一团散沙，人们也不再是一片片碎面包屑。\n——全泰壹"
- kor_news.2.a:0 "全世界无产者，团结起来！"
+
  ### 金子文子 ###
  kor_news.3.t:0 "朝鲜光复"
  kor_news.3.desc:0 "当社会发生变革，那时人们会得到什么呢？领袖将会掌握权力。有了这种力量，他们将建立起新的世界秩序，人民不得不再次成为权力的奴隶。\n——金子文子"
@@ -212,5 +215,5 @@
  ### 申采浩(极民) ###
  prk_news.13.t:0 "朝鲜光复"
  prk_news.13.desc:0 "一个民族只要有独立自由的精神，就算不存在国土和主权，其心目中的国家就是完整的，其心中的国家就会雄飞，其国民的头上自有国家的天空。\n——申采浩"
- prk_news.13.a:0 "五千年历史的倍达民族，永远繁荣"
+ prk_news.13.a:0 "五千年历史倍达民族，永远繁荣！"
  

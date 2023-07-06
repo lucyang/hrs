@@ -3,7 +3,7 @@
 #oob = "empty"
 set_country_flag = is_china_nation
 
-recruit_character = YSS_yellow_sand_society
+recruit_character = YSS_zhu_rui
 
 set_technology = {
 	infantry_weapons = 1

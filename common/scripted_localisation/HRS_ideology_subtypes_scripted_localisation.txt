@@ -297,6 +297,10 @@ defined_text = {
 		localization_key = partisan_movement_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = confucian_capitalism_subtype }
+		localization_key = confucian_capitalism_subtype
+	}
+	text = {
 		localization_key = neutrality_subtype
 	}
 }
@@ -352,8 +356,8 @@ defined_text = {
 		localization_key = feudalism_subtype
 	}
 	text = {
-		trigger = { has_country_leader_ideology = confucian_capitalism_subtype }
-		localization_key = confucian_capitalism_subtype
+		trigger = { has_country_leader_ideology = millenarianism_subtype }
+		localization_key = millenarianism_subtype
 	}
 	text = {
 		localization_key = monarchism_subtype
@@ -401,6 +405,10 @@ defined_text = {
 	text = {
 		trigger = { has_country_leader_ideology = ultrastatism_subtype }
 		localization_key = ultrastatism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = xinminism_subtype }
+		localization_key = xinminism_subtype
 	}
 	text = {
 		localization_key = fascism_subtype

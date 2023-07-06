@@ -35,18 +35,18 @@
  #############
  ## PARTIES ##
  #############
- TIJ_communism_party:0 "社民农工党"
- TIJ_communism_party_long:0 "中国社会民主农工党"
+ TIJ_communism_party:0 "青年军人联合会"
+ TIJ_communism_party_long:0 "中国青年军人联合会"
  TIJ_anarchism_party:0 "劳动组合书记部"
  TIJ_anarchism_party_long:0 "中国劳动组合书记部"
- TIJ_socialism_party:0 "革命同盟军"
- TIJ_socialism_party_long:0 "革命同盟军"
+ TIJ_socialism_party:0 "中国民主政团同盟"
+ TIJ_socialism_party_long:0 "中国民主政团同盟"
  TIJ_democratic_party:0 "中华革命党"
  TIJ_democratic_party_long:0 "中华革命党"
  TIJ_neutrality_party:0 "华北治安军"
  TIJ_neutrality_party_long:0 "华北治安军"
- TIJ_monarchism_party:0 "一贯道"
- TIJ_monarchism_party_long:0 "一贯道"
+ TIJ_monarchism_party:0 "中华理教总会
+ TIJ_monarchism_party_long:0 "中华理教总会
  TIJ_fascism_party:0 "中国新民会"
  TIJ_fascism_party_long:0 "中国新民会"
  TIJ_imperialism_party:0 "战国策派"
