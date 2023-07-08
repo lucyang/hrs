@@ -28,22 +28,22 @@
  EJX_fascism_ADJ:0 "赣东"
  EJX_imperialism_ADJ:0 "赣东"
  EJX_futurism_ADJ:0 "赣东"
- EJX:0 "江西"
+ EJX:0 "赣东"
  EJX_DEF:0 "赣东评议会共和国"
  EJX_ADJ:0 "江西"
  #############
  ## PARTIES ##
  #############
- EJX_communism_party:0 "社会民主农工党"
- EJX_communism_party_long:0 "中国社会民主农工党"
- EJX_anarchism_party:0 "江西改造社"
- EJX_anarchism_party_long:0 "江西改造社"
+ EJX_communism_party:0 "青年军人联合会"
+ EJX_communism_party_long:0 "中国青年军人联合会"
+ EJX_anarchism_party:0 "改造社"
+ EJX_anarchism_party_long:0 "改造社"
  EJX_socialism_party:0 "中国社会党"
  EJX_socialism_party_long:0 "中国社会党"
  EJX_democratic_party:0 "合群社"
  EJX_democratic_party_long:0 "合群社"
  EJX_neutrality_party:0 "谠言社"
- EJX_neutrality_party_long:0 "谠言社"
+ EJX_neutrality_party_long:0 "谠言社" #江西红军独立第五团
  EJX_monarchism_party:0 "洪江会"
  EJX_monarchism_party_long:0 "洪江会"
  EJX_fascism_party:0 "中国青年党"

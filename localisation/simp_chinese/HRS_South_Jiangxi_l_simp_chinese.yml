@@ -34,10 +34,10 @@
  #############
  ## PARTIES ##
  #############
- SJX_communism_party:0 "社会民主农工党"
- SJX_communism_party_long:0 "中国社会民主农工党"
- SJX_anarchism_party:0 "江西改造社"
- SJX_anarchism_party_long:0 "江西改造社"
+ SJX_communism_party:0 "青年军人联合会"
+ SJX_communism_party_long:0 "中国青年军人联合会"
+ SJX_anarchism_party:0 "改造社"
+ SJX_anarchism_party_long:0 "改造社"
  SJX_socialism_party:0 "中国社会党"
  SJX_socialism_party_long:0 "中国社会党"
  SJX_democratic_party:0 "合群社"
@@ -48,8 +48,8 @@
  SJX_monarchism_party_long:0 "洪江会"
  SJX_fascism_party:0 "客家大同会 - 温和派"
  SJX_fascism_party_long:0 "客家大同会 - 温和派"
- SJX_imperialism_party:0 "客家大同会 - 激进派"
- SJX_imperialism_party_long:0 "客家大同会 - 激进派"
+ SJX_imperialism_party:0 "革命军派"
+ SJX_imperialism_party_long:0 "革命军派"
  SJX_futurism_party:0 "广州商团"
  SJX_futurism_party_long:0 "广州商团"
  ##################
