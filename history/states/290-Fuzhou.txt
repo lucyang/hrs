@@ -8,8 +8,8 @@ state={
 		owner = IMC
 		add_core_of = IMC
 		1924.1.1 = {
-			owner = DAO
-			add_core_of = DAO
+			owner = SJX
+			add_core_of = SJX
 			remove_core_of = IMC
 		}
 		victory_points = {

@@ -48,8 +48,8 @@
  JIX_monarchism_party_long:0 "洪江会"
  JIX_fascism_party:0 "中国青年党"
  JIX_fascism_party_long:0 "中国青年党"
- JIX_imperialism_party:0 "革命军派"
- JIX_imperialism_party_long:0 "革命军派"
+ JIX_imperialism_party:0 "皇汉会"
+ JIX_imperialism_party_long:0 "皇汉会"
  JIX_futurism_party:0 "广州商团"
  JIX_futurism_party_long:0 "广州商团"
  ##################
@@ -59,9 +59,10 @@
  ################
  ## CHARACTERS ##
  ################
+ JIX_li_liejun:0 "李烈钧"
+ JIX_li_liejun_desc:0 "§Y出生日期§!：§G1882年§!\n§Y出生地点§!：§G大东帝国浔阳道九江府§!"
  JIX_ma_yubao:0 "马毓宝"
  JIX_ma_yubao_desc:0 "§Y出生日期§!：§G不详§!\n§Y出生地点§!：§G大东帝国庐陵道宁冈县§!"
-
  JIX_long_qinhai:0 "龙钦海"
  JIX_long_qinhai_desc:0 "§Y出生日期§!：§G不详§!\n§Y出生地点§!：§G大东帝国庐陵道宁冈县§!"
  ###########

@@ -1,4 +1,4 @@
-﻿capital = 286 #鹰潭
+﻿capital = 288 #抚州
 
 recruit_character = DAO_miu_bin
 recruit_character = DAO_zhang_enpu

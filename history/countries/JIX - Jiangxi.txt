@@ -1,5 +1,6 @@
 ﻿capital = 279 #南昌
 
+recruit_character = JIX_li_liejun
 recruit_character = JIX_ma_yubao
 recruit_character = JIX_long_qinhai
 
@@ -92,11 +93,11 @@ add_ideas = {
 
 set_research_slots = 3
 set_convoys = 10
-set_stability = 0.60
+set_stability = 0.70
 set_war_support = 0.35
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1922.9.14"
 	election_frequency = 60
 	elections_allowed = yes
@@ -104,11 +105,11 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	anarchism = 0
-	socialism = 6
-	democratic = 43
-	neutrality = 47
-	monarchism = 4
+	anarchism = 10
+	socialism = 0
+	democratic = 37
+	neutrality = 33
+	monarchism = 20
 	fascism = 0
 	imperialism = 0
 	futurism = 0

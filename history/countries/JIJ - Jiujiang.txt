@@ -1,6 +1,7 @@
 ﻿capital = 264 #九江
 
-recruit_character = JIJ_li_liejun
+recruit_character = JIJ_hu_xianxiao
+recruit_character = JIJ_wu_mi
 
 #oob = "empty"
 set_country_flag = is_china_nation
@@ -86,7 +87,7 @@ add_ideas = {
 	country_development3
 	country_tech3
 	market_economy1
-	unitary_state
+	federation1
 }
 
 set_research_slots = 3
@@ -95,7 +96,7 @@ set_stability = 0.60
 set_war_support = 0.35
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1922.9.14"
 	election_frequency = 60
 	elections_allowed = no
@@ -104,10 +105,10 @@ set_politics = {
 set_popularities = {
 	communism = 0
 	anarchism = 0
-	socialism = 6
-	democratic = 71
-	neutrality = 20
-	monarchism = 0
+	socialism = 0
+	democratic = 6
+	neutrality = 71
+	monarchism = 20
 	fascism = 3
 	imperialism = 0
 	futurism = 0

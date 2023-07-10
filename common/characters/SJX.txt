@@ -1,4 +1,18 @@
 characters={
+	SJX_hongjiang_society={
+		name=SJX_hongjiang_society
+		portraits={
+			civilian={
+				large="gfx/leaders/SJX/Portrait_Hong_Jiang_Society.png"
+			}
+		}
+		country_leader={
+			ideology=reactionary_populism_subtype
+			desc=SJX_hongjiang_society_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
+	}
 	SJX_yuan_wencai={
 		name=SJX_yuan_wencai
 		portraits={

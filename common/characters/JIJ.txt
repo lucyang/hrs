@@ -1,16 +1,30 @@
 characters={
-	JIJ_li_liejun={
-		name=JIJ_li_liejun
+	JIJ_hu_xianxiao={
+		name=JIJ_hu_xianxiao
 		portraits={
 			civilian={
-				large="gfx/leaders/JIJ/Portrait_Li_Liejun.png"
+				large="gfx/leaders/JIJ/Portrait_Hu_Xianxiao.png"
 			}
 		}
 		country_leader={
-			ideology=conservatism_subtype
-			desc=JIJ_li_liejun_desc
-			traits={ }
-			expire="1950.1.1.1"
+			ideology=guided_democracy_subtype #→Neo-Humanism
+			desc=JIJ_hu_xianxiao_desc
+			traits={ gentle_scholar }
+			expire="1968.7.16.1"
+		}
+	}
+	JIJ_wu_mi={
+		name=JIJ_wu_mi
+		portraits={
+			civilian={
+				large="gfx/leaders/JIJ/Portrait_Wu_Mi.png"
+			}
+		}
+		country_leader={
+			ideology=fundamentalism_subtype
+			desc=JIJ_wu_mi_desc
+			traits={ gentle_scholar }
+			expire="1978.1.17.1"
 		}
 	}
 }

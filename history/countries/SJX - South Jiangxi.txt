@@ -1,7 +1,6 @@
-﻿capital = 310 #赣州
+﻿capital = 290 #抚州
 
-recruit_character = SJX_yuan_wencai
-recruit_character = SJX_wang_zuo
+recruit_character = SJX_hongjiang_society
 
 #oob = "empty"
 set_country_flag = is_china_nation
@@ -86,17 +85,17 @@ add_ideas = {
 add_ideas = {
 	country_development1
 	country_tech2
-	dirigisme_economy
-	unitary_state1
+	bandit_economy
+	unitary_state
 }
 
-set_research_slots = 3
+set_research_slots = 2
 set_convoys = 10
 set_stability = 0.60
 set_war_support = 0.35
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = monarchism
 	last_election = "1922.9.14"
 	election_frequency = 60
 	elections_allowed = no
@@ -104,12 +103,12 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	anarchism = 0
+	anarchism = 20
 	socialism = 0
-	democratic = 0
-	neutrality = 0
-	monarchism = 0
-	fascism = 69
-	imperialism = 31
+	democratic = 7
+	neutrality = 30
+	monarchism = 37
+	fascism = 6
+	imperialism = 0
 	futurism = 0
 }
