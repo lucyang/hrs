@@ -1,0 +1,55 @@
+﻿l_simp_chinese:
+ ################
+ ## COUNTRIES  ##
+ ################
+ SRW_communism:0 "砂拉越王国"
+ SRW_communism_DEF:0 "砂拉越王国"
+ SRW_anarchism:0 "砂拉越王国"
+ SRW_anarchism_DEF:0 "砂拉越王国"
+ SRW_socialism:0 "砂拉越王国"
+ SRW_socialism_DEF:0 "砂拉越王国"
+ SRW_democratic:0 "砂拉越王国"
+ SRW_democratic_DEF:0 "砂拉越王国"
+ SRW_neutrality:0 "砂拉越王国"
+ SRW_neutrality_DEF:0 "砂拉越王国"
+ SRW_monarchism:0 "砂拉越王国"
+ SRW_monarchism_DEF:0 "砂拉越王国"
+ SRW_fascism:0 "砂拉越王国"
+ SRW_fascism_DEF:0 "砂拉越王国"
+ SRW_imperialism:0 "砂拉越王国"
+ SRW_imperialism_DEF:0 "砂拉越王国"
+ SRW_futurism:0 "砂拉越王国"
+ SRW_futurism_DEF:0 "砂拉越王国"
+ SRW_communism_ADJ:0 "砂拉越"
+ SRW_anarchism_ADJ:0 "砂拉越"
+ SRW_socialism_ADJ:0 "砂拉越"
+ SRW_democratic_ADJ:0 "砂拉越"
+ SRW_neutrality_ADJ:0 "砂拉越"
+ SRW_monarchism_ADJ:0 "砂拉越"
+ SRW_fascism_ADJ:0 "砂拉越"
+ SRW_imperialism_ADJ:0 "砂拉越"
+ SRW_futurism_ADJ:0 "砂拉越"
+ ##############
+ ## PARTIES  ##
+ ##############
+ SRW_communism_party:0 "南洋共产党"
+ SRW_communism_party_long:0 "南洋共产党"
+ SRW_anarchism_party:0 "华侨青年社"
+ SRW_anarchism_party_long:0 "华侨青年社"
+ SRW_socialism_party:0 "中国社会党 - 砂拉越"
+ SRW_socialism_party_long:0 "中国社会党 - 砂拉越支部"
+ SRW_democratic_party:0 "中国同盟会 - 诗巫"
+ SRW_democratic_party_long:0 "中国同盟会 - 诗巫分会"
+ SRW_neutrality_party:0 "蒋家王朝"
+ SRW_neutrality_party_long:0 "蒋家王朝"
+ SRW_monarchism_party:0 "华人秘密会社"
+ SRW_monarchism_party_long:0 "华人秘密会社"
+ SRW_fascism_party:0 "砂拉越宪兵队"
+ SRW_fascism_party_long:0 "砂拉越宪兵队"
+ SRW_imperialism_party:0 "马来人联合会 - 砂拉越"
+ SRW_imperialism_party_long:0 "马来人联合会 - 砂拉越支部"
+ SRW_futurism_party:0 "砂拉越中华总商会"
+ SRW_futurism_party_long:0 "砂拉越中华总商会"
+ ###################
+ ## COSMETIC TAG  ##
+ ###################

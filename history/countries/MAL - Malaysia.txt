@@ -24,20 +24,21 @@ set_convoys = 30
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1935.5.9"
+	last_election = "1920.5.9"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
-	communism = 11
+	communism = 0
 	anarchism = 0
-    democratic = 26
-	neutrality = 34
+	socialism = 17
+    democratic = 34
+	neutrality = 26
 	monarchism = 0
 	fascism = 15
 	imperialism = 8
-	futurism = 6
+	futurism = 0
 }
 
 add_ideas = {
@@ -47,8 +48,8 @@ add_ideas = {
 }
 
 add_ideas = {
-	country_development3
-	country_tech3
-	market_economy
+	country_development2
+	country_tech4
+	market_economy1
 	federation1
 }

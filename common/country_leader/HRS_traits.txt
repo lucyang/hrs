@@ -336,4 +336,11 @@ leader_traits = {
 		war_support_factor = 0.05
 		cavalry_attack_factor = 0.05
 	}
+
+	rubber_magnate = {
+		random = no
+		
+		local_resources_factor = 0.10
+		trade_opinion_factor = 0.10
+	}
 }

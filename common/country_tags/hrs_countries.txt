@@ -9,6 +9,7 @@ ZDJ = "countries/Zhendong Jiedushi.txt"
 DBJ = "countries/Dingbei Jiedushi.txt"
 HSW = "countries/Hsenwi.txt"
 ADM = "countries/Andaman.txt"
+SNG = "countries/Singapore.txt"
 ### IMPERIAL DOMINION ###
 MAL = "countries/Malaysia.txt"
 LNF = "countries/Lanfang.txt" # Kalimantan & Borneo

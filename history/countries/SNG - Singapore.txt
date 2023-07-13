@@ -1,0 +1,59 @@
+﻿capital = 394 #新加坡
+
+#oob = "empty"
+
+set_research_slots = 3
+
+recruit_character = SNG_wang_kemin
+recruit_character = SNG_tan_kah_kee
+recruit_character = SNG_lim_nee_soon
+recruit_character = SNG_teo_eng_hock
+recruit_character = SNG_tan_chor_lam
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	early_fighter = 1
+	trench_warfare = 1
+	transport = 1
+	fleet_in_being = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+}
+set_convoys = 50
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1920.5.9"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	communism = 14
+	anarchism = 6
+	socialism = 0
+    democratic = 21
+	neutrality = 29
+	monarchism = 22
+	fascism = 8
+	imperialism = 0
+	futurism = 0
+}
+
+add_ideas = {
+	export_focus
+	volunteer_only
+	civilian_economy
+}
+
+add_ideas = {
+	country_development3
+	country_tech4
+	market_economy
+	unitary_state
+}

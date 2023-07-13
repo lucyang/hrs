@@ -8,7 +8,11 @@ state={
 		owner = MAL
 		add_core_of = MAL
 		
-		victory_points = { 589 10 } #槟城
+		victory_points = { 589 20 } #槟城
+		victory_points = { 4266 10 } #马六甲
+		victory_points = { 2271 5 } #新山
+		victory_points = { 1827 3 } #旧锡/吉隆坡
+		victory_points = { 310 1 } #怡保/山城/坝罗
 
 		buildings = {
 			infrastructure = 2

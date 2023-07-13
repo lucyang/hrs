@@ -1,0 +1,72 @@
+characters={
+	SNG_lim_nee_soon={
+		name=SNG_lim_nee_soon
+		portraits={
+			civilian={
+				large="gfx/leaders/SNG/Portrait_Lim_Nee_Soon.png"
+			}
+		}
+		country_leader={
+			ideology=tridemism_subtype
+			desc=SNG_lim_nee_soon_desc
+			traits={ social_reformer rubber_tycoon }
+			expire="1950.1.1.1"
+		}
+	}
+	SNG_tan_chor_lam={
+		name=SNG_tan_chor_lam
+		portraits={
+			civilian={
+				large="gfx/leaders/SNG/Portrait_Tan_Chor_Nam.png"
+			}
+		}
+		#country_leader={
+		#	ideology=liberalism_subtype
+		#	desc=SNG_tan_chor_lam_desc
+		#	traits={ freedom_fighter }
+		#	expire="1950.1.1.1"
+		#}
+	}
+	SNG_teo_eng_hock={
+		name=SNG_teo_eng_hock
+		portraits={
+			civilian={
+				large="gfx/leaders/SNG/Portrait_Teo_Eng_Hock.png"
+			}
+		}
+		country_leader={
+			ideology=kongsi_republic_subtype
+			desc=SNG_teo_eng_hock_desc
+			traits={ the_banker }
+			expire="1950.1.1.1"
+		}
+	}
+	SNG_tan_kah_kee={
+		name=SNG_tan_kah_kee
+		portraits={
+			civilian={
+				large="gfx/leaders/SNG/Portrait_Tan_Kah_Kee.png"
+			}
+		}
+		#country_leader={
+		#	ideology=interim_government_subtype
+		#	desc=SNG_tan_kah_kee_desc
+		#	traits={ the_foreign_connection }
+		#	expire="1950.1.1.1"
+		#}
+	}
+	SNG_wang_kemin={
+		name=SNG_wang_kemin
+		portraits={
+			civilian={
+				large="gfx/leaders/SNG/Portrait_Wang_Kemin.png"
+			}
+		}
+		country_leader={
+			ideology=xinminism_subtype
+			desc=SNG_wang_kemin_desc
+			traits={ technocrat puppet }
+			expire="1950.1.1.1"
+		}
+	}
+}

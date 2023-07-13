@@ -1,0 +1,65 @@
+﻿l_simp_chinese:
+ ################
+ ## COUNTRIES  ##
+ ################
+ SNG_communism:0 "星洲特别市"
+ SNG_communism_DEF:0 "星洲特别市"
+ SNG_anarchism:0 "星洲特别市"
+ SNG_anarchism_DEF:0 "星洲特别市"
+ SNG_socialism:0 "星洲特别市"
+ SNG_socialism_DEF:0 "星洲特别市"
+ SNG_democratic:0 "星洲特别市"
+ SNG_democratic_DEF:0 "星洲特别市"
+ SNG_neutrality:0 "星洲特别市"
+ SNG_neutrality_DEF:0 "星洲特别市"
+ SNG_monarchism:0 "星洲特别市"
+ SNG_monarchism_DEF:0 "星洲特别市"
+ SNG_fascism:0 "星洲特别市"
+ SNG_fascism_DEF:0 "星洲特别市"
+ SNG_imperialism:0 "星洲特别市"
+ SNG_imperialism_DEF:0 "星洲特别市"
+ SNG_futurism:0 "星洲特别市"
+ SNG_futurism_DEF:0 "星洲特别市"
+ SNG_communism_ADJ:0 "星洲"
+ SNG_anarchism_ADJ:0 "星洲"
+ SNG_socialism_ADJ:0 "星洲"
+ SNG_democratic_ADJ:0 "星洲"
+ SNG_neutrality_ADJ:0 "星洲"
+ SNG_monarchism_ADJ:0 "星洲"
+ SNG_fascism_ADJ:0 "星洲"
+ SNG_imperialism_ADJ:0 "星洲"
+ SNG_futurism_ADJ:0 "星洲"
+ ##############
+ ## PARTIES  ##
+ ##############
+ SNG_communism_party:0 "南洋共产党"
+ SNG_communism_party_long:0 "南洋共产党" #杨匏安
+ SNG_anarchism_party:0 "真社"
+ SNG_anarchism_party_long:0 "真社" #刘克非（刘师复之弟）
+ SNG_socialism_party:0 "中国社会党 - 星洲"
+ SNG_socialism_party_long:0 "中国社会党 - 星洲支部"
+ SNG_democratic_party:0 "中国同盟会 - 星洲"
+ SNG_democratic_party_long:0 "中国同盟会 - 星洲分会" #林义顺/陈楚楠
+ SNG_neutrality_party:0 "星洲咨议局"
+ SNG_neutrality_party_long:0 "星洲咨议局" #张永福/陈嘉庚
+ SNG_monarchism_party:0 "华人秘密会社"
+ SNG_monarchism_party_long:0 "华人秘密会社"
+ SNG_fascism_party:0 "星洲宪兵队"
+ SNG_fascism_party_long:0 "星洲宪兵队" #王克敏
+ SNG_imperialism_party:0 "马来人联合会 - 星洲"
+ SNG_imperialism_party_long:0 "马来人联合会 - 星洲支部" #Kesatuan Melayu Singapura
+ SNG_futurism_party:0 "星洲中华总商会"
+ SNG_futurism_party_long:0 "星洲中华总商会"
+ ###################
+ ## COSMETIC TAG  ##
+ ###################
+ SNG_wang_kemin:0 "王克敏"
+ SNG_wang_kemin_desc:0 "§Y出生日期§!：§G1876年5月4日§!\n§Y出生地点§!：§G大东帝国浙江省钱塘道杭州府§!\n\n单就个人阅历而言，王克敏绝对是官僚队伍中的佼佼者。王克敏在27岁时就通过了国考，获得举人头衔。五年后便在§Y杨士骧§!手下参与外务部各项事务，此时的他可谓年少有成。工作期间，王克敏前去法英王国游学，认识了不少金融界的大亨，成为金融界的知名人物。1917年，王克敏的仕途达到了巅峰——就任中国银行总裁。\n\n然而好日子没过几年，社会党政府接连爆出财政丑闻，作为替罪羊的王克敏被迫下野，以熄灭民众的怒火。好在帝国为他准备了一份好差事——§G星洲特别市§!的财政部长。王克敏的任务并不难，那就是确保星洲能为帝国枯萎的躯体持续输入新鲜血液。相信他能不负§R钱鬼子§!之名号，从星洲人民身上榨取到最后的血汗。\n\n然而天有不测风云，§R1923年革命§!将平静的南洋搅得天翻地覆，怀有贰心的§Y马来亚联合邦§!立刻宣布“局外中立”，星洲也出现了大规模的骚乱事件。好在王克敏及时出动宪兵队，成功将叛乱扼杀在摇篮之中。然而王克敏很快发现，自己的统治完全仰仗§O帝国宪兵队§!的权威——这意味着他不得不听从那帮粗鲁的日本兵指挥，否则等待他的只有死亡与背叛·······"
+ SNG_tan_kah_kee:0 "陈嘉庚"
+ SNG_tan_kah_kee_desc:0 "§Y出生日期§!：§G1883年4月5日§!\n§Y出生地点§!：§G大东帝国福建省南路道泉州府§!"
+ SNG_lim_nee_soon:0 "林义顺"
+ SNG_lim_nee_soon_desc:0 "§Y出生日期§!：§G1879年11月12日§!\n§Y出生地点§!：§G大东帝国星洲特别市甘榜格南§!"
+ SNG_teo_eng_hock:0 "张永福"
+ SNG_teo_eng_hock_desc:0 "§Y出生日期§!：§G1872年§!\n§Y出生地点§!：§G大东帝国星洲特别市§!"
+ SNG_tan_chor_lam:0 "陈楚楠"
+ SNG_tan_chor_lam_desc:0 "§Y出生日期§!：§G1884年§!\n§Y出生地点§!：§G大东帝国星洲特别市§!"

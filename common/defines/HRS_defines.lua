@@ -1,4 +1,4 @@
-NDefines.NGame.START_DATE = "1924.2.26.12"
+NDefines.NGame.START_DATE = "1925.5.30.12"
 NDefines.NGame.END_DATE = "1950.1.1.1"
 NDefines.NGame.MAP_SCALE_PIXEL_TO_KM = 2.366
 NDefines.NGame.HANDS_OFF_START_TAG = "ZZZ"

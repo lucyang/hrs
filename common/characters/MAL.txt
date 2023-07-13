@@ -1,30 +1,30 @@
 characters={
-	MAL_wang_kemin={
-		name=MAL_wang_kemin
+	MAL_tan_cheng_lock={
+		name=MAL_tan_cheng_lock
 		portraits={
 			civilian={
-				large="gfx/leaders/MAL/Portrait_Wang_Kemin.dds"
+				large="gfx/leaders/MAL/Portrait_Tan_Cheng_Lock.png"
 			}
 		}
 		country_leader={
-			ideology=kongsi_republic_subtype
-			desc=MAL_wang_kemin_desc
-			traits={ financial_expert dealbroker }
-			expire="1945.12.26.1"
-		}
-	}
-	MAL_chen_zhenlu={
-		name=MAL_chen_zhenlu
-		portraits={
-			civilian={
-				large="gfx/leaders/MAL/Portrait_Chen_Zhenlu.dds"
-			}
-		}
-		country_leader={
-			ideology=liberalism_subtype
-			desc=MAL_chen_zhenlu_desc
-			traits={ }
+			ideology=conservatism_subtype
+			desc=MAL_tan_cheng_lock_desc
+			traits={ the_banker }
 			expire="1960.12.13.1"
 		}
+	}
+	MAL_lim_boon_keng={
+		name=MAL_lim_boon_keng
+		portraits={
+			civilian={
+				large="gfx/leaders/MAL/Portrait_Lim_Boon_Keng.png"
+			}
+		}
+		#country_leader={
+		#	ideology=tridemism_subtype
+		#	desc=MAL_lim_boon_keng_desc
+		#	traits={ social_reformer }
+		#	expire="1960.12.13.1"
+		#}
 	}
 }

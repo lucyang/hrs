@@ -26,8 +26,12 @@ PHI = {
 	color_ui = rgb { 152  130  191 }
 }
 MAL = {
-	color = rgb { 100  96  197 }
-	color_ui = rgb { 100  96  197 }
+	color = rgb { 100 96 197 }
+	color_ui = rgb { 100 96 197 }
+}
+SNG = {
+	color = rgb { 193 197 96 }
+	color_ui = rgb { 193 197 96 }
 }
 BSM = {
 	color = rgb { 57 86 18 }
