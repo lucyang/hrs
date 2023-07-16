@@ -12,6 +12,14 @@ characters={
 			traits={ XON_chaofa }
 			expire="1950.1.1.1"
 		}
+		corps_commander={
+			traits={ skirmisher war_hero }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+		}
 	}
 	XON_shi_qigui={
 		name=XON_shi_qigui
@@ -23,8 +31,38 @@ characters={
 		country_leader={
 			ideology=national_liberalism_subtype
 			desc=XON_shi_qigui_desc
-			traits={ gentle_scholar nationalist_symbol }
+			traits={ gentle_scholar }
 			expire="1959.1.1.1"
+		}
+	}
+	XON_liang_juwu={
+		name=XON_liang_juwu
+		portraits={
+			civilian={
+				large="gfx/leaders/XON/Portrait_Liang_Juwu.png"
+			}
+		}
+		country_leader={
+			ideology=ultranationalism_subtype
+			desc=XON_liang_juwu_desc
+			traits={ irredentist_academic }
+			expire="1959.1.1.1"
+		}
+	}
+	XON_vue_pa_chay={
+		name=XON_vue_pa_chay
+		portraits={
+			army={
+				large="gfx/leaders/XON/Portrait_Vue_Pa_Chay.png"
+			}
+		}
+		corps_commander={
+			traits={ guerilla_fighter ambusher irregulars_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
 		}
 	}
 }

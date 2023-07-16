@@ -1,10 +1,11 @@
-﻿capital = 403 #吉隆坡
+﻿capital = 403 #槟城
 
 #oob = "empty"
 
 set_research_slots = 2
 
 recruit_character = MAL_tan_cheng_lock
+recruit_character = MAL_lim_boon_keng
 
 set_technology = {
 	infantry_weapons = 1

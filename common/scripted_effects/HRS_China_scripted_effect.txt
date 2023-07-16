@@ -196,24 +196,6 @@ CHI_select_regional_cosmetic_tag = {
     }
     if = {
         limit = { 
-            original_tag = XXI
-        }
-        set_cosmetic_tag = XXI_regional_unifier
-    }
-    if = {
-        limit = { 
-            original_tag = XXC
-        }
-        set_cosmetic_tag = XXC_regional_unifier
-    }
-    if = {
-        limit = { 
-            original_tag = XON
-        }
-        set_cosmetic_tag = XON_regional_unifier
-    }
-    if = {
-        limit = { 
             original_tag = CBS
         }
         set_cosmetic_tag = CBS_regional_unifier
@@ -642,24 +624,6 @@ CHI_select_unified_cosmetic_tag = {
             original_tag = HMG
         }
         set_cosmetic_tag = HMG_CHINA
-    }
-    if = {
-        limit = { 
-            original_tag = XXI
-        }
-        set_cosmetic_tag = XXI_CHINA
-    }
-    if = {
-        limit = { 
-            original_tag = XXC
-        }
-        set_cosmetic_tag = XXC_CHINA
-    }
-    if = {
-        limit = { 
-            original_tag = XON
-        }
-        set_cosmetic_tag = XON_CHINA
     }
     if = {
         limit = { 

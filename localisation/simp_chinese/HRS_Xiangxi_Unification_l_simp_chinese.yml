@@ -1,0 +1,147 @@
+﻿l_simp_chinese:
+ #########
+ # IDEAS #
+ #########
+ XXX_last_crisis:0 "大灾之年"
+ #########
+ ## XXI ##
+ #########
+ XXI_republic_XIANGXI_democratic:0 "湘西共和国"
+ XXI_republic_XIANGXI_democratic_DEF:0 "湘西共和国"
+ XXI_republic_XIANGXI_democratic_ADJ:0 "湘西"
+ XXI_autonomy_XIANGXI_democratic:0 "湘西自治区"
+ XXI_autonomy_XIANGXI_democratic_DEF:0 "湘西自治区"
+ XXI_autonomy_XIANGXI_democratic_ADJ:0 "湘西"
+ XXI_warlord_XIANGXI_socialism:0 "湘西护国军"
+ XXI_warlord_XIANGXI_socialism_DEF:0 "湘西护国军"
+ XXI_warlord_XIANGXI_socialism_ADJ:0 "湘西"
+ XXI_warlord_XIANGXI_neutrality:0 "辰州师管区"
+ XXI_warlord_XIANGXI_neutrality_DEF:0 "辰州师管区"
+ XXI_warlord_XIANGXI_neutrality_ADJ:0 "湘西"
+
+ XXI_XIANGXI_neutrality:0 "五溪自治区"
+ XXI_XIANGXI_neutrality_DEF:0 "五溪自治区"
+ XXI_XIANGXI_neutrality_ADJ:0 "五溪"
+ 
+ XXI_CHINA_socialism:0 "中华人民联盟"
+ XXI_CHINA_socialism_DEF:0 "中华人民联盟"
+ XXI_CHINA_socialism_ADJ:0 "中国"
+ XXI_CHINA_neutrality:0 "中国重建政府"
+ XXI_CHINA_neutrality_DEF:0 "中国重建政府"
+ XXI_CHINA_neutrality_ADJ:0 "中国"
+ 
+ XXI_XIANGXI_socialism_party:0 "湘西护国军"
+ XXI_XIANGXI_socialism_party_long:0 "湘西护国军"
+ XXI_XIANGXI_democratic_party:0 "湘西咨议局"
+ XXI_XIANGXI_democratic_party_long:0 "湘西咨议局"
+ XXI_XIANGXI_neutrality_party:0 "湘西自治委员会"
+ XXI_XIANGXI_neutrality_party_long:0 "湘西自治委员会"
+ XXI_XIANGXI_warlordism_party:0 "湘西军政府"
+ XXI_XIANGXI_warlordism_party_long:0 "湘西军政府"
+ #########
+ ## XXC ##
+ #########
+ XXC_XIANGXI_communism:0 "湘西公社"
+ XXC_XIANGXI_communism_DEF:0 "湘西公社"
+ XXC_XIANGXI_communism_ADJ:0 "湘西"
+ XXC_XIANGXI_anarchism:0 "湘西总工会"
+ XXC_XIANGXI_anarchism_DEF:0 "湘西总工会"
+ XXC_XIANGXI_anarchism_ADJ:0 "湘西"
+ XXC_XIANGXI_socialism:0 "湘西人民共和国"
+ XXC_XIANGXI_socialism_DEF:0 "湘西人民共和国"
+ XXC_XIANGXI_socialism_ADJ:0 "湘西"
+ XXC_XIANGXI_democratic:0 "湘西民主共和国"
+ XXC_XIANGXI_democratic_DEF:0 "湘西民主共和国"
+ XXC_XIANGXI_democratic_ADJ:0 "湘西"
+
+ XXC_CHINA_communism:0 "中华劳农联合体"
+ XXC_CHINA_communism_DEF:0 "中华劳农联合体"
+ XXC_CHINA_communism_ADJ:0 "中国"
+ XXC_CHINA_anarchism:0 "中华工团共和国"
+ XXC_CHINA_anarchism_DEF:0 "中华工团共和国"
+ XXC_CHINA_anarchism_ADJ:0 "中国"
+
+ XXI_XIANGXI_communism_party:0 "湘西总工会 - 向蔡同盟派"
+ XXI_XIANGXI_communism_party_long:0 "湘西总工会 - 向蔡同盟派"
+ XXI_XIANGXI_anarchism_party:0 "湘西总工会 - 无政府派"
+ XXI_XIANGXI_anarchism_party_long:0 "湘西总工会 - 无政府派"
+ XXI_XIANGXI_socialism_party:0 "湘西总工会 - 温和派"
+ XXI_XIANGXI_socialism_party_long:0 "湘西总工会 - 温和派"
+ XXI_XIANGXI_democratic_party:0 "湘西总工会 - 改革派"
+ XXI_XIANGXI_democratic_party_long:0 "湘西总工会 - 改革派"
+ #########
+ ## XON ##
+ #########
+ XON_XIANGXI_democratic:0 "果雄共和国"
+ XON_XIANGXI_democratic_DEF:0 "果雄共和国"
+ XON_XIANGXI_democratic_ADJ:0 "果雄"
+ XON_XIANGXI_monarchism:0 "苗疆"
+ XON_XIANGXI_monarchism_DEF:0 "苗疆"
+ XON_XIANGXI_monarchism_ADJ:0 "苗疆"
+ XON_XIANGXI_imperialism:0 "苗夷净化军"
+ XON_XIANGXI_imperialism_DEF:0 "苗夷净化军"
+ XON_XIANGXI_imperialism_ADJ:0 "苗夷净化军"
+
+ XON_CHINA_unification_imperialism:0 "苗夷国"
+ XON_CHINA_unification_imperialism_DEF:0 "苗夷国"
+ XON_CHINA_unification_imperialism_ADJ:0 "苗夷"
+
+ XXI_XIANGXI_monarchism_party:0 "苗王效忠派"
+ XXI_XIANGXI_monarchism_party_long:0 "苗王效忠派"
+ ##########
+ # EVENTS #
+ ##########
+ ### INTRODUCTION ###
+ xxx_introduction.1.t:0 "洪江往事"
+ xxx_introduction.1.desc:0 "不知是前文明的馈赠还是诅咒，下湘西的地层中集聚了大量成规模的核素矿藏，然而这并没有给下湘西的人民带来财富，财富只是源源不断的流向了帝国的黄金三角，流入这里的只有五湖四海的苦力，留下的只是劳工的尸骨和被破坏的自然环境。1921年，大东帝国对下湘西自然环境无止境的开发掠取终于引发了自然的狂怒，这一年高频的大旱大涝拉开了沅江流域持续灾害的序幕，而内殖民环境下畸形的经济结构使得下湘西粮食无法自给。\n\n劳工需要吃饭，劳工需要生存！\n\n这一年，在下湘西的心脏，洪江爆发了一场规模巨大的劳工运动，劳工与同情劳工的市民、洪江商会一同逼停了那些装满劳工血汗的火车和轮渡，烧毁了帝国的行政驻地，打开了帝国官员囤积粮食的粮仓，连续7次击退了进逼的镇压部队，引发了著名的“洪江事件”，自发组织的湘西总工会也顺势诞生。\n\n依靠洪江山水环绕的地形，劳工和市民成功据守了两个多月，他们分发暴动夺得的粮食并因此挺过了灾荒，而当灾荒已去，风波逐渐平息，许多劳工和市民害怕继续对抗将引发帝国军队的无差别屠杀，于是主张与帝国谈判解决洪江事件，而包括向警予在内的少数激进派决定去炸毁洪江大桥以断绝帝国可能的进军路线，并最终实现成立洪江公社的设想。然而，就在激进分子安装好炸药之前，总工会已经表决决定派出代表与帝国完成谈判，帝国军队的铁蹄踏上了大桥。\n\n事件平息后，帝国违背了不追究一人的承诺，将向警予、蔡畅等总工会领导人拘捕，封闭总工会会场，社会环境一度重回高压，但由于帝国自身已经重病缠身，并没有进行更进一步的动作，湘西总工会事实上仍在运行，仍在组织劳工运动、争取劳工权益。"
+ xxx_introduction.1.a:0 "下湘西的赤色烈火已然燃起，我们必须保持警惕"
+ ### CRISIS ###
+ xxx_crisis.1.t:0 "万人坑"
+ xxx_crisis.1.desc:0 "湘西的灾情越来越严重，如同1921年那场饥荒，洪江作为湘西的经济中心再一次挤满了饥饿的劳工。[XXX_unifier.Adjective]与商会的救济无法满足越来越多的饥民，自从大东帝国崩溃后，粮食贸易也没那么方便了，库存的粮食远不能填补大灾的缺口。不时有饿到脱力的劳工倒下，他们再也无法醒来，更可怕的是疫病也紧随大灾开始传播，死的人越来越多。当大部分饥民死去后，商会拿出了一块地用来填埋尸体，而尸体一层一层堆积，挖到很深才能全部放下。从此这块地就被称作万人坑。"
+ xxx_crisis.1.a:0 "1921年······我们都没出现这种情况"
+ ### REUNIFICATION ###
+ #### XXI ####
+ xxi_reunification.1.t:0 "革新的脚步继续迈进" #陈渠珍/社会自由主义
+ xxi_reunification.1.desc:0 "大灾和兵燹摧毁了陈渠珍“保境安民”的成果，将他的革新计划打断。从刺杀中侥幸生还的他越发认为先前所依赖的非正式关系网成为了保境安民的最大阻碍，唯有正式化的科层管理制度才能保证革新的持续推进、社会的长久稳定，防止湘西的未来因人亡而政息。现在，他想要建设一个真正实现乡自治的湘西，一个真正完成现代化的湘西，一个拥抱文明的湘西，但是为了确保革新与稳定，湘西最终的政治形态可能将仿照张君劢“修正的民主政治”。"
+ xxi_reunification.1.a:0 "保境安民！"
+
+ xxi_reunification.2.t:0 "湘西文明的再发现" #沈从文/民族保守主义
+ xxi_reunification.2.desc:0 "很多人都说湘西需要现代化，无论是老上司陈渠珍还是下湘西的革命者都陷入了所谓“现代化”的迷思，而在沈从文看来，现代化带来的更多是腐化和破坏，而湘西自身的文明才是值得尊敬和发扬的。沈从文既有文书工作的经验，又有文学创作的笔力，而现在他希望将这二者结合，再发现湘西这片土地和生活其上的人民的美好与价值，抹平外人殖民的伤痕，修复湘西的自然风光。革新仍将被继承，因为保卫家园需要枪炮，传播文字需要媒介，填饱饥肠需要粮食，阻止暴政需要民主，只要小心不让保卫文明的革新侵蚀文明自身······"
+ xxi_reunification.2.a:0 "让我们重建新湘西"
+
+ xxi_reunification.3.t:0 "护国军重整旗鼓" #贺龙/新三民主义
+ xxi_reunification.3.desc:0 "在陈渠珍留下的权力真空期，曾经的革命党人，如今的老兵帮会首领贺龙拔得头筹，成功组建了由“湘西护国军”领导的新政权。护国军政府由贺龙的战友、哥老会成员、前革命党人以及湘西的左翼分子组成，奉行一种改良的三民主义意识形态。在贺龙治下的湘西，县乡自治的成果得到保障，许多社会改革得到落实，工业化与土地改革有条不紊地进行。与此同时，一支由革命理念打造的湘西新军已集结完毕，只需贺龙一声令下，他们万众一心，向着统一全中国进军。"
+ xxi_reunification.3.a:0 "打倒帝国，除军阀，国民革命齐奋斗！"
+
+ xxi_reunification.4.t:0 "镇竿军之治" #顾家齐/军阀
+ xxi_reunification.4.desc:0 "在陈渠珍遇刺后，镇竿军领袖、湘西政权的二把手顾家齐成功夺取了权力的宝座，成为湘西地区事实上的统治者。实际上，顾家齐本是陈渠珍指定的继承人，但是前者强烈反对湘西自治，使得陈渠珍放弃了这一计划。如今顾家齐与镇竿军在湘西建立了白色恐怖政权，地区自治派、左翼分子、工会成员惨遭枪杀或是活埋。顾家齐声称，他要救民于水火，实现中国的再统一。与此同时，湘西社会的大多数财富也被顾家齐本人与其亲信瓜分，显然他的“统一”只是将整个中国视为他的战利品，而顾家齐的残暴统治注定了湘西将遭受千年以来未有的苦难。"
+ xxi_reunification.4.a:0 "窃钩者诛，窃国者诸侯"
+ #### XXC ####
+ xxc_reunification.1.t:0 "玫瑰色的未来" #蒋希清/基尔特社会主义
+ xxc_reunification.1.desc:0 "第一届湘西国民大会落下帷幕，蒋希清的反击获得了部分成功，洪江商会的左翼派系与总工会结成了新的革命阵线，将总工会中的无政府主义者逐出政坛。在新湘西，企业自治和产业民主成为经济领域的新时尚，工人组成的评议会将与企业家共谋未来，同时洪江商会将负责产品的分配与流通，而湘西政府大权旁落，成为参与社会治理的团体之一，它将采取激进的社会福利制度，以减少贫困差距、保障人民生活。显然这套政策取材自张东荪的基尔特社会主义思想，而蒋希清也坦承此种意识形态更符合湘西的实际国情。尽管新湘西仍自称为社会主义国家，但是其温和的社会改造路线还存有多少“红色”，仍需要时间来判断。"
+ xxc_reunification.1.a:0 "湘西人民，团结一心"
+
+ xxc_reunification.2.t:0 "无政府派夺取政权" #唐伯赓/无治主义
+ xxc_reunification.2.desc:0 "随着“毛胡子”唐伯赓和激进工人武装攻入总工会会场，观察家无不为湘西局势的骤变感到惊讶，根据最新消息，温和派的领导人蒋希清已经在交火中身亡，这意味着长期在沅江总工会中不被重视的无政府派已经正式登上台面。另外，号称“洪江不倒翁”的洪江商会会长吴克成疑似已被无政府工人武装抓获。由于他先前在饥荒时期发表的演讲已明确表露出他对国家机器、等级制度以及所有制的坚决反对，目前可以预见到的是，唐伯赓很可能计划着对湘西社会进行彻底的改造。"
+ xxc_reunification.2.a:0 "打碎一切锁链！"
+
+ xxc_reunification.3.t:0 "继续前行" #向警予/大众三民主义
+ xxc_reunification.3.desc:0 "表决再一次选择了向蔡同盟！当结果出来时，激进派的成员无不起立鼓掌，而温和派只是潦草地附和。虽然非常不甘，蒋希清仍然宣布尊重民主表决结果，并表示会继续做好“进步主义反对派”的职责，在应对当前紧急状态方面会尽力配合向蔡同盟。向警予也发表讲话，表示会尊重温和派的监督与意见，希望两派可以团结起来渡过难关。而在罢免向蔡同盟的尝试失败后，温和派的统一战线能否继续维持下去仍然存疑。"
+ xxc_reunification.3.a:0 "有惊无险"
+
+ xxc_reunification.4.t:0 "湘西春风" #蒋希清/社会自由主义
+ xxc_reunification.4.desc:0 "第一届湘西国民大会落下帷幕，蒋希清的反击全然失败，洪江商会牢牢控制了新政权。右翼分子接管了湘西总工会，宣称工会存在的唯一目的是改善工人的经济条件。总工会解散了工人民兵武装，成为新政权建制的一部分。尽管洪江商会仍拥护蒋希清为湘西的领导人，但是他的政治生涯已然终结，商会长吴克成成为湘西实际的话事人。新政权随即展开了拨乱反正运动，先前被打倒的企业家恢复了名誉，被没收的工矿企业也悉数回到他们手中。湘西革命走向末路，但是经济自由主义将为湘西注入无穷活力，一个春风沐浴的新时代即将来临。"
+ xxc_reunification.4.a:0 "好日子还在后头呢！"
+
+ #### XON ####
+ xon_reunification.1.t:0 "苗王降世"
+ xon_reunification.1.desc:0 "在苗族及其他山地民族中流传着这样一种信仰：终有一日将会有一名“苗王”降世，为颠沛流离、深受压迫的苗民带来真正的太平盛世。苗族历史上曾出现过无数的“苗王”，但唯有龙云飞做到了，他不仅推翻了汉人压迫者，还将整个湘西收入囊中。尽管龙云飞并未称帝，但是狂热的苗民已将他视为救世主与苗王降世的化身。如今龙云飞将目光投向武陵山的另一侧，在中国西南地区尚有千千万苗民正遭受军阀与官僚的压迫。一支由苗民组成的队伍已经整装待发，他们发誓要在苗王的领导下将所有苗族统一在同一面旗帜下。"
+ xon_reunification.1.a:0 "苗民受难的日子到头了！"
+
+ xon_reunification.2.t:0 "东方瑞士"
+ xon_reunification.2.desc:0 "一直以来，湘西常被称为“东方的瑞士”，但除去大山怀抱、风景秀美、民风剽悍外，湘西的发展水平远配不上这一绰号。在苗族学者石启贵的努力下，这一梦想正逐渐成为事实。自湘西内战结束后，石启贵领导的土著民族改良会致力于改善湘西苗族的境况，苗文与苗语进入公共教育系统，一种由苗族主导的新文化正逐渐形成，湘西人拾起了旧时的“民户”与“客民”身份，开始认同“果雄”这一新的地域和民族身份。与此同时，陈渠珍留下的乡自治和现代化成果得到巩固，湘西贫困落后的局面得到极大改善。如今，湘西正大踏步迈向各民族共同发展、团结互助的新时代。"
+ xon_reunification.2.a:0 "太平之梦终将实现"
+
+ xon_reunification.3.t:0 "九黎之怒"
+ xon_reunification.3.desc:0 "过去，许多人将梁聚五视为学术不端的疯子，所谓“苗夷民族”论注定是荒诞不经的异端邪说。然而事实给了他们一个狠狠的巴掌，梁聚五不仅领导着光复军统一了整个湘西，还将其目光投向整个中国，宣称中国是“苗夷民族”的故土，汉人用武力和阴谋诡计篡夺了他们的土地。梁聚五将光复军更名为“净化军”，愿意反抗大一统暴政的勇士皆可加入，其任务正是解放被压迫的“苗夷民族”，还要将窃据他们土地的汉人全部赶出去。九黎战鼓铮铮作响，这片土地注定要迎来蚩尤后裔与炎黄子孙的最终决战。"
+ xon_reunification.3.a:0 "驱逐汉寇，恢复九黎！"

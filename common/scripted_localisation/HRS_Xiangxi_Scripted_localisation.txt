@@ -20,7 +20,7 @@ defined_text = {
 	}
 	text = {
 		trigger = { 
-			check_variable = { XXI_money_growth > 0.35 } 
+			check_variable = { XXI_money_growth < 0.35 } 
 		}
 		localization_key = "[XXIMoneyDecreaseFast]"
 	}
@@ -32,13 +32,49 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = KORGetReformOpionionLoc
+	name = XXIGetMiaoDiscontentLoc
 	text = {
-		trigger = { check_variable = { KOR_reform_support > 5 } }
-		localization_key = "[KORReformHighOpionion]"
+		trigger = { check_variable = { XXI_miao_discontent > 5 } }
+		localization_key = "[XXIMiaoVeryHighDiscontent]"
 	}
 	text = {
-		trigger = { check_variable = { KOR_reform_support < 3 } }
-		localization_key = "[KORReformLowOpionion]"
+		trigger = { 
+			AND = {
+				check_variable = { XXI_miao_discontent < 3 }
+				check_variable = { XXI_miao_discontent < 3 } 
+			}
+		}
+		localization_key = "[XXIMiaoHighDiscontent]"
+	}
+	text = {
+		trigger = { 
+			AND = {
+				check_variable = { XXI_miao_discontent < 3 }
+				check_variable = { XXI_miao_discontent < 3 } 
+			}
+		}
+		localization_key = "[XXIMiaoMediumDiscontent]"
+	}
+	text = {
+		trigger = { 
+			AND = {
+				check_variable = { XXI_miao_discontent < 3 }
+				check_variable = { XXI_miao_discontent < 3 } 
+			}
+		}
+		localization_key = "[XXIMiaoLowDiscontent]"
+	}
+	text = {
+		trigger = { 
+			AND = {
+				check_variable = { XXI_miao_discontent < 3 }
+				check_variable = { XXI_miao_discontent < 3 } 
+			}
+		}
+		localization_key = "[XXIMiaoVeryLowDiscontent]"
+	}
+	text = {
+		trigger = { check_variable = { XXI_miao_discontent < 5 } }
+		localization_key = "[XXIMiaoZeroDiscontent]"
 	}
 }

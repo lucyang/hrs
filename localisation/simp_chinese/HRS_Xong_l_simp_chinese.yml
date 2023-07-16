@@ -2,23 +2,23 @@
  ###############
  ## COUNTRIES ##
  ###############
- XON_communism:0 "苗民光复军"
+ XON_communism:0 "沅陵"
  XON_communism_DEF:0 "苗民光复军"
- XON_anarchism:0 "苗民光复军"
+ XON_anarchism:0 "沅陵"
  XON_anarchism_DEF:0 "苗民光复军"
- XON_socialism:0 "苗民光复军"
+ XON_socialism:0 "沅陵"
  XON_socialism_DEF:0 "苗民光复军"
- XON_democratic:0 "苗民光复军"
+ XON_democratic:0 "沅陵"
  XON_democratic_DEF:0 "苗民光复军"
- XON_neutrality:0 "苗民光复军"
+ XON_neutrality:0 "沅陵"
  XON_neutrality_DEF:0 "苗民光复军"
- XON_monarchism:0 "苗民光复军"
+ XON_monarchism:0 "沅陵"
  XON_monarchism_DEF:0 "苗民光复军"
- XON_fascism:0 "苗民光复军"
+ XON_fascism:0 "沅陵"
  XON_fascism_DEF:0 "苗民光复军"
- XON_imperialism:0 "苗民光复军"
+ XON_imperialism:0 "沅陵"
  XON_imperialism_DEF:0 "苗民光复军"
- XON_futurism:0 "苗民光复军"
+ XON_futurism:0 "沅陵"
  XON_futurism_DEF:0 "苗民光复军"
  XON_communism_ADJ:0 "果雄"
  XON_anarchism_ADJ:0 "果雄"
@@ -35,50 +35,49 @@
  #############
  ## PARTIES ##
  #############
- XON_communism_party:0 "湘西总工会"
- XON_communism_party_long:0 "湘西总工会"
+ XON_communism_party:0 "社会民主农工党"
+ XON_communism_party_long:0 "中国社会民主农工党"
  XON_anarchism_party:0 "湘西总工会"
  XON_anarchism_party_long:0 "湘西总工会"
- XON_socialism_party:0 "湖南独立促进会"
- XON_socialism_party_long:0 "湖南独立促进会"
- XON_democratic_party:0 "苗民光复军 - 文官派"
- XON_democratic_party_long:0 "苗民光复军 - 文官派"
- XON_neutrality_party:0 "苗民光复军 - 军队派"
- XON_neutrality_party_long:0 "苗民光复军 - 军队派"
- XON_monarchism_party:0 "苗民光复军 - 土司派"
- XON_monarchism_party_long:0 "苗民光复军 - 土司派"
+ XON_socialism_party:0 "洪江商会"
+ XON_socialism_party_long:0 "洪江商会"
+ XON_democratic_party:0 "土著民族改良会"
+ XON_democratic_party_long:0 "土著民族改良会"
+ XON_neutrality_party:0 "苗民光复军"
+ XON_neutrality_party_long:0 "苗民光复军"
+ XON_monarchism_party:0 "苗王效忠派"
+ XON_monarchism_party_long:0 "苗王效忠派"
  XON_fascism_party:0 "中国青年党"
  XON_fascism_party_long:0 "中国青年党"
- XON_imperialism_party:0 "苗民光复军 - 极端派"
- XON_imperialism_party_long:0 "苗民光复军 - 极端派"
- XON_futurism_party:0 "洪江商会"
- XON_futurism_party_long:0 "洪江商会"
+ XON_imperialism_party:0 "西南苗夷自主党"
+ XON_imperialism_party_long:0 "西南苗夷自主党"
+ XON_futurism_party:0 "技术官僚运动"
+ XON_futurism_party_long:0 "技术官僚运动"
  ##################
  ## COSMETIC TAG ##
  ##################
- XON_regional_unifier1_democratic:0 "果雄共和国"
- XON_regional_unifier1_democratic_desc:0 "果雄共和国"
- XON_regional_unifier2_democratic:0 "果雄共和国"
- XON_regional_unifier2_democratic_desc:0 "果雄共和国"
- XON_regional_unifier_monarchism:0 "苗疆"
- XON_regional_unifier_monarchism_desc:0 "苗疆"
- XON_regional_unifier_imperialism:0 "苗疆"
- XON_regional_unifier_imperialism_desc:0 "苗疆"
+ 
  ################
  ## CHARACTERS ##
  ################
  XON_long_yunfei:0 "龙云飞"
- XON_long_yunfei_desc:0 "§Y出生日期§!：§G1886年§!\n§Y出生地点§!：§G大东帝国辰沅道凤凰县§!\n\n“我不管你们什么犯、什么党，我只晓得你是苗人，到我这里来就是一家人，谁敢动你们一根毫毛，你就笑一笑我龙云飞。”\n\n§Y“青帕苗王”§!，或者说§Y龙云飞§!，是一个很有争议的人物。有人称他为莽夫甚至是土匪，有人说他是利用苗民的阴谋家，有人则视其为苗民复兴的真正希望，有人又把他当作反抗剥削的革屯英雄、民粹主义战士。无论如何，他在苗民心目中有很高的地位是毋庸置疑的。\n\n龙云飞出身于苗民守备之家，从小习武，身手不凡而又志向高远，读过几年小学，也算初通文墨，因行侠仗义、豪情好客而为苗民拥戴。在§Y陈渠珍§!来到上湘西后，拜服陈渠珍出藏经历的龙云飞主动投到陈渠珍麾下，是为陈的得力干将。然而，随着陈渠珍不断推进革新计划，并且逐渐加强屯田政策以榨取更多粮食充作湘西革新的资金来源，但后果便是越来越多的苗民失去了土地，而这使得作为苗民领袖的龙云飞开始跟陈渠珍渐行渐远。\n\n虽然他们的个人交情持久不衰，但政见的差异使陈渠珍决心驱逐龙云飞，龙云飞被迫离开凤凰闲居沅陵。龙云飞知道，陈渠珍不愿意杀他，但也不愿意让他继续参与政事。重义气的龙云飞仍然服从于陈渠珍的指挥，也不干预陈渠珍的计划，只是在沅陵废除屯田，还田于苗，因此吸引来不少苗民，在§G红白黑三王旗§!下，苗王也许正在思考着日后的打算。但无论如何，至少现在，他忠于陈渠珍。"
+ XON_long_yunfei_desc:0 "§Y出生日期§!：§G1886年§!\n§Y出生地点§!：§G大东帝国湖南省辰沅道凤凰县§!\n\n“我不管你们什么犯、什么党，我只晓得你是苗人，到我这里来就是一家人，谁敢动你们一根毫毛，你就笑一笑我龙云飞。”\n\n§Y“青帕苗王”§!，或者说§Y龙云飞§!，是一个很有争议的人物。有人称他为莽夫甚至是土匪，有人说他是利用苗民的阴谋家，有人则视其为苗民复兴的真正希望，有人又把他当作反抗剥削的革屯英雄、民粹主义战士。无论如何，他在苗民心目中有很高的地位是毋庸置疑的。\n\n龙云飞出身于苗民守备之家，从小习武，身手不凡而又志向高远，读过几年小学，也算初通文墨，因行侠仗义、豪情好客而为苗民拥戴。在§Y陈渠珍§!来到上湘西后，拜服陈渠珍出藏经历的龙云飞主动投到陈渠珍麾下，是为陈的得力干将。然而，随着陈渠珍不断推进革新计划，并且逐渐加强屯田政策以榨取更多粮食充作湘西革新的资金来源，但后果便是越来越多的苗民失去了土地，而这使得作为苗民领袖的龙云飞开始跟陈渠珍渐行渐远。\n\n虽然他们的个人交情持久不衰，但政见的差异使陈渠珍决心驱逐龙云飞，龙云飞被迫离开凤凰闲居沅陵。龙云飞知道，陈渠珍不愿意杀他，但也不愿意让他继续参与政事。重义气的龙云飞仍然服从于陈渠珍的指挥，也不干预陈渠珍的计划，只是在沅陵废除屯田，还田于苗，因此吸引来不少苗民，在§G红白黑三王旗§!下，苗王也许正在思考着日后的打算。但无论如何，至少现在，他忠于陈渠珍。"
  XON_shi_qigui:0 "石启贵"
- XON_shi_qigui_desc:0 "§Y出生日期§!：§G1896年§!\n§Y出生地点§!：§G大东帝国辰沅道乾城县§!"
+ XON_shi_qigui_desc:0 "§Y出生日期§!：§G1896年§!\n§Y出生地点§!：§G大东帝国湖南省辰沅道乾城县§!"
+ XON_liang_juwu:0 "梁聚五" #玖固/Jux Gud(苗名)
+ XON_liang_juwu_desc:0 "§Y出生日期§!：§G1892年§!\n§Y出生地点§!：§G大东帝国贵州省镇远道雷山县§!"
+ XON_vue_pa_chay:0 "吴巴猜"
  ###########
  ## IDEAS ##
  ###########
-
+ XON_last_shelter:0 "苗民的庇护所"
+ XON_last_shelter_desc:0 ""
+ XON_liberation_army:0 "苗民光复军"
+ XON_liberation_army_desc:0 ""
  ##########
  # TRAITS #
  ##########
- XON_chaofa:0 "青帕苗王"
+
  #############
  # DECISIONS #
  #############
@@ -86,4 +85,14 @@
  ############
  ## EVENTS ##
  ############
- 
+ xon_midnight.1.t:0 "友人罹难" #陈渠珍遇刺身亡
+ xon_midnight.1.desc:0 "噩耗传来，龙云飞的老上司同时也是私交密切的好友陈渠珍近日遇刺。龙云飞得知消息后大哭一场，并在沅陵凤凰山设坛亲自祭奠三日。不过，陈渠珍的去世也使得龙云飞与湘西自治政权的关系纽带彻底消失，在光复军将士的鼓动下，龙云飞决心参与进大灾引发的湘西逐鹿，接过陈渠珍的遗产，立志成为新的、关爱苗民的“湘西王”。"
+ xon_midnight.1.a:0 "龙已出山"
+
+ xon_midnight.2.t:0 "逐鹿湘西" #陈渠珍存活
+ xon_midnight.2.desc:0 "大灾下湘西的局势一天比一天动荡，作为青帕苗王、苗民光复军的领袖、苗民的庇护人，龙云飞决心拯救苗民于水火。龙云飞一直觉得自己跟陈渠珍很像，他们两人都有自己远大的志向并愿意为之拼搏，同时他们也都有一股子湘西人的义气，绝不逼朋友于死地。陈渠珍的志向是革新，而龙云飞的志向是要取消苗民所受的不公，这使得他们开始竞逐湘西的统治权。不过，不管这场友人间的竞赛谁赢谁输，失败者都将有个好去处。"
+ xon_midnight.2.a:0 "竞赛现在开始"
+
+ xon_midnight.3.t:0 "苗王之怒" #下湘西赢得角斗
+ xon_midnight.3.desc:0 "在陈渠珍被打败后，龙云飞一直警惕着湘西新兴的霸主——沅江总工会。据他所知，那些号称追求进步平等的革命者夺得上湘西后，并没有接受苗民废除屯田、分配土地的请愿，而是以所谓“集体农场”的名义实际上延续着屯政，要将苗民变成他们口中的“农业工人”，更别提下湘西的军人使用武力强迫解散部族，甚至要让部族成员去攻击他们的族长了。自那时起，龙云飞心中的恨意就一直在累积，而大灾和饥荒的爆发、大量涌入沅陵逃难的苗民同胞彻底改变了他的思想。他决定真正担当起苗王的职责，帮助革屯叛军推翻总工会的暴政，并且恢复苗民过去被剥夺的一切。"
+ xon_midnight.3.a:0 "三王旗下，苗王生" #龙云飞/苗王信仰

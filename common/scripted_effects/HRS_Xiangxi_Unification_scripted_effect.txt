@@ -1,0 +1,119 @@
+XIANGXI_select_xiangxi_cosmetic_tag = {
+	hidden_effect = {
+		drop_cosmetic_tag = yes
+	}
+    if = {
+        limit = { 
+            AND = {
+                original_tag = XXI
+                has_country_leader = {
+                    character = XXI_chen_quzhen
+                    ruling_only = yes
+                }
+            }
+        }
+        set_cosmetic_tag = XXI_republic_XIANGXI
+        remove_country_flag = is_china_nation
+    }
+    if = {
+        limit = { 
+            AND = {
+                original_tag = XXI
+                has_country_leader = {
+                    character = XXI_shen_congwen
+                    ruling_only = yes
+                }
+            }
+        }
+        set_cosmetic_tag = XXI_autonomy_XIANGXI
+        remove_country_flag = is_china_nation
+    }
+    if = {
+        limit = { 
+            AND = {
+                original_tag = XXI
+                has_country_leader = {
+                    character = XXI_he_long
+                    ruling_only = yes
+                }
+            }
+        }
+        set_cosmetic_tag = XXI_warlord_XIANGXI
+    }
+    if = {
+        limit = { 
+            AND = {
+                original_tag = XXI
+                has_country_leader = {
+                    character = XXI_gu_jiaqi
+                    ruling_only = yes
+                }
+            }
+        }
+        set_cosmetic_tag = XXI_warlord_XIANGXI
+    }
+    if = {
+        limit = { 
+            AND = {
+                original_tag = XXC
+                OR = {
+                    has_government = communism
+                    has_government = anarchism
+                }
+            }
+        }
+        set_cosmetic_tag = XXC_XIANGXI
+    }
+    if = {
+        limit = { 
+            AND = {
+                original_tag = XXC
+                OR = {
+                    has_government = socialism
+                    has_government = democratic
+                }
+            }
+        }
+        set_cosmetic_tag = XXC_XIANGXI
+        remove_country_flag = is_china_nation
+    }
+    if = {
+         AND = {
+            original_tag = XON
+            NOT = { has_government = imperialism }
+        }
+        set_cosmetic_tag = XON_XIANGXI
+    }
+    if = {
+         AND = {
+            original_tag = XON
+            has_government = imperialism
+        }
+        set_cosmetic_tag = XON_XIANGXI
+        add_country_flag = is_china_nation
+    }
+}
+
+XIANGXI_select_unified_cosmetic_tag = {
+	hidden_effect = {
+		drop_cosmetic_tag = yes
+	}
+    if = {
+        limit = { 
+            original_tag = XXI
+        }
+        set_cosmetic_tag = XXI_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = XXC
+        }
+        set_cosmetic_tag = XXC_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = XON
+        }
+        set_cosmetic_tag = XON_CHINA
+    }
+}

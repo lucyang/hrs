@@ -9,8 +9,16 @@ characters={
 		country_leader={
 			ideology=development_authoritarianism_subtype
 			desc=XXI_chen_quzhen_desc
-			traits={ jefe celebrity_junta_leader }
+			traits={ jefe }
 			expire="1952.2.1.1"
+		}
+		corps_commander={
+			traits={ war_hero infantry_officer career_officer }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
 		}
 	}
 	XXI_shen_congwen={
@@ -23,8 +31,66 @@ characters={
 		country_leader={
 			ideology=national_conservatism_subtype
 			desc=XXI_shen_congwen_desc
-			traits={ moderate_reformist SWI_pragmatic_democrat }
+			traits={ moderate_reformist }
 			expire="1988.5.10.1"
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	XXI_gu_jiaqi={
+		name=XXI_gu_jiaqi
+		portraits={
+			civilian={
+				large="gfx/leaders/XXI/Portrait_Gu_Jiaqi.png"
+			}
+			army={
+				large="gfx/leaders/XXI/Portrait_Gu_Jiaqi.png"
+			}
+		}
+		country_leader={
+			ideology=warlordism_subtype
+			desc=XXI_gu_jiaqi_desc
+			traits={ celebrity_junta_leader }
+			expire="1949.1.1.1"
+		}
+		corps_commander={
+			traits={ infantry_officer career_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	XXI_he_long={
+		name=XXI_he_long
+		portraits={
+			civilian={
+				large="gfx/leaders/XXI/Portrait_He_Long.png"
+			}
+			army={
+				large="gfx/leaders/XXI/Portrait_He_Long.png"
+			}
+		}
+		country_leader={
+			ideology=new_tridemism_subtype
+			desc=XXI_he_long_desc
+			traits={ revolutionary_general }
+			expire="1950.1.1.1"
+		}
+		corps_commander={
+			traits={ infantry_officer career_officer war_hero aggressive_assaulter organizer }
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=4
 		}
 	}
 }

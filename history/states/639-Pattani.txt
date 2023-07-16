@@ -7,6 +7,7 @@ state={
 	history = {
 		owner = SIA
 		add_core_of = SIA
+		add_core_of = MAL
 
 		victory_points = { 1603 3 } #北大年
 		victory_points = { 525 1 } #惹拉

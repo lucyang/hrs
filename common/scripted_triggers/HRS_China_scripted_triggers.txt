@@ -273,6 +273,15 @@ is_xinan_nation = {
 		is_sichuan_nation = yes
 	}
 }
+is_xiangxi_state = {
+	OR = {
+		state = 31 #靖州
+		state = 262 #张家界/大庸
+		state = 269 #凤凰
+		state = 282 #洪江
+		state = 654 #沅陵
+	}
+}
 is_guangdong_state = {
 	OR = {
 		state = 229 #云浮 

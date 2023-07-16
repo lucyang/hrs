@@ -2,6 +2,8 @@
 
 recruit_character = XXI_chen_quzhen
 recruit_character = XXI_shen_congwen
+recruit_character = XXI_gu_jiaqi
+recruit_character = XXI_he_long
 
 #oob = "empty"
 set_country_flag = is_china_nation
@@ -92,8 +94,7 @@ add_ideas = {
 
 set_variable = { var = XXI_money value = 15 }
 set_variable = { var = XXI_money_growth value = 0.1 }
-set_variable = { var = XXI_xong value = 60 }
-set_variable = { var = XXI_xong_growth value = -0.3 }
+set_variable = { var = XXI_miao_discontent value = 35 }
 
 set_research_slots = 2
 set_convoys = 10
@@ -112,9 +113,9 @@ set_popularities = {
 	anarchism = 0
 	socialism = 0
 	democratic = 17
-	neutrality = 72
+	neutrality = 65
 	monarchism = 11
 	fascism = 0
-	imperialism = 0
+	imperialism = 7
 	futurism = 0
 }

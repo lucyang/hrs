@@ -2,6 +2,8 @@
 
 recruit_character = XON_long_yunfei
 recruit_character = XON_shi_qigui
+recruit_character = XON_liang_juwu
+recruit_character = XON_vue_pa_chay
 
 #oob = "empty"
 
@@ -111,6 +113,6 @@ set_popularities = {
 	neutrality = 29
 	monarchism = 31
 	fascism = 0
-	imperialism = 10
-	futurism = 6
+	imperialism = 16
+	futurism = 0
 }
