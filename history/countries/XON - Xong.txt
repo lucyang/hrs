@@ -3,11 +3,11 @@
 recruit_character = XON_long_yunfei
 recruit_character = XON_shi_qigui
 recruit_character = XON_liang_juwu
+recruit_character = XON_zhu_zaoguan
 recruit_character = XON_vue_pa_chay
 
 #oob = "empty"
-
-set_country_flag = is_china_nation
+set_country_flag = is_miao_nation
 
 set_technology = {
 	infantry_weapons = 1
@@ -108,8 +108,8 @@ set_politics = {
 set_popularities = {
 	communism = 0
 	anarchism = 0
-	socialism = 0
-	democratic = 24
+	socialism = 10
+	democratic = 14
 	neutrality = 29
 	monarchism = 31
 	fascism = 0

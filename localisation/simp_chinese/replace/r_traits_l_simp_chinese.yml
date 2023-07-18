@@ -890,7 +890,7 @@
  POL_sanation_right_leader:0 "萨纳齐亚右派指挥官"
  POL_sanation_right_leader_desc:0 "§L支持爱德华·雷兹-希米格维和萨纳齐亚右派§!"
  peasant_sympathiser:0 "农民同情者"
- peasant_sympathiser_desc:0 "§L 对波兰的农民和工人阶级抱有同情心。§!"
+ peasant_sympathiser_desc:0 "§L 对工农阶级抱有同情心。§!"
  he_who_bears_the_throne:0 "“熊”踞王位"
  stalin_political_paranoia:0 "政治偏执"
  SOV_paranoia_modifier_increase_effect_tt:0 "- 政治偏执度每周提高§R1§!点"

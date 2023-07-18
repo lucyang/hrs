@@ -41,11 +41,11 @@
  #########
  ## XXC ##
  #########
- XXC_XIANGXI_communism:0 "湘西公社"
- XXC_XIANGXI_communism_DEF:0 "湘西公社"
+ XXC_XIANGXI_communism:0 "湘西劳农共和国"
+ XXC_XIANGXI_communism_DEF:0 "湘西劳农共和国"
  XXC_XIANGXI_communism_ADJ:0 "湘西"
- XXC_XIANGXI_anarchism:0 "湘西总工会"
- XXC_XIANGXI_anarchism_DEF:0 "湘西总工会"
+ XXC_XIANGXI_anarchism:0 "湘西公社"
+ XXC_XIANGXI_anarchism_DEF:0 "湘西公社"
  XXC_XIANGXI_anarchism_ADJ:0 "湘西"
  XXC_XIANGXI_socialism:0 "湘西人民共和国"
  XXC_XIANGXI_socialism_DEF:0 "湘西人民共和国"
@@ -72,15 +72,18 @@
  #########
  ## XON ##
  #########
+ XON_XIANGXI_anarchism:0 "苗疆人民共和国"
+ XON_XIANGXI_anarchism_DEF:0 "苗疆人民共和国"
+ XON_XIANGXI_anarchism_ADJ:0 "苗疆"
  XON_XIANGXI_democratic:0 "果雄共和国"
  XON_XIANGXI_democratic_DEF:0 "果雄共和国"
  XON_XIANGXI_democratic_ADJ:0 "果雄"
  XON_XIANGXI_monarchism:0 "苗疆"
  XON_XIANGXI_monarchism_DEF:0 "苗疆"
  XON_XIANGXI_monarchism_ADJ:0 "苗疆"
- XON_XIANGXI_imperialism:0 "苗夷净化军"
- XON_XIANGXI_imperialism_DEF:0 "苗夷净化军"
- XON_XIANGXI_imperialism_ADJ:0 "苗夷净化军"
+ XON_XIANGXI_imperialism:0 "苗夷自救军"
+ XON_XIANGXI_imperialism_DEF:0 "苗夷自救军"
+ XON_XIANGXI_imperialism_ADJ:0 "苗夷"
 
  XON_CHINA_unification_imperialism:0 "苗夷国"
  XON_CHINA_unification_imperialism_DEF:0 "苗夷国"

@@ -1,4 +1,4 @@
-﻿capital = 323 # 黔西南
+﻿capital = 269 # 黔西南
 
 recruit_character = MIR_yang_shaobin
 

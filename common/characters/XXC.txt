@@ -5,6 +5,9 @@ characters={
 			civilian={
 				large="gfx/leaders/XXC/Portrait_Xiang_Jingyu.png"
 			}
+			army={
+				large="gfx/leaders/XXC/Portrait_Xiang_Jingyu.png"
+			}
 		}
 		country_leader={
 			ideology=dengism_subtype
@@ -12,11 +15,22 @@ characters={
 			traits={ red_suffragette veteran_communist }
 			expire="1950.1.1.1"
 		}
+		corps_commander={
+			traits={ irregulars_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
 	}
 	XXC_tang_bogeng={
 		name=XXC_tang_bogeng
 		portraits={
 			civilian={
+				large="gfx/leaders/XXC/Portrait_Tang_Bogeng.png"
+			}
+			army={
 				large="gfx/leaders/XXC/Portrait_Tang_Bogeng.png"
 			}
 		}
@@ -26,11 +40,22 @@ characters={
 			traits={ SWI_anarchist our_right_to_survive }
 			expire="1950.1.1.1"
 		}
+		corps_commander={
+			traits={ irregulars_officer }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+		}
 	}
 	XXC_jiang_xiqing={
 		name=XXC_jiang_xiqing
 		portraits={
 			civilian={
+				large="gfx/leaders/XXC/Portrait_Jiang_Xiqing.png"
+			}
+			army={
 				large="gfx/leaders/XXC/Portrait_Jiang_Xiqing.png"
 			}
 		}
@@ -39,6 +64,14 @@ characters={
 			desc=XXC_jiang_xiqing_desc
 			traits={ conservative_communist right_trade_unionist }
 			expire="1950.1.1.1"
+		}
+		corps_commander={
+			traits={ irregulars_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
 		}
 	}
 }
