@@ -2,6 +2,18 @@ XIANGXI_select_xiangxi_cosmetic_tag = {
 	hidden_effect = {
 		drop_cosmetic_tag = yes
 	}
+    add_to_variable = {
+        var = XXI_militias_cap
+        value = 6
+    }
+    add_to_variable = {
+        var = XXC_militias_cap
+        value = 6
+    }
+    add_to_variable = {
+        var = XON_militias_cap
+        value = 5
+    }
     if = {
         limit = { 
             AND = {

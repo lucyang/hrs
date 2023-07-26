@@ -1,0 +1,56 @@
+@tier1 = 30
+@tier2 = 20
+@tier3 = 10
+
+leader_traits = {
+
+	traits_ultranationalist = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	traits_civic_nationalist = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	traits_agrarian_socialist = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	traits_anarcho_communist = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	traits_anarcho_communist = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	traits_social_democratic = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	traits_paternalist = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

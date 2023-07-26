@@ -37,9 +37,9 @@ idea_categories = {
 	}
 
 	minister = {
-		character_slot = political_advisor
-		character_slot = political_advisor
-		character_slot = political_advisor
+		character_slot = prime_minister
+		character_slot = economic_minister
+		character_slot = security_minister
 		slot = development
 		slot = manufacture
 

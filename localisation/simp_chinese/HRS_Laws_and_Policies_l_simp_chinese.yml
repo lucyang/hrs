@@ -5,7 +5,12 @@
  election_no_election:0 "无选举"
  election_by_events:0 "事件选举"
  election_by_date:0 "定期选举"
- ################
+ ##############
+ ## CABINETS ##
+ ##############
+ prime_minister:0 "内政部长"
+ economic_minister:0 "经济部长"
+ security_minister:0 "安全部长"
  ## GOVERNMENT ##
  ################
  polity:0 "政体"

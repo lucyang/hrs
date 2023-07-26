@@ -5,7 +5,9 @@ recruit_character = XXI_shen_congwen
 recruit_character = XXI_gu_jiaqi
 recruit_character = XXI_he_long
 
-#oob = "empty"
+set_variable = { XXI_militias_cap = 12 }
+
+oob = "XXI_CivilWar"
 set_country_flag = is_china_nation
 
 set_technology = {

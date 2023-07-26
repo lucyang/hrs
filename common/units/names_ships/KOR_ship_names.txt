@@ -3,7 +3,7 @@
 KOR_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
-	for_countries = { KOR ANK PRK }
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }			
@@ -19,7 +19,7 @@ KOR_DD_HISTORICAL = {
 KOR_DE_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DE
 
-	for_countries = { KOR ANK PRK }
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
 
 	type = ship
 	ship_types = { ship_hull_light destroyer }
@@ -35,7 +35,7 @@ KOR_DE_HISTORICAL = {
 KOR_CL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CL
 
-	for_countries = { KOR ANK PRK }
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser }
@@ -51,7 +51,7 @@ KOR_CL_HISTORICAL = {
 KOR_CA_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CA
 
-	for_countries = { KOR ANK PRK }
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
 
 	type = ship
 	ship_types = { ship_hull_cruiser heavy_cruiser }
@@ -68,7 +68,7 @@ KOR_CA_HISTORICAL = {
 KOR_MINELAYERS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_MINELAYERS
 
-	for_countries = { KOR ANK PRK }
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
 
 	type = ship
 	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
@@ -84,7 +84,7 @@ KOR_MINELAYERS_HISTORICAL = {
 KOR_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
-	for_countries = { KOR ANK PRK }
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
 
 	type = ship
 	ship_types = { ship_hull_heavy battleship }
@@ -100,7 +100,7 @@ KOR_BB_HISTORICAL = {
 KOR_BC_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BC
 
-	for_countries = { KOR ANK PRK }
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
 
 	type = ship
 	ship_types = { ship_hull_heavy battle_cruiser }
@@ -116,7 +116,7 @@ KOR_BC_HISTORICAL = {
 KOR_CV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CARRIERS
 
-	for_countries = { KOR ANK PRK }
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -132,7 +132,7 @@ KOR_CV_HISTORICAL = {
 KOR_CVL_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CVL
 
-	for_countries = { KOR ANK PRK }
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
 
 	type = ship
 	ship_types = { ship_hull_carrier carrier }
@@ -148,7 +148,7 @@ KOR_CVL_HISTORICAL = {
 KOR_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
-	for_countries = { KOR ANK PRK }
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
 
 	type = ship
 	ship_types = { ship_hull_submarine submarine }
@@ -160,12 +160,11 @@ KOR_SS_HISTORICAL = {
 	}
 }
 
-
 ### THEME: KORANESE PREFECTURES ###
 KOR_PREFECTURES = {
 	name = NAME_THEME_PREFECTURES
 
-	for_countries = { KOR ANK PRK }
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
 
 	type = ship
 
@@ -174,15 +173,14 @@ KOR_PREFECTURES = {
 		"Shimosa" "Hitachi" "Omi" "Mino" "Hida" "Shinano" "Kozuke" "Shimotsuke" "Dewa" "Mutsu" "Wakasa" "Echizen" "Kaga" "Noto" "Etchu" "Echigo" 
 		"Sado" "Tanba" "Tango" "Tajima" "Inaba" "Hoki" "Izumo" "Iwami" "Oki" "Harima" "Mimasaka" "Bizen" "Bitchu" "Bingo" "Aki" "Suo" "Nagato" 
 		"Kii" "Awaji" "Awa" "Sanuki" "Iyo" "Tosa" "Buzen" "Chikuzen" "Chikugo" "Hizen" "Higo" "Hyuga" "Osumi" "Satsuma" "Iki" "Tsushima" "Oshima" 
-		"Shiribeshi" "Iburi" "Ishikari" "Teshio" "Kitami" "Hidaka" "Tokachi" "Kushiro" "Nemuro" "Chishima" 
-		"Hokkaido" "Aichi" "Ehime" "Gunma" "Hyogo" "Ishikawa" "Iwate" "Kagawa" "Kanagawa" "Mie" "Miyagi" "Okinawa" "Shiga" "Shimane" "Tochigi" "Yamanashi"
+		"Shiribeshi" "Iburi" "Ishikari" "Teshio" "Kitami" "Hidaka" "Tokachi" "Kushiro" "Nemuro" "Chishima" "Hokkaido" "Aichi" "Ehime" "Gunma" "Hyogo" "Ishikawa" "Iwate" "Kagawa" "Kanagawa" "Mie" "Miyagi" "Okinawa" "Shiga" "Shimane" "Tochigi" "Yamanashi"
 	}
 }
 ## THEME: KORANESE CITIES ###
 KOR_CITIES = {
 	name = NAME_THEME_CITIES
 
-	for_countries = { KOR ANK PRK }
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
 
 	type = ship
 
@@ -203,7 +201,7 @@ KOR_CITIES = {
 KOR_WEATHER = {
 	name = NAME_THEME_WEATHER
 
-	for_countries = { KOR ANK PRK }
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
 
 	type = ship
 
@@ -223,7 +221,7 @@ KOR_WEATHER = {
 KOR_NATURE = {
 	name = NAME_THEME_NATURE
 
-	for_countries = { KOR ANK PRK }
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
 
 	type = ship
 
@@ -240,7 +238,7 @@ KOR_NATURE = {
 KOR_RIVER_MOUNTAIN = {
 	name = NAME_THEME_RIVER_MOUNTAIN
 
-	for_countries = { KOR ANK PRK }
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
 
 	type = ship
 

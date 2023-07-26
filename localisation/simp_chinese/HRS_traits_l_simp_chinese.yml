@@ -9,3 +9,17 @@
  duke_yansheng:0 "衍圣公"
  rubber_magnate:0 "橡胶大亨"
  XON_chaofa:0 "青帕苗王"
+ ##############
+ ## IDEOLOGY ##
+ ##############
+ traits_ultranationalist:0 "极端民族主义"
+ traits_civic_nationalist:0 "公民民族主义"
+ traits_agrarian_socialist:0 "农业社会主义"
+ traits_ultranationalist:0 "极端民族主义"
+ traits_civic_nationalist:0 "公民民族主义"
+ traits_leninist:0 "先锋社会主义"
+ traits_dengist:0 "大众三民主义"
+ traits_anarcho_communist:0 "无政府共产主义"
+ traits_democratic_socialist:0 "民主社会主义"
+ traits_national_conservatist:0 "民族保守主义"
+ traits_guild_socialist:0 "基尔特社会主义"

@@ -12,8 +12,8 @@
  XXI_autonomy_XIANGXI_democratic:0 "湘西自治区"
  XXI_autonomy_XIANGXI_democratic_DEF:0 "湘西自治区"
  XXI_autonomy_XIANGXI_democratic_ADJ:0 "湘西"
- XXI_warlord_XIANGXI_socialism:0 "湘西护国军"
- XXI_warlord_XIANGXI_socialism_DEF:0 "湘西护国军"
+ XXI_warlord_XIANGXI_socialism:0 "湘西军政府"
+ XXI_warlord_XIANGXI_socialism_DEF:0 "湘西军政府"
  XXI_warlord_XIANGXI_socialism_ADJ:0 "湘西"
  XXI_warlord_XIANGXI_neutrality:0 "辰州师管区"
  XXI_warlord_XIANGXI_neutrality_DEF:0 "辰州师管区"
@@ -30,14 +30,14 @@
  XXI_CHINA_neutrality_DEF:0 "中国重建政府"
  XXI_CHINA_neutrality_ADJ:0 "中国"
  
- XXI_XIANGXI_socialism_party:0 "湘西护国军"
- XXI_XIANGXI_socialism_party_long:0 "湘西护国军"
+ XXI_XIANGXI_socialism_party:0 "湘西国民革命军"
+ XXI_XIANGXI_socialism_party_long:0 "湘西国民革命军"
  XXI_XIANGXI_democratic_party:0 "湘西咨议局"
  XXI_XIANGXI_democratic_party_long:0 "湘西咨议局"
  XXI_XIANGXI_neutrality_party:0 "湘西自治委员会"
  XXI_XIANGXI_neutrality_party_long:0 "湘西自治委员会"
- XXI_XIANGXI_warlordism_party:0 "湘西军政府"
- XXI_XIANGXI_warlordism_party_long:0 "湘西军政府"
+ XXI_XIANGXI_warlordism_party:0 "湘西巡防军"
+ XXI_XIANGXI_warlordism_party_long:0 "湘西巡防军"
  #########
  ## XXC ##
  #########

@@ -2,7 +2,7 @@ state={
 	id=654
 	name="STATE_654"
 	provinces={
-		467 1270 2037 3910
+		467 2037 3910 5148
 	}
 	history={
 		owner = IMC
@@ -12,7 +12,7 @@ state={
 			add_core_of = XON
 			remove_core_of = IMC
 		}
-		victory_points = { 1270 1 } #沅陵
+		victory_points = { 5148 3 } #沅陵
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

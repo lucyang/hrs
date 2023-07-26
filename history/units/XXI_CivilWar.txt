@@ -1,0 +1,137 @@
+﻿division_template = {
+	name = "竿军"
+	division_names_group = XXX_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "黑旗军"
+	is_locked = yes
+	force_allow_recruiting = yes
+	division_names_group = XXX_MTN_02
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }   
+	}
+	priority = 2
+}
+division_template = {
+	name = "骑兵团"
+	division_names_group = XXX_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "保卫团"
+	is_locked = yes
+	force_allow_recruiting = yes
+	division_names_group = XXI_GAR_01
+	template_counter = 70
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+	}
+	division_cap = 12
+}
+#division_template = {
+#	name = "联合团"
+#	is_locked = yes
+#	force_allow_recruiting = yes
+#	division_names_group = XXI_GAR_01
+#	template_counter = 70
+#
+#	regiments = {
+#		militia = { x = 0 y = 0 }
+#		militia = { x = 0 y = 1 }
+#		militia = { x = 1 y = 0 }
+#		militia = { x = 1 y = 1 }
+#	}
+#	division_cap = 12
+#}
+units = {
+	division = {
+		name = "湘西第1步兵团"
+		location = 2579 #凤凰
+		division_template = "竿军"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "湘西第2步兵团"
+		location = 1955
+		division_template = "竿军"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "黑旗大队"
+		location = 3872 #永顺
+		division_template = "黑旗军"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 2579 #凤凰
+		division_template = "保卫团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 2982 #乾州
+		division_template = "保卫团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 1955 #桑植
+		division_template = "保卫团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3872 #永顺
+		division_template = "保卫团"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+}

@@ -30,12 +30,11 @@
 #                                      where you choose the historical division name.
 #           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
 #                                      the current game version.
-
 KOR_INF_01 = 
 {
 	name = "Infantry Divisions"
 
-	for_countries = { KOR ANK PRK SLA }
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
 
 	can_use = {	Not = { always = yes } }
 
@@ -111,7 +110,7 @@ KOR_CAV_01 =
 {
 	name = "Cavalry Divisions"
 
-	for_countries = { KOR ANK PRK SLA }
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
 
 	can_use = { always = yes }
 
@@ -187,7 +186,7 @@ KOR_MOT_01 =
 {
 	name = "Motorised Divisions"
 
-	for_countries = { KOR ANK PRK SLA }
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
 
 	can_use = {	always = yes }
 
@@ -265,7 +264,7 @@ KOR_ARM_01 =
 {
 	name = "Armored Divisions"
 
-	for_countries = { KOR ANK PRK SLA }
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
 
 	can_use = { always = yes }
 
@@ -311,7 +310,7 @@ KOR_MEC_01 =
 {
 	name = "Mechanized Divisions"
 
-	for_countries = { KOR ANK PRK SLA }
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
 
 	can_use = {	always = yes }
 
@@ -389,7 +388,7 @@ KOR_GAR_01 =
 {
 	name = "Garrison Divisions"
 
-	for_countries = { KOR ANK PRK SLA }
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
 
 	can_use = { always = yes }
 
@@ -465,7 +464,7 @@ KOR_MAR_01 =
 {
 	name = "Marine Divisions"
 
-	for_countries = { KOR ANK PRK SLA }
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
 
 	can_use = { not = { always = yes } }
 
@@ -498,7 +497,7 @@ KOR_MTN_01 =
 {
 	name = "Mountain Divisions"
 
-	for_countries = { KOR ANK PRK SLA }
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
 
 	can_use = { always = yes }
 
@@ -531,7 +530,7 @@ KOR_PAR_01 =
 {
 	name = "Paratrooper Divisions"
 
-	for_countries = { KOR ANK PRK SLA }
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
 
 	can_use = { not = { always = yes} }
 

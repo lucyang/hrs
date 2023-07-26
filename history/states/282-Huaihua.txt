@@ -2,7 +2,7 @@ state={
 	id=282
 	name="STATE_282"
 	provinces={
-		118 1429 1649 2526 2576 2863 2987
+		118 1270 1429 1649 2526 2576 2863 2987
 	}
 	history = {
 		owner = IMC
@@ -12,13 +12,13 @@ state={
 			add_core_of = XXC
 			remove_core_of = IMC
 		}
-
 		victory_points = { 1429 5 } #洪江
-		victory_points = { 118 1 } #溆浦
+		victory_points = { 118 3 } #溆浦
 		victory_points = { 2987 1 } #辰溪
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
+			arms_factory = 1
 		}
 	}
 	manpower=1443866

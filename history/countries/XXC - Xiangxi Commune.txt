@@ -3,9 +3,11 @@
 recruit_character = XXC_xiang_jingyu
 recruit_character = XXC_jiang_xiqing
 recruit_character = XXC_tang_bogeng
-recruit_character = XXC_yang_fang
+recruit_character = XXC_cai_hesen
 
-#oob = "empty"
+set_variable = { XXC_militias_cap = 12 }
+
+oob = "XXC_CivilWar"
 set_country_flag = is_china_nation
 
 set_technology = {
@@ -84,6 +86,11 @@ add_ideas = {
 	limited_exports
 	limited_conscription
 	war_economy
+}
+add_ideas = {
+	XXC_cai_hesen
+	XXC_xiang_jingyu
+	XXX_tang_bogeng
 }
 add_ideas = {
 	country_development2

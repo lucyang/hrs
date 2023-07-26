@@ -1,0 +1,53 @@
+﻿division_template = {
+	name = "步兵团"
+	division_names_group = XXX_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "骑兵团"
+	division_names_group = XXX_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "保安团"
+	is_locked = yes
+	force_allow_recruiting = yes
+	division_names_group = XXX_GAR_01
+	template_counter = 68
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+	division_cap = 1
+}
+units = {
+	division = {
+		name = "沅陵保安团"
+		location = 5148 #沅陵
+		division_template = "保安团"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.75
+	}
+}

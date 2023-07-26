@@ -1,0 +1,17 @@
+﻿division_template = {
+	name = "革屯军"
+	is_locked = yes
+	force_allow_recruiting = yes
+	division_names_group = XXX_GAR_01
+
+	regiments = {
+		irregular_infantry = { x = 0 y = 0 }
+		irregular_infantry = { x = 0 y = 1 }
+		irregular_infantry = { x = 1 y = 0 }
+		irregular_infantry = { x = 1 y = 1 }
+	}
+	division_cap = 20
+}
+units = {
+	#
+}

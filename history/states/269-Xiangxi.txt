@@ -12,11 +12,12 @@ state={
 			add_core_of = XXI
 			remove_core_of = IMC
 		}
-
-		victory_points = { 2982 3 } #吉首/乾州
 		victory_points = { 2579 5 } #凤凰
+		victory_points = { 2982 3 } #吉首/乾州
+		victory_points = { 3872 1 } #永顺
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
+			industrial_complex = 2
 		}
 	}
 	manpower=1656989

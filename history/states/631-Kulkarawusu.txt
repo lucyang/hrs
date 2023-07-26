@@ -7,7 +7,10 @@ state={
 	history = {
 		owner = DZU
 		add_core_of = DZU
-		
+		1924.1.1 = {
+			owner = ULI
+			add_core_of = ULI
+		}
 		victory_points = { 1883 1 }
 
 		buildings = {

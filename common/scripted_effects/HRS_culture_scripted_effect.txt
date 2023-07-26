@@ -811,7 +811,7 @@ HRS_setup_cultures = {
 	330 = { set_variable = { nationality = 150 } } #韶关
 	# Pamir
 	430 = { set_variable = { nationality = 151 } } #山地巴达赫尚
-	656 = { set_variable = { nationality = 151 } } #穆尔加布
+	488 = { set_variable = { nationality = 151 } } #穆尔加布
 	# Golok/Ngolok
 	# 151 = { set_variable = { nationality = 152 } } #果洛
 }

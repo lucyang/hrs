@@ -2,7 +2,7 @@ state={
 	id=262
 	name="STATE_262"
 	provinces={
-		1955 3301 
+		1955 2669 3301 
 	}
 	history = {
 		owner = IMC
@@ -12,11 +12,10 @@ state={
 			add_core_of = XXI
 			remove_core_of = IMC
 		}
-
-		victory_points = { 1955 1 }
-		
+		victory_points = { 1955 3 } #桑植
+		victory_points = { 2669 1 } #慈利	
 		buildings = {
-			infrastructure = 5
+			infrastructure = 1
 		}
 	}
 	manpower=211797

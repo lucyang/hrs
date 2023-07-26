@@ -6,7 +6,9 @@ recruit_character = XON_liang_juwu
 recruit_character = XON_zhu_zaoguan
 recruit_character = XON_vue_pa_chay
 
-#oob = "empty"
+set_variable = { XON_militias_cap = 1 }
+
+oob = "XON_CivilWar"
 set_country_flag = is_miao_nation
 
 set_technology = {
@@ -85,6 +87,11 @@ add_ideas = {
 	limited_exports
 	limited_conscription
 	civilian_economy
+}
+add_ideas = {
+	idea_XON_Shi_Qigui
+	idea_XON_Liang_Juwu
+	idea_XON_Zhu_Zaoguan
 }
 add_ideas = {
 	country_development1

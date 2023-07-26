@@ -1,0 +1,95 @@
+﻿division_template = {
+	name = "商团军"
+	division_names_group = XXX_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "骑兵团"
+	division_names_group = XXX_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "赤卫队"
+	is_locked = yes
+	force_allow_recruiting = yes
+	division_names_group = XXC_GAR_01
+	template_counter = 69
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+	division_cap = 12
+}
+units = {
+	division = {
+		name = "洪江商团军"
+		location = 1429 #洪江
+		division_template = "商团军"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "洪江赤卫队"
+		location = 1429 #洪江
+		division_template = "赤卫队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "洪江工人纠察队"
+		location = 1429 #洪江
+		division_template = "赤卫队"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "溆浦赤卫队"
+		location = 118 #溆浦
+		division_template = "赤卫队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "辰溪赤卫队"
+		location = 2987 #辰溪
+		division_template = "赤卫队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "会同赤卫队"
+		location = 439 #会同
+		division_template = "赤卫队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "苗侗自卫军"
+		location = 1670 #会同
+		division_template = "赤卫队"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+}

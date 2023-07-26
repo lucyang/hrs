@@ -2,7 +2,7 @@ state={
 	id=31
 	name="STATE_31"
 	provinces={
-		439 1670 2113 2719
+		439 1670 2113 2719 4915
 	}
 	history = {
 		owner = IMC
@@ -12,8 +12,8 @@ state={
 			add_core_of = XXC
 			remove_core_of = IMC
 		}
+		victory_points = { 439 3 } #會同
 		victory_points = { 1670 1 } #靖州
-		victory_points = { 439 1 } #會同
 		buildings = {
 			infrastructure = 1
 		}
