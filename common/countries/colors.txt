@@ -294,10 +294,10 @@ HAK = { # 客家大同国
 	color = rgb { 58 95 205 }
 	color_ui = rgb { 58 95 205 }
 }
-CTC = { # 广州公社
-	color = rgb { 58 95 205 }
-	color_ui = rgb { 58 95 205 }
-}
+#CTC = { # 广州公社
+#	color = rgb { 58 95 205 }
+#	color_ui = rgb { 58 95 205 }
+#}
 ##############
 ### FUJIAN ###
 ##############
@@ -734,8 +734,8 @@ TCH = { # 塔城临时政府
 	color_ui = rgb { 104 48 104 }
 }
 APD = { # 阿年科夫游击队
-	color = rgb { 30 49 36 }
-	color_ui = rgb { 30 49 36 }
+	color = rgb { 0 102 102 }
+	color_ui = rgb { 0 102 102 }
 }
 ILI = { # 伊犁解放组织
 	color = rgb { 184 134 11 }
@@ -783,9 +783,9 @@ KAZ = { # 阿拉什共和国
 	color = rgb { 75 184 203 }
 	color_ui = rgb { 75 184 203 }
 }
-TUK = { # 突厥斯坦/浩罕自治国
-	color = rgb { 0 102 102 }
-	color_ui = rgb { 0 102 102 }
+TUK = { # 突厥斯坦苏维埃
+	color = rgb { 238 0 0 }
+	color_ui = rgb { 238 0 0 }
 }
 ##############
 ### RUSSIA ###

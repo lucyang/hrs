@@ -39,7 +39,7 @@ leader_traits = {
 			factor = 1
 		}
 	}
-	traits_social_democratic = {
+	traits_democratic_socialist = {
 		random = no
 
 		ai_will_do = {
@@ -47,6 +47,41 @@ leader_traits = {
 		}
 	}
 	traits_paternalist = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	traits_leninist = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	traits_dengist = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	traits_national_conservatist = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	traits_militarist = {
+		random = no
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	traits_guild_socialist = {
 		random = no
 
 		ai_will_do = {

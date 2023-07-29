@@ -20,6 +20,12 @@ characters={
 				large="gfx/leaders/THK/Portrait_Reppan_Council.png"
 			}
 		}
+		country_leader={
+			ideology=noble_republic_subtype
+			desc=THK_reppan_council_desc
+			traits={ }
+			expire="1950.1.1.1"
+		}
 	}
 	THK_nambu_kijiro={
 		name=THK_nambu_kijiro

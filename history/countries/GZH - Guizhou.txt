@@ -7,9 +7,6 @@ set_research_slots = 2
 
 recruit_character = GZH_zhang_bailin
 recruit_character = GZH_yang_jincheng
-recruit_character = GZH_wang_jialie
-recruit_character = GZH_zhou_xicheng
-recruit_character = GZH_he_yingqin
 
 1924.1.1 = {
 	add_opinion_modifier = {

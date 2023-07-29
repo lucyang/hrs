@@ -24,7 +24,7 @@ characters={
 			logistics_skill=2
 		}
 	}
-	CGK_okabe_naozaburō={
+	CGK_okabe_naozaburo={
 		name=CGK_okabe_naozaburo
 		portraits={
 			army={
@@ -49,9 +49,9 @@ characters={
 		}
 		corps_commander={
 			traits={ old_guard career_officer infantry_officer }
-			skill=1
-			attack_skill=1
-			defense_skill=1
+			skill=2
+			attack_skill=2
+			defense_skill=2
 			planning_skill=1
 			logistics_skill=2
 		}

@@ -82,7 +82,7 @@ add_ideas = {
 	country_development2
 	country_tech3
 	dirigisme_economy
-	federation3
+	federation2
 }
 
 

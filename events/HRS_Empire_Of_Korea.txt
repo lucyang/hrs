@@ -25,14 +25,14 @@ country_event = { # A Bomb in Kyeongcheon
 	}
 	option = {
 		name = kor_rev.1.b
-		KOR = {
+		ROK = {
 			transfer_state = 99
 			country_event = { id = kor_rev.3 days = 3 }
 		}
 	}
 	option = {
 		name = kor_rev.1.c
-		KOR = { 
+		ROK = { 
 			transfer_state = 99
 			country_event = { id = kor_rev.2 days = 3 }
 		}	
@@ -177,7 +177,7 @@ country_event = { # Chosen-gun betrayed us!
 		log = "[GetDateText]: [Root.GetName]: event kor_rev.3"
 		hidden_effect = {
 			99 = { set_demilitarized_zone = no }
-			KOR = { 
+			ROK = { 
 				transfer_state = 99
 				add_country_leader_role = {
 					character = KOR_pak_chungyang
@@ -217,7 +217,7 @@ country_event = { # Chosen-gun betrayed us!
 		name = kor_rev.3.b
 		add_stability = -0.05
 		99 = { add_manpower = -3200 }
-		KOR = { change_tag_from = ROOT }	
+		ROK = { change_tag_from = ROOT }	
 	}
 }
 country_event = { # Chosen-gun suppressed them

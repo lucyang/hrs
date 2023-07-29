@@ -88,6 +88,11 @@ add_ideas = {
 	civilian_economy
 }
 add_ideas = {
+	XXI_shen_congwen
+	XXI_chen_quzhen
+	XXI_gu_jiaqi
+}
+add_ideas = {
 	country_development1
 	country_tech3
 	dirigisme_economy

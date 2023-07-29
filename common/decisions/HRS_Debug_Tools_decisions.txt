@@ -313,6 +313,37 @@ HRS_debug_tool_category = {
 		}
 	}
 
+	HRS_xiangxi_unification_test = {
+
+		allowed = {
+			is_xiangxi_nation = yes		
+		}
+
+		available = {
+			is_xiangxi_nation = yes
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+		}
+		
+		modifier = {
+			#
+		}
+		
+		complete_effect = {
+			every_state = {
+				limit = { is_xiangxi_state = yes }
+				transfer_state_to = ROOT
+			}
+			XIANGXI_select_xiangxi_cosmetic_tag = yes
+		}
+	}
+
 	HRS_peace_popup_test = {
 
 		allowed = {
@@ -337,15 +368,9 @@ HRS_debug_tool_category = {
 		
 		complete_effect = {
 			load_oob = "IMK_1923"
-			ANK = { transfer_state = 632 }
 			PRK = { transfer_state = 637 }
 			JXP = { transfer_state = 458 }
 			RYU = { transfer_state = 460 }
-			declare_war_on = {
-				target = ANK
-				type = take_state_focus
-				generator = { 632 }
-			}
 			declare_war_on = {
 				target = PRK
 				type = take_state_focus

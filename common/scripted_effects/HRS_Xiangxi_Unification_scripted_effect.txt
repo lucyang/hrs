@@ -1,19 +1,21 @@
 XIANGXI_select_xiangxi_cosmetic_tag = {
 	hidden_effect = {
 		drop_cosmetic_tag = yes
+        remove_PREV_core_and_add_OWNER_core = yes
+        add_to_variable = {
+            var = XXI_militias_cap
+            value = 6
+        }
+        add_to_variable = {
+            var = XXC_militias_cap
+            value = 6
+        }
+        add_to_variable = {
+            var = XON_militias_cap
+            value = 5
+        }
 	}
-    add_to_variable = {
-        var = XXI_militias_cap
-        value = 6
-    }
-    add_to_variable = {
-        var = XXC_militias_cap
-        value = 6
-    }
-    add_to_variable = {
-        var = XON_militias_cap
-        value = 5
-    }
+    ### XXI ###
     if = {
         limit = { 
             AND = {
@@ -24,8 +26,18 @@ XIANGXI_select_xiangxi_cosmetic_tag = {
                 }
             }
         }
+        add_popularity = {
+            ideology = democratic
+            popularity = 0.20
+        }
+        set_country_leader_ideology = revisionist_democratic_subtype
+        set_politics = {
+            ruling_party = democratic
+            elections_allowed = yes
+        }
         set_cosmetic_tag = XXI_republic_XIANGXI
-        remove_country_flag = is_china_nation
+        clr_country_flag = is_china_nation
+        #news_event = xxi_unified_news.1
     }
     if = {
         limit = { 
@@ -37,8 +49,36 @@ XIANGXI_select_xiangxi_cosmetic_tag = {
                 }
             }
         }
+        add_popularity = {
+            ideology = democratic
+            popularity = 0.10
+        }
+        set_politics = {
+            ruling_party = democratic
+            elections_allowed = yes
+        }
+        set_party_name = {
+            ideology = socialism
+            long_name = XXI_guild_party_long
+            name = XXI_guild_party
+        }
+        set_party_name = {
+            ideology = democratic
+            long_name = XXI_council_party_long
+            name = XXI_council_party
+        }
+        set_party_name = {
+            ideology = neutrality
+            long_name = XXI_junta_party_long
+            name = XXI_junta_party
+        }
+        add_popularity = {
+            ideology = democratic
+            popularity = 0.20
+        }
         set_cosmetic_tag = XXI_autonomy_XIANGXI
-        remove_country_flag = is_china_nation
+        clr_country_flag = is_china_nation
+        #news_event = xxi_unified_news.2
     }
     if = {
         limit = { 
@@ -50,7 +90,31 @@ XIANGXI_select_xiangxi_cosmetic_tag = {
                 }
             }
         }
+        add_popularity = {
+            ideology = socialism
+            popularity = 0.20
+        }
+         set_politics = {
+            ruling_party = socialism
+            elections_allowed = no
+        }
+        set_party_name = {
+            ideology = socialism
+            long_name = XXI_mac_party_long
+            name = XXI_mac_party
+        }
+        set_party_name = {
+            ideology = democratic
+            long_name = XXI_kmt_party_long
+            name = XXI_kmt_party
+        }
+        set_party_name = {
+            ideology = neutrality
+            long_name = XXI_warlord_party_long
+            name = XXI_warlord_party
+        }
         set_cosmetic_tag = XXI_warlord_XIANGXI
+        #news_event = xxi_unified_news.3
     }
     if = {
         limit = { 
@@ -62,70 +126,236 @@ XIANGXI_select_xiangxi_cosmetic_tag = {
                 }
             }
         }
+        add_popularity = {
+            ideology = neutrality
+            popularity = 0.30
+        }
+        set_politics = {
+            ruling_party = neutrality
+            elections_allowed = no
+        }
+        set_party_name = {
+            ideology = neutrality
+            long_name = XXI_junta_party_long
+            name = XXI_junta_party
+        }
         set_cosmetic_tag = XXI_warlord_XIANGXI
+        #news_event = xxi_unified_news.4
     }
+    ### XXC ###
     if = {
         limit = { 
             AND = {
                 original_tag = XXC
                 OR = {
-                    has_government = communism
-                    has_government = anarchism
+                    has_country_leader = {
+                        character = XXC_xiang_jingyu
+                        ruling_only = yes
+                    }
+                    has_country_leader = {
+                        character = XXC_cai_hesen
+                        ruling_only = yes
+                    }
                 }
             }
         }
+        set_politics = {
+            ruling_party = communism
+            elections_allowed = no
+        }
+        set_party_name = {
+            ideology = communism
+            long_name = XXC_vanguardist_party_long
+            name = XXC_vanguardist_party
+        }
         set_cosmetic_tag = XXC_XIANGXI
+        #news_event = xxc_unified_news.1
+    }
+    if = {
+       limit = { 
+            AND = {
+                original_tag = XXC
+                has_country_leader = {
+                    character = XXC_tang_bogeng
+                    ruling_only = yes
+                }
+            }
+        }
+        set_politics = {
+            ruling_party = anarchism
+            elections_allowed = no
+        }
+        add_popularity = {
+            ideology = anarchism
+            popularity = 0.15
+        }
+        set_party_name = {
+            ideology = anarchism
+            long_name = XXC_anarchist_party_long
+            name = XXC_anarchist_party
+        }
+        set_cosmetic_tag = XXC_XIANGXI
+        #news_event = xxc_unified_news.2
     }
     if = {
         limit = { 
             AND = {
                 original_tag = XXC
-                OR = {
-                    has_government = socialism
-                    has_government = democratic
+                has_country_leader = {
+                    character = XXC_jiang_xiqing
+                    ruling_only = yes
                 }
             }
         }
+        set_country_leader_ideology = market_socialism_subtype
+        set_politics = {
+            ruling_party = anarchism
+            elections_allowed = no
+        }
+        add_popularity = {
+            ideology = anarchism
+            popularity = 0.20
+        }
+        add_popularity = {
+            ideology = socialism
+            popularity = 0.10
+        }
         set_cosmetic_tag = XXC_XIANGXI
-        remove_country_flag = is_china_nation
+        #news_event = xxc_unified_news.3
     }
     if = {
-         AND = {
-            original_tag = XON
-            NOT = { has_government = imperialism }
+        limit = { 
+            AND = {
+                original_tag = XXC
+                has_country_leader = {
+                    character = XXC_jiang_xiqing
+                    ruling_only = yes
+                }
+            }
+        }
+        set_country_leader_ideology = guild_socialism_subtype
+        set_politics = {
+            ruling_party = socialism
+            elections_allowed = no
+        }
+        add_popularity = {
+            ideology = socialism
+            popularity = 0.30
+        }
+        set_cosmetic_tag = XXC_XIANGXI
+        #news_event = xxc_unified_news.4
+    }
+    if = {
+        limit = { 
+            AND = {
+                original_tag = XXC
+                has_country_leader = {
+                    character = XXC_zhou_fohai
+                    ruling_only = yes
+                }
+            }
+        }
+        set_country_leader_ideology = manchu_socialism_subtype
+        set_politics = {
+            ruling_party = fascism
+            elections_allowed = no
+        }
+        add_popularity = {
+            ideology = fascism
+            popularity = 0.30
+        }
+        set_cosmetic_tag = XXC_XIANGXI
+        #news_event = xxc_unified_news.5
+    }
+    ### XON ###
+    if = {
+        limit = {
+            AND = {
+                original_tag = XON
+                has_country_leader = {
+                    character = XON_long_yunfei
+                    ruling_only = yes
+                }
+            }
+        }
+        set_politics = {
+            ruling_party = monarchism
+            elections_allowed = no
+        }
+        add_popularity = {
+            ideology = monarchism
+            popularity = 0.30
         }
         set_cosmetic_tag = XON_XIANGXI
+        #news_event = xon_unified_news.1
     }
     if = {
-         AND = {
-            original_tag = XON
-            has_government = imperialism
+        limit = {
+            AND = {
+                original_tag = XON
+                has_country_leader = {
+                    character = XON_shi_qigui
+                    ruling_only = yes
+                }
+            }
+        }
+        set_politics = {
+            ruling_party = democratic
+            elections_allowed = no
+        }
+        add_popularity = {
+            ideology = democratic
+            popularity = 0.20
         }
         set_cosmetic_tag = XON_XIANGXI
-        add_country_flag = is_china_nation
-    }
-}
-
-XIANGXI_select_unified_cosmetic_tag = {
-	hidden_effect = {
-		drop_cosmetic_tag = yes
-	}
-    if = {
-        limit = { 
-            original_tag = XXI
-        }
-        set_cosmetic_tag = XXI_CHINA
+        #news_event = xon_unified_news.2
     }
     if = {
-        limit = { 
-            original_tag = XXC
+        limit = {
+            AND = {
+                original_tag = XON
+                has_country_leader = {
+                    character = XON_liang_juwu
+                    ruling_only = yes
+                }
+            }
         }
-        set_cosmetic_tag = XXC_CHINA
+        set_politics = {
+            ruling_party = imperialism
+            elections_allowed = no
+        }
+        add_popularity = {
+            ideology = imperialism
+            popularity = 0.60
+        }
+        set_party_name = {
+            ideology = imperialism
+            long_name = XON_nationalist_party_long
+            name = XON_nationalist_party
+        }
+        set_cosmetic_tag = XON_XIANGXI
+        set_country_flag = is_china_nation
+        #news_event = xon_unified_news.3
     }
     if = {
-        limit = { 
-            original_tag = XON
+        limit = {
+            AND = {
+                original_tag = XON
+                has_country_leader = {
+                    character = XON_zhi_zaoguan
+                    ruling_only = yes
+                }
+            }
         }
-        set_cosmetic_tag = XON_CHINA
+        set_politics = {
+            ruling_party = anarchism
+            elections_allowed = no
+        }
+        add_popularity = {
+            ideology = anarchism
+            popularity = 0.20
+        }
+        set_cosmetic_tag = XON_XIANGXI
+        #news_event = xon_unified_news.4
     }
 }

@@ -6,7 +6,7 @@ recruit_character = CHB_katayama_tetsu #片山哲
 recruit_character = CHB_suzuki_mosaburo #铃木茂三郎
 recruit_character = CHB_asanuma_inejiro #浅沼稻次郎
 recruit_character = CHB_asohi_sashi #麻生久
-recruit_character = CHB_miwa_jusō #三轮寿壮
+recruit_character = CHB_miwa_juso #三轮寿壮
 
 #oob = "empty"
 

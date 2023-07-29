@@ -1,13 +1,10 @@
 ﻿capital = 624 #Sendai
 
-recruit_character = THK_date_junnosuke #伊达幸之助
-recruit_character = THK_kohinata_hakuro #小日向白朗
 recruit_character = THK_yasuhito #雍仁亲王
 recruit_character = THK_reppan_council #奥羽越列藩会議
 recruit_character = THK_nambu_kijiro #南部麒次郎
 
 #oob = "empty"
-
 
 set_technology = {
 	infantry_weapons = 1

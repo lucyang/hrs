@@ -81,18 +81,18 @@ characters={
 			expire="1937.7.7.1"
 		}
 	}
-	TIB_nicholas_roerich = {
-		name=TIB_nicholas_roerich
+	TIB_thubten_choekyi_nyima={
+		name=SHG_thubten_choekyi_nyima
 		portraits={
 			civilian={
-				large="gfx/leaders/TIB/Portrait_Nicholas_Roerich.png"
+				large="gfx/leaders/SHG/Portrait_Thubten_Choekyi_Nyima.png"
 			}
 		}
 		country_leader={
-			ideology=ethnofuturism
-			desc=TIB_nicholas_roerich_desc
+			ideology=buddist_state_subtype
+			desc=SHG_thubten_choekyi_nyima_desc
 			traits={  }
-			expire="1947.12.13.1"
+			expire="1937.12.1.1"
 		}
 	}
 }

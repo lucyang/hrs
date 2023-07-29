@@ -47,7 +47,7 @@ units = {
 		name = "沅陵保安团"
 		location = 5148 #沅陵
 		division_template = "保安团"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.75
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.50
 	}
 }

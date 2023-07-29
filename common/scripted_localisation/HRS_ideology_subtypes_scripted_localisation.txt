@@ -360,6 +360,10 @@ defined_text = {
 		localization_key = millenarianism_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = miao_millenarianism_subtype }
+		localization_key = miao_millenarianism_subtype
+	}
+	text = {
 		localization_key = monarchism_subtype
 	}
 }

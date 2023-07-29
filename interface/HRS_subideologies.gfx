@@ -417,6 +417,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/monarchism_group/millenarianism_subtype.dds"
 	}
 
+	spriteType = {
+		name = "GFX_ideology_miao_millenarianism_subtype"
+		texturefile = "gfx/interface/ideologies/monarchism_group/miao_millenarianism_subtype.dds"
+	}
+
 	### Nazi Group ###
 	spriteType = {
 		name = "GFX_ideology_fascism_group"

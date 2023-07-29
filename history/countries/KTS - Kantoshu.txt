@@ -1,6 +1,6 @@
 ﻿capital = 67 #大连
 
-recruit_character = KTS_fu_liyu
+#recruit_character = KTS_fu_liyu
 
 #oob = "empty"
 
@@ -120,5 +120,5 @@ set_popularities = {
 	monarchism = 0
 	fascism = 16
 	imperialism = 0
-	futurism = 10
+	futurism = 0
 }

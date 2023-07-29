@@ -8,6 +8,7 @@
  ##############
  ## CABINETS ##
  ##############
+ minister:0 "内政"
  prime_minister:0 "内政部长"
  economic_minister:0 "经济部长"
  security_minister:0 "安全部长"

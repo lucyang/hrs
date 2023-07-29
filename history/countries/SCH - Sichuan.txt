@@ -1,6 +1,5 @@
 ﻿capital = 227
 
-recruit_character = SCH_wang_youmu
 recruit_character = SCH_wu_yuzhang
 recruit_character = SCH_zhu_qinglan
 recruit_character = SCH_xiong_kewu

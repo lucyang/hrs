@@ -132,25 +132,23 @@ LDK = {
 	}
 }
 
-1924.1.1 = {
-	YSH = {
-		set_politics = {
-			ruling_party = monarchism
-			last_election = "1923.1.1"
-			election_frequency = 48
-			elections_allowed = no
-		}
-		set_popularities = {
-			communism = 0
-			anarchism = 0
-			socialism = 6
-			democratic = 0
-			neutrality = 8
-			monarchism = 92
-			fascism = 0
-			imperialism = 0
-			futurism = 0
-		}
+YSH = {
+	set_politics = {
+		ruling_party = monarchism
+		last_election = "1923.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		communism = 0
+		anarchism = 0
+		socialism = 6
+		democratic = 0
+		neutrality = 8
+		monarchism = 92
+		fascism = 0
+		imperialism = 0
+		futurism = 0
 	}
 }
 
@@ -163,11 +161,11 @@ set_politics = {
 set_popularities = {
 	communism = 0
 	anarchism = 0
-	socialism = 7
-	democratic = 8
-	neutrality = 31
-	monarchism = 29
-	fascism = 14
+	socialism = 14
+	democratic = 34
+	neutrality = 42
+	monarchism = 20
+	fascism = 10
 	imperialism = 0
-	futurism = 11
+	futurism = 0
 }

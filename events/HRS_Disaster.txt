@@ -157,9 +157,5 @@ country_event = {
 	option = {
 		name = disaster.5.a
 		add_stability = 0.02
-		KOR = { 
-			retire_character = KOR_pak_fumiko
-			set_country_flag = KOR_pak_fumiko_was_arrested
-		}
 	}
 }

@@ -14,15 +14,6 @@ is_japan_nation = {
 		original_tag = THK
 		original_tag = OMT
 		original_tag = KKG
-		AND = {
-			original_tag = KOR
-			KOR = { 
-				has_country_leader = {
-					character = KOR_pak_honyong
-					ruling_only = yes
-				}
-			}
-		}
 	}
 }
 is_shikoku_nation = {

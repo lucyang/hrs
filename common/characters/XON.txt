@@ -1,156 +1,162 @@
-characters = {
-	XON_long_yunfei = {
-		name = XON_long_yunfei
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/XON/Portrait_Long_Yunfei.png"
-				small = "gfx/interface/ideas/XON/idea_XON_Long_Yunfei.png"
+characters={
+	XON_long_yunfei={
+		name=XON_long_yunfei
+		portraits={
+			civilian={
+				large="gfx/leaders/XON/Portrait_Long_Yunfei.png"
+				small="gfx/interface/ideas/XON/idea_XON_Long_Yunfei.png"
 			}
-			army = {
-				large = "gfx/leaders/XON/Portrait_Long_Yunfei.png"
-				#small = "gfx/interface/ideas/XON/idea_XON_Long_Yunfei.png"
-			}
-		}
-		advisor = {
-			slot = security_minister
-			idea_token = XON_long_yunfei
-			allowed = { original_tag = XON }
-			traits = { traits_national_conservatist XON_chaofa }
-		}
-		country_leader = {
-			ideology = warlordism_subtype
-			desc = XON_long_yunfei_desc
-			traits = { XON_chaofa }
-			expire = "1950.1.1.1"
-		}
-		corps_commander = {
-			traits = { skirmisher war_hero }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 2
-		}
-	}
-	XON_shi_qigui = {
-		name = XON_shi_qigui
-		advisor = {
-			slot = prime_minister
-			idea_token = XON_shi_qigui
-			allowed = { 
-				OR = {
-					original_tag = XON
-					AND = {
-						original_tag = XXI
-						has_government = democratic
-					}
-					AND = {
-						original_tag = XXC
-						has_government = socialism
-					}
-					AND = {
-						original_tag = XXC
-						has_government = democratic
-					}
-				}
-			}
-			traits = { traits_civic_nationalist social_reformer }
-		}
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/XON/Portrait_Shi_Qigui.png"
-				small = "gfx/interface/ideas/XON/idea_XON_Shi_Qigui.png"
-			}
-		}
-		country_leader = {
-			ideology = national_liberalism_subtype
-			desc = XON_shi_qigui_desc
-			traits = { gentle_scholar }
-			expire = "1959.1.1.1"
-		}
-	}
-	XON_zhu_zaoguan = {
-		name = XON_zhu_zaoguan
-		advisor = {
-			slot = economic_minister
-			idea_token = XON_zhu_zaoguan
-			allowed = { 
-				OR = { 
-					original_tag = XON 
-					original_tag = XXC 
-				} 
-			}
-			traits = { traits_agrarian_socialist defender_of_the_peasantry }
-		}
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/XON/Portrait_Zhu_Zaoguan_military.png"
-				small = "gfx/interface/ideas/XON/idea_XON_Zhu_Zaoguan_civilian.png"
-			}
-			army = {
-				large = "gfx/leaders/XON/Portrait_Zhu_Zaoguan_military.png"
-				#small = "gfx/interface/ideas/XON/idea_XON_Zhu_Zaoguan_military.png"
-			}
-		}
-		country_leader = {
-			ideology = agrarian_socialism_subtype
-			desc = XON_zhu_zaoguan_desc
-			traits = { polish_peasant_champion }
-			expire = "1955.1.1.1"
-		}
-		corps_commander = {
-			traits = { infantry_officer career_officer organizer }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 2
-		}
-	}
-	XON_liang_juwu = {
-		name = XON_liang_juwu
-		advisor = {
-			slot = foreign_minister
-			idea_token = XON_liang_juwu
-			allowed = { original_tag = XON }
-			traits = { traits_ultranationalist ideological_crusader }
-		}
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/XON/Portrait_Liang_Juwu.png"
-				small = "gfx/interface/ideas/XON/idea_XON_Liang_Juwu.png"
-			}
-		}
-		country_leader = {
-			ideology = ultranationalism_subtype
-			desc = XON_liang_juwu_desc
-			traits = { irredentist_academic }
-			expire = "1959.1.1.1"
-		}
-	}
-	XON_vue_pa_chay = {
-		name = XON_vue_pa_chay
-		portraits = {
-			army = {
-				large = "gfx/leaders/XON/Portrait_Vue_Pa_Chay.png"
-				small = "gfx/interface/ideas/XON/idea_XON_Vue_Pa_Chay.png"
+			army={
+				large="gfx/leaders/XON/Portrait_Long_Yunfei.png"
+				#small="gfx/interface/ideas/XON/idea_XON_Long_Yunfei.png"
 			}
 		}
 		advisor={
-			slot = army_chief
-			idea_token = XON_vue_pa_chay
-			ledger = army
-			allowed = { original_tag = XON }
-			traits = { army_chief_maneuver_2 }
-			cost = 100
+			slot=security_minister
+			idea_token=XON_long_yunfei
+			allowed={ original_tag=XON }
+			traits={ traits_national_conservatist XON_chaofa }
 		}
-		corps_commander = {
-			traits = { guerilla_fighter ambusher irregulars_officer }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
+		country_leader={
+			ideology=warlordism_subtype
+			desc=XON_long_yunfei_desc
+			traits={ XON_chaofa }
+			expire="1950.1.1.1"
+		}
+		corps_commander={
+			traits={ skirmisher war_hero }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	XON_long_yunfei_old={
+		name=XON_long_yunfei
+		portraits={
+			civilian={
+				large="gfx/leaders/XON/Portrait_Long_Yunfei.png"
+			}
+		}
+		country_leader={
+			ideology=miao_millenarianism_subtype
+			desc=XON_long_yunfei_desc
+			traits={ XON_chaofa }
+			expire="1950.1.1.1"
+		}
+	}
+	XON_shi_qigui={
+		name=XON_shi_qigui
+		portraits={
+			civilian={
+				large="gfx/leaders/XON/Portrait_Shi_Qigui.png"
+				small="gfx/interface/ideas/XON/idea_XON_Shi_Qigui.png"
+			}
+		}
+		advisor={
+			slot=prime_minister
+			idea_token=XON_shi_qigui
+			allowed={ 
+				OR={
+					original_tag=XON
+					AND={
+						original_tag=XXI
+						has_government=democratic
+					}
+					AND={
+						original_tag=XXC
+						has_government=socialism
+					}
+					AND={
+						original_tag=XXC
+						has_government=democratic
+					}
+				}
+			}
+			traits={ traits_civic_nationalist gentle_scholar }
+		}
+		country_leader={
+			ideology=national_liberalism_subtype
+			desc=XON_shi_qigui_desc
+			traits={ social_reformer }
+			expire="1959.1.1.1"
+		}
+	}
+	XON_zhu_zaoguan={
+		name=XON_zhu_zaoguan
+		portraits={
+			civilian={
+				large="gfx/leaders/XON/Portrait_Zhu_Zaoguan_military.png"
+				small="gfx/interface/ideas/XON/idea_XON_Zhu_Zaoguan_civilian.png"
+			}
+			army={
+				large="gfx/leaders/XON/Portrait_Zhu_Zaoguan_military.png"
+				#small="gfx/interface/ideas/XON/idea_XON_Zhu_Zaoguan_military.png"
+			}
+		}
+		advisor={
+			slot=economic_minister
+			idea_token=XON_zhu_zaoguan
+			allowed={ 
+				OR={ 
+					original_tag=XON 
+					original_tag=XXC 
+				} 
+			}
+			traits={ traits_agrarian_socialist defender_of_the_peasantry }
+		}
+		country_leader={
+			ideology=agrarian_socialism_subtype
+			desc=XON_zhu_zaoguan_desc
+			traits={ polish_peasant_champion }
+			expire="1955.1.1.1"
+		}
+		corps_commander={
+			traits={ infantry_officer career_officer organizer }
+			skill=3
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	XON_liang_juwu={
+		name=XON_liang_juwu
+		advisor={
+			slot=prime_minister
+			idea_token=XON_liang_juwu
+			allowed={ original_tag=XON has_government=monarchism }
+			traits={ traits_ultranationalist ideological_crusader }
+		}
+		portraits={
+			civilian={
+				large="gfx/leaders/XON/Portrait_Liang_Juwu.png"
+				small="gfx/interface/ideas/XON/idea_XON_Liang_Juwu.png"
+			}
+		}
+		country_leader={
+			ideology=ultranationalism_subtype
+			desc=XON_liang_juwu_desc
+			traits={ irredentist_academic }
+			expire="1959.1.1.1"
+		}
+	}
+	XON_vue_pa_chay={
+		name=XON_vue_pa_chay
+		portraits={
+			army={
+				large="gfx/leaders/XON/Portrait_Vue_Pa_Chay.png"
+				small="gfx/interface/ideas/XON/idea_XON_Vue_Pa_Chay.png"
+			}
+		}
+		corps_commander={
+			traits={ guerilla_fighter ambusher irregulars_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
 		}
 	}
 }

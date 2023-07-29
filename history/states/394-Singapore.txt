@@ -10,7 +10,7 @@ state={
 		victory_points = { 4281 30 } #新加坡
 		buildings = {
 			infrastructure = 5
-			589 = {
+			4281 = {
 				naval_base = 6
 			}
 		}

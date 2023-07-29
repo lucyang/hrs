@@ -1,0 +1,289 @@
+add_namespace = xxc_unified_news
+add_namespace = xxi_unified_news
+add_namespace = xon_unified_news
+
+#######
+# XXI #
+#######
+news_event = {
+	id = xxi_unified_news.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event xxx_unified_news.1"
+	}
+	title = xxi_unified_news.1.t
+	desc = xxi_unified_news.1.desc
+	picture = GFX_report_event_chinese_soldiers_city_ruin
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #陈渠珍
+		name = xxi_unified_news.1.a
+		XIANGXI_select_xiangxi_cosmetic_tag = yes
+	}
+}
+news_event = {
+	id = xxi_unified_news.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event xxx_unified_news.2"
+	}
+	title = xxi_unified_news.2.t
+	desc = xxi_unified_news.2.desc
+	picture = GFX_report_event_chinese_soldiers_city_ruin
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #沈从文
+		name = xxi_unified_news.2.a
+		XIANGXI_select_xiangxi_cosmetic_tag = yes
+	}
+}
+news_event = {
+	id = xxi_unified_news.3
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event xxx_unified_news.3"
+	}
+	title = xxi_unified_news.3.t
+	desc = xxi_unified_news.3.desc
+	picture = GFX_report_event_chinese_soldiers_city_ruin
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #贺龙
+		name = xxi_unified_news.3.a
+		XIANGXI_select_xiangxi_cosmetic_tag = yes
+	}
+}
+news_event = {
+	id = xxi_unified_news.4
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event xxx_unified_news.4"
+	}
+	title = xxi_unified_news.4.t
+	desc = xxi_unified_news.4.desc
+	picture = GFX_report_event_chinese_soldiers_city_ruin
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #顾家齐
+		name = xxi_unified_news.4.a
+		XIANGXI_select_xiangxi_cosmetic_tag = yes
+	}
+}
+#######
+# XXC #
+#######
+news_event = {
+	id = xxc_unified_news.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event xxx_unified_news.1"
+	}
+	title = xxc_unified_news.1.t
+	desc = xxc_unified_news.1.desc
+	picture = GFX_report_event_chinese_soldiers_city_ruin
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #向警予
+		name = xxc_unified_news.1.a
+		XIANGXI_select_xiangxi_cosmetic_tag = yes
+	}
+}
+news_event = {
+	id = xxc_unified_news.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event xxx_unified_news.2"
+	}
+	title = xxc_unified_news.2.t
+	desc = xxc_unified_news.2.desc
+	picture = GFX_report_event_chinese_soldiers_city_ruin
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #唐伯赓
+		name = xxc_unified_news.2.a
+		XIANGXI_select_xiangxi_cosmetic_tag = yes
+	}
+}
+news_event = {
+	id = xxc_unified_news.3
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event xxx_unified_news.3"
+	}
+	title = xxc_unified_news.3.t
+	desc = xxc_unified_news.3.desc
+	picture = GFX_report_event_chinese_soldiers_city_ruin
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #蒋希清（市场社会主义）
+		name = xxc_unified_news.3.a
+		XIANGXI_select_xiangxi_cosmetic_tag = yes
+	}
+}
+news_event = {
+	id = xxc_unified_news.4
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event xxx_unified_news.4"
+	}
+	title = xxc_unified_news.4.t
+	desc = xxc_unified_news.4.desc
+	picture = GFX_report_event_chinese_soldiers_city_ruin
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #蒋希清（社会自由主义）
+		name = xxc_unified_news.4.a
+		XIANGXI_select_xiangxi_cosmetic_tag = yes
+	}
+}
+news_event = {
+	id = xxc_unified_news.5
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event xxx_unified_news.5"
+	}
+	title = xxc_unified_news.5.t
+	desc = xxc_unified_news.5.desc
+	picture = GFX_report_event_chinese_soldiers_city_ruin
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #蒋希清（基尔特社会主义）
+		name = xxc_unified_news.5.a
+		XIANGXI_select_xiangxi_cosmetic_tag = yes
+	}
+}
+news_event = {
+	id = xxc_unified_news.6
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event xxx_unified_news.5"
+	}
+	title = xxc_unified_news.6.t
+	desc = xxc_unified_news.6.desc
+	picture = GFX_report_event_chinese_soldiers_city_ruin
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #周佛海（满铁社会主义）
+		name = xxc_unified_news.6.a
+		XIANGXI_select_xiangxi_cosmetic_tag = yes
+	}
+}
+#######
+# XON #
+#######
+news_event = {
+	id = xon_unified_news.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event xxx_unified_news.1"
+	}
+	title = xon_unified_news.1.t
+	desc = xon_unified_news.1.desc
+	picture = GFX_news_event_chinese_soldiers_march
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #龙云飞
+		name = xon_unified_news.1.a
+		set_politics = {
+            ruling_party = monarchism
+            elections_allowed = no
+        }
+        add_popularity = {
+            ideology = monarchism
+            popularity = 0.30
+        }
+        set_cosmetic_tag = XON_XIANGXI
+	}
+}
+news_event = {
+	id = xon_unified_news.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event xxx_unified_news.2"
+	}
+	title = xon_unified_news.2.t
+	desc = xon_unified_news.2.desc
+	picture = GFX_news_event_generic_parliament
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #石启贵
+		name = xon_unified_news.2.a
+		set_politics = {
+            ruling_party = democratic
+            elections_allowed = no
+        }
+        add_popularity = {
+            ideology = democratic
+            popularity = 0.20
+        }
+        set_cosmetic_tag = XON_XIANGXI
+	}
+}
+news_event = {
+	id = xon_unified_news.3
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event xxx_unified_news.3"
+	}
+	title = xon_unified_news.3.t
+	desc = xon_unified_news.3.desc
+	picture = GFX_news_event_generic_rally
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #梁聚五
+		name = xon_unified_news.3.a
+		set_politics = {
+            ruling_party = imperialism
+            elections_allowed = no
+        }
+        add_popularity = {
+            ideology = imperialism
+            popularity = 0.60
+        }
+        set_party_name = {
+            ideology = imperialism
+            long_name = XON_nationalist_party_long
+            name = XON_nationalist_party
+        }
+        set_cosmetic_tag = XON_XIANGXI
+        set_country_flag = is_china_nation
+	}
+}
+news_event = {
+	id = xon_unified_news.4
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event xxx_unified_news.4"
+	}
+	title = xon_unified_news.4.t
+	desc = xon_unified_news.4.desc
+	picture = GFX_news_event_shanghai_syndicate_militias
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { #朱早观
+		name = xon_unified_news.4.a
+		 set_politics = {
+            ruling_party = anarchism
+            elections_allowed = no
+        }
+        add_popularity = {
+            ideology = anarchism
+            popularity = 0.20
+        }
+        set_cosmetic_tag = XON_XIANGXI
+	}
+}

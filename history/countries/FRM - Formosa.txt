@@ -1,6 +1,5 @@
-﻿capital = 346 # Taichung
+﻿capital = 346 #台中
 
-recruit_character = FRM_lin_xiantang
 recruit_character = FRM_jiang_weishui
 recruit_character = FRM_lian_wenqing
 recruit_character = FRM_li_weiguang

@@ -49,7 +49,7 @@ country_event = { # Military Aid from Manchuria
 		}
 		MAN = {
 			add_opinion_modifier = {
-				target = ANK
+				target = KPA
 				modifier = refused_help
 			}
 		}
@@ -160,7 +160,7 @@ country_event = { # Our Relationship with PRK
 		}
 		PRK = {
 			add_opinion_modifier = {
-				target = ANK
+				target = KPA
 				modifier = betrayed_alliance
 			}
 		}
@@ -192,7 +192,7 @@ country_event = { # Our Relationship with PRK
 				popularity = 0.10
 			}
 			add_opinion_modifier = {
-				target = ANK
+				target = KPA
 				modifier = anti_imperialist
 			}
 		}

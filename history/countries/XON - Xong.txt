@@ -1,6 +1,7 @@
 ﻿capital = 655 #沅陵
 
 recruit_character = XON_long_yunfei
+recruit_character = XON_long_yunfei_old
 recruit_character = XON_shi_qigui
 recruit_character = XON_liang_juwu
 recruit_character = XON_zhu_zaoguan
@@ -89,9 +90,9 @@ add_ideas = {
 	civilian_economy
 }
 add_ideas = {
-	idea_XON_Shi_Qigui
-	idea_XON_Liang_Juwu
-	idea_XON_Zhu_Zaoguan
+	XON_shi_qigui
+	XON_zhu_zaoguan
+	XON_long_yunfei
 }
 add_ideas = {
 	country_development1

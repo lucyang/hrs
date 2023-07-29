@@ -22,6 +22,7 @@ characters={
 		}
 		country_leader={
 			ideology=daijitaoism_subtype
+			desc=IMC_aisin_gioro_puwei_desc
 			traits={  }
 			expire="1936.10.10.1"
 		}
@@ -35,6 +36,7 @@ characters={
 		}
 		country_leader={
 			ideology=conservatism_subtype
+			desc=IMC_aisin_gioro_puyi_desc
 			traits={  }
 			expire="1967.10.17.1"
 		}
@@ -48,6 +50,7 @@ characters={
 		}
 		country_leader={
 			ideology=ultranationalism_subtype
+			desc=IMC_aisin_gioro_xiqia_desc
 			traits={  }
 			expire="1965.5.1.1"
 		}

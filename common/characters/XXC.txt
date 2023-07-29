@@ -1,170 +1,244 @@
-characters = {
-	XXC_xiang_jingyu = {
-		name = XXC_xiang_jingyu
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/XXC/Portrait_Xiang_Jingyu.png"
-				small = "gfx/interface/ideas/XXC/idea_XXC_Xiang_Jingyu.png"
-			}
-			army = {
-				large = "gfx/leaders/XXC/Portrait_Xiang_Jingyu.png"
+characters={
+	XXC_xiang_jingyu={
+		name=XXC_xiang_jingyu
+		portraits={
+			civilian={
+				large="gfx/leaders/XXC/Portrait_Xiang_Jingyu.png"
+				small="gfx/interface/ideas/XXC/idea_XXC_Xiang_Jingyu.png"
 			}
 		}
-		advisor = {
-			slot = economic_minister
-			idea_token = XXC_xiang_jingyu
-			allowed = { 
-				original_tag = XXC 
+		advisor={
+			slot=economic_minister
+			idea_token=XXC_xiang_jingyu
+			allowed={ 
+				original_tag=XXC 
 			}
-			traits = { traits_dengist veteran_communist }
+			traits={ traits_dengist veteran_communist }
 		}
-		country_leader = {
-			ideology = dengism_subtype
-			desc = XXC_xiang_jingyu_desc
-			traits = { veteran_communist }
-			expire = "1950.1.1.1"
-		}
-		corps_commander = {
-			traits = { militias_officer }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 1
+		country_leader={
+			ideology=dengism_subtype
+			desc=XXC_xiang_jingyu_desc
+			traits={ veteran_communist }
+			expire="1950.1.1.1"
 		}
 	}
-	XXC_cai_hesen = {
-		name = XXC_cai_hesen
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/XXC/Portrait_Cai_Hesen.png"
-				small = "gfx/interface/ideas/XXC/idea_XXC_Cai_Hesen.png"
-			}
-			army = {
-				large = "gfx/leaders/XXC/Portrait_Cai_Hesen.png"
+	XXC_cai_hesen={
+		name=XXC_cai_hesen
+		portraits={
+			civilian={
+				large="gfx/leaders/XXC/Portrait_Cai_Hesen.png"
+				small="gfx/interface/ideas/XXC/idea_XXC_Cai_Hesen.png"
 			}
 		}
-		advisor = {
-			slot = prime_minister
-			idea_token = XXC_cai_hesen
-			allowed = { 
-				original_tag = XXC
-				NOT = {
-					has_government = socialism
-					has_government = democratic
+		advisor={
+			slot=prime_minister
+			idea_token=XXC_cai_hesen
+			allowed={ 
+				original_tag=XXC
+				NOT={
+					has_government=socialism
+					has_government=democratic
 				}
 			}
-			traits = { traits_leninist communist_theorist }
+			traits={ traits_leninist communist_theorist }
 		}
-		#country_leader = {
-		#	ideology = marxism_subtype
-		#	desc = XXC_cai_hesen_desc
-		#	traits = { communist_theorist }
-		#	expire = "1950.1.1.1"
+	}
+	XXC_tang_bogeng={
+		name=XXC_tang_bogeng
+		portraits={
+			civilian={
+				large="gfx/leaders/XXC/Portrait_Tang_Bogeng.png"
+				small="gfx/interface/ideas/XXC/idea_XXC_Tang_Bogeng.png"
+			}
+			army={
+				large="gfx/leaders/XXC/Portrait_Tang_Bogeng.png"
+			}
+		}
+		advisor={
+			slot=security_minister
+			idea_token=XXC_tang_bogeng
+			allowed={ 
+				original_tag=XXC
+				has_government=anarchism
+			}
+			traits={ traits_anarcho_communist transnational_anarchist }
+		}
+		#country_leader={
+		#	ideology=anarcho_communism_subtype
+		#	desc=XXC_tang_bogeng_desc
+		#	traits={ our_right_to_survive }
+		#	expire="1950.1.1.1"
 		#}
-		corps_commander = {
-			traits = { militias_officer }
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 1
-			logistics_skill = 1
+		corps_commander={
+			traits={ militias_officer }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
 		}
 	}
-	XXC_tang_bogeng = {
-		name = XXC_tang_bogeng
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/XXC/Portrait_Tang_Bogeng.png"
-				small = "gfx/interface/ideas/XXC/idea_XXC_Tang_Bogeng.png"
-			}
-			army = {
-				large = "gfx/leaders/XXC/Portrait_Tang_Bogeng.png"
+	XXC_jiang_xiqing={
+		name=XXC_jiang_xiqing
+		portraits={
+			civilian={
+				large="gfx/leaders/XXC/Portrait_Jiang_Xiqing.png"
+				small="gfx/interface/ideas/XXC/idea_XXC_Jiang_Xiqing.png"
 			}
 		}
-		advisor = {
-			slot = security_minister
-			idea_token = XXC_tang_bogeng
-			allowed = { 
-				original_tag = XXC
-				has_government = anarchism
+		advisor={
+			slot=economic_minister
+			idea_token=XXC_jiang_xiqing
+			allowed={ 
+				original_tag=XXC
 			}
-			traits = { traits_anarcho_communist transnational_anarchist }
+			traits={ traits_democratic_socialist right_trade_unionist }
 		}
-		country_leader = {
-			ideology = anarcho_communism_subtype
-			desc = XXC_tang_bogeng_desc
-			traits = { our_right_to_survive }
-			expire = "1950.1.1.1"
-		}
-		corps_commander = {
-			traits = { militias_officer }
-			skill = 1
-			attack_skill = 2
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 1
+		country_leader={
+			ideology=revolutionary_front_subtype
+			desc=XXC_jiang_xiqing_desc
+			traits={ right_trade_unionist }
+			expire="1950.1.1.1"
 		}
 	}
-	XXC_jiang_xiqing = {
-		name = XXC_jiang_xiqing
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/XXC/Portrait_Jiang_Xiqing.png"
-				small = "gfx/interface/ideas/XXC/idea_XXC_Jiang_Xiqing.png"
-			}
-			army = {
-				large = "gfx/leaders/XXC/Portrait_Jiang_Xiqing.png"
+	XXC_yang_fang={
+		name=XXC_yang_fang
+		portraits={
+			civilian={
+				large="gfx/leaders/XXC/Portrait_Yang_Fang.png"
+				small="gfx/interface/ideas/XXC/idea_XXC_Yang_Fang.png"
 			}
 		}
-		advisor = {
-			slot = economic_minister
-			idea_token = XXC_jiang_xiqing
-			allowed = { 
-				original_tag = XXC
+		advisor={
+			slot=economic_minister
+			idea_token=XXC_jiang_xiqing
+			allowed={ 
+				original_tag=XXC
+			}
+			traits={ traits_guild_socialist right_trade_unionist }
+		}
+		#country_leader={
+		#	ideology=revolutionary_front_subtype
+		#	desc=XXC_jiang_xiqing_desc
+		#	traits={ right_trade_unionist }
+		#	expire="1950.1.1.1"
+		#}
+	}
+	XXC_wu_siguang={
+		name=XXC_wu_siguang
+		portraits={
+			civilian={
+				large="gfx/leaders/XXC/Portrait_Wu_Siguang.png"
+				small="gfx/interface/ideas/XXC/idea_XXC_Wu_Siguang.png"
+			}
+			army={
+				large="gfx/leaders/XXC/Portrait_Wu_Siguang.png"
+				small="gfx/interface/ideas/XXC/idea_XXC_Wu_Siguang_military.png"
+			}
+		}
+		advisor={
+			slot=security_minister
+			idea_token=XXC_wu_siguang
+			allowed={ 
+				original_tag=XXC
+				has_government=communism
+			}
+			traits={ traits_dengist revolutionary_general }
+		}
+		country_leader={
+			ideology=military_government_subtype
+			desc=XXC_wu_siguang_desc
+			traits={ revolutionary_general }
+			expire="1950.1.1.1"
+		}
+		corps_commander={
+			traits={ militia_officer career_officer guerilla_fighter }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+	XXC_chen_ce={
+		name=XXC_chen_ce
+		portraits={
+			army={
+				large="gfx/leaders/XXC/Portrait_Chen_Ce.png"
+				small="gfx/interface/ideas/XXC/idea_XXC_Chen_Ce.png"
+			}
+		}
+		corps_commander={
+			traits={ career_officer infantry_fighter }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+	XXC_zhou_fohai={
+		name=XXC_zhou_fohai
+		portraits={
+			civilian={
+				large="gfx/leaders/XXC/Portrait_Zhou_Fohai.png"
+				small="gfx/interface/ideas/XXC/idea_XXC_Zhou_Fohai.png"
+			}
+		}
+		advisor={
+			slot=prime_minister
+			idea_token=XXC_zhou_fohai
+			allowed={ 
+				original_tag=XXC
 				OR = {
-					has_government = socialism
-					has_government = democratic
-				}
+					has_government=neutrality
+					has_government=fascism
+				}	
 			}
-			traits = { traits_democratic_socialist right_trade_unionist }
+			traits={ traits_leninist leftist_independent } #He reveal the real ideology
 		}
-		country_leader = {
-			ideology = revolutionary_front_subtype
-			desc = XXC_jiang_xiqing_desc
-			traits = { right_trade_unionist }
-			expire = "1950.1.1.1"
+		#country_leader={
+		#	ideology=interim_government_subtype
+		#	desc=XXC_zhou_fohai_desc
+		#	traits={ emergency_powers }
+		#	expire="1950.1.1.1"
+		#}
+	}
+	XXC_wu_wenyuan={
+		name=XXC_wu_wenyuan
+		portraits={
+			civilian={
+				large="gfx/leaders/XXC/Portrait_Wu_Wenyuan.png"
+				small="gfx/interface/ideas/XXC/idea_XXC_Wu_Wenyuan.png"
+			}
+			army={
+				large="gfx/leaders/XXC/Portrait_Wu_Wenyuan.png"
+				small="gfx/interface/ideas/XXC/idea_XXC_Wu_Wenyuan_military.png"
+			}
 		}
-		corps_commander = {
-			traits = { militias_officer }
-			skill = 1
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 2
-			logistics_skill = 1
+		corps_commander={
+			traits={ career_officer militia_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
 		}
 	}
-	XXC_yang_fang = {
-		name = XXC_yang_fang
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/XXC/Portrait_Yang_Fang.png"
-				small = "gfx/interface/ideas/XXC/idea_XXC_Yang_Fang.png"
+	XXC_chamber_of_commerce={
+		name=XXC_chamber_of_commerce
+		portraits={
+			civilian={
+				small="gfx/interface/ideas/XXC/idea_XXC_Chamber_of_Commerce.png"
 			}
 		}
-		advisor = {
-			slot = economic_minister
-			idea_token = XXC_jiang_xiqing
-			allowed = { 
-				original_tag = XXC
+		advisor={
+			slot=economic_minister
+			idea_token=XXC_chamber_of_commerce
+			allowed={ 
+				original_tag=XXC
 			}
-			traits = { traits_guild_socialist right_trade_unionist }
-		}
-		country_leader = {
-			ideology = revolutionary_front_subtype
-			desc = XXC_jiang_xiqing_desc
-			traits = { right_trade_unionist }
-			expire = "1950.1.1.1"
+			traits={ traits_guild_socialist left_trade_unionist }
 		}
 	}
 }

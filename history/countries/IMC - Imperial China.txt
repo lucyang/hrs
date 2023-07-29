@@ -10,7 +10,6 @@ recruit_character = IMC_jiang_kanghu
 recruit_character = IMC_zhang_taiyan
 recruit_character = IMC_liang_qichao
 recruit_character = IMC_kang_youwei
-recruit_character = IMC_zheng_xiaoxu
 
 set_technology = {
 	#infantry

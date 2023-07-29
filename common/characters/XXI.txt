@@ -4,7 +4,20 @@ characters={
 		portraits={
 			civilian={
 				large="gfx/leaders/XXI/Portrait_Chen_Quzhen.png"
+				small="gfx/interface/ideas/XXI/XXI_Chen_Quzhen.png"
 			}
+			army={
+				large="gfx/leaders/XXI/Portrait_Chen_Quzhen.png"
+				small="gfx/interface/ideas/XXI/XXI_Chen_Quzhen_military.png"
+			}
+		}
+		advisor={
+			slot=economic_minister
+			idea_token=XXI_chen_quzhen
+			allowed={ 
+				original_tag=XXI
+			}
+			traits={ traits_national_conservatist socialite_connections }
 		}
 		country_leader={
 			ideology=development_authoritarianism_subtype
@@ -26,7 +39,16 @@ characters={
 		portraits={
 			civilian={
 				large="gfx/leaders/XXI/Portrait_Shen_Congwen.png"
+				small="gfx/interface/ideas/XXI/XXI_Shen_Congwen.png"
 			}
+		}
+		advisor={
+			slot=prime_minister
+			idea_token=XXI_shen_congwen
+			allowed={ 
+				original_tag=XXI
+			}
+			traits={ traits_national_conservatist moderate_reformist }
 		}
 		country_leader={
 			ideology=national_conservatism_subtype
@@ -34,24 +56,26 @@ characters={
 			traits={ moderate_reformist }
 			expire="1988.5.10.1"
 		}
-		corps_commander={
-			traits={ infantry_officer }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=2
-			logistics_skill=1
-		}
 	}
 	XXI_gu_jiaqi={
 		name=XXI_gu_jiaqi
 		portraits={
 			civilian={
 				large="gfx/leaders/XXI/Portrait_Gu_Jiaqi.png"
+				small="gfx/interface/ideas/XXI/XXI_Gu_Jiaqi.png"
 			}
 			army={
 				large="gfx/leaders/XXI/Portrait_Gu_Jiaqi.png"
+				small="gfx/interface/ideas/XXI/XXI_Gu_Jiaqi_military.png"
 			}
+		}
+		advisor={
+			slot=security_minister
+			idea_token=XXI_gu_jiaqi
+			allowed={ 
+				original_tag=XXI
+			}
+			traits={ traits_militarist hardened_officer }
 		}
 		country_leader={
 			ideology=warlordism_subtype

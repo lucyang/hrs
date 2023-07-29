@@ -5,7 +5,6 @@
 set_country_flag = is_china_nation
 
 recruit_character = FED_chen_jiongming
-recruit_character = FED_ou_shengbai
 recruit_character = FED_huang_qixiang 
 recruit_character = FED_deng_yanda
 recruit_character = FED_jiang_guangnai

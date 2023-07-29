@@ -88,7 +88,7 @@ add_ideas = {
 	country_development3
 	country_tech3
 	market_economy1
-	federation3
+	federation2
 }
 
 set_research_slots = 3

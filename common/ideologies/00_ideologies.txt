@@ -260,6 +260,7 @@ ideologies = {
 			reactionary_populism_subtype = { can_be_randomly_selected = no }
 			reactionary_agrarianism_subtype = { can_be_randomly_selected = no }
 			millenarianism_subtype = { can_be_randomly_selected = no }
+			miao_millenarianism_subtype = { can_be_randomly_selected = no }
 
 			theocratic_state_subtype = { can_be_randomly_selected = no }
 			fundamentalism_subtype = { can_be_randomly_selected = no }

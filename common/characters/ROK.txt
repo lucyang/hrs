@@ -63,7 +63,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=absolute_monarchism_subtype
+			ideology=noble_republic_subtype
 			desc=ROK_i_kang_desc
 			traits={ disgraced_monarch }
 			expire="1955.8.15.1"

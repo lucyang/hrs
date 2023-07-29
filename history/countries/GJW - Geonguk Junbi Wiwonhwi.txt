@@ -3,7 +3,7 @@ capital = 463 #忠清南道/大田
 #oob = "empty"
 
 recruit_character = GJW_yo_unhyung
-recruit_character = GJW_ho_hong
+recruit_character = GJW_ho_hon
 
 set_country_flag = is_korea_nation
 

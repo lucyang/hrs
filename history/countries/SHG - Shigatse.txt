@@ -2,12 +2,11 @@
 
 #oob = "empty"
 
-
 set_technology = {
 	infantry_weapons = 1
 }
 
-recruit_character = TIB_thubten_choekyi_nyima
+recruit_character = SHG_thubten_choekyi_nyima
 
 add_ideas = {
 	civilian_economy

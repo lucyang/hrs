@@ -47,49 +47,49 @@ units = {
 		name = "洪江商团军"
 		location = 1429 #洪江
 		division_template = "商团军"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.5
 		start_equipment_factor = 1
 	}
 	division = {
 		name = "洪江赤卫队"
 		location = 1429 #洪江
 		division_template = "赤卫队"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.6
 	}
 	division = {
 		name = "洪江工人纠察队"
 		location = 1429 #洪江
 		division_template = "赤卫队"
-		start_experience_factor = 0.3
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.6
 	}
 	division = {
 		name = "溆浦赤卫队"
 		location = 118 #溆浦
 		division_template = "赤卫队"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.1
 		start_equipment_factor = 0.6
 	}
 	division = {
 		name = "辰溪赤卫队"
 		location = 2987 #辰溪
 		division_template = "赤卫队"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.1
 		start_equipment_factor = 0.6
 	}
 	division = {
 		name = "会同赤卫队"
 		location = 439 #会同
 		division_template = "赤卫队"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.1
 		start_equipment_factor = 0.6
 	}
 	division = {
 		name = "苗侗自卫军"
 		location = 1670 #会同
 		division_template = "赤卫队"
-		start_experience_factor = 0.2
+		start_experience_factor = 0.1
 		start_equipment_factor = 0.6
 	}
 }

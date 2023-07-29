@@ -4,6 +4,11 @@ recruit_character = XXC_xiang_jingyu
 recruit_character = XXC_jiang_xiqing
 recruit_character = XXC_tang_bogeng
 recruit_character = XXC_cai_hesen
+recruit_character = XXC_zhou_fohai
+recruit_character = XXC_wu_siguang
+recruit_character = XXC_wu_wenyuan
+recruit_character = XXC_chen_ce
+recruit_character = XXC_chamber_of_commerce
 
 set_variable = { XXC_militias_cap = 12 }
 
@@ -89,8 +94,8 @@ add_ideas = {
 }
 add_ideas = {
 	XXC_cai_hesen
-	XXC_xiang_jingyu
-	XXX_tang_bogeng
+	XXC_chamber_of_commerce
+	XXC_wu_siguang
 }
 add_ideas = {
 	country_development2
@@ -116,9 +121,9 @@ set_popularities = {
 	anarchism = 24
 	socialism = 20
 	democratic = 0
-	neutrality = 26
+	neutrality = 21
 	monarchism = 0
-	fascism = 0
+	fascism = 5
 	imperialism = 0
 	futurism = 0
 }
