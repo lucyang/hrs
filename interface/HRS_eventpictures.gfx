@@ -262,4 +262,28 @@ spriteTypes = {
 		name = "GFX_news_event_shanghai_people_commune"
 		texturefile = "gfx/event_pictures/news_event_shanghai_people_commune.dds"
 	}
+	spriteType = {
+		name = "GFX_news_event_generic_northern_expedition"
+		texturefile = "gfx/event_pictures/news_event_generic_northern_expedition.dds"
+	}
+	spriteType = {
+		name = "GFX_news_event_chen_quzhen_with_wife"
+		texturefile = "gfx/event_pictures/news_event_chen_quzhen_with_wife.png"
+	}
+	spriteType = {
+		name = "GFX_news_event_miao_people_vote"
+		texturefile = "gfx/event_pictures/news_event_miao_people_vote.png"
+	}
+	spriteType = {
+		name = "GFX_news_event_xiangxi_city_00"
+		texturefile = "gfx/event_pictures/news_event_xiangxi_city_00.png"
+	}
+	spriteType = {
+		name = "GFX_report_event_nra_soldiers_00"
+		texturefile = "gfx/event_pictures/report_event_nra_soldiers_00.png"
+	}
+	spriteType = {
+		name = "GFX_report_event_nra_soldiers_01"
+		texturefile = "gfx/event_pictures/report_event_nra_soldiers_01.png"
+	}
 }

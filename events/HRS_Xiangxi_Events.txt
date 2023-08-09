@@ -1,0 +1,72 @@
+add_namespace = xxi
+add_namespace = xxi_introduction
+add_namespace = xxi_midnight
+add_namespace = xxi_test
+
+country_event = {
+	id = xxi.99
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event xxi.99"
+	}
+	title = xxi.99.t
+	desc = xxi.99.desc
+	picture = GFX_report_event_chinese_soldiers_city_ruin
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = xxi.99.a
+	}
+}
+########
+# TEST #
+########
+country_event = {
+	id = xxi_test.1
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event xxi_test.1"
+	}
+	title = xxi_test.1.t
+	desc = xxi_test.1.desc
+	picture = GFX_report_event_chinese_soldiers_city_ruin
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = xxi_test.1.a
+	}
+}
+country_event = {
+	id = xxi_test.2
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event xxi_test.2"
+	}
+	title = xxi_test.2.t
+	desc = xxi_test.2.desc
+	picture = GFX_report_event_chinese_soldiers_city_ruin
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = xxi_test.2.a
+	}
+}
+country_event = {
+	id = xxi_test.3
+	immediate = { 
+		log = "[GetDateText]: [Root.GetName]: event xxi_test.3"
+	}
+	title = xxi_test.3.t
+	desc = xxi_test.3.desc
+	picture = GFX_report_event_chinese_soldiers_city_ruin
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = xxi_test.3.a
+	}
+}

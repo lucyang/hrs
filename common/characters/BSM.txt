@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=feudalism_subtype
+			ideology=mandala_monarchy_subtype
 			desc=BSM_datu_piang_desc
 			traits={ popular_figurehead }
 			expire="1933.6.25.1"

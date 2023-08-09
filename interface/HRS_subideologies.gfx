@@ -244,6 +244,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/democratic_group/hunan_constitutionalism_subtype.dds"
 	}
 
+	spriteType = {
+		name = "GFX_ideology_revisionist_democratic_subtype"
+		texturefile = "gfx/interface/ideologies/democratic_group/revisionist_democratic_subtype.dds"
+	}
 
 	### Tyrannt Group ###
 	spriteType = {

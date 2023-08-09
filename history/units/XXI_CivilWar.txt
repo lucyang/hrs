@@ -49,7 +49,6 @@ division_template = {
 	is_locked = yes
 	force_allow_recruiting = yes
 	division_names_group = XXI_GAR_01
-	template_counter = 70
 
 	regiments = {
 		militia = { x = 0 y = 0 }
@@ -62,7 +61,6 @@ division_template = {
 #	is_locked = yes
 #	force_allow_recruiting = yes
 #	division_names_group = XXI_GAR_01
-#	template_counter = 70
 #
 #	regiments = {
 #		militia = { x = 0 y = 0 }

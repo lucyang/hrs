@@ -2,24 +2,24 @@
  ###############
  ## COUNTRIES ##
  ###############
- TSM_communism:0 "对马国"
- TSM_communism_DEF:0 "对马国"
- TSM_anarchism:0 "对马国"
- TSM_anarchism_DEF:0 "对马国"
- TSM_socialism:0 "对马国"
- TSM_socialism_DEF:0 "对马国"
- TSM_democratic:0 "对马国"
- TSM_democratic_DEF:0 "对马国"
- TSM_neutrality:0 "对马国"
- TSM_neutrality_DEF:0 "对马国"
- TSM_monarchism:0 "对马国"
- TSM_monarchism_DEF:0 "对马国"
- TSM_fascism:0 "对马国"
- TSM_fascism_DEF:0 "对马国"
- TSM_imperialism:0 "对马国"
- TSM_imperialism_DEF:0 "对马国"
- TSM_futurism:0 "对马国"
- TSM_futurism_DEF:0 "对马国"
+ TSM_communism:0 "对马"
+ TSM_communism_DEF:0 "对马隧道建设区"
+ TSM_anarchism:0 "对马"
+ TSM_anarchism_DEF:0 "对马隧道建设区"
+ TSM_socialism:0 "对马"
+ TSM_socialism_DEF:0 "对马隧道建设区"
+ TSM_democratic:0 "对马"
+ TSM_democratic_DEF:0 "对马隧道建设区"
+ TSM_neutrality:0 "对马"
+ TSM_neutrality_DEF:0 "对马隧道建设区"
+ TSM_monarchism:0 "对马"
+ TSM_monarchism_DEF:0 "对马隧道建设区"
+ TSM_fascism:0 "对马"
+ TSM_fascism_DEF:0 "对马隧道建设区"
+ TSM_imperialism:0 "对马"
+ TSM_imperialism_DEF:0 "对马隧道建设区"
+ TSM_futurism:0 "对马"
+ TSM_futurism_DEF:0 "对马隧道建设区"
  TSM_communism_ADJ:0 "对马"
  TSM_anarchism_ADJ:0 "对马"
  TSM_socialism_ADJ:0 "对马"
@@ -37,22 +37,22 @@
  #############
  TSM_communism_party:0 "日本共产党"
  TSM_communism_party_long:0 "日本共产党"
- TSM_anarchism_party:0 "民工"
- TSM_anarchism_party_long:0 "民工"
- TSM_socialism_party:0 "无产政党"
- TSM_socialism_party_long:0 "无产政党"
- TSM_democratic_party:0 "农本社会党"
- TSM_democratic_party_long:0 "农本社会党"
- TSM_neutrality_party:0 "农民决死队"
- TSM_neutrality_party_long:0 "农民决死队"
+ TSM_anarchism_party:0 "朝鲜民工"
+ TSM_anarchism_party_long:0 "朝鲜民工"
+ TSM_socialism_party:0 "包工头"
+ TSM_socialism_party_long:0 "包工头"
+ TSM_democratic_party:0 "工程监理"
+ TSM_democratic_party_long:0 "工程监理"
+ TSM_neutrality_party:0 "土木系"
+ TSM_neutrality_party_long:0 "土木系"
  TSM_monarchism_party:0 "宗家"
  TSM_monarchism_party_long:0 "宗家"
- TSM_fascism_party:0 "爱乡会"
- TSM_fascism_party_long:0 "爱乡会"
- TSM_imperialism_party:0 "血盟团"
- TSM_imperialism_party_long:0 "血盟团"
- TSM_futurism_party:0 "犹存社"
- TSM_futurism_party_long:0 "犹存社"
+ TSM_fascism_party:0 "土木工程师"
+ TSM_fascism_party_long:0 "土木工程师"
+ TSM_imperialism_party:0 "交通系"
+ TSM_imperialism_party_long:0 "交通系"
+ TSM_futurism_party:0 "朝鲜铁道"
+ TSM_futurism_party_long:0 "朝鲜铁道"
  ##################
  ## COSMETIC TAG ##
  ##################
@@ -60,8 +60,10 @@
  ################
  ## CHARACTERS ##
  ################
- TSM_tachibana_kozaburo:0 "橘孝三郎"
- TSM_tachibana_kozaburo_desc:0 "§Y出生日期§!：§G1893年3月18日§!\n§Y出生地点§!：§G大东帝国东海道茨城县§!"
+ TSM_chen_cheng:0 "陈诚"
+ TSM_chen_cheng_desc:0 "§Y出生日期§!：§G1898年1月4日§!\n§Y出生地点§!：§G大东帝国浙江省瓯海道青田县§!"
+ TSM_so_takeyuki:0 "宗武志"
+ TSM_so_takeyuki_desc:0 "§Y出生日期§!：§G1908年2月16日§!\n§Y出生地点§!：§G大东帝国西海省九州道对马县§!"
  ############
  ## TRAITS ##
  ############
@@ -69,9 +71,6 @@
  ###########
  ## IDEAS ##
  ###########
- TSM_ketsumeidan:0 "决死队"
- TSM_kesshitai:0 "血盟团"
- TSM_young_turks:0 "海军少壮派"
  ############
  ## EVENTS ##
  ############
