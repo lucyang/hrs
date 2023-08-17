@@ -1,0 +1,24 @@
+bookmarks = {
+	bookmark = {
+		name = "HRS_1926_NAME"
+		desc = "HRS_1926_DESC"
+		date = 1926.5.30.12
+		picture = "GFX_select_date_1926"
+		default_country = "XXI"
+		default = yes
+		
+		"XXC"={
+			history = "XXC_HRS_DESC"
+		}
+		"XXI"={
+			history = "XXI_HRS_DESC"
+		}
+		"XON"={
+			history = "XON_HRS_DESC"
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

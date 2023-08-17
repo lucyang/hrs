@@ -7,7 +7,11 @@ state={
 	history = {
 		owner = IMC
 		add_core_of = IMC
-
+		1930.1.1 = {
+			owner = UPR
+			add_core_of = UPR
+			add_core_of = IMC
+		}
 		victory_points = { 3285 20 } #上海
 		victory_points = { 3815 5 } #吴淞
 		victory_points = { 3841 1 } #金山

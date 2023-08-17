@@ -4,7 +4,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/select_date_1923.dds"
 	}
 	spriteType = {
-		name = "GFX_select_date_1924"
-		texturefile = "gfx/interface/select_date_1924.dds"
+		name = "GFX_select_date_1926"
+		texturefile = "gfx/interface/select_date_1926.dds"
+	}
+	spriteType = {
+		name = "GFX_select_date_1930"
+		texturefile = "gfx/interface/select_date_1930.dds"
 	}
 }

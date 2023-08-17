@@ -953,6 +953,10 @@ ANG = { # 法英联合王国
 	color = rgb { 153 75 138 }
 	color_ui = rgb { 153 75 138 }
 }
+UPR = { # 人共联
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
+}
 ZZZ = {
 	color = rgb { 0 0 0 }
 	color_ui = rgb { 0 0 0 }

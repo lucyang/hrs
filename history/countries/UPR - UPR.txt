@@ -1,0 +1,217 @@
+﻿capital = 226 #上海
+
+#oob = "empty"
+
+set_stability = 0.55
+set_war_support = 0.35
+set_research_slots = 4
+set_convoys = 120
+
+recruit_character = UPR_sakai_toshihiko
+
+set_technology = {
+	#infantry
+	infantry_weapons = 1
+	support_weapons = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	#support
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_field_hospital = 1
+	tech_logistics_company = 1
+	tech_military_police = 1
+	#train
+	basic_train = 1
+	#artillery
+	gw_artillery = 1
+	interwar_artillery = 1
+	interwar_antiair = 1
+	#doctrines
+	trench_warfare = 1
+	#electronics
+	electronic_mechanical_engineering = 1
+	radio = 1
+	#industry
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	fuel_refining = 1
+	#air
+	early_fighter = 1
+	early_bomber = 1
+}
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"	
+	}
+	set_technology = {
+		gwtank_chassis = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		basic_torpedo = 1
+		basic_battery = 1
+		improved_ship_torpedo_launcher = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		mtg_transport = 1
+		coastal_defense_ships = 1
+		basic_depth_charges = 1
+		basic_cruiser_armor_scheme = 1
+		cruiser_submarines = 1
+	}
+	#set_naval_oob = "IMC_1923_naval"
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		transport = 1
+	}
+	#set_naval_oob = "IMC_1923_naval_legacy"
+}
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+set_research_slots = 4
+set_convoys = 30
+set_stability = 0.50
+
+add_ideas = {
+	limited_exports
+	citizen_militia
+	civilian_economy
+}
+add_ideas = {
+	country_development4
+	country_tech4
+	state_union
+	planned_economy
+}
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1927.11.3"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	communism = 37
+	anarchism = 26
+	socialism = 12
+	democratic = 6
+	neutrality = 3
+	monarchism = 0
+	fascism = 4
+	imperialism = 4
+	futurism = 8
+}
+
+### COUNCIL ###
+set_variable = { var = upr_council_support value = 366 }
+set_variable = { var = upr_council_total value = 740 }
+set_variable = { var = upr_quorum_low value = 296 }
+set_variable = { var = upr_quorum_medium value = 370 }
+set_variable = { var = upr_quorum_high value = 444 }
+UPR_recalc_council_icon_frames = yes
+### FACTIONS ###
+set_variable = { var = upr_marxist value = 32 }
+set_variable = { var = upr_anarchist value = 19 }
+set_variable = { var = upr_totalist value = 24 }
+set_variable = { var = upr_socialist value = 25 }
+### NATIONS ###
+set_variable = { var = papc_korean value = 60 }
+set_variable = { var = papc_japanese value = 75 }
+set_variable = { var = papc_chinese value = 80 }
+set_variable = { var = papc_ainu value = 65 }
+set_variable = { var = papc_ryukyun value = 70 }
+set_variable = { var = papc_taiwan value = 70 }
+set_variable = { var = papc_mengjiang value = 60 }
+### WINDOWS ###
+set_variable = { var = HRS_SG_Faction_CHI_open value = 0 }
+set_variable = { var = HRS_SG_Faction_MEN_open value = 0 }
+
+set_autonomy = {
+	target = IMJ
+	autonomous_state = autonomy_union_republic
+	freedom_level = 0.5
+}
+set_autonomy = {
+	target = IMC
+	autonomous_state = autonomy_union_republic
+	freedom_level = 0.35
+}
+set_autonomy = {
+	target = IMK
+	autonomous_state = autonomy_union_republic
+	freedom_level = 0.55
+}
+set_autonomy = {
+	target = IMN
+	autonomy_state = autonomy_autonomous_republic
+	freedom_level = 0.35
+}
+set_autonomy = {
+	target = RYU
+	autonomy_state = autonomy_autonomous_republic
+	freedom_level = 0.30
+}
+set_autonomy = {
+	target = AIN
+	autonomy_state = autonomy_autonomous_republic
+	freedom_level = 0.20
+}
+1930.1.1 = {
+	IMC = { 
+		set_cosmetic_tag = IMC_UPR
+	}
+	IMJ = { 
+		set_cosmetic_tag = IMJ_UPR
+	}
+	IMK = { 
+		set_cosmetic_tag = IMK_UPR
+	}
+	IMK = { 
+		set_cosmetic_tag = IMK_IMN
+	}
+	RYU = { 
+		set_cosmetic_tag = RYU_UPR
+	}
+	AIN = { 
+		set_cosmetic_tag = AIN_UPR
+	}
+}

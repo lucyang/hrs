@@ -8,11 +8,18 @@ state={
 		owner = IMC
 		add_core_of = IMC
 		1924.1.1 = {
-			owner = AMM
-			add_core_of = AMM
+			owner = YYM
+			add_core_of = YYM
+			add_core_of = RYU
+			add_claim_by = AMM
 			remove_core_of = IMJ
 		}
-
+		1930.1.1 = {
+			owner = RYU
+			add_core_of = RYU
+			add_core_of = YYM
+			remove_core_of = IMJ
+		}
 		victory_points = { 4288 1 } #石垣
 
 		buildings = {

@@ -1,0 +1,99 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ UPR_communism:0 "人民共和国联盟"
+ UPR_communism_DEF:0 "人民共和国联盟"
+ UPR_anarchism:0 "人民共和国联盟"
+ UPR_anarchism_DEF:0 "人民共和国联盟"
+ UPR_democratic:0 "人民共和国联盟"
+ UPR_democratic_DEF:0 "人民共和国联盟"
+ UPR_socialism:0 "人民共和国联盟"
+ UPR_socialism_DEF:0 "人民共和国联盟"
+ UPR_neutrality:0 "人民共和国联盟"
+ UPR_neutrality_DEF:0 "人民共和国联盟"
+ UPR_monarchism:0 "人民共和国联盟"
+ UPR_monarchism_DEF:0 "人民共和国联盟"
+ UPR_fascism:0 "人民共和国联盟"
+ UPR_fascism_DEF:0 "人民共和国联盟"
+ UPR_imperialism:0 "人民共和国联盟"
+ UPR_imperialism_DEF:0 "人民共和国联盟"
+ UPR_futurism:0 "人民共和国联盟"
+ UPR_futurism_DEF:0 "人民共和国联盟"
+ UPR_communism_ADJ:0 "人共联"
+ UPR_anarchism_ADJ:0 "人共联"
+ UPR_socialism_ADJ:0 "人共联"
+ UPR_democratic_ADJ:0 "人共联"
+ UPR_neutrality_ADJ:0 "人共联"
+ UPR_monarchism_ADJ:0 "人共联"
+ UPR_fascism_ADJ:0 "人共联"
+ UPR_imperialism_ADJ:0 "人共联"
+ UPR_futurism_ADJ:0 "人共联"
+ UPR:0 "人共联"
+ UPR_DEF:0 "人共联"
+ UPR_ADJ:0 "人共联"
+ #############
+ ## PARTIES ##
+ #############
+ UPR_communism_party:0 "联盟共产党"
+ UPR_communism_party_long:0 "联盟共产党"
+ UPR_anarchism_party:0 "东亚工团联盟"
+ UPR_anarchism_party_long:0 "东亚工团联盟"
+ UPR_socialism_party:0 "社会民主联盟"
+ UPR_socialism_party_long:0 "社会民主联盟"
+ UPR_democratic_party:0 "自由民主阵线"
+ UPR_democratic_party_long:0 "自由民主阵线"
+ UPR_neutrality_party:0 "无所属议员"
+ UPR_neutrality_party_long:0 "无所属议员"
+ UPR_monarchism_party:0 "和朝效忠派"
+ UPR_monarchism_party_long:0 "和朝效忠派"
+ UPR_fascism_party:0 "国家社会主义计划党"
+ UPR_fascism_party_long:0 "国家社会主义计划党"
+ UPR_imperialism_party:0 "东亚复兴会"
+ UPR_imperialism_party_long:0 "东亚复兴会"
+ UPR_futurism_party:0 "东亚改造党"
+ UPR_futurism_party_long:0 "东亚改造党"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+ IMC_UPR_communism:0 "中华共和国"
+ IMC_UPR_communism_DEF:0 "中华共和国"
+ IMC_UPR_communism_ADJ:0 "中国"
+ IMC_UPR_anarchism:0 "中华共和国"
+ IMC_UPR_anarchism_DEF:0 "中华共和国"
+ IMC_UPR_anarchism_ADJ:0 "中国"
+ IMC_UPR_socialism:0 "中华共和国"
+ IMC_UPR_socialism_DEF:0 "中华共和国"
+ IMC_UPR_socialism_ADJ:0 "中国"
+
+ IMJ_UPR_communism:0 "日本人民共和国"
+ IMJ_UPR_communism_DEF:0 "日本人民共和国"
+ IMJ_UPR_communism_ADJ:0 "日本"
+ IMJ_UPR_anarchism:0 "日本人民共和国"
+ IMJ_UPR_anarchism_DEF:0 "日本人民共和国"
+ IMJ_UPR_anarchism_ADJ:0 "日本"
+ IMJ_UPR_socialism:0 "日本人民共和国"
+ IMJ_UPR_socialism_DEF:0 "日本人民共和国"
+ IMJ_UPR_socialism_ADJ:0 "日本"
+
+ IMK_UPR_communism:0 "朝鲜人民共和国"
+ IMK_UPR_communism_DEF:0 "朝鲜人民共和国"
+ IMK_UPR_communism_ADJ:0 "朝鲜"
+ IMK_UPR_anarchism:0 "朝鲜人民共和国"
+ IMK_UPR_anarchism_DEF:0 "朝鲜人民共和国"
+ IMK_UPR_anarchism_ADJ:0 "朝鲜"
+ IMK_UPR_socialism:0 "朝鲜人民共和国"
+ IMK_UPR_socialism_DEF:0 "朝鲜人民共和国"
+ IMK_UPR_socialism_ADJ:0 "朝鲜"
+ ################
+ ## CHARACTERS ##
+ ################
+ UPR_sakai_toshihiko:0 "堺利彦"
+ UPR_sakai_toshihiko_desc:0 "§Y出生日期§!：§G1871年1月15日§!\n§Y出生地点§!：§G大东帝国九州道福冈县§!"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

@@ -260,4 +260,5 @@ YAK = "countries/Yakutia.txt"
 KHA = "countries/Khakassia.txt"
 ### OTHERS ###
 ANG = "countries/United Kingdom.txt"
+UPR = "countries/UPR.txt"
 ZZZ = "countries/Placeholder.txt"

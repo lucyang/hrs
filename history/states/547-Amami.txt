@@ -12,7 +12,11 @@ state={
 			add_core_of = AMM
 			remove_core_of = IMJ
 		}
-
+		1930.1.1 = {
+			owner = RYU
+			add_core_of = RYU
+			remove_core_of = IMJ
+		}
 		victory_points = { 4284 3 } #名�?
 
 		buildings = {

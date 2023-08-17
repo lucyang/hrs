@@ -11,7 +11,11 @@ state={
 			add_core_of = TOK
 			remove_core_of = IMJ
 		}
-
+		1930.1.1 = {
+			owner = UPR
+			add_core_of = UPR
+			add_core_of = IMJ
+		}
 		victory_points = { 3702 3 } #江户/東京都
 		victory_points = { 3707 1 } #多摩
 		

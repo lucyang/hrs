@@ -1,0 +1,16 @@
+characters = {
+	UPR_sakai_toshihiko={
+		name=UPR_sakai_toshihiko
+		portraits={
+			civilian={
+				large="gfx/leaders/JPR/Portrait_Sakai_Toshihiko.png"
+			}
+		}
+		country_leader={
+			ideology=leninism_subtype
+			desc=UPR_sakai_toshihiko_desc
+			traits={ veteran_communist connected_citizen }
+			expire="1933.1.23.1"
+		}
+	}
+}

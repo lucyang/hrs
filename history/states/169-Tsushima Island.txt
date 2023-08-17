@@ -7,7 +7,11 @@ state={
 	history = {
 		owner = IMC
 		add_core_of = IMC
-		
+		1930.1.1 = {
+			owner = UPR
+			add_core_of = UPR
+			add_core_of = IMC
+		}
 		victory_points = { 4275 1 } #Tsushima
 
 		buildings = {
