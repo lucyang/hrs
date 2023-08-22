@@ -343,4 +343,18 @@ leader_traits = {
 		local_resources_factor = 0.10
 		trade_opinion_factor = 0.10
 	}
+
+	prince_yun = {
+		random = no
+		
+		stability_factor = 0.05
+		cavalry_attack_factor = 0.05
+	}
+
+	prince_de = {
+		random = no
+		
+		war_support_factor = 0.05
+		cavalry_attack_factor = 0.05
+	}
 }

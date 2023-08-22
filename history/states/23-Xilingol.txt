@@ -8,8 +8,8 @@ state={
 		owner = IMC
 		add_core_of = IMC
 		1924.1.1 = {
-			owner = IMN
-			add_core_of = IMN
+			owner = MEN
+			add_core_of = MEN
 			remove_core_of = IMC
 		}
 		victory_points = { 1438 5 } #多伦

@@ -1,45 +1,62 @@
 characters={
+	NSB_deng_xiuting={
+		name=NSB_deng_xiuting
+		portraits={
+			civilian={
+				large="gfx/leaders/NSB/Portrait_Deng_Xiuting.png"
+			}
+			army={
+				large="gfx/leaders/NSB/Portrait_Deng_Xiuting.png"
+			}
+		}
+		country_leader={
+			ideology=despotism_subtype
+			desc=NSB_deng_xiuting_desc
+			traits={ the_young_magnate }
+			expire="1950.1.1.1"
+		}
+		corps_commander={
+			traits={ career_officer ambusher }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
 	NSB_long_yun={
 		name=NSB_long_yun
 		portraits={
 			civilian={
-				large="gfx/leaders/YUN/Portrait_Long_Yun.png"
+				large="gfx/leaders/NSB/Portrait_Long_Yun.png"
+			}
+			army={
+				large="gfx/leaders/NSB/Portrait_Long_Yun.png"
 			}
 		}
-		country_leader={
-			ideology=oligarchism_subtype
-			desc=NSB_long_yun_desc
-			traits={ the_young_magnate opium_trader }
-			expire="1962.6.27.1"
-		}
-	}
-	NSB_lu_han={
-		name=NSB_lu_han
-		portraits={
-			civilian={
-				large="gfx/leaders/CHI/Portrait_Lu_Han.dds"
-			}
-		}
-	}
-	NSB_chu_tunan={
-		name=NSB_chu_tunan
-		portraits={
-			civilian={
-				large="gfx/leaders/CHI/Portrait_Chu_Tunan.dds"
-			}
-		}
-		country_leader={
-			ideology=national_communism_subtype
-			desc=NSB_chu_tunan_desc
-			traits={ education_reformer marxist_academic }
-			expire="1994.4.11.1"
+		#country_leader={
+		#	ideology=oligarchism_subtype
+		#	desc=NSB_long_yun_desc
+		#	traits={ opium_trader }
+		#	expire="1962.6.27.1"
+		#}
+		corps_commander={
+			traits={ career_officer infantry_officer politically_connected }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
 		}
 	}
 	NSB_qumu_zangyao={
 		name=NSB_qumu_zangyao
 		portraits={
 			civilian={
-				large="gfx/leaders/YUN/Portrait_Qumu_Zangyao.png"
+				large="gfx/leaders/NSB/Portrait_Qumu_Zangyao.png"
+			}
+			army={
+				large="gfx/leaders/NSB/Portrait_Qumu_Zangyao.png"
 			}
 		}
 		country_leader={
@@ -47,6 +64,14 @@ characters={
 			desc=NSB_qumu_zangyao_desc
 			traits={ }
 			expire="1994.4.11.1"
+		}
+		corps_commander={
+			traits={ infantry_officer politically_connected }
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
 		}
 	}
 }

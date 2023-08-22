@@ -1,4 +1,4 @@
-﻿capital = 93 #阳泉
+﻿capital = 108 #晋中
 
 recruit_character = KBS_gao_changhong
 recruit_character = KBS_zhang_shenfu

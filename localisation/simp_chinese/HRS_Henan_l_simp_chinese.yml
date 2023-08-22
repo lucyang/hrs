@@ -35,7 +35,7 @@
  #############
  ## PARTIES ##
  #############
- HEN_communism_party:0 "社民农工党"
+ HEN_communism_party:0 "社会民主农工党"
  HEN_communism_party_long:0 "社会民主农工党"
  HEN_anarchism_party:0 "农工民主党"
  HEN_anarchism_party_long:0 "中国农工民主党"
@@ -43,10 +43,10 @@
  HEN_socialism_party_long:0 "中华民国工党"
  HEN_democratic_party:0 "中华革命党"
  HEN_democratic_party_long:0 "中华革命党"
- HEN_neutrality_party:0 "河南紧急政府"
- HEN_neutrality_party_long:0 "河南紧急政府"
- HEN_monarchism_party:0 "孔教会"
- HEN_monarchism_party_long:0 "孔教会"
+ HEN_neutrality_party:0 "武学研究社"
+ HEN_neutrality_party_long:0 "武学研究社"
+ HEN_monarchism_party:0 "黄沙会"
+ HEN_monarchism_party_long:0 "黄沙会"
  HEN_fascism_party:0 "中国新民会"
  HEN_fascism_party_long:0 "中国新民会"
  HEN_imperialism_party:0 "中国同盟会"

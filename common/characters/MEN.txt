@@ -9,7 +9,7 @@ characters={
 		#country_leader={
 		#	ideology=guided_democracy_subtype
 		#	desc=MEN_yondonwangchug_desc
-		#	traits={  }
+		#	traits={ prince_yun }
 		#	expire="1938.3.24.1"
 		#}
 	}
@@ -23,6 +23,20 @@ characters={
 		country_leader={
 			ideology=guided_democracy_subtype
 			desc=MEN_demchugdongrub_desc
+			traits={ prince_de }
+			expire="1966.5.30.1"
+		}
+	}
+	MEN_bayandalai={
+		name=MEN_bayandalai
+		portraits={
+			civilian={
+				large="gfx/leaders/MEN/Portrait_Bayandalai.png"
+			}
+		}
+		country_leader={
+			ideology=left_nationalism_subtype
+			desc=MEN_bayandalai_desc
 			traits={  }
 			expire="1966.5.30.1"
 		}

@@ -1,8 +1,8 @@
-﻿capital = 403 #槟城
+﻿capital = 394 #槟城
 
 #oob = "empty"
 
-set_research_slots = 2
+set_research_slots = 3
 
 recruit_character = MAL_tan_cheng_lock
 recruit_character = MAL_lim_boon_keng
@@ -49,8 +49,8 @@ add_ideas = {
 }
 
 add_ideas = {
-	country_development2
+	country_development3
 	country_tech4
-	market_economy1
+	market_economy
 	federation1
 }

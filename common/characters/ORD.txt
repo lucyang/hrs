@@ -1,27 +1,16 @@
 characters={
-	ORD_lu_zhankui={
-		name=ORD_lu_zhankui
+	ORD_70_anda_duguilang={
+		name=ORD_70_anda_duguilang
 		portraits={
 			civilian={
-				large="gfx/leaders/ORD/Portrait_Lu_Zhankui.png"
-			}
-			army={
-				large="gfx/leaders/ORD/Portrait_Lu_Zhankui.png"
+				large="gfx/leaders/ORD/Portrait_70_Anda_Duguilang.png"
 			}
 		}
 		country_leader={
-			ideology=ultramilitarism_subtype
-			desc=ORD_lu_zhankui_desc
-			traits={ hedonist }
+			ideology=national_communism_subtype
+			desc=ORD_70_anda_duguilang_desc
+			traits={ revolutionary_council }
 			expire="1950.1.1.1"
-		}
-		corps_commander={
-			traits={ career_officer infantry_officer }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=2
 		}
 	}
 }

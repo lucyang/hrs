@@ -8,8 +8,8 @@ state={
 		owner = IMC
 		add_core_of = IMC
 		1924.1.1 = {
-			owner = ULQ
-			add_core_of = ULQ
+			owner = MEN
+			add_core_of = MEN
 			remove_core_of = IMC
 		}
 		victory_points = { 3236 1 } #集宁/乌兰察布市（集宁区）

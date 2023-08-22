@@ -24,6 +24,7 @@
  autocracy:0 "独裁制"
  personal_despotic:0 "个人独裁"
  military_dictatorship:0 "军事独裁"
+ papal_state:0 "教宗国"
  ## Oligarchy ##
  oligarchy:0 "寡头政治"
  aristocracy:0 "贵族政治"
@@ -39,6 +40,7 @@
  interim_government:0 "看守政府"
  semi_constitutional_monarchy:0 "二元君主立宪制"
  resistance_movement:0 "抵抗运动"
+ theocracy:0 "神权政府"
  ## Democracy ##
  direct_democracy:0 "直接民主制"
  liberal_democracy:0 "自由民主制"

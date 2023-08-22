@@ -1,0 +1,27 @@
+characters={
+	HHT_lu_zhankui={
+		name=HHT_lu_zhankui
+		portraits={
+			civilian={
+				large="gfx/leaders/HHT/Portrait_Lu_Zhankui.png"
+			}
+			army={
+				large="gfx/leaders/HHT/Portrait_Lu_Zhankui.png"
+			}
+		}
+		country_leader={
+			ideology=ultramilitarism_subtype
+			desc=HHT_lu_zhankui_desc
+			traits={ hedonist }
+			expire="1950.1.1.1"
+		}
+		corps_commander={
+			traits={ irregulars_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+}

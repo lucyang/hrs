@@ -1,0 +1,55 @@
+﻿capital = 402 #古晋
+
+#oob = "empty"
+
+set_research_slots = 2
+
+recruit_character = SRW_chiang_kaishek
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	early_fighter = 1
+	trench_warfare = 1
+	transport = 1
+	fleet_in_being = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+}
+set_convoys = 30
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1920.5.9"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 0
+	anarchism = 0
+	socialism = 17
+    democratic = 34
+	neutrality = 26
+	monarchism = 0
+	fascism = 15
+	imperialism = 8
+	futurism = 0
+}
+
+add_ideas = {
+	export_focus
+	volunteer_only
+	civilian_economy
+}
+
+add_ideas = {
+	country_development2
+	country_tech3
+	market_economy
+	unitary_state1
+}
