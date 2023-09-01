@@ -11,8 +11,15 @@ state={
 			owner = HEB
 			add_core_of = HEB
 			remove_core_of = IMC
+			victory_points = { 2639 30 } #定州
+			buildings = {
+				arms_factory = 3
+				air_base = 4
+				2639 = {	
+					bunker = 6
+				}
+			}
 		}
-
 		victory_points = { 2471 5 } #定州
 		victory_points = { 1199 1 } #易州
 		victory_points = { 2639 1 } #涿州

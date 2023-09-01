@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=liberalism_subtype
+			ideology=liberalism_subtype #Chrisitian Democracy
 			desc=FCH_ni_tuosheng_desc
 			traits={ }
 			expire="1950.1.1.1"

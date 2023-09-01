@@ -1,6 +1,6 @@
 ﻿capital = 84 #保定
 
-recruit_character = HEB_han_fuju
+recruit_character = HEB_xi_jinping
 
 #oob = "empty"
 set_country_flag = is_china_nation
@@ -80,20 +80,20 @@ add_ideas = {
 	war_economy
 }
 add_ideas = {
-	country_development3
-	country_tech3
-	unitary_state1
-	market_economy1
+	country_development2
+	country_tech4
+	federation2
+	ogas_economy
 }
 
 set_research_slots = 2
 set_convoys = 10
-set_stability = 0.55
-set_war_support = 0.70
+set_stability = 0.10
+set_war_support = 005
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1922.5.17"
+	ruling_party = futurism
+	last_election = "1922.6.15"
 	election_frequency = 60
 	elections_allowed = no
 }
@@ -101,11 +101,11 @@ set_politics = {
 set_popularities = {
 	communism = 0
 	anarchism = 0
-	socialism = 12
-	democratic = 61
-	neutrality = 20
-	monarchism = 2
-	fascism = 5
-	imperialism = 0
-	futurism = 0
+	socialism = 0
+	democratic = 0
+	neutrality = 0
+	monarchism = 0
+	fascism = 0
+	imperialism = 8
+	futurism = 92
 }

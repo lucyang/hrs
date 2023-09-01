@@ -53,113 +53,51 @@ has_communist_government = {
 		has_country_leader_ideology = mariateguism_subtype	
 		has_country_leader_ideology = maoism_subtype
 		has_country_leader_ideology = neo_asianism_subtype
-		has_country_leader_ideology = national_communism_subtype
-	}
-}
-			
-has_socialist_government = {
-	OR = {
 		has_country_leader_ideology = dengism_subtype
 		has_country_leader_ideology = military_socialism_subtype
-		has_country_leader_ideology = anarchism_subtype
-		has_country_leader_ideology = revolutionary_front_subtype
-		has_country_leader_ideology = democratic_socialism_subtype
-		has_country_leader_ideology = agrarian_socialism_subtype
-		has_country_leader_ideology = market_socialism_subtype
-		has_country_leader_ideology = religious_socialism_subtype	
-		has_country_leader_ideology = guild_socialism_subtype
-		has_country_leader_ideology = new_tridemism_subtype
-		has_country_leader_ideology = left_nationalism_subtype	
+		has_country_leader_ideology = national_communism_subtype
 	}
 }
 
 has_anarchist_government = {
 	OR = {
-		has_country_leader_ideology = anarcho_communism_subtype	
-		has_country_leader_ideology = anarcho_syndicalism_subtype
-		has_country_leader_ideology = anarcho_maoism_subtype
-		has_country_leader_ideology = anarcho_nationalism_subtype
-		has_country_leader_ideology = pure_anarchism_subtype
-	}		
-}
+		has_country_leader_ideology = anarchism_subtype
+		has_country_leader_ideology = anarcho_communism_subtype 	
+		has_country_leader_ideology = anarcho_syndicalism_subtype 
+		has_country_leader_ideology = anarcho_maoism_subtype 
+		has_country_leader_ideology = anarcho_nationalism_subtype 
+		has_country_leader_ideology = pure_anarchism_subtype 
+		has_country_leader_ideology = agrarian_anarchism_subtype
 
-has_pure_anarchist_government = {
-	OR = {
-		has_country_leader_ideology = anarcho_communism_subtype	
-		has_country_leader_ideology = anarcho_maoism_subtype
-		has_country_leader_ideology = anarcho_nationalism_subtype
-		has_country_leader_ideology = pure_anarchism_subtype
 	}
 }
 
-has_reformist_government = {
+has_socialist_government = {
+	OR = {
+		has_country_leader_ideology = revolutionary_front_subtype
+		has_country_leader_ideology = democratic_socialism_subtype 
+		has_country_leader_ideology = agrarian_socialism_subtype 
+		has_country_leader_ideology = market_socialism_subtype 
+		has_country_leader_ideology = jesuism_subtype 
+		has_country_leader_ideology = humanistic_buddhism_subtype
+		has_country_leader_ideology = islamic_socialism_subtype 
+	}
+}
+
+has_progressivist_government = {
 	OR = {
 		has_country_leader_ideology = socialism_subtype
 		has_country_leader_ideology = social_democratic_subtype
-		has_country_leader_ideology = state_socialism_subtype		
-		has_country_leader_ideology = agrarianism_subtype				
+		has_country_leader_ideology = state_socialism_subtype
+		has_country_leader_ideology = guild_socialism_subtype
+		has_country_leader_ideology = katheder_socialism_subtype
+		has_country_leader_ideology = gongdaoism_subtype
+		has_country_leader_ideology = agrarianism_subtype
+		has_country_leader_ideology = new_tridemism_subtype
+		has_country_leader_ideology = left_nationalism_subtype
 		has_country_leader_ideology = left_militarism_subtype
-		has_country_leader_ideology = liberalism_subtype
-		has_country_leader_ideology = revisionist_democratic_subtype
-		has_country_leader_ideology = tridemism_subtype
-		has_country_leader_ideology = triequism_subtype
+		has_country_leader_ideology = religious_socialism_subtype
 	}
-}
-
-has_democratic_government = {
-	OR = {
-		has_country_leader_ideology = democratic_subtype
-		has_country_leader_ideology = conservatism_subtype
-		has_country_leader_ideology = national_conservatism_subtype
-		has_country_leader_ideology = neo_liberalism_subtype
-		has_country_leader_ideology = national_liberalism_subtype
-		has_country_leader_ideology = competitive_authoritarianism_subtype
-		has_country_leader_ideology = guided_democracy_subtype
-		has_country_leader_ideology = ilminism_subtype
-		has_country_leader_ideology = kongsi_republic_subtype
-		has_country_leader_ideology = provisional_government_subtype	
-		has_country_leader_ideology = interim_government_subtype	
-		has_country_leader_ideology = partisan_movement_subtype	
-	}
-}		
-
-has_elected_government = {
-	OR = {
-		has_government = socialism
-		has_government = democratic
-		has_government = neutrality
-	}
-}
-
-has_authoritarian_government = {
-    OR = {
-		has_country_leader_ideology = neutrality_subtype	
-		has_country_leader_ideology = despotism_subtype		
-		has_country_leader_ideology = oligarchism_subtype
-		has_country_leader_ideology = corporacracy_subtype
-		has_country_leader_ideology = military_government_subtype			
-		has_country_leader_ideology = colonialism_subtype						
-		has_country_leader_ideology = development_authoritarianism_subtype					
-		has_country_leader_ideology = confucian_capitalism_subtype		
-		has_country_leader_ideology = warlordism_subtype
-		has_country_leader_ideology = bad_federalism_subtype
-    }
-}
-
-has_nationalist_government = {
-    OR = {
-        has_government = fascism
-        has_government = imperialism
-        has_government = futurism
-    }
-}
-
-has_totalitarian_government = {
-    OR = {
-        has_government = fascism
-        has_government = imperialism
-        has_government = futurism
-    }
 }
 
 # checks whether the country in scope has the same government type as ROOT (the country running the event/focus)

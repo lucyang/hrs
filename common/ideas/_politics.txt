@@ -337,11 +337,11 @@ ideas = {
 			name = anarchist_commune
 
 			visible = {
-				has_government = anarchism
+				has_anarchist_government = yes
 			}
 
 			allowed_to_remove = {
-				NOT = { has_government = anarchism }
+				has_anarchist_government = no
 			}
 			
 			removal_cost = -1

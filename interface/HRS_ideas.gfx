@@ -110,6 +110,10 @@ spriteTypes = {
 		name = "GFX_idea_generic_bandit_economy"
 		texturefile = "gfx/interface/ideas/laws/bandit_economy.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_generic_ogas_economy"
+		texturefile = "gfx/interface/ideas/laws/ogas_economy.dds"
+	}
 	### MANPOWER ###
 	spriteType = {
 		name = "GFX_idea_generic_feudal_levy"

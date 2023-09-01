@@ -8,6 +8,7 @@ characters={
 		}
 		country_leader={
 			ideology=buddist_state_subtype
+			desc=DBJ_bogd_khaan_desc
 			traits={  }
 			expire="1924.5.20.1"
 		}
