@@ -9,8 +9,8 @@ state={
 		owner = IMN
 		add_core_of = IMN
 		1924.1.1 = {
-			owner = ULQ
-			add_core_of = ULQ
+			owner = IMN
+			add_core_of = IMN
 			remove_core_of = IMC
 		}
 		victory_points = { 818 1 } #张北

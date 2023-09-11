@@ -11,6 +11,7 @@ state={
 		1924.1.1 = {
 			owner = YSH
 			add_core_of = YSH
+			add_claim_by = NHA
 		}
 		buildings = {
 			infrastructure = 1

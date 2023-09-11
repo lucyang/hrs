@@ -1,0 +1,75 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ NHA_communism:0 "青海巡防军"
+ NHA_communism_DEF:0 "青海巡防军"
+ NHA_anarchism:0 "青海巡防军"
+ NHA_anarchism_DEF:0 "青海巡防军"
+ NHA_socialism:0 "青海巡防军"
+ NHA_socialism_DEF:0 "青海巡防军"
+ NHA_democratic:0 "青海巡防军"
+ NHA_democratic_DEF:0 "青海巡防军"
+ NHA_neutrality:0 "青海巡防军"
+ NHA_neutrality_DEF:0 "青海巡防军"
+ NHA_monarchism:0 "青海巡防军"
+ NHA_monarchism_DEF:0 "青海巡防军"
+ NHA_fascism:0 "青海巡防军"
+ NHA_fascism_DEF:0 "青海巡防军"
+ NHA_imperialism:0 "青海巡防军"
+ NHA_imperialism_DEF:0 "青海巡防军"
+ NHA_futurism:0 "青海巡防军"
+ NHA_futurism_DEF:0 "青海巡防军"
+ NHA_communism_ADJ:0 "宁海军"
+ NHA_anarchism_ADJ:0 "宁海军"
+ NHA_socialism_ADJ:0 "宁海军"
+ NHA_democratic_ADJ:0 "宁海军"
+ NHA_neutrality_ADJ:0 "宁海军"
+ NHA_monarchism_ADJ:0 "宁海军"
+ NHA_fascism_ADJ:0 "宁海军"
+ NHA_imperialism_ADJ:0 "宁海军"
+ NHA_futurism_ADJ:0 "宁海军"
+ NHA:0 "宁海军"
+ NHA_DEF:0 "宁海军"
+ NHA_ADJ:0 "宁海军"
+ #############
+ ## PARTIES ##
+ #############
+ NHA_communism_party:0 "社会民主农工党"
+ NHA_communism_party_long:0 "中国社会民主农工党"
+ NHA_anarchism_party:0 "伊赫瓦尼"
+ NHA_anarchism_party_long:0 "伊赫瓦尼"
+ NHA_socialism_party:0 "西道堂"
+ NHA_socialism_party_long:0 "西道堂"
+ NHA_democratic_party:0 "回教俱进会"
+ NHA_democratic_party_long:0 "中国回教俱进会"
+ NHA_neutrality_party:0 "宁海军司令部"
+ NHA_neutrality_party_long:0 "宁海军司令部"
+ NHA_monarchism_party:0 "蒙藏土司"
+ NHA_monarchism_party_long:0 "蒙藏土司"
+ NHA_fascism_party:0 "回教总联合会"
+ NHA_fascism_party_long:0 "中国回教总联合会"
+ NHA_imperialism_party:0 "防共回教徒同盟"
+ NHA_imperialism_party_long:0 "防共回教徒同盟"
+ NHA_futurism_party:0 "晋商财团"
+ NHA_futurism_party_long:0 "晋商财团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ NHA_ma_qi:0 "马麒"
+ NHA_ma_qi_desc:0 "§Y出生日期§!：§G1869年9月23日§!\n§Y出生地点§!：§G大东帝国兰州道河州县§!"
+ NHA_ma_bufang:0 "胡塞尼·马阿訇"
+ NHA_ma_bufang_desc:0 "§Y出生日期§!：§G1903年§!\n§Y出生地点§!：§G大东帝国兰州道河州县§!\n\n§Y胡塞尼·马阿訇§!（汉名§Y马步芳§!）"
+ NHA_ma_buqing:0 "马步青"
+ NHA_ma_buqing_desc:0 "§Y出生日期§!：§G1901年§!\n§Y出生地点§!：§G大东帝国兰州道河州县§!"
+ #############
+ # Decisions #
+ #############
+
+ ##########
+ # TRAITS #
+ ##########

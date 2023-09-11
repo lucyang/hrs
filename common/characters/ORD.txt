@@ -12,5 +12,11 @@ characters={
 			traits={ revolutionary_council }
 			expire="1950.1.1.1"
 		}
+		country_leader={
+			ideology=left_nationalism_subtype
+			desc=ORD_70_anda_duguilang_desc
+			traits={ revolutionary_council }
+			expire="1950.1.1.1"
+		}
 	}
 }

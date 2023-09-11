@@ -6,11 +6,10 @@ state={
 	history={
 		owner = IMC
 		add_core_of = IMC
+		add_core_of = GLK
 		1924.1.1 = {
-			owner = LBR
-			add_core_of = LBR
+			owner = GLK
 			remove_core_of = IMC
-			add_claim_by = QNG
 		}
 		buildings = {
 			infrastructure = 1

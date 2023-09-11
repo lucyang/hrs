@@ -4,10 +4,8 @@
 
 set_research_slots = 2
 
-recruit_character = QNG_ma_qi
-recruit_character = QNG_ma_bufang
+
 recruit_character = QNG_ma_wanfu
-recruit_character = QNG_ma_buqing
 
 set_country_flag = is_hui_nation
 
@@ -57,7 +55,7 @@ if = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = anarchism
 	last_election = "1920.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -65,11 +63,11 @@ set_politics = {
 
 set_popularities = {
 	communism = 0
-	anarchism = 6
+	anarchism = 31
 	socialism = 25
-	democratic = 11
-	neutrality = 31
-	monarchism = 7
+	democratic = 0
+	neutrality = 6
+	monarchism = 18
 	fascism = 0
 	imperialism = 20
 	futurism = 0
@@ -83,8 +81,8 @@ add_ideas = {
 add_ideas = {
 	country_development1
 	country_tech2
-	dirigisme_economy
-	unitary_state
+	market_economy2
+	unitary_state1
 }
 
 

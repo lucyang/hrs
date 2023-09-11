@@ -1,5 +1,6 @@
 ﻿capital = 284 #Zhaotong
 
+recruit_character = NSB_deng_xiuting
 recruit_character = NSB_long_yun
 recruit_character = NSB_lu_han
 recruit_character = NSB_chu_tunan

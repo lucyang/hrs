@@ -32,10 +32,10 @@
  #############
  ## PARTIES ##
  #############
- BYA_communism_party:0 "俄罗斯共产党"
- BYA_communism_party_long:0 "俄罗斯共产党"
- BYA_anarchism_party:0 "蒙古人民党"
- BYA_anarchism_party_long:0 "蒙古人民党"
+ BYA_communism_party:0 "俄共 - 远东书记处派"
+ BYA_communism_party_long:0 "俄罗斯共产党 - 舒米亚茨基派"
+ BYA_anarchism_party:0 "俄共 - 布里亚特派"
+ BYA_anarchism_party_long:0 "俄罗斯共产党 - 布里亚特派"
  BYA_socialism_party:0 "民族委员会 - 左翼"
  BYA_socialism_party_long:0 "布里亚特-蒙古中央民族委员会(左翼)"
  BYA_democratic_party:0 "民族委员会 - 右翼" # Бурнацком

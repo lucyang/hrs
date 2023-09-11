@@ -37,8 +37,8 @@
  #############
  GNS_communism_party:0 "社民农工党"
  GNS_communism_party_long:0 "中国社会民主农工党"
- GNS_anarchism_party:0 "伊赫瓦尼派"
- GNS_anarchism_party_long:0 "伊赫瓦尼派"
+ GNS_anarchism_party:0 "伊赫瓦尼"
+ GNS_anarchism_party_long:0 "伊赫瓦尼"
  GNS_socialism_party:0 "西道堂"
  GNS_socialism_party_long:0 "西道堂"
  GNS_democratic_party:0 "回教俱进会"

@@ -101,19 +101,26 @@ GLN = "countries/Guilin.txt"
 HNN = "countries/Hainan.txt"
 HNG = "countries/Hainan Guerrilla.txt"
 ### CHINA/NORTHWEST ###
-QNG = "countries/Qinghai.txt"
+# SHAANXI #
 SXI = "countries/Shaanxi.txt"
 NSX = "countries/North Shaanxi.txt"
+# GANSU #
 GNS = "countries/Gansu.txt"
 TSH = "countries/Tianshui.txt"
 XSM = "countries/Guiyi Circuit.txt"
-NIX = "countries/Ningxia.txt"
-SYN = "countries/Suiyuan.txt"
+CHN = "countries/Chone.txt"
+# QINGHAI #
+QNG = "countries/Qinghai.txt"
+NHA = "countries/Ninghai Army.txt"
 YSH = "countries/Yulshul.txt"
 GLK = "countries/Golok.txt"
-CHN = "countries/Chone.txt"
 LBR = "countries/Labrang.txt"
+# SUIYUAN #
+SYN = "countries/Suiyuan.txt"
+HHT = "countries/Hohhot.txt"
 ORD = "countries/Ordos.txt"
+# NINGXIA #
+NIX = "countries/Ningxia.txt"
 ### CHINA/SOUTHWEST ###
 # SICHUAN #
 SCH = "countries/Sichuan.txt"

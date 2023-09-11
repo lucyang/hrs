@@ -168,10 +168,6 @@ SJX = { # 赣南民族共和国
 ###############
 ### SHAANXI ###
 ###############
-QNG = {
-	color = rgb { 9 171 190 }
-	color_ui = rgb { 9 171 190 }
-}
 SXI = {
 	color = rgb { 255 244 190 }
 	color_ui = rgb { 255 244 190 }
@@ -180,6 +176,9 @@ NSX = {
 	color = rgb { 30 63 108 }
 	color_ui = rgb { 30 63 108 }
 }
+#############
+### GANSU ###
+#############
 GNS = {
 	color = rgb { 205 85 85 }
 	color_ui = rgb { 205 85 85 }
@@ -188,17 +187,24 @@ TSH = {
 	color = rgb { 122 179 97 }
 	color_ui = rgb { 122 179 97 }
 }
-NIX = {
-	color = rgb { 192 64 0 }
-	color_ui = rgb { 192 64 0 }
-}
 XSM = {
 	color = rgb { 28 24 55 }
 	color_ui = rgb { 28 24 55 }
 }
-SYN = {
-	color = rgb { 102 0 0 }
-	color_ui = rgb { 102 0 0 }
+CHN = {
+	color = rgb { 211 110 112 }
+	color_ui = rgb { 211 110 112 }
+}
+###############
+### QINGHAI ###
+###############
+QNG = {
+	color = rgb { 9 171 190 }
+	color_ui = rgb { 9 171 190 }
+}
+NHA = {
+	color = rgb { 53 94 59 }
+	color_ui = rgb { 53 94 59 }
 }
 YSH = {
 	color = rgb { 130 165 120 }
@@ -208,17 +214,31 @@ GLK = {
 	color = rgb { 61 100 45 }
 	color_ui = rgb { 61 100 45 }
 }
-CHN = {
-	color = rgb { 211 110 112 }
-	color_ui = rgb { 211 110 112 }
-}
 LBR = {
 	color = rgb { 130 165 120 }
 	color_ui = rgb { 130 165 120 }
 }
+###############
+### SUIYUAN ###
+###############
+SYN = {
+	color = rgb { 102 0 0 }
+	color_ui = rgb { 102 0 0 }
+}
 ORD = {
+	color = rgb { 255 34 38 }
+	color_ui = rgb { 255 34 38 }
+}
+HHT = {
 	color = rgb { 172 122 188 }
 	color_ui = rgb { 172 122 188 }
+}
+###############
+### NINGXIA ###
+###############
+NIX = {
+	color = rgb { 192 64 0 }
+	color_ui = rgb { 192 64 0 }
 }
 ###############
 ### SICHUAN ###

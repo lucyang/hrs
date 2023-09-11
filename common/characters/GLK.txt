@@ -3,7 +3,7 @@ characters={
 		name=GLK_golok_tribes
 		portraits={
 			civilian={
-				large="gfx/leaders/generic/Portrait_Golok_Tribe.png"
+				large="gfx/leaders/generic/Portrait_Tibetan_Tribe.png"
 			}
 		}
 		country_leader={

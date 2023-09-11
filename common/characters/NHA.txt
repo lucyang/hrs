@@ -1,0 +1,41 @@
+characters={
+	NHA_ma_qi={
+		name=NHA_ma_qi
+		portraits={
+			civilian={
+				large="gfx/leaders/NHA/Portrait_Ma_Qi.png"
+			}
+		}
+		country_leader={
+			ideology=military_government_subtype
+			desc=NHA_ma_qi_desc
+			traits={  }
+			expire="1931.8.25.1"
+		}
+	}
+	NHA_ma_buqing={
+		name=NHA_ma_buqing
+		portraits={
+			civilian={
+				large="gfx/leaders/NHA/Portrait_Ma_Buqing.png"
+			}
+			army={
+				large="gfx/leaders/NHA/Portrait_Ma_Buqing.png"
+			}
+		}
+		#country_leader={
+		#	ideology=military_government_subtype
+		#	desc=NHA_ma_buqing_desc
+		#	traits={ }
+		#	expire="1975.7.31.1"
+		#}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+}

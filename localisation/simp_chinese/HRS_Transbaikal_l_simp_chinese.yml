@@ -39,20 +39,20 @@
  TBA_communism_party_long:0 "俄罗斯共产党"
  TBA_anarchism_party:0 "社会民主党"
  TBA_anarchism_party_long:0 "社会民主工党"
- TBA_socialism_party:0 "社会革命党"
- TBA_socialism_party_long:0 "社会革命党"
+ TBA_socialism_party:0 "劳动人民社会党"
+ TBA_socialism_party_long:0 "劳动人民社会党" #Трудовая народно-социалистическая партия
  TBA_democratic_party:0 "立宪民主党"
  TBA_democratic_party_long:0 "立宪民主党"
- TBA_neutrality_party:0 "外贝加尔立宪议会"
- TBA_neutrality_party_long:0 "外贝加尔立宪议会"
- TBA_monarchism_party:0 "白卫军运动"
- TBA_monarchism_party_long:0 "白卫军运动"
+ TBA_neutrality_party:0 "外贝加尔哥萨克"
+ TBA_neutrality_party_long:0 "外贝加尔哥萨克"
+ TBA_monarchism_party:0 "季捷里赫斯派"
+ TBA_monarchism_party_long:0 "季捷里赫斯派"
  TBA_fascism_party:0 "民族劳动联盟"
  TBA_fascism_party_long:0 "俄罗斯团结主义者民族劳动联盟"
  TBA_imperialism_party:0 "俄罗斯全军联盟"
  TBA_imperialism_party_long:0 "俄罗斯全军联盟"
- TBA_futurism_party:0 "通古斯军团"
- TBA_futurism_party_long:0 "通古斯军团"
+ TBA_futurism_party:0 "赤塔工商业委员会"
+ TBA_futurism_party_long:0 "赤塔工商业委员会"
  ##################
  ## COSMETIC TAG ##
  ##################

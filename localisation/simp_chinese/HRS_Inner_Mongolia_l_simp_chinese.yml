@@ -35,12 +35,12 @@
  #############
  ## PARTIES ##
  #############
- IMN_communism_party:0 "内蒙古人民革命党"
- IMN_communism_party_long:0 "内蒙古人民革命党"
- IMN_anarchism_party:0 "内蒙古人民革命党"
- IMN_anarchism_party_long:0 "内蒙古人民革命党"
- IMN_socialism_party:0 "内蒙古青年革命党"
- IMN_socialism_party_long:0 "内蒙古青年革命党"
+ IMN_communism_party:0 "内人党 - 巴尔虎派"
+ IMN_communism_party_long:0 "内蒙古人民革命党 - 巴尔虎派"
+ IMN_anarchism_party:0 "内人党 - 达斡尔派"
+ IMN_anarchism_party_long:0 "内蒙古人民革命党 - 达斡尔派"
+ IMN_socialism_party:0 "内人党 - 喀喇沁派"
+ IMN_socialism_party_long:0 "内蒙古人民革命党 - 喀喇沁派"
  IMN_democratic_party:0 "内蒙古革命党"
  IMN_democratic_party_long:0 "内蒙古革命党"
  IMN_neutrality_party:0 "内蒙古人民革命军"

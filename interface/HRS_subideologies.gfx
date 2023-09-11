@@ -296,11 +296,6 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_ideology_feudalism_subtype"
-		texturefile = "gfx/interface/ideologies/neutrality_group/feudalism_subtype.dds"
-	}
-
-	spriteType = {
 		name = "GFX_ideology_colonialism_subtype"
 		texturefile = "gfx/interface/ideologies/neutrality_group/colonialism_subtype.dds"
 	}
@@ -424,6 +419,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_miao_millenarianism_subtype"
 		texturefile = "gfx/interface/ideologies/monarchism_group/miao_millenarianism_subtype.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_feudalism_subtype"
+		texturefile = "gfx/interface/ideologies/monarchism_group/feudalism_subtype.dds"
 	}
 
 	### Nazi Group ###

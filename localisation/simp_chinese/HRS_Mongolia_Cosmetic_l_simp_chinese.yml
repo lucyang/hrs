@@ -11,10 +11,10 @@
  MON_MONGOLIA_communism_DEF:0 "蒙古苏维埃共和国"
  MON_MONGOLIA_anarchism:0 "蒙古人民共和国"
  MON_MONGOLIA_anarchism_DEF:0 "蒙古人民共和国"
- MON_MONGOLIA_socialism:0 "蒙古人民共和国"
- MON_MONGOLIA_socialism_DEF:0 "蒙古人民共和国"
- MON_MONGOLIA_democratic:0 "蒙古人民共和国"
- MON_MONGOLIA_democratic_DEF:0 "蒙古人民共和国"
+ MON_MONGOLIA_socialism:0 "蒙古民主共和国"
+ MON_MONGOLIA_socialism_DEF:0 "蒙古民主共和国"
+ MON_MONGOLIA_democratic:0 "蒙古共和国"
+ MON_MONGOLIA_democratic_DEF:0 "蒙古共和国"
  #################
  ## KVD-Khovd ##
  #################

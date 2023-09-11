@@ -17,10 +17,10 @@ characters={
 		name=SHR_jing_meijiu
 		portraits={
 			civilian={
-				large="gfx/leaders/SHR/Portrait_Liang_Shanji.png"
+				large="gfx/leaders/SHR/Portrait_Jing_Meijiu.png"
 			}
 			army={
-				large="gfx/leaders/SHR/Portrait_Liang_Shanji.png"
+				large="gfx/leaders/SHR/Portrait_Jing_Meijiu.png"
 			}
 		}
 		country_leader={
