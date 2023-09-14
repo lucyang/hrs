@@ -41,6 +41,18 @@ ADM = {
 	color = rgb { 30 165 20 }
 	color_ui = rgb { 30 165 20 }
 }
+SRW = {
+	color = rgb { 138 13 13 }
+	color_ui = rgb { 138 13 13 }
+}
+SBH = {
+	color = rgb { 153 76 0 }
+	color_ui = rgb { 153 76 0 }
+}
+BRN = {
+	color = rgb { 0 230 184 }
+	color_ui = rgb { 0 230 184 }
+}
 #############
 ### HENAN ###
 #############

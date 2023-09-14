@@ -1,0 +1,71 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ BRN_communism:0 "文莱达鲁萨兰国"
+ BRN_communism_DEF:0 "文莱达鲁萨兰国"
+ BRN_anarchism:0 "文莱达鲁萨兰国"
+ BRN_anarchism_DEF:0 "文莱达鲁萨兰国"
+ BRN_socialism:0 "文莱达鲁萨兰国"
+ BRN_socialism_DEF:0 "文莱达鲁萨兰国"
+ BRN_democratic:0 "文莱达鲁萨兰国"
+ BRN_democratic_DEF:0 "文莱达鲁萨兰国"
+ BRN_neutrality:0 "文莱达鲁萨兰国"
+ BRN_neutrality_DEF:0 "文莱达鲁萨兰国"
+ BRN_monarchism:0 "文莱达鲁萨兰国"
+ BRN_monarchism_DEF:0 "文莱达鲁萨兰国"
+ BRN_fascism:0 "文莱达鲁萨兰国"
+ BRN_fascism_DEF:0 "文莱达鲁萨兰国"
+ BRN_imperialism:0 "文莱达鲁萨兰国"
+ BRN_imperialism_DEF:0 "文莱达鲁萨兰国"
+ BRN_futurism:0 "文莱达鲁萨兰国"
+ BRN_futurism_DEF:0 "文莱达鲁萨兰国"
+ BRN_communism_ADJ:0 "宁海军"
+ BRN_anarchism_ADJ:0 "宁海军"
+ BRN_socialism_ADJ:0 "宁海军"
+ BRN_democratic_ADJ:0 "宁海军"
+ BRN_neutrality_ADJ:0 "宁海军"
+ BRN_monarchism_ADJ:0 "宁海军"
+ BRN_fascism_ADJ:0 "宁海军"
+ BRN_imperialism_ADJ:0 "宁海军"
+ BRN_futurism_ADJ:0 "宁海军"
+ BRN:0 "宁海军"
+ BRN_DEF:0 "宁海军"
+ BRN_ADJ:0 "宁海军"
+ #############
+ ## PARTIES ##
+ #############
+ BRN_communism_party:0 "-"
+ BRN_communism_party_long:0 "-"
+ BRN_anarchism_party:0 "-"
+ BRN_anarchism_party_long:0 "-"
+ BRN_socialism_party:0 "-"
+ BRN_socialism_party_long:0 "-"
+ BRN_democratic_party:0 "回教俱进会"
+ BRN_democratic_party_long:0 "中国回教俱进会"
+ BRN_neutrality_party:0 "宁海军司令部"
+ BRN_neutrality_party_long:0 "宁海军司令部"
+ BRN_monarchism_party:0 "苏丹效忠派"
+ BRN_monarchism_party_long:0 "苏丹效忠派"
+ BRN_fascism_party:0 "回教总联合会"
+ BRN_fascism_party_long:0 "中国回教总联合会"
+ BRN_imperialism_party:0 "防共回教徒同盟"
+ BRN_imperialism_party_long:0 "防共回教徒同盟"
+ BRN_futurism_party:0 "晋商财团"
+ BRN_futurism_party_long:0 "晋商财团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ BRN_ahmad_tajuddin:0 "阿哈默德·达祖丁" #Ahmad Tajuddin
+ BRN_ahmad_tajuddin_desc:0 "§Y出生日期§!：§G1913年8月22日§!\n§Y出生地点§!：§G文莱苏丹国文莱城北根阿布巴卡皇宫§!"
+ #############
+ # Decisions #
+ #############
+
+ ##########
+ # TRAITS #
+ ##########

@@ -15,6 +15,9 @@ MAL = "countries/Malaysia.txt"
 LNF = "countries/Lanfang.txt" # Kalimantan & Borneo
 PHI = "countries/Philippines.txt"
 BSM = "countries/Bangsa Moro.txt"
+BRN = "countries/Brunei.txt"
+SRW = "countries/Sarawak.txt"
+SBH = "countries/Sabah.txt"
 ### CHINA/EAST ###
 # SHANGHAI #
 SHH = "countries/Shanghai.txt"

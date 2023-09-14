@@ -5,14 +5,14 @@ state={
 		5086 5087
 	}
 	history = {
-		owner = LNF
-		add_core_of = LNF
+		owner = BRN
+		add_core_of = BRN
 
 		buildings = {
 			infrastructure = 2
 		}
 	}
-	manpower=1000
+	manpower=48000
 	state_category = rural
 	local_supplies = 0.0
 }

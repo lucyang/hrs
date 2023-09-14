@@ -1,0 +1,17 @@
+state={
+	id=428
+	name="STATE_428"
+	provinces={
+		4950
+	}
+	history = {
+		owner = SBH
+		add_core_of = SBH
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=12500
+	state_category = rural
+	local_supplies = 0.0
+}

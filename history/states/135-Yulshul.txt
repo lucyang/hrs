@@ -4,8 +4,7 @@ state={
 	name="STATE_135"
 
 	history={
-		owner = IMC
-		add_core_of = IMC
+		owner = YSH
 		add_core_of = YSH
 		add_core_of = AMD
 		1924.1.1 = {

@@ -6,8 +6,8 @@ state={
 		818 1587 1908 2482 3357 
 	}
 	history={
-		owner = IMN
-		add_core_of = IMN
+		owner = IMC
+		add_core_of = IMC
 		1924.1.1 = {
 			owner = IMN
 			add_core_of = IMN
