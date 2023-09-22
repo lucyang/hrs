@@ -1,0 +1,73 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ JHL_communism:0 "蒙古军政府"
+ JHL_communism_DEF:0 "蒙古军政府"
+ JHL_anarchism:0 "蒙古军政府"
+ JHL_anarchism_DEF:0 "蒙古军政府"
+ JHL_socialism:0 "蒙古军政府"
+ JHL_socialism_DEF:0 "蒙古军政府"
+ JHL_democratic:0 "蒙古军政府"
+ JHL_democratic_DEF:0 "蒙古军政府"
+ JHL_neutrality:0 "蒙古军政府"
+ JHL_neutrality_DEF:0 "蒙古军政府"
+ JHL_monarchism:0 "蒙古军政府"
+ JHL_monarchism_DEF:0 "蒙古军政府"
+ JHL_fascism:0 "蒙古军政府"
+ JHL_fascism_DEF:0 "蒙古军政府"
+ JHL_imperialism:0 "蒙古军政府"
+ JHL_imperialism_DEF:0 "蒙古军政府"
+ JHL_futurism:0 "蒙古军政府"
+ JHL_futurism_DEF:0 "蒙古军政府"
+ JHL_communism_ADJ:0 "蒙古军"
+ JHL_anarchism_ADJ:0 "蒙古军"
+ JHL_socialism_ADJ:0 "蒙古军"
+ JHL_democratic_ADJ:0 "蒙古军"
+ JHL_neutrality_ADJ:0 "蒙古军"
+ JHL_monarchism_ADJ:0 "蒙古军"
+ JHL_fascism_ADJ:0 "蒙古军"
+ JHL_imperialism_ADJ:0 "蒙古军"
+ JHL_futurism_ADJ:0 "蒙古军"
+ JHL:0 "蒙古军政府"
+ JHL_DEF:0 "蒙古军政府"
+ JHL_ADJ:0 "蒙古军"
+ #############
+ ## PARTIES ##
+ #############
+ JHL_communism_party:0 "蒙古人民革命党"
+ JHL_communism_party_long:0 "蒙古人民革命党"
+ JHL_anarchism_party:0 "蒙古人民党"
+ JHL_anarchism_party_long:0 "蒙古人民党"
+ JHL_socialism_party:0 "蒙古青年革命党"
+ JHL_socialism_party_long:0 "蒙古青年革命党"
+ JHL_democratic_party:0 "蒙古国民党"
+ JHL_democratic_party_long:0 "蒙古国民党"
+ JHL_neutrality_party:0 "蒙古军 - 嘎达梅林派"
+ JHL_neutrality_party_long:0 "蒙古军总司令部 - 嘎达梅林派"
+ JHL_monarchism_party:0 "蒙古军 - 王公派"
+ JHL_monarchism_party_long:0 "蒙古军总司令部 - 王公派"
+ JHL_fascism_party:0 "蒙古军 - 李守信派"
+ JHL_fascism_party_long:0 "蒙古军总司令部 - 李守信派"
+ JHL_imperialism_party:0 "黑喇嘛效忠者"
+ JHL_imperialism_party_long:0 "黑喇嘛效忠者"
+ JHL_futurism_party:0 "晋商财阀"
+ JHL_futurism_party_long:0 "晋商财阀"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ JHL_gada_meiren:0 "嘎达梅林"
+ JHL_gada_meiren_desc:0 "§Y出生日期§!：§G1892年§!\n§Y出生地点§!：§G满洲帝国兴安南省哲里木盟科尔沁左翼中旗§!"
+ JHL_li_shouxin:0 "李守信"
+ JHL_li_shouxin_desc:0 "§Y出生日期§!：§G1892年7月11日§!\n§Y出生地点§!：§G大东帝国蒙古军省卓索图盟土默特右翼旗§!"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

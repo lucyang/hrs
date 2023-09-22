@@ -3,20 +3,56 @@ characters={
 		name=ORD_70_anda_duguilang
 		portraits={
 			civilian={
-				large="gfx/leaders/ORD/Portrait_70_Anda_Duguilang.png"
+				large="gfx/leaders/ORD/Portrait_70_anda_duguilang.png"
+			}
+		}
+		#country_leader={
+		#	ideology=national_communism_subtype
+		#	desc=ORD_sayinbayar_desc
+		#	traits={ revolutionary_council }
+		#	expire="1939.1.1.1"
+		#}
+	}
+	ORD_sayinbayar={
+		name=ORD_sayinbayar_mongolian
+		portraits={
+			civilian={
+				large="gfx/leaders/ORD/Portrait_Sayinbayar.png"
 			}
 		}
 		country_leader={
 			ideology=national_communism_subtype
-			desc=ORD_70_anda_duguilang_desc
-			traits={ revolutionary_council }
-			expire="1950.1.1.1"
+			desc=ORD_sayinbayar_desc
+			traits={ emergency_power }
+			expire="1939.1.1.1"
+		}
+	}
+	ORD_merse={
+		name=ORD_merse_mongolian
+		portraits={
+			civilian={
+				large="gfx/leaders/ORD/Portrait_Merse.png"
+			}
 		}
 		country_leader={
-			ideology=left_nationalism_subtype
-			desc=ORD_70_anda_duguilang_desc
-			traits={ revolutionary_council }
+			ideology=leninism_subtype
+			desc=ORD_merse_desc
+			traits={  }
 			expire="1950.1.1.1"
+		}
+	}
+	ORD_ulanhu={
+		name=ORD_ulanhu_mongolian
+		portraits={
+			civilian={
+				large="gfx/leaders/ORD/Portrait_Ulanhu.png"
+			}
+		}
+		country_leader={
+			ideology=neo_asianism_subtype
+			desc=ORD_ulanhu_desc
+			traits={  }
+			expire="1988.12.8.1"
 		}
 	}
 }

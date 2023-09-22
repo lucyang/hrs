@@ -415,6 +415,10 @@ defined_text = {
 		localization_key = xinminism_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = agrarian_fascism_subtype }
+		localization_key = agrarian_fascism_subtype
+	}
+	text = {
 		localization_key = fascism_subtype
 	}
 }

@@ -49,19 +49,13 @@ is_liaoning_nation = {
 		original_tag = KTS #关东州工兵代表政府
 	}
 }
-is_chahar_nation = {
-	OR = {
-		original_tag = IMN #内蒙古人民共和国
-		original_tag = DAR #达里冈爱牧场
-		original_tag = CHR #察北自治政府
-	}
-}
 is_huabei_nation = {
 	OR = {
 		is_shandong_nation = yes
 		is_hebei_nation = yes
 		is_henan_nation = yes
 		is_chahar_nation = yes
+		is_jehol_nation = yes
 	}
 }
 #########
@@ -83,6 +77,25 @@ is_gansu_nation = {
 		original_tag = HAM #安西都护府
 	}
 }
+is_qinghai_nation = {
+	OR = {
+		original_tag = QNG #伊赫瓦尼
+		original_tag = NHA #宁海军
+		original_tag = LBR #拉卜楞寺
+	}
+}
+is_xibei_nation = {
+	OR = {
+		is_shaanxi_nation = yes
+		is_gansu_nation = yes
+		is_qinghai_nation = yes
+		is_ningxia_nation = yes
+		is_suiyuan_nation = yes
+	}
+}
+##########
+# SAIBEI #
+##########
 is_ningxia_nation = {
 	OR = {
 		original_tag = NIX #宁夏边防军
@@ -91,24 +104,29 @@ is_ningxia_nation = {
 is_suiyuan_nation = {
 	OR = {
 		original_tag = SYN #大汉义军
-		original_tag = ORD #蒙汉自治军
+		original_tag = HHT #蒙汉自治军
+		original_tag = ORD #独贵龙
 	}
 }
-is_qinghai_nation = {
+is_chahar_nation = {
 	OR = {
-		original_tag = QNG #青海巡防军
-		original_tag = YSH #玉树四十族
-		original_tag = GLK #果洛王国
-		original_tag = LBR #拉卜楞寺
+		original_tag = MEN #蒙疆
+		original_tag = IMN #内人党
+		original_tag = DAR #达里岗爱
+		original_tag = CHR #察南自治政府
 	}
 }
-is_xibei_nation = {
+is_jehol_nation = {
 	OR = {
-		is_shaanxi_nation = yes
-		is_gansu_nation = yes
+		original_tag = JHL #蒙古军政府
+	}
+}
+is_saibei_nation = {
+	OR = {
 		is_ningxia_nation = yes
 		is_suiyuan_nation = yes
-		is_qinghai_nation = yes
+		is_chahar_nation = yes
+		is_jehol_nation = yes
 	}
 }
 ###########

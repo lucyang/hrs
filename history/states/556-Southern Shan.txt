@@ -6,8 +6,9 @@ state={
 		112 158 189 411 1177 1876 3374 4220 
 	}
 	history={
-		owner = HSW
-		add_claim_by = BRM
+		owner = BRM
+		add_core_of = BRM
+		add_claim_by = SIA
 		buildings = {
 			infrastructure = 1
 		}

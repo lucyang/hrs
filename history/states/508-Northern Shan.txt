@@ -4,8 +4,9 @@ state={
 	name="STATE_508"
 
 	history={
-		owner = HSW
+		owner = BRM
 		add_core_of = BRM
+		add_claim_by = SIA
 		buildings = {
 			infrastructure = 2
 

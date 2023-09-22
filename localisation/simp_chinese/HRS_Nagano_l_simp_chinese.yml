@@ -35,8 +35,8 @@
  #############
  NGN_communism_party:0 "日本共产党"
  NGN_communism_party_long:0 "日本共产党" #大山郁夫
- NGN_anarchism_party:0 "无政府主义者联盟"
- NGN_anarchism_party_long:0 "日本无政府主义者联盟" #石川三四郎
+ NGN_anarchism_party:0 "共学社"
+ NGN_anarchism_party_long:0 "共学社" #石川三四郎
  NGN_socialism_party:0 "新村主义派"
  NGN_socialism_party_long:0 "新村主义派" #武者小路実篤
  NGN_democratic_party:0 "农本社会党"

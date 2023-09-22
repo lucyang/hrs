@@ -49,7 +49,6 @@ WAX = "countries/Wanxi.txt"
 TIJ = "countries/Tianjin.txt"
 HEB = "countries/Hebei.txt"
 JID = "countries/Jidong.txt"
-CHR = "countries/Chahar.txt"
 PRC = "countries/ComChina.txt"
 # LIAONING #
 LNG = "countries/Liaoning.txt"
@@ -118,10 +117,19 @@ NHA = "countries/Ninghai Army.txt"
 YSH = "countries/Yulshul.txt"
 GLK = "countries/Golok.txt"
 LBR = "countries/Labrang.txt"
+### CHINA/INNER MONGOLIA ### 
 # SUIYUAN #
 SYN = "countries/Suiyuan.txt"
 HHT = "countries/Hohhot.txt"
 ORD = "countries/Ordos.txt"
+ULQ = "countries/Ulanqab.txt"
+# CHAHAR #
+CHR = "countries/Chahar.txt"
+DAR = "countries/Dariganga.txt"
+IMN = "countries/Inner Mongolia.txt"
+MEN = "countries/Mengkukuo.txt"
+# JEHOL #
+JHL = "countries/Jehol.txt"
 # NINGXIA #
 NIX = "countries/Ningxia.txt"
 ### CHINA/SOUTHWEST ###
@@ -218,12 +226,7 @@ MON = "countries/Mongolia.txt"
 BOG = "countries/Bogd Khanate.txt"
 KVD = "countries/Khovd.txt"
 ULI = "countries/Uliastai.txt"
-### INNER MONGOLIA ### 
-MEN = "countries/Mengkukuo.txt"
-ULQ = "countries/Ulanqab.txt"
 HUL = "countries/Hulunbuir.txt"
-DAR = "countries/Dariganga.txt"
-IMN = "countries/Inner Mongolia.txt"
 ### TIBET ###
 TIB = "countries/Tibet.txt"
 SHG = "countries/Shigatse.txt"

@@ -3,7 +3,7 @@ state={
 	id=69
 	name="STATE_69"
 	provinces={
-		1813 2806
+		1813 1846 2806
 	}
 	history={
 		owner = IMC

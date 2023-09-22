@@ -2,12 +2,16 @@ state={
 	id=37
 	name="STATE_37"
 	provinces={
-		225 416 505 1041 1127 1216 1331 1450 1499 1660 1800 2060 2093 2156 2380 2777 2986 3108 3268 3537 3550 3558 3561 3564 3584 3601 
+		225 416 445 505 1041 1127 1216 1331 1450 1499 1660 1800 2093 2156 2380 2462 2678 2777 2986 3108 3558 3561 3564 3584 3601 
 	}
 	history = {
-		owner = MAN
-		add_core_of = MAN
-		
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = JHL
+			add_core_of = JHL
+			remove_core_of = IMC
+		}
 		victory_points = {
 			2986 1
 		}

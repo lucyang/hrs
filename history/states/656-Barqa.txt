@@ -1,0 +1,30 @@
+
+state={
+	id=656
+	name="STATE_656"
+
+	history={
+		owner = MAN
+		add_core_of = MAN
+		
+		victory_points = {
+			1982 5 
+		}
+		victory_points = {
+			755 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		105 205 376 565 600 755 892 907 981 1015 1080 1238 1376 1483 1608 1681 1845 1853 1871 1938 1982 2115 2133 2241 2440 2467 2623 2676 2680 2683 2756 2851 2864 2869 2895 3039 3042 3086 3424 3431 3434 3456 3458 3465 
+	}
+	manpower=390471
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

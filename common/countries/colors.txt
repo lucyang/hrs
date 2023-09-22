@@ -935,6 +935,10 @@ DAR = { # 达里冈爱牧场
 	color = rgb { 50 165 0 }
 	color_ui = rgb { 50 165 0 }
 }
+JHL = {
+	color = rgb { 197 92 106 }
+	color_ui = rgb { 197 92 106 }
+}
 #############
 ### KOREA ###
 #############

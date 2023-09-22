@@ -1,60 +1,4 @@
 characters={
-	IMN_ulanhu={
-		name=IMN_ulanhu
-		portraits={
-			civilian={
-				large="gfx/leaders/IMN/Portrait_Ulanhu.png"
-			}
-		}
-		country_leader={
-			ideology=neo_asianism_subtype
-			desc=IMN_ulanhu_desc
-			traits={  }
-			expire="1988.12.8.1"
-		}
-	}
-	IMN_baatarchin={
-		name=IMN_baatarchin
-		portraits={
-			civilian={
-				large="gfx/leaders/IMN/Portrait_Baatarchin.png"
-			}
-		}
-		country_leader={
-			ideology=revolutionary_front_subtype
-			desc=IMN_baatarchin_desc
-			traits={  }
-			expire="1950.1.1.1"
-		}
-	}
-	IMN_merse={
-		name=IMN_merse
-		portraits={
-			civilian={
-				large="gfx/leaders/IMN/Portrait_Merse.png"
-			}
-		}
-		country_leader={
-			ideology=national_communism_subtype
-			desc=IMN_merse_desc
-			traits={  }
-			expire="1950.1.1.1"
-		}
-	}
-	IMN_sayinbayar={
-		name=IMN_sayinbayar
-		portraits={
-			civilian={
-				large="gfx/leaders/IMN/Portrait_Sayinbayar.png"
-			}
-		}
-		country_leader={
-			ideology=new_tridemism_subtype
-			desc=IMN_sayinbayar_desc
-			traits={  }
-			expire="1939.1.1.1"
-		}
-	}
 	IMN_serendongrub={
 		name=IMN_serendongrub
 		portraits={
@@ -65,8 +9,22 @@ characters={
 		country_leader={
 			ideology=tridemism_subtype
 			desc=IMN_serendongrub_desc
-			traits={  }
+			traits={ backroom_stabber }
 			expire="1980.8.2.1"
+		}
+	}
+	IMN_bayandalai={
+		name=IMN_bayandalai
+		portraits={
+			civilian={
+				large="gfx/leaders/IMN/Portrait_Bayandalai.png"
+			}
+		}
+		country_leader={
+			ideology=state_socialism_subtype
+			desc=IMN_bayandalai_desc
+			traits={ moderate_reformist }
+			expire="1950.1.1.1"
 		}
 	}
 }

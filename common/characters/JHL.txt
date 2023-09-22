@@ -1,0 +1,52 @@
+characters={
+	JHL_li_shouxin={
+		name=JHL_li_shouxin
+		portraits={
+			civilian={
+				large="gfx/leaders/JHL/Portrait_Li_Shouxin.png"
+			}
+			army={
+				large="gfx/leaders/JHL/Portrait_Li_Shouxin.png"
+			}
+		}
+		country_leader={
+			ideology=agrarian_fascism_subtype
+			desc=JHL_li_shouxin_desc
+			traits={ fascist_orchestrator }
+			expire="1950.1.1.1"
+		}
+		corps_commander={
+			traits={ infantry_officer career_officer }
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+		}
+	}
+	JHL_gada_meiren={
+		name=JHL_gada_meiren
+		portraits={
+			civilian={
+				large="gfx/leaders/JHL/Portrait_Gada_Meiren.png"
+			}
+			army={
+				large="gfx/leaders/JHL/Portrait_Gada_Meiren.png"
+			}
+		}
+		country_leader={
+			ideology=left_nationalism_subtype
+			desc=JHL_gada_meiren_desc
+			traits={ our_rgiht_to_survive }
+			expire="1950.1.1.1"
+		}
+		corps_commander={
+			traits={ irregulars_officer guerilla_fighter ambusher  }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+		}
+	}
+}

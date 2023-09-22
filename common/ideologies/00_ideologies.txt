@@ -313,6 +313,7 @@ ideologies = {
 			corporatism_subtype = { can_be_randomly_selected = no }					
 			legionism_subtype = { can_be_randomly_selected = no }
 			ultrastatism_subtype = { can_be_randomly_selected = no }
+			agrarian_fascism_subtype = { can_be_randomly_selected = no }
 
 			narodnik_socialism_subtype = { can_be_randomly_selected = no }
 			manchu_socialism_subtype = { can_be_randomly_selected = no }

@@ -35,8 +35,8 @@
  #############
  ## PARTIES ##
  #############
- TSH_communism_party:0 "社民农工党"
- TSH_communism_party_long:0 "中国社会民主农工党"
+ TSH_communism_party:0 "青年军人联合会"
+ TSH_communism_party_long:0 "中国青年军人联合会"
  TSH_anarchism_party:0 "伊赫瓦尼"
  TSH_anarchism_party_long:0 "伊赫瓦尼"
  TSH_socialism_party:0 "西道堂"
@@ -45,8 +45,8 @@
  TSH_democratic_party_long:0 "西北革命同盟会"
  TSH_neutrality_party:0 "甘肃军政府"
  TSH_neutrality_party_long:0 "甘肃军政府"
- TSH_monarchism_party:0 "和朝保皇派"
- TSH_monarchism_party_long:0 "和朝保皇派"
+ TSH_monarchism_party:0 "帝国宪政会"
+ TSH_monarchism_party_long:0 "中华帝国宪政会"
  TSH_fascism_party:0 "中国新民会"
  TSH_fascism_party_long:0 "中国新民会"
  TSH_imperialism_party:0 "战国策派"

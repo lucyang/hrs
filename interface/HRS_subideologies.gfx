@@ -492,6 +492,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/fascism_group/xinminism_subtype.dds"
 	}
 
+	spriteType = {
+		name = "GFX_ideology_agrarian_fascism_subtype"
+		texturefile = "gfx/interface/ideologies/fascism_group/agrarian_fascism_subtype.dds"
+	}
+
 	### Imperialist Group ###
 	spriteType = {
 		name = "GFX_ideology_imperialism_group"
