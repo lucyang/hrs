@@ -52,6 +52,7 @@ JID = "countries/Jidong.txt"
 PRC = "countries/ComChina.txt"
 # LIAONING #
 LNG = "countries/Liaoning.txt"
+AGA = "countries/Anguo Army.txt"
 KTS = "countries/Kantoshu.txt"
 ### CHINA/CENTRAL ###
 # HUBEI #

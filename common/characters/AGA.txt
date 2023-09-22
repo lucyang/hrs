@@ -1,0 +1,16 @@
+characters={
+	AGA_zhang_zuolin={
+		name=AGA_zhang_zuolin
+		portraits={
+			civilian={
+				large="gfx/leaders/AGA/Portrait_Zhang_Zuolin.png"
+			}
+		}
+		country_leader={
+			ideology=military_government_subtype
+			desc=AGA_zhang_zuolin_desc
+			traits={ jefe }
+			expire="1950.1.1.1"
+		}
+	}
+}

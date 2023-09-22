@@ -6,8 +6,10 @@ state={
 	}
 	history = {
 		owner = DBJ
-		
-
+		1924.1.1 = {
+			owner = MON
+			add_core_of = MON
+		}
 		victory_points = { 1102 10 } #阿勒坦布拉格
 		
 		buildings = {

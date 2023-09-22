@@ -6,7 +6,7 @@ set_country_flag = is_mongolia_nation
 recruit_character = ORD_70_anda_duguilang
 recruit_character = ORD_merse
 recruit_character = ORD_ulanhu
-recruit_character = IMN_sayinbayar #赛音巴雅尔/包悦卿
+recruit_character = ORD_sayinbayar #赛音巴雅尔/包悦卿
 
 set_technology = {
 	infantry_weapons = 1
