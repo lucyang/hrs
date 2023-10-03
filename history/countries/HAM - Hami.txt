@@ -2,6 +2,7 @@ capital = 629 #奇台
 
 #oob = "empty"
 set_country_flag = is_china_nation
+set_country_flag = is_uyghur_nation
 
 recruit_character = HAM_yulbars_khan
 

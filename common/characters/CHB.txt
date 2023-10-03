@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=democratic_socialism_subtype
+			ideology=market_socialism_subtype
 			desc=CHB_suzuki_mosaburo_desc
 			traits={ social_reformer connected_citizen }
 			expire="1967.2.13.1"

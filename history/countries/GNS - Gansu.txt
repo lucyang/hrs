@@ -7,6 +7,7 @@ set_research_slots = 2
 recruit_character = GNS_ma_linyi
 
 set_country_flag = is_china_nation
+set_country_flag = is_gansu_nation
 
 set_technology = {
 	infantry_weapons = 1

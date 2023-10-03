@@ -2,6 +2,8 @@
 
 recruit_character = KKG_onishi_takijiro #大西泷治郎
 
+set_country_flag = is_japan_nation
+
 #oob = "empty"
 
 set_technology = {

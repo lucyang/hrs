@@ -5,6 +5,7 @@ capital = 187 #福冈
 recruit_character = KYU_asahara_kenzo #浅原健三
 recruit_character = KYU_osugi_sakae #大杉荣
 
+set_country_flag = is_japan_nation
 
 set_technology = {
 	infantry_weapons = 1

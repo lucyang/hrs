@@ -3,6 +3,8 @@
 recruit_character = DLI_yan_zizhen
 recruit_character = DLI_qu_huanzhang
 
+set_country_flag = is_yunnan_nation
+
 #oob = "empty"
 
 set_technology = {

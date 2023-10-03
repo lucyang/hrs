@@ -5,7 +5,9 @@ capital = 261 #乐山
 recruit_character = CLS_guo_moruo
 recruit_character = CLS_xian_xinghai
 recruit_character = CLS_wu_yuzhang
+
 set_country_flag = is_china_nation
+set_country_flag = is_sichuan_nation
 
 set_technology = {
 	infantry_weapons = 1

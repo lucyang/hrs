@@ -2,6 +2,7 @@
 
 #oob = "empty"
 set_country_flag = is_china_nation
+set_country_flag = is_hainan_nation
 
 recruit_character = HNN_wang_wenming
 recruit_character = HNN_feng_baiju

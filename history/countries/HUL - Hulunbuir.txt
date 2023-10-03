@@ -4,6 +4,8 @@ recruit_character = HUL_merse #墨尔色/郭道甫
 
 #oob = "empty"
 
+set_country_flag = is_mongolia_nation
+
 set_technology = {
 	infantry_weapons = 1
 	support_weapons = 1

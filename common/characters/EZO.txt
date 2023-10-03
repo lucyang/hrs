@@ -49,7 +49,7 @@ characters={
 			}
 		}
 		#country_leader={
-		#	ideology=democratic_socialism_subtype_subtype
+		#	ideology=agrarian_socialism_subtype_subtype
 		#	desc=EZO_katayama_sen_desc
 		#	traits={ comintern_workhorse voice_of_restraint }
 		#	expire="1944.6.17.1"

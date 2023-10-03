@@ -6,6 +6,8 @@ recruit_character = CGK_okabe_naozaburo #岡部直三郎
 
 #oob = "empty"
 
+set_country_flag = is_japan_nation
+
 set_technology = {
 	infantry_weapons = 1
 	support_weapons = 1

@@ -5,8 +5,10 @@ recruit_character = CHI_dong_biwu
 recruit_character = CHi_li_lisan
 recruit_character = CHI_li_yuanhong
 recruit_character = CHI_hubei_government
-set_country_flag = is_china_nation
+
 #oob = "empty"
+set_country_flag = is_china_nation
+set_country_flag = is_hubei_nation
 
 set_technology = {
 	infantry_weapons = 1

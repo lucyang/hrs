@@ -132,6 +132,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideologies/anarchism_group/islamic_socialism_subtype.dds"
 	}
 
+	spriteType = {
+		name = "GFX_ideology_shifuism_subtype"
+		texturefile = "gfx/interface/ideologies/anarchism_group/shifuism_subtype.dds"
+	}
+
 	### Socialist Group ###
 	spriteType = {
 		name = "GFX_ideology_socialism_group"
@@ -247,6 +252,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_revisionist_democratic_subtype"
 		texturefile = "gfx/interface/ideologies/democratic_group/revisionist_democratic_subtype.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_islamic_democracy_subtype"
+		texturefile = "gfx/interface/ideologies/democratic_group/islamic_democracy_subtype.dds"
 	}
 
 	### Tyrannt Group ###

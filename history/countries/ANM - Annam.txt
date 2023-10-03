@@ -7,6 +7,8 @@ set_war_support = 0.25
 
 set_research_slots = 3
 
+set_country_flag = is_vietnam_nation
+
 recruit_character = ANM_long_jiguang #龙济光
 recruit_character = ANM_bui_quang_chieu #裴光昭/Bùi Quang Chiêu
 

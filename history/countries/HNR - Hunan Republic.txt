@@ -2,6 +2,8 @@
 
 recruit_character = HNR_tan_yankai
 
+set_country_flag = is_hunan_nation
+
 #oob = "empty"
 
 set_technology = {

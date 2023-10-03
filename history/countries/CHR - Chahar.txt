@@ -1,8 +1,11 @@
 ﻿capital = 63 #张家口
 
 recruit_character = CHR_yu_pinqing
-set_country_flag = is_china_nation
+
 #oob = "empty"
+
+set_country_flag = is_china_nation
+set_country_flag = is_chahar_nation
 
 set_technology = {
 	infantry_weapons = 1

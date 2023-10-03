@@ -4,6 +4,7 @@ recruit_character = HEB_xi_jinping
 
 #oob = "empty"
 set_country_flag = is_china_nation
+set_country_flag = is_hebei_nation
 
 set_technology = {
 	infantry_weapons = 1

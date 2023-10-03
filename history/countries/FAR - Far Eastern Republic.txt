@@ -7,6 +7,8 @@ set_research_slots = 2
 recruit_character = FAR_aleksandr_bogdanov #亚历山大·波格丹诺夫
 recruit_character = FAR_lev_kamenev #列夫·加米涅夫
 
+set_country_flag = is_russia_nation
+
 set_technology = {
 	infantry_weapons = 1
 	tech_recon = 1

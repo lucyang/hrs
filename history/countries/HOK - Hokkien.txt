@@ -2,7 +2,7 @@
 
 #oob = "empty"
 
-set_country_flag = is_china_nation
+set_country_flag = is_fujian_nation
 
 recruit_character = HOK_zhang_zhen
 recruit_character = HOK_xu_zhuoran

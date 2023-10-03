@@ -5,6 +5,7 @@ recruit_character = JIJ_wu_mi
 
 #oob = "empty"
 set_country_flag = is_china_nation
+set_country_flag = is_jiangxi_nation
 
 set_technology = {
 	infantry_weapons = 1

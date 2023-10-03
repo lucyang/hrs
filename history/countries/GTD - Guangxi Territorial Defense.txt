@@ -4,6 +4,7 @@ recruit_character = GTD_shen_hongying
 
 #oob = "empty"
 set_country_flag = is_china_nation
+set_country_flag = is_guangxi_nation
 
 set_technology = {
 	infantry_weapons = 1

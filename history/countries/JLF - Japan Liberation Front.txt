@@ -11,6 +11,7 @@ recruit_character = JLF_better_kodoha
 
 #oob = "empty"
 
+set_country_flag = is_japan_nation
 
 set_technology = {
 	infantry_weapons = 1

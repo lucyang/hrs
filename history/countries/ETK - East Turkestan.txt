@@ -7,6 +7,8 @@ set_war_support = 0.70
 set_research_slots = 2
 set_convoys = 5
 
+set_country_flag = is_uyghur_nation
+
 recruit_character = ETK_masud_shabir # 麦斯武德·沙比尔
 recruit_character = ETK_elihan_tore # 艾力汗·吐烈
 

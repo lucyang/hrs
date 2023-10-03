@@ -2,6 +2,7 @@
 
 recruit_character = KVD_khatanbaatar_magsarjav # 哈丹巴特尔·马克思尔扎布
 
+set_country_flag = is_mongolia_nation
 
 set_technology = {
 	infantry_weapons = 1

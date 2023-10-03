@@ -6,6 +6,7 @@ recruit_character = JHL_gada_meiren
 #oob = "empty"
 set_country_flag = is_china_nation
 set_country_flag = is_mongolia_nation
+set_country_flag = is_jehol_nation
 
 set_technology = {
 	infantry_weapons = 1

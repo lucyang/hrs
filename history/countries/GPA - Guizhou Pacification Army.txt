@@ -7,6 +7,7 @@ recruit_character = GPA_wang_jialie
 recruit_character = GPA_zhou_xicheng
 
 set_country_flag = is_china_nation
+set_country_flag = is_guizhou_nation
 
 set_research_slots = 2
 

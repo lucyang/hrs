@@ -21,7 +21,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=liberalism_subtype #Islamic Democracy
+			ideology=islamic_democracy_subtype #Islamic Democracy
 			desc=GNS_ma_linyi_desc
 			traits={ education_reformer }
 			expire="1938.9.17.1"

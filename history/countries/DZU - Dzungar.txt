@@ -4,6 +4,8 @@ capital = 32 # 吉木萨尔
 
 recruit_character = DZU_choros_tangguse
 
+set_country_flag = is_dzungar_nation
+
 set_stability = 0.35
 set_war_support = 0.45
 set_research_slots = 2

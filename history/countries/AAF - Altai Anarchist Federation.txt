@@ -9,6 +9,8 @@ recruit_character = AAF_yefim_mamontov
 recruit_character = AAF_grigory_golov
 recruit_character = AAF_kozyr_sidorovich
 
+set_country_flag = is_russia_nation
+
 set_technology = {
 	infantry_weapons = 1
 	tech_support = 1		

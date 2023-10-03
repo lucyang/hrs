@@ -5,6 +5,8 @@
 recruit_character = DEG_fulro
 recruit_character = DEG_red_fulro
 
+set_country_flag = is_vietnam_nation
+
 set_technology = {
 	infantry_weapons = 1
 }

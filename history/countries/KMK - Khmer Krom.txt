@@ -4,6 +4,7 @@ recruit_character = KMK_son_ngo_thanh
 recruit_character = KMK_lan_nol
 recruit_character = KMK_son_sann
 
+set_country_flag = is_khmer_nation
 
 set_technology = {
 	infantry_weapons = 1

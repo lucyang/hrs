@@ -5,6 +5,9 @@ recruit_character = AMM_ushijima_mitsuru #牛島満
 
 #oob = "empty"
 
+set_country_flag = is_japan_nation
+set_country_flag = is_ryukyu_nation
+
 set_technology = {
 	infantry_weapons = 1
 	support_weapons = 1

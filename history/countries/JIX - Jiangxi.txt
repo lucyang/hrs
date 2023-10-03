@@ -6,6 +6,7 @@ recruit_character = JIX_long_qinhai
 
 #oob = "empty"
 set_country_flag = is_china_nation
+set_country_flag = is_jiangxi_nation
 
 set_technology = {
 	infantry_weapons = 1

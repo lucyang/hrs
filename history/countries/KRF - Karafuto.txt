@@ -5,7 +5,8 @@ recruit_character = KRF_nagai_kinjiro #永井金次郎
 recruit_character = KRF_ozawa_seitaro #尾澤清太郎
 
 #oob = "empty"
-
+set_country_flag = is_japan_nation
+set_country_flag = is_karafuto_nation
 
 set_technology = {
 	infantry_weapons = 1

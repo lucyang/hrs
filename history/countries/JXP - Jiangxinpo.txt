@@ -4,6 +4,7 @@ recruit_character = JXP_amakasu_masahiko
 
 #oob = "empty"
 set_country_flag = is_china_nation
+set_country_flag = is_yunnan_nation
 
 set_technology = {
 	infantry_weapons = 1

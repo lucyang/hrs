@@ -5,6 +5,7 @@ recruit_character = JPN_inoue_nissho #井上日召
 recruit_character = JPN_kato_kanji #加藤完治
 recruit_character = JPN_kita_ikki #北一辉
 
+set_country_flag = is_japan_nation
 
 set_technology = {
 	infantry_weapons = 1

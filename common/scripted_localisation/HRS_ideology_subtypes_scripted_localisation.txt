@@ -136,6 +136,10 @@ defined_text = {
 		localization_key = islamic_socialism_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = shifuism_subtype }
+		localization_key = shifuism_subtype
+	}
+	text = {
 		localization_key = anarchism_subtype
 	}
 }
@@ -228,6 +232,10 @@ defined_text = {
 	text = {
 		trigger = { has_country_leader_ideology = hunan_constitutionalism_subtype }
 		localization_key = hunan_constitutionalism_subtype
+	}
+	text = {
+		trigger = { has_country_leader_ideology = islamic_democracy_subtype }
+		localization_key = islamic_democracy_subtype
 	}
 	text = {
 		localization_key = democratic_subtype

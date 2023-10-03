@@ -3,7 +3,9 @@
 #oob = "empty"
 set_stability = 0.05
 set_war_support = 0.05
+
 set_country_flag = is_china_nation
+set_country_flag = is_guangdong_nation
 
 recruit_character = GND_kang_youwei
 recruit_character = GND_zhang_dongsun

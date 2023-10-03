@@ -5,6 +5,7 @@ recruit_character = LYG_liu_maoen
 
 #oob = "empty"
 set_country_flag = is_china_nation
+set_country_flag = is_henan_nation
  
 set_technology = {
 	infantry_weapons = 1

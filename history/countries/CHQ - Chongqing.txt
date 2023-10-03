@@ -4,6 +4,7 @@ recruit_character = CHQ_chen_tianhua
 recruit_character = CHQ_zou_rong
 
 set_country_flag = is_china_nation
+set_country_flag = is_sichuan_nation
 #oob = "empty"
 
 set_technology = {

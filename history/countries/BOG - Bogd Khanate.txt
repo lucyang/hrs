@@ -5,6 +5,7 @@ recruit_character = BOG_manlaibaatar_damdinsuren # 芒来巴特尔·达木丁苏
 recruit_character = BOG_mijiddorjiin_khanddorj # 杭达多尔济
 recruit_character = BOG_togs_ochiryn_namnansuren # 那木囊苏伦
 
+set_country_flag = is_mongolia_nation
 
 set_technology = {
 	infantry_weapons = 1

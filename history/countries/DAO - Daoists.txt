@@ -5,6 +5,7 @@ recruit_character = DAO_zhang_enpu
 
 #oob = "empty"
 set_country_flag = is_china_nation
+set_country_flag = is_jiangxi_nation
 
 set_technology = {
 	infantry_weapons = 1

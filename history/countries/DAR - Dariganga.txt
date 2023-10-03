@@ -5,7 +5,9 @@
 set_research_slots = 1
 
 recruit_character = DAR_kong_xiangxi
+
 set_country_flag = is_china_nation
+set_country_flag = is_chahar_nation
 
 set_technology = {
 	infantry_weapons = 1

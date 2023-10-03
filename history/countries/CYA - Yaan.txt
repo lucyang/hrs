@@ -3,7 +3,9 @@ capital = 237 #雅安
 #oob = "empty"
 
 recruit_character = CYA_chen_xialing
+
 set_country_flag = is_china_nation
+set_country_flag = is_sichuan_nation
 
 set_technology = {
 	infantry_weapons = 1
