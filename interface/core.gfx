@@ -714,7 +714,7 @@ objectTypes = {
 		speed = 0.05
 		textblock = {
 			text = "txt"
-			color = { 0.9 0.9 0.0 }
+			color = { 0.9 0.9 0.0 } = 
 			font = "DebugFont"
 			position = { x=0 y=40 }
 			size = { x=1256 y = 164  }
@@ -725,32 +725,55 @@ objectTypes = {
 
 bitmapfonts = {
 
-	# Global text colors used in the entire game, for use in loc files ex: "§G Text Text§!"
+	# Global text colors used in the entire game, for use in loc files ex: "G Text Text!"
 	textcolors = {
-		C = { 35 206 255 }  # Cyan
-		L = { 195 176 145 } # Lilac
-		W = { 255 255 255 } # White
-		B = { 0 0 255 }     # Blue
-		G = { 0 159 3 }     # Green
-		R = { 255 50 50 }   # Red
-		b = { 0 0 0 }       # Black
-		g = { 176 176 176 } # Grey
-		Y = { 255 189 0 }   # Yellow
-		H = { 255 189 0 }   # Header
-		T = { 255 255 255 } # Title
-		O = { 255 112 25 }  # Orange
-		0 = { 203 0 203 }   # Gradient Step 0 - purple 		{ 102 0 102 }
-		1 = { 128 120 211 }   # Gradient Step 1 - lilac 		{ 51 43 133 }
-		2 = { 81 112 243 }	# Gradient Step 2 - blue 		{ 10 43 153 }
-		3 = { 81 143 220 }	# Gradient Step 3 - navy blue	{ 33 92 166 }
-		4 = { 90 190 231 }	# Gradient Step 4 - light blue	{ 28 143 191 }
-		5 = { 63 181 194 }	# Gradient Step 5 - cyan 		{ 63 181 194 }
-		6 = { 119 204 186 }	# Gradient Step 6 -	turquiose	{ 119 204 186 }
-		7 = { 153 209 153 }	# Gradient Step 7 - light green	{ 153 209 153 }
-		8 = { 204 163 51 }	# Gradient Step 8 - mustard		{ 204 163 51 }
-		9 = { 252 169 125 }	# Gradient Step 9 - orange		{ 250 102 25 }
-		t = { 255 76 77 }	# Gradient Step 10 - red 		{ 229 0 0 }
-		M = { 35 206 255 }
+		F = { 178 201 194 } #默认颜色/0xB2C9C2
+		R = { 224 130 130 }  #红色/0xE08282
+		G = { 133 234 142 } #绿色/0x85EA8E
+		Y = { 220 218 80 } #黄色/0xDCDA50
+		B = { 47 138 135 } #蓝色/0x2F8A87
+		M = { 35 206 255 } #淡蓝色/深天蓝色/0x23CEFF
+		L = { 195 176 145 } #酸面团色/0xC3B091
+		O = { 234 161 14 } #橙色/0xEAA10E
+		g = { 176 176 176 } #灰色/0xB0B0B0
+		W = { 255 255 255 } #白色/0xFFFFFF
+		H = { 220 218 80 } #同§Y/0xDCDA50
+		T = { 47 138 135 } #同§B/0x2F8A87
+		C = { 253 100 144 } #边缘粉红色/0xFD6490
+		P = { 169 27 79 } #粉红色/0xA91B4F
+		r = { 132 50 0 } #棕色/0x843200
+		w = { 211 201 0 } #金罂粟色/0xD3C900
+		e = { 146 0 0 } #暗红色/0x920000
+		p = { 204 0 204 } #深洋红色/0xCC00CC
+		j = { 153 102 51 } #印度支那色/0x996633
+		S = { 255 128 114 } #三文鱼色/0xFF8072
+		x = { 255 0 0 } #红色/0xFF0000
+		y = { 0 255 0} #绿色/0x00FF00
+		z = { 0 0 255 } #蓝色/0x0000FF
+		l = { 147 112 219 } #薰衣草色/0x9370DB
+		n = { 60 180 60 } #深绿色/0x3CB43C
+		q = { 65 65 65 } #深灰色/0x414141
+		k = { 210 180 140 } #浅棕色/棕褐色/0xD2B48C
+		D = { 101 235 246 } #原版默认颜色/0x65EBF6
+		Q = { 0 84 142 } #普鲁士蓝/0x00548E
+		I = { 101 51 203 } #紫色/0x6533CB
+		d = { 225 225 225 } #盖茨伯勒色/0xE1E1E1
+		m = { 0 174 239 } #深天蓝色/0x00AEEF
+		h = { 161 16 107 } #爵士莓果酱色/0xA1106B
+		s = { 137 137 137 } #苏瓦灰色/0x898989
+		a = { 34 200 247 } #霓虹蓝色/0x22C8F7
+		v = { 0 0 255 } #蓝色/同§z/0x0000FF
+		c = { 169 27 79 } #洋红色/0xA91B4F
+		V = { 213 40 20 } #猩红色/0xD52814
+		E = { 152 40 92 } #紫色/0x98285C
+		f = { 255 193 12 } #琥珀色/0xFFC10C
+		i = { 46 60 169 } #长春花蓝色/0x2E3CA9
+		J = { 213 87 57 } #浅橙色/0xD55739
+		K = { 45 152 40 } #祖母绿/0x2D9828
+		N = { 152 40 92 } #洋红色/0x98285C
+		o = { 129 88 56 } #雪茄色/0x815838
+		A = { 0 108 114 } #不明的青色/0x006C72
+		u = { 210 119 39 } #不明的橙色/0xD27727
 	}
 
 

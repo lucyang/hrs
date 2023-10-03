@@ -22,30 +22,37 @@
  chiefdom:0 "酋邦"
  ## Autocracy ##
  autocracy:0 "独裁制"
- personal_despotic:0 "个人独裁"
+ civilian_dictatorship:0 "文官独裁"
  military_dictatorship:0 "军事独裁"
- papal_state:0 "教宗国"
  ## Oligarchy ##
  oligarchy:0 "寡头政治"
  aristocracy:0 "贵族政治"
  timocracy:0 "门阀政治"
  military_junta:0 "军政府"
- stratocracy:0 "军阀政治"
+ stratocracy:0 "军政体制"
  plutocracy:0 "财阀政治"
- anocracy:0 "无支配政治"
+ anocracy:0 "无支配体制"
+ ## Monarchy ##
+ semi_constitutional_monarchy:0 "二元君主立宪制"
+ islamic_state:0 "伊斯兰国"
+ holy_see:0 "圣座"
  ## Authoratirianism ##
  colonial_government:0 "殖民政府"
  military_occupation:0 "军事占领"
  provisional_government:0 "临时政府"
  interim_government:0 "看守政府"
- semi_constitutional_monarchy:0 "二元君主立宪制"
  resistance_movement:0 "抵抗运动"
  theocracy:0 "神权政府"
  ## Democracy ##
+ demarchy:0 "抽签民主制"
  direct_democracy:0 "直接民主制"
+ electrocracy:0 "选主体制"
  liberal_democracy:0 "自由民主制"
+ herrenvolk_democracy:0 "种族民主制"
  council_democracy:0 "委员会民主制"
  nonpartisan_democracy:0 "无党派民主制"
+ ## Special ###
+ city_state:0 "城邦国家"
  anarchy:0 "地区自治"
  ##################
  ## CONSCRIPTION ##

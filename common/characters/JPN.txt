@@ -21,7 +21,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=rexism_subtype
+			ideology=agrarian_fascism_subtype
 			desc=JPN_tachibana_kozaburo_desc
 			traits={ fascist_militia_leader SWI_fascist_propagandist }
 			expire="1974.3.30.1"
