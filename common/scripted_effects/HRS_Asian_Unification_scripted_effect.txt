@@ -55,6 +55,8 @@ ASIAN_select_unified_cosmetic_tag = {
             OR = {
                 has_government = communism
                 has_government = anarchism
+                has_government = socialism
+                has_government = democratic
             }     
         }
         set_cosmetic_tag = UPR_ASIA

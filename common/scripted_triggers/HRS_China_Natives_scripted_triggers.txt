@@ -7,7 +7,6 @@ is_dai_nation = {
 }
 is_miao_nation = {
 	OR = {
-		original_tag = MIR
 		original_tag = MIA
 		original_tag = XON
 	}

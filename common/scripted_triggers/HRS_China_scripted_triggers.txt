@@ -46,7 +46,7 @@ is_shanxi_nation = {
 is_liaoning_nation = {
 	OR = {
 		original_tag = LNG #南满洲共和国
-		original_tag = AGA #关东州工兵代表政府
+		original_tag = AGA #安国军政府
 	}
 }
 is_huabei_nation = {
@@ -72,7 +72,11 @@ is_gansu_nation = {
 		original_tag = XSM #西汉金山国
 		original_tag = GNS #甘肃临时议会
 		original_tag = TSH #甘肃军政府
-		original_tag = CHN #卓尼土司
+		original_tag = NIX #宁夏边防军
+	}
+}
+is_xinjiang_nation = {
+	OR = {
 		original_tag = SIK #新疆人民共和国
 		original_tag = HAM #安西都护府
 	}
@@ -81,7 +85,6 @@ is_qinghai_nation = {
 	OR = {
 		original_tag = QNG #伊赫瓦尼
 		original_tag = NHA #宁海军
-		original_tag = LBR #拉卜楞寺
 	}
 }
 is_xibei_nation = {
@@ -89,8 +92,8 @@ is_xibei_nation = {
 		is_shaanxi_nation = yes
 		is_gansu_nation = yes
 		is_qinghai_nation = yes
-		is_ningxia_nation = yes
 		is_suiyuan_nation = yes
+		is_xinjiang_nation = yes
 	}
 }
 ##########
@@ -98,7 +101,7 @@ is_xibei_nation = {
 ##########
 is_ningxia_nation = {
 	OR = {
-		original_tag = NIX #宁夏边防军
+		
 	}
 }
 is_suiyuan_nation = {

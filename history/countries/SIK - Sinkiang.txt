@@ -3,6 +3,11 @@ capital = 38 #哈密
 #oob = "empty"
 set_country_flag = is_china_nation
 
+recruit_character = SIK_burhan_shahidi
+recruit_character = SIK_yang_zengxin
+recruit_character = SIK_ma_shaowu
+recruit_character = SIK_ma_fuxing
+
 set_stability = 0.10
 set_war_support = 0.30
 set_research_slots = 2
@@ -76,17 +81,14 @@ set_politics = {
 	elections_allowed = no
 }
 
-recruit_character = SIK_burhan_shahidi
-recruit_character = SIK_khoja_niyaz
-
 set_popularities = {
 	communism = 0
 	anarchism = 0
 	socialism = 0
 	democratic = 0
     neutrality = 44
-	monarchism = 40
-	fascism = 16
+	monarchism = 30
+	fascism = 26
 	imperialism = 0
 	futurism = 0
 }
@@ -101,5 +103,5 @@ add_ideas = {
 	country_development
 	country_tech3
 	dirigisme_economy
-	unitary_state
+	unitary_state2
 }

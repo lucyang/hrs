@@ -155,7 +155,6 @@ GNA = "countries/Guizhou Nationalist Army.txt"
 GPA = "countries/Guizhou Pacification Army.txt"
 TSS = "countries/Tongshan Society.txt"
 MIA = "countries/Miao.txt"
-MIR = "countries/Miao Republic.txt"
 ### TAIWAN ###
 FRM = "countries/Formosa.txt"
 TAW = "countries/Taiwan.txt"

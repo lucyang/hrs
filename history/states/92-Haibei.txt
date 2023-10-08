@@ -2,7 +2,7 @@ state={
 	id=92
 	name="STATE_92"
 	provinces={
-		930 1588 1744 2340 2407 2422 
+		930 1744 2340 2407 2422 
 	}
 	history = {
 		owner = IMC

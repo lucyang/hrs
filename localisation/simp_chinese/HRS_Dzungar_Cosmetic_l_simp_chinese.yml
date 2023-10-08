@@ -1,0 +1,56 @@
+﻿l_simp_chinese:
+ ###############
+ ## DECISIONS ##
+ ###############
+
+ #########
+ ## ETK ##
+ #########
+ ETK_regional_unifier_socialism:0 "图兰共和国"
+ ETK_regional_unifier_socialism_DEF:0 "图兰共和国"
+ ETK_regional_unifier_democratic:0 "图兰共和国"
+ ETK_regional_unifier_democratic_DEF:0 "图兰共和国"
+ ETK_regional_unifier_socialism_ADJ:0 "图兰"
+ ETK_regional_unifier_democratic_ADJ:0 "图兰"
+ #########
+ ## AKS ##
+ #########
+ AKS_regional_unifier_fascism:0 "蒙兀儿斯坦汗国"
+ AKS_regional_unifier_fascism_DEF:0 "蒙兀儿斯坦汗国"
+ AKS_regional_unifier_fascism_ADJ:0 "蒙兀儿斯坦"
+ #########
+ ## TUR ##
+ #########
+ TUR_regional_unifier_anarchism:0 "图兰人民共和国"
+ TUR_regional_unifier_anarchism_DEF:0 "图兰人民共和国"
+ TUR_regional_unifier_anarchism_ADJ:0 "图兰"
+ TUR_regional_unifier_socialism:0 "图兰人民共和国"
+ TUR_regional_unifier_socialism_DEF:0 "图兰人民共和国"
+ TUR_regional_unifier_socialism_ADJ:0 "图兰"
+ #########
+ ## HOT ##
+ #########
+ HOT_regional_unifier_imperialism:0 "图兰伊斯兰王国"
+ HOT_regional_unifier_imperialism_DEF:0 "图兰伊斯兰王国"
+ HOT_regional_unifier_imperialism_ADJ:0 "图兰"
+ #########
+ ## ASH ##
+ #########
+ ASH_regional_unifier_democratic:0 "东哈萨克共和国"
+ ASH_regional_unifier_democratic_DEF:0 "东哈萨克共和国"
+ ASH_regional_unifier_democratic_ADJ:0 "东哈萨克"
+ #########
+ ## SIK ##
+ #########
+ SIK_regional_unifier_anarchism:0 "新疆省人民政府"
+ SIK_regional_unifier_anarchism_DEF:0 "新疆省人民政府"
+ SIK_regional_unifier_anarchism_ADJ:0 "新疆"
+ SIK_regional_unifier_neutrality:0 "新疆边防督办公署"
+ SIK_regional_unifier_neutrality_DEF:0 "新疆边防督办公署"
+ SIK_regional_unifier_neutrality_ADJ:0 "新疆"
+ SIK_regional_unifier_monarchism:0 "新疆沙阿国"
+ SIK_regional_unifier_monarchism_DEF:0 "新疆沙阿国"
+ SIK_regional_unifier_monarchism_ADJ:0 "新疆"
+ SIK_regional_unifier_fascism:0 "新疆专员辖区"
+ SIK_regional_unifier_fascism_DEF:0 "新疆专员辖区"
+ SIK_regional_unifier_fascism_ADJ:0 "新疆"

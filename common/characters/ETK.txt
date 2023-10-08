@@ -1,45 +1,31 @@
-characters = {
+characters={
 	### ETK-East Turkestan ###
-	ETK_masud_shabir = {
-		name = ETK_masud_shabir 
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/ETK/Portrait_Masud_Shabir.png"
+	ETK_masud_shabir={
+		name=ETK_masud_shabir 
+		portraits={
+			civilian={
+				large="gfx/leaders/ETK/Portrait_Masud_Shabir.png"
 			}
 		}
-		country_leader = {
-			ideology = social_democratic_subtype
-			desc = ETK_masud_shabir_desc
-			traits = {  }
-			expire = "1952.1.1.1"
+		country_leader={
+			ideology=social_democratic_subtype
+			desc=ETK_masud_shabir_desc
+			traits={  }
+			expire="1952.1.1.1"
 		}
 	}
-	ETK_khoja_niyaz = {
-		name = ETK_khoja_niyaz
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/ETK/Portrait_Khoja_Niyaz.png"
+	ETK_elihan_tore={
+		name=ETK_elihan_tore
+		portraits={
+			civilian={
+				large="gfx/leaders/ETK/Portrait_Elihan_Tore.png"
 			}
 		}
-		country_leader = {
-			ideology = national_conservatism_subtype
-			desc = ETK_khoja_niyaz_desc
-			traits = {  }
-			expire = "1941.8.21.1"
-		}
-	}
-	ETK_elihan_tore = {
-		name = ETK_elihan_tore
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/ETK/Portrait_Elihan_Tore.png"
-			}
-		}
-		country_leader = {
-			ideology = national_conservatism_subtype
-			desc = ETK_elihan_tore_desc
-			traits = {  }
-			expire = "1976.2.28.1"
+		country_leader={
+			ideology=islamic_democracy_subtype
+			desc=ETK_elihan_tore_desc
+			traits={  }
+			expire="1976.2.28.1"
 		}
 	}
 }

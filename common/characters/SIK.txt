@@ -13,28 +13,76 @@ characters = {
 			expire="1954.1.1.1"
 		}
 	}
-	SIK_khoja_niyaz={
-		name=SIK_khoja_niyaz
-		portraits = {
+	SIK_yang_zengxin={
+		name=SIK_yang_zengxin
+		portraits={
 			civilian={
-				large="gfx/leaders/SIK/Portrait_Khoja_Niyaz.png"
-			} 
+				large="gfx/leaders/SIK/Portrait_Yang_Zengxin.png"
+			}
 			army={
-				large="gfx/leaders/SIK/Portrait_Khoja_Niyaz.png"
+				large="gfx/leaders/SIK/Portrait_Yang_Zengxin.png"
 			}
 		}
-		country_leader={
+		country_leader = {
 			ideology=warlordism_subtype
-			desc=SIK_khoja_niyaz_desc
-			traits={ jefe }
-			expire="1950.1.1.1"
+			desc=SIK_yang_zengxin_desc
+			traits={  }
+			expire="1954.1.1.1"
 		}
 		corps_commander={
-			traits={ infantry_officer guerrilla_fighter }
+			traits={ career_officer politically_connected old_guard }
 			skill=2
 			attack_skill=2
-			defense_skill=1
+			defense_skill=2
 			planning_skill=2
+			logistics_skill=3
+		}
+	}
+	SIK_ma_shaowu={
+		name=SIK_ma_shaowu
+		portraits={
+			civilian={
+				large="gfx/leaders/SIK/Portrait_Ma_Shaowu.png"
+			}
+			army={
+				large="gfx/leaders/SIK/Portrait_Ma_Shaowu.png"
+			}
+		}
+		country_leader = {
+			ideology= daijitaoism_subtype
+			desc=SIK_ma_shaowu_desc
+			traits={  }
+			expire="1930.1.1.1"
+		}
+		traits={ career_officer cavalry_officer }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	SIK_ma_fuxing={
+		name=SIK_ma_fuxing
+		portraits={
+			civilian={
+				large="gfx/leaders/SIK/Portrait_Ma_Fuxing.png"
+			}
+			army={
+				large="gfx/leaders/SIK/Portrait_Ma_Fuxing.png"
+			}
+		}
+		country_leader = {
+			ideology=absolutism_subtype
+			desc=SIK_ma_fuxing_desc
+			traits={  }
+			expire="1930.1.1.1"
+		}
+		traits={ career_officer old_guard }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
 			logistics_skill=2
 		}
 	}
