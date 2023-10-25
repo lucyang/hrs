@@ -35,10 +35,10 @@
  #############
  ## PARTIES ##
  #############
- KHR_communism_party:0 "柬共 - 温和派"
- KHR_communism_party_long:0 "柬埔寨共产党 - 温和派"
- KHR_anarchism_party:0 "柬共 - 激进派"
- KHR_anarchism_party_long:0 "柬埔寨共产党 - 激进派"
+ KHR_communism_party:0 "柬共 - 城市派"
+ KHR_communism_party_long:0 "柬埔寨共产党 - 城市派"
+ KHR_anarchism_party:0 "柬共 - 农村派"
+ KHR_anarchism_party_long:0 "柬埔寨共产党 - 农村派"
  KHR_socialism_party:0 "桑功 - 宾努派"
  KHR_socialism_party_long:0 "人民社会同盟 - 宾努派"
  KHR_democratic_party:0 "桑功 - 朗诺派"
