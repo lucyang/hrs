@@ -1,4 +1,4 @@
-version="1.14.*"
+version="0.6 Alpha"
 tags={
 	"Ideologies"
 	"Translation"
@@ -55,6 +55,6 @@ replace_path="events"
 replace_path="portraits"
 replace_path="music"
 name="Heart of Red Sun"
-supported_version="1.13.14"
+supported_version="1.13.*"
 path="F:/Onedrive/Documents/Paradox Interactive/Hearts of Iron IV/mod/hrs"
 remote_file_id="1343653013"

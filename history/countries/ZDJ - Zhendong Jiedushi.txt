@@ -1,4 +1,4 @@
-﻿capital = 452 # Haixenwai
+﻿capital = 452 #Haixenwai
 
 #oob = "empty"
 
