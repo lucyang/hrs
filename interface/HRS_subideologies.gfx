@@ -195,7 +195,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_ideology_gongdaoism_subtype"
-		texturefile = "gfx/interface/ideologies/socialism_group/state_socialism_subtype.dds"
+		texturefile = "gfx/interface/ideologies/socialism_group/gongdaoism_subtype.dds"
 	}
 
 	### Democrats Group ###
@@ -257,6 +257,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_ideology_islamic_democracy_subtype"
 		texturefile = "gfx/interface/ideologies/democratic_group/islamic_democracy_subtype.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_christian_democracy_subtype"
+		texturefile = "gfx/interface/ideologies/democratic_group/christian_democracy_subtype.dds"
 	}
 
 	### Tyrannt Group ###

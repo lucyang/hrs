@@ -238,6 +238,10 @@ defined_text = {
 		localization_key = islamic_democracy_subtype
 	}
 	text = {
+		trigger = { has_country_leader_ideology = christian_democracy_subtype }
+		localization_key = christian_democracy_subtype
+	}
+	text = {
 		localization_key = democratic_subtype
 	}
 }
