@@ -1,0 +1,73 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ AKT_communism:0 "人类革命联盟"
+ AKT_communism_DEF:0 "人类革命联盟"
+ AKT_anarchism:0 "新日本人民共和国"
+ AKT_anarchism_DEF:0 "新日本人民共和国"
+ AKT_socialism:0 "新日本民主共和国"
+ AKT_socialism_DEF:0 "新日本民主共和国"
+ AKT_democratic:0 "新日本共和国"
+ AKT_democratic_DEF:0 "新日本共和国"
+ AKT_neutrality:0 "秋津洲统监府"
+ AKT_neutrality_DEF:0 "秋津洲统监府"
+ AKT_monarchism:0 "秋津洲皇国"
+ AKT_monarchism_DEF:0 "秋津洲皇国"
+ AKT_fascism:0 "秋津洲皇国"
+ AKT_fascism_DEF:0 "秋津洲皇国"
+ AKT_imperialism:0 "殷地安民族国"
+ AKT_imperialism_DEF:0 "殷地安民族国"
+ AKT_futurism:0 "苇原中国"
+ AKT_futurism_DEF:0 "苇原中国"
+ AKT_communism_ADJ:0 "人革联"
+ AKT_anarchism_ADJ:0 "新日本"
+ AKT_socialism_ADJ:0 "新日本"
+ AKT_democratic_ADJ:0 "新日本"
+ AKT_neutrality_ADJ:0 "秋津洲"
+ AKT_monarchism_ADJ:0 "秋津洲"
+ AKT_fascism_ADJ:0 "秋津洲"
+ AKT_imperialism_ADJ:0 "殷地安"
+ AKT_futurism_ADJ:0 "苇原中国"
+ AKT:0 "红色高棉"
+ AKT_DEF:0 "红色高棉"
+ AKT_ADJ:0 "秋津洲"
+ #############
+ ## PARTIES ##
+ #############
+ AKT_communism_party:0 "社会民主农工党"
+ AKT_communism_party_long:0 "中国社会民主农工党(秋津洲支部)"
+ AKT_anarchism_party:0 "秋津洲工团联合会"
+ AKT_anarchism_party_long:0 "秋津洲工团联合会"
+ AKT_socialism_party:0 "秋津洲独立运动 - 新日本派(独立派)"
+ AKT_socialism_party_long:0 "秋津洲独立运动 - 新日本派(独立派)"
+ AKT_democratic_party:0 "秋津洲独立运动 - 新日本派(自治派)"
+ AKT_democratic_party_long:0 "秋津洲独立运动 - 新日本派(自治派)"
+ AKT_neutrality_party:0 "统监府 - 建制派"
+ AKT_neutrality_party_long:0 "秋津洲统监府 - 建制派"
+ AKT_monarchism_party:0 "统监府 - 皇道派"
+ AKT_monarchism_party_long:0 "秋津洲统监府 - 皇道派"
+ AKT_fascism_party:0 "统监府 - 统制派"
+ AKT_fascism_party_long:0 "秋津洲统监府 - 统制派"
+ AKT_imperialism_party:0 "秋津洲独立运动 - 殷地安派"
+ AKT_imperialism_party_long:0 "秋津洲独立运动 - 殷地安派"
+ AKT_futurism_party:0 "秋津洲独立运动 - 天孙派"
+ AKT_futurism_party_long:0 "秋津洲独立运动 - 天孙派"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ AKT_kang_sheng:0 "康生"
+ AKT_kang_sheng_desc:0 "§Y出生日期§!：§G1898年11月4日§!\n§Y出生地点§!：§G秋津洲统监府山门州酒田郡§!"
+ AKT_wang_guowei:0 "王国维"
+ AKT_wang_guowei_desc:0 "§Y出生日期§!：§G1877年12月3日§!\n§Y出生地点§!：§G大东帝国浙江省钱塘道杭州府§!"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

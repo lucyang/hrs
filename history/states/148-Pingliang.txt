@@ -1,0 +1,25 @@
+state={
+	id=148
+	name="STATE_148"
+	provinces={
+		2710 3713 3722 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = TSH
+			add_core_of = TSH
+			remove_core_of = IMC
+		}
+		victory_points = { 2710 1 } #平凉
+		
+		buildings = {
+			infrastructure = 2
+		}
+		
+	}
+	manpower=902968
+	state_category = rural
+	local_supplies = 0.0
+}

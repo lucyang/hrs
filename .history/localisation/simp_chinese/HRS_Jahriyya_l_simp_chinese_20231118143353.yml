@@ -1,0 +1,71 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ JAH_communism:0 "大汉正西国"
+ JAH_communism_DEF:0 "大汉正西国"
+ JAH_anarchism:0 "大汉正西国"
+ JAH_anarchism_DEF:0 "大汉正西国"
+ JAH_socialism:0 "大汉正西国"
+ JAH_socialism_DEF:0 "大汉正西国"
+ JAH_democratic:0 "大汉正西国"
+ JAH_democratic_DEF:0 "大汉正西国"
+ JAH_neutrality:0 "大汉正西国"
+ JAH_neutrality_DEF:0 "大汉正西国"
+ JAH_monarchism:0 "大汉正西国"
+ JAH_monarchism_DEF:0 "大汉正西国"
+ JAH_fascism:0 "大汉正西国"
+ JAH_fascism_DEF:0 "大汉正西国"
+ JAH_imperialism:0 "大汉正西国"
+ JAH_imperialism_DEF:0 "大汉正西国"
+ JAH_futurism:0 "大汉正西国"
+ JAH_futurism_DEF:0 "大汉正西国"
+ JAH_communism_ADJ:0 "正西国"
+ JAH_anarchism_ADJ:0 "正西国"
+ JAH_socialism_ADJ:0 "正西国"
+ JAH_democratic_ADJ:0 "正西国"
+ JAH_neutrality_ADJ:0 "正西国"
+ JAH_monarchism_ADJ:0 "正西国"
+ JAH_fascism_ADJ:0 "正西国"
+ JAH_imperialism_ADJ:0 "正西国"
+ JAH_futurism_ADJ:0 "正西国"
+ JAH:0 "正西国"
+ JAH_DEF:0 "正西国"
+ JAH_ADJ:0 "正西国"
+ #############
+ ## PARTIES ##
+ #############
+ JAH_communism_party:0 "社民农工党"
+ JAH_communism_party_long:0 "中国社会民主农工党"
+ JAH_anarchism_party:0 "伊赫瓦尼"
+ JAH_anarchism_party_long:0 "伊赫瓦尼"
+ JAH_socialism_party:0 "西道堂"
+ JAH_socialism_party_long:0 "西道堂"
+ JAH_democratic_party:0 "回教俱进会"
+ JAH_democratic_party_long:0 "中国回教俱进会"
+ JAH_neutrality_party:0 "筛海会议"
+ JAH_neutrality_party_long:0 "筛海会议"
+ JAH_monarchism_party:0 "哲合忍耶教团"
+ JAH_monarchism_party_long:0 "哲合忍耶教团"
+ JAH_fascism_party:0 "回教总联合会"
+ JAH_fascism_party_long:0 "中国回教总联合会"
+ JAH_imperialism_party:0 "黑虎军"
+ JAH_imperialism_party_long:0 "黑虎军"
+ JAH_futurism_party:0 "晋商财团"
+ JAH_futurism_party_long:0 "晋商财团"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ JAH_ma_linyi:0 "马邻翼"
+ JAH_ma_linyi_desc:0 "§Y出生日期§!：§G1864年§!\n§Y出生地点§!：§G大东帝国湘江道宝庆县§!"
+ #############
+ # Decisions #
+ #############
+
+ #################
+ # POWER BALANCE #
+ #################

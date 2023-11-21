@@ -1,0 +1,70 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ KO3_communism:0 "太阳师团"
+ KO3_communism_DEF:0 "近卫太阳师团"
+ KO3_anarchism:0 "太阳师团"
+ KO3_anarchism_DEF:0 "近卫太阳师团"
+ KO3_socialism:0 "太阳师团"
+ KO3_socialism_DEF:0 "近卫太阳师团"
+ KO3_democratic:0 "太阳师团"
+ KO3_democratic_DEF:0 "近卫太阳师团"
+ KO3_neutrality:0 "太阳师团"
+ KO3_neutrality_DEF:0 "近卫太阳师团"
+ KO3_monarchism:0 "太阳师团"
+ KO3_monarchism_DEF:0 "近卫太阳师团"
+ KO3_fascism:0 "太阳师团"
+ KO3_fascism_DEF:0 "近卫太阳师团"
+ KO3_imperialism:0 "太阳师团"
+ KO3_imperialism_DEF:0 "近卫太阳师团"
+ KO3_futurism:0 "太阳师团"
+ KO3_futurism_DEF:0 "近卫太阳师团"
+ KO3_communism_ADJ:0 "太阳师团"
+ KO3_anarchism_ADJ:0 "太阳师团"
+ KO3_socialism_ADJ:0 "太阳师团"
+ KO3_democratic_ADJ:0 "太阳师团"
+ KO3_neutrality_ADJ:0 "太阳师团"
+ KO3_monarchism_ADJ:0 "太阳师团"
+ KO3_fascism_ADJ:0 "太阳师团"
+ KO3_imperialism_ADJ:0 "太阳师团"
+ KO3_futurism_ADJ:0 "太阳师团"
+ KO3:0 "太阳师团"
+ KO3_DEF:0 "近卫太阳师团"
+ KO3_ADJ:0 "太阳师团"
+ #############
+ ## PARTIES ##
+ #############
+ KO3_communism_party:0 "人类合作者"
+ KO3_communism_party_long:0 "教条主义人类合作者 (Dogmatist Human Collaborators)"
+ KO3_anarchism_party:0 "人类合作者"
+ KO3_anarchism_party_long:0 "修正主义人类合作者 (Revisionist Human Collaborators)"
+ KO3_socialism_party:0 "人类合作者"
+ KO3_socialism_party_long:0 "投机主义人类合作者 (Opportunist Human Collaborators)"
+ KO3_democratic_party:0 "亲日派与民族叛徒"
+ KO3_democratic_party_long:0 "亲日派与民族叛徒 (Builbae and National Traitors)"
+ KO3_neutrality_party:0 "太阳师团 - 强国派"
+ KO3_neutrality_party_long:0 "太阳师团 - 强国派 (Guards Division Baeduksan - Kangguk Faction)"
+ KO3_monarchism_party:0 "太阳师团 - 效忠派"
+ KO3_monarchism_party_long:0 "太阳师团 - 效忠派 (Guards Division Baeduksan - Royalist Faction)"
+ KO3_fascism_party:0 "太阳师团 - 并进派"
+ KO3_fascism_party_long:0 "太阳师团 - 并进派 (Guards Division Baeduksan - Pyongjin Faction)"
+ KO3_imperialism_party:0 "太阳师团 - 先军派"
+ KO3_imperialism_party_long:0 "太阳师团 - 先军派 (Guards Division Baeduksan - Songun Faction)"
+ KO3_futurism_party:0 "太阳师团 - 主体派"
+ KO3_futurism_party_long:0 "太阳师团 - 主体派 (Guards Division Baeduksan - Juche Faction)"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ KO3_kim_kim_kim:0 "eab980eca095ec9d80"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

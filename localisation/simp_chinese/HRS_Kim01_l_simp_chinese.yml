@@ -1,0 +1,70 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ K01_communism:0 "白头山师团"
+ K01_communism_DEF:0 "近卫白头山师团"
+ K01_anarchism:0 "白头山师团"
+ K01_anarchism_DEF:0 "近卫白头山师团"
+ K01_socialism:0 "白头山师团"
+ K01_socialism_DEF:0 "近卫白头山师团"
+ K01_democratic:0 "白头山师团"
+ K01_democratic_DEF:0 "近卫白头山师团"
+ K01_neutrality:0 "白头山师团"
+ K01_neutrality_DEF:0 "近卫白头山师团"
+ K01_monarchism:0 "白头山师团"
+ K01_monarchism_DEF:0 "近卫白头山师团"
+ K01_fascism:0 "白头山师团"
+ K01_fascism_DEF:0 "近卫白头山师团"
+ K01_imperialism:0 "白头山师团"
+ K01_imperialism_DEF:0 "近卫白头山师团"
+ K01_futurism:0 "白头山师团"
+ K01_futurism_DEF:0 "近卫白头山师团"
+ K01_communism_ADJ:0 "白头山师团"
+ K01_anarchism_ADJ:0 "白头山师团"
+ K01_socialism_ADJ:0 "白头山师团"
+ K01_democratic_ADJ:0 "白头山师团"
+ K01_neutrality_ADJ:0 "白头山师团"
+ K01_monarchism_ADJ:0 "白头山师团"
+ K01_fascism_ADJ:0 "白头山师团"
+ K01_imperialism_ADJ:0 "白头山师团"
+ K01_futurism_ADJ:0 "白头山师团"
+ K01:0 "白头山师团"
+ K01_DEF:0 "近卫白头山师团"
+ K01_ADJ:0 "白头山师团"
+ #############
+ ## PARTIES ##
+ #############
+ K01_communism_party:0 "人类合作者"
+ K01_communism_party_long:0 "教条主义人类合作者 (Dogmatist Human Collaborators)"
+ K01_anarchism_party:0 "人类合作者"
+ K01_anarchism_party_long:0 "修正主义人类合作者 (Revisionist Human Collaborators)"
+ K01_socialism_party:0 "人类合作者"
+ K01_socialism_party_long:0 "投机主义人类合作者 (Opportunist Human Collaborators)"
+ K01_democratic_party:0 "亲日派与民族叛徒"
+ K01_democratic_party_long:0 "亲日派与民族叛徒 (Builbae and National Traitors)"
+ K01_neutrality_party:0 "白头山师团 - 强国派"
+ K01_neutrality_party_long:0 "白头山师团 - 强国派 (Guards Division Baeduksan - Kangguk Faction)"
+ K01_monarchism_party:0 "白头山师团 - 效忠派"
+ K01_monarchism_party_long:0 "白头山师团 - 效忠派 (Guards Division Baeduksan - Royalist Faction)"
+ K01_fascism_party:0 "白头山师团 - 并进派"
+ K01_fascism_party_long:0 "白头山师团 - 并进派 (Guards Division Baeduksan - Pyongjin Faction)"
+ K01_imperialism_party:0 "白头山师团 - 先军派"
+ K01_imperialism_party_long:0 "白头山师团 - 先军派 (Guards Division Baeduksan - Songun Faction)"
+ K01_futurism_party:0 "白头山师团 - 主体派"
+ K01_futurism_party_long:0 "白头山师团 - 主体派 (Guards Division Baeduksan - Juche Faction)"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ K01_kim_kim_kim:0 "eab980ec9dbcec84b1" #金日成
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

@@ -1,0 +1,70 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ K02_communism:0 "光明星师团"
+ K02_communism_DEF:0 "近卫光明星师团"
+ K02_anarchism:0 "光明星师团"
+ K02_anarchism_DEF:0 "近卫光明星师团"
+ K02_socialism:0 "光明星师团"
+ K02_socialism_DEF:0 "近卫光明星师团"
+ K02_democratic:0 "光明星师团"
+ K02_democratic_DEF:0 "近卫光明星师团"
+ K02_neutrality:0 "光明星师团"
+ K02_neutrality_DEF:0 "近卫光明星师团"
+ K02_monarchism:0 "光明星师团"
+ K02_monarchism_DEF:0 "近卫光明星师团"
+ K02_fascism:0 "光明星师团"
+ K02_fascism_DEF:0 "近卫光明星师团"
+ K02_imperialism:0 "光明星师团"
+ K02_imperialism_DEF:0 "近卫光明星师团"
+ K02_futurism:0 "光明星师团"
+ K02_futurism_DEF:0 "近卫光明星师团"
+ K02_communism_ADJ:0 "光明星师团"
+ K02_anarchism_ADJ:0 "光明星师团"
+ K02_socialism_ADJ:0 "光明星师团"
+ K02_democratic_ADJ:0 "光明星师团"
+ K02_neutrality_ADJ:0 "光明星师团"
+ K02_monarchism_ADJ:0 "光明星师团"
+ K02_fascism_ADJ:0 "光明星师团"
+ K02_imperialism_ADJ:0 "光明星师团"
+ K02_futurism_ADJ:0 "光明星师团"
+ K02:0 "光明星师团"
+ K02_DEF:0 "近卫光明星师团"
+ K02_ADJ:0 "光明星师团"
+ #############
+ ## PARTIES ##
+ #############
+ K02_communism_party:0 "人类合作者"
+ K02_communism_party_long:0 "教条主义人类合作者 (Dogmatist Human Collaborators)"
+ K02_anarchism_party:0 "人类合作者"
+ K02_anarchism_party_long:0 "修正主义人类合作者 (Revisionist Human Collaborators)"
+ K02_socialism_party:0 "人类合作者"
+ K02_socialism_party_long:0 "投机主义人类合作者 (Opportunist Human Collaborators)"
+ K02_democratic_party:0 "亲日派与民族叛徒"
+ K02_democratic_party_long:0 "亲日派与民族叛徒 (Builbae and National Traitors)"
+ K02_neutrality_party:0 "光明星师团 - 强国派"
+ K02_neutrality_party_long:0 "光明星师团 - 强国派 (Guards Division Baeduksan - Kangguk Faction)"
+ K02_monarchism_party:0 "光明星师团 - 效忠派"
+ K02_monarchism_party_long:0 "光明星师团 - 效忠派 (Guards Division Baeduksan - Royalist Faction)"
+ K02_fascism_party:0 "光明星师团 - 并进派"
+ K02_fascism_party_long:0 "光明星师团 - 并进派 (Guards Division Baeduksan - Pyongjin Faction)"
+ K02_imperialism_party:0 "光明星师团 - 先军派"
+ K02_imperialism_party_long:0 "光明星师团 - 先军派 (Guards Division Baeduksan - Songun Faction)"
+ K02_futurism_party:0 "光明星师团 - 主体派"
+ K02_futurism_party_long:0 "光明星师团 - 主体派 (Guards Division Baeduksan - Juche Faction)"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ K02_kim_kim_kim:0 "eab980eca095ec9dbc"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############
