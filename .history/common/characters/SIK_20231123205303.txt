@@ -1,0 +1,90 @@
+characters={
+	SIK_burhan_shahidi={
+		name=SIK_burhan_shahidi
+		portraits={
+			civilian={
+				large="gfx/leaders/SIK/Portrait_Burhan_Shahidi.png"
+			}
+		}
+		country_leader={
+			ideology=military_socialism_subtype
+			desc=SIK_burhan_shahidi_desc
+			traits={ figurehead_president }
+			expire="1954.1.1.1"
+		}
+	}
+	SIK_yang_zengxin={
+		name=SIK_yang_zengxin
+		portraits={
+			civilian={
+				large="gfx/leaders/SIK/Portrait_Yang_Zengxin.png"
+			}
+			army={
+				large="gfx/leaders/SIK/Portrait_Yang_Zengxin.png"
+			}
+		}
+		country_leader={
+			ideology=warlordism_subtype
+			desc=SIK_yang_zengxin_desc
+			traits={  }
+			expire="1954.1.1.1"
+		}
+		corps_commander={
+			traits={ career_officer politically_connected old_guard }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+		}
+	}
+	SIK_ma_shaowu={
+		name=SIK_ma_shaowu
+		portraits={
+			civilian={
+				large="gfx/leaders/SIK/Portrait_Ma_Shaowu.png"
+			}
+			army={
+				large="gfx/leaders/SIK/Portrait_Ma_Shaowu.png"
+			}
+		}
+		country_leader={
+			ideology= daijitaoism_subtype
+			desc=SIK_ma_shaowu_desc
+			traits={  }
+			expire="1930.1.1.1"
+		}
+		corps_commander={
+			traits={ career_officer cavalry_officer }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	SIK_ma_fuxing={
+		name=SIK_ma_fuxing
+		portraits={
+			civilian={
+				large="gfx/leaders/SIK/Portrait_Ma_Fuxing.png"
+			}
+			army={
+				large="gfx/leaders/SIK/Portrait_Ma_Fuxing.png"
+			}
+		}
+		country_leader={
+			ideology=absolutism_subtype
+			desc=SIK_ma_fuxing_desc
+			traits={  }
+			expire="1930.1.1.1"
+		}
+		traits={ career_officer old_guard }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+}

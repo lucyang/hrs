@@ -16,7 +16,7 @@ characters={
 			expire="1966.11.2.1"
 		}
 		corps_commander={
-			traits={ JLF_samurai_lineage }
+			traits={ JAP_samurai_lineage }
 			skill=2
 			attack_skill=1
 			defense_skill=2
@@ -99,7 +99,7 @@ characters={
 			expire="1959.8.15.1"
 		}
 		corps_commander={
-			traits={ JLF_samurai_lineage }
+			traits={ JAP_samurai_lineage }
 			skill=1
 			attack_skill=1
 			defense_skill=1

@@ -16,9 +16,6 @@ ideas = {
 				conscription_factor = -0.10
 				weekly_manpower = -50
 			}
-			targeted_modifier = { tag = ANK defense_bonus_against = -0.1 }
-			targeted_modifier = { tag = PRK defense_bonus_against = -0.1 }
-			targeted_modifier = { tag = KOR defense_bonus_against = -0.1 }
 		}
 		IMK_tsushima_tunnel_project = {
 			name = IMK_tsushima_tunnel_project

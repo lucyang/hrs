@@ -9,7 +9,7 @@ characters={
 		country_leader={
 			ideology=accelerationism_subtype
 			desc=HEB_xi_jinping_desc
-			traits={ backroom_stabber }
+			traits={ backroom_backstabber }
 			expire="1989.6.4.1"
 		}
 	}

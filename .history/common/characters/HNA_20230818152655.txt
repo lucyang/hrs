@@ -1,0 +1,27 @@
+characters={
+	HNA_peng_huang={
+		name=HNA_peng_huang
+		portraits={
+			civilian={
+				large="gfx/leaders/HNA/Portrait_Peng_Huang_civilian.png"
+			}
+			army={
+				large="gfx/leaders/HNA/Portrait_Peng_Huang_military.png"
+			}
+		}
+		country_leader={
+			ideology=anarcho_nationalism_subtype
+			desc=HNA_peng_huang_desc
+			traits={ anarchist_zeal }
+			expire="1949.10.1.1"
+		}
+		corps_commander={
+			traits={ militia_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+		}
+	}
+}

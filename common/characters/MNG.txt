@@ -16,7 +16,7 @@ characters={
 			expire="1940.9.23.1"
 		}
 		corps_commander={
-			traits={ militia_officer }
+			traits={ militias_officer }
 			skill=1
 			attack_skill=2
 			defense_skill=1
@@ -55,7 +55,7 @@ characters={
 		#	expire="1940.9.23.1"
 		#}
 		corps_commander={
-			traits={ militia_officer }
+			traits={ militias_officer }
 			skill=1
 			attack_skill=1
 			defense_skill=2
@@ -80,7 +80,7 @@ characters={
 			expire="1950.9.23.1"
 		}
 		corps_commander={
-			traits={ militia_officer }
+			traits={ militias_officer }
 			skill=1
 			attack_skill=1
 			defense_skill=1

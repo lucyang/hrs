@@ -1,0 +1,86 @@
+characters={
+	CHQ_xiong_kewu={
+		name=CHQ_xiong_kewu
+		portraits={
+			civilian={
+				large="gfx/leaders/CHQ/Portrait_Xiong_Kewu.png"
+			}
+		}
+		country_leader={
+			ideology=provisional_government_subtype
+			desc=CHQ_xiong_kewu_desc
+			traits={ revolution_general irredentist_academic }
+			expire="1970.9.2.1"
+		}
+	}
+	CHQ_dan_maoxin={
+		name=CHQ_dan_maoxin
+		portraits={
+			civilian={
+				large="gfx/leaders/CHQ/Portrait_Dan_Maoxin.png"
+			}
+		}
+		country_leader={
+			ideology=tridemism_subtype
+			desc=CHQ_dan_maoxin_desc
+			traits={ connected_citizen }
+			expire="1965.11.7.1"
+		}
+	}
+	CHQ_yang_angong={
+		name=CHQ_yang_angong
+		portraits={
+			civilian={
+				large="gfx/leaders/CHQ/Portrait_Yang_Angong.png"
+			}
+		}
+		country_leader={
+			ideology=marxism_subtype
+			desc=CHQ_yang_angong_desc
+			traits={ veteran_communist silent_workhorse }
+			expire="1990.4.6.1"
+		}
+	}
+	CHQ_zhang_ji={
+		name=CHQ_zhang_ji
+		portraits={
+			civilian={
+				large="gfx/leaders/CHQ/Portrait_Zhang_Ji.png"
+			}
+		}
+		country_leader={
+			ideology=anarcho_nationalism_subtype
+			desc=CHQ_zhang_ji_desc
+			traits={ anarchist_zeal leftist_independent }
+			expire="1947.12.15.1"
+		}
+	}
+	CHQ_zou_rong={
+		name=CHQ_zou_rong
+		portraits={
+			civilian={
+				large="gfx/leaders/CHQ/Portrait_Zou_Rong.png"
+			}
+		}
+		country_leader={
+			ideology=ultranationalism_subtype
+			desc=CHQ_zou_rong_desc
+			traits={ irredentist_academic zourong_revolutionary }
+			expire="1950.4.13.1"
+		}
+	}
+	CHQ_chen_tianhua={
+		name=CHQ_chen_tianhua
+		portraits={
+			civilian={
+				large="gfx/leaders/HAM/Portrait_Chen_Tianhua.png"
+			}
+		}
+		country_leader={
+			ideology=national_liberalism_subtype
+			desc=CHQ_chen_tianhua_desc
+			traits={ irredentist_academic }
+			expire="1950.1.1.1"
+		}
+	}
+}

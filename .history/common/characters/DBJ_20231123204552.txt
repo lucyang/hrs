@@ -1,0 +1,72 @@
+characters={
+	DBJ_bogd_khaan={
+		name=DBJ_bogd_khaan
+		portraits={
+			civilian={
+				large="gfx/leaders/MON/Portrait_Bogd_Khan.dds"
+			}
+		}
+		country_leader={
+			ideology=buddist_state_subtype
+			desc=DBJ_bogd_khaan_desc
+			traits={  }
+			expire="1924.5.20.1"
+		}
+	}
+	DBJ_xu_shuzheng={
+		name=DBJ_xu_shuzheng
+		portraits={
+			civilian={
+				large="gfx/leaders/MON/Portrait_Xu_Shuzheng.dds"
+			}
+		}
+		country_leader={
+			ideology=military_government_subtype
+			desc=DBJ_xu_shuzheng_desc
+			traits={ }
+			expire="1939.12.30.1"
+		}
+	}
+	DBJ_kong_xiangxi={
+		name=DBJ_kong_xiangxi
+		portraits={
+			civilian={
+				large="gfx/leaders/SHX/Portrait_Kong_Xiangxi.dds"
+			}
+		}
+		country_leader={
+			ideology=technocracy_subtype
+			desc=DBJ_kong_xiangxi_desc
+			traits={ }
+			expire="1967.8.16.1"
+		}
+	}
+	DBJ_damdin_sukhabataar={
+		name=DBJ_damdin_sukhabataar
+		portraits={
+			civilian={
+				large="gfx/leaders/MON/Portrait_Damdin_Sukhbaatar.dds"
+			}
+		}
+		country_leader={
+			ideology=national_communism_subtype
+			desc=DBJ_damdin_sukhbataar_desc
+			traits={  }
+			expire="1967.8.16.1"
+		}
+	}
+	DBJ_khorloogiin_choibalsan={
+		name=DBJ_khorloogiin_choibalsan
+		portraits={
+			civilian={
+				large="gfx/leaders/MON/Portrait_Khorloogiin_Choibalsan.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinism_subtype
+			desc=DBJ_khorloogiin_choibalsan_desc
+			traits={  }
+			expire="1952.1.26.1"
+		}
+	}
+}

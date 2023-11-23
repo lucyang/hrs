@@ -9,7 +9,7 @@ characters={
 		country_leader={
 			ideology=interim_government_subtype
 			desc=HMG_military_government_desc
-			traits={ emergency_power }
+			traits={ emergency_powers }
 			expire="1950.1.1.1"
 		}
 	}

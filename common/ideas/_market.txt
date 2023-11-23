@@ -53,7 +53,7 @@ ideas = {
 				NOT = { has_government = anarchism }
 			}
 
-			alowed = {
+			allowed = {
 				NOT = { has_government = communism }
 				NOT = { has_government = anarchism }
 			}

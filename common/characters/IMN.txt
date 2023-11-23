@@ -9,7 +9,7 @@ characters={
 		country_leader={
 			ideology=tridemism_subtype
 			desc=IMN_serendongrub_desc
-			traits={ backroom_stabber }
+			traits={ backroom_backstabber }
 			expire="1980.8.2.1"
 		}
 	}

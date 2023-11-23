@@ -1,0 +1,114 @@
+HRS_taiwan_revolution = {
+
+	HRS_form_taiwan = {
+
+		allowed = {
+			is_taiwan_nation = yes
+			can_form_taiwan = yes
+		}
+		
+		days_remove = 3
+		
+		cost = 20
+
+		available = {
+			is_taiwan_nation = yes
+			can_form_taiwan = yes
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		visible = {
+			is_taiwan_nation = yes
+		}
+		
+		modifier = {
+			#
+		}
+		
+		remove_effect = {
+			country_event = frm_rev.1945
+			every_state = {
+				limit = { is_taiwan_state = yes }
+				transfer_state_to = ROOT
+			}
+		}
+	}
+
+	HRS_FRM_land_reform = {
+
+		icon = infiltrate_state
+
+		state_target = yes
+
+		target_trigger = { 
+			FROM = {
+				is_controlled_by = FRM
+				is_rural_state = yes
+				NOT = { has_state_flag = FRM_land_reform_finished }
+			}
+		}
+
+		available = {
+			FRM = { has_ideas = SOV_support_of_the_peasants_idea }
+		}
+
+		visible = {
+			#
+		}
+
+		days_remove = 14
+
+		cost = 10
+		
+		complete_effect = {	
+		}
+
+		remove_effect = {
+			FROM = {
+				create_unit = { division = "name = \"革命武装队\" division_template = \"革命武装队\" start_experience_factor = 0.2 start_equipment_factor = 0.70" owner = ROOT count = 1 }
+				add_compliance = 10
+				set_state_flag = FRM_land_reform_finished
+			}
+		}
+	}
+	HRS_FRM_nationalise_industry = {
+
+		icon = infiltrate_state
+
+		days_remove = 14
+
+		state_target = yes
+
+		target_trigger = { 
+			FROM = {
+				is_fully_controlled_by = FRM
+				is_taiwan_state = yes
+				is_urban_state = yes
+				NOT = { has_state_flag = FRM_nationalise_industry_finished }
+			}
+		}
+
+		available = {
+			FRM = { has_idea = SOV_strong_trade_unions_idea }
+		}
+
+		visible = {
+		}
+
+		cost = 10
+		
+		complete_effect = {	
+		}
+
+		remove_effect = {
+			FROM = {
+				create_unit = { division = "name = \"革命武装队\" division_template = \"革命武装队\" start_experience_factor = 0.2 start_equipment_factor = 0.70" owner = ROOT count = 1 }
+				add_compliance = 10
+				set_state_flag = FRM_nationalise_industry_finished
+			}
+		}
+	}
+}

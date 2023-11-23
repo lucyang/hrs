@@ -1,0 +1,347 @@
+HRS_debug_tool_category = {
+
+	HRS_control_all_china_states = {
+
+		allowed = {
+			#		
+		}
+
+		available = {
+			#
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+		}
+		
+		complete_effect = {
+			every_state = {
+				limit = { is_any_china_state = yes }
+				transfer_state_to = ROOT
+			}
+		}
+	}
+
+	HRS_control_all_korea_states = {
+
+		allowed = {
+			#		
+		}
+
+		available = {
+			#
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+		}
+		
+		complete_effect = {
+			every_state = {
+				limit = { is_any_korea_state = yes }
+				transfer_state_to = ROOT
+			}
+		}
+	}
+
+	HRS_control_all_japan_states = {
+
+		allowed = {
+			#		
+		}
+
+		available = {
+			#
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+		}
+		
+		complete_effect = {
+			every_state = {
+				limit = { is_any_japan_state = yes }
+				transfer_state_to = ROOT
+			}
+		}
+	}
+
+	HRS_control_all_mongolia_states = { 
+
+		allowed = {
+			#		
+		}
+
+		available = {
+			#
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+		}
+		
+		complete_effect = {
+			every_state = {
+				limit = { is_any_mongolia_state = yes }
+				transfer_state_to = ROOT
+			}
+		}
+	}
+
+	HRS_control_all_taiwan_states = {
+
+		allowed = {
+			#		
+		}
+
+		available = {
+			#
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+		}
+		
+		complete_effect = {
+			every_state = {
+				limit = { is_any_taiwan_state = yes }
+				transfer_state_to = ROOT
+			}
+		}
+	}
+
+	HRS_control_all_ryukyu_states = {
+
+		allowed = {
+			#		
+		}
+
+		available = {
+			#
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+		}
+		
+		complete_effect = {
+			every_state = {
+				limit = { is_any_ryukyu_state = yes }
+				transfer_state_to = ROOT
+			}
+		}
+	}
+
+	HRS_trigger_kazakh_dzungar_war = {
+
+		allowed = {
+			#		
+		}
+
+		available = {
+			#
+			AND = {
+				KAZ = { exists = yes }
+				DZU = { exists = yes }
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+			AND = {
+				KAZ = { exists = yes }
+				DZU = { exists = yes }
+			}
+		}
+		
+		complete_effect = {
+			KAZ = {
+				declare_war_on = {
+					target = DZU
+					type = take_state_focus
+					generator = { 514 582 584 }
+				}
+			}
+		}
+	}
+
+	HRS_kazakh_victory_in_kazakh_dzungar_war = {
+
+		allowed = {
+			#		
+		}
+
+		available = {
+			#
+			AND = {
+				KAZ = { has_war_with = DZU }
+				KAZ = { exists = yes }
+				DZU = { exists = yes }
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+			AND = {
+				KAZ = { has_war_with = DZU }
+				KAZ = { exists = yes }
+				DZU = { exists = yes }
+			}
+		}
+		
+		complete_effect = {
+			KAZ = {
+				white_peace = DZU
+				transfer_state = 514
+				transfer_state = 582
+				transfer_state = 584
+				transfer_state = 585
+			}
+			DZU = {
+				add_stability = -0.20
+				add_political_power = -200
+			}
+		}
+	}
+
+	HRS_dzungar_victory_in_kazakh_dzungar_war = {
+
+		allowed = {
+			#		
+		}
+
+		available = {
+			#
+			AND = {
+				KAZ = { has_war_with = DZU }
+				KAZ = { exists = yes }
+				DZU = { exists = yes }
+			}
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+			AND = {
+				KAZ = { has_war_with = DZU }
+				KAZ = { exists = yes }
+				DZU = { exists = yes }
+			}
+		}
+		
+		complete_effect = {
+			DZU = {
+				white_peace = KAZ
+				add_stability = -0.10
+				add_political_power = -100
+			}
+			KAZ = {
+				add_stability = -0.20
+				add_war_support = -0.20
+			}
+		}
+	}
+
+	HRS_xiangxi_unification_test = {
+
+		allowed = {
+			is_xiangxi_nation = yes		
+		}
+
+		available = {
+			is_xiangxi_nation = yes
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+		}
+		
+		complete_effect = {
+			every_state = {
+				limit = { is_xiangxi_state = yes }
+				transfer_state_to = ROOT
+			}
+			XIANGXI_select_xiangxi_cosmetic_tag = yes
+		}
+	}
+
+	HRS_peace_popup_test = {
+
+		allowed = {
+			#		
+		}
+
+		available = {
+			#
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			#
+		}
+		
+		complete_effect = {
+			load_oob = "IMK_1923"
+			PRK = { transfer_state = 637 }
+			JXP = { transfer_state = 458 }
+			RYU = { transfer_state = 460 }
+			declare_war_on = {
+				target = PRK
+				type = take_state_focus
+				generator = { 637 }
+			}
+			declare_war_on = {
+				target = JXP
+				type = take_state_focus
+				generator = { 458 }
+			}
+			declare_war_on = {
+				target = RYU
+				type = take_state_focus
+				generator = { 460 }
+			}
+		}
+	}
+}

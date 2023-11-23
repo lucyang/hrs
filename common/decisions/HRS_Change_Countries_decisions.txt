@@ -26,10 +26,6 @@ HRS_change_tag_category = {
 
         days_re_enable = 14
 		
-		modifier = {
-			#
-		}
-		
 		complete_effect = {
 			FROM.CONTROLLER = { change_tag_from = ROOT }
 		}

@@ -1,0 +1,130 @@
+characters={
+	HMG_military_government={
+		name=HMG_military_government
+		portraits={
+			civilian={
+				large="gfx/leaders/generic/Portrait_Hubei_Military_Government.png"
+			}
+		}
+		country_leader={
+			ideology=interim_government_subtype
+			desc=HMG_military_government_desc
+			traits={ emergency_powers }
+			expire="1950.1.1.1"
+		}
+	}
+	HMG_yang_duo={
+		name=HMG_yang_duo
+		portraits={
+			civilian={
+				large="gfx/leaders/HMG/Portrait_Yang_Duo.png"
+			}
+		}
+		country_leader={
+			ideology=national_communism_subtype
+			desc=HMG_yang_duo_desc
+			traits={ conservative_communist }
+			expire="1950.1.1.1"
+		}
+	}
+	HMG_peng_dehuai={
+		name=HMG_peng_dehuai
+		portraits={
+			civilian={
+				large="gfx/leaders/HMG/Portrait_Peng_Dehuai.png"
+			}
+			army={
+				large="gfx/leaders/HMG/Portrait_Peng_Dehuai_army.png"
+			}
+		}
+		country_leader={
+			ideology=military_socialism_subtype
+			desc=HMG_peng_dehuai_desc
+			traits={ lusan_sanbagarasu }
+			expire="1974.11.29.1"
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=5
+			attack_skill=5
+			defense_skill=4
+			planning_skill=5
+			logistics_skill=3
+		}
+	}
+	HMG_huang_gonglue={
+		name=HMG_huang_gonglue
+		portraits={
+			civilian={
+				large="gfx/leaders/HMG/Portrait_Huang_Gonglue.png"
+			}
+			army={
+				large="gfx/leaders/HMG/Portrait_Huang_Gonglue.png"
+			}
+		}
+		#country_leader={
+		#	ideology=military_socialism_subtype
+		#	desc=HMG_huang_gonglue_desc
+		#	traits={ lusan_sanbagarasu }
+		#	expire="1974.11.29.1"
+		#}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+	HMG_cheng_qian={
+		name=HMG_cheng_qian
+		portraits={
+			civilian={
+				large="gfx/leaders/HMG/Portrait_Cheng_Qian.png"
+			}
+		}
+		#country_leader={
+		#	ideology=liberalism_subtype
+		#	desc=HMG_cheng_qian_desc
+		#	traits={ silent_workhorse modernist_and_reformer }
+		#	expire="1968.4.5.1"
+		#}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=3
+		}
+	}
+	HMG_song_jiaoren={
+		name=HMG_song_jiaoren
+		portraits={
+			civilian={
+				large="gfx/leaders/HMG/Portrait_Song_Jiaoren.png"
+			}
+		}
+		country_leader={
+			ideology=national_liberalism_subtype
+			desc=HMG_song_jiaoren_desc
+			traits={ SWI_radical_democrat liberal_democratic_paragon }
+			expire="1950.1.1.1"
+		}
+	}
+	HMG_real_yang_duo={
+		name=HMG_yang_duo
+		portraits={
+			civilian={
+				large="gfx/leaders/HMG/Portrait_Yang_Duo.png"
+			}
+		}
+		country_leader={
+			ideology=ultramilitarism_subtype #Economic Militarism
+			desc=HMG_real_yang_duo_desc
+			traits={ arkhigos warmonger }
+			expire="1950.1.1.1"
+		}
+	}
+}

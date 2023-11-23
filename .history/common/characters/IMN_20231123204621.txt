@@ -1,0 +1,30 @@
+characters={
+	IMN_serendongrub={
+		name=IMN_serendongrub
+		portraits={
+			civilian={
+				large="gfx/leaders/IMN/Portrait_Serendongrub.png"
+			}
+		}
+		country_leader={
+			ideology=tridemism_subtype
+			desc=IMN_serendongrub_desc
+			traits={ backroom_backstabber }
+			expire="1980.8.2.1"
+		}
+	}
+	IMN_bayandalai={
+		name=IMN_bayandalai
+		portraits={
+			civilian={
+				large="gfx/leaders/IMN/Portrait_Bayandalai.png"
+			}
+		}
+		country_leader={
+			ideology=state_socialism_subtype
+			desc=IMN_bayandalai_desc
+			traits={ moderate_reformist }
+			expire="1950.1.1.1"
+		}
+	}
+}

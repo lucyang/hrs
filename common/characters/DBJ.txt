@@ -23,7 +23,7 @@ characters={
 		country_leader={
 			ideology=military_government_subtype
 			desc=DBJ_xu_shuzheng_desc
-			traits={ pax_xibei_army }
+			traits={ }
 			expire="1939.12.30.1"
 		}
 	}

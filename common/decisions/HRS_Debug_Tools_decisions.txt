@@ -18,10 +18,6 @@ HRS_debug_tool_category = {
 			#
 		}
 		
-		modifier = {
-			#
-		}
-		
 		complete_effect = {
 			every_state = {
 				limit = { is_any_china_state = yes }
@@ -45,10 +41,6 @@ HRS_debug_tool_category = {
 		}
 
 		visible = {
-			#
-		}
-		
-		modifier = {
 			#
 		}
 		
@@ -78,10 +70,6 @@ HRS_debug_tool_category = {
 			#
 		}
 		
-		modifier = {
-			#
-		}
-		
 		complete_effect = {
 			every_state = {
 				limit = { is_any_japan_state = yes }
@@ -105,10 +93,6 @@ HRS_debug_tool_category = {
 		}
 
 		visible = {
-			#
-		}
-		
-		modifier = {
 			#
 		}
 		
@@ -138,10 +122,6 @@ HRS_debug_tool_category = {
 			#
 		}
 		
-		modifier = {
-			#
-		}
-		
 		complete_effect = {
 			every_state = {
 				limit = { is_any_taiwan_state = yes }
@@ -165,10 +145,6 @@ HRS_debug_tool_category = {
 		}
 
 		visible = {
-			#
-		}
-		
-		modifier = {
 			#
 		}
 		
@@ -204,10 +180,6 @@ HRS_debug_tool_category = {
 				KAZ = { exists = yes }
 				DZU = { exists = yes }
 			}
-		}
-		
-		modifier = {
-			#
 		}
 		
 		complete_effect = {
@@ -247,10 +219,6 @@ HRS_debug_tool_category = {
 				KAZ = { exists = yes }
 				DZU = { exists = yes }
 			}
-		}
-		
-		modifier = {
-			#
 		}
 		
 		complete_effect = {
@@ -296,10 +264,6 @@ HRS_debug_tool_category = {
 			}
 		}
 		
-		modifier = {
-			#
-		}
-		
 		complete_effect = {
 			DZU = {
 				white_peace = KAZ
@@ -331,10 +295,6 @@ HRS_debug_tool_category = {
 			#
 		}
 		
-		modifier = {
-			#
-		}
-		
 		complete_effect = {
 			every_state = {
 				limit = { is_xiangxi_state = yes }
@@ -359,10 +319,6 @@ HRS_debug_tool_category = {
 		}
 
 		visible = {
-			#
-		}
-		
-		modifier = {
 			#
 		}
 		

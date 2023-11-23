@@ -151,7 +151,7 @@ characters={
 		country_leader={
 			ideology=tridemism_subtype
 			desc=YUN_lv_yizhi_desc
-			traits={ silent_workhorse connectzed_citizen }
+			traits={ silent_workhorse connected_citizen }
 			expire="1940.1.1.1"
 		}
 	}

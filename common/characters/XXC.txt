@@ -152,7 +152,7 @@ characters={
 			expire="1950.1.1.1"
 		}
 		corps_commander={
-			traits={ militia_officer career_officer guerilla_fighter }
+			traits={ militias_officer career_officer guerilla_fighter }
 			skill=3
 			attack_skill=3
 			defense_skill=2
@@ -169,7 +169,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ career_officer infantry_fighter }
+			traits={ career_officer infantry_expert }
 			skill=2
 			attack_skill=2
 			defense_skill=2
@@ -217,7 +217,7 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ career_officer militia_officer }
+			traits={ career_officer militias_officer }
 			skill=2
 			attack_skill=2
 			defense_skill=2

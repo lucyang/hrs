@@ -1,0 +1,33 @@
+HRS_change_tag_category = {
+
+	HRS_change_tag_from_ROOT = {
+
+		allowed = {
+			always = yes
+		}
+
+        state_target = yes
+        on_map_mode = map_only
+
+		target_trigger = {
+			FROM = { 
+                is_capital = yes
+                NOT = { is_controlled_by = ROOT }
+            }
+	   }
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			is_ai = no
+		}
+
+        days_re_enable = 14
+		
+		complete_effect = {
+			FROM.CONTROLLER = { change_tag_from = ROOT }
+		}
+	}
+}

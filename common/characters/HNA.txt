@@ -16,7 +16,7 @@ characters={
 			expire="1949.10.1.1"
 		}
 		corps_commander={
-			traits={ militia_officer }
+			traits={ militias_officer }
 			skill=1
 			attack_skill=1
 			defense_skill=1

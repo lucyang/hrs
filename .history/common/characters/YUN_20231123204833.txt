@@ -1,0 +1,211 @@
+characters={
+	YUN_wang_fusheng={
+		name=YUN_wang_fusheng
+		portraits={
+			civilian={
+				large="gfx/leaders/YUN/Portrait_Wang_Fushen.png"
+			}
+		}
+		country_leader={
+			ideology=marxism_subtype
+			desc=YUN_wang_fusheng_desc
+			traits={ voice_of_restraint international_revolutionary }
+			expire="1945.8.15.1"
+		}
+	}
+	YUN_zhu_de={
+		name=YUN_zhu_de
+		portraits={
+			civilian={
+				large="gfx/leaders/YUN/Portrait_Zhu_De.png"
+			}
+			army={
+				large="gfx/leaders/YUN/Portrait_Zhu_De.png"
+			}
+		}
+		country_leader={
+			ideology=democratic_socialism_subtype
+			desc=YUN_zhu_de_desc
+			traits={ revolutionary_general }
+			expire="1976.7.6.1"
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer thorough_planner brilliant_strategist }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=3
+		}
+	}
+	YUN_tang_jiyao={
+		name=YUN_tang_jiyao
+		portraits={
+			civilian={
+				large="gfx/leaders/YUN/Portrait_Tang_Jiyao.png"
+			}
+			army={
+				large="gfx/leaders/YUN/Portrait_Tang_Jiyao.png"
+			}
+		}
+		#country_leader={
+		#	ideology=left_militarism_subtype
+		#	desc=YUN_tang_jiyao_desc
+		#	traits={ celebrity_junta_leader old_coup_maker }
+		#	expire="1927.5.23.1"
+		#}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+		}
+	}
+	YUN_zhu_peide={
+		name=YUN_zhu_peide
+		portraits={
+			civilian={
+				large="gfx/leaders/YUN/Portrait_Zhu_Peide.png"
+			}
+			army={
+				large="gfx/leaders/YUN/Portrait_Zhu_Peide.png"
+			}
+		}
+		#country_leader={
+		#	ideology=new_tridemism_subtype
+		#	desc=YUN_zhu_peide_desc
+		#	traits={ political_dancer jefe }
+		#	expire="1937.2.17.1"
+		#}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	YUN_zhang_bojun={
+		name=YUN_zhang_bojun
+		portraits={
+			civilian={
+				large="gfx/leaders/YUN/Portrait_Zhang_Bojun.png"
+			}
+		}
+		country_leader={
+			ideology=social_democratic_subtype
+			desc=YUN_zhang_bojun_desc
+			traits={ }
+			expire="1937.2.17.1"
+		}
+	}
+	YUN_miu_yuntai={
+		name=YUN_miu_yuntai
+		portraits={
+			civilian={
+				large="gfx/leaders/YUN/Portrait_Miu_Yuntai.png"
+			}
+		}
+		#country_leader={
+		#	ideology=social_democratic_subtype
+		#	desc=YUN_miu_yuntai_desc
+		#	traits={ technocrat }
+		#	expire="1988.9.3.1"
+		#}
+	}
+	YUN_li_genyuan={
+		name=YUN_li_genyuan
+		portraits={
+			civilian={
+				large="gfx/leaders/YUN/Portrait_Li_Genyuan.png"
+			}
+			army={
+				large="gfx/leaders/YUN/Portrait_Li_Genyuan.png"
+			}
+		}
+		#country_leader={
+		#	ideology=national_liberalism_subtype
+		#	desc=YUN_li_genyuan_desc
+		#	traits={  }
+		#	expire="1965.7.6.1"
+		#}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	YUN_lv_yizhi={
+		name=YUN_lv_yizhi
+		portraits={
+			civilian={
+				large="gfx/leaders/YUN/Portrait_Lv_Zhiyin.png"
+			}
+		}
+		country_leader={
+			ideology=tridemism_subtype
+			desc=YUN_lv_yizhi_desc
+			traits={ silent_workhorse connected_citizen }
+			expire="1940.1.1.1"
+		}
+	}
+	YUN_cai_e={
+		name=YUN_cai_e
+		portraits={
+			civilian={
+				large="gfx/leaders/YUN/Portrait_Cai_E.png"
+			}
+			army={
+				large="gfx/leaders/YUN/Portrait_Cai_E.png"
+			}
+		}
+		country_leader={
+			ideology=interim_government_subtype
+			desc=YUN_cai_e_desc
+			traits={ liberal_democratic_paragon infirm }
+			expire="1926.12.8.1"
+		}
+		corps_commander={
+			traits={ trickster career_officer infantry_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+		}
+	}
+	YUN_yunnan_government={
+		name=YUN_yunnan_government
+		portraits={
+			civilian={
+				large="gfx/leaders/generic/Portrait_Military_Government.png"
+			}
+		}
+		#country_leader={
+		#	ideology=interim_government_subtype
+		#	desc=YUN_yunnan_government_desc
+		#	traits={ emergency_powers }
+		#	expire="1950.1.1.1"
+		#}
+	}
+	YUN_li_jingxi={
+		name=YUN_li_jingxi
+		portraits={
+			civilian={
+				large="gfx/leaders/YUN/Portrait_Li_Jingxi.png"
+			}
+		}
+		#country_leader={
+		#	ideology=interim_government_subtype
+		#	desc=YUN_li_jingxi_desc
+		#	traits={ political_chameleon political_dancer }
+		#	expire="1925.9.18.1"
+		#}
+	}
+}

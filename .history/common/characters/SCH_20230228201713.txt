@@ -1,0 +1,82 @@
+characters={
+	SCH_xiong_kewu={
+		name=SCH_xiong_kewu
+		portraits={
+			civilian={
+				large="gfx/leaders/SCH/Portrait_Xiong_Kewu.png"
+			}
+		}
+		country_leader={
+			ideology=provisional_government_subtype
+			desc=SCH_xiong_kewu_desc
+			traits={ revolutinary_general liberal_democratic_paragon }
+			expire="1970.9.2.1"
+		}
+	}
+	SCH_zhu_qinglan={
+		name=SCH_zhu_qinglan
+		portraits={
+			civilian={
+				large="gfx/leaders/SCH/Portrait_Zhu_Qinglan.png"
+			}
+		}
+		country_leader={
+			ideology=tridemism_subtype
+			desc=SCH_zhu_qinglan_desc
+			traits={ social_reformer compassionate_commoner }
+			expire="1965.11.7.1"
+		}
+	}
+	SCH_wu_yuzhang={
+		name=SCH_wu_yuzhang
+		portraits={
+			civilian={
+				large="gfx/leaders/SCH/Portrait_Wu_Yuzhang.png"
+			}
+		}
+		country_leader={
+			ideology=new_tridemism_subtype
+			desc=SCH_wu_yuzhang_desc
+			traits={ education_reformer connected_citizen }
+			expire="1966.12.12.1"
+		}
+	}
+	SCH_liu_wenhui = {
+		name = SCH_liu_wenhui
+		portraits = {
+			civilian = {
+				large="gfx/leaders/SCH/Portrait_Liu_Wenhui.png"
+			}
+		}
+		country_leader = {
+            ideology = military_government_subtype
+            desc = SCH_liu_wenhui_desc
+            traits = { jefe the_young_magnate }
+            expire = "1976.6.24.1"
+        }
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+	SCH_liu_xiang={
+		name=SCH_liu_xiang
+		portraits={
+			army={
+				large="gfx/leaders/SCH/Portrait_Liu_Xiang.png"
+			}
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+		}
+	}
+}
