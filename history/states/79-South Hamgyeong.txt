@@ -1,0 +1,33 @@
+state={
+	id=79
+	name="STATE_79"
+	provinces={
+		532 2839 3221 4381 5645 5747 6163 6399 6445 7204 7326 7481 8072 9456 9837 9969 11798 11850 11854 11865 11878 11893 11903 11905 11911 11960 11972 11982 12005 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = CSK
+		 	add_core_of = CSK
+			remove_core_of = IMK
+		}
+		victory_points = { 11972 3 } #咸興
+		victory_points = { 7326 1 } #新浦
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			11972 = {
+				naval_base = 1
+			}
+			7326 = {
+				naval_base = 1
+			}
+		}
+	}
+	manpower=1602178
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

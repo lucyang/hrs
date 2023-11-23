@@ -1,0 +1,24 @@
+state={
+	id=481
+	name="STATE_481"
+	provinces={
+		3467 9680 9960 11408 15041 15042
+	}
+	history={
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = EZO
+			add_core_of = EZO
+			remove_core_of = IMJ
+		}
+		victory_points = { 3467 1 } #稚内
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=79136
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

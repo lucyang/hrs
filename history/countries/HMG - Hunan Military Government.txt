@@ -1,4 +1,4 @@
-﻿capital = 285 #岳阳
+﻿capital = 360 #岳阳
 # In the beginning of GAW, its capital set in 285(长沙) 
 # But resettled at state 263(岳阳) after coup d'etat
 

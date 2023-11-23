@@ -1,4 +1,4 @@
-﻿capital = 465 #光州/全罗南道
+﻿capital = 62 #光州/全罗南道
 
 #oob = "empty"
 

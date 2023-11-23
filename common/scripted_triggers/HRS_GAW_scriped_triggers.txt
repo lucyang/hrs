@@ -20,7 +20,7 @@ is_asia_unifier = {
 			has_government = monarchism
 			OR = {
 				original_tag = VIN
-				original_tag = KOR
+				original_tag = EOK
 				original_tag = MAN
 				original_tag = RYU
 			}
@@ -112,8 +112,6 @@ is_GAW_rebel_actor = {
 		original_tag = YYM
 		original_tag = SKL
 		original_tag = PRK
-		original_tag = ANK
-		original_tag = KOR
 	}
 }
 is_GAW_neutral_actor = {
@@ -125,7 +123,6 @@ is_GAW_neutral_actor = {
 		original_tag = LAX #Lan Xang
 		original_tag = DLI #Dali
 		original_tag = MIA #Miao
-		original_tag = MIR #Miao
 		original_tag = ASN #Taiwan Natives
 		original_tag = KKG #Kokugun
 		original_tag = OMT #Oomoto

@@ -1,0 +1,25 @@
+state={
+	id=232
+	name="STATE_232"
+	provinces={
+		106 1289 2049 4431 4937 6584 6968 7364 8028 8236 12200 12205 12224 12231 12262 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = QND
+		 	add_core_of = QND
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			dockyard = 1
+		}
+	}
+	manpower=115950
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

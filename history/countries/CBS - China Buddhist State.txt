@@ -1,4 +1,4 @@
-﻿capital = 297 #湘潭
+﻿capital = 367 #湘潭
 
 recruit_character = CBS_shi_huaizhen
 

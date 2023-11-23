@@ -1,0 +1,23 @@
+state={
+	id=226
+	name="STATE_226"
+	provinces={
+		1001 2866 4540 8005 11819 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = AGA
+		 	add_core_of = AGA
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=294234
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

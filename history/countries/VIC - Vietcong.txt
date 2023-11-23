@@ -1,4 +1,4 @@
-﻿capital = 564 #太原
+﻿capital = 168 #太原
 
 recruit_character = VIC_truong_chinh
 recruit_character = VIC_ho_chi_minh

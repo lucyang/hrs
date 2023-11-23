@@ -1,4 +1,4 @@
-﻿capital = 548 #宫古岛
+﻿capital = 10 #宫古岛
 
 recruit_character = MYK_gushiken_sosei #具志堅宗精
 

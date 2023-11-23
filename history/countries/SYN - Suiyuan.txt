@@ -1,4 +1,4 @@
-﻿capital = 57 #包头
+﻿capital = 439 #包头
 
 #oob = "empty"
 set_country_flag = is_china_nation

@@ -1,0 +1,23 @@
+state={
+	id=321
+	name="STATE_321"
+	provinces={
+		1090 3245 4021 5496 5802 6042 6957 8672 8781 8899 9291 9531 10099 10129 10281 12033 12070 12072 12094 12100 12105 12107 12113 12114 12124 12128 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = SHX
+			add_core_of = SHX
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=136524
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

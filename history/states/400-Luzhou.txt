@@ -1,0 +1,24 @@
+
+state={
+	id=400
+	name="STATE_400"
+	provinces={
+		6587 8232 10274 13258 13270 13295 13306 13323 13380 13387 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = CLS
+			add_core_of = CLS
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=289043
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

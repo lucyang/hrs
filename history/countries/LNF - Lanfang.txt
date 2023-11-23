@@ -1,4 +1,4 @@
-﻿capital = 405 #山口洋
+﻿capital = 86 #山口洋
 
 #oob = "empty"
 

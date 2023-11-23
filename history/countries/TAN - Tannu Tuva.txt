@@ -1,4 +1,4 @@
-﻿capital = 7 # Tuva Republic
+﻿capital = 549 #图瓦
 
 #oob = "empty"
 

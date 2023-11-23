@@ -1,0 +1,19 @@
+state={
+	id=27
+	name="STATE_27"
+	provinces={
+		619 5836 12681 
+	}
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+		victory_points = { 619 1 } #奈良
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=564607
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,4 +1,4 @@
-﻿capital = 64 #锦州
+﻿capital = 227 #锦州
 
 recruit_character = AGA_zhang_zuolin
 

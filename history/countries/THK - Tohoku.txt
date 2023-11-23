@@ -1,4 +1,4 @@
-﻿capital = 624 #Sendai
+﻿capital = 46 #宫城
 
 recruit_character = THK_yasuhito #雍仁亲王
 recruit_character = THK_reppan_council #奥羽越列藩会議

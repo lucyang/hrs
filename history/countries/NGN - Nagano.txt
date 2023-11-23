@@ -1,4 +1,4 @@
-﻿capital = 599 #长野 
+﻿capital = 35 #长野 
 
 recruit_character = NGN_peasant_union #自治农民议会
 recruit_character = NGN_mushanokoji_saneatsu #武者小路実篤

@@ -1,0 +1,23 @@
+state={
+	id=227
+	name="STATE_227"
+	provinces={
+		648 1581 4456 7160 9542 9815 10018 11771 11807 11843 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = AGA
+		 	add_core_of = AGA
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=352252
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

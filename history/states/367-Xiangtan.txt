@@ -1,0 +1,23 @@
+state={
+	id=367
+	name="STATE_367"
+	provinces={
+		4731 9370 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = CBS
+			add_core_of = CBS
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	manpower=351100
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

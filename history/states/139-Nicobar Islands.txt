@@ -1,0 +1,26 @@
+state={
+	id=139
+	name="STATE_139"
+	provinces={
+		8197 15158 15162 15163 15166 
+	}
+	history={
+		owner = IMC
+		1924.1.1 = {
+			owner = ADM
+			add_core_of = ADM
+		}
+		victory_points = { 8197 1 } #登拉
+		buildings = {
+			infrastructure = 1
+			8197 = {
+				naval_base = 1
+			}
+		}
+		
+	}
+	manpower=48000
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+	local_supplies=0.000
+}

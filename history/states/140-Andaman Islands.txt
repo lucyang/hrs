@@ -1,0 +1,26 @@
+state={
+	id=140
+	name="STATE_140"
+	provinces={
+		1149 8860 9225 14837 15132 15143 15148 
+	}
+	history={
+		owner = IMC
+		1924.1.1 = {
+			owner = ADM
+			add_core_of = ADM
+		}
+		victory_points = { 9225 1 } #三宝港
+		buildings = {
+			infrastructure = 1
+			9225 = {
+				naval_base = 1
+			}
+		}
+		
+	}
+	manpower=48000
+	buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=0.000
+}

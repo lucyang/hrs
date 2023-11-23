@@ -1,4 +1,4 @@
-﻿capital = 285 #长沙
+﻿capital = 368 #长沙
 
 recruit_character = HNR_tan_yankai
 

@@ -1,4 +1,4 @@
-﻿capital = 425 #科布多
+﻿capital = 539 #科布多
 
 recruit_character = KVD_khatanbaatar_magsarjav # 哈丹巴特尔·马克思尔扎布
 

@@ -1,0 +1,23 @@
+state={
+	id=383
+	name="STATE_383"
+	provinces={
+		161 1627 5117 5912 12559 12570 12587 12591 12620 12642 12666 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = SXI
+			add_core_of = SXI
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=210404
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

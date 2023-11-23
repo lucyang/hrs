@@ -1,0 +1,20 @@
+state={
+	id=507
+	name="STATE_507"
+	provinces={
+		578 818 950 1277 2003 2215 2270 2589 2683 2848 2972 3095 3256 3287 3873 4015 4040 4379 4627 5098 5325 6023 6036 6642 7058 7091 7477 7624 7634 8035 8163 8325 8396 8415 8938 9820 10252 11567 11593 11599 11624 11637 11649 11692 11693 11698 11723 11728 11803 
+	}
+	history={
+		owner = TUR
+		add_core_of = TUR
+		victory_points = { 1277 10 } #吉木萨尔
+		victory_points = { 8035 5 } #古城
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=289215
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

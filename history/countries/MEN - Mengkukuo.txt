@@ -1,4 +1,4 @@
-﻿capital = 23 #锡林郭勒
+﻿capital = 259 #锡林郭勒
 
 set_country_flag = is_china_nation
 

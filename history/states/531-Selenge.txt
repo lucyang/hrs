@@ -1,0 +1,21 @@
+state={
+	id=531
+	name="STATE_531"
+	provinces={
+		468 529 1268 1626 1874 1906 1939 2546 2599 2605 2705 2981 2982 3010 3372 3523 3560 4164 6359 6365 7051 9335 9457 9728 10878 10926 10942 10960 11015 11029 
+	}
+	history={
+		owner = DBJ
+		1924.1.1 = {
+			owner = MON
+			add_core_of = MON
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=43300
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

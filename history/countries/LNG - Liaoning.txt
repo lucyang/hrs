@@ -1,4 +1,4 @@
-﻿capital = 67 #辽阳
+﻿capital = 229 #辽阳
 
 recruit_character = LNG_feng_yuxiang
 recruit_character = LNG_bekku_hideo

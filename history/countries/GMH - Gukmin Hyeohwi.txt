@@ -1,4 +1,4 @@
-capital = 461 #江原道
+capital = 69 #江原道
 
 #oob = "empty"
 

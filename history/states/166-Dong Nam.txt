@@ -1,0 +1,18 @@
+state={
+	id=166
+	name="STATE_166"
+	provinces={
+		919 2129 8319 8786 9267 9642 9982 10097 14830 
+	}
+	history={
+		owner = ANM
+		add_core_of = ANM
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=520000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

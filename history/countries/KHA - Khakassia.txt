@@ -1,5 +1,4 @@
-﻿capital = 441
-
+﻿capital = 553 #阿巴坎
 
 set_technology = {
 	infantry_weapons = 1

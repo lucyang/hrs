@@ -1,4 +1,4 @@
-﻿capital = 250
+﻿capital = 97 #加德满都
 
 recruit_character = NEP_tribhuvan
 

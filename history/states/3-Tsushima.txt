@@ -1,0 +1,24 @@
+state={
+	id=3
+	name="STATE_3"
+	provinces={
+		15060
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+		victory_points = { 15060 1 } #対馬
+		buildings = {
+			infrastructure = 2
+			4275 = {
+				naval_base = 1 #竹敷港
+				bunker = 2
+				coastal_bunker = 2
+			}
+		}
+	}
+	manpower=32000
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+	local_supplies=0.000
+}

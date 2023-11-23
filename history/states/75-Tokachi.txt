@@ -1,0 +1,25 @@
+
+state={
+	id=75
+	name="STATE_75"
+	provinces={
+		109 522 744 4477 6291 6655 7733 8884 9694 11626 11654 
+	}
+	history={
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = AIN
+			add_core_of = AIN
+			remove_core_of = IMJ
+		}
+		victory_points = { 9694 3 } #帯広
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=146180
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

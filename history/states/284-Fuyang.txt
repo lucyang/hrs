@@ -1,0 +1,23 @@
+state={
+	id=284
+	name="STATE_284"
+	provinces={
+		1810 2923 4807 5914 6940 12782 12789 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = YSS
+		 	add_core_of = YSS
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=7177127
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

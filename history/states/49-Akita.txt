@@ -1,0 +1,29 @@
+state={
+	id=49
+	name="STATE_49"
+	provinces={
+		1722 3954 4339 5977 6267 7943 8262 8676 9254 10280 11953 11973 11997 
+	}
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = THK
+			add_core_of = THK
+			remove_core_of = IMJ
+		}
+		victory_points = { 11997 3 } #秋田
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			11997 = {
+				naval_base = 1
+			}
+		}
+	}
+	manpower=756454
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

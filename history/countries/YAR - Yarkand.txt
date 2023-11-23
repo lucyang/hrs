@@ -1,4 +1,4 @@
-capital = 45 # 叶尔羌
+capital = 520 #喀喇沙尔
 
 #oob = "empty"
 

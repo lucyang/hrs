@@ -1,0 +1,23 @@
+state={
+	id=368
+	name="STATE_368"
+	provinces={
+		1460 5197 5990 7363 8252 13304 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = HNR
+			add_core_of = HNR
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=650619
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

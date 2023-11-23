@@ -1,0 +1,19 @@
+state={
+	id=486
+	name="STATE_486"
+	provinces={
+		859 1034 2643 2904 3143 4208 4488 5028 5252 5628 5635 6196 6867 7368 8036 9167 9398 9459 9703 9793 10053 10056 11481 11491 11519 11543 11583 11591 11596 11625 11638 11648 11650 11657 11705 
+	}
+	history={
+		owner = MAN
+		add_core_of = MAN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	manpower=3005070
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

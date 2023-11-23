@@ -1,0 +1,42 @@
+
+state={
+	id=19
+	name="STATE_19"
+	provinces={
+		1313 2099 4801 5470 8211 12544 12599 12603 15064 
+	}
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = CGK
+			add_core_of = CGK
+			remove_core_of = IMJ
+		}
+		victory_points = { 12599 10 } #広島
+		victory_points = { 5470 5 } #呉
+		victory_points = { 2099 3 } #福山
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 2
+			dockyard = 2
+			air_base = 2
+			12599 = {
+				naval_base = 5
+				coastal_bunker = 4
+				bunker = 2
+			}	
+			5470 = {
+				naval_base = 4
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+		
+	}
+	manpower=1541905
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

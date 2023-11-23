@@ -1,0 +1,23 @@
+state={
+	id=389
+	name="STATE_389"
+	provinces={
+		1393 2453 3591 5463 6012 6744 8001 8582 10279 12905 12947 12956 12974 12996 13022 13045 13065 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = CNC
+			add_core_of = CNC
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=5825576
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

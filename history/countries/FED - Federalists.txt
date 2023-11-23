@@ -1,4 +1,4 @@
-﻿capital = 334 #漳州
+﻿capital = 199 #漳州
 
 #oob = "empty"
 

@@ -1,0 +1,30 @@
+
+state={
+	id=54
+	name="STATE_54"
+	provinces={
+		4228 7898 11642 15044 15046 
+	}
+	history={
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = AIN
+			add_core_of = AIN
+			remove_core_of = IMJ
+		}
+		victory_points = { 11642 3 } #根室
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 1
+			11642 = {
+				dockyard = 2
+			}
+		}
+	}
+	manpower=56891
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

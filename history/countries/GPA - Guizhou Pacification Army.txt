@@ -1,4 +1,4 @@
-﻿capital = 278 #遵义
+﻿capital = 408 #遵义
 
 #oob = "empty"
 

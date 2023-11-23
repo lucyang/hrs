@@ -1,4 +1,4 @@
-﻿capital = 565 #西宁
+﻿capital = 166 #西宁
 
 recruit_character = CAD_le_van_trung
 recruit_character = CAD_nguyen_van_ngoi

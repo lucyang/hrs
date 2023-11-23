@@ -1,4 +1,4 @@
-﻿capital = 355 #广州
+﻿capital = 185 #广州
 
 #oob = "empty"
 set_stability = 0.05

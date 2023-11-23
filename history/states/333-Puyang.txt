@@ -1,0 +1,23 @@
+state={
+	id=333
+	name="STATE_333"
+	provinces={
+		870 4363 12404 12484 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = AYG
+			add_core_of = AYG
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=2977263
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

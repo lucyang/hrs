@@ -1,0 +1,30 @@
+state={
+	id=78
+	name="STATE_78"
+	provinces={
+		302 583 4416 5499 5575 5600 8268 8303 9994 11942 12052 
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = KOY
+		 	add_core_of = KOY
+			remove_core_of = IMK
+		}
+		victory_points = { 8303 5 } #鎮南浦/木浦
+		victory_points = { 302 3 } #順川
+		victory_points = { 5499 1 } #安州
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			8303 = { #鎮南浦港
+				naval_base = 5
+			}
+		}
+	}
+	manpower=1434540
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

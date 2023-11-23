@@ -1,0 +1,26 @@
+state={
+	id=48
+	name="STATE_48"
+	provinces={
+		564 620 4690 7293 7370 8510 9006 10217 11987 11999 12007 12024 12055 12058 12076
+	}
+	history = { 
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = THK
+			add_core_of = THK
+			remove_core_of = IMJ
+		}
+		victory_points = { 9006 5 } #盛岡
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			air_base = 3
+		}
+	}
+	manpower=3293443
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,23 @@
+state={
+	id=457
+	name="STATE_457"
+	provinces={
+		73 1463 3674 8607 12522 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = NHA
+			add_core_of = NHA
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=69086
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

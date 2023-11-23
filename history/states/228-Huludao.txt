@@ -1,0 +1,23 @@
+state={
+	id=228
+	name="STATE_228"
+	provinces={
+		1473 2612 3417 5776 6383 7927 9134 11849 11861 11909 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = AGA
+		 	add_core_of = AGA
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=364394
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,4 +1,4 @@
-﻿capital = 152 # Chugoku
+﻿capital = 22 #兵库
 
 recruit_character = JLF_araki_sadao
 recruit_character = JLF_ishiwara_kanji

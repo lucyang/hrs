@@ -1,0 +1,19 @@
+state={
+	id=506
+	name="STATE_506"
+	provinces={
+		1697 2774 3770 3846 7274 11780 
+	}
+	history={
+		owner = TUR
+		add_core_of = TUR
+		victory_points = { 11780 3 } #乌鲁木齐
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=140658
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

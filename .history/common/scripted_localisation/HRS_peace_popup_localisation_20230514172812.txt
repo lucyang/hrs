@@ -1,0 +1,1270 @@
+﻿defined_text = {
+	name = GetLoserAllies
+	text = {
+		trigger = {
+			has_global_flag = losing_country_multiple
+		}
+		localization_key = HRS_PEACE_POPUP_COUNTRY_PLURAL
+	}
+	text = {
+		localization_key = HRS_PEACE_POPUP_COUNTRY_SINGULAR
+	}
+}
+
+defined_text = {
+	name = GetWinnerAllies
+	text = {
+		trigger = {
+			has_global_flag = winning_country_multiple
+		}
+		localization_key = HRS_PEACE_POPUP_COUNTRY_PLURAL
+	}
+	text = {
+		localization_key = HRS_PEACE_POPUP_COUNTRY_SINGULAR
+	}
+}
+
+defined_text = {
+	name = GetLoserAlliesWithHas
+	text = {
+		trigger = {
+			has_global_flag = losing_country_multiple
+		}
+		localization_key = HRS_PEACE_POPUP_COUNTRY_PLURAL_HAS
+	}
+	text = {
+		localization_key = HRS_PEACE_POPUP_COUNTRY_SINGULAR_HAS
+	}
+}
+	
+defined_text = {
+	name = GetWinnerAlliesWithHas
+	text = {
+		trigger = {
+			has_global_flag = winning_country_multiple
+		}
+		localization_key = HRS_PEACE_POPUP_COUNTRY_PLURAL_HAS
+    }
+	text = {
+		localization_key = HRS_PEACE_POPUP_COUNTRY_SINGULAR_HAS
+	}
+}
+#### PUT YOUR VARIOUS CATEGORIES/TRIGGERS IN HERE ###
+
+# Refer to the winning country's tag like so "global_event_target:winning_country"
+# and the losing country's tag like so "global_    event_target:losing_country"
+defined_text = {
+	name = GetFlavor
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = IMC
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_IMC
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = IMJ
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_IMJ
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = IMK
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_IMK
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = ANM
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_ANM
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = ZDJ
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_ZDJ
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = DBJ
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_DBJ
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = XSM
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_XSM
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = HSW
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_HSW
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = ADM
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_ADM
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = MAL
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_MAL
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = LNF
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_LNF
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = PHI
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_PHI
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = BSM
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_BSM
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = CHI
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_CHI
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = KMT
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_KMT
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = SHX
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_SHX
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = SCH
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_SCH
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = CHQ
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_CHQ
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = YUN
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_YUN
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = GZH
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_GZH
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = GNA
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_GNA
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = WAX
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_WAX
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = QND
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_QND
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = SHD
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_SHD
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = QUF
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_QUF
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = TIJ
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_TIJ
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = HEB
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_HEB
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = JID
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_JID
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = CHR
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_CHR
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = LYG
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_LYG
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = AYG
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_AYG
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = HEN
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_HEN
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = PRC
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_PRC
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = SHH
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_SHH
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = MAO
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_MAO
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = HNA
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_HNA
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = HLF
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_HLF
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = PDS
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_PDS
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = ZZH
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_ZZH
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = NSB
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_NSB
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = GXC
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_GXC
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = DLI
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_DLI
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = MMA
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_MMA
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = CHH
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_CHH
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = LAX
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_LAX
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = MIA
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_MIA
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = MIR
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_MIR
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = JXP
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_JXP
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = FRM
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_FRM
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = TAW
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_TAW
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = ASN
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_ASN
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = JLF
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_JLF
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = JPR
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_JPR
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = JAF
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_JAF
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = KYU
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_KYU
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = NGN
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_NGN
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = CGK
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_CGK
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = CHB
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_CHB
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = KKG
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_KKG
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = JPN
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_JPN
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = TOK
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_TOK
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = THK
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_THK
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = OMT
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_OMT
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = EZO
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_EZO
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = AIN
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_AIN
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = KRF
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_KRF
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = SKL
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_SKL
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = RYU
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_RYU
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = AMM
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_AMM
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = YYM
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_YYM
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = MYK
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_MYK
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = PRK
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_PRK
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = ANK
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_ANK
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = KOR
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_KOR
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = VIN
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_VIN
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = VQD
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_VQD
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = CAD
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_CAD
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = VIC
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_VIC
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = DNA
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_DNA
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = SRV
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_SRV
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = SAI
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_SAI
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = DEG
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_DEG
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = TAT
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_TAT
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = LAO
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_LAO
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = CHP
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_CHP
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = CAM
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_CAM
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = KMK
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_KMK
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = KHR
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_KHR
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = MAN
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_MAN
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = SLA
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_SLA
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = DAL
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_DAL
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = FER
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_FER
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = SIA
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_SIA
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = BRM
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_BRM
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = MON
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_MON
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = BOG
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_BOG
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = KVD
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_KVD
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = ULI
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_ULI
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = MEN
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_MEN
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = ULQ
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_ULQ
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = HUL
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_HUL
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = DAR
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_DAR
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = IMN
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_IMN
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = TIB
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_TIB
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = SHG
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_SHG
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = KHM
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_KHM
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = AMD
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_AMD
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = LDK
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_LDK
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = DZU
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_DZU
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = TAN
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_TAN
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = ALT
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_ALT
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = ETK
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_ETK
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = ASH
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_ASH
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = HOT
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_HOT
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = YAK
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_HAM
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = AKS
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_AKS
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = SIK
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_SIK
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = TCH
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_TCH
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = ILI
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_ILI
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = KAZ
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_KAZ
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = TUK
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_TUK
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = HIN
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_HIN
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = NEP
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_NEP
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = BHU
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_BHU
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = SKM
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_SKM
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = AHM
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_AHM
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = MNP
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_MNP
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = NAG
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_NAG
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = SRL
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_SRL
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = AAF
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_AAF
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = FAR
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_FAR
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = SIB
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_SIB
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = BYA
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_BYA
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = TBA
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_TBA
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = PRA
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_PRA
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = YAK
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_YAK
+    }
+        
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = KHA
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_KHA
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = ANG
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_ANG
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = ZZZ
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_ZZZ
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = TGG
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_TGG
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = QNA
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_QNA
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = LNG
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_LNG
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = MNG
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_MNG
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = QNG
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_QNG
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = SXI
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_SXI
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = GNS
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_GNS
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = NIX
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_NIX
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = SYN
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_SYN
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = HNR
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_HNR
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = HMG
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_HMG
+    }
+    text = {
+        trigger = {
+            event_target:losing_country = {
+                original_tag = XXI
+        	}
+		}
+        localization_key = HRS_PEACE_POPUP_FLAVOR_XXI
+    }
+    text = {
+		localization_key = HRS_PEACE_POPUP_FLAVOR_DEFAULT
+	}
+}

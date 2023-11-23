@@ -1,4 +1,4 @@
-﻿capital = 291 #南平
+﻿capital = 297 #延平
 
 #oob = "empty"
 

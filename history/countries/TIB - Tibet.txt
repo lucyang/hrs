@@ -1,4 +1,4 @@
-﻿capital = 234 # Lhasa
+﻿capital = 473 #拉萨
 
 #oob = "empty"
 

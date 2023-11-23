@@ -1,0 +1,23 @@
+state={
+	id=324
+	name="STATE_324"
+	provinces={
+		6010 6117 13788 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = ASN
+			add_core_of = ASN
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=169827
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

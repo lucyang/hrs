@@ -1,4 +1,4 @@
-﻿capital = 306 #衡阳
+﻿capital = 363 #衡阳
 
 recruit_character = HNA_peng_huang
 

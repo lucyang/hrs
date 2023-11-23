@@ -1,0 +1,23 @@
+state={
+	id=437
+	name="STATE_437"
+	provinces={
+		944 1669 5319 7671 8956 13584 13623 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = DLI
+			add_core_of = DLI
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=366549
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

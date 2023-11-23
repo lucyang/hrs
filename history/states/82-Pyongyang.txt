@@ -1,0 +1,24 @@
+state={
+	id=82
+	name="STATE_82"
+	provinces={
+		7259
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = KOY
+		 	add_core_of = KOY
+			remove_core_of = IMK
+		}
+		victory_points = { 7259 15 } #平壤/楽浪
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=119423
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

@@ -1,0 +1,27 @@
+state={
+	id=478
+	name="STATE_478"
+	provinces={
+		6712 8827 11779 15048
+	}
+	history={
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = EZO
+			add_core_of = EZO
+			remove_core_of = IMJ
+		}
+		victory_points = { 11779 1 } #江差
+		buildings = {
+			infrastructure = 2
+			11779 = {
+				dockyard = 1
+			}
+		}
+	}
+	manpower=68845
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

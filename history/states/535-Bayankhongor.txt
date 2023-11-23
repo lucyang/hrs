@@ -1,0 +1,21 @@
+state={
+	id=535
+	name="STATE_535"
+	provinces={
+		40 328 506 519 569 1181 1522 1853 2258 2396 2455 2490 2574 2615 2661 2700 2708 3203 3448 3504 3746 4023 4130 4327 4673 5198 5602 5797 5831 5986 6882 6914 6966 7090 7127 7169 7558 7915 7974 8046 8438 9275 9338 9656 11266 11401 11409 11463 11517 11561 11582 11600 11709 11737 
+	}
+	history={
+		owner = DBJ
+		1924.1.1 = {
+			owner = BOG
+			add_core_of = BOG
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=43600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

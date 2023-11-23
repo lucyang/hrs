@@ -35,7 +35,6 @@ is_sovreign_country = {
 		tag = TUK
 		tag = AHM
 		tag = NAG
-		tag = MAP
 	}
 }
 

@@ -1,4 +1,4 @@
-﻿capital = 575 #琅勃拉邦
+﻿capital = 90 #琅勃拉邦
 
 recruit_character = LAO_sisavang_vong
 recruit_character = LAO_phetsarath_ratanavongsa

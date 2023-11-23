@@ -1,0 +1,24 @@
+state={
+	id=36
+	name="STATE_36"
+	provinces={
+		6908 8282 12471 12482 
+	}
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = JAF
+			add_core_of = JAF
+			remove_core_of = IMJ
+		}
+		victory_points = { 12471 1 } #甲斐
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=583453
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

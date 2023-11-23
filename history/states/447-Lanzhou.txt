@@ -1,0 +1,23 @@
+state={
+	id=447
+	name="STATE_447"
+	provinces={
+		321 2369 3038 3571 4310 9203 12379 12421 12445 12507 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = GNS
+			add_core_of = GNS
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	manpower=397393
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

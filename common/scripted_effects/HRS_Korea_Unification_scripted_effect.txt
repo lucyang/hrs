@@ -109,27 +109,3 @@ KOR_reform_support_small_decrease = {
 	add_to_variable = { KOR_reform_support = -1 }
 	clamp_variable = { var = KOR_reform_support max = 10 min = 0 }
 }
-
-KOR_select_unified_cosmetic_tag = {
-	hidden_effect = {
-		drop_cosmetic_tag = yes
-	}
-	if = {
-		limit = { 
-			original_tag = ANK
-		}
-		set_cosmetic_tag = ANK_unification
-	}
-	if = {
-		limit = { 
-			original_tag = KOR
-		}
-		set_cosmetic_tag = KOR_unification
-	}
-	if = {
-		limit = { 
-			original_tag = PRK
-		}
-		set_cosmetic_tag = PRK_unification
-	}
-}

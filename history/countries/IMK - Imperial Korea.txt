@@ -1,7 +1,7 @@
-﻿capital = 632 #京城/首尔
+﻿capital = 83 #京城/首尔
 
 1924.1.1 = {
-	set_capital = { state = 636 }
+	set_capital = { state = 81 } #釜山
 }
 
 #oob = "empty"

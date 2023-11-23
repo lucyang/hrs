@@ -1,4 +1,4 @@
-﻿capital = 394 #槟城
+﻿capital = 127 #吉隆坡
 
 #oob = "empty"
 

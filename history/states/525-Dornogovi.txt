@@ -1,0 +1,21 @@
+state={
+	id=525
+	name="STATE_525"
+	provinces={
+		38 988 1121 1439 1886 2172 2179 2185 2395 3022 3294 3400 3615 3621 3783 3796 3828 4172 4577 4767 4942 5247 6766 6954 7312 7736 8841 8927 10012 10209 11283 11293 11314 11362 11394 11439 11490 11494 11497 11538 11541 11573 11633 11690 
+	}
+	history={
+		owner = DBJ
+		1924.1.1 = {
+			owner = DAR
+			add_core_of = DAR
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=21900
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

@@ -1,4 +1,4 @@
-﻿capital = 391 # Manila
+﻿capital = 113 #马尼拉/岷里拉
 
 #oob = "empty"
 

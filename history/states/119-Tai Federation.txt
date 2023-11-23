@@ -1,0 +1,24 @@
+state={
+	id=119
+	name="STATE_119"
+	provinces={
+		14175 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = IMV
+			add_core_of = IMV
+			remove_core_of = IMC
+		}
+		victory_points = { 14175 1 } #芒梭
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=67000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

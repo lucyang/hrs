@@ -1,4 +1,4 @@
-﻿capital = 429 #Oyrot/Gorno-Altaysk
+﻿capital = 551 #戈尔诺-阿尔泰
 
 #oob = "empty"
 

@@ -1,0 +1,19 @@
+state={
+	id=127
+	name="STATE_127"
+	provinces={
+		7956 14980 14982 14985 
+	}
+	history={
+		owner = MAL
+		add_core_of = MAL
+		victory_points = { 14982 20 } #吉隆坡/旧锡
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=617500
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

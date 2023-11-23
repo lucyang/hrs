@@ -1,0 +1,18 @@
+state={
+	id=151
+	name="STATE_151"
+	provinces={
+		2190 2871 3894 4221 14727 14772 
+	}
+	history={
+		owner = CHP
+		add_core_of = CHP
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=40000
+	buildings_max_level_factor=1.000
+	state_category = rural
+	local_supplies=0.000
+}

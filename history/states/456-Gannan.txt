@@ -1,0 +1,24 @@
+
+state={
+	id=456
+	name="STATE_456"
+	provinces={
+		903 2887 3384 8581 12757 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = CHN
+			add_core_of = CHN
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=3233128
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,4 +1,4 @@
-﻿capital = 510 #张家口
+﻿capital = 260 #乌兰察布
 
 recruit_character = IMN_serendongrub #色楞栋鲁布/白云梯
 

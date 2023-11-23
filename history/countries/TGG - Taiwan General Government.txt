@@ -1,4 +1,4 @@
-﻿capital = 519 #基隆
+﻿capital = 93 #台中
 
 recruit_character = TGG_uchida_kakichi #內田嘉吉
 recruit_character = TGG_suzuki_soroku #鈴木荘六

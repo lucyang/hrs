@@ -1,0 +1,17 @@
+state={
+	id=529
+	name="STATE_529"
+	provinces={
+		400 1051 7021 10249 
+	}
+	history={
+		owner = DBJ
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=73970
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

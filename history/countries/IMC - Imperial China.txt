@@ -1,4 +1,4 @@
-﻿capital = 212 #京师/南京
+﻿capital = 270 #京师/南京
 
 #oob = "empty"
 set_country_flag = is_china_nation
@@ -130,7 +130,6 @@ add_ideas = {
 give_guarantee = SIA
 give_guarantee = MAN
 give_guarantee = TIB
-give_guarantee = PRM
 
 add_equipment_to_stockpile = {
     type = train_equipment

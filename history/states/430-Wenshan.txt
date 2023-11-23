@@ -1,0 +1,23 @@
+state={
+	id=430
+	name="STATE_430"
+	provinces={
+		192 1937 3970 3985 5225 5372 5532 7089 7168 7809 7995 13875 13906 13919 13927 13931 13936 14009 14029 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = YUN
+			add_core_of = YUN
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=1131792
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

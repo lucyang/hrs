@@ -1,0 +1,25 @@
+
+state={
+	id=93
+	name="STATE_93"
+	provinces={
+		6161 8070 10238 13796 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		victory_points = { 13796 5 } #台中
+		1924.1.1 = {
+			owner = TGG
+			add_core_of = TGG
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	manpower=1935617
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

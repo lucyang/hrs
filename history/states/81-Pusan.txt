@@ -1,0 +1,21 @@
+state={
+	id=81
+	name="STATE_81"
+	provinces={
+		12494
+	}
+	history = {
+		owner = IMK
+		add_core_of = IMK
+		victory_points = { 12494 20 } #任那/釜山
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			dockyard = 1
+		}
+	}
+	manpower=326642
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

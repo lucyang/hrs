@@ -1,4 +1,4 @@
-﻿capital = 226 #上海
+﻿capital = 261 #上海
 
 #oob = "empty"
 
@@ -116,9 +116,6 @@ add_ideas = {
 	closed_economy
 	citizen_militia
 	war_economy
-}
-add_ideas = {
-	#
 }
 add_ideas = {
 	country_development4

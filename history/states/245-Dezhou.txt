@@ -1,0 +1,23 @@
+state={
+	id=245
+	name="STATE_245"
+	provinces={
+		36 2697 3246 4372 4793 8137 10076 12227 12234 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = SHD
+		 	add_core_of = SHD
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=47439
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

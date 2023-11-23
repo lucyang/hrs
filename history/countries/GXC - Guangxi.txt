@@ -1,4 +1,4 @@
-﻿capital = 352 #南宁
+﻿capital = 212 #南宁
 
 recruit_character = GXC_huang_shaohong
 

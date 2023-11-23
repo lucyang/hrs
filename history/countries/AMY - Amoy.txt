@@ -1,4 +1,4 @@
-﻿capital = 341 #厦门
+﻿capital = 198 #厦门
 
 #oob = "empty"
 

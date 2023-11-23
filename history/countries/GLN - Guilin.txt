@@ -1,4 +1,4 @@
-﻿capital = 322 #桂林
+﻿capital = 219 #桂林
 
 #oob = "empty"
 

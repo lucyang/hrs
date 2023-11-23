@@ -1,0 +1,23 @@
+state={
+	id=363
+	name="STATE_363"
+	provinces={
+		45 1634 1997 9608 13439 13458 13461 13469 13481 13491 13508 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = HNA
+			add_core_of = HNA
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	manpower=679374
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

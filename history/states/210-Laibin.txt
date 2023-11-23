@@ -1,0 +1,23 @@
+state={
+	id=210
+	name="STATE_210"
+	provinces={
+		3937 5355 5636 8784 8871 9952 13920 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = GXC
+		 	add_core_of = GXC
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=360591
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

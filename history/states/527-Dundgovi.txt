@@ -1,0 +1,21 @@
+state={
+	id=527
+	name="STATE_527"
+	provinces={
+		51 147 348 737 1009 1578 2047 2076 4276 4944 5043 5294 5581 5921 5949 6714 6805 6990 7359 8154 8177 8304 8508 9334 9461 9529 10234 11317 11344 11451 11461 
+	}
+	history={
+		owner = DBJ
+		1924.1.1 = {
+			owner = BOG
+			add_core_of = BOG
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=27500
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

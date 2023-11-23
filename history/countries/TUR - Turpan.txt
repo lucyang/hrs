@@ -1,4 +1,4 @@
-capital = 46 #吐鲁番
+capital = 505 #吐鲁番
 
 #oob = "empty"
 set_country_flag = is_uyghur_nation

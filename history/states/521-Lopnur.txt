@@ -1,0 +1,20 @@
+
+state={
+	id=521
+	name="STATE_521"
+	provinces={
+		604 1208 1402 1418 1836 2028 2710 3204 3288 3296 3443 3520 3739 3918 4192 4538 4868 4980 5426 5604 5644 6875 6981 6996 7608 8444 9487 10102 12068 12088 12140 12159 12179 
+	}
+	history={
+		owner = HAM
+		add_core_of = HAM
+		victory_points = { 2028 1 } #罗布淖尔(尉犁)
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=50477
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

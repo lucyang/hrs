@@ -1,0 +1,23 @@
+state={
+	id=257
+	name="STATE_257"
+	provinces={
+		293 647 956 2153 3217 3913 4204 4246 6046 6286 6540 7338 7433 8507 9131 9498 9816 10008 10236 11814 11848 11852 11902 11913 11928 11937 11949 11969 11979 11995 12010 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = CHR
+		 	add_core_of = CHR
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=229303
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

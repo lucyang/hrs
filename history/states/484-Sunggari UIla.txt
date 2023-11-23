@@ -1,0 +1,18 @@
+state={
+	id=484
+	name="STATE_484"
+	provinces={
+		326 505 537 566 716 1543 2935 3061 3755 3803 5090 5597 5923 6534 6594 6654 6748 7270 7752 8102 8517 8543 8590 8722 8775 9191 9435 9919 10122 10261 11170 11198 11199 11210 11223 11230 11244 11274 11282 11311 11316 11321 11327 11335 11337 11348 11358 11365 
+	}
+	history={
+		owner = MAN
+		add_core_of = MAN
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=512000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

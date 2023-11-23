@@ -1,0 +1,20 @@
+state={
+	id=121
+	name="STATE_121"
+	provinces={
+		1995 3004 5393 6285 6728 6769 7132 8277 8782 10208 10219 15001 15018 15019 15021 15023 15024 15026 
+	}
+	history={
+		owner = LNF
+		add_core_of = LNF
+		victory_points = { 1995 5 } #万鸦老
+		victory_points = { 15019 1 } #哥伦打洛
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

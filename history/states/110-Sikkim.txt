@@ -1,0 +1,19 @@
+
+state={
+	id=110
+	name="STATE_110"
+	provinces={
+		1629
+	}
+   history = {
+		owner = SKM
+		add_core_of = SKM
+		victory_points = { 1629 1 } #甘托克
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=93721
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

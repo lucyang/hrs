@@ -1,4 +1,4 @@
-﻿capital = 168 #西安
+﻿capital = 382 #西安
 
 #oob = "empty"
 set_country_flag = is_china_nation

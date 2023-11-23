@@ -1,4 +1,4 @@
-﻿capital = 536 #班达文莱/文莱城
+﻿capital = 138 #班达文莱/文莱城
 
 #oob = "empty"
 

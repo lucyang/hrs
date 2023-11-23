@@ -1,0 +1,23 @@
+state={
+	id=330
+	name="STATE_330"
+	provinces={
+		322 821 1884 3076 3553 4428 4620 4655 4898 5045 5447 6067 6112 6366 7088 7384 7544 7715 8290 8787 8939 9292 10093 10171 10193 11691 11733 11735 11756 11772 11777 11795 11815 11817 11828 11838 11842 11859 11885 11890 11915 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = JHL
+			add_core_of = JHL
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=92893
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

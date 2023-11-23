@@ -1,0 +1,280 @@
+is_asia_unifier = {
+	OR = {
+		original_tag = IMC
+		original_tag = IMJ
+		original_tag = IMK
+		original_tag = DBJ
+		original_tag = ZDJ
+		original_tag = HSW
+		original_tag = ANM	
+		original_tag = XSM
+		original_tag = AMM
+		original_tag = JXP
+		original_tag = CGK
+		original_tag = OMT
+		AND = {
+			has_global_flag = Mongolia_unifier
+			has_socialist_government = yes
+		}
+		AND = {
+			has_government = monarchism
+			OR = {
+				original_tag = VIN
+				original_tag = EOK
+				original_tag = MAN
+				original_tag = RYU
+			}
+		}
+	}
+}
+
+is_GAW_actor = {
+	OR = {
+		is_china_nation = yes
+		is_taiwan_nation = yes
+		is_japan_nation = yes
+		is_hokkaido_nation = yes
+		is_ryukyu_nation = yes
+		is_korea_nation = yes
+		is_vietnam_nation = yes
+		is_laos_nation = yes
+		is_cambodia_nation = yes	
+	}
+}
+
+is_GAW_royal_actor = {
+	OR = {
+		original_tag = IMC
+		original_tag = IMJ
+		original_tag = IMK
+		original_tag = DBJ
+		original_tag = ZDJ
+		original_tag = ANM
+		original_tag = JXP
+		original_tag = CGK
+		original_tag = AMM
+		original_tag = LYG
+		original_tag = TGG
+		original_tag = NIX
+	}
+}
+is_GAW_rebel_actor = {
+	OR = {
+		# China
+		original_tag = SHX
+		original_tag = SHD
+		original_tag = QND
+		original_tag = IMN
+		original_tag = DAR
+		original_tag = PRC
+		original_tag = JID
+		original_tag = TIJ
+		original_tag = HEB
+		original_tag = PRC
+		original_tag = QUF
+		original_tag = SHH
+		original_tag = CHI
+		original_tag = MAO
+		original_tag = HNA
+		original_tag = CBS
+		original_tag = KMT
+		original_tag = HLF
+		original_tag = GXC
+		original_tag = YUN
+		original_tag = GZH
+		original_tag = GNA
+		original_tag = SCH
+		original_tag = CHQ
+		original_tag = PDS
+		original_tag = AYG
+		original_tag = ZZH
+		original_tag = QNA
+		original_tag = XSM
+		original_tag = GNS	
+		original_tag = NIX
+		original_tag = SYN
+		original_tag = SXI
+		original_tag = QNG
+		original_tag = HMG
+		original_tag = XXI
+		original_tag = XXC
+		original_tag = XON
+		original_tag = JLF
+		original_tag = JPN
+		original_tag = JPR
+		original_tag = JAF
+		original_tag = KYU
+		original_tag = CHB
+		original_tag = TOK
+		original_tag = AIN
+		original_tag = RYU
+		original_tag = MYK
+		original_tag = YYM
+		original_tag = SKL
+		original_tag = PRK
+		original_tag = ANK
+		original_tag = KOR
+	}
+}
+is_GAW_neutral_actor = {
+	OR = {
+		original_tag = WAX #Wanxi
+		original_tag = NSB #Yi
+		original_tag = MMA #Mong Mao
+		original_tag = CHH #Chiang Hung
+		original_tag = LAX #Lan Xang
+		original_tag = DLI #Dali
+		original_tag = MIA #Miao
+		original_tag = MIR #Miao
+		original_tag = ASN #Taiwan Natives
+		original_tag = KKG #Kokugun
+		original_tag = OMT #Oomoto
+		original_tag = THK #Reppan Domei
+		original_tag = KRF #Karafuto
+		original_tag = EZO #Ezo Republic
+		original_tag = LNG #Liaoning Military Disctrict
+	}
+}
+is_GAW_in_same_faction = {
+	OR = {
+		AND = {
+			ROOT = { is_GAW_royal_actor = no }
+			FROM = {
+				is_GAW_royal_actor = yes
+				is_neighbor_of = ROOT
+			}
+		}
+		AND = {
+			ROOT = { is_GAW_rebel_actor = yes }
+			FROM = {
+				is_GAW_rebel_actor = yes
+				is_neighbor_of = ROOT
+				same_government_type_as_ROOT = no
+			}
+		}
+		AND = {
+			ROOT = { is_GAW_royal_actor = yes }
+			FROM = {
+				is_GAW_royal_actor = yes
+			}
+		}
+	}
+}
+
+is_not_the_same_faction = {
+	OR = {
+		AND = {
+			ROOT = { is_GAW_royal_actor = no }
+			FROM = {
+				is_GAW_royal_actor = yes
+				is_neighbor_of = ROOT
+			}
+		}
+		AND = {
+			ROOT = { is_GAW_rebel_actor = yes }
+			FROM = {
+				is_GAW_rebel_actor = yes
+				is_neighbor_of = ROOT
+				same_government_type_as_ROOT = no
+			}
+		}
+		AND = {
+			ROOT = { is_GAW_royal_actor = yes }
+			FROM = {
+				is_neighbor_of = ROOT
+				is_GAW_royal_actor = yes
+			}
+		}
+		AND = {
+			FROM = {
+				is_neighbor_of = ROOT
+				is_GAW_neutral_actor = yes
+			}
+		}
+	}
+}
+
+is_the_same_region = {
+	OR = {
+		AND = {
+			FROM = { is_huabei_nation = yes }
+			ROOT = { is_huabei_nation = yes }
+		}
+		AND = {
+			FROM = { is_huanan_nation = yes }
+			ROOT = { is_huanan_nation = yes }
+		}
+		AND = {
+			FROM = { is_xibei_nation = yes }
+			ROOT = { is_xibei_nation = yes }
+		}
+		AND = {
+			FROM = { is_huazhong_nation = yes }
+			ROOT = { is_huazhong_nation = yes }
+		}
+		AND = {
+			FROM = { is_huadong_nation = yes }
+			ROOT = { 
+				OR = {
+					is_huadong_nation = yes
+					is_taiwan_nation = yes
+				} 
+			}
+		}
+		AND = {
+			FROM = { is_japan_nation = yes }
+			ROOT = {
+				OR = {
+					is_japan_nation = yes
+					is_ryukyu_nation = yes
+					is_hokkaido_nation = yes
+				}
+			}
+		}
+		AND = {
+			FROM = { is_taiwan_nation = yes }
+			ROOT = {
+				OR = {
+					is_huadong_nation = yes
+					is_taiwan_nation = yes
+				}
+			}
+		}
+		AND = {
+			FROM = { is_ryukyu_nation = yes }
+			ROOT = {
+				OR = {
+					is_japan_nation = yes
+					is_ryukyu_nation = yes
+					is_hokkaido_nation = yes
+				}
+			}
+		}
+		AND = {
+			FROM = { is_hokkaido_nation = yes }
+			ROOT = {
+				OR = {
+					is_japan_nation = yes
+					is_ryukyu_nation = yes
+					is_hokkaido_nation = yes
+				}
+			}
+		}
+		AND = {
+			FROM = { is_korea_nation = yes }
+			ROOT = { is_korea_nation = yes }
+		}
+		AND = {
+			FROM = { is_vietnam_nation = yes }
+			ROOT = { is_vietnam_nation = yes }
+		}
+		AND = {
+			FROM = { is_laos_nation = yes }
+			ROOT = { is_laos_nation = yes }
+		}
+		AND = {
+			FROM = { is_cambodia_nation = yes }
+			ROOT = { is_cambodia_nation = yes }
+		}
+	}
+}

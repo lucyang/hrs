@@ -1,4 +1,4 @@
-﻿capital = 396 #安达曼群岛
+﻿capital = 140 #安达曼群岛
 
 recruit_character = ADM_mutaguchi_renya #牟田口廉也
 

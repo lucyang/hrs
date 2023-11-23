@@ -1,4 +1,4 @@
-﻿capital = 180 # Fukuora
+﻿capital = 16 #德岛
 
 recruit_character = JPR_sakai_toshihiko #堺利彦
 recruit_character = JPR_arahata_kanso #荒畑寒村

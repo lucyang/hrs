@@ -1,0 +1,30 @@
+state={
+	id=66
+	name="STATE_66"
+	provinces={
+		2619 3942 4342 4345 7345 12281 12298 12312 12337 
+	}
+	history = {
+		owner = IMK
+		add_core_of = IMK
+		1924.1.1 = {
+			owner = GJW
+			add_core_of = GJW
+			remove_core_of = IMK
+		}
+		victory_points = { 12312 5 } #大田
+		victory_points = { 12281 1 } #牙山
+		victory_points = { 4345 1 } #平澤
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			4345 = { #平澤港
+				naval_base = 1
+			}
+		}
+	}
+	manpower=1382888
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

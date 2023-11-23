@@ -1,0 +1,24 @@
+
+state={
+	id=65
+	name="STATE_65"
+	provinces={
+		1084 1598 3534 3962 6550 7667 7839 9170 9184 9320 9983 12380 
+	}
+	history = {
+		owner = IMK
+		add_core_of = IMK
+		victory_points = { 7839 10 } #大邱
+		victory_points = { 7667 5 } #蔚山
+		buildings = {
+			infrastructure = 2
+			7667 = {
+				naval_base = 3
+			}
+		}
+	}
+	manpower=2416762
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=470
+	name="STATE_470"
+	provinces={
+		211 863 909 925 953 1852 1947 2177 2329 2360 2802 3303 3492 3991 4811 5457 5562 5742 5965 5991 6056 6202 6232 6724 6841 6877 8115 8641 9107 9358 9412 9520 9687 10127 10300 12990 13030 13038 13043 13053 13063 13076 13102 13134 13164 13170 13245 13349 13353 13384 
+	}
+	history={
+		owner = TIB
+		add_core_of = TIB
+		add_core_of = KHM
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	manpower=273969
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

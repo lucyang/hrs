@@ -1,4 +1,4 @@
-﻿capital = 151 #果洛
+﻿capital = 461 #果洛
 
 #oob = "empty"
 set_country_flag = is_tibet_nation

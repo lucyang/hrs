@@ -1,16 +1,33 @@
 ﻿l_simp_chinese:
- ### KOREAN ###
+ #### VCITORY POINTS ####
+ ### 朝鲜半岛 ###
  VICTORY_POINTS_Seoul:0 "首尔"
  VICTORY_POINTS_Hanseong:0 "汉城"
  VICTORY_POINTS_Wiryeseong:0 "慰礼城"
  VICTORY_POINTS_Kaegyeong:0 "开京"
- VICTORY_POINTS_3702_Korean:0 "东京城"
- ### CHINESE ###
+ ### 日本列岛 ###
+ VICTORY_POINTS_Gyeongseong:0 "东京城"
+ ### HAN CHINESE ###
  VICTORY_POINTS_Nanjing:0 "南京"
  VICTORY_POINTS_Shenyang:0 "沈阳"
- ### MONGOLIAN ###
+ ### 内蒙古 ###
  VICTORY_POINTS_Kalgan:0 "喀拉干"
  VICTORY_POINTS_Hohhot:0 "呼和浩特"
  VICTORY_POINTS_Bugutu:0 "包头"
- VICTORY_POINTS_Ulanqab:0 "乌兰察布"
- ### RUSSIAN ###
+ VICTORY_POINTS_Ulanqab:0 "乌兰浩特"
+ VICTORY_POINTS_Bayannuur:0 "巴彦淖尔"
+ ### 新疆 ###
+ VICTORY_POINTS_Araturuk:0 "阿热吐鲁克" #Aratürük(伊吾)
+ VICTORY_POINTS_Balikol:0 "巴里坤"
+ VICTORY_POINTS_Qumul:0 "库木尔"
+ VICTORY_POINTS_Shanshan:0 "鄯善"
+ VICTORY_POINTS_Kroran:0 "楼兰" #Krorän(楼兰)
+ VICTORY_POINTS_Dihua:0 "迪化" #乌鲁木齐
+ VICTORY_POINTS_Luntai:0 "轮台" #吉木萨尔
+ VICTORY_POINTS_Qitai:0 "奇台"
+ VICTORY_POINTS_Ili:0 "伊犁"
+ VICTORY_POINTS_Bayanbulag:0 "巴音布鲁克" #和静
+ VICTORY_POINTS_Qakilik:0 "卡克里克" #若羌
+ VICTORY_POINTS_Cherchen:0 "车尔臣" #且末
+ VICTORY_POINTS_Karashar:0 "喀喇沙尔" #焉耆
+ VICTORY_POINTS_Lopnur:0 "罗布淖尔" #尉犁

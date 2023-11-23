@@ -1,4 +1,4 @@
-﻿capital = 165 #郑州
+﻿capital = 336 #郑州
 
 recruit_character = ZZH_zhang_guotao
 recruit_character = ZZH_lin_yunan

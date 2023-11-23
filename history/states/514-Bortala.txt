@@ -1,0 +1,19 @@
+state={
+	id=514
+	name="STATE_514"
+	provinces={
+		645 2367 2831 2877 3122 3487 3617 5101 6037 6312 6356 8925 9536 9612 11665 11678 11716 11746 11754 
+	}
+	history={
+		owner = ULI
+		add_core_of = ULI
+		victory_points = { 8925 1 } #博尔塔拉
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=40501
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

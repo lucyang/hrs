@@ -1,4 +1,4 @@
-﻿capital = 143 # 济宁
+﻿capital = 242 #济宁
 
 recruit_character = QUF_zhang_xun
 recruit_character = QUF_chen_huanzhang

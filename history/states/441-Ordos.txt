@@ -1,0 +1,23 @@
+state={
+	id=441
+	name="STATE_441"
+	provinces={
+		34 279 419 1035 1125 1280 1545 1834 2029 2272 2593 2735 2738 2756 2812 3581 3831 4010 4253 4497 4561 4670 5078 5419 5502 5579 5663 6119 6135 6525 6854 7141 7371 7642 8042 8661 9308 9717 9805 9857 11929 11955 11990 12001 12014 12027 12050 12064 12082 12090 12137 12153 12155 12201 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = ORD
+			add_core_of = ORD
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=519476
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

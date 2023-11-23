@@ -1,0 +1,23 @@
+state={
+	id=274
+	name="STATE_274"
+	provinces={
+		3595 7657 8725 12625 12656 12672 12701 12721 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = NJS
+		 	add_core_of = NJS
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=697858
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

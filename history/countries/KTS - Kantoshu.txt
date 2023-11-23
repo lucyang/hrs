@@ -1,4 +1,4 @@
-﻿capital = 67 #大连
+﻿capital = 221 #大连
 
 #recruit_character = KTS_fu_liyu
 

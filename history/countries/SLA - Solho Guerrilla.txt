@@ -1,4 +1,4 @@
-capital = 552
+capital = 543 #鸡心河
 
 #oob = "empty"
 

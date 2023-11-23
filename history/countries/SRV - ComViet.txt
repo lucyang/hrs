@@ -1,7 +1,6 @@
-﻿capital = 570 #乂静
+﻿capital = 167 #乂静
 
 recruit_character = SRV_tran_phu
-
 
 set_technology = {
 	infantry_weapons = 1

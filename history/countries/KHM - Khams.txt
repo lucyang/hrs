@@ -1,4 +1,4 @@
-﻿capital = 207 #昌都
+﻿capital = 470 #昌都
 
 #oob = "empty"
 

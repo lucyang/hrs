@@ -1,4 +1,4 @@
-﻿capital = 395 #金边
+﻿capital = 87 #金边
 
 recruit_character = CAM_norodom_suramarit
 recruit_character = CAM_sisowath_monivong

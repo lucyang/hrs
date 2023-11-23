@@ -1,4 +1,4 @@
-﻿capital = 124 #长治
+﻿capital = 314 #长治
 
 recruit_character = SHR_deng_zhongxia
 recruit_character = SHR_jing_meijiu

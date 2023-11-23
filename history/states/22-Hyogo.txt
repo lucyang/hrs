@@ -1,0 +1,36 @@
+
+state={
+	id=22
+	name="STATE_22"
+	provinces={
+		606 4153 5433 5678 12564 
+	}
+	history={
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = JLF
+			add_core_of = JLF
+			remove_core_of = IMJ
+		}
+		victory_points = { 12564 10 } #神戸
+		victory_points = { 4153 5 } #姫路
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 4
+			air_base = 6
+			12564 = { #神戸港
+				naval_base = 4
+			}
+			4153 = { #姫路港
+				naval_base = 3
+			}
+		}
+	}
+	manpower=608644
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

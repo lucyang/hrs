@@ -1,4 +1,4 @@
-﻿capital = 337 # 百色
+﻿capital = 215 # 百色
 
 recruit_character = BCH_wei_baqun
 recruit_character = BCH_zhang_yunyi

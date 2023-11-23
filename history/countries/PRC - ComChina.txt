@@ -1,4 +1,4 @@
-﻿capital = 127 #邯郸
+﻿capital = 252 #邯郸
 
 recruit_character = PRC_li_dazhao
 recruit_character = PRC_chen_duxiu

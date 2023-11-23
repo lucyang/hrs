@@ -1,0 +1,19 @@
+state={
+	id=134
+	name="STATE_134"
+	provinces={
+		3844 4616 15170 
+	}
+	history={
+		owner = MAL
+		add_core_of = MAL
+		victory_points = { 3844 3 } #亚罗吉打/赛武里
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=463900
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -32,10 +32,10 @@
  #############
  ## PARTIES ##
  #############
- CAM_communism_party:0 "人民派 - 城市派"
- CAM_communism_party_long:0 "人民派 - 城市派"
- CAM_anarchism_party:0 "人民派 - 农村派"
- CAM_anarchism_party_long:0 "人民派 - 农村派"
+ CAM_communism_party:0 "人民派"
+ CAM_communism_party_long:0 "人民派"
+ CAM_anarchism_party:0 "人民派"
+ CAM_anarchism_party_long:0 "人民派"
  CAM_socialism_party:0 "人民社会同盟 - 宾努派"
  CAM_soicalism_party_long:0 "人民社会同盟 - 宾努派"
  CAM_democratic_party:0 "人民社会同盟 - 朗诺派"

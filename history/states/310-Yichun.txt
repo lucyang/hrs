@@ -1,0 +1,23 @@
+state={
+	id=310
+	name="STATE_310"
+	provinces={
+		3871 4700 6154 6306 6860 7083 8716 9640 13206 13243 13277 13302 13350 13360 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = JIX
+		 	add_core_of = JIX
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=377940
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

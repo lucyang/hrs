@@ -1,0 +1,23 @@
+state={
+	id=369
+	name="STATE_369"
+	provinces={
+		771 4591 8687 13153 13188 13197 13222 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = XXI
+			add_core_of = XXI
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=211797
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,4 +1,4 @@
-﻿capital = 204 #信阳
+﻿capital = 347 #信阳
 
 recruit_character = HEN_zhang_fang
 

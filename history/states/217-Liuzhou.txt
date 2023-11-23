@@ -1,0 +1,24 @@
+state={
+	id=217
+	name="STATE_217"
+	provinces={
+		1922 4507 5512 5882 6581 6630 6644 13620 13645 13698 13769 13822 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = GLN
+		 	add_core_of = GLN
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+	}
+	manpower=158751
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

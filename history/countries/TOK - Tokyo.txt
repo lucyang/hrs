@@ -1,4 +1,4 @@
-﻿capital = 600 #江户
+﻿capital = 40 #江户
 
 recruit_character = TOK_bak_chungeum #朴春琴
 recruit_character = TOK_bak_yeol #朴烈

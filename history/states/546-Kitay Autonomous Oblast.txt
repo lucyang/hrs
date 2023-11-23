@@ -1,0 +1,19 @@
+state={
+	id=546
+	name="STATE_546"
+	provinces={
+		283 748 2688 3543 3572 4011 4032 4099 4320 5500 5654 6808 6904 7171 7339 7560 8680 10191 10952 10970 10976 11010 11056 11079 11080 
+	}
+	history={
+		owner = FER
+		add_core_of = FER
+		victory_points = { 5500 1 } #比罗比詹
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=46000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

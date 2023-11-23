@@ -1,0 +1,23 @@
+state={
+	id=425
+	name="STATE_425"
+	provinces={
+		260 710 7305 8050 8877 8928 9293 9411 13744 13767 13905 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = YUN
+			add_core_of = YUN
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=1220718
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

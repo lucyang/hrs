@@ -1,4 +1,4 @@
-capital = 237 #雅安
+capital = 469 #甘孜州
 
 #oob = "empty"
 

@@ -1,0 +1,23 @@
+state={
+	id=439
+	name="STATE_439"
+	provinces={
+		16 483 1334 3696 4377 4399 5544 8645 8731 8922 11686 11834 11864 11875 11896 11901 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = SYN
+			add_core_of = SYN
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=249403
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

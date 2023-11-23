@@ -1,0 +1,21 @@
+state={
+	id=536
+	name="STATE_536"
+	provinces={
+		458 524 757 930 934 1537 1539 1623 1712 1792 1967 2007 2232 2733 2960 3029 3114 3135 3639 3743 3921 3948 4063 4143 4178 4298 4504 5376 5682 5764 5883 5892 6281 6539 6626 6631 6745 6913 7147 7430 7502 7757 8248 8862 8894 9142 9426 10799 10837 10875 10883 10886 10936 10972 10989 11032 
+	}
+	history={
+		owner = DBJ
+		1924.1.1 = {
+			owner = TAN
+			add_core_of = TAN
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=38200
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

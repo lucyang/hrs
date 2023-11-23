@@ -1,4 +1,4 @@
-capital = 460 #开城
+capital = 61 #开城
 
 #oob = "empty"
 

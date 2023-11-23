@@ -1,4 +1,4 @@
-﻿capital = 287 #宁德
+﻿capital = 207 #南平
 
 #oob = "empty"
 

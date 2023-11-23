@@ -1,0 +1,27 @@
+
+state={
+	id=56
+	name="STATE_56"
+	provinces={
+		2141 4139 5679 8815 11602 11669
+	}
+	history={
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = EZO
+			add_core_of = EZO
+			remove_core_of = IMJ
+		}
+		victory_points = { 2141 10 } #札幌
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 2
+		}
+	}
+	manpower=216224
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

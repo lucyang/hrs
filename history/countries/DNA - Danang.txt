@@ -1,4 +1,4 @@
-﻿capital = 529 #河静
+﻿capital = 159 #岘港
 
 recruit_character = DNA_dao_duy_anh
 recruit_character = DNA_vo_nguyen_giap

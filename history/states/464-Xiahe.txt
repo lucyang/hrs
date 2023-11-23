@@ -1,0 +1,23 @@
+state={
+	id=464
+	name="STATE_464"
+	provinces={
+		646 1165 2009 3447 10184 12605 12612 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = LBR
+			add_core_of = LBR
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=78541
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,30 @@
+state={
+	id=21
+	name="STATE_21"
+	provinces={
+		5449 6740 12549 12581 
+	}
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = JLF
+			add_core_of = JLF
+			remove_core_of = IMJ
+		}
+		victory_points = { 12549 5 } #岡山
+		victory_points = { 12581 3 } #倉敷
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			12549 = {
+				naval_base = 1
+			}
+		}
+		
+	}
+	manpower=1217698
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

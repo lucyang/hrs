@@ -1,4 +1,4 @@
-﻿capital = 37 #赤峰
+﻿capital = 330 #承德
 
 recruit_character = JHL_li_shouxin
 recruit_character = JHL_gada_meiren
@@ -62,7 +62,7 @@ add_ideas = {
 	country_development2
 	country_tech2
 	unitary_state1
-	dirgisme_economy
+	dirigisme_economy
 }
 
 set_research_slots = 2

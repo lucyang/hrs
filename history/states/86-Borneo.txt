@@ -1,0 +1,22 @@
+
+state={
+	id=86
+	name="STATE_86"
+	provinces={
+		517 713 779 888 2243 2462 2886 3709 3718 3738 3870 3931 4197 4306 4408 4706 4975 5005 5223 5695 5982 6270 6401 6735 7166 7203 7342 7427 7552 8270 8451 8654 9195 9298 10013 10201 14964 14966 14986 15006 15012 15015 15017 15022 15028 15029 15030 15031 15177 15178 15181 15182 
+	}
+	history={
+		owner = LNF
+		add_core_of = LNF
+		victory_points = { 15082 1 } #山口洋
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+	manpower=5600000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

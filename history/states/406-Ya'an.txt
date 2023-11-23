@@ -1,0 +1,23 @@
+state={
+	id=406
+	name="STATE_406"
+	provinces={
+		872 2336 6758 7993 10062 13121 13123 13178 13212 13261 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = SCH
+			add_core_of = SCH
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=634719
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

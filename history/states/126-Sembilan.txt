@@ -1,0 +1,18 @@
+state={
+	id=126
+	name="STATE_126"
+	provinces={
+		6733 14994 14997
+	}
+	history={
+		owner = MAL
+		add_core_of = MAL
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=264700
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

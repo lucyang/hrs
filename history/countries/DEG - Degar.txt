@@ -1,4 +1,4 @@
-﻿capital = 531 #西原
+﻿capital = 164 #西原
 
 #oob = "empty"
 

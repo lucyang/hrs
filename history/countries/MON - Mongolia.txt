@@ -1,4 +1,4 @@
-﻿capital = 415 #阿勒坦布拉格
+﻿capital = 531 #色楞格
 
 recruit_character = MON_rinchingiin_elbegdorj # 额勒贝格道尔吉·仁钦诺
 recruit_character = MON_peljidiin_genden # 博勒吉德·根登

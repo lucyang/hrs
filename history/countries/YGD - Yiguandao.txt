@@ -1,4 +1,4 @@
-﻿capital = 118 # 济南
+﻿capital = 239 #济南
 
 recruit_character = YGD_lu_zhongyi
 recruit_character = YGD_zhang_tianran

@@ -1,4 +1,4 @@
-﻿capital = 100 # 爱知/名古屋
+﻿capital = 31 # 爱知/名古屋
 
 recruit_character = CHB_abe_iso #安部磯雄
 recruit_character = CHB_nishio_suehiro #西尾末広

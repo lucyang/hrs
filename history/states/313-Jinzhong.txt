@@ -1,0 +1,23 @@
+state={
+	id=313
+	name="STATE_313"
+	provinces={
+		510 7126 8564 8934 9147 12209 12233 12241 12253 12258 12274 12307 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = KBS
+			add_core_of = KBS
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=239901
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=45
+	name="STATE_45"
+	provinces={
+		879 3717 3909 4693 6686 8084 9379 12221 12251 12275 12283 
+	}
+	resources = {
+		oil = 30
+	}
+	history={
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = THK
+			add_core_of = THK
+			remove_core_of = IMJ
+		}
+		victory_points = { 3717 5 } #郡山
+		victory_points = { 8084 3 } #福島
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	manpower=1362750
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

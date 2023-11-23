@@ -1,0 +1,23 @@
+state={
+	id=213
+	name="STATE_213"
+	provinces={
+		3016 4371 5497 5973 6367 6558 7201 8643 13983 14037 14099 14130 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = BCH
+		 	add_core_of = BCH
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=116416
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

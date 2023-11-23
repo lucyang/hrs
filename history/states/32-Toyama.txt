@@ -1,0 +1,24 @@
+state={
+	id=32
+	name="STATE_32"
+	provinces={
+		7410 9309 12353 
+	}
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = KKG
+			add_core_of = KKG
+			remove_core_of = IMJ
+		}
+		victory_points = { 12353 3 } #富山
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=599155
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

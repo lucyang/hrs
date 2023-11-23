@@ -1,4 +1,4 @@
-﻿capital = 163 #开封
+﻿capital = 342 #开封
 
 recruit_character = PDS_shi_taixu
 recruit_character = PDS_wu_peifu

@@ -1,0 +1,23 @@
+state={
+	id=351
+	name="STATE_351"
+	provinces={
+		1702 3008 4054 5959 6143 6640 9140 12951 12980 12985 12987 13035 13061 13091 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = CHI
+			add_core_of = CHI
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=5651515
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

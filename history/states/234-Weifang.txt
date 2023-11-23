@@ -1,0 +1,23 @@
+state={
+	id=234
+	name="STATE_234"
+	provinces={
+		1094 1123 1981 3302 5568 5779 6857 7707 8095 8531 8640 12279 12305 12342 12352 12373 12403 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = QND
+		 	add_core_of = QND
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=148924
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,20 @@
+
+state={
+	id=85
+	name="STATE_85"
+	provinces={
+		96 2862 2909 3072 4796 5434 5655 6020 7347 7913 8049 8921 9295 9450 9755 9767 14931 14942 14944 14946 14954 14956 14960 14961 15159 15160 
+	}
+	history={
+		owner = BRN
+		add_core_of = BRN
+		victory_points = { 2862 1 } #山打根
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=285000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

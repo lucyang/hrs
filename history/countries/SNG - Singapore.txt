@@ -1,4 +1,4 @@
-﻿capital = 394 #新加坡
+﻿capital = 122 #新加坡
 
 #oob = "empty"
 

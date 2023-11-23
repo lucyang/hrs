@@ -1,0 +1,30 @@
+
+state={
+	id=57
+	name="STATE_57"
+	provinces={
+		479 593 899 1157 1401 2037 2428 3602 6732 7099 7281 7761 8386 8982 10239 11107 11151 11219 11247 11270 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = KRF
+			add_core_of = KRF
+			remove_core_of = IMJ
+		}
+		victory_points = { 479 5 } #豊原
+		victory_points = { 7099 3 } #大泊
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			7099 = {
+				naval_base = 1
+			}
+		}
+	}
+	manpower=191497
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,114 @@
+#	Example #
+#
+#	example_trigger = {
+#		tag = IMC
+#		is_ai = no
+#	}
+#
+#
+#	In a script file #
+#
+#	trigger = {
+#		exampel_trigger = yes
+#	}
+#
+is_nation = {
+	is_subject = no
+	is_puppet = no
+	NOT = { original_tag = ZZZ }
+}
+
+is_sovreign_country = {
+	OR = {
+		tag = IMC
+		tag = IMJ
+		tag = IMK
+		tag = ANM
+		tag = MAN
+		tag = DZU
+		tag = TAN
+		tag = ALT
+		tag = NEP
+		tag = BHU
+		tag = SIA
+		tag = KAZ
+		tag = TUK
+		tag = AHM
+		tag = NAG
+	}
+}
+
+is_urban_state = {
+	OR = {
+		has_state_category = megalopolis
+		has_state_category = metropolis
+		has_state_category = large_city
+		has_state_category = city
+		has_state_category = large_town
+	}
+}
+
+is_rural_state = {
+	OR = {
+		has_state_category = town
+		has_state_category = rural
+		has_state_category = small_island
+		has_state_category = tiny_island
+	}
+}
+
+is_controlled_by_ROOT_or_ally = {
+	custom_trigger_tooltip = {
+		tooltip = is_controlled_by_ROOT_or_ally
+		controller = {
+			OR = {
+				tag = ROOT
+				is_subject_of = ROOT
+			}
+		}
+	}
+}
+
+owns_enemy_state = {
+	any_controlled_state = {
+		NOT = {
+			is_owned_by = ROOT
+		}
+	}
+}
+
+owns_or_subject_of = {
+	custom_trigger_tooltip = {
+		tooltip = owns_or_subject_of_tt
+		OWNER = {
+			OR = {
+				tag = ROOT
+				is_subject_of = ROOT
+			}
+		}
+	}
+}
+
+controls_or_subject_of = {
+	custom_trigger_tooltip = {
+		tooltip = controls_or_subject_of_tt
+		controller = {
+			OR = {
+				tag = ROOT
+				is_subject_of = ROOT
+			}
+		}
+	}
+}
+
+is_core_or_compliance_60 = {
+	custom_trigger_tooltip = {
+		tooltip = is_core_or_compliance_60_tt
+		OR = {
+			controller = {
+				PREV = { is_core_of = PREV }
+			}
+			compliance > 60
+		}
+	}
+}

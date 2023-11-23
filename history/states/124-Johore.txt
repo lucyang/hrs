@@ -1,0 +1,21 @@
+state={
+	id=124
+	name="STATE_124"
+	provinces={
+		71 1984 2807 4250 8029 15005 15009 15014 
+	}
+	history={
+		owner = MAL
+		add_core_of = MAL
+		victory_points = { 71 5 } #新山/柔佛峇鲁
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+	manpower=631200
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

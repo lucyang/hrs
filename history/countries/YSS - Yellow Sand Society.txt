@@ -1,4 +1,4 @@
-﻿capital = 191 #阜阳
+﻿capital = 284 #阜阳
 
 #oob = "empty"
 set_country_flag = is_china_nation

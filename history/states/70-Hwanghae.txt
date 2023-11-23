@@ -1,0 +1,29 @@
+state={
+	id=70
+	name="STATE_70"
+	provinces={
+		369 425 2289 4484 6227 7973 8388 8697 12060 12062 12087 12096 12101 12108 12111 12117 12126 12132
+	}
+	history={
+		owner = IMK
+		add_core_of = IMK
+		1924.1.1 = {
+			owner = PRK
+		 	add_core_of = PRK
+			remove_core_of = IMK
+		}
+		victory_points = { 369 5 } #海州
+		victory_points = { 7973 3 } #沙里院
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			369 = {
+				naval_base = 1
+			}
+		}
+	}
+	manpower=1523523
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

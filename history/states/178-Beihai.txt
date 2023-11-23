@@ -1,0 +1,23 @@
+state={
+	id=178
+	name="STATE_178"
+	provinces={
+		4883 14147 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = BFA
+		 	add_core_of = BFA
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=78884
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

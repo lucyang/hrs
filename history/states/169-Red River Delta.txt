@@ -1,0 +1,19 @@
+state={
+	id=169
+	name="STATE_169"
+	provinces={
+		231 2067 2105 8839 14207 14297 14321 
+	}
+	history={
+		owner = IMV
+		add_core_of = IMV
+		victory_points = { 2067 10 } #河内
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=532145
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

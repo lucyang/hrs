@@ -1,0 +1,21 @@
+
+state={
+	id=90
+	name="STATE_90"
+	provinces={
+		843 2057 3859 4141 4495 5937 5942 5984 6454 7632 8089 8354 8691 8703 8728 14270 14311 14319 14364 
+	}
+	history={
+		owner = LAO
+		add_core_of = LAO
+		victory_points = { 8691 10 } #琅勃拉邦
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	manpower=858000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

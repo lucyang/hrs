@@ -1,0 +1,20 @@
+
+state={
+	id=163
+	name="STATE_163"
+	provinces={
+		2963 3385 5297 7202 8954 9238 14882 14903 
+	}
+	history={
+		owner = ANM
+		add_core_of = ANM
+		add_claim_by = CAM
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=2346000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

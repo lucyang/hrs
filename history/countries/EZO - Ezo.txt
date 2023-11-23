@@ -1,4 +1,4 @@
-﻿capital = 543 #函馆
+﻿capital = 51 #函馆
 
 recruit_character = EZO_yoshino_sakuzo #吉野作造
 recruit_character = EZO_hasegawa_nyozekan #長谷川如是閑

@@ -1,0 +1,22 @@
+state={
+	id=125
+	name="STATE_125"
+	provinces={
+		5083 
+	}
+	history={
+		owner = MAL
+		add_core_of = MAL
+		victory_points = { 5083 10 } #马六甲
+		buildings = {
+			infrastructure = 3
+			5083 = {
+				naval_base = 2
+			}
+		}
+	}
+	manpower=225000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

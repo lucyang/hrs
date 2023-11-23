@@ -1,0 +1,23 @@
+state={
+	id=235
+	name="STATE_235"
+	provinces={
+		3062 4352 6770 12415 12456 12469 12491 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = LNY
+		 	add_core_of = LNY
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=637877
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

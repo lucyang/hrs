@@ -1,4 +1,4 @@
-﻿capital = 110 #烟台
+﻿capital = 232 #烟台
 
 recruit_character = QND_xu_jingxin
 

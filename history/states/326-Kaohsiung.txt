@@ -1,0 +1,24 @@
+
+state={
+	id=326
+	name="STATE_326"
+	provinces={
+		7245 9980 14010 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = FRM
+			add_core_of = FRM
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	manpower=535639
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

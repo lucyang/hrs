@@ -1,4 +1,4 @@
-capital = 3
+capital = 1
 
 recruit_character = ZZZ_warlord
 
@@ -14,6 +14,7 @@ set_politics = {
 
 HRS_setup_cultures = yes
 HRS_setup_prefectures = yes
+
 1924.1.1 = {
 	set_global_flag = CHI_Civil_War_Begins
 	set_global_flag = JAP_Civil_War_Begins

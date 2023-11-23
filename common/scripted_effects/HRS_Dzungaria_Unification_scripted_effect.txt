@@ -22,12 +22,6 @@ DZU_select_unified_cosmetic_tag = {
     }
     if = {
         limit = { 
-            original_tag = XIN
-        }
-        set_cosmetic_tag = XIN_DZUNGAR
-    }
-    if = {
-        limit = { 
             original_tag = ETK
         }
         set_cosmetic_tag = ETK_DZUNGAR

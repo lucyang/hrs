@@ -1,4 +1,4 @@
-﻿capital = 153 #拉卜楞/夏河
+﻿capital = 464 #拉卜楞/夏河
 
 #oob = "empty"
 

@@ -1,0 +1,33 @@
+
+state={
+	id=51
+	name="STATE_51"
+	provinces={
+		1360 2248 3897 7710 8205 9786 
+	}
+	history={
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = EZO
+			add_core_of = EZO
+			remove_core_of = IMJ
+		}
+		victory_points = { 8205 5 } #函館
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			air_base = 1
+			11779 = {
+				naval_base = 1
+				coastal_bunker = 3
+			}
+		}
+	}
+	manpower=443502
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

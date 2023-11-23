@@ -1,0 +1,24 @@
+
+state={
+	id=533
+	name="STATE_533"
+	provinces={
+		355 417 665 778 974 1030 1083 1516 1527 1787 2211 2810 2844 2978 3185 4356 4383 4834 6049 6372 6928 7209 8453 11236 11267 11300 11340 11393 11420 11503 
+	}
+	history={
+		owner = DBJ
+		victory_points = { 665 3 } #阿尔拜赫雷
+		victory_points = { 11236 1 } #哈拉和林
+		1924.1.1 = {
+			owner = BOG
+			add_core_of = BOG
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=53800
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,23 @@
+state={
+	id=380
+	name="STATE_380"
+	provinces={
+		846 1349 1872 4317 4719 5416 6417 6879 8119 9156 10059 10196 12675 12679 12709 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = SXI
+			add_core_of = SXI
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=1372125
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

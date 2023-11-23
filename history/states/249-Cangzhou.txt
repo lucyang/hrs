@@ -1,0 +1,23 @@
+state={
+	id=249
+	name="STATE_249"
+	provinces={
+		1065 1366 6034 6272 8987 9789 10229 12095 12097 12135 12138 12177 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = HEB
+		 	add_core_of = HEB
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=3975741
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,20 @@
+
+state={
+	id=145
+	name="STATE_145"
+	provinces={
+		1499 9091 9256 10235 14453 14487 14499 
+	}
+	history={
+		owner = LAO
+		add_core_of = LAO
+		victory_points = { 10235 5 } #万象
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=32700
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

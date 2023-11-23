@@ -1,4 +1,4 @@
-﻿capital = 11 # Ulaanbataar
+﻿capital = 529 #大库伦
 
 #oob = "empty"
 

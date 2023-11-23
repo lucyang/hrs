@@ -1,0 +1,23 @@
+state={
+	id=403
+	name="STATE_403"
+	provinces={
+		5854 5858 9414 9951 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = CLS
+			add_core_of = CLS
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=5313392
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

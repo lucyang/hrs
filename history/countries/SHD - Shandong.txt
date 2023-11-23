@@ -1,4 +1,4 @@
-﻿capital = 109 #德州
+﻿capital = 245 #德州
 
 recruit_character = SHD_liang_shuming
 recruit_character = SHD_zhou_zuoren

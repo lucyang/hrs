@@ -1,0 +1,18 @@
+state={
+	id=170
+	name="STATE_170"
+	provinces={
+		741 2223 3867 4550 4573 5126 5594 6095 6357 9425 9660 9700 9804 13988 14042 14093 14105 14116 14122 14142 14162 14190 15104 15106 
+	}
+	history={
+		owner = IMV
+		add_core_of = IMV
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=1051000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

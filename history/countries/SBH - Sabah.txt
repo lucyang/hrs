@@ -1,4 +1,4 @@
-﻿capital = 411 #山打根
+﻿capital = 85 #山打根
 
 #oob = "empty"
 

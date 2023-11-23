@@ -1,4 +1,4 @@
-﻿capital = 279 #南昌
+﻿capital = 306 #南昌
 
 recruit_character = JIX_li_liejun
 recruit_character = JIX_ma_yubao

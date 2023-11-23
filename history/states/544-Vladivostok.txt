@@ -1,0 +1,22 @@
+state={
+	id=544
+	name="STATE_544"
+	provinces={
+		4231 11535 
+	}
+	history={
+		owner = ZDJ
+		add_core_of = ZDJ
+		victory_points = { 11535 10 } #鎮東(海参崴)
+		buildings = {
+			infrastructure = 3
+			11535 = {
+				naval_base = 4
+			}
+		}
+	}
+	manpower=155187
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

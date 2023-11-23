@@ -1,11 +1,10 @@
-﻿capital = 116 #西宁
+﻿capital = 465 #海南州
 
 #oob = "empty"
 
 set_research_slots = 1
 
 recruit_character = NHA_ma_qi
-recruit_character = NHA_ma_bufang
 recruit_character = NHA_ma_buqing
 
 set_country_flag = is_china_nation

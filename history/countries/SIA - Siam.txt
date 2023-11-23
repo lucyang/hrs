@@ -1,4 +1,4 @@
-capital = 384
+capital = 91 #曼谷
 
 #oob = "empty"
 

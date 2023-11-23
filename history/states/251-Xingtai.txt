@@ -1,0 +1,23 @@
+state={
+	id=251
+	name="STATE_251"
+	provinces={
+		652 1257 2980 4590 5612 6709 8650 12211 12230 12245 12260 12278 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = PRC
+		 	add_core_of = PRC
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=55984
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

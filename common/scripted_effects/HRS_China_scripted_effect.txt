@@ -22,12 +22,6 @@ CHI_select_regional_cosmetic_tag = {
     }
     if = {
         limit = { 
-            original_tag = ANH
-        }
-        set_cosmetic_tag = ANH_regional_unifier
-    }
-    if = {
-        limit = { 
             original_tag = CHI
         }
         set_cosmetic_tag = CHI_regional_unifier
@@ -73,12 +67,6 @@ CHI_select_regional_cosmetic_tag = {
             original_tag = LNY
         }
         set_cosmetic_tag = LNY_regional_unifier
-    }
-    if = {
-        limit = { 
-            original_tag = JIN
-        }
-        set_cosmetic_tag = JIN_regional_unifier
     }
     if = {
         limit = { 
@@ -235,12 +223,6 @@ CHI_select_regional_cosmetic_tag = {
             original_tag = SGN
         }
         set_cosmetic_tag = SGN_regional_unifier
-    }
-    if = {
-        limit = { 
-            original_tag = LGG
-        }
-        set_cosmetic_tag = LGG_regional_unifier
     }
     if = {
         limit = { 
@@ -422,12 +404,6 @@ CHI_select_regional_cosmetic_tag = {
         }
         set_cosmetic_tag = MIA_regional_unifier
     }
-    if = {
-        limit = { 
-            original_tag = MIR
-        }
-        set_cosmetic_tag = MIR_regional_unifier
-    }
 }
 CHI_select_unified_cosmetic_tag = {
 	hidden_effect = {
@@ -450,12 +426,6 @@ CHI_select_unified_cosmetic_tag = {
             original_tag = SHH
         }
         set_cosmetic_tag = SHH_CHINA
-    }
-    if = {
-        limit = { 
-            original_tag = ANH
-        }
-        set_cosmetic_tag = ANH_CHINA
     }
     if = {
         limit = { 
@@ -504,12 +474,6 @@ CHI_select_unified_cosmetic_tag = {
             original_tag = LNY
         }
         set_cosmetic_tag = LNY_CHINA
-    }
-    if = {
-        limit = { 
-            original_tag = JIN
-        }
-        set_cosmetic_tag = JIN_CHINA
     }
     if = {
         limit = { 
@@ -666,12 +630,6 @@ CHI_select_unified_cosmetic_tag = {
             original_tag = SGN
         }
         set_cosmetic_tag = SGN_CHINA
-    }
-    if = {
-        limit = { 
-            original_tag = LGG
-        }
-        set_cosmetic_tag = LGG_CHINA
     }
     if = {
         limit = { 
@@ -852,12 +810,6 @@ CHI_select_unified_cosmetic_tag = {
             original_tag = MIA
         }
         set_cosmetic_tag = MIA_CHINA
-    }
-    if = {
-        limit = { 
-            original_tag = MIR
-        }
-        set_cosmetic_tag = MIR_CHINA
     }
     if = {
         limit = { 

@@ -1,0 +1,21 @@
+
+state={
+	id=475
+	name="STATE_475"
+	provinces={
+		151 5486 5578 13475 
+	}
+	history={
+		owner = TIB
+		add_core_of = TIB
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+	}
+	manpower=503892
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

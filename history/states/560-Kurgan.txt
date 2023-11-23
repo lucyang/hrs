@@ -1,0 +1,19 @@
+state={
+	id=560
+	name="STATE_560"
+	provinces={
+		998 1039 1298 1970 2114 2414 3205 5268 8996 9396 9822 10096 10727 
+	}
+	history={
+		owner = SIB
+		add_core_of = SIB
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	manpower=2075967
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

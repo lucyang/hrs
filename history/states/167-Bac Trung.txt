@@ -1,0 +1,23 @@
+state={
+	id=167
+	name="STATE_167"
+	provinces={
+		347 1866 3679 4451 4959 6203 8140 8905 8965 9333 9337 9400 9647 14317 14336 14392 14412 14422 14477 14522 14563 
+	}
+	history={
+		owner = IMV
+		add_core_of = IMV
+		1924.1.1 = {
+			owner = VIN
+			add_core_of = VIN
+			remove_core_of = IMV
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=3298000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,18 @@
+state={
+	id=299
+	name="STATE_299"
+	provinces={
+		3011 6571 7541 8486 10272 13041 13062 13070 13083 13108 13120 13139 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	manpower=2465000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

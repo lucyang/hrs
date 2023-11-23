@@ -1,0 +1,20 @@
+state={
+	id=138
+	name="STATE_138"
+	provinces={
+		2201 3142 14965 15186
+	}
+	history={
+		owner = BRN
+		add_core_of = BRN
+		victory_points = { 2201 3 } #班达文莱/文莱城
+		victory_points = { 15186 1 } #淡布隆
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=48000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

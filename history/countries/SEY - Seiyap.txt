@@ -1,4 +1,4 @@
-﻿capital = 368 # 新会
+﻿capital = 181 #新会
 
 #oob = "empty"
 set_country_flag = is_china_nation

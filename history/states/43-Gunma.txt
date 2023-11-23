@@ -1,0 +1,25 @@
+state={
+	id=43
+	name="STATE_43"
+	provinces={
+		5397 7986 7998 12339 12355 
+	}
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = NGN
+			add_core_of = NGN
+			remove_core_of = IMJ
+		}
+		victory_points = { 5397 3 } #前橋
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+	}
+	manpower=646479
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

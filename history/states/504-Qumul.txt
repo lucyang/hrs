@@ -1,0 +1,19 @@
+state={
+	id=504
+	name="STATE_504"
+	provinces={
+		167 403 1104 1946 2006 2014 2156 2288 2456 2741 2903 2920 3166 3169 3425 3769 4102 4816 4856 5547 5989 6126 7183 7531 7847 8421 8729 9780 9933 11744 11790 11796 11812 11829 11874 11898 11944 11971 
+	}
+	history={
+		owner = SIK
+		add_core_of = SIK
+		victory_points = { 11796 3 } #哈密
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=52490
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

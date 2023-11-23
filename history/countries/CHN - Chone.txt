@@ -1,6 +1,4 @@
-﻿capital = 154 #甘南/卓尼
-
-#oob = "CHN_CivilWar"
+﻿capital = 456 #甘南/卓尼
 
 set_technology = {
 	infantry_weapons = 1

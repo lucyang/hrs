@@ -1,0 +1,23 @@
+state={
+	id=390
+	name="STATE_390"
+	provinces={
+		261 332 1808 3683 5352 5758 5843 6477 6752 6851 6987 7586 9306 9955 12958 12977 12994 13008 13024 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = CHQ
+			add_core_of = CHQ
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=4879715
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

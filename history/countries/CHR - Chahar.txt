@@ -1,4 +1,4 @@
-﻿capital = 63 #张家口
+﻿capital = 257 #宣化/张家口
 
 recruit_character = CHR_yu_pinqing
 

@@ -1,0 +1,23 @@
+state={
+	id=346
+	name="STATE_346"
+	provinces={
+		2760 3103 6976 8959 9232 9556 9937 12788 12814 12826 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = HEN
+			add_core_of = HEN
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=8029257
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

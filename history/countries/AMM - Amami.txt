@@ -1,4 +1,4 @@
-﻿capital = 593 #熊本
+﻿capital = 5 #熊本
 
 recruit_character = AMM_shirakawa_yoshinori #白川義則
 recruit_character = AMM_ushijima_mitsuru #牛島満

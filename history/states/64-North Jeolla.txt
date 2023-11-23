@@ -1,0 +1,30 @@
+state={
+	id=64
+	name="STATE_64"
+	provinces={
+		3767 8708 9785 12377 12450 
+	}
+	history = {
+		owner = IMK
+		add_core_of = IMK
+		1924.1.1 = {
+			owner = EOK
+			add_core_of = EOK
+			remove_core_of = IMK
+		}
+		victory_points = { 3767 5 } #全州
+		victory_points = { 12377 3 } #郡山
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+			12377 = {
+				naval_base = 2
+			}
+		}
+	}
+	manpower=1503695
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

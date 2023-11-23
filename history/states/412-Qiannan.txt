@@ -1,0 +1,23 @@
+state={
+	id=412
+	name="STATE_412"
+	provinces={
+		781 1091 3089 3800 3907 4475 4851 6786 7697 9197 9351 13517 13536 13573 13582 13619 13650 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = GZH
+			add_core_of = GZH
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=1340768
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

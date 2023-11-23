@@ -1,4 +1,4 @@
-﻿capital = 433 #墨脱/林芝
+﻿capital = 474 #墨脱/林芝
 
 #oob = "empty"
 

@@ -1,0 +1,23 @@
+state={
+	id=209
+	name="STATE_209"
+	provinces={
+		2603 4217 5195 13952 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = GTD
+		 	add_core_of = GTD
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=1737099
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

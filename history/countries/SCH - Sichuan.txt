@@ -1,4 +1,4 @@
-﻿capital = 227
+﻿capital = 398 #成都
 
 recruit_character = SCH_wu_yuzhang
 recruit_character = SCH_zhu_qinglan

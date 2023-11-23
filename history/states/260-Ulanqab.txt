@@ -1,0 +1,24 @@
+
+state={
+	id=260
+	name="STATE_260"
+	provinces={
+		107 169 1409 1531 1992 2412 3314 4454 5019 5266 5900 6173 6685 6705 7176 7685 8106 8139 8147 8538 9046 9093 9902 10154 11653 11752 11763 11770 11786 11787 11851 11866 11877 11883 11906 11923 11930 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = IMN
+			add_core_of = IMN
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=268062
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,23 @@
+state={
+	id=361
+	name="STATE_361"
+	provinces={
+		1172 4630 5787 7194 8419 13408 13482 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = MAO
+			add_core_of = MAO
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=327319
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,4 +1,4 @@
-﻿capital = 77 #大同
+﻿capital = 323 #大同
 
 recruit_character = JIB_xia_gong
 recruit_character = JIB_feng_sizhi

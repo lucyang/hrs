@@ -1,0 +1,29 @@
+state={
+	id=69
+	name="STATE_69"
+	provinces={
+		867 2701 3132 3972 4587 4912 5752 5960 6182 6296 8279 8402 8416 8518 8655 9087 9823 10119 12045 12083 12115 12129 12151 12157 12173 12196 12208 12238 15053
+	}
+	history={
+		owner = IMK
+		add_core_of = IMK
+		1924.1.1 = {
+			owner = GMH
+			add_core_of = GMH
+			remove_core_of = IMK
+		}
+		victory_points = { 6296 5 } #春川
+		victory_points = { 9087 3 } #江陵
+		victory_points = { 3132 1 } #原州
+		buildings = {
+			infrastructure = 2
+			9087 = {
+				naval_base = 1
+			}
+		}
+	}
+	manpower=1487715
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

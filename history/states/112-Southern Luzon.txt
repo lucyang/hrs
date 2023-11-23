@@ -1,0 +1,24 @@
+
+state={
+	id=112
+	name="STATE_112"
+	provinces={
+		2529 3919 6715 7484 7568 8141 8190 8458 8933 9534 14671 14723 14728 14739 14790 15113 15116 15117 15120 15122 18835 
+	}
+	history={
+		owner = PHI
+		add_core_of = PHI
+		victory_points = { 8458 5 } #八打雁
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			8485 = {
+				naval_base = 2
+			}
+		}
+	}
+	manpower=1363900
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

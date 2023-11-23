@@ -1,4 +1,4 @@
-﻿capital = 55 #敦煌
+﻿capital = 450 #敦煌
 
 #oob = "empty"
 set_country_flag = is_china_nation

@@ -1,4 +1,4 @@
-﻿capital = 331 # 德宏
+﻿capital = 424 #德宏
 
 recruit_character = MMA_fang_kesheng
 

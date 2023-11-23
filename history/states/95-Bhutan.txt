@@ -1,0 +1,19 @@
+state={
+	id=95
+	name="STATE_95"
+	provinces={
+		438 2151 2800 3733 4517 5674 7262 8567 9260 9302 9560 9579 13606 13611 13652 13658 
+	}
+    
+    history={
+		owner = BHU
+		add_core_of = BHU
+		victory_points = { 7262 1 } #廷布
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=250000
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

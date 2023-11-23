@@ -1,4 +1,4 @@
-﻿capital = 566 #西贡
+﻿capital = 162 #西贡
 
 recruit_character = SAI_ta_thu_thau
 recruit_character = SAI_nguyen_an_ninh

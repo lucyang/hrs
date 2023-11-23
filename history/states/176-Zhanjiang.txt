@@ -1,0 +1,28 @@
+state={
+	id=176
+	name="STATE_176"
+	provinces={
+		964 1491 3165 8495 14153 14210 14279 15099
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		victory_points = { 8495 5 } #广州湾
+		1924.1.1 = {
+			owner = KCH
+		 	add_core_of = KCH
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+			8495 = {
+				naval_base = 5
+				coastal_bunker = 4
+			}
+		}
+	}
+	manpower=1751015
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

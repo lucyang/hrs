@@ -1,4 +1,4 @@
-﻿capital = 371 #钦州
+﻿capital = 175 #钦州
 
 #oob = "empty"
 

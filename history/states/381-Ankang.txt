@@ -1,0 +1,23 @@
+state={
+	id=381
+	name="STATE_381"
+	provinces={
+		1804 3517 4167 4349 6059 6097 6389 6531 8503 8545 9496 9695 9742 9849 10265 12836 12861 12874 12888 12889 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = LYG
+			add_core_of = LYG
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=1693267
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,0 +1,21 @@
+state={
+	id=133
+	name="STATE_133"
+	provinces={
+		14953 15174
+	}
+	history={
+		owner = MAL
+		add_core_of = MAL
+		victory_points = { 15174 10 } #槟城
+		victory_points = { 14953 5 } #大山脚
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+		}
+	}
+	manpower=405700
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

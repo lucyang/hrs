@@ -1,0 +1,24 @@
+state={
+	id=543
+	name="STATE_543"
+	provinces={
+		3033 9841 11585 11606 11628 11631 
+	}
+	history={
+		owner = ZDJ
+		add_core_of = ZDJ
+		1926.1.1 = {
+			owner = SLA
+			add_core_of = SLA
+			remove_core_of = SLA
+		}
+		victory_points = { 11628 1 } #鷄心河
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=42482
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

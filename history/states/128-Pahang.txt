@@ -1,0 +1,19 @@
+
+state={
+	id=128
+	name="STATE_128"
+	provinces={
+		868 3355 4435 5115 8751 9447 9878 9972 14988 14989 15188 
+	}
+	history={
+		owner = MAL
+		add_core_of = MAL
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=264700
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

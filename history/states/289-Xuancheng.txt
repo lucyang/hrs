@@ -1,0 +1,18 @@
+state={
+	id=289
+	name="STATE_289"
+	provinces={
+		996 1169 6541 6588 8214 12943 12995 13026 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=587877
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

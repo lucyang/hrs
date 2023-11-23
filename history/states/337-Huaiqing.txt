@@ -1,0 +1,23 @@
+state={
+	id=337
+	name="STATE_337"
+	provinces={
+		5874 6579 6781 9782 12573 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = AYG
+			add_core_of = AYG
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

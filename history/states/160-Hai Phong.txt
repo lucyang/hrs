@@ -1,0 +1,21 @@
+state={
+	id=160
+	name="STATE_160"
+	provinces={
+		14227 
+	}
+	history={
+		owner = IMC
+		victory_points = { 14227 10 } #海防
+		buildings = {
+			infrastructure = 3
+			14227 = {
+				naval_base = 4
+			}
+		}
+	}
+	manpower=124000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

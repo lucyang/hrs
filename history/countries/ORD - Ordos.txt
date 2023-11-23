@@ -1,4 +1,4 @@
-﻿capital = 76 #鄂尔多斯
+﻿capital = 441 #鄂尔多斯
 
 #oob = "empty"
 set_country_flag = is_mongolia_nation

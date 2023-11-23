@@ -1,0 +1,18 @@
+state={
+	id=471
+	name="STATE_471"
+	provinces={
+		55 896 2231 2514 3670 4938 5251 5383 6183 7311 7811 10104 13228 13307 13308 13335 
+	}
+	history={
+		owner = TIB
+		add_core_of = TIB
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=10561
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

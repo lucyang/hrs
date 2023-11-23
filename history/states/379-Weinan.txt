@@ -1,0 +1,23 @@
+state={
+	id=379
+	name="STATE_379"
+	provinces={
+		8 382 3934 4173 4929 7545 8571 10294 10299 12488 12534 12536 12631 12662 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = SXI
+			add_core_of = SXI
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=3397276
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

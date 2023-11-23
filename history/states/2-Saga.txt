@@ -1,0 +1,24 @@
+state={
+	id=2
+	name="STATE_2"
+	provinces={
+		1045 
+	}
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = KYU
+			add_core_of = KYU
+			remove_core_of = IMJ
+		}
+		victory_points = { 1045 1 } #佐賀
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=1233233
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

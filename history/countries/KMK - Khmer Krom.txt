@@ -1,4 +1,4 @@
-﻿capital = 533 #茶荣(Tỉnh Trà)
+﻿capital = 163 #茶荣(Tỉnh Trà)
 
 recruit_character = KMK_son_ngo_thanh
 recruit_character = KMK_lan_nol

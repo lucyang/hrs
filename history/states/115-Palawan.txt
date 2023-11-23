@@ -1,0 +1,18 @@
+state={
+	id=115
+	name="STATE_115"
+	provinces={
+		2493 6045 9494 9896 14888 14894 15126 15127 15138 15155 15156 
+	}
+	history={
+		owner = PHI
+		add_core_of = PHI
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=3377000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

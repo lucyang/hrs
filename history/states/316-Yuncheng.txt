@@ -1,0 +1,23 @@
+state={
+	id=316
+	name="STATE_316"
+	provinces={
+		1488 3472 3760 6482 7056 7073 7519 8707 12548 12589 12617 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = SHR
+			add_core_of = SHR
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=45009
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

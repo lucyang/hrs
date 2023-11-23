@@ -1,0 +1,23 @@
+state={
+	id=360
+	name="STATE_360"
+	provinces={
+		1761 1987 5337 6459 7067 7511 8228 9758 13148 13165 13215 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = HMG
+			add_core_of = HMG
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	manpower=507801
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

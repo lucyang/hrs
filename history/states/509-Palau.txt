@@ -1,0 +1,22 @@
+state={
+	id=509
+	name="STATE_509"
+	provinces={
+		15157
+	}
+	history={
+		owner = IMC
+		victory_points = { 15157 5 } #科罗尔
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			15157 = {
+				naval_base = 2
+			}
+		}
+	}
+	manpower=6009
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+	local_supplies=0.000
+}

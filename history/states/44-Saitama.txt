@@ -1,0 +1,24 @@
+state={
+	id=44
+	name="STATE_44"
+	provinces={
+		12419 
+	}
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = TOK
+			add_core_of = TOK
+			remove_core_of = IMJ
+		}
+		victory_points = { 12419 3 } #埼玉
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=719533
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,4 +1,4 @@
-﻿capital = 528 #安沛
+﻿capital = 168 #太原
 
 recruit_character = VQD_nguyen_tuong_tam
 recruit_character = VQD_nguyen_thai_hoc

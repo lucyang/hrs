@@ -1,0 +1,23 @@
+state={
+	id=449
+	name="STATE_449"
+	provinces={
+		72 552 679 1481 3518 3881 4432 5118 5810 5886 5917 7529 7677 7744 8231 9372 10295 12061 12071 12104 12163 12167 12175 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = XSM
+			add_core_of = XSM
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=250759
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

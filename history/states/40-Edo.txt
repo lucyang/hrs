@@ -1,0 +1,26 @@
+
+state={
+	id=40
+	name="STATE_40"
+	provinces={
+		12411 
+	}
+	history={
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = TOK
+			add_core_of = TOK
+			remove_core_of = IMJ
+		}
+		victory_points = { 12411 3 } #新京都
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+	}
+	manpower=694000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

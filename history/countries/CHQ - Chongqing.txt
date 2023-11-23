@@ -1,4 +1,4 @@
-﻿capital = 236 # Chongqing
+﻿capital = 393 #重庆
 
 recruit_character = CHQ_chen_tianhua
 recruit_character = CHQ_zou_rong

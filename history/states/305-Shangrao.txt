@@ -1,0 +1,23 @@
+state={
+	id=305
+	name="STATE_305"
+	provinces={
+		5039 5460 6955 7591 8301 8690 9092 9550 13235 13279 13296 13316 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = DAO
+		 	add_core_of = DAO
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=3469753
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

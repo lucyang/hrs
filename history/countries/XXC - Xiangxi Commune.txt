@@ -1,4 +1,4 @@
-﻿capital = 282 #怀化
+﻿capital = 372 #洪江
 
 recruit_character = XXC_xiang_jingyu
 recruit_character = XXC_jiang_xiqing
@@ -13,6 +13,7 @@ recruit_character = XXC_chamber_of_commerce
 set_variable = { XXC_militias_cap = 12 }
 
 oob = "XXC_CivilWar"
+
 set_country_flag = is_china_nation
 
 set_technology = {

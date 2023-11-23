@@ -1,4 +1,4 @@
-﻿capital = 353 # 惠州
+﻿capital = 186 #惠州
 
 #oob = "empty"
 set_country_flag = is_china_nation

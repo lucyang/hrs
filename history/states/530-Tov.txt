@@ -1,0 +1,17 @@
+state={
+	id=530
+	name="STATE_530"
+	provinces={
+		54 546 993 1108 1478 1715 2684 2698 2816 2926 3082 3590 4335 4714 4728 4743 4941 5629 5877 6425 6547 6725 6830 7208 7533 7619 7821 7859 7897 8193 8316 8758 8975 10269 10993 11065 11108 11134 11208 11220 11240 11278 
+	}
+	history={
+		owner = DBJ
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=50400
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

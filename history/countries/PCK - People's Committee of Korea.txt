@@ -1,4 +1,4 @@
-capital = 451 #罗先/罗津
+capital = 84 #罗先/罗津
 
 #oob = "empty"
 

@@ -1,0 +1,23 @@
+state={
+	id=275
+	name="STATE_275"
+	provinces={
+		253 2247 3460 3757 3841 7658 8105 9911 12610 12623 12629 12632 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = NJS
+		 	add_core_of = NJS
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=4402000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

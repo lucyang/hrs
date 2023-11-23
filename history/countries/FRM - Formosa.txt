@@ -1,4 +1,4 @@
-﻿capital = 346 #台中
+﻿capital = 326 #高雄
 
 recruit_character = FRM_jiang_weishui
 recruit_character = FRM_lian_wenqing

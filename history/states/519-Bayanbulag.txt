@@ -1,0 +1,19 @@
+state={
+	id=519
+	name="STATE_519"
+	provinces={
+		58 813 1734 2658 3440 4191 4485 6742 7092 7277 7429 8903 9958 11845 11904 11925 11940 11954 11956 
+	}
+	history={
+		owner = HAM
+		add_core_of = HAM
+		victory_points = { 8903 1 } #和靖/巴音布鲁克
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=57241
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

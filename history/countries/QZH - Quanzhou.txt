@@ -1,4 +1,4 @@
-﻿capital = 291 #南平
+﻿capital = 200 #泉州
 
 #oob = "empty"
 

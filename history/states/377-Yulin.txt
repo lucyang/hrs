@@ -1,0 +1,23 @@
+state={
+	id=377
+	name="STATE_377"
+	provinces={
+		1216 1667 1801 1900 3058 3516 3584 4885 5000 5167 5170 5381 5410 5696 6599 6952 8591 8870 9357 9399 9569 9611 9614 9766 10004 12054 12073 12093 12127 12143 12147 12148 12161 12191 12207 12214 12218 12267 12268 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = NSX
+			add_core_of = NSX
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=1719967
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

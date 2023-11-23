@@ -1,4 +1,4 @@
-﻿capital = 363 #河内
+﻿capital = 169 #河内
 
 #oob = "empty"
 

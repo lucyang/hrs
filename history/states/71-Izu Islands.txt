@@ -1,0 +1,26 @@
+state={
+	id=71
+	name="STATE_71"
+	provinces={
+		15062 15069 15072 
+	}
+	history={
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = JAF
+			add_core_of = JAF
+			remove_core_of = IMJ
+		}
+		buildings = {
+			infrastructure = 1
+			15062 = {
+				naval_base = 1
+			}
+		}
+	}
+	manpower=6824
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+	local_supplies=0.000
+}

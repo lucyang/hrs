@@ -1,0 +1,28 @@
+
+state={
+	id=72
+	name="STATE_72"
+	provinces={
+		6699 6925 8611 11658 
+	}
+	history={
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = EZO
+			add_core_of = EZO
+			remove_core_of = IMJ
+		}
+		victory_points = { 6925 5 } #小樽
+		buildings = {
+			infrastructure = 3
+			6925 = {
+				naval_base = 4
+			}
+		}
+	}
+	manpower=307809
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

@@ -1,4 +1,4 @@
-﻿capital = 288 # Rangoon
+﻿capital = 96 #仰光
 
 #oob = "empty"
 

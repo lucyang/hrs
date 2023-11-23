@@ -1,4 +1,4 @@
-﻿capital = 71 #归绥/呼和浩特
+﻿capital = 438 #归绥/呼和浩特
 
 #oob = "empty"
 set_country_flag = is_china_nation

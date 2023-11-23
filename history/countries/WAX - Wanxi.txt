@@ -1,4 +1,4 @@
-﻿capital = 177 #宛西
+﻿capital = 344 #宛西
 
 recruit_character = WAX_bie_tingfang
 recruit_character = WAX_peng_yuting

@@ -1,4 +1,4 @@
-﻿capital = 358 #汕头
+﻿capital = 189 #汕头
 
 #oob = "empty"
 

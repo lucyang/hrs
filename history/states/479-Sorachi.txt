@@ -1,0 +1,24 @@
+state={
+	id=479
+	name="STATE_479"
+	provinces={
+		352 2511 4842 5229 11584 11651
+	}
+	history={
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = EZO
+			add_core_of = EZO
+			remove_core_of = IMJ
+		}
+		victory_points = { 2511 5 } #深川
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=68845
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

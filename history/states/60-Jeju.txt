@@ -1,0 +1,22 @@
+state={
+	id=60
+	name="STATE_60"
+	provinces={
+		4457 12734
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+		victory_points = { 12734 1 } #濟州
+		buildings = {
+			infrastructure = 1
+			12734 = {
+				naval_base = 1
+			}
+		}
+	}
+	manpower=208194
+	buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=0.000
+}

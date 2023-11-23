@@ -1,4 +1,4 @@
-﻿capital = 323 #黔西南/兴义
+﻿capital = 416 #黔西南/兴义
 
 #oob = "empty"
 

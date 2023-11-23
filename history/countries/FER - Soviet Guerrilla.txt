@@ -1,9 +1,8 @@
-﻿capital = 550 # Soviet Harbor
+﻿capital = 542 # Soviet Harbor
 
 #oob = "empty"
 
 recruit_character = DAL_vasily_blucher
-
 
 set_technology = {
 	infantry_weapons = 1

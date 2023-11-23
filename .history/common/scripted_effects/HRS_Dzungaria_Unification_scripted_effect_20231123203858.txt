@@ -1,0 +1,71 @@
+DZU_select_unified_cosmetic_tag = {
+	hidden_effect = {
+		drop_cosmetic_tag = yes
+	}
+    if = {
+        limit = { 
+            original_tag = DZU
+        }
+        set_cosmetic_tag = DZU_DZUNGAR
+    }
+    if = {
+        limit = { 
+            original_tag = TAN
+        }
+        set_cosmetic_tag = TAN_DZUNGAR
+    }
+    if = {
+        limit = { 
+            original_tag = ALT
+        }
+        set_cosmetic_tag = ALT_DZUNGAR
+    }
+    if = {
+        limit = { 
+            original_tag = ETK
+        }
+        set_cosmetic_tag = ETK_DZUNGAR
+    }
+    if = {
+        limit = { 
+            original_tag = ASH
+        }
+        set_cosmetic_tag = ASH_DZUNGAR
+    }
+    if = {
+        limit = { 
+            original_tag = HOT
+        }
+        set_cosmetic_tag = HOT_DZUNGAR
+    }
+    if = {
+        limit = { 
+            original_tag = YAK
+        }
+        set_cosmetic_tag = HAM_DZUNGAR
+    }
+    if = {
+        limit = { 
+            original_tag = AKS
+        }
+        set_cosmetic_tag = AKS_DZUNGAR
+    }
+    if = {
+        limit = { 
+            original_tag = SIK
+        }
+        set_cosmetic_tag = SIK_DZUNGAR
+    }
+    if = {
+        limit = { 
+            original_tag = TCH
+        }
+        set_cosmetic_tag = TCH_DZUNGAR
+    }
+    if = {
+        limit = { 
+            original_tag = ILI
+        }
+        set_cosmetic_tag = ILI_DZUNGAR
+    }
+}

@@ -1,4 +1,4 @@
-﻿capital = 289 #冲绳
+﻿capital = 11 #冲绳
 
 recruit_character = RYU_sho_hiroshi #尚裕王
 recruit_character = RYU_sho_jun #尚順王

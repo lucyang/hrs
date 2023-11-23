@@ -1,0 +1,21 @@
+state={
+	id=132
+	name="STATE_132"
+	provinces={
+		1 1336 1909 3223 3242 3540 4688 4818 4819 4889 5453 5652 7401 8021 8082 8558 8723 9304 9421 9675 10149 14970 14974 14981 14983 14987 14998 15000 15002 15008 
+	}
+	history={
+		owner = SRW
+		add_core_of = SRW
+		victory_points = { 5652 5 } #古晋
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+	manpower=4400000	
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

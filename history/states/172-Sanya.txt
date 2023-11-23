@@ -1,0 +1,29 @@
+state={
+	id=172
+	name="STATE_172"
+	provinces={
+		10066
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = HNN
+		 	add_core_of = HNN
+			remove_core_of = IMC
+		}
+		victory_points = { 10066 10 } #崖州
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			10066 = {
+				naval_base = 6
+			}
+		}
+	}
+	manpower=179343
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

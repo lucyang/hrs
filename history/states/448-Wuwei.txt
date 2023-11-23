@@ -1,0 +1,23 @@
+state={
+	id=448
+	name="STATE_448"
+	provinces={
+		370 807 898 1940 2922 3313 3961 4159 4397 4464 6370 6628 7008 8627 8694 8992 9122 9264 9645 12092 12122 12199 12263 12273 12294 12316 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = GNS
+			add_core_of = GNS
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=550241
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

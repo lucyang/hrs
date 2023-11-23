@@ -1,0 +1,23 @@
+state={
+	id=211
+	name="STATE_211"
+	provinces={
+		4928 5516 10255 13813 13869 13962 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = GTD
+		 	add_core_of = GTD
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=110840
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

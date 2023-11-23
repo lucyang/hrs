@@ -1,4 +1,4 @@
-﻿capital = 137 #临沂
+﻿capital = 236 #临沂
 
 recruit_character = LNY_liu_guitang
 

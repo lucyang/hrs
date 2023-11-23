@@ -1,4 +1,4 @@
-﻿capital = 379 # 佛冈
+﻿capital = 197 #佛山
 
 #oob = "empty"
 set_country_flag = is_china_nation

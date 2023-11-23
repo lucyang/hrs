@@ -1,0 +1,26 @@
+
+state={
+	id=372
+	name="STATE_372"
+	provinces={
+		3506 5599 7562 8853 13401
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = XXC
+			add_core_of = XXC
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+	manpower=769711
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

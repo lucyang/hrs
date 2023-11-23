@@ -1,0 +1,18 @@
+state={
+	id=168
+	name="STATE_168"
+	provinces={
+		1774 2896 3604 5276 7200 7343 8610 8968 9796 14110 14125 14172 14174 14201 14219 14238 14250 14266 
+	}
+	history={
+		owner = IMV
+		add_core_of = IMV
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=1084000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

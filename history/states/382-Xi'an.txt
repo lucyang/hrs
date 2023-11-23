@@ -1,0 +1,24 @@
+
+state={
+	id=382
+	name="STATE_382"
+	provinces={
+		745 3431 4296 6109 8908 9330 10089 12695 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = SXI
+			add_core_of = SXI
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	manpower=787259
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

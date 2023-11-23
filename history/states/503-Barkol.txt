@@ -1,0 +1,19 @@
+state={
+	id=503
+	name="STATE_503"
+	provinces={
+		691 1058 1771 3198 3308 3741 4133 4990 5613 6669 7197 7808 8098 9035 11544 11586 11659 11683 11700 11704 
+	}
+	history={
+		owner = SIK
+		add_core_of = SIK
+		victory_points = { 11700 1 } #镇西府/巴里坤
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=23180
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

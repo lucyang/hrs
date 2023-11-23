@@ -1,4 +1,4 @@
-﻿capital = 128 #兰州
+﻿capital = 447 #兰州
 
 #oob = "empty"
 

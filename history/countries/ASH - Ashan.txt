@@ -1,4 +1,4 @@
-capital = 14 # Altay
+capital = 508 #阿勒泰
 
 #oob = "empty"
 

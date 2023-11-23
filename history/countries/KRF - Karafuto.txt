@@ -1,4 +1,4 @@
-﻿capital = 6 # 桦太岛
+﻿capital = 57 # 桦太岛
 
 recruit_character = KRF_yamabe_yasunosuke #山辺安之助
 recruit_character = KRF_nagai_kinjiro #永井金次郎

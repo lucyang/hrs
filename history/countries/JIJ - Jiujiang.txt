@@ -1,4 +1,4 @@
-﻿capital = 264 #九江
+﻿capital = 311 #九江
 
 recruit_character = JIJ_hu_xianxiao
 recruit_character = JIJ_wu_mi

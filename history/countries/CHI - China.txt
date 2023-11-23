@@ -1,4 +1,4 @@
-﻿capital = 244 # Wuhan
+﻿capital = 353 #武汉
 
 recruit_character = CHI_hu_ying
 recruit_character = CHI_dong_biwu

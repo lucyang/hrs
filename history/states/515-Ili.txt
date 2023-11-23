@@ -1,0 +1,25 @@
+state={
+	id=515
+	name="STATE_515"
+	provinces={
+		341 902 1227 1951 2398 3555 3889 4046 4201 4247 4392 4737 5037 5109 5231 5884 6397 6403 6519 7052 7064 7805 8898 9210 9488 11769 11808 11809 11813 11816 11818 11837 11857 11863 11873 11882 11927 
+	}
+	history={
+		owner = DZU
+		add_core_of = DZU
+		victory_points = { 4201 5 } #固勒扎(伊犁)
+		victory_points = { 7805 3 } #霍尔果斯
+		1924.1.1 = {
+			owner = ULI
+			add_core_of = ULI
+			remove_core_of = DZU
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=495402
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

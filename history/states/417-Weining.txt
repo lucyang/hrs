@@ -1,0 +1,24 @@
+state={
+	id=417
+	name="STATE_417"
+	provinces={
+		2690 7701 13507 13520 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = MIA
+			add_core_of = MIA
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	manpower=586396
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

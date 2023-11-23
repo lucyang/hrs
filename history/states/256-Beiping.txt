@@ -1,0 +1,23 @@
+state={
+	id=256
+	name="STATE_256"
+	provinces={
+		395 1433 2985 3442 4736 6065 7447 8835 8836 9938 10124 10287 11858 11884 11908 11957 11993 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = TIJ
+		 	add_core_of = TIJ
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

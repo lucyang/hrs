@@ -1,4 +1,4 @@
-﻿capital = 226 #上海
+﻿capital = 261 #上海
 
 #oob = "empty"
 
@@ -147,7 +147,7 @@ set_variable = { var = upr_council_total value = 740 }
 set_variable = { var = upr_quorum_low value = 296 }
 set_variable = { var = upr_quorum_medium value = 370 }
 set_variable = { var = upr_quorum_high value = 444 }
-UPR_recalc_council_icon_frames = yes
+#UPR_recalc_council_icon_frames = yes
 ### FACTIONS ###
 set_variable = { var = upr_marxist value = 32 }
 set_variable = { var = upr_anarchist value = 19 }

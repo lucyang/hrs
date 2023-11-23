@@ -1,0 +1,24 @@
+
+state={
+	id=207
+	name="STATE_207"
+	provinces={
+		1106 2041 3049 3567 3710 4876 4900 7888 7961 10073 13325 13343 13344 13371 13377 13398 13404 13430 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = FJN
+			add_core_of = FJN
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=928393
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

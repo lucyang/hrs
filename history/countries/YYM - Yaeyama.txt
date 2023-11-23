@@ -1,4 +1,4 @@
-﻿capital = 549 #八重山
+﻿capital = 12 #八重山
 
 recruit_character = YYM_miyara_chosho #宮良長詳
 

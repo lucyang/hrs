@@ -1,0 +1,38 @@
+
+state={
+	id=1
+	name="STATE_1"
+	provinces={
+		12783 15066 15068 15070 15071 15073 
+	}
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = KYU
+			add_core_of = KYU
+			remove_core_of = IMJ
+		}
+		victory_points = { 12783 20 } #長崎
+		victory_points = { 15070 15 } #平戸
+		victory_points = { 15066 15 } #佐世保
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			dockyard = 6
+			12783 = {
+				naval_base = 4
+			}
+			15066 = {
+				naval_base = 6
+			}
+			15070 = {
+				naval_base = 4
+			}
+		}
+	}
+	manpower=1810077
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

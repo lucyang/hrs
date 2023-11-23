@@ -1,0 +1,21 @@
+state={
+	id=523
+	name="STATE_523"
+	provinces={
+		175 308 683 708 795 855 907 960 1019 2023 2271 2284 2326 2372 2420 3360 4348 4614 5435 6197 6489 6918 6998 7267 7900 8363 9284 9442 9571 9764 10153 10223 11180 11188 11192 11215 11221 11241 11257 11294 11353 
+	}
+	history={
+		owner = DBJ
+		1924.1.1 = {
+			owner = DAR
+			add_core_of = DAR
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=27800
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

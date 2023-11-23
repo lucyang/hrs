@@ -1,0 +1,23 @@
+state={
+	id=454
+	name="STATE_454"
+	provinces={
+		333 1255 4092 6887 8719 9011 9205 10016 12506 12533 12539 12577 12593 12606 12619 12670 12674 12692 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = TSH
+			add_core_of = TSH
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=1193623
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

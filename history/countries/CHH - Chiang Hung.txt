@@ -1,4 +1,4 @@
-﻿capital = 374 # 西双版纳
+﻿capital = 419 #西双版纳
 
 recruit_character = CHH_dao_dongliang
 

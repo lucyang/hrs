@@ -1,0 +1,23 @@
+state={
+	id=468
+	name="STATE_468"
+	provinces={
+		3 451 520 1816 2178 2221 2604 2638 2890 3147 4050 5085 5298 5606 5694 6131 6783 7712 7970 8618 9281 9480 9586 9730 12867 12910 12921 12940 12993 13039 13054 13069 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = SCH
+			add_core_of = SCH
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=392707
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

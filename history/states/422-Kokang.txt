@@ -1,0 +1,24 @@
+state={
+	id=422
+	name="STATE_422"
+	provinces={
+		1752 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		victory_points = { 1752 1 } #老街
+		1924.1.1 = {
+			owner = BRM
+			add_core_of = BRM
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

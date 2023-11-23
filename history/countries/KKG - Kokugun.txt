@@ -1,4 +1,4 @@
-﻿capital = 541 # 石川县/金泽
+﻿capital = 30 #石川
 
 recruit_character = KKG_onishi_takijiro #大西泷治郎
 

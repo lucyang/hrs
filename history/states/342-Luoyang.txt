@@ -1,0 +1,23 @@
+state={
+	id=342
+	name="STATE_342"
+	provinces={
+		2043 2573 3196 3444 3691 3782 4910 6580 6900 9136 12624 12652 12680 12693 12703 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = PDS
+			add_core_of = PDS
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=3466048
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

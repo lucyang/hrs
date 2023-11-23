@@ -1,0 +1,24 @@
+state={
+	id=423
+	name="STATE_423"
+	provinces={
+		5430 5526 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		victory_points = { 5430 1 } #邦康
+		1924.1.1 = {
+			owner = LAX
+			add_core_of = LAX
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=752551
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

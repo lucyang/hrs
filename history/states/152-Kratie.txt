@@ -1,0 +1,18 @@
+state={
+	id=152
+	name="STATE_152"
+	provinces={
+		1242 4985 7412 9106 14794 14800 14815 14819 
+	}
+	history={
+		owner = CAM
+		add_core_of = CAM
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=64500
+	buildings_max_level_factor=1.000
+	state_category = rural
+	local_supplies=0.000
+}

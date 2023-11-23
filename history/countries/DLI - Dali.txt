@@ -1,4 +1,4 @@
-﻿capital = 316 #大理
+﻿capital = 434 #大理
 
 recruit_character = DLI_yan_zizhen
 recruit_character = DLI_qu_huanzhang

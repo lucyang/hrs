@@ -1,0 +1,20 @@
+state={
+	id=553
+	name="STATE_553"
+	provinces={
+		110 133 840 1105 1554 1621 1786 2005 2224 2522 2829 2908 3005 3229 3275 3325 3433 3810 4362 4639 5574 6172 6337 6402 7192 7282 7546 7703 8349 8783 9917 10121 10225 10495 10548 10554 10568 10569 10576 10596 10603 10739 10765 10792 10827 10842 
+	}
+	history={
+		owner = SIB
+		add_core_of = SIB
+		add_core_of = KHA
+		victory_points = { 7546 1 } #阿巴坎
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=112200
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

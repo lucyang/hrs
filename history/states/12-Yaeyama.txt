@@ -1,0 +1,29 @@
+state={
+	id=12
+	name="STATE_12"
+	provinces={
+		15090 15092 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = YYM
+			add_core_of = YYM
+			add_core_of = RYU
+			add_claim_by = AMM
+			remove_core_of = IMJ
+		}
+		victory_points = { 15092 1 } #石垣
+		buildings = {
+			infrastructure = 1
+			15092 = {
+				naval_base = 1
+			}
+		}
+	}
+	manpower=42675
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+	local_supplies=0.000
+}

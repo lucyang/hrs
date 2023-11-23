@@ -1,4 +1,4 @@
-﻿capital = 350 #花莲
+﻿capital = 324 #花莲
 
 recruit_character = ASN_losing_watan
 

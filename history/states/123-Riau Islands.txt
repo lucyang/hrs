@@ -1,0 +1,22 @@
+state={
+	id=123
+	name="STATE_123"
+	provinces={
+		15192 15193 15194 15195 
+	}
+	history={
+		owner = SNG
+		add_core_of = SNG
+		victory_points = { 15192 5 } #丹戎槟榔
+		buildings = {
+			infrastructure = 2
+			15192 = {
+				naval_base = 1
+			}
+		}
+	}
+	manpower=298200
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

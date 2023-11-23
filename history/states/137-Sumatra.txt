@@ -1,0 +1,21 @@
+
+state={
+	id=137
+	name="STATE_137"
+
+	history={
+		owner = MAL
+		add_core_of = MAL
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		56 108 819 1204 1272 1636 1681 2319 3624 4071 6352 6500 6703 7434 7547 7574 7756 7778 7829 7937 8047 8306 8370 8439 8970 9196 9873 9966 10049 14990 14993 14996 14999 15011 15013 15016 15020 15027 15032 18474 
+	}
+	manpower=7251781
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

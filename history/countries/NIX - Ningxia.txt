@@ -1,4 +1,4 @@
-﻿capital = 96 #宁夏
+﻿capital = 442 #宁夏
 
 #oob = "empty"
 

@@ -1,0 +1,28 @@
+state={
+	id=46
+	name="STATE_46"
+	provinces={
+		2508 5812 8208 8243 12139 12182 12189 
+	}
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = THK
+			add_core_of = THK
+			remove_core_of = IMJ
+		}
+		victory_points = { 5812 10 } #仙台 
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			5812 = {
+				naval_base = 1
+			}
+		}
+	}
+	manpower=961768
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

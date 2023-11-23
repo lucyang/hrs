@@ -426,14 +426,6 @@ defined_text = {
     text = {
         trigger = {
             event_target:losing_country = {
-                original_tag = MIR
-        	}
-		}
-        localization_key = HRS_PEACE_POPUP_FLAVOR_MIR
-    }
-    text = {
-        trigger = {
-            event_target:losing_country = {
                 original_tag = JXP
         	}
 		}
@@ -630,22 +622,6 @@ defined_text = {
         	}
 		}
         localization_key = HRS_PEACE_POPUP_FLAVOR_PRK
-    }
-    text = {
-        trigger = {
-            event_target:losing_country = {
-                original_tag = ANK
-        	}
-		}
-        localization_key = HRS_PEACE_POPUP_FLAVOR_ANK
-    }
-    text = {
-        trigger = {
-            event_target:losing_country = {
-                original_tag = KOR
-        	}
-		}
-        localization_key = HRS_PEACE_POPUP_FLAVOR_KOR
     }
     text = {
         trigger = {

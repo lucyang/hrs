@@ -1,0 +1,27 @@
+state={
+	id=150
+	name="STATE_150"
+	provinces={
+		3403 7237 7530 9484 15139 
+	}
+	history={
+		owner = ANM
+		add_core_of = ANM
+		victory_points = { 9484 10 } #河仙
+		victory_points = { 3403 5 } #明治港
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			9484 = {
+				naval_base = 4
+			}
+			3403 = {
+				naval_base = 3
+			}
+		}
+	}
+	manpower=892200
+	state_category = town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

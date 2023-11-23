@@ -1,0 +1,23 @@
+state={
+	id=452
+	name="STATE_452"
+	provinces={
+		2349 4013 5847 5943 6241 7692 8924 12608 12622 12639 12647 12660 12661 12698 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = TSH
+			add_core_of = TSH
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=2473070
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

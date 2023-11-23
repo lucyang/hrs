@@ -1,9 +1,8 @@
-﻿capital = 116 #西宁
+﻿capital = 459 #西宁
 
 #oob = "empty"
 
 set_research_slots = 2
-
 
 recruit_character = QNG_ma_wanfu
 

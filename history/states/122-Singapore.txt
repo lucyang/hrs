@@ -1,0 +1,22 @@
+state={
+	id=122
+	name="STATE_122"
+	provinces={
+		15010 
+	}
+	history={
+		owner = SNG
+		add_core_of = SNG
+		victory_points = { 15010 20 } #星州
+		buildings = {
+			infrastructure = 4
+			15010 = {
+				naval_base = 6
+			}
+		}
+	}
+	manpower=603000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

@@ -1,4 +1,4 @@
-capital = 400 # Mindanao
+capital = 118 #棉兰老
 
 #oob = "empty"
 

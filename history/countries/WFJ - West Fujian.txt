@@ -1,4 +1,4 @@
-﻿capital = 325 #龙岩
+﻿capital = 203 #龙岩
 
 #oob = "empty"
 

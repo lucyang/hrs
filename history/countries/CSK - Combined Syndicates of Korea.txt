@@ -1,4 +1,4 @@
-capital = 458 #元山
+capital = 77 #元山
 
 #oob = "empty"
 

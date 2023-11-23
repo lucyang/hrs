@@ -1,0 +1,18 @@
+state={
+	id=301
+	name="STATE_301"
+	provinces={
+		1687 4778 4890 8666 9164 9597 13267 13327 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=1457127
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

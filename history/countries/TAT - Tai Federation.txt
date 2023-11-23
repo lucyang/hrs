@@ -1,4 +1,4 @@
-﻿capital = 571 #封土
+﻿capital = 119 #封土
 
 #oob = "empty"
 

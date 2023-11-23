@@ -1,0 +1,23 @@
+state={
+	id=322
+	name="STATE_322"
+	provinces={
+		4852 5485 5541 5934 7102 7242 10199 11961 12003 12018 12028 12040 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = JIB
+			add_core_of = JIB
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=373359
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

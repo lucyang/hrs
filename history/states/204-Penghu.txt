@@ -1,0 +1,26 @@
+state={
+	id=204
+	name="STATE_204"
+	provinces={
+		15093 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = AMY
+		 	add_core_of = AMY
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+			15093 = {
+				naval_base = 2
+			}
+		}
+	}
+	manpower=85886
+	buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=0.000
+}

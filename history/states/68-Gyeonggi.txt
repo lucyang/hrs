@@ -1,0 +1,30 @@
+state={
+	id=68
+	name="STATE_68"
+	provinces={
+		715 1838 2665 4056 12149 12160 12187 12220 12237 15050 15052 
+	}
+	history = {
+		owner = IMK
+		add_core_of = IMK
+		1924.1.1 = {
+			owner = ROK
+		 	add_core_of = ROK
+			remove_core_of = IMK
+		}
+		victory_points = { 15050 5 } #仁川
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 1
+			15050 = {
+				naval_base = 4
+			}
+		}
+	}
+	manpower=2019108
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

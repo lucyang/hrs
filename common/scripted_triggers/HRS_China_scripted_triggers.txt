@@ -273,8 +273,7 @@ is_guizhou_nation = {
 		original_tag = GNA #贵州国民军
 		original_tag = GPA #定黔军
 		original_tag = TSS #同善社
-		original_tag = MIA
-		original_tag = MIR
+		original_tag = MIA #石门坎教区
 	}
 }
 is_sichuan_nation = {

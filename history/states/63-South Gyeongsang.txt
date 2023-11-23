@@ -1,0 +1,35 @@
+
+state={
+	id=63
+	name="STATE_63"
+	provinces={
+		4155 4945 4972 5738 6483 6680 7802 8172 8832 9538 9561 12451 12462 12489 
+	}
+	history = {
+		owner = IMK
+		add_core_of = IMK
+		victory_points = { 8172 10 } #浦項
+		victory_points = { 5738 5 } #馬山
+		victory_points = { 9561 3 } #晋州
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			dockyard = 1
+			9561 = {
+				naval_base = 5
+				coastal_bunker = 3 #镇海湾要塞
+			}
+			5738 = {
+				naval_base = 1
+				coastal_bunker = 1 #马山要塞
+			}
+			8172 = {
+				naval_base = 3
+			}
+		}
+	}
+	manpower=2135716
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

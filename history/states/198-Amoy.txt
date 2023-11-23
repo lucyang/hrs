@@ -1,0 +1,27 @@
+state={
+	id=198
+	name="STATE_198"
+	provinces={
+		2819 15091
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = AMY
+		 	add_core_of = AMY
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 4
+			dockyard = 2
+			2819 = {
+				naval_base = 4
+			}
+		}
+	}
+	manpower=224307
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

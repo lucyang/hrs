@@ -1,4 +1,4 @@
-﻿capital = 402 #古晋
+﻿capital = 132 #古晋
 
 #oob = "empty"
 

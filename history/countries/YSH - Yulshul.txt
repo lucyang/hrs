@@ -1,4 +1,4 @@
-﻿capital = 135 #玉树
+﻿capital = 467 #玉树
 
 #oob = "empty"
 

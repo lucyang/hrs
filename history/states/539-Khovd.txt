@@ -1,0 +1,23 @@
+state={
+	id=539
+	name="STATE_539"
+	provinces={
+		47 241 325 891 1162 1451 1496 1766 1968 2112 2419 2497 2984 3085 3190 3398 4239 5402 5520 5904 6220 6476 6609 6773 7695 8025 8058 8148 8750 8875 9704 9726 11228 11299 11328 11488 11514 
+	}
+	history={
+		owner = DZU
+		add_core_of = DZU
+		1924.1.1 = {
+			owner = KVD
+			add_core_of = KVD
+			remove_core_of = DZU
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=44800
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

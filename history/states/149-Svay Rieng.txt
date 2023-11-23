@@ -1,0 +1,21 @@
+state={
+	id=149
+	name="STATE_149"
+	provinces={
+		15135 
+	}
+	history={
+		owner = ANM
+		add_core_of = ANM
+		add_claim_by = CAM
+		victory_points = { 15135 1 } #绥腊/柴桢
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	manpower=2069000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

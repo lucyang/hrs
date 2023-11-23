@@ -1,4 +1,4 @@
-﻿capital = 632 #京城/首尔
+﻿capital = 83 #京城/首尔
 
 #oob = "empty"
 

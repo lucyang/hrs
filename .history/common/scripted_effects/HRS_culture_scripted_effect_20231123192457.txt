@@ -1,0 +1,814 @@
+## Starting Cultures
+	
+HRS_setup_cultures = {
+	### CHINA ###
+	# Sanhan
+	222 = { set_variable = { nationality = 1 } } #复州
+	223 = { set_variable = { nationality = 1 } } #铁岭
+	224 = { set_variable = { nationality = 1 } } #鞍山
+	225 = { set_variable = { nationality = 1 } } #安东/丹东
+	226 = { set_variable = { nationality = 1 } } #盘山/盘锦
+	227 = { set_variable = { nationality = 1 } } #锦州
+	228 = { set_variable = { nationality = 1 } } #连山/葫芦岛
+	229 = { set_variable = { nationality = 1 } } #辽阳
+	230 = { set_variable = { nationality = 1 } } #本溪
+	# Hebei
+	246 = { set_variable = { nationality = 2 } } #临榆/秦皇岛
+	247 = { set_variable = { nationality = 2 } } #唐山
+	249 = { set_variable = { nationality = 2 } } #沧州
+	250 = { set_variable = { nationality = 2 } } #冀州/衡水
+	251 = { set_variable = { nationality = 2 } } #邢台
+	252 = { set_variable = { nationality = 2 } } #邯郸
+	253 = { set_variable = { nationality = 2 } } #石门/石家庄
+	254 = { set_variable = { nationality = 2 } } #廊坊
+	255 = { set_variable = { nationality = 2 } } #保定
+	# Tianjin
+	248 = { set_variable = { nationality = 3 } } #天津
+	# Peking
+	256 = { set_variable = { nationality = 4 } } #北平
+	330 = { set_variable = { nationality = 4 } } #承德
+	# Qi/Northern Shandong
+	234 = { set_variable = { nationality = 5 } } #青州/潍坊
+	237 = { set_variable = { nationality = 5 } } #淄博
+	239 = { set_variable = { nationality = 5 } } #济南
+	240 = { set_variable = { nationality = 5 } } #泰安
+	238 = { set_variable = { nationality = 5 } } #滨州
+	243 = { set_variable = { nationality = 5 } } #曹州/菏泽
+	244 = { set_variable = { nationality = 5 } } #东平/聊城
+	# Lu/Southern Shandong
+	235 = { set_variable = { nationality = 6 } } #莒州/日照
+	236 = { set_variable = { nationality = 6 } } #沂州/临沂
+	241 = { set_variable = { nationality = 6 } } #兖州/枣庄
+	242 = { set_variable = { nationality = 6 } } #济宁
+	# Jiaodong
+	221 = { set_variable = { nationality = 7 } } #关东州
+	231 = { set_variable = { nationality = 7 } } #威海
+	232 = { set_variable = { nationality = 7 } } #烟台
+	233 = { set_variable = { nationality = 7 } } #胶州/青岛	
+
+	541 = { set_variable = { nationality = 7 } } #滨海边疆区
+	544 = { set_variable = { nationality = 7 } } #海参崴
+	# Jianghuai
+	263 = { set_variable = { nationality = 8 } } #苏州
+	264 = { set_variable = { nationality = 8 } } #无锡
+	265 = { set_variable = { nationality = 8 } } #常州
+	266 = { set_variable = { nationality = 8 } } #南通
+	267 = { set_variable = { nationality = 8 } } #泰州
+	268 = { set_variable = { nationality = 8 } } #镇江
+	269 = { set_variable = { nationality = 8 } } #扬州
+	276 = { set_variable = { nationality = 8 } } #芜湖
+	277 = { set_variable = { nationality = 8 } } #巢湖
+	278 = { set_variable = { nationality = 8 } } #滁州
+	281 = { set_variable = { nationality = 8 } } #寿春/寿县
+	282 = { set_variable = { nationality = 8 } } #合肥
+	285 = { set_variable = { nationality = 8 } } #六安
+	286 = { set_variable = { nationality = 8 } } #安庆
+	287 = { set_variable = { nationality = 8 } } #池州
+	288 = { set_variable = { nationality = 8 } } #徽州
+	289 = { set_variable = { nationality = 8 } } #宁国/宣城
+
+	352 = { set_variable = { nationality = 8 } } #黄石
+	# Nanjing
+	270 = { set_variable = { nationality = 9 } } #京师/南京
+	# Henan/Zhongyuan
+	271 = { set_variable = { nationality = 10 } } #盐城
+	272 = { set_variable = { nationality = 10 } } #海州/连云港
+	273 = { set_variable = { nationality = 10 } } #淮安
+	274 = { set_variable = { nationality = 10 } } #宿迁
+	275 = { set_variable = { nationality = 10 } } #徐州
+	279 = { set_variable = { nationality = 10 } } #凤阳
+	280 = { set_variable = { nationality = 10 } } #宿州
+	283 = { set_variable = { nationality = 10 } } #亳州
+	284 = { set_variable = { nationality = 10 } } #阜阳
+	296 = { set_variable = { nationality = 10 } } #蚌埠
+
+	333 = { set_variable = { nationality = 10 } } #大名/濮阳
+	334 = { set_variable = { nationality = 10 } } #彰德/安阳
+	335 = { set_variable = { nationality = 10 } } #归德/商丘
+	336 = { set_variable = { nationality = 10 } } #开封
+	337 = { set_variable = { nationality = 10 } } #怀庆/焦作+济源
+	338 = { set_variable = { nationality = 10 } } #卫辉/新乡
+	339 = { set_variable = { nationality = 10 } } #陈州/周口
+	340 = { set_variable = { nationality = 10 } } #郑州
+	341 = { set_variable = { nationality = 10 } } #许州/许昌
+	342 = { set_variable = { nationality = 10 } } #洛阳
+	345 = { set_variable = { nationality = 10 } } #汝州/平顶山
+	346 = { set_variable = { nationality = 10 } } #汝宁/驻马店
+
+	344 = { set_variable = { nationality = 10 } } #南阳
+	# Guanzhong/Shaanxi
+	343 = { set_variable = { nationality = 11 } } #陕州/三门峡
+
+	379 = { set_variable = { nationality = 11 } } #铜州(渭南+铜川)
+	380 = { set_variable = { nationality = 11 } } #商州/商洛
+	381 = { set_variable = { nationality = 11 } } #安康
+	382 = { set_variable = { nationality = 11 } } #长安/西安
+	383 = { set_variable = { nationality = 11 } } #咸阳
+	384 = { set_variable = { nationality = 11 } } #汉中
+	385 = { set_variable = { nationality = 11 } } #凤翔/宝鸡
+	443 = { set_variable = { nationality = 11 } } #固原
+	444 = { set_variable = { nationality = 11 } } #庆阳
+	445 = { set_variable = { nationality = 11 } } #平凉
+	452 = { set_variable = { nationality = 11 } } #天水
+	453 = { set_variable = { nationality = 11 } } #武都/陇南
+	# Xibei/Northwest China
+	442 = { set_variable = { nationality = 12 } } #宁夏/银川 
+	446 = { set_variable = { nationality = 12 } } #白银
+	447 = { set_variable = { nationality = 12 } } #兰州
+	448 = { set_variable = { nationality = 12 } } #凉州
+	449 = { set_variable = { nationality = 12 } } #甘州/张掖
+	450 = { set_variable = { nationality = 12 } } #瓜州/酒泉
+	454 = { set_variable = { nationality = 12 } } #巩昌/定西
+	# Hubei
+	347 = { set_variable = { nationality = 13 } } #信阳
+
+	365 = { set_variable = { nationality = 13 } } #常德
+
+	348 = { set_variable = { nationality = 13 } } #随州
+	349 = { set_variable = { nationality = 13 } } #襄阳
+	350 = { set_variable = { nationality = 13 } } #孝感
+	351 = { set_variable = { nationality = 13 } } #黄冈
+	353 = { set_variable = { nationality = 13 } } #武汉
+	354 = { set_variable = { nationality = 13 } } #咸宁
+	355 = { set_variable = { nationality = 13 } } #荆州
+	356 = { set_variable = { nationality = 13 } } #宜昌
+	357 = { set_variable = { nationality = 13 } } #荆门
+	359 = { set_variable = { nationality = 13 } } #十堰
+	# Shanxi
+	313 = { set_variable = { nationality = 14 } } #榆次/晋中
+	314 = { set_variable = { nationality = 14 } } #长治
+	315 = { set_variable = { nationality = 14 } } #泽州/晋城
+	316 = { set_variable = { nationality = 14 } } #运城
+	317 = { set_variable = { nationality = 14 } } #临汾
+	318 = { set_variable = { nationality = 14 } } #吕梁
+	319 = { set_variable = { nationality = 14 } } #太原
+	320 = { set_variable = { nationality = 14 } } #平定/阳泉
+	321 = { set_variable = { nationality = 14 } } #忻州
+	322 = { set_variable = { nationality = 14 } } #朔州
+	323 = { set_variable = { nationality = 14 } } #大同
+
+	377 = { set_variable = { nationality = 14 } } #榆林
+	378 = { set_variable = { nationality = 14 } } #延安
+
+	257 = { set_variable = { nationality = 14 } } #宣化/张家口
+
+	438 = { set_variable = { nationality = 14 } } #归绥/呼和浩特
+	439 = { set_variable = { nationality = 14 } } #包头
+	440 = { set_variable = { nationality = 14 } } #五原/巴彦淖尔
+
+	529 = { set_variable = { nationality = 14 } } #库伦/乌兰巴托
+	# Wuyue
+	233 = { set_variable = { nationality = 15 } } #湖州
+	235 = { set_variable = { nationality = 15 } } #嘉兴
+	254 = { set_variable = { nationality = 15 } } #舟山
+	256 = { set_variable = { nationality = 15 } } #绍兴
+	266 = { set_variable = { nationality = 15 } } #金华
+	271 = { set_variable = { nationality = 15 } } #衢州
+	274 = { set_variable = { nationality = 15 } } #台州
+	283 = { set_variable = { nationality = 15 } } #丽水
+
+	213 = { set_variable = { nationality = 15 } } #常州
+	214 = { set_variable = { nationality = 15 } } #苏州
+	217 = { set_variable = { nationality = 15 } } #无锡
+	# Shanghainese
+	219 = { set_variable = { nationality = 16 } } #崇明岛
+	226 = { set_variable = { nationality = 16 } } #上海
+	# Hangzhou
+	246 = { set_variable = { nationality = 17 } } #杭州
+	# Ningbo
+	253 = { set_variable = { nationality = 18 } } #宁波
+	# Wenzhou
+	287 = { set_variable = { nationality = 19 } } #温州
+	# Hunanese
+	263 = { set_variable = { nationality = 20 } } #岳阳
+	270 = { set_variable = { nationality = 20 } } #益阳
+	285 = { set_variable = { nationality = 20 } } #长沙
+	294 = { set_variable = { nationality = 20 } } #娄底
+	297 = { set_variable = { nationality = 20 } } #湘潭
+	298 = { set_variable = { nationality = 20 } } #株洲
+	303 = { set_variable = { nationality = 20 } } #邵阳
+	306 = { set_variable = { nationality = 20 } } #衡阳
+	313 = { set_variable = { nationality = 20 } } #永州
+	314 = { set_variable = { nationality = 20 } } #郴州
+	# Jiangxi
+	260 = { set_variable = { nationality = 21 } } #景德镇
+	264 = { set_variable = { nationality = 21 } } #九江
+	267 = { set_variable = { nationality = 21 } } #上饶
+	279 = { set_variable = { nationality = 21 } } #南昌
+	280 = { set_variable = { nationality = 21 } } #宜春
+	286 = { set_variable = { nationality = 21 } } #鹰潭
+	290 = { set_variable = { nationality = 21 } } #抚州
+	296 = { set_variable = { nationality = 21 } } #新余
+	299 = { set_variable = { nationality = 21 } } #萍乡
+	300 = { set_variable = { nationality = 21 } } #吉安
+
+	240 = { set_variable = { nationality = 21 } } #池州
+
+	257 = { set_variable = { nationality = 21 } } #咸宁
+	# Northern Min
+	291 = { set_variable = { nationality = 22 } } #南平
+	311 = { set_variable = { nationality = 22 } } #三明
+	# Eastern Min/Foochow
+	304 = { set_variable = { nationality = 23 } } #宁德
+	317 = { set_variable = { nationality = 23 } } #福州
+	# Southern Min/Hokkien/Hoklo
+	326 = { set_variable = { nationality = 24 } } #泉州
+	334 = { set_variable = { nationality = 24 } } #漳州
+	341 = { set_variable = { nationality = 24 } } #厦门
+	537 = { set_variable = { nationality = 24 } } #澎湖
+	538 = { set_variable = { nationality = 24 } } #金门
+	539 = { set_variable = { nationality = 24 } } #连江
+	# Putian
+	328 = { set_variable = { nationality = 25 } } #莆田
+	# Leichow
+	382 = { set_variable = { nationality = 26 } } #湛江
+	# Cantonese
+	349 = { set_variable = { nationality = 27 } } #肇庆	
+	355 = { set_variable = { nationality = 27 } } #广州
+	361 = { set_variable = { nationality = 27 } } #佛山		
+	365 = { set_variable = { nationality = 27 } } #云浮
+	367 = { set_variable = { nationality = 27 } } #东莞
+	370 = { set_variable = { nationality = 27 } } #香山
+	372 = { set_variable = { nationality = 27 } } #茂名
+	373 = { set_variable = { nationality = 27 } } #阳江
+	377 = { set_variable = { nationality = 27 } } #龙门
+	379 = { set_variable = { nationality = 27 } } #佛冈
+
+	375 = { set_variable = { nationality = 27 } } #香港
+
+	371 = { set_variable = { nationality = 27 } } #钦州
+	378 = { set_variable = { nationality = 27 } } #防城港
+	381 = { set_variable = { nationality = 27 } } #北海
+
+	383 = { set_variable = { nationality = 27 } } #儋州
+	# Teochew
+	357 = { set_variable = { nationality = 28 } } #揭阳
+	358 = { set_variable = { nationality = 28 } } #汕头
+	351 = { set_variable = { nationality = 28 } } #潮州
+	362 = { set_variable = { nationality = 28 } } #汕尾
+	# Guangxi
+	322 = { set_variable = { nationality = 29 } } #桂林
+	324 = { set_variable = { nationality = 29 } } #柳州
+	335 = { set_variable = { nationality = 29 } } #贺州
+	348 = { set_variable = { nationality = 29 } } #梧州
+	352 = { set_variable = { nationality = 29 } } #南宁
+	354 = { set_variable = { nationality = 29 } } #贵港
+	366 = { set_variable = { nationality = 29 } } #玉林
+	# Hmao/Miao
+	158 = { set_variable = { nationality = 30 } } #威宁
+	315 = { set_variable = { nationality = 30 } } #盘州/六盘水
+	# Shu/Sichuan
+	188 = { set_variable = { nationality = 31 } } #汉中
+	189 = { set_variable = { nationality = 31 } } #安康
+
+	199 = { set_variable = { nationality = 31 } } #绵阳
+	200 = { set_variable = { nationality = 31 } } #广元
+	202 = { set_variable = { nationality = 31 } } #巴中
+	215 = { set_variable = { nationality = 31 } } #南充
+	221 = { set_variable = { nationality = 31 } } #德阳
+	227 = { set_variable = { nationality = 31 } } #成都
+	232 = { set_variable = { nationality = 31 } } #遂宁
+	237 = { set_variable = { nationality = 31 } } #雅安
+	241 = { set_variable = { nationality = 31 } } #资阳
+	251 = { set_variable = { nationality = 31 } } #眉山
+	259 = { set_variable = { nationality = 31 } } #内江
+	261 = { set_variable = { nationality = 31 } } #乐山
+	268 = { set_variable = { nationality = 31 } } #自贡
+	273 = { set_variable = { nationality = 31 } } #泸州
+	276 = { set_variable = { nationality = 31 } } #宜宾
+
+	209 = { set_variable = { nationality = 31 } } #达州
+	236 = { set_variable = { nationality = 31 } } #巴县
+	239 = { set_variable = { nationality = 31 } } #广安
+	515 = { set_variable = { nationality = 31 } } #万县
+	517 = { set_variable = { nationality = 31 } } #涪陵
+	# Hainan
+	385 = { set_variable = { nationality = 32 } } #海南岛
+	386 = { set_variable = { nationality = 32 } } #琼州
+	389 = { set_variable = { nationality = 32 } } #崖州
+	# Xinan/Southwest Chinese
+	278 = { set_variable = { nationality = 33 } } #遵义
+	281 = { set_variable = { nationality = 33 } } #铜仁
+	302 = { set_variable = { nationality = 33 } } #毕节
+	309 = { set_variable = { nationality = 33 } } #贵阳
+	318 = { set_variable = { nationality = 33 } } #安顺
+
+	284 = { set_variable = { nationality = 33 } } #昭通
+	312 = { set_variable = { nationality = 33 } } #曲靖
+	321 = { set_variable = { nationality = 33 } } #昆明
+	327 = { set_variable = { nationality = 33 } } #保山
+	# Hakka but Modernized
+	325 = { set_variable = { nationality = 34 } } #龙岩
+
+	333 = { set_variable = { nationality = 34 } } #连州
+	340 = { set_variable = { nationality = 34 } } #梅州
+	343 = { set_variable = { nationality = 34 } } #河源
+	353 = { set_variable = { nationality = 34 } } #惠州
+
+	336 = { set_variable = { nationality = 34 } } #新竹
+	520 = { set_variable = { nationality = 34 } } #桃园
+	521 = { set_variable = { nationality = 34 } } #苗栗
+	# Hakka
+	310 = { set_variable = { nationality = 35 } } #赣州
+	# Yan/Northern Hebei
+	64 = { set_variable = { nationality = 36 } } #锦州
+	72 = { set_variable = { nationality = 36 } } #葫芦岛
+	78 = { set_variable = { nationality = 36 } } #秦皇岛
+	79 = { set_variable = { nationality = 36 } } #唐山
+	### TIBET ###
+	# U-tsang/Tibetan
+	150 = { set_variable = { nationality = 37 } } #阿里
+	234 = { set_variable = { nationality = 37 } } #拉萨
+	220 = { set_variable = { nationality = 37 } } #日喀则
+	243 = { set_variable = { nationality = 37 } } #林芝
+	# Amdo
+	91 = { set_variable = { nationality = 38 } } #海西
+	92 = { set_variable = { nationality = 38 } } #海北
+	119 = { set_variable = { nationality = 38 } } #海南
+	132 = { set_variable = { nationality = 38 } } #霍尔/那曲
+	135 = { set_variable = { nationality = 38 } } #玉树
+	138 = { set_variable = { nationality = 38 } } #黄南
+	151 = { set_variable = { nationality = 38 } } #果洛
+	153 = { set_variable = { nationality = 38 } } #铜川
+	154 = { set_variable = { nationality = 38 } } #甘南
+	# Khams
+	181 = { set_variable = { nationality = 39 } } #阿坝
+	186 = { set_variable = { nationality = 39 } } #康定/打箭炉
+	207 = { set_variable = { nationality = 39 } } #朵麦
+	277 = { set_variable = { nationality = 39 } } #迪庆
+	# Gyalrong(40); they didn't own any state at game start
+	# Gyeonggi
+	99 = { set_variable = { nationality = 41 } } #首尔
+	453 = { set_variable = { nationality = 41 } } #仁川
+	460 = { set_variable = { nationality = 41 } } #开城
+	461 = { set_variable = { nationality = 41 } } #江原道
+	632 = { set_variable = { nationality = 41 } } #京畿道
+	462 = { set_variable = { nationality = 41 } } #忠清北道
+	463 = { set_variable = { nationality = 41 } } #忠清南道
+	# Hamgyong
+	449 = { set_variable = { nationality = 42 } } #咸镜北道
+	450 = { set_variable = { nationality = 42 } } #咸镜南道
+	451 = { set_variable = { nationality = 42 } } #罗津
+	458 = { set_variable = { nationality = 42 } } #元山
+	# Gyeongsang
+	466 = { set_variable = { nationality = 43 } } #庆尚北道
+	467 = { set_variable = { nationality = 43 } } #庆尚南道
+	# Jeolla
+	464 = { set_variable = { nationality = 44 } } #全罗北道
+	465 = { set_variable = { nationality = 44 } } #全罗南道
+	# Pyongan
+	52 = { set_variable = { nationality = 45 } } #平壤
+	454 = { set_variable = { nationality = 45 } } #平安北道
+	455 = { set_variable = { nationality = 45 } } #平安南道
+	459 = { set_variable = { nationality = 45 } } #镇南浦
+	637 = { set_variable = { nationality = 45 } } #新义州
+	# Yanbian
+	41 = { set_variable = { nationality = 46 } } #延边
+	54 = { set_variable = { nationality = 46 } } #白山
+	# Russian Korean/Solho
+	552 = { set_variable = { nationality = 47 } } #鸡心河/哈桑斯克
+	554 = { set_variable = { nationality = 47 } } #珲春
+	# Jeju
+	193 = { set_variable = { nationality = 48 } } #济州
+	# Hwanghae
+	193 = { set_variable = { nationality = 49 } } #济州
+	457 = { set_variable = { nationality = 49 } } #黄海道
+	### RYUKYU ###
+	289 = { set_variable = { nationality = 50 } } #琉球
+	549 = { set_variable = { nationality = 51 } } #宫古
+	548 = { set_variable = { nationality = 52 } } #八重山
+	# Kinki/Kansai
+	149 = { set_variable = { nationality = 53 } } #兵库
+	595 = { set_variable = { nationality = 53 } } #大阪
+	596 = { set_variable = { nationality = 53 } } #京都
+	597 = { set_variable = { nationality = 53 } } #丹波
+	598 = { set_variable = { nationality = 53 } } #和歌山
+	609 = { set_variable = { nationality = 53 } } #奈良
+	610 = { set_variable = { nationality = 53 } } #滋贺
+	# Kyushu
+	169 = { set_variable = { nationality = 54 } } #对马
+	187 = { set_variable = { nationality = 54 } } #福冈
+	540 = { set_variable = { nationality = 54 } } #鹿儿岛
+	547 = { set_variable = { nationality = 54 } } #庵美
+	592 = { set_variable = { nationality = 54 } } #长崎
+	593 = { set_variable = { nationality = 54 } } #熊本
+	601 = { set_variable = { nationality = 54 } } #大分
+	602 = { set_variable = { nationality = 54 } } #宫崎
+	653 = { set_variable = { nationality = 54 } } #宫崎
+	# Chugoku
+	152 = { set_variable = { nationality = 55 } } #山口
+	606 = { set_variable = { nationality = 55 } } #广岛
+	607 = { set_variable = { nationality = 55 } } #冈山
+	594 = { set_variable = { nationality = 55 } } #岛根
+	608 = { set_variable = { nationality = 55 } } #鸟取
+	# Shikoku
+	180 = { set_variable = { nationality = 56 } } #德岛
+	603 = { set_variable = { nationality = 56 } } #香川
+	604 = { set_variable = { nationality = 56 } } #爱媛
+	605 = { set_variable = { nationality = 56 } } #高知
+	# Chubu
+	599 = { set_variable = { nationality = 57 } } #长野
+	612 = { set_variable = { nationality = 57 } } #岐阜
+	614 = { set_variable = { nationality = 57 } } #山梨
+	100 = { set_variable = { nationality = 57 } } #爱知
+	611 = { set_variable = { nationality = 57 } } #三重
+	613 = { set_variable = { nationality = 57 } } #静冈
+	541 = { set_variable = { nationality = 57 } } #石川
+	615 = { set_variable = { nationality = 57 } } #福井
+	616 = { set_variable = { nationality = 57 } } #富山
+	617 = { set_variable = { nationality = 57 } } #新潟
+	# Kanto
+	120 = { set_variable = { nationality = 58 } } #相模/神奈川
+	618 = { set_variable = { nationality = 58 } } #千叶
+	619 = { set_variable = { nationality = 58 } } #埼玉
+	620 = { set_variable = { nationality = 58 } } #茨城
+	621 = { set_variable = { nationality = 58 } } #栃木
+	622 = { set_variable = { nationality = 58 } } #群马
+	# Tohoku
+	68 = { set_variable = { nationality = 59 } } #福岛
+	623 = { set_variable = { nationality = 59 } } #山形
+	624 = { set_variable = { nationality = 59 } } #宫城
+	542 = { set_variable = { nationality = 59 } } #岩手
+	625 = { set_variable = { nationality = 59 } } #青森
+	626 = { set_variable = { nationality = 59 } } #秋田
+	# Tokyoto
+	600 = { set_variable = { nationality = 60 } }
+	# Hui/Dungan
+	451 = { set_variable = { nationality = 61 } } #河州/临夏
+	458 = { set_variable = { nationality = 61 } } #循化/海东州
+	459 = { set_variable = { nationality = 61 } } #西宁
+	460 = { set_variable = { nationality = 61 } } #海晏/海北州
+	465 = { set_variable = { nationality = 61 } } #贵德
+	# Yi/Nuosu
+	275 = { set_variable = { nationality = 62 } } #凉山
+	308 = { set_variable = { nationality = 62 } } #米易/攀枝花
+	319 = { set_variable = { nationality = 62 } } #楚雄
+	338 = { set_variable = { nationality = 62 } } #临沧
+	339 = { set_variable = { nationality = 62 } } #玉溪
+	# Ainu
+	28 = { set_variable = { nationality = 63 } }
+	545 = { set_variable = { nationality = 63 } }
+	546 = { set_variable = { nationality = 63 } }
+	633 = { set_variable = { nationality = 63 } }
+	# Shenzhen
+	369 = { set_variable = { nationality = 64 } } #深圳/宝安
+	# Mongolian
+	53 = { set_variable = { nationality = 65 } } #土默特左翼旗
+	62 = { set_variable = { nationality = 65 } } #土默特右翼旗
+
+	9 = { set_variable = { nationality = 65 } } #呼伦贝尔盟
+	19 = { set_variable = { nationality = 65 } } #兴安盟
+	23 = { set_variable = { nationality = 65 } } #锡林郭勒盟
+	30 = { set_variable = { nationality = 65 } } #哲里木盟
+	37 = { set_variable = { nationality = 65 } } #昭乌达盟
+	
+	455 = { set_variable = { nationality = 65 } } #阿拉善
+
+	258 = { set_variable = { nationality = 65 } } #多伦
+	259 = { set_variable = { nationality = 65 } } #锡林郭勒
+	260 = { set_variable = { nationality = 65 } } #乌兰察布
+	441 = { set_variable = { nationality = 65 } } #伊克昭盟
+
+	11 = { set_variable = { nationality = 65 } } #库伦
+	408 = { set_variable = { nationality = 65 } } #巴彦图门
+	410 = { set_variable = { nationality = 65 } } #肯特
+	411 = { set_variable = { nationality = 65 } } #戈壁苏木贝尔
+	412 = { set_variable = { nationality = 65 } } #东戈壁
+	413 = { set_variable = { nationality = 65 } } #中戈壁
+	414 = { set_variable = { nationality = 65 } } #南戈壁
+	415 = { set_variable = { nationality = 65 } } #色楞格
+	416 = { set_variable = { nationality = 65 } } #中央
+	417 = { set_variable = { nationality = 65 } } #布尔干
+	418 = { set_variable = { nationality = 65 } } #前杭爱
+	419 = { set_variable = { nationality = 65 } } #后杭爱
+	421 = { set_variable = { nationality = 65 } } #巴彦洪戈尔
+	422 = { set_variable = { nationality = 65 } } #扎布汗
+	423 = { set_variable = { nationality = 65 } } #戈壁阿尔泰
+	427 = { set_variable = { nationality = 65 } } #达尔汗乌拉
+	428 = { set_variable = { nationality = 65 } } #鄂尔浑
+	# Oirats
+	32 = { set_variable = { nationality = 66 } } #吉木萨尔
+	35 = { set_variable = { nationality = 66 } } #博尔塔拉
+	47 = { set_variable = { nationality = 66 } } #巴音郭楞
+	424 = { set_variable = { nationality = 66 } } #乌布苏
+	425 = { set_variable = { nationality = 66 } } #科布多
+	# Inner Mongolian/Mongolian Chinese
+	# Russian
+	1 = { set_variable = { nationality = 68 } } #新西伯利亚
+	2 = { set_variable = { nationality = 68 } }
+	5 = { set_variable = { nationality = 68 } } #哈巴罗夫斯克
+	444 = { set_variable = { nationality = 68 } } #外贝加尔
+	446 = { set_variable = { nationality = 68 } } #伊尔库茨克
+	447 = { set_variable = { nationality = 68 } } #克拉诺亚尔斯克
+	448 = { set_variable = { nationality = 68 } } #克麦罗沃
+	512 = { set_variable = { nationality = 68 } } #庙街
+	513 = { set_variable = { nationality = 68 } } #阿穆尔州
+	# Solon(Evenk,Oroqen,etc)
+	8 = { set_variable = { nationality = 69 } } #大兴安岭
+	13 = { set_variable = { nationality = 69 } } #伊春
+	16 = { set_variable = { nationality = 69 } } #佳木斯
+	17 = { set_variable = { nationality = 69 } } #鹤岗
+	443 = { set_variable = { nationality = 69 } } #比罗比詹
+	# Buryat
+	445 = { set_variable = { nationality = 70 } } #布里亚特
+	# Yakut
+	3 = { set_variable = { nationality = 71 } } #萨哈/雅库特
+	# Khakas
+	441 = { set_variable = { nationality = 72 } } #哈卡斯
+	# Oros(Russian Manchurian)
+	456 = { set_variable = { nationality = 73 } } #伯力
+	634 = { set_variable = { nationality = 73 } } #北桦太
+	# Manchu
+	24 = { set_variable = { nationality = 74 } } #哈尔滨
+	48 = { set_variable = { nationality = 74 } } #铁岭
+	60 = { set_variable = { nationality = 74 } } #抚西
+	12 = { set_variable = { nationality = 74 } } #黑龙江
+	
+	15 = { set_variable = { nationality = 74 } } #齐齐哈尔
+	18 = { set_variable = { nationality = 74 } } #绥化
+	20 = { set_variable = { nationality = 74 } } #双鸭山
+	21 = { set_variable = { nationality = 74 } } #萨尔图
+
+	26 = { set_variable = { nationality = 74 } } #白城
+	34 = { set_variable = { nationality = 74 } } #伯都讷
+	36 = { set_variable = { nationality = 74 } } #北盛京
+	40 = { set_variable = { nationality = 74 } } #吉林
+	42 = { set_variable = { nationality = 74 } } #西安
+	44 = { set_variable = { nationality = 74 } } #四平
+	51 = { set_variable = { nationality = 74 } } #通化
+
+	25 = { set_variable = { nationality = 74 } } #密山
+	27 = { set_variable = { nationality = 74 } } #勃利
+	29 = { set_variable = { nationality = 74 } } #穆丹江
+
+	635 = { set_variable = { nationality = 74 } } #宽甸
+
+	10 = { set_variable = { nationality = 74 } } #鲸海州
+	503 = { set_variable = { nationality = 74 } } #东海州
+	553 = { set_variable = { nationality = 74 } } #安远州
+	# Kazakh
+	582 = { set_variable = { nationality = 75 } } #东哈萨克斯坦
+	583 = { set_variable = { nationality = 75 } } #巴甫洛达尔
+	584 = { set_variable = { nationality = 75 } } #阿尔玛-阿塔
+	585 = { set_variable = { nationality = 75 } } #江布尔
+	586 = { set_variable = { nationality = 75 } } #阿克莫拉
+	587 = { set_variable = { nationality = 75 } } #北哈萨克斯坦
+	588 = { set_variable = { nationality = 75 } } #卡拉干达
+	589 = { set_variable = { nationality = 75 } } #突厥斯坦
+	590 = { set_variable = { nationality = 75 } } #阿克-梅切特
+
+	14 = { set_variable = { nationality = 75 } } #阿勒泰
+	22 = { set_variable = { nationality = 75 } } #塔城
+	426 = { set_variable = { nationality = 75 } } #巴彦乌列盖
+	# Kashgar Uyghur
+	35 = { set_variable = { nationality = 76 } } #乌什
+	45 = { set_variable = { nationality = 76 } } #叶尔羌
+	58 = { set_variable = { nationality = 76 } } #阿克苏
+	81 = { set_variable = { nationality = 76 } } #喀什噶尔
+	627 = { set_variable = { nationality = 76 } } #库车
+	# Taranchi
+	39 = { set_variable = { nationality = 77 } } #伊犁
+	631 = { set_variable = { nationality = 77 } } #库尔喀喇乌苏
+	# Bai/Baiphox
+	301 = { set_variable = { nationality = 78 } } #丽江
+	316 = { set_variable = { nationality = 78 } } #大理
+	# Bhutanese
+	292 = { set_variable = { nationality = 79 } } #不丹
+	432 = { set_variable = { nationality = 79 } } #墨拉萨丁
+	# Lhopa/Shannan
+	265 = { set_variable = { nationality = 80 } } #山南
+	433 = { set_variable = { nationality = 80 } } #藏南
+	# Hongkongese
+	# Lisu
+	293 = { set_variable = { nationality = 82 } } #怒江
+	504 = { set_variable = { nationality = 82 } } #江心坡
+	# Hmu/Central Miao	
+	305 = { set_variable = { nationality = 83 } } #镇远/黔东南
+	307 = { set_variable = { nationality = 83 } } #都匀/黔南
+	# Nepali
+	225 = { set_variable = { nationality = 84 } } #大吉岭
+	250 = { set_variable = { nationality = 84 } } #尼泊尔
+	473 = { set_variable = { nationality = 84 } }
+	# Sikkimese
+	431 = { set_variable = { nationality = 85 } } #锡金
+	# Tai Dam
+	571 = { set_variable = { nationality = 86 } } #泰联邦
+	# Tai Le
+	331 = { set_variable = { nationality = 87 } } #德宏
+	# Tai Lue
+	374 = { set_variable = { nationality = 88 } } #西双版纳
+	643 = { set_variable = { nationality = 88 } } #北兰纳
+	644 = { set_variable = { nationality = 88 } } #南兰纳
+	# Zhuang
+	43 = { set_variable = { nationality = 89 } } #河池
+	329 = { set_variable = { nationality = 89 } } #河池
+	345 = { set_variable = { nationality = 89 } } #文山
+	347 = { set_variable = { nationality = 89 } } #来宾
+	337 = { set_variable = { nationality = 89 } } #百色
+	364 = { set_variable = { nationality = 89 } } #崇左
+	# Altai/Oyrot
+	429 = { set_variable = { nationality = 90 } } #阿尔泰共和国
+	440 = { set_variable = { nationality = 90 } } #阿尔泰边疆区
+	# Tuvan
+	7 = { set_variable = { nationality = 91 } } #图瓦
+	420 = { set_variable = { nationality = 91 } } #库苏古尔
+	# Degar/Vietnam Natives
+	531 = { set_variable = { nationality = 92 } } #西原
+	# Taiwan Natives
+	350 = { set_variable = { nationality = 93 } } #花莲
+	360 = { set_variable = { nationality = 93 } } #台东
+	555 = { set_variable = { nationality = 93 } } #蕃界/阿里山区
+	# Giaochi Chinese
+	561 = { set_variable = { nationality = 94 } } #海防
+	569 = { set_variable = { nationality = 94 } } #岘港
+	# Hmong/Western Hmongic
+	323 = { set_variable = { nationality = 95 } } #兴义/黔西南
+	535 = { set_variable = { nationality = 95 } } #上寮
+	# Xong/Eastern Hmongic
+	269 = { set_variable = { nationality = 96 } } #凤凰/湘西
+	654 = { set_variable = { nationality = 96 } } #沅陵
+	655 = { set_variable = { nationality = 96 } } #郴州
+	# Hoa Vietnamese
+	566 = { set_variable = { nationality = 97 } } #西贡
+	578 = { set_variable = { nationality = 97 } } #西港
+	579 = { set_variable = { nationality = 97 } } #河仙
+	# Hokkaido
+	33 = { set_variable = { nationality = 98 } } #札幌
+	543 = { set_variable = { nationality = 98 } } #函馆
+	544 = { set_variable = { nationality = 98 } } #苫小牧
+
+	6 = { set_variable = { nationality = 98 } } #南桦太
+	633 = { set_variable = { nationality = 98 } } #中桦太
+	# Khmer
+	395 = { set_variable = { nationality = 99 } } #南高棉/金边
+	558 = { set_variable = { nationality = 99 } } #东高棉
+	559 = { set_variable = { nationality = 99 } } #暹那空/暹粒
+	560 = { set_variable = { nationality = 99 } } #西高棉
+	580 = { set_variable = { nationality = 99 } } #柴桢
+	581 = { set_variable = { nationality = 99 } } #上丁/相当
+	649 = { set_variable = { nationality = 99 } } #马德望
+	650 = { set_variable = { nationality = 99 } } #柏威夏
+
+	646 = { set_variable = { nationality = 99 } } #南伊善
+	# Laotian
+	376 = { set_variable = { nationality = 100 } } #中寮
+	534 = { set_variable = { nationality = 100 } } #下寮
+	572 = { set_variable = { nationality = 100 } } #澜沧/沙耶武里
+	573 = { set_variable = { nationality = 100 } } #万象
+	574 = { set_variable = { nationality = 100 } } #川圹/芒盆/镇宁
+	575 = { set_variable = { nationality = 100 } } #琅勃拉邦
+	576 = { set_variable = { nationality = 100 } } #占巴塞
+	651 = { set_variable = { nationality = 100 } } #那空占巴塞
+	# Inna/Matsuna
+	636 = { set_variable = { nationality = 101 } } #釜山/任那
+	# South Vietnamese
+	532 = { set_variable = { nationality = 102 } } #嘉定
+	533 = { set_variable = { nationality = 102 } } #广南
+	565 = { set_variable = { nationality = 102 } } #西宁
+	567 = { set_variable = { nationality = 102 } } #九龙
+	# Hoklo Taiwanese
+	332 = { set_variable = { nationality = 103 } } #台北		
+	346 = { set_variable = { nationality = 103 } } #台中
+	356 = { set_variable = { nationality = 103 } } #台南
+	359 = { set_variable = { nationality = 103 } } #高雄
+	518 = { set_variable = { nationality = 103 } } #宜兰
+	519 = { set_variable = { nationality = 103 } } #淡水
+	522 = { set_variable = { nationality = 103 } } #南投
+	523 = { set_variable = { nationality = 103 } } #彰化
+	524 = { set_variable = { nationality = 103 } } #嘉义
+	525 = { set_variable = { nationality = 103 } } #云林
+	526 = { set_variable = { nationality = 103 } } #屏东
+	# Tay
+	528 = { set_variable = { nationality = 104 } } #宣光
+	562 = { set_variable = { nationality = 104 } } #谅山
+	563 = { set_variable = { nationality = 104 } } #广源
+	564 = { set_variable = { nationality = 104 } } #太原
+	# Vietnamese
+	363 = { set_variable = { nationality = 105 } } #河内
+	507 = { set_variable = { nationality = 105 } } #广宁
+	527 = { set_variable = { nationality = 105 } } #兴化
+	529 = { set_variable = { nationality = 105 } } #清化
+	530 = { set_variable = { nationality = 105 } } #富安
+	568 = { set_variable = { nationality = 105 } } #顺化
+	570 = { set_variable = { nationality = 105 } } #义静
+	# Tujia/Bifzixkar
+	358 = { set_variable = { nationality = 106 } } #恩施
+	369 = { set_variable = { nationality = 106 } } #澧州/张家界
+	391 = { set_variable = { nationality = 106 } } #黔江
+	# Dong/Kamese
+	31 = { set_variable = { nationality = 107 } } #靖州
+	# Hani/Ho
+	342 = { set_variable = { nationality = 108 } } #普洱
+	344 = { set_variable = { nationality = 108 } } #红河
+	# Li/Hlai
+	104 = { set_variable = { nationality = 109 } } #琼西
+	# Turpan Uyghur
+	46 = { set_variable = { nationality = 110 } } #吐鲁番
+	630 = { set_variable = { nationality = 110 } } #喀喇沙尔
+	# Hoten Uyghur
+	87 = { set_variable = { nationality = 111 } } #和田
+	# Kumul Uyghur
+	38 = { set_variable = { nationality = 112 } } #哈密
+	628= { set_variable = { nationality = 112 } } #巴里坤
+	629= { set_variable = { nationality = 112 } } #奇台
+	# Kyrgyz
+	70 = { set_variable = { nationality = 113 } } #克孜勒苏
+	514 = { set_variable = { nationality = 113 } } #吉尔吉斯
+	655 = { set_variable = { nationality = 113 } } #伊克塞湖	
+	# Tajik
+	4 = { set_variable = { nationality = 114 } } #塔吉克斯坦
+	# Bamar/Burmese
+	288 = { set_variable = { nationality = 115 } } #仰光
+	# Siamese/Southern Tai
+	641 = { set_variable = { nationality = 116 } } #西暹罗
+	642 = { set_variable = { nationality = 116 } } #中暹罗
+	645 = { set_variable = { nationality = 116 } } #东暹罗
+	# Kachin/Jingpaw
+	508 = { set_variable = { nationality = 117 } } #北掸邦
+	556 = { set_variable = { nationality = 117 } } #南掸邦
+	# Kachin/Jingpaw
+	509 = { set_variable = { nationality = 118 } } #克钦邦
+	557 = { set_variable = { nationality = 118 } } #野人山
+	# Meitei/Manipur
+	493 = { set_variable = { nationality = 119 } } #曼尼普尔
+	# Ahom-Assamese
+	272 = { set_variable = { nationality = 120 } } #阿萨姆
+	495 = { set_variable = { nationality = 120 } } #阿鲁纳恰尔
+	# Malay/Melayu
+	403 = { set_variable = { nationality = 121 } } #马来半岛
+	639 = { set_variable = { nationality = 121 } } #马来三府
+	# Pashtun
+	101 = { set_variable = { nationality = 122 } } #阿富汗
+	# Tan-nong/Luzon Hokkien
+	391 = { set_variable = { nationality = 123 } } #马尼拉
+	# Mizo
+	492 = { set_variable = { nationality = 124 } } #米佐拉姆
+	# Naga
+	494 = { set_variable = { nationality = 125 } } #那加兰
+	# Dari/Afghan Tajik
+	126 = { set_variable = { nationality = 126 } } #瓦罕走廊
+	442 = { set_variable = { nationality = 126 } } #巴达赫尚
+	# Mon
+	506 = { set_variable = { nationality = 127 } } #孟邦
+	# Karen
+	505 = { set_variable = { nationality = 128 } } #丹那沙林
+	# Bengali
+	320 = { set_variable = { nationality = 129 } } #达卡
+	480 = { set_variable = { nationality = 129 } } #西孟加拉
+	496 = { set_variable = { nationality = 129 } } #库尔纳
+	497 = { set_variable = { nationality = 129 } } #朗布尔
+	498 = { set_variable = { nationality = 129 } } #锡尔赫特
+	499 = { set_variable = { nationality = 129 } } #拉杰沙希
+	500 = { set_variable = { nationality = 129 } } #迈门辛
+	501 = { set_variable = { nationality = 129 } } #巴里萨尔
+	502 = { set_variable = { nationality = 129 } } #吉大港
+	# Ladakh
+	437 = { set_variable = { nationality = 130 } } #拉达克
+	439 = { set_variable = { nationality = 130 } } #斯皮提山谷
+	# Balti
+	435 = { set_variable = { nationality = 131 } } #巴尔蒂斯坦
+	# Moro
+	400 = { set_variable = { nationality = 132 } } #棉兰老
+	# Jawi/Javanese
+	404 = { set_variable = { nationality = 133 } } #苏门答腊岛
+	# Minahasan/Northern Sulawesi
+	406 = { set_variable = { nationality = 134 } } #苏拉威西岛
+	# Papuan
+	407 = { set_variable = { nationality = 135 } } #巴布亚岛
+	# Andamanese
+	396 = { set_variable = { nationality = 136 } } #安达曼群岛
+	652 = { set_variable = { nationality = 136 } } #尼科巴群岛
+	# Sinhalese
+	401 = { set_variable = { nationality = 137 } } #斯里兰卡
+	# Tamil(138)
+	# Nanyoh/South Sea
+	387 = { set_variable = { nationality = 139 } } #北马里亚纳
+	# Chamorro
+	390 = { set_variable = { nationality = 140 } } #关岛
+	# Lahu
+	638 = { set_variable = { nationality = 141 } } #澜沧
+	# Wan/Nanyang
+	177 = { set_variable = { nationality = 142 } } #鹤壁
+	190 = { set_variable = { nationality = 142 } } #南阳
+	206 = { set_variable = { nationality = 142 } } #襄阳
+	# Isan
+	647 = { set_variable = { nationality = 143 } } #中伊善
+	648 = { set_variable = { nationality = 143 } } #北伊善
+	# Sino-Tai
+	384 = { set_variable = { nationality = 144 } } #曼谷
+	# Pak Tai/Southern Tai
+	640 = { set_variable = { nationality = 145 } } #南暹罗
+	# Xiangxi
+	282 = { set_variable = { nationality = 146 } } #洪江
+	# Chinese Wuxi(147) for Xiangxi Unification
+	# Xong Wuxi(148) for Xiangxi Unification
+	# Taishanese/Sze Yup
+	368 = { set_variable = { nationality = 149 } } #江门/新会
+	# Shaoguanese
+	330 = { set_variable = { nationality = 150 } } #韶关
+	# Pamir
+	430 = { set_variable = { nationality = 151 } } #山地巴达赫尚
+	488 = { set_variable = { nationality = 151 } } #穆尔加布
+	# Golok/Ngolok
+	# 151 = { set_variable = { nationality = 152 } } #果洛
+}

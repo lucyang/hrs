@@ -1,0 +1,18 @@
+state={
+	id=476
+	name="STATE_476"
+	provinces={
+		512 558 594 609 1111 1136 1177 1396 1553 2425 2451 2542 3167 3903 4235 4394 4446 4549 4843 5116 5646 6695 7098 7365 7391 7406 8168 8366 8764 10245 13413 13456 13474 13564 13590 18652 
+	}
+	history={
+		owner = TIB
+		add_core_of = TIB
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

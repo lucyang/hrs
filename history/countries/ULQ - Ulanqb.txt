@@ -1,4 +1,4 @@
-﻿capital = 71 #呼和浩特
+﻿capital = 260 #乌兰察布
 
 recruit_character = ULQ_bayandalai #补英达赖
 set_country_flag = is_mongolia_nation

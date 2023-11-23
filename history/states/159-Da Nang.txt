@@ -1,0 +1,22 @@
+state={
+	id=159
+	name="STATE_159"
+	provinces={
+		9662 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		victory_points = { 9662 5 } #岘港
+		buildings = {
+			infrastructure = 3
+			9662 = {
+				naval_base = 4
+			}
+		}
+	}
+	manpower=51000
+	buildings_max_level_factor=1.000
+	state_category = town
+	local_supplies=0.000
+}

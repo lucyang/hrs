@@ -1,0 +1,23 @@
+state={
+	id=195
+	name="STATE_195"
+	provinces={
+		2863 4008 9269 13940 13967 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = CTN
+		 	add_core_of = CTN
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=1159177
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

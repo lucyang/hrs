@@ -1,0 +1,30 @@
+state={
+	id=80
+	name="STATE_80"
+	provinces={
+		450 2209 2856 4554 4879 6068 6604 6953 7000 7374 8157 8160 8440 8511 9261 9872 10151 10173 11784 11820 11830 11844 11856 11862 11887 11891 11926 11939 11950 11952 11965
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = KPA
+		 	add_core_of = KPA
+			remove_core_of = IMK
+		}
+		victory_points = { 4879 5 } #新義州
+		victory_points = { 11830 1 } #滿浦
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			4879 = {
+				naval_base = 1
+			}
+		}
+	}
+	manpower=1620882
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

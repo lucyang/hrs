@@ -1,4 +1,4 @@
-﻿capital = 545 #旭川
+﻿capital = 54 #根室
 
 recruit_character = AIN_kawamura_kaneto #川村カ子ト
 
@@ -35,12 +35,10 @@ if = {
 		early_ship_hull_light = 1
 		mtg_transport = 1
 		coastal_defense_ships = 1
-		#basic_secondary_battery = 1
 		basic_depth_charges = 1
 		basic_cruiser_armor_scheme = 1
 		cruiser_submarines = 1
 	}
-	#set_naval_#oob = "empty"
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -49,7 +47,6 @@ if = {
 		early_destroyer = 1
 		transport = 1
 	}
-	#set_naval_#oob = "empty"
 }
 
 

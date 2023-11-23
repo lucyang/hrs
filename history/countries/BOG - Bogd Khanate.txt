@@ -1,4 +1,4 @@
-﻿capital = 428
+﻿capital = 533 #前杭爱
 
 recruit_character = BOG_bogd_khan_lama # 博克多格根额真汗
 recruit_character = BOG_manlaibaatar_damdinsuren # 芒来巴特尔·达木丁苏隆

@@ -1,0 +1,26 @@
+state={
+	id=233
+	name="STATE_233"
+	provinces={
+		2312 2467 4698 8287 8942 12255 12265 12280 12368 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		victory_points = { 12368 10 } #青岛
+		1924.1.1 = {
+			owner = QND
+		 	add_core_of = QND
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 2
+			dockyard = 2
+		}
+	}
+	manpower=916846
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

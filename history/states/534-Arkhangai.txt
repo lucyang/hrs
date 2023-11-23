@@ -1,0 +1,21 @@
+state={
+	id=534
+	name="STATE_534"
+	provinces={
+		655 739 1245 1299 1438 1764 1858 2487 2639 2660 2931 2940 3207 3865 4815 5107 6797 7045 7420 7538 7933 8183 8557 8756 10178 11042 11074 11086 11156 11182 11205 
+	}
+	history={
+		owner = DBJ
+		1924.1.1 = {
+			owner = MON
+			add_core_of = MON
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=60300
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=87
+	name="STATE_87"
+	provinces={
+		965 1028 4238 7637 9274 14850 15131 18678
+	}
+	history={
+		owner = CAM
+		add_core_of = CAM
+		victory_points = { 15131 10 } #金边
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	manpower=1027000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

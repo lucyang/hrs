@@ -1,0 +1,18 @@
+state={
+	id=105
+	name="STATE_105"
+	provinces={
+		2117 3273 4064 4599 5338 5713 5741 6602 7678 8258 8427 8479 8487 8505 8651 9038 9774 9889 10278 14952 14959 14963 14967 14971 14972 14979 15165 15171 15175 
+	}
+    history={
+		owner = ANG
+		add_core_of = SRL
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=5306871
+	state_category=rural
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

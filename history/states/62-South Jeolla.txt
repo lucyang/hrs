@@ -1,0 +1,35 @@
+
+state={
+	id=62
+	name="STATE_62"
+	provinces={
+		4514 4960 7700 7836 8620 9237 10180 12528 12535 12543 12590 15057 15058 15059 15061 15065 
+	}
+	history = {
+		owner = IMK
+		add_core_of = IMK
+		1924.1.1 = {
+			owner = EOK
+			add_core_of = EOK
+			remove_core_of = IMK
+		}
+		victory_points = { 12528 10 } #光州
+		victory_points = { 4514 5 } #木浦
+		victory_points = { 12535 1 } #麗水
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			4514 = {
+				naval_base = 3
+			}
+			12535 = {
+				naval_base = 1
+			}
+		}
+	}
+	manpower=2123925
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

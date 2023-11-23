@@ -1,4 +1,4 @@
-capital = 58 # 阿克苏
+capital = 516 #阿克苏
 
 #oob = "empty"
 

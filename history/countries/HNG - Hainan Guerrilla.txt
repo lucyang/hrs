@@ -1,4 +1,4 @@
-﻿capital = 104 #琼州
+﻿capital = 172 #三亚
 
 #oob = "empty"
 set_country_flag = is_china_nation

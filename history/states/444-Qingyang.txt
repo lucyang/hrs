@@ -1,0 +1,23 @@
+state={
+	id=444
+	name="STATE_444"
+	provinces={
+		131 3527 3535 4361 4609 4893 5902 5939 7149 7425 7786 7994 10139 12317 12328 12345 12385 12388 12399 12442 12458 12465 12501 12523 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = ZZZ
+			add_core_of = ZZZ
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=965718
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

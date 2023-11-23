@@ -1,4 +1,4 @@
-﻿capital = 84 #保定
+﻿capital = 255 #保定
 
 recruit_character = HEB_xi_jinping
 

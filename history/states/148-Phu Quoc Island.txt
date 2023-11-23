@@ -1,0 +1,19 @@
+state={
+	id=148
+	name="STATE_148"
+	provinces={
+		15147 
+	}
+	history={
+		owner = ANM
+		add_core_of = ANM
+		add_claim_by = CAM
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=0.000
+}

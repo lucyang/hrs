@@ -1,0 +1,27 @@
+state={
+	id=171
+	name="STATE_171"
+	provinces={
+		14328
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = HNN
+		 	add_core_of = HNN
+			remove_core_of = IMC
+		}
+		victory_points = { 14328 5 } #琼州
+		buildings = {
+			infrastructure = 3
+			14328 = {
+				naval_base = 4
+			}
+		}
+	}
+	manpower=135337
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

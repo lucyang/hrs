@@ -1,0 +1,19 @@
+state={
+	id=498
+	name="STATE_498"
+	provinces={
+		7377
+	}
+	history={
+		owner = MAN
+		add_core_of = MAN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	manpower=643621
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

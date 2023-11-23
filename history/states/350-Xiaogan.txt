@@ -1,0 +1,24 @@
+
+state={
+	id=350
+	name="STATE_350"
+	provinces={
+		3622 4022 6424 6747 9505 12997 13015 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = CHI
+			add_core_of = CHI
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=5531144
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

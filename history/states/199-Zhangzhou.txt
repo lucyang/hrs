@@ -1,0 +1,24 @@
+state={
+	id=199
+	name="STATE_199"
+	provinces={
+		2268 2392 6377 9528 13736 13763 13787 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = FED
+		 	add_core_of = FED
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	manpower=812180
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

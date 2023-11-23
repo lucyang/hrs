@@ -1,4 +1,4 @@
-﻿capital = 132 #那曲
+﻿capital = 472 #那曲
 
 #oob = "empty"
 

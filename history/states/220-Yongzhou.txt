@@ -1,0 +1,23 @@
+state={
+	id=220
+	name="STATE_220"
+	provinces={
+		2402 3922 8200 8260 13541 13545 13568 13571 13603 13660 13690 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = GLN
+		 	add_core_of = GLN
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=518295
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

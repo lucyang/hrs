@@ -1,4 +1,4 @@
-capital = 637 #新义州
+capital = 80 #新义州
 
 #oob = "empty"
 

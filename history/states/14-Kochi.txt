@@ -1,0 +1,27 @@
+state={
+	id=14
+	name="STATE_14"
+	provinces={
+		4479 6047 6420 9470 12706 12765 
+	}
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = JPR
+			add_core_of = JPR
+			remove_core_of = IMJ
+		}
+		victory_points = { 12706 3 } #高知	
+		buildings = {
+			infrastructure = 3
+			12706 = { #高知港
+				naval_base = 1
+			}
+		}	
+	}
+	manpower=677852
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

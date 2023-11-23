@@ -1,4 +1,4 @@
-﻿capital = 638 #澜沧
+﻿capital = 421 #耿马
 
 recruit_character = LAX_william_marcus_young
 

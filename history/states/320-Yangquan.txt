@@ -1,0 +1,23 @@
+state={
+	id=320
+	name="STATE_320"
+	provinces={
+		1748 6536 7631 8932 10246 12210 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = KBS
+			add_core_of = KBS
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=628452
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

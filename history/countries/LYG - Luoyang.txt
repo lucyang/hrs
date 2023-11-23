@@ -1,4 +1,4 @@
-﻿capital = 164 #洛阳
+﻿capital = 384 #汉中
 
 recruit_character = LYG_liu_zhenhua
 recruit_character = LYG_liu_maoen

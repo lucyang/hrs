@@ -1,0 +1,24 @@
+
+state={
+	id=329
+	name="STATE_329"
+	provinces={
+		4817 6076 13715 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = TGG
+			add_core_of = TGG
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=65014
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

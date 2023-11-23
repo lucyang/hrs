@@ -1,0 +1,25 @@
+
+state={
+	id=73
+	name="STATE_73"
+	provinces={
+		146 11695 11721 11749 11750 
+	}
+	history={
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = EZO
+			add_core_of = EZO
+			remove_core_of = IMJ
+		}
+		victory_points = { 11749 1 } #日高
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=51674
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

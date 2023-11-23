@@ -1,0 +1,21 @@
+state={
+	id=516
+	name="STATE_516"
+	provinces={
+		162 227 360 435 488 617 632 834 836 852 887 931 1031 1086 1230 1307 1784 2124 2193 2234 2331 2971 3285 3456 3550 3935 4004 4103 4162 4492 4835 4981 5185 5508 5740 5804 5964 6094 6451 6696 6754 7105 7139 7159 7448 7572 7948 8292 9157 9475 9624 9671 9683 9799 11988 12000 12012 12047 12075 12081 12110 12116 12142 12150 12183 12197 12202 12203 12212 12300 
+	}
+	history={
+		owner = AKS
+		add_core_of = AKS
+		victory_points = { 3456 5 } #阿克苏
+		victory_points = { 12047 3 } #库车
+		victory_points = { 887 1 } #拜城
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=728367
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

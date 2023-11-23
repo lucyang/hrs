@@ -1,0 +1,21 @@
+state={
+	id=474
+	name="STATE_474"
+	provinces={
+		2239 2986 3295 3344 3490 4592 4838 7650 7843 13483 
+	}
+	history={
+		owner = POW
+		add_core_of = POW
+		1926.1.1 = {
+			add_claim_by = TIB
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

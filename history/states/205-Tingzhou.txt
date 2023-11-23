@@ -1,0 +1,23 @@
+state={
+	id=205
+	name="STATE_205"
+	provinces={
+		2093 2354 2868 7539 7884 8700 10003 13498 13550 13557 13562 13628 13636 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = WFJ
+		 	add_core_of = WFJ
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=1162858
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -1,4 +1,4 @@
-﻿capital = 620 #茨城
+﻿capital = 41 #茨城
 
 recruit_character = JPN_tachibana_kozaburo #橘孝三郎
 recruit_character = JPN_inoue_nissho #井上日召

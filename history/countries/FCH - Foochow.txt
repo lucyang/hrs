@@ -1,4 +1,4 @@
-﻿capital = 317 #福州
+﻿capital = 202 #福州
 
 #oob = "empty"
 

@@ -1,0 +1,37 @@
+state={
+	id=84
+	name="STATE_84"
+	provinces={
+		2085 3177 3752 5236 5468 5509 5659 6208 6472 7034 7704 8278 11616 11656 11702 11743 11836 11868 15047 
+	}
+	history={
+		owner = IMK
+		add_core_of = IMK
+		1924.1.1 = {
+			owner = PCK
+		 	add_core_of = PCK
+			remove_core_of = IMK
+		}
+		victory_points = { 3752 5 } #清津
+		victory_points = { 15047 3 } #羅津
+		victory_points = { 11868 1 } #城津/金策
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 2
+			3752 = {
+				naval_base = 2
+			}
+			15047 = {
+				naval_base = 1
+			}
+			11868 = {
+				naval_base = 1
+			}
+		}
+	}
+	manpower=813893
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

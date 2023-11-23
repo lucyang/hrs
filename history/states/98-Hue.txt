@@ -1,0 +1,21 @@
+
+state={
+	id=98
+	name="STATE_98"
+	provinces={
+		9940
+	}
+	history={
+		owner = VIN
+		add_core_of = VIN
+		victory_points = { 9940 10 } #順化
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1	
+		}
+	}
+	manpower=407000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,19 @@
+state={
+	id=146
+	name="STATE_146"
+	provinces={
+		3120 5120 5415 5754 7078 9964 14325 14354 
+	}
+	history={
+		owner = SIA
+		add_core_of = SIA
+		victory_points = { 3120 1 } #沙耶武里
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=198000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

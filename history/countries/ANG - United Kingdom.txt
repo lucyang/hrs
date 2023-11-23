@@ -1,4 +1,4 @@
-﻿capital = 401 # Sri Lanka(Colony)
+﻿capital = 105 #锡兰(殖民地首府)
 
 #oob = "empty"
 

@@ -1,4 +1,4 @@
-﻿capital = 79 #唐山
+﻿capital = 247 #唐山
 
 recruit_character = JID_yin_rugeng
 recruit_character = JID_chi_zongmo

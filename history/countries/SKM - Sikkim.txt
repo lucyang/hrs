@@ -1,4 +1,4 @@
-﻿capital = 431
+﻿capital = 110 #锡金
 
 #oob = "empty"
 

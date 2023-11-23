@@ -1,4 +1,4 @@
-﻿capital = 4 #Turkestan
+﻿capital = 106 #塔什干
 
 #oob = "empty"
 

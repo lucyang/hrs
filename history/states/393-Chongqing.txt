@@ -1,0 +1,23 @@
+state={
+	id=393
+	name="STATE_393"
+	provinces={
+		60 2208 2717 3610 5588 5778 7687 10108 13111 13138 13149 13169 13208 13229 13265 13272 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = CHQ
+			add_core_of = CHQ
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	manpower=1772486
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

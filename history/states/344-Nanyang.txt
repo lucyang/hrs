@@ -1,0 +1,23 @@
+state={
+	id=344
+	name="STATE_344"
+	provinces={
+		526 3971 4471 4919 5421 5478 7487 7616 7942 8077 8253 8711 9279 9847 12744 12747 12766 12771 12793 12802 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = WAX
+			add_core_of = WAX
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=3516401
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

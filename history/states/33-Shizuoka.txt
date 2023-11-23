@@ -1,0 +1,33 @@
+
+state={
+	id=33
+	name="STATE_33"
+	provinces={
+		4359 4799 7382 12550 12552 12553 12582 12584 
+	}
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = JAF
+			add_core_of = JAF
+			remove_core_of = IMJ
+		}
+		victory_points = { 12552 5 } #静岡
+		victory_points = { 4359 3 } #浜松
+		victory_points = { 12550 1 } #富士
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 2
+			dockyard = 1
+			12552 = { #清水港
+				naval_base = 3
+			}
+		}
+	}
+	manpower=1550387
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

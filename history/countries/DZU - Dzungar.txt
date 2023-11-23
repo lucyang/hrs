@@ -1,4 +1,4 @@
-capital = 32 # 吉木萨尔
+capital = 515 #伊犁
 
 #oob = "empty"
 

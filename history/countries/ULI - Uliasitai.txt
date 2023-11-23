@@ -1,4 +1,4 @@
-﻿capital = 422 #扎布汗
+﻿capital = 537 #扎布汗
 
 set_technology = {
 	infantry_weapons = 1

@@ -1,4 +1,4 @@
-﻿capital = 288 #抚州
+﻿capital = 305 #上饶
 
 recruit_character = DAO_miu_bin
 recruit_character = DAO_zhang_enpu

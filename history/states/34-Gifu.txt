@@ -1,0 +1,26 @@
+state={
+	id=34
+	name="STATE_34"
+	provinces={
+		5044 5047 6341 6496 6573 7143 7521 12397 12432 12464 12466 12514 
+	}
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = CHB
+			add_core_of = CHB
+			remove_core_of = IMJ
+		}
+		victory_points = { 6341 5 } #岐阜
+		victory_points = { 12464 1 } #関原
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+		}
+	}
+	manpower=1070407
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

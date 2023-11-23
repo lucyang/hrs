@@ -1,4 +1,4 @@
-﻿capital = 597 #舞鹤
+﻿capital = 23 #舞鹤
 
 recruit_character = OMT_deguchi_onisaburo
 recruit_character = OMT_left_deguchi_onisaburo

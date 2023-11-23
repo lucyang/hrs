@@ -1,0 +1,23 @@
+state={
+	id=347
+	name="STATE_347"
+	provinces={
+		1422 2557 3471 4600 5046 7322 8420 8540 8713 12837 12838 12843 12865 12886 12891 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = HEN
+			add_core_of = HEN
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=7239231
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

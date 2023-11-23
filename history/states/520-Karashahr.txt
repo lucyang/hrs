@@ -1,0 +1,21 @@
+
+state={
+	id=520
+	name="STATE_520"
+	provinces={
+		26 1171 1405 2561 2704 3438 4636 4638 4964 5348 5763 9240 9765 9845 11889 11991 
+	}
+	history={
+		owner = HAM
+		add_core_of = HAM
+		victory_points = { 4964 3 } #焉耆/喀喇沙尔
+		victory_points = { 11991 1 } #库尔勒
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=423350
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

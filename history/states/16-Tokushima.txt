@@ -1,0 +1,31 @@
+state={
+	id=16
+	name="STATE_16"
+	provinces={
+		7328 12711 
+	}
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = JPR
+			add_core_of = JPR
+			remove_core_of = IMJ
+		}
+		victory_points = { 12711 5 } #徳島
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			12711 = { #小松岛港
+				naval_base = 2
+			}
+		}
+		
+	}
+	manpower=670212
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

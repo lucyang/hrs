@@ -1,4 +1,4 @@
-﻿capital = 82 #天津
+﻿capital = 248 #天津
 
 recruit_character = TIJ_qi_xieyuan
 recruit_character = TIJ_xu_shichang

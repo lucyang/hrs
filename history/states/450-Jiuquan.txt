@@ -1,0 +1,23 @@
+state={
+	id=450
+	name="STATE_450"
+	provinces={
+		4 826 892 1526 1551 1624 1794 1818 1956 2276 2379 2399 2441 2583 3269 3388 3426 3459 3574 3840 3866 3879 3989 4134 4569 5553 5857 5893 6026 6029 6441 6586 6618 6814 6829 7180 7195 7867 7877 7965 8230 8245 8379 8961 9023 9392 9598 9962 10038 11983 11985 11994 12013 12021 12022 12049 12063 12085 12112 12131 12133 12152 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = XSM
+			add_core_of = XSM
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=569699
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

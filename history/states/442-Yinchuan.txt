@@ -1,0 +1,24 @@
+
+state={
+	id=442
+	name="STATE_442"
+	provinces={
+		1137 2162 2696 2790 2825 3104 3414 4846 5296 6530 7218 8980 9273 10138 12225 12236 12266 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = NIX
+			add_core_of = NIX
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=683664
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

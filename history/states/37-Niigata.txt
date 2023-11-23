@@ -1,0 +1,27 @@
+state={
+	id=37
+	name="STATE_37"
+	provinces={
+		2699 2933 6325 7013 7947 8746 9080 9193 9449 12216 12270 
+	}
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = THK
+			add_core_of = THK
+			remove_core_of = IMJ
+		}
+		victory_points = { 9080 3 } #新潟
+		buildings = {
+			infrastructure = 3
+			9080 = {
+				naval_base = 4
+			}
+		}
+	}
+	manpower=1776474
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

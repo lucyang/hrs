@@ -1,0 +1,26 @@
+state={
+	id=200
+	name="STATE_200"
+	provinces={
+		3715 4922 6373 6407 6936 13639 13668 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = QZH
+		 	add_core_of = QZH
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 4
+		}
+	}
+	manpower=2367727
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

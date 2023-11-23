@@ -1,4 +1,4 @@
-﻿capital = 36 #长春/新京
+﻿capital = 500 #奉天
 
 #oob = "empty"
 

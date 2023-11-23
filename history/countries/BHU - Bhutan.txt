@@ -1,4 +1,4 @@
-﻿capital = 292
+﻿capital = 95
 
 #oob = "empty"
 

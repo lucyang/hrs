@@ -1,0 +1,26 @@
+state={
+	id=5
+	name="STATE_5"
+	provinces={
+		4029 9287 12738 12780 12846 15074 
+	}
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = AMM
+			add_core_of = AMM
+			remove_core_of = IMJ
+		}
+		victory_points = { 4029 5 } #熊本
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+	manpower=1233233
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

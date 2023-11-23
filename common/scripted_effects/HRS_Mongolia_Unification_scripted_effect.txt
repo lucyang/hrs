@@ -28,7 +28,7 @@ MON_select_unified_cosmetic_tag = {
     }
     if = {
         limit = { 
-            original_tag = INN
+            original_tag = IMN
         }
         set_cosmetic_tag = INN_MONGOLIA
     }

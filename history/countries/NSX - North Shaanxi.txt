@@ -1,4 +1,4 @@
-﻿capital = 88 #榆林
+﻿capital = 377 #榆林
 
 #oob = "empty"
 set_country_flag = is_china_nation

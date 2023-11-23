@@ -1,0 +1,23 @@
+state={
+	id=297
+	name="STATE_297"
+	provinces={
+		198 453 1945 6698 6765 9931 13470 13493 13509 13529 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = FJN
+			add_core_of = FJN
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

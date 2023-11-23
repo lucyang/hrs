@@ -1,0 +1,21 @@
+state={
+	id=537
+	name="STATE_537"
+	provinces={
+		93 311 732 1128 1536 1912 2285 2452 2465 2811 2846 2975 3024 3279 3390 3672 4166 4332 4679 4955 5038 5245 5285 5439 5633 6652 6910 8504 8652 9527 9824 9851 10988 11038 11083 11096 11116 11185 11201 11256 
+	}
+	history={
+		owner = DBJ
+		1924.1.1 = {
+			owner = KVD
+			add_core_of = KVD
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=392707
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

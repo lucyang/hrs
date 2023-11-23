@@ -1,0 +1,23 @@
+state={
+	id=248
+	name="STATE_248"
+	provinces={
+		1226 3080 3546 4047 5299 5648 5813 7918 8408 9517 10105 11958 11989 12053 12066 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = TIJ
+		 	add_core_of = TIJ
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=2768149
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

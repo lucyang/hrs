@@ -1,0 +1,19 @@
+state={
+	id=155
+	name="STATE_155"
+	provinces={
+		2588 5027 8357 8660 9715 14746 
+	}
+	history={
+		owner = SIA
+		add_core_of = SIA
+		add_claim_by = CAM
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=60000
+	buildings_max_level_factor=1.000
+	state_category = rural
+	local_supplies=0.000
+}

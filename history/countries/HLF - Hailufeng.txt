@@ -1,4 +1,4 @@
-﻿capital = 362 #汕尾
+﻿capital = 187 #汕尾
 
 #oob = "empty"
 set_country_flag = is_china_nation

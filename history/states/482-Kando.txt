@@ -1,0 +1,26 @@
+
+state={
+	id=482
+	name="STATE_482"
+	provinces={
+		575 1316 1974 2290 2702 2869 3568 4216 4563 4895 5382 5832 6837 7017 8342 8638 9882 11547 11550 11603 11622 11634 11682 11694 
+	}
+	history={
+		owner = IMK
+		add_core_of = IMK
+		1924.1.1 = {
+			owner = KIA
+			add_core_of = KIA
+			remove_core_of = IMK
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+	manpower=645020
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

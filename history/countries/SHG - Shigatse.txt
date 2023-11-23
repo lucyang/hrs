@@ -1,4 +1,4 @@
-﻿capital = 220 #日喀则
+﻿capital = 476 #日喀则
 
 #oob = "empty"
 

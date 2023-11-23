@@ -1,4 +1,4 @@
-capital = 187 #福冈
+capital = 4 #福冈
 
 #oob = "empty"
 

@@ -1,0 +1,33 @@
+
+state={
+	id=58
+	name="STATE_58"
+	provinces={
+		421 565 749 927 1155 1406 2496 3821 4175 4826 5398 5515 5582 7024 7269 7735 8131 8617 8930 8949 8986 9643 9672 9862 10270 10814 10821 10914 10916 10927 10938 10948 11001 11014 11045 15040 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = KRF
+			add_core_of = KRF
+			remove_core_of = IMJ
+		}
+		victory_points = { 4175 3 } #落石(亚历山德罗夫斯克)
+		victory_points = { 4826 1 } #恵須取
+		victory_points = { 1406 3 } #敷香
+		buildings = {
+			infrastructure = 2
+			4826 = {
+				naval_base = 1
+			}
+			4175 = {
+				naval_base = 1
+			}
+		}
+	}
+	manpower=72133
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

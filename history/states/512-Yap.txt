@@ -1,0 +1,22 @@
+state={
+	id=512
+	name="STATE_512"
+	provinces={
+		15151 
+	}
+	history={
+		owner = IMC
+		victory_points = { 15151 1 } #雅浦
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			15111 = {
+				naval_base = 1
+			}
+		}
+	}
+	manpower=48996
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+	local_supplies=0.000
+}

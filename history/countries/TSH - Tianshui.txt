@@ -1,4 +1,4 @@
-﻿capital = 159 #天水
+﻿capital = 452 #天水
 
 #oob = "empty"
 

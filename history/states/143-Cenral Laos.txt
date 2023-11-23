@@ -1,0 +1,21 @@
+
+state={
+	id=143
+	name="STATE_143"
+	provinces={
+		1873 2069 3125 3745 6298 6793 7400 7613 7929 9552 9600 14436 14502 14507 14525 14544 14567 14610 14618 14638 
+	}
+	history={
+		owner = LAO
+		add_core_of = LAO
+		victory_points = { 14610 3 } #坎塔波里
+		victory_points = { 14544 1 } #他曲
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=1013000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

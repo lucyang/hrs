@@ -1,4 +1,4 @@
-﻿capital = 299 #安源
+﻿capital = 361 #安源
 
 recruit_character = MAO_mao_zedong
 recruit_character = MAO_left_mao_zedong

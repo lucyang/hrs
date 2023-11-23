@@ -1,0 +1,26 @@
+state={
+	id=174
+	name="STATE_174"
+	provinces={
+		158 982 3479 6614 9546 14394 14395 14420 14423 14447 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = HNN
+		 	add_core_of = HNN
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+			9546 = {
+				naval_base = 1 #八所港
+			}
+		}
+	}
+	manpower=567917
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

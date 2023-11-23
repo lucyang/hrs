@@ -1,4 +1,4 @@
-﻿capital = 277 #迪庆/德钦
+﻿capital = 436 #迪庆/德钦
 
 recruit_character = SGR_nikolas_roerich
 recruit_character = SGR_helena_roerich

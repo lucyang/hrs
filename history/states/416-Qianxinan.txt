@@ -1,0 +1,23 @@
+state={
+	id=416
+	name="STATE_416"
+	provinces={
+		300 1986 2504 2998 4113 5380 9654 13595 13602 13664 13674 13712 13779 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = GNA
+			add_core_of = GNA
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=293318
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

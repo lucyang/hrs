@@ -1,0 +1,28 @@
+
+state={
+	id=15
+	name="STATE_15"
+	provinces={
+		9844 15063 
+	}
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = JPR
+			add_core_of = JPR
+			remove_core_of = IMJ
+		}
+		victory_points = { 9844 3 } #香川
+		buildings = {
+			infrastructure = 3
+			9844 = {
+				naval_base = 2
+			}
+		}
+	}
+	manpower=677852
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

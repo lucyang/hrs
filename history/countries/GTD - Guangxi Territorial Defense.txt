@@ -1,4 +1,4 @@
-﻿capital = 348 #梧州
+﻿capital = 211 #梧州
 
 recruit_character = GTD_shen_hongying
 

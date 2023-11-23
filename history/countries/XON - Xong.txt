@@ -1,4 +1,4 @@
-﻿capital = 655 #沅陵
+﻿capital = 371 #沅陵
 
 recruit_character = XON_long_yunfei
 recruit_character = XON_long_yunfei_old
@@ -10,6 +10,7 @@ recruit_character = XON_vue_pa_chay
 set_variable = { XON_militias_cap = 1 }
 
 oob = "XON_CivilWar"
+
 set_country_flag = is_miao_nation
 
 set_technology = {

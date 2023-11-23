@@ -1,0 +1,23 @@
+state={
+	id=469
+	name="STATE_469"
+	provinces={
+		396 633 637 911 978 1096 1290 1547 1684 1730 1845 1848 1942 2032 2955 3427 4210 4765 4853 4894 5158 5799 5909 6692 6800 6801 6898 7698 7764 8584 8812 9042 9084 9248 9559 12913 13044 13128 13200 13211 13285 13358 13400 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = CYA
+			add_core_of = CYA
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=503892
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

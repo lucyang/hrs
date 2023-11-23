@@ -1,0 +1,19 @@
+state={
+	id=129
+	name="STATE_129"
+	provinces={
+		7230 9037 10081 14962 14968 14973 14977 14978 
+	}
+	history={
+		owner = MAL
+		add_core_of = MAL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	manpower=879600
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

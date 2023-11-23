@@ -1,0 +1,23 @@
+state={
+	id=206
+	name="STATE_206"
+	provinces={
+		173 366 5422 6763 6794 13392 13440
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = FCH
+		 	add_core_of = FCH
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=174695
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,4 +1,4 @@
-﻿capital = 606 #广岛
+﻿capital = 19 #广岛
 
 recruit_character = CGK_ren_yuandao #任援道
 recruit_character = CGK_sasaki_toichi #佐佐木到一

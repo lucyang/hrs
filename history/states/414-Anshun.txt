@@ -1,0 +1,24 @@
+
+state={
+	id=414
+	name="STATE_414"
+	provinces={
+		1468 3069 5785 6843 9880 13548 13665 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = GNA
+			add_core_of = GNA
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=1023759
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

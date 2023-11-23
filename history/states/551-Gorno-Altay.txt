@@ -1,0 +1,21 @@
+
+state={
+	id=551
+	name="STATE_551"
+	provinces={
+		103 157 190 257 309 447 508 1410 1755 1960 1980 2015 2609 2622 2626 2692 3168 3227 3278 3399 3524 3826 4006 4170 4257 4442 4619 4691 4862 4951 5203 5316 5373 5377 5417 5550 5631 5837 6253 6343 7828 8755 9975 10074 10795 10848 10885 10897 10911 10912 10919 10941 10967 10974 10983 11000 11011 11012 11027 11073 
+	}
+	history={
+		owner = ALT
+		add_core_of = ALT
+		victory_points = { 1980 1 } #卫拉特图拉(戈尔诺-阿尔泰斯克)
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	manpower=89672
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

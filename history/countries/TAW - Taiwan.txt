@@ -1,4 +1,4 @@
-﻿capital = 332 # Taipei
+﻿capital = 328 #台北
 
 recruit_character = TAW_li_wanju
 recruit_character = TAW_qiu_niantai

@@ -1,4 +1,4 @@
-﻿capital = 356 #台南
+﻿capital = 327 #台南
 
 recruit_character = MNG_yu_qingfang
 recruit_character = MNG_real_yu_qingfang

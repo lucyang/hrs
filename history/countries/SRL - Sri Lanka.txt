@@ -1,4 +1,4 @@
-﻿capital = 401
+﻿capital = 105 #科伦坡
 
 #oob = "empty"
 

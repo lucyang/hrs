@@ -1,0 +1,19 @@
+
+state={
+	id=229
+	name="STATE_229"
+	provinces={
+		9638 9819 10125 11804 
+	}
+	history={
+		owner = LNG
+		add_core_of = LNG
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=427546
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

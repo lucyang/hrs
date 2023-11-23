@@ -1,4 +1,4 @@
-﻿capital = 321 # Kunming
+﻿capital = 432 #昆明
 
 recruit_character = YUN_cai_e
 recruit_character = YUN_zhu_de

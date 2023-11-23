@@ -1,0 +1,25 @@
+state={
+	id=164
+	name="STATE_164"
+	provinces={
+		746 1093 1529 1721 1887 4017 4718 4965 5833 6447 6601 8014 9507 9522 14700 14755 14766 14770 14780 14789 14796 14805 14813 14814 
+	}
+	history={
+		owner = VIN
+		add_core_of = VIN
+		1924.1.1 = {
+			owner = DEG
+			add_core_of = DEG
+			remove_core_of = VIN
+		}
+		victory_points = { 4017 3 } #邦美蜀
+		victory_points = { 6601 1 } #大叻
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=665000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

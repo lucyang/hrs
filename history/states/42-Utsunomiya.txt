@@ -1,0 +1,24 @@
+state={
+	id=42
+	name="STATE_42"
+	provinces={
+		5760 8629 12299 12365 
+	}
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = JPN
+			add_core_of = JPN
+			remove_core_of = IMJ
+		}
+		victory_points = { 12365 1 } #宇都宮
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=646479
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

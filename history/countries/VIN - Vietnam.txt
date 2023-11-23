@@ -1,4 +1,4 @@
-﻿capital = 568 #顺化
+﻿capital = 98 #顺化
 
 recruit_character = VIN_phan_boi_chau
 recruit_character = VIN_bao_dai

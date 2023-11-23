@@ -1,4 +1,4 @@
-﻿capital = 633
+﻿capital = 59 #缝江
 
 recruit_character = SKL_bronislaw_pilsudski
 

@@ -1,4 +1,4 @@
-﻿capital = 409 #达里冈爱
+﻿capital = 523 #达里冈爱
 
 #oob = "empty"
 

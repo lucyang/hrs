@@ -1,4 +1,4 @@
-﻿capital = 300 #吉安
+﻿capital = 307 #吉安
 
 recruit_character = EJX_fang_zhimin
 recruit_character = EJX_li_jingquan

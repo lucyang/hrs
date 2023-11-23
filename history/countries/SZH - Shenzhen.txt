@@ -1,4 +1,4 @@
-﻿capital = 369 #深圳
+﻿capital = 184 #深圳
 
 #oob = "empty"
 

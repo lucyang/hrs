@@ -1,0 +1,23 @@
+state={
+	id=307
+	name="STATE_307"
+	provinces={
+		765 1384 1511 1902 4593 4683 5272 6092 8897 9148 9200 9437 13416 13466 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = EJX
+		 	add_core_of = EJX
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=1974054
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

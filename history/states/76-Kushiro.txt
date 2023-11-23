@@ -1,0 +1,26 @@
+
+state={
+	id=76
+	name="STATE_76"
+	provinces={
+		521 6121 9090 11617 11664
+	}
+	history={
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = AIN
+			add_core_of = AIN
+			remove_core_of = IMJ
+		}
+		victory_points = { 521 1 } #釧路
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	manpower=106646
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

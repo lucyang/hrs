@@ -1,0 +1,862 @@
+CHI_select_regional_cosmetic_tag = {
+	hidden_effect = {
+		drop_cosmetic_tag = yes
+	}
+    if = {
+        limit = { 
+            original_tag = IMC
+        }
+        set_cosmetic_tag = IMC_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = CHI
+        }
+        set_cosmetic_tag = CHI_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = SHH
+        }
+        set_cosmetic_tag = SHH_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = ANH
+        }
+        set_cosmetic_tag = ANH_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = CHI
+        }
+        set_cosmetic_tag = CHI_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = SHX
+        }
+        set_cosmetic_tag = SHX_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = JIB
+        }
+        set_cosmetic_tag = JIB_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = SHD
+        }
+        set_cosmetic_tag = SHD_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = QND
+        }
+        set_cosmetic_tag = QND_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = QNA
+        }
+        set_cosmetic_tag = QNA_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = QUF
+        }
+        set_cosmetic_tag = QUF_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = LNY
+        }
+        set_cosmetic_tag = LNY_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = JIN
+        }
+        set_cosmetic_tag = JIN_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = HEN
+        }
+        set_cosmetic_tag = HEN_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = LYG
+        }
+        set_cosmetic_tag = LYG_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = AYG
+        }
+        set_cosmetic_tag = AYG_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = HEN
+        }
+        set_cosmetic_tag = HEN_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = PDS
+        }
+        set_cosmetic_tag = PDS_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = ZZH
+        }
+        set_cosmetic_tag = ZZH_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = WAX
+        }
+        set_cosmetic_tag = WAX_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = TIJ
+        }
+        set_cosmetic_tag = TIJ_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = HEB
+        }
+        set_cosmetic_tag = HEB_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = JID
+        }
+        set_cosmetic_tag = JID_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = CHR
+        }
+        set_cosmetic_tag = CHR_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = PRC
+        }
+        set_cosmetic_tag = PRC_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = LNG
+        }
+        set_cosmetic_tag = LNG_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = KTS
+        }
+        set_cosmetic_tag = KTS_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = CHI
+        }
+        set_cosmetic_tag = CHI_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = MAO
+        }
+        set_cosmetic_tag = MAO_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = HNA
+        }
+        set_cosmetic_tag = HNA_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = HNR
+        }
+        set_cosmetic_tag = HNR_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = HMG
+        }
+        set_cosmetic_tag = HMG_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = CBS
+        }
+        set_cosmetic_tag = CBS_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = KMT
+        }
+        set_cosmetic_tag = KMT_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = FEM
+        }
+        set_cosmetic_tag = FEM_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = HLF
+        }
+        set_cosmetic_tag = HLF_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = SZH
+        }
+        set_cosmetic_tag = SZH_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = GND
+        }
+        set_cosmetic_tag = GND_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = SGN
+        }
+        set_cosmetic_tag = SGN_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = LGG
+        }
+        set_cosmetic_tag = LGG_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = LCH
+        }
+        set_cosmetic_tag = LCH_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = FED
+        }
+        set_cosmetic_tag = FED_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = GXC
+        }
+        set_cosmetic_tag = GXC_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = BCH
+        }
+        set_cosmetic_tag = BCH_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = HNN
+        }
+        set_cosmetic_tag = HNN_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = QNG
+        }
+        set_cosmetic_tag = QNG_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = SXI
+        }
+        set_cosmetic_tag = SXI_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = GNS
+        }
+        set_cosmetic_tag = GNS_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = XSM
+        }
+        set_cosmetic_tag = XSM_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = NIX
+        }
+        set_cosmetic_tag = NIX_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = SYN
+        }
+        set_cosmetic_tag = SYN_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = YSH
+        }
+        set_cosmetic_tag = YSH_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = SCH
+        }
+        set_cosmetic_tag = SCH_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = CHQ
+        }
+        set_cosmetic_tag = CHQ_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = NSB
+        }
+        set_cosmetic_tag = NSB_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = CLS
+        }
+        set_cosmetic_tag = CLS_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = CNC
+        }
+        set_cosmetic_tag = CNC_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = CYA
+        }
+        set_cosmetic_tag = CYA_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = YUN
+        }
+        set_cosmetic_tag = YUN_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = JXP
+        }
+        set_cosmetic_tag = JXP_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = DLI
+        }
+        set_cosmetic_tag = DLI_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = MMA
+        }
+        set_cosmetic_tag = MMA_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = CHH
+        }
+        set_cosmetic_tag = CHH_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = LAX
+        }
+        set_cosmetic_tag = LAX_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = SGR
+        }
+        set_cosmetic_tag = SGR_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = GZH
+        }
+        set_cosmetic_tag = GZH_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = GNA
+        }
+        set_cosmetic_tag = GNA_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = GPA
+        }
+        set_cosmetic_tag = GPA_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = TSS
+        }
+        set_cosmetic_tag = TSS_regional_unifier
+    }
+    if = {
+        limit = { 
+            original_tag = MIA
+        }
+        set_cosmetic_tag = MIA_regional_unifier
+    }
+}
+CHI_select_unified_cosmetic_tag = {
+	hidden_effect = {
+		drop_cosmetic_tag = yes
+	}
+	if = {
+        limit = { 
+            original_tag = IMC
+        }
+        set_cosmetic_tag = IMC_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = CHI
+        }
+        set_cosmetic_tag = CHI_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = SHH
+        }
+        set_cosmetic_tag = SHH_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = CHI
+        }
+        set_cosmetic_tag = CHI_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = SHX
+        }
+        set_cosmetic_tag = SHX_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = JIB
+        }
+        set_cosmetic_tag = JIB_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = SHD
+        }
+        set_cosmetic_tag = SHD_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = QND
+        }
+        set_cosmetic_tag = QND_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = QNA
+        }
+        set_cosmetic_tag = QNA_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = QUF
+        }
+        set_cosmetic_tag = QUF_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = LNY
+        }
+        set_cosmetic_tag = LNY_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = HEN
+        }
+        set_cosmetic_tag = HEN_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = LYG
+        }
+        set_cosmetic_tag = LYG_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = AYG
+        }
+        set_cosmetic_tag = AYG_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = HEN
+        }
+        set_cosmetic_tag = HEN_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = PDS
+        }
+        set_cosmetic_tag = PDS_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = ZZH
+        }
+        set_cosmetic_tag = ZZH_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = WAX
+        }
+        set_cosmetic_tag = WAX_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = TIJ
+        }
+        set_cosmetic_tag = TIJ_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = HEB
+        }
+        set_cosmetic_tag = HEB_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = JID
+        }
+        set_cosmetic_tag = JID_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = CHR
+        }
+        set_cosmetic_tag = CHR_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = PRC
+        }
+        set_cosmetic_tag = PRC_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = LNG
+        }
+        set_cosmetic_tag = LNG_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = KTS
+        }
+        set_cosmetic_tag = KTS_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = CHI
+        }
+        set_cosmetic_tag = CHI_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = MAO
+        }
+        set_cosmetic_tag = MAO_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = HNA
+        }
+        set_cosmetic_tag = HNA_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = HNR
+        }
+        set_cosmetic_tag = HNR_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = HMG
+        }
+        set_cosmetic_tag = HMG_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = CBS
+        }
+        set_cosmetic_tag = CBS_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = KMT
+        }
+        set_cosmetic_tag = KMT_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = FEM
+        }
+        set_cosmetic_tag = FEM_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = HLF
+        }
+        set_cosmetic_tag = HLF_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = SZH
+        }
+        set_cosmetic_tag = SZH_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = GND
+        }
+        set_cosmetic_tag = GND_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = SGN
+        }
+        set_cosmetic_tag = SGN_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = LCH
+        }
+        set_cosmetic_tag = LCH_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = FED
+        }
+        set_cosmetic_tag = FED_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = GXC
+        }
+        set_cosmetic_tag = GXC_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = BCH
+        }
+        set_cosmetic_tag = BCH_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = HNN
+        }
+        set_cosmetic_tag = HNN_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = QNG
+        }
+        set_cosmetic_tag = QNG_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = SXI
+        }
+        set_cosmetic_tag = SXI_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = GNS
+        }
+        set_cosmetic_tag = GNS_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = XSM
+        }
+        set_cosmetic_tag = XSM_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = NIX
+        }
+        set_cosmetic_tag = NIX_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = SYN
+        }
+        set_cosmetic_tag = SYN_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = YSH
+        }
+        set_cosmetic_tag = YSH_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = SCH
+        }
+        set_cosmetic_tag = SCH_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = CHQ
+        }
+        set_cosmetic_tag = CHQ_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = NSB
+        }
+        set_cosmetic_tag = NSB_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = CLS
+        }
+        set_cosmetic_tag = CLS_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = CNC
+        }
+        set_cosmetic_tag = CNC_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = CYA
+        }
+        set_cosmetic_tag = CYA_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = YUN
+        }
+        set_cosmetic_tag = YUN_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = JXP
+        }
+        set_cosmetic_tag = JXP_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = DLI
+        }
+        set_cosmetic_tag = DLI_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = MMA
+        }
+        set_cosmetic_tag = MMA_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = CHH
+        }
+        set_cosmetic_tag = CHH_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = LAX
+        }
+        set_cosmetic_tag = LAX_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = SGR
+        }
+        set_cosmetic_tag = SGR_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = GZH
+        }
+        set_cosmetic_tag = GZH_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = GNA
+        }
+        set_cosmetic_tag = GNA_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = GPA
+        }
+        set_cosmetic_tag = GPA_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = TSS
+        }
+        set_cosmetic_tag = TSS_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = MIA
+        }
+        set_cosmetic_tag = MIA_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = FRM
+        }
+        set_cosmetic_tag = FRM_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = TAW
+        }
+        set_cosmetic_tag = TAW_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = ASN
+        }
+        set_cosmetic_tag = ASN_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = TGG
+        }
+        set_cosmetic_tag = TGG_CHINA
+    }
+    if = {
+        limit = { 
+            original_tag = MNG
+        }
+        set_cosmetic_tag = MNG_CHINA
+    }
+}

@@ -1,4 +1,4 @@
-﻿capital = 560 #西高棉
+﻿capital = 154 #暹粒
 
 recruit_character = KHR_tou_samouth
 recruit_character = KHR_san_ngo_minh

@@ -1,0 +1,23 @@
+state={
+	id=458
+	name="STATE_458"
+	provinces={
+		3644 5127 5267 6390 6645 7423 10203 12409 12434 12443 12483 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = QNG
+			add_core_of = QNG
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=439874
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

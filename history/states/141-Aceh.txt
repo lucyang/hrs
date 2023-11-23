@@ -1,0 +1,19 @@
+state={
+	id=141
+	name="STATE_141"
+	provinces={
+		37 560 2882 4322 5042 5361 5994 6044 6265 6962 7354 7664 7830 8682 8907 9329 9348 9515 9686 10190 14976 14984 14991 14992 14995 15007 15176 15190 
+	}
+	history={
+		owner = MAL
+		add_core_of = MAL
+		victory_points = { 5994 1 } #班达亚齐
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=1003062
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

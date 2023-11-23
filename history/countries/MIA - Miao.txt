@@ -1,4 +1,4 @@
-﻿capital = 302 # 毕节
+﻿capital = 417 #威宁
 
 recruit_character = MIA_yacob_yang
 

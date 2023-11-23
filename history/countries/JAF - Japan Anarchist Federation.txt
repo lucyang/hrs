@@ -1,4 +1,4 @@
-capital = 613 #静冈
+capital = 33 #静冈
 
 #oob = "empty"
 

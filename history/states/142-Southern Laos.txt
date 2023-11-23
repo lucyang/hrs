@@ -1,0 +1,20 @@
+
+state={
+	id=142
+	name="STATE_142"
+	provinces={
+		1464 1882 2552 2873 5503 6039 8592 14663 14719 
+	}
+	history={
+		owner = CHP
+		add_core_of = CHP
+		victory_points = { 8592 1 } #阿速坡
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=111700
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

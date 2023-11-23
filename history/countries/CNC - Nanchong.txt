@@ -1,4 +1,4 @@
-capital = 215 #南充
+capital = 394 #南充
 
 #oob = "empty"
 

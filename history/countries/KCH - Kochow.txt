@@ -1,4 +1,4 @@
-﻿capital = 349 # 肇庆
+﻿capital = 179 #高州/茂名
 
 #oob = "empty"
 set_country_flag = is_china_nation

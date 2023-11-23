@@ -1,4 +1,4 @@
-﻿capital = 330 #韶关
+﻿capital = 193 #韶关
 
 #oob = "empty"
 

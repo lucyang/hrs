@@ -1,0 +1,23 @@
+state={
+	id=440
+	name="STATE_440"
+	provinces={
+		329 345 984 1308 1604 1678 1735 1849 2008 2123 2186 2188 2527 3121 3356 3763 4194 4448 4597 6157 6428 7005 7150 7609 7729 8149 9313 10017 10100 11797 11831 11871 11872 11899 11900 11914 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = SYN
+			add_core_of = SYN
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=421051
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,24 @@
+state={
+	id=461
+	name="STATE_461"
+	provinces={
+		312 349 556 787 1691 1736 2814 3915 4313 5320 5475 6591 8144 9993 12641 12688 12689 12694 12727 12730 12746 12776 12819 12823 12845 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = NHA
+			add_core_of = NHA
+			add_core_of = GLK
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=100343
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,23 @@
+state={
+	id=385
+	name="STATE_385"
+	provinces={
+		462 1085 4390 4584 5673 6509 9367 10174 12609 12678 12699 12719 12732 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = SXI
+			add_core_of = SXI
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=2991488
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

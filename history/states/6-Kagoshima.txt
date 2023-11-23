@@ -1,0 +1,29 @@
+state={
+	id=6
+	name="STATE_6"
+	provinces={
+		860 2719 4830 8094 12919 12937 15075 15077 
+	}
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+		1924.1.1 = {
+			owner = AMM
+			add_core_of = AMM
+			remove_core_of = IMJ
+		}
+		victory_points = { 12919 3 } #鹿児島
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 2
+			12919 = {
+				naval_base = 2
+			}
+		}
+	}
+	manpower=1201733
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

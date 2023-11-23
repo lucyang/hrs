@@ -1,4 +1,4 @@
-﻿capital = 576 #占巴塞
+﻿capital = 142 #占巴塞
 
 recruit_character = LAO_boun_oum
 
