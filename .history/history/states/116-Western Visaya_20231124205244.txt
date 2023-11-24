@@ -1,0 +1,19 @@
+state={
+	id=116
+	name="STATE_116"
+	provinces={
+		541 4351 4784 7266 7605 8743 9094 9278 9361 9948 9963 14831 14836 14840 14842 14847 14851 14862 14868 14869 14872 14874 14879 15130 15149 
+	}
+	history={
+		owner = PHI
+		add_core_of = PHI
+		victory_points = { 9948 10 } #宿务
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=1077750
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

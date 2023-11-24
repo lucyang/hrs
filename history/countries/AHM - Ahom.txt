@@ -1,4 +1,4 @@
-capital = 272 # Assam
+capital = 100 # Assam
 
 #oob = "empty"
 

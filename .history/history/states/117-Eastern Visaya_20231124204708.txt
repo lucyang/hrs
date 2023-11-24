@@ -1,0 +1,19 @@
+state={
+	id=117
+	name="STATE_117"
+	provinces={
+		1492 5792 6440 6442 7213 7431 9763 10220 14785 14797 14821 15128 15134 15136 15137 15142 
+	}
+	history={
+		owner = PHI
+		add_core_of = PHI
+		victory_points = { 5762 1 } #塔克洛班/见沙
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=442200
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

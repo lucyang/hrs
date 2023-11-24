@@ -261,7 +261,7 @@ ANG_CV_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_carrier carrier }
+	ship_types = { carrier }
 	
 	prefix = "HMS "							
 	fallback_name = "Carrier %s"		
@@ -285,7 +285,7 @@ ANG_CVL_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_carrier carrier }
+	ship_types = { carrier }
 	
 	prefix = "HMS "							
 	fallback_name = "Carrier %s"	
@@ -770,7 +770,7 @@ ANG_CV_COMMUNISM = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_carrier carrier }
+	ship_types = { carrier }
 	
 	prefix = "WLNS "							
 	fallback_name = "Carrier %s"		
@@ -794,7 +794,7 @@ ANG_CVL_COMMUNISM = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_carrier carrier }
+	ship_types = { carrier }
 	
 	prefix = "WLNS "							
 	fallback_name = "Carrier %s"	

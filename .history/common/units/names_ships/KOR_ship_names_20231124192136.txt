@@ -1,0 +1,251 @@
+﻿##### KOREA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+KOR_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	fallback_name = "Guchugham %d -go"			
+
+	unique = {				
+		"Sejong the Great" "Yulgok Yi I" "Seoae Ryu Sungryong" "Jeongjo the Great" "Chungmugong Yi Sunshin" "Munmu the Great" "Dae Joyeong" "Wang Geon" "Kang Gam-chan" "Choi Young" "Kwanggaeto the Great" "Ulchi Moonduk" "Yang Manchoon"
+	}
+}
+
+### ESCORT DESTROYER NAMES###
+KOR_DE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DE
+
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+	
+	fallback_name = "Howiguchugham %d -go"
+
+	unique = {
+		"Yoon Youngha" "Han Sanggook" "Jo Chunhyung" "Hwang Dohyun" "Suh Hoowon" "Park Donghyuk" "Hyun Sihak" "Jung Geungmo" "Ji Deokchil" "Lim Byeongrae" "Hong Siuk" "Hong Daeseon" "Han Munsik" "Kim Changhak" "Park Dongjin" "Kim Soohyun" "Jeon Byeongik" "Lee Byeongcheol"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+KOR_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	fallback_name = "Gyeongsunyangham %d -go"
+
+	unique = {
+		"Daegu" "Gyeongnam" "Seoul" "Donghae" "Daejeon" "Pohang" "Cheonan" "Chuncheon" "Incheon" "Gyeonggi" "Jeonbuk" "Gangwon" "Chungbuk" "Gwangju" "Jeonnam" "Jeju" "Busan" "Cheongju"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+KOR_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	fallback_name = "Jungsunyangham %d -go"
+
+	unique = {
+		"Daegu" "Gyeongnam" "Seoul" "Donghae" "Daejeon" "Pohang" "Cheonan" "Chuncheon" "Incheon" "Gyeonggi" "Jeonbuk" "Gangwon" "Chungbuk" "Gwangju" "Jeonnam" "Jeju" "Busan" "Cheongju"
+	}
+}
+
+
+### MINELAYER NAMES###
+KOR_MINELAYERS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_MINELAYERS
+
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
+	
+	fallback_name = "Giloebuseolham %d -go"
+
+	unique = {
+		"Nampo" "Wonsan" "Yangyang" "Ongjin" "Haenam" "Namhae" "Hongseong" "Goseong	" "Ganggyeong" "Gangjin" "Goryeong" "Gimpo" "Gochang" "Gimhwa"
+	}
+}
+
+### BATTLESHIP NAMES ###
+KOR_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	fallback_name = "Jeonham %d -go"		
+
+	unique = {
+		"Daegu" "Gyeongnam" "Seoul" "Donghae" "Daejeon" "Pohang" "Cheonan" "Chuncheon" "Incheon" "Gyeonggi" "Jeonbuk" "Gangwon" "Chungbuk" "Gwangju" "Jeonnam" "Jeju" "Busan" "Cheongju"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+KOR_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	fallback_name = "Sunyangjeonham %d -go"		
+
+	unique = {
+		"Daegu" "Gyeongnam" "Seoul" "Donghae" "Daejeon" "Pohang" "Cheonan" "Chuncheon" "Incheon" "Gyeonggi" "Jeonbuk" "Gangwon" "Chungbuk" "Gwangju" "Jeonnam" "Jeju" "Busan" "Cheongju"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+KOR_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
+
+	type = ship
+	ship_types = { carrier }
+	
+	fallback_name = "Hanggongmoham %d -go"	
+
+	unique = {
+		"Jinguk" "Goguryeo" "Silla" "Balhae" "Baekje" "Taebong" "Goryeo" "Joseon"
+	}
+}
+
+### LIGHT CARRIER NAMES ###
+KOR_CVL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
+
+	type = ship
+	ship_types = { carrier }
+	
+	fallback_name = "Hanggongmoham %d -go"	
+
+	unique = {
+		"Dokdo" "Marado" "Cheonwangbong" "Cheonjabong" "Ilchulbong" "Nojeokbong" "Gojunbong" "Birobong" "Hyangnobong" "Seonginbong"
+	}
+}
+
+### SUBMARINES ###
+KOR_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	fallback_name = "Jamsuham %d -go"
+	
+	unique = {
+		"Ahn Changho" "Ahn Mu" "Yi Dong-nyeong" "Lee Bong-chang" "Sohn Won-yil" "Jeong Ji" "An Jung-geun" "Kim Jwa-jin" "Yun Bong-gil" "Yu Gwan-sun" "Hong Beom-do" "Lee Beom-seok" "Shin Dol-seok" "Jang Bogo" "Yi Cheon" "Choe Museon" "Park Wi" "Lee Jongmoo" "Jung Woon" "Lee Sun-sin" "Na Dae-yong" "Yi Eokgi"
+	}
+}
+
+### THEME: KORANESE PREFECTURES ###
+KOR_PREFECTURES = {
+	name = NAME_THEME_PREFECTURES
+
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
+
+	type = ship
+
+	unique = {
+		"Yamashiro" "Kawachi" "Izumi" "Settsu" "Iga" "Ise" "Shima" "Owari" "Mikawa" "Totomi" "Suruga" "Izu" "Kai" "Sagami" "Musashi" "Awa" "Kazusa" 
+		"Shimosa" "Hitachi" "Omi" "Mino" "Hida" "Shinano" "Kozuke" "Shimotsuke" "Dewa" "Mutsu" "Wakasa" "Echizen" "Kaga" "Noto" "Etchu" "Echigo" 
+		"Sado" "Tanba" "Tango" "Tajima" "Inaba" "Hoki" "Izumo" "Iwami" "Oki" "Harima" "Mimasaka" "Bizen" "Bitchu" "Bingo" "Aki" "Suo" "Nagato" 
+		"Kii" "Awaji" "Awa" "Sanuki" "Iyo" "Tosa" "Buzen" "Chikuzen" "Chikugo" "Hizen" "Higo" "Hyuga" "Osumi" "Satsuma" "Iki" "Tsushima" "Oshima" 
+		"Shiribeshi" "Iburi" "Ishikari" "Teshio" "Kitami" "Hidaka" "Tokachi" "Kushiro" "Nemuro" "Chishima" "Hokkaido" "Aichi" "Ehime" "Gunma" "Hyogo" "Ishikawa" "Iwate" "Kagawa" "Kanagawa" "Mie" "Miyagi" "Okinawa" "Shiga" "Shimane" "Tochigi" "Yamanashi"
+	}
+}
+## THEME: KORANESE CITIES ###
+KOR_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
+
+	type = ship
+
+	unique = {
+		"Tokyo" "Yokohama" "Osaka" "Nagoya" "Sapporo" "Kobe" "Kyoto" "Fukuoka" "Kawasaki" "Saitama" "Hiroshima" "Sendai" "Kitakyushu" "Chiba" "Setagaya" 
+		"Sakai" "Niigata" "Hamamatsu" "Shizuoka" "Sagamihara" "Nerima" "Okayama" "Oita" "Kumamoto" "Edogawa" "Adachi" "Kagoshima" "Funabashi" "Hachioji" 
+		"Kawaguchi" "Himeji" "Suginami" "Itabashi" "Matsuyama" "Higashiosaka" "Utsunomiya" "Matsudo" "Nishinomiya" "Kurashiki" "Ichikawa" "Fukuyama" 
+		"Amagasaki" "Kanazawa" "Nagasaki" "Koto" "Katsushika" "Yokusaka" "Toyama" "Toyota" "Takamatsu" "Machida" "Gifu" "Hirakata" "Fujisawa" "Kashiwa" 
+		"Toyonaka" "Nagano" "Toyohashi" "Ichinomiya" "Wakayama" "Okazaki" "Miyazaki" "Nara" "Suita" "Takatsuki" "Shinagawa" "Asahikawa" "Iwaki" "Kochi" 
+		"Takasaki" "Koriyama" "Tokorozawa" "Kawagoe" "Kita" "Akita" "Otsu" "Koshigaya" "Maebashi" "Naha" "Nakano" "Shinjuku" "Yokaichi" "Aomori" "Kurume" 
+		"Kasugai" "Morioka" "Akashi" "Fukushima" "Tsu" "Shimonoseki" "Nagaoka" "Ichihara" "Hakodate" "Yao" "Ibaraki" "Fukui" "Meguro" "Kakogawa" "Tokushima" 
+		"Mito" "Hiratsuka" "Toshima" "Yamagata" "Sasebo" "Fuchu" "Kure" "Hachinohe" "Saga" "Neyagawa" "Soka" "Sumida" "Fuji" "Kasukabe" "Chigasaki" "Matsumoto"   
+		"Atsugi" "Yamato" "Ageo" "Takarazuka" "Chofu" "Ota" "Tsukuba" "Numazu" "Joetsu" "Shibuya" "Minato" "Kumagaya" "Isesaki" "Kishiwada" "Tottori" "Kofu" 
+		"Odawara" "Suzuka" "Matsue" "Hitachi" "Bunkyo" "Arakawa" "Itami" "Nishitokyo" "Yamaguchi" "Uji"		
+	}
+}
+
+KOR_WEATHER = {
+	name = NAME_THEME_WEATHER
+
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
+
+	type = ship
+
+	unique = {
+		"Kawakaze" "Tanikaze" "Minekaze" "Sawakaze" "Okikaze" "Shimakaze" "Nadakaze" "Yakaze" "Hakaze" "Shiokaze" "Akikaze" "Yukaze" "Tachikaze" "Hokaze" "Nokaze" 
+		"Namikaze" "Numakaze" "Kamikaze" "Asakaze" "Harukaze" "Matsukaze" "Hatakaze" "Oite" "Hayate" "Asanagi" "Yunagi" 
+		"Fubuki" "Shirayuki" "Hatsuyuki" "Miyuki" "Murakumo" "Shinonome" "Usugumo" "Shirakumo" "Isonami" "Uranami" "Ayanami" "Shikinami" 
+		"Asagiri" "Yugiri" "Amagiri" "Sagiri" "Oboro" "Akebono" "Sazanami" "Ushio" "Akatsuki" "Hibiki" "Ikazuchi" "Inazuma" 
+		"Shiratsuyu" "Shigure" "Murasame" "Yudachi" "Umikaze" "Samidare" "Yamakaze" "Harusame" "Suzukaze"
+		"Asashio" "Arashio" "Oshio" "Michishio" "Yamagumo" "Natsugumo" "Minegumo" "Asagumo" "Arare" "Kasumi"
+		"Kagero" "Shiranui" "Kuroshio" "Yukikaze" "Oyashio" "Hayashio" "Natsushio" "Hatsukaze" "Amatsukaze" "Isokaze" "Tokitsukaze" "Urakaze" "Arashi" 
+		"Hagikaze" "Nowaki" "Tanikaze" "Hamakaze" "Maikaze" "Akigumo" "Yugumo" "Makigumo" "Kazagumo" "Naganami" "Makinami" "Takanami" "Onami" "Kiyonami" "Tamanami" 
+		"Suzunami" "Fujinami" "Hayanami" "Hamanami" "Asashimo" "Okinami" "Kishinami" "Hayashimo" "Akishimo" "Kiyoshimo"
+	}
+}
+
+KOR_NATURE = {
+	name = NAME_THEME_NATURE
+
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
+
+	type = ship
+
+	unique = {
+			"Momo" "Kashi" "Hinoki" "Yanagi" "Enoki" "Maki" "Keyaki" "Kuwa" "Tsubaki" "Nara" 
+			"Momi" "Kaya" "Nashi" "Take" "Kaki" "Tsuga" "Nire" "Kuri" "Kiku" "Aoi" "Fuji" "Hagi" "Susuki" "Hishi" "Hasu" "Warabi" "Tade" "Sumire" "Tsuta" "Ashi" 
+			"Yomogi" "Wakatake" "Kuretake" "Sanae" "Sarawabi" "Asagao" "Yugao" "Fuyo" "Karukaya"
+			"Matsu" "Ume" "Kiri" "Sugi" "Sakura" "Kaba" "Kaede" "Yaezakura" "Yadake" "Kudzu" "Madake" "Hayaume" "Tobiume" "Wakazakura" "Yamazakura" 
+			"Tachibana" "Shii" "Kusunoki" "Odake" "Hatsuzakura" "Hatsuume" "Azusa" "Mikura" "Miyake" "Awaji" "Kurahashi" "Nomi" "Chiburi" "Yashiro" 
+			"Kusagaki" "Shinodake" "Shiraume" "Kashiwa" "Kigiku" "Hatsugiku" "Akane" "Shiragiku" "Chigusa" "Wakakusa" "Natsugusa" "Akikusa" "Tochi" "Nogiku" 			
+		}
+}
+
+KOR_RIVER_MOUNTAIN = {
+	name = NAME_THEME_RIVER_MOUNTAIN
+
+	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
+
+	type = ship
+
+	unique = {
+		"Asama" "Furutaka" "Kako" "Aoba" "Kinugasa" "Myoko" "Nachi" "Haguro" "Ashigara" "Takao" "Atago" "Maya" "Chokai" "Mogami" "Mikuma" "Suzuya" 
+		"Kumano" "Tone" "Chikuma" "Ibuki" "Yodo" "Hirado" "Yahagi" "Tenryu" "Tatsuta" "Kuma" "Tama" "Kitakami" "Oi" "Kiso" "Nagara" "Isuzu" "Natori" 
+		"Yura" "Kinu" "Abukuma" "Yubari" "Sendai" "Jintsu" "Naka" "Agano" "Noshiro" "Yahagi" "Sakawa" "Oyodo"
+		"Ayase" "Minase" "Otonase" 
+	}
+}

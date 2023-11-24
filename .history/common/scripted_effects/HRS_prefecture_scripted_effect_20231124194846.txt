@@ -1,0 +1,455 @@
+## Starting Prefectures
+
+HRS_setup_prefectures = {
+	#直辖市
+	270 = { set_variable = { prefecture = 1 } } #京师
+	23 = { set_variable = { prefecture = 2 } } #京都
+	83 = { set_variable = { prefecture = 3 } } #京城
+	261 = { set_variable = { prefecture = 4 } } #上海
+	262 = { set_variable = { prefecture = 4 } } #崇明岛
+	185 = { set_variable = { prefecture = 5 } } #广州
+	248 = { set_variable = { prefecture = 6 } } #天津
+	353 = { set_variable = { prefecture = 7 } } #武汉
+	233 = { set_variable = { prefecture = 8 } } #青岛
+	382 = { set_variable = { prefecture = 9 } } #西安
+	24 = { set_variable = { prefecture = 10 } } #大阪
+	81 = { set_variable = { prefecture = 11 } } #釜山
+	221 = { set_variable = { prefecture = 12 } } #关东州
+	292 = { set_variable = { prefecture = 29 } } #舟山
+	#广东
+	175 = { set_variable = { prefecture = 13 } } #钦州
+	176 = { set_variable = { prefecture = 13 } } #雷州/湛江
+	177 = { set_variable = { prefecture = 13 } } #防城
+	178 = { set_variable = { prefecture = 13 } } #廉州/北海
+	179 = { set_variable = { prefecture = 13 } } #高州/茂名
+	180 = { set_variable = { prefecture = 13 } } #阳江
+	181 = { set_variable = { prefecture = 13 } } #新会/江门
+	182 = { set_variable = { prefecture = 13 } } #香山/中山
+	183 = { set_variable = { prefecture = 13 } } #东莞
+	184 = { set_variable = { prefecture = 13 } } #宝安/深圳
+	186 = { set_variable = { prefecture = 13 } } #惠州
+	187 = { set_variable = { prefecture = 13 } } #海丰/汕尾
+	188 = { set_variable = { prefecture = 13 } } #揭阳
+	189 = { set_variable = { prefecture = 13 } } #汕头
+	190 = { set_variable = { prefecture = 13 } } #河源
+	191 = { set_variable = { prefecture = 13 } } #梅州
+	192 = { set_variable = { prefecture = 13 } } #潮州
+	193 = { set_variable = { prefecture = 13 } } #韶州/韶关
+	194 = { set_variable = { prefecture = 13 } } #连州/清远
+	195 = { set_variable = { prefecture = 13 } } #罗定
+	196 = { set_variable = { prefecture = 13 } } #肇庆
+	197 = { set_variable = { prefecture = 13 } } #佛山
+	#福建
+	198 = { set_variable = { prefecture = 14 } } #思明/厦门
+	199 = { set_variable = { prefecture = 14 } } #漳州
+	200 = { set_variable = { prefecture = 14 } } #泉州
+	201 = { set_variable = { prefecture = 14 } } #莆田
+	202 = { set_variable = { prefecture = 14 } } #福州
+	203 = { set_variable = { prefecture = 14 } } #龙岩
+	204 = { set_variable = { prefecture = 14 } } #澎湖
+	205 = { set_variable = { prefecture = 14 } } #汀州
+	206 = { set_variable = { prefecture = 14 } } #阜宁/宁德
+	207 = { set_variable = { prefecture = 14 } } #建宁/南平
+	297 = { set_variable = { prefecture = 14 } } #延平
+	#湖南
+	360 = { set_variable = { prefecture = 15 } } #岳阳
+	361 = { set_variable = { prefecture = 15 } } #株洲
+	362 = { set_variable = { prefecture = 15 } } #郴州
+	363 = { set_variable = { prefecture = 15 } } #衡阳
+	364 = { set_variable = { prefecture = 15 } } #益阳
+	365 = { set_variable = { prefecture = 15 } } #常德
+	366 = { set_variable = { prefecture = 15 } } #娄底
+	367 = { set_variable = { prefecture = 15 } } #湘潭
+	368 = { set_variable = { prefecture = 15 } } #长沙
+	374 = { set_variable = { prefecture = 15 } } #宝庆
+	369 = { set_variable = { prefecture = 15 } } #澧州/#张家界
+	370 = { set_variable = { prefecture = 15 } } #凤凰
+	371 = { set_variable = { prefecture = 15 } } #沅陵
+	372 = { set_variable = { prefecture = 15 } } #沅州
+	373 = { set_variable = { prefecture = 15 } } #靖州
+	375 = { set_variable = { prefecture = 15 } } #辰州
+	376 = { set_variable = { prefecture = 15 } } #永顺
+	#江西
+	303 = { set_variable = { prefecture = 16 } } #赣州
+	304 = { set_variable = { prefecture = 16 } } #抚州
+	305 = { set_variable = { prefecture = 16 } } #上饶
+	306 = { set_variable = { prefecture = 16 } } #南昌
+	307 = { set_variable = { prefecture = 16 } } #吉安 
+	308 = { set_variable = { prefecture = 16 } } #萍乡
+	309 = { set_variable = { prefecture = 16 } } #新喻/新余
+	310 = { set_variable = { prefecture = 16 } } #宜春
+	311 = { set_variable = { prefecture = 16 } } #九江
+	312 = { set_variable = { prefecture = 16 } } #昌南/景德镇
+	310 = { set_variable = { prefecture = 16 } } #赣州
+	#广西
+	208 = { set_variable = { prefecture = 17 } } #玉林
+	209 = { set_variable = { prefecture = 17 } } #贵港
+	210 = { set_variable = { prefecture = 17 } } #来宾
+	211 = { set_variable = { prefecture = 17 } } #梧州
+	212 = { set_variable = { prefecture = 17 } } #邕州/南宁
+	213 = { set_variable = { prefecture = 17 } } #崇左
+	214 = { set_variable = { prefecture = 17 } } #广源州
+	215 = { set_variable = { prefecture = 17 } } #百色
+	216 = { set_variable = { prefecture = 17 } } #河池
+	217 = { set_variable = { prefecture = 17 } } #柳州
+	218 = { set_variable = { prefecture = 17 } } #贺州
+	219 = { set_variable = { prefecture = 17 } } #桂林
+	220 = { set_variable = { prefecture = 17 } } #永州
+	#交趾
+	159 = { set_variable = { prefecture = 18 } } #岘港
+ 	160 = { set_variable = { prefecture = 18 } } #海防
+	167 = { set_variable = { prefecture = 18 } } #北中部
+	168 = { set_variable = { prefecture = 18 } } #西北部
+	169 = { set_variable = { prefecture = 18 } } #红河三角洲
+	170 = { set_variable = { prefecture = 18 } } #东北部
+	#浙江
+	290 = { set_variable = { prefecture = 19 } } #嘉兴
+	291 = { set_variable = { prefecture = 19 } } #湖州
+	293 = { set_variable = { prefecture = 19 } } #宁波
+	294 = { set_variable = { prefecture = 19 } } #台州
+	295 = { set_variable = { prefecture = 19 } } #温州
+	298 = { set_variable = { prefecture = 19 } } #绍兴
+	299 = { set_variable = { prefecture = 19 } } #杭州
+	300 = { set_variable = { prefecture = 19 } } #金华
+	301 = { set_variable = { prefecture = 19 } } #处州/丽水
+	302 = { set_variable = { prefecture = 19 } } #衢州
+	#江南(苏南+皖南)
+	263 = { set_variable = { prefecture = 20 } } #苏州
+	264 = { set_variable = { prefecture = 20 } } #无锡
+	265 = { set_variable = { prefecture = 20 } } #常州
+	266 = { set_variable = { prefecture = 20 } } #南通
+	267 = { set_variable = { prefecture = 20 } } #泰州
+	268 = { set_variable = { prefecture = 20 } } #镇江
+	269 = { set_variable = { prefecture = 20 } } #扬州
+	276 = { set_variable = { prefecture = 20 } } #芜湖
+	277 = { set_variable = { prefecture = 20 } } #巢湖
+	278 = { set_variable = { prefecture = 20 } } #滁州
+	281 = { set_variable = { prefecture = 20 } } #寿春/寿县
+	282 = { set_variable = { prefecture = 20 } } #合肥
+	285 = { set_variable = { prefecture = 20 } } #六安
+	286 = { set_variable = { prefecture = 20 } } #安庆
+	287 = { set_variable = { prefecture = 20 } } #池州
+	288 = { set_variable = { prefecture = 20 } } #徽州
+	289 = { set_variable = { prefecture = 20 } } #宁国/宣城
+	#淮海
+	271 = { set_variable = { prefecture = 21 } } #盐城
+	272 = { set_variable = { prefecture = 21 } } #海州/连云港
+	273 = { set_variable = { prefecture = 21 } } #淮安
+	274 = { set_variable = { prefecture = 21 } } #宿迁
+	275 = { set_variable = { prefecture = 21 } } #徐州
+	279 = { set_variable = { prefecture = 21 } } #凤阳
+	280 = { set_variable = { prefecture = 21 } } #宿州
+	283 = { set_variable = { prefecture = 21 } } #亳州
+	284 = { set_variable = { prefecture = 21 } } #阜阳
+	296 = { set_variable = { prefecture = 21 } } #蚌埠
+	#湖北
+	348 = { set_variable = { prefecture = 22 } } #随州
+	349 = { set_variable = { prefecture = 22 } } #襄阳
+	350 = { set_variable = { prefecture = 22 } } #孝感
+	351 = { set_variable = { prefecture = 22 } } #黄冈
+	352 = { set_variable = { prefecture = 22 } } #黄石
+	353 = { set_variable = { prefecture = 22 } } #武汉
+	354 = { set_variable = { prefecture = 22 } } #咸宁
+	355 = { set_variable = { prefecture = 22 } } #荆州
+	356 = { set_variable = { prefecture = 22 } } #宜昌
+	357 = { set_variable = { prefecture = 22 } } #荆门
+	358 = { set_variable = { prefecture = 22 } } #恩施
+	359 = { set_variable = { prefecture = 22 } } #十堰
+	#河南
+	333 = { set_variable = { prefecture = 23 } } #大名/濮阳
+	334 = { set_variable = { prefecture = 23 } } #彰德/安阳
+	335 = { set_variable = { prefecture = 23 } } #归德/商丘
+	336 = { set_variable = { prefecture = 23 } } #开封
+	337 = { set_variable = { prefecture = 23 } } #怀庆/焦作+济源
+	338 = { set_variable = { prefecture = 23 } } #卫辉/新乡
+	339 = { set_variable = { prefecture = 23 } } #陈州/周口
+	340 = { set_variable = { prefecture = 23 } } #郑州
+	341 = { set_variable = { prefecture = 23 } } #许州/许昌
+	342 = { set_variable = { prefecture = 23 } } #洛阳
+	343 = { set_variable = { prefecture = 23 } } #陕州/三门峡
+	344 = { set_variable = { prefecture = 23 } } #南阳
+	345 = { set_variable = { prefecture = 23 } } #汝州/平顶山
+	346 = { set_variable = { prefecture = 23 } } #汝宁/驻马店
+	347 = { set_variable = { prefecture = 23 } } #信阳
+	#山东
+	231 = { set_variable = { prefecture = 24 } } #威海
+	232 = { set_variable = { prefecture = 24 } } #烟台
+	233 = { set_variable = { prefecture = 24 } } #胶州/青岛
+	234 = { set_variable = { prefecture = 24 } } #青州/潍坊
+	235 = { set_variable = { prefecture = 24 } } #莒州/日照
+	236 = { set_variable = { prefecture = 24 } } #沂州/临沂
+	237 = { set_variable = { prefecture = 24 } } #淄博
+	238 = { set_variable = { prefecture = 24 } } #滨州
+	239 = { set_variable = { prefecture = 24 } } #济南
+	240 = { set_variable = { prefecture = 24 } } #泰安
+	241 = { set_variable = { prefecture = 24 } } #兖州/枣庄
+	242 = { set_variable = { prefecture = 24 } } #济宁
+	243 = { set_variable = { prefecture = 24 } } #曹州/菏泽
+	244 = { set_variable = { prefecture = 24 } } #东平/聊城
+	245 = { set_variable = { prefecture = 24 } } #德州
+	#河北
+	246 = { set_variable = { prefecture = 25 } } #临榆/秦皇岛
+	247 = { set_variable = { prefecture = 25 } } #唐山
+	248 = { set_variable = { prefecture = 25 } } #天津
+	249 = { set_variable = { prefecture = 25 } } #沧州
+	250 = { set_variable = { prefecture = 25 } } #冀州/衡水
+	251 = { set_variable = { prefecture = 25 } } #邢台
+	252 = { set_variable = { prefecture = 25 } } #邯郸
+	253 = { set_variable = { prefecture = 25 } } #石门/石家庄
+	254 = { set_variable = { prefecture = 25 } } #廊坊
+	255 = { set_variable = { prefecture = 25 } } #保定
+	256 = { set_variable = { prefecture = 25 } } #北平
+	#海南
+	171 = { set_variable = { prefecture = 26 } } #海口
+	172 = { set_variable = { prefecture = 26 } } #三亚
+	173 = { set_variable = { prefecture = 26 } } #琼西
+	174 = { set_variable = { prefecture = 26 } } #琼东
+	#山东辽东
+	222 = { set_variable = { prefecture = 27 } } #复州
+	223 = { set_variable = { prefecture = 27 } } #铁岭
+	224 = { set_variable = { prefecture = 27 } } #鞍山
+	225 = { set_variable = { prefecture = 27 } } #安东/丹东
+	226 = { set_variable = { prefecture = 27 } } #盘山/盘锦
+	227 = { set_variable = { prefecture = 27 } } #锦州
+	228 = { set_variable = { prefecture = 27 } } #连山/葫芦岛
+	229 = { set_variable = { prefecture = 27 } } #辽阳
+	230 = { set_variable = { prefecture = 27 } } #本溪
+	#四川
+	386 = { set_variable = { prefecture = 28 } } #巴州
+	387 = { set_variable = { prefecture = 28 } } #广元
+	389 = { set_variable = { prefecture = 28 } } #达州
+	394 = { set_variable = { prefecture = 28 } } #南充
+	395 = { set_variable = { prefecture = 28 } } #遂宁
+
+	388 = { set_variable = { prefecture = 28 } } #广安
+	390 = { set_variable = { prefecture = 28 } } #万县
+	391 = { set_variable = { prefecture = 28 } } #黔江
+	392 = { set_variable = { prefecture = 28 } } #涪陵
+	393 = { set_variable = { prefecture = 28 } } #重庆
+
+	396 = { set_variable = { prefecture = 28 } } #绵阳
+	397 = { set_variable = { prefecture = 28 } } #德阳
+	398 = { set_variable = { prefecture = 28 } } #成都
+	399 = { set_variable = { prefecture = 28 } } #眉山
+	404 = { set_variable = { prefecture = 28 } } #资阳 
+	406 = { set_variable = { prefecture = 28 } } #雅安
+	468 = { set_variable = { prefecture = 28 } } #松茂/阿坝州
+
+	400 = { set_variable = { prefecture = 28 } } #泸州
+	401 = { set_variable = { prefecture = 28 } } #宜宾
+	402 = { set_variable = { prefecture = 28 } } #自贡
+	403 = { set_variable = { prefecture = 28 } } #内江
+	405 = { set_variable = { prefecture = 28 } } #乐山
+	407 = { set_variable = { prefecture = 28 } } #宁远/凉山
+
+	469 = { set_variable = { prefecture = 28 } } #康安/甘孜州
+	#重庆(29)
+	#陕西
+	377 = { set_variable = { prefecture = 30 } } #榆林
+	378 = { set_variable = { prefecture = 30 } } #延安
+	379 = { set_variable = { prefecture = 30 } } #铜州(渭南+铜川)
+	380 = { set_variable = { prefecture = 30 } } #商州/商洛
+	381 = { set_variable = { prefecture = 30 } } #安康
+	383 = { set_variable = { prefecture = 30 } } #咸阳
+	384 = { set_variable = { prefecture = 30 } } #汉中
+	385 = { set_variable = { prefecture = 30 } } #凤翔/宝鸡
+	#山西
+	77 = { set_variable = { prefecture = 31 } } #大同
+	80 = { set_variable = { prefecture = 31 } } #朔州
+	86 = { set_variable = { prefecture = 31 } } #忻州
+	93 = { set_variable = { prefecture = 31 } } #阳泉
+	98 = { set_variable = { prefecture = 31 } } #吕梁
+	103 = { set_variable = { prefecture = 31 } } #太原
+	108 = { set_variable = { prefecture = 31 } } #晋中
+	124 = { set_variable = { prefecture = 31 } } #长治
+	130 = { set_variable = { prefecture = 31 } } #临汾
+	141 = { set_variable = { prefecture = 31 } } #晋城
+	147 = { set_variable = { prefecture = 31 } } #运城
+	#贵州
+	158 = { set_variable = { prefecture = 32 } } #威宁
+	278 = { set_variable = { prefecture = 32 } } #遵义
+	281 = { set_variable = { prefecture = 32 } } #铜仁
+	302 = { set_variable = { prefecture = 32 } } #毕节
+	305 = { set_variable = { prefecture = 32 } } #镇远
+	307 = { set_variable = { prefecture = 32 } } #都匀
+	309 = { set_variable = { prefecture = 32 } } #贵阳
+	315 = { set_variable = { prefecture = 32 } } #盘州
+	318 = { set_variable = { prefecture = 32 } } #安顺
+	323 = { set_variable = { prefecture = 32 } } #兴义
+	410 = { set_variable = { prefecture = 32 } } #晃州/新晃
+	#云南
+	119 = { set_variable = { prefecture = 33 } } #泰处
+
+	277 = { set_variable = { prefecture = 33 } } #迪庆
+	284 = { set_variable = { prefecture = 33 } } #昭通
+	293 = { set_variable = { prefecture = 33 } } #怒江
+	301 = { set_variable = { prefecture = 33 } } #丽江
+	312 = { set_variable = { prefecture = 33 } } #曲靖
+	316 = { set_variable = { prefecture = 33 } } #大理
+	319 = { set_variable = { prefecture = 33 } } #楚雄
+	321 = { set_variable = { prefecture = 33 } } #昆明
+	327 = { set_variable = { prefecture = 33 } } #保山
+	331 = { set_variable = { prefecture = 33 } } #德宏
+	338 = { set_variable = { prefecture = 33 } } #临沧
+	339 = { set_variable = { prefecture = 33 } } #玉溪
+	342 = { set_variable = { prefecture = 33 } } #普洱
+	344 = { set_variable = { prefecture = 33 } } #红河
+	345 = { set_variable = { prefecture = 33 } } #文山
+	374 = { set_variable = { prefecture = 33 } } #西双版纳
+	504 = { set_variable = { prefecture = 33 } } #孟拱/江心坡
+	557 = { set_variable = { prefecture = 33 } } #野人山
+	571 = { set_variable = { prefecture = 33 } } #澜沧
+	638 = { set_variable = { prefecture = 33 } } #澜沧
+	#甘肃
+	55 = { set_variable = { prefecture = 34 } } #酒泉
+	85 = { set_variable = { prefecture = 34 } } #张掖
+	90 = { set_variable = { prefecture = 34 } } #武威
+	94 = { set_variable = { prefecture = 34 } } #金昌
+	113 = { set_variable = { prefecture = 34 } } #白银
+	121 = { set_variable = { prefecture = 34 } } #庆阳
+	128 = { set_variable = { prefecture = 34 } } #兰州
+	131 = { set_variable = { prefecture = 34 } } #固原
+	139 = { set_variable = { prefecture = 34 } } #临夏
+	140 = { set_variable = { prefecture = 34 } } #定西
+	148 = { set_variable = { prefecture = 34 } } #平凉
+	153 = { set_variable = { prefecture = 34 } } #拉卜楞
+	154 = { set_variable = { prefecture = 34 } } #甘南
+	159 = { set_variable = { prefecture = 34 } } #天水
+	172 = { set_variable = { prefecture = 34 } } #陇南
+	#宁夏
+	56 = { set_variable = { prefecture = 35 } } #阿拉善
+	96 = { set_variable = { prefecture = 35 } } #银川
+	106 = { set_variable = { prefecture = 35 } } #吴忠
+	111 = { set_variable = { prefecture = 35 } } #中卫
+	#绥远
+	49 = { set_variable = { prefecture = 36 } } #乌兰察布
+	57 = { set_variable = { prefecture = 36 } } #包头
+	61 = { set_variable = { prefecture = 36 } } #五原/巴彦淖尔
+	71 = { set_variable = { prefecture = 36 } } #归绥/呼和浩特
+	76 = { set_variable = { prefecture = 36 } } #伊克昭/鄂尔多斯
+	511 = { set_variable = { prefecture = 36 } } #东胜/托克托
+	#青海
+	91 = { set_variable = { prefecture = 40 } } #海西
+	92 = { set_variable = { prefecture = 40 } } #海北
+	116 = { set_variable = { prefecture = 40 } } #西宁
+	119 = { set_variable = { prefecture = 40 } } #海南
+	123 = { set_variable = { prefecture = 40 } } #海东
+	135 = { set_variable = { prefecture = 40 } } #玉树
+	138 = { set_variable = { prefecture = 40 } } #黄南
+	151 = { set_variable = { prefecture = 40 } } #果洛
+	#西国
+	169 = { set_variable = { prefecture = 37 } } #对马岛
+	187 = { set_variable = { prefecture = 37 } } #福冈
+	540 = { set_variable = { prefecture = 37 } } #鹿儿岛
+	592 = { set_variable = { prefecture = 37 } } #长崎
+	593 = { set_variable = { prefecture = 37 } } #熊本
+	601 = { set_variable = { prefecture = 37 } } #大分
+	602 = { set_variable = { prefecture = 37 } } #宫崎
+	152 = { set_variable = { prefecture = 37 } } #山口
+	606 = { set_variable = { prefecture = 37 } } #广岛
+	607 = { set_variable = { prefecture = 37 } } #冈山
+	594 = { set_variable = { prefecture = 37 } } #岛根
+	608 = { set_variable = { prefecture = 37 } } #鸟取
+	180 = { set_variable = { prefecture = 37 } } #德岛
+	603 = { set_variable = { prefecture = 37 } } #香川
+	604 = { set_variable = { prefecture = 37 } } #爱媛
+	605 = { set_variable = { prefecture = 37 } } #高知
+	653 = { set_variable = { prefecture = 37 } } #高知
+	#近畿
+	149 = { set_variable = { prefecture = 38 } } #兵库
+	597 = { set_variable = { prefecture = 38 } } #丹波
+	598 = { set_variable = { prefecture = 38 } } #和歌山
+	609 = { set_variable = { prefecture = 38 } } #奈良
+	610 = { set_variable = { prefecture = 38 } } #滋贺
+	#东国
+	599 = { set_variable = { prefecture = 39 } } #长野
+	612 = { set_variable = { prefecture = 39 } } #岐阜
+	614 = { set_variable = { prefecture = 39 } } #山梨
+	100 = { set_variable = { prefecture = 39 } } #爱知
+	611 = { set_variable = { prefecture = 39 } } #三重
+	613 = { set_variable = { prefecture = 39 } } #静冈
+	541 = { set_variable = { prefecture = 39 } } #石川
+	615 = { set_variable = { prefecture = 39 } } #福井
+	616 = { set_variable = { prefecture = 39 } } #富山
+	617 = { set_variable = { prefecture = 39 } } #新潟
+	120 = { set_variable = { prefecture = 39 } } #相模/神奈川
+	600 = { set_variable = { prefecture = 39 } } #江户/东京都
+	618 = { set_variable = { prefecture = 39 } } #千叶
+	619 = { set_variable = { prefecture = 39 } } #埼玉
+	620 = { set_variable = { prefecture = 39 } } #茨城
+	621 = { set_variable = { prefecture = 39 } } #栃木
+	622 = { set_variable = { prefecture = 39 } } #群马
+	68 = { set_variable = { prefecture = 39 } } #福岛
+	623 = { set_variable = { prefecture = 39 } } #山形
+	624 = { set_variable = { prefecture = 39 } } #宫城
+	542 = { set_variable = { prefecture = 39 } } #岩手
+	625 = { set_variable = { prefecture = 39 } } #青森
+	626 = { set_variable = { prefecture = 39 } } #秋田
+	#桦太
+	6 = { set_variable = { prefecture = 41 } } #南桦太
+	633 = { set_variable = { prefecture = 41 } } #中桦太
+	634 = { set_variable = { prefecture = 41 } } #北桦太
+
+	28 = { set_variable = { prefecture = 41 } } #千岛
+	33 = { set_variable = { prefecture = 41 } } #札幌
+	543 = { set_variable = { prefecture = 41 } } #函馆
+	544 = { set_variable = { prefecture = 41 } } #石狩
+	545 = { set_variable = { prefecture = 41 } } #虾夷
+	546 = { set_variable = { prefecture = 41 } } #根室
+	#安东
+	41 = { set_variable = { prefecture = 42 } } #间岛道
+	52 = { set_variable = { prefecture = 42 } } #平壤
+	54 = { set_variable = { prefecture = 42 } } #白山
+	449 = { set_variable = { prefecture = 42 } } #咸镜北道
+	450 = { set_variable = { prefecture = 42 } } #咸镜南道
+	451 = { set_variable = { prefecture = 42 } } #罗津
+	454 = { set_variable = { prefecture = 42 } } #平安北道
+	455 = { set_variable = { prefecture = 42 } } #平安南道
+	457 = { set_variable = { prefecture = 42 } } #黄海道
+	458 = { set_variable = { prefecture = 42 } } #元山
+	459 = { set_variable = { prefecture = 42 } } #镇南浦
+	460 = { set_variable = { prefecture = 42 } } #开城
+	637 = { set_variable = { prefecture = 42 } } #新义州
+	#鸡林
+	99 = { set_variable = { prefecture = 43 } } #京城
+	193 = { set_variable = { prefecture = 43 } } #济州
+	453 = { set_variable = { prefecture = 43 } } #仁川
+	461 = { set_variable = { prefecture = 43 } } #江原道
+	462 = { set_variable = { prefecture = 43 } } #忠清北道
+	463 = { set_variable = { prefecture = 43 } } #忠清南道
+	464 = { set_variable = { prefecture = 43 } } #全罗北道
+	465 = { set_variable = { prefecture = 43 } } #全罗南道
+	466 = { set_variable = { prefecture = 43 } } #庆尚北道
+	467 = { set_variable = { prefecture = 43 } } #庆尚南道
+	#台湾
+	332 = { set_variable = { prefecture = 44 } } #台北
+	336 = { set_variable = { prefecture = 44 } } #新竹
+	346 = { set_variable = { prefecture = 44 } } #台中
+	350 = { set_variable = { prefecture = 44 } } #花莲
+	356 = { set_variable = { prefecture = 44 } } #台南
+	359 = { set_variable = { prefecture = 44 } } #高雄
+	360 = { set_variable = { prefecture = 44 } } #台东
+	518 = { set_variable = { prefecture = 44 } } #宜兰
+	519 = { set_variable = { prefecture = 44 } } #淡水
+	520 = { set_variable = { prefecture = 44 } } #桃园
+	521 = { set_variable = { prefecture = 44 } } #苗栗
+	522 = { set_variable = { prefecture = 44 } } #南投
+	523 = { set_variable = { prefecture = 44 } } #彰化
+	524 = { set_variable = { prefecture = 44 } } #嘉义
+	525 = { set_variable = { prefecture = 44 } } #云林
+	526 = { set_variable = { prefecture = 44 } } #屏东
+	537 = { set_variable = { prefecture = 44 } } #澎湖
+	555 = { set_variable = { prefecture = 44 } } #蕃界
+	#琉球
+	289 = { set_variable = { prefecture = 45 } } #琉球
+	547 = { set_variable = { prefecture = 45 } } #奄美
+	548 = { set_variable = { prefecture = 45 } } #宫古
+	549 = { set_variable = { prefecture = 45 } } #八重山
+	#南洋厅
+	387 = { set_variable = { prefecture = 46 } } #北马里亚纳
+	390 = { set_variable = { prefecture = 46 } } #关岛
+	#察哈尔
+	23 = { set_variable = { prefecture = 47 } } #锡林郭勒
+	63 = { set_variable = { prefecture = 47 } } #张家口
+	510 = { set_variable = { prefecture = 47 } } #张北
+}

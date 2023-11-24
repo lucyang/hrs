@@ -119,7 +119,7 @@ KOR_CV_HISTORICAL = {
 	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
 
 	type = ship
-	ship_types = { ship_hull_carrier carrier }
+	ship_types = { carrier }
 	
 	fallback_name = "Hanggongmoham %d -go"	
 
@@ -135,7 +135,7 @@ KOR_CVL_HISTORICAL = {
 	for_countries = { ROK EOK KIA PCK KPA PRK CSK KOY GJW GMH SLA }
 
 	type = ship
-	ship_types = { ship_hull_carrier carrier }
+	ship_types = { carrier }
 	
 	fallback_name = "Hanggongmoham %d -go"	
 

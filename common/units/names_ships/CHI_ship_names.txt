@@ -90,7 +90,7 @@ CHI_CV_HISTORICAL = {
 	for_countries = { CHI SCH CHQ SHX SHD QND KMT YUN GZH GNA PRC MAO HLF }
 
 	type = ship
-	ship_types = { ship_hull_carrier carrier }
+	ship_types = { carrier }
 	
 	fallback_name = "%d Hangmu"	
 

@@ -66,7 +66,7 @@ units = {
 		location = 1531 #类乌齐
 		division_template = "炮兵玛噶"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "IMC" } }
-		force_equipment_variants = { artillery_equipment_0 = { owner = "IMC" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "IMC" } }
 		start_experience_factor = 0.2
 	}
 	division = {

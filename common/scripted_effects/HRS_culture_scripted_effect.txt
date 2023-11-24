@@ -391,7 +391,6 @@ HRS_setup_cultures = {
 	26 = { set_variable = { nationality = 57 } } #三重
 	31 = { set_variable = { nationality = 57 } } #爱知
 	33 = { set_variable = { nationality = 57 } } #静冈
-	599 = { set_variable = { nationality = 57 } } #长野
 	# Kanto
 	38 = { set_variable = { nationality = 58 } } #神奈川
 	39 = { set_variable = { nationality = 58 } } #千叶
@@ -480,7 +479,7 @@ HRS_setup_cultures = {
 	# Khakas
 	553 = { set_variable = { nationality = 72 } } #哈卡斯
 	# Oros(Russian Manchurian)
-	599 = { set_variable = { nationality = 73 } } #哈尔滨道里区
+	499 = { set_variable = { nationality = 73 } } #哈尔滨道里区
 	# Manchu
 	483 = { set_variable = { nationality = 74 } } #牡丹江
 	484 = { set_variable = { nationality = 74 } } #滨江
@@ -681,9 +680,9 @@ HRS_setup_cultures = {
 	401 = { set_variable = { nationality = 137 } } #斯里兰卡
 	# Tamil(138)
 	# Nanyoh/South Sea
-	509 = { set_variable = { nationality = 139 } } #帛琉"
+	509 = { set_variable = { nationality = 139 } } #帛琉
 	511 = { set_variable = { nationality = 139 } } #彩帆/北马里亚纳群岛
-	512 = { set_variable = { nationality = 139 } } #雅浦"
+	512 = { set_variable = { nationality = 139 } } #雅浦
 	# Chamorro
 	510 = { set_variable = { nationality = 140 } } #大宫/关岛
 	# Lahu
@@ -694,19 +693,22 @@ HRS_setup_cultures = {
 	# Isan(143)
 	
 	# Sino-Tai(144)
-	384 = { set_variable = { nationality = 144 } } #曼谷
+	
 	# Pak Tai/Southern Tai(145)
 
 	# Xiangxi
-	282 = { set_variable = { nationality = 146 } } #洪江
+	372 = { set_variable = { nationality = 146 } } #沅州
+	375 = { set_variable = { nationality = 146 } } #辰州
+	376 = { set_variable = { nationality = 146 } } #永顺
+	410 = { set_variable = { nationality = 146 } } #晃州
 	# Chinese Wuxi(147) for Xiangxi Unification
 	# Xong Wuxi(148) for Xiangxi Unification
 	# Taishanese/Sze Yup
 	181 = { set_variable = { nationality = 149 } } #新会/江门
 	# Shaoguanese
 	193 = { set_variable = { nationality = 150 } } #韶州/韶关
-	# Pamir
+	# Pamir(151)
 
-	# Golok/Ngolok
-	# 461 = { set_variable = { nationality = 152 } } #果洛
+	# Golok/Ngolok(152)
+	
 }

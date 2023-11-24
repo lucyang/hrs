@@ -103,7 +103,7 @@ units = {
 		location = 527 # Haixenwai
 		division_template = "炮兵联队"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "IMC" } }
-		force_equipment_variants = { artillery_equipment = { owner = "IMC" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "IMC" } }
 		start_experience_factor = 0.3
 	}
 	## 27th Infantry Brigade ##

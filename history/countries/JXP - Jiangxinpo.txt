@@ -1,4 +1,4 @@
-﻿capital = 504 # Jiangxinpo
+﻿capital = 96 # Jiangxinpo
 
 recruit_character = JXP_amakasu_masahiko
 

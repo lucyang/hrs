@@ -1,0 +1,20 @@
+
+state={
+	id=111
+	name="STATE_111"
+	provinces={
+		94 430 3669 3682 6051 6396 6494 6514 6597 6637 6682 7239 7473 8134 9465 9591 14432 14435 14463 14468 14508 14518 14553 14570 14581 14586 14591 14605 15110 15111 15112 
+	}
+	history={
+		owner = PHI
+		add_core_of = PHI
+		victory_points = { 14468 1 } #土格加劳/独鲁万
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=6490000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

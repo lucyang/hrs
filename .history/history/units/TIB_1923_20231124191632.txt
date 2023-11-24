@@ -1,0 +1,100 @@
+﻿division_template = {
+	name = "玛噶"
+
+	division_names_group = CHI_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "骑兵玛噶"
+
+	division_names_group = CHI_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "炮兵玛噶"
+
+	division_names_group = CHI_INF_01
+
+	regiments = {
+		artillery_brigade = { x = 0 y = 0 }
+	}
+}
+units = {
+	division = {
+		name = "第1团“噶当”"
+		location = 758 #拉萨
+		division_template = "骑兵玛噶"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "IMC" } }
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "第2团“卡当”"
+		location = 1480 #拉萨
+		division_template = "玛噶"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "IMC" } }
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "第3团“喀当”"
+		location = 591 #生达乡
+		division_template = "玛噶"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "IMC" } }
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "第4团“咬当”"
+		location = 1942 #丁青
+		division_template = "骑兵玛噶"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "IMC" } }
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "第5团“贾当”"
+		location = 3819 #那曲
+		division_template = "骑兵玛噶"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "IMC" } }
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "第6团“恰当”"
+		location = 1531 #类乌齐
+		division_template = "炮兵玛噶"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "IMC" } }
+		force_equipment_variants = { artillery_equipment_1 = { owner = "IMC" } }
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "第7团“甲当”"
+		location = 2383 #类乌齐
+		division_template = "骑兵玛噶"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "IMC" } }
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "第8团“惹当”"
+		location = 3845 #察雅
+		division_template = "骑兵玛噶"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "IMC" } }
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "第9团“打当”"
+		location = 1994 #芒康
+		division_template = "骑兵玛噶"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "IMC" } }
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "第10团“地当”"
+		location = 3796 #江达
+		division_template = "骑兵玛噶"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "IMC" } }
+		start_experience_factor = 0.2
+	}
+}

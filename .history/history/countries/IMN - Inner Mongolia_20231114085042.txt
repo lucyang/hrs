@@ -1,0 +1,58 @@
+﻿capital = 260 #乌兰察布
+
+recruit_character = IMN_serendongrub #色楞栋鲁布/白云梯
+
+#oob = "empty"
+set_country_flag = is_china_nation
+set_country_flag = is_mongolia_nation
+
+set_technology = {
+	infantry_weapons = 1
+	support_weapons = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	basic_train = 1
+	gw_artillery = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	fuel_refining = 1
+}
+
+set_research_slots = 2
+set_convoys = 10
+set_stability = 0.60
+set_war_support = 0.60
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1922.9.14"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 22
+	anarchism = 26
+	socialism = 12
+	democratic = 30
+	neutrality = 10
+	monarchism = 0
+	fascism = 0
+	imperialism = 0
+	futurism = 0
+}
+
+add_ideas = {
+	closed_economy
+	extensive_conscription
+	war_economy
+}
+
+add_ideas = {
+	country_development2
+	country_tech2
+	market_economy2
+	unitary_state
+}

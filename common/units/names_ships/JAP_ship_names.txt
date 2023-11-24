@@ -184,7 +184,7 @@ JAP_CV_HISTORICAL = {
 	for_countries = { KYU CHB JLF JAF JPR AIN EZO THK TOK OMT }
 
 	type = ship
-	ship_types = { ship_hull_carrier carrier }
+	ship_types = { carrier }
 	
 	fallback_name = "Seikikubo %d -go"	
 
@@ -201,7 +201,7 @@ JAP_CVL_HISTORICAL = {
 	for_countries = { KYU CHB JLF JAF JPR AIN EZO THK TOK OMT }
 
 	type = ship
-	ship_types = { ship_hull_carrier carrier }
+	ship_types = { carrier }
 	
 	fallback_name = "Keikubo %d -go"	
 
