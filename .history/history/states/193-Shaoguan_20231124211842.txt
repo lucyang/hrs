@@ -1,0 +1,23 @@
+state={
+	id=193
+	name="STATE_193"
+	provinces={
+		2131 5927 6200 6625 6711 9514 9843 13671 13713 13722 13751 13810 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = HAK
+		 	add_core_of = HAK
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=946405
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

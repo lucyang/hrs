@@ -1,0 +1,28 @@
+state={
+	id=185
+	name="STATE_185"
+	provinces={
+		197 3951 13894 13916 13969 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		victory_points = { 3951 30 } #広州
+		victory_points = { 13969 5 } #番禺
+		1924.1.1 = {
+			owner = GND
+			add_core_of = GND
+			remove_core_of = IMC
+			set_demilitarized_zone = yes
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 5
+			arms_factory = 1
+		}
+	}
+	manpower=1598882
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

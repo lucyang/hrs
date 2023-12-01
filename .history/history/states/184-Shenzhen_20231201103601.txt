@@ -1,0 +1,24 @@
+state={
+	id=184
+	name="STATE_184"
+	provinces={
+		13992 14006 15095 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		victory_points = { 13992 10 } #深圳
+		1924.1.1 = {
+			owner = SZH
+		 	add_core_of = SZH
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	manpower=900012
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

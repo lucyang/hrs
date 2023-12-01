@@ -7,6 +7,7 @@ state={
 	history={
 		owner = IMC
 		add_core_of = IMC
+		victory_points = { 13963 5 } #恵州
 		1924.1.1 = {
 			owner = HAK
 		 	add_core_of = HAK

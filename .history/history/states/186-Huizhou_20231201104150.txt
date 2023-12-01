@@ -1,0 +1,24 @@
+state={
+	id=186
+	name="STATE_186"
+	provinces={
+		1241 5329 9987 10135 13937 13963 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		victory_points = { 13963 5 } #広州
+		1924.1.1 = {
+			owner = HAK
+		 	add_core_of = HAK
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=1185494
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}
