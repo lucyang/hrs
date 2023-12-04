@@ -1,0 +1,69 @@
+﻿l_simp_chinese:
+ ###############
+ ## COUNTRIES ##
+ ###############
+ SHB_communism:0 "鄂南工农临时政府"
+ SHB_communism_DEF:0 "鄂南工农临时政府"
+ SHB_anarchism:0 "鄂南工农临时政府"
+ SHB_anarchism_DEF:0 "鄂南工农临时政府"
+ SHB_socialism:0 "鄂南工农临时政府"
+ SHB_socialism_DEF:0 "鄂南工农临时政府"
+ SHB_democratic:0 "鄂南工农临时政府"
+ SHB_democratic_DEF:0 "鄂南工农临时政府"
+ SHB_neutrality:0 "鄂南工农临时政府"
+ SHB_neutrality_DEF:0 "鄂南工农临时政府"
+ SHB_monarchism:0 "鄂南工农临时政府"
+ SHB_monarchism_DEF:0 "鄂南工农临时政府"
+ SHB_fascism:0 "鄂南工农临时政府"
+ SHB_fascism_DEF:0 "鄂南工农临时政府"
+ SHB_imperialism:0 "鄂南工农临时政府"
+ SHB_imperialism_DEF:0 "鄂南工农临时政府"
+ SHB_futurism:0 "鄂南工农临时政府"
+ SHB_futurism_DEF:0 "鄂南工农临时政府"
+ SHB_communism_ADJ:0 "鄂南"
+ SHB_anarchism_ADJ:0 "鄂南"
+ SHB_democratic_ADJ:0 "鄂南"
+ SHB_neutrality_ADJ:0 "鄂南"
+ SHB_monarchism_ADJ:0 "鄂南"
+ SHB_fascism_ADJ:0 "鄂南"
+ SHB_imperialism_ADJ:0 "鄂南"
+ SHB_futurism_ADJ:0 "鄂南"
+ SHB:0 "鄂南"
+ SHB_DEF:0 "鄂南"
+ SHB_ADJ:0 "鄂南"
+ #############
+ ## PARTIES ##
+ #############
+ SHB_communism_party:0 "青年军人联合会"
+ SHB_communism_party_long:0 "中国青年军人联合会"
+ SHB_anarchism_party:0 "社民农工党"
+ SHB_anarchism_party_long:0 "中国社会民主农工党"
+ SHB_socialism_party:0 "中国民主社会党"
+ SHB_socialism_party_long:0 "中国民主社会党"
+ SHB_democratic_party:0 "中国自由党"
+ SHB_democratic_party_long:0 "中国自由党"
+ SHB_neutrality_party:0 "中国统一党"
+ SHB_neutrality_party_long:0 "中国统一党"
+ SHB_monarchism_party:0 "皇汉会"
+ SHB_monarchism_party_long:0 "皇汉会"
+ SHB_fascism_party:0 "中国青年党"
+ SHB_fascism_party_long:0 "中国青年党"
+ SHB_imperialism_party:0 "战国策派"
+ SHB_imperialism_party_long:0 "战国策派"
+ SHB_futurism_party:0 "大江会"
+ SHB_futurism_party_long:0 "大江会"
+ ##################
+ ## COSMETIC TAG ##
+ ##################
+
+ ################
+ ## CHARACTERS ##
+ ################
+ SHB_luo_yinong:0 "罗亦农"
+ ###########
+ ## IDEAS ##
+ ###########
+ 
+ ############
+ ## EVENTS ##
+ ############

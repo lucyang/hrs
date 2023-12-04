@@ -1,0 +1,24 @@
+state={
+	id=29
+	name="STATE_29"
+	provinces={
+		775 6917 12429 
+	}
+	history = {
+		owner = IMJ
+		add_core_of = IMJ
+		victory_points = { 775 1 } #福井
+		1924.1.1 = {
+			owner = KKG
+			add_core_of = KKG
+			remove_core_of = IMJ
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=599155
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}
