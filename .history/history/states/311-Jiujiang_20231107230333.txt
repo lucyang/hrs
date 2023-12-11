@@ -1,0 +1,23 @@
+state={
+	id=311
+	name="STATE_311"
+	provinces={
+		1341 3317 6181 8804 9453 13092 13117 13135 13173 13194 13210 13230 13233 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = JIJ
+		 	add_core_of = JIJ
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

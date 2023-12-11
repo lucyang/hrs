@@ -1,0 +1,23 @@
+state={
+	id=258
+	name="STATE_258"
+	provinces={
+		265 1309 4424 4873 5250 6942 7676 8919 8984 11708 11710 11738 11740 11774 11782 11793 11806 11822 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = MEN
+		 	add_core_of = MEN
+			remove_core_of = IMC
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

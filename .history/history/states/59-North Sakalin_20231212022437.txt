@@ -1,0 +1,26 @@
+state={
+	id=59
+	name="STATE_59"
+	provinces={
+		111 171 1224 1235 1327 1494 2575 2801 2974 3551 4016 4316 4730 4797 6812 6993 7238 7280 7655 7662 8482 9253 9492 9633 9635 9908 10490 10557 10599 10640 10671 10686 10688 10703 10710 10711 10728 10790 15037 15038
+	}
+	history = {
+		owner = IMC
+		add_core_of = IMC
+		1924.1.1 = {
+			owner = SKL
+			add_core_of = SKL
+			remove_core_of = IMJ
+		}
+		victory_points = { 2801 3 } #縫江(诺格利基)
+		victory_points = { 10557 1 } #奥端(奥哈)
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	}
+	manpower=46000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

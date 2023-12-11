@@ -1,0 +1,18 @@
+state={
+	id=285
+	name="STATE_285"
+	provinces={
+		1659 4660 4983 6326 9326 9628 12827 12855 12898 12900 12931 12962 12982 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

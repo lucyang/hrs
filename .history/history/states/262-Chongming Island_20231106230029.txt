@@ -1,0 +1,18 @@
+state={
+	id=262
+	name="STATE_262"
+	provinces={
+		12918 15076 
+	}
+	history={
+		owner = IMC
+		add_core_of = IMC
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=0.000
+}

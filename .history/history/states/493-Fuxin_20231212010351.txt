@@ -1,0 +1,18 @@
+state={
+	id=493
+	name="STATE_493"
+	provinces={
+		776 4887 7607 7780 9434 11667 11681 11687 11714 11736 
+	}
+	history={
+		owner = MAN
+		add_core_of = MAN
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=188572
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

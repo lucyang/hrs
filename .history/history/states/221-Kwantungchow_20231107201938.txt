@@ -1,0 +1,28 @@
+state={
+	id=221
+	name="STATE_221"
+	provinces={
+		6248 12041 9160 15049 
+	}
+	history={
+		owner = LNG
+		add_core_of = LNG
+		victory_points = { 9160 10 } #旅顺
+		victory_points = { 15049 5 } #大连
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			dockyard = 2
+			9160 = {
+				naval_base = 6
+			}
+			15049 = {
+				naval_base = 4
+			}
+		}
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

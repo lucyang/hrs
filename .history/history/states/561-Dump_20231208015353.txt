@@ -1,0 +1,18 @@
+state={
+	id=561
+	name="STATE_561"
+	provinces={
+		5558 6647 15045
+	}
+	history={
+		owner = ZZZ
+		add_core_of = ZZ
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower=2075967
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
